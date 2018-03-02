@@ -4,41 +4,41 @@
 # Classes
 ## Warhorse
 
-Lua Global Name | C++ Class 
---- | ---
-Actor | wh::entitymodule::C_ScriptBindActor
-Alchemy | wh::playermodule::C_ScriptBind_Alchemy
-Backgammon | wh::playermodule::C_ScriptBindBackgammon
-Boids | wh::entitymodule::boids::C_ScriptBindBoids
-Calendar | wh::rpgmodule::C_ScriptBindCalendar
-Database | wh::databasemodule::C_ScriptBindDatabase
-DialogModule | wh::dialogmodule::C_ScriptBindDialog
-Dice | wh::playermodule::C_ScriptBind_Dice
-EntityModule | wh::entitymodule::C_ScriptBindEntityModule
-Environment | wh::environmentmodule::C_ScriptBindEnvironment
-Framework | wh::framework::C_ScriptBindFramework
-Game | wh::game::CScriptBindGame
-GameRules | wh::entitymodule::C_ScriptBindGameRules
-Horse | wh::entitymodule::C_ScriptBindHorse
-Human | wh::entitymodule::C_ScriptBindHuman
-InteractiveObject | wh::entitymodule::C_ScriptBindInteractiveObject
-Inventory | wh::entitymodule::C_ScriptBindInventory
-ItemManager | wh::entitymodule::C_ScriptBindItemManager
-Minigame | wh::playermodule::C_ScriptBindMinigame
-PickableItem | wh::entitymodule::C_ScriptBindPickableItem
-Player | wh::entitymodule::C_ScriptBindPlayer
-QuestSystem | wh::questmodule::C_ScriptBindQuest
-RPG | wh::rpgmodule::C_ScriptBindRPGModule
-Sharpening | wh::playermodule::C_ScriptBind_Sharpening
-Shops | wh::shopmodule::C_ScriptBindShop
-SmartObject | wh::xgenaimodule::C_ScriptBindSmartObject
-Soul | wh::rpgmodule::C_ScriptBindSoul
-Statistics | wh::rpgmodule::C_ScriptBindStatistics
-Trace | wh::framework::C_ScriptBindTrace
-Tutorial | wh::playermodule::C_ScriptBindTutorial
-UIMap | wh::guimodule::C_ScriptBindMap
-Variables | wh::framework::C_ScriptBindVariables
-XGenAIModule | wh::xgenaimodule::C_ScriptBindXGenAIModule
+Lua Global Name | C++ Class | Function Reference
+--- | --- | ---
+Actor | wh::entitymodule::C_ScriptBindActor | [Function Reference](kingdomcome/classes/actor)
+Alchemy | wh::playermodule::C_ScriptBind_Alchemy | [Function Reference](kingdomcome/classes/alchemy)
+Backgammon | wh::playermodule::C_ScriptBindBackgammon | [Function Reference](kingdomcome/classes/backgammon)
+Boids | wh::entitymodule::boids::C_ScriptBindBoids | [Function Reference](kingdomcome/classes/boids)
+Calendar | wh::rpgmodule::C_ScriptBindCalendar | [Function Reference](kingdomcome/classes/calendar)
+Database | wh::databasemodule::C_ScriptBindDatabase | [Function Reference](kingdomcome/classes/database)
+DialogModule | wh::dialogmodule::C_ScriptBindDialog | [Function Reference](kingdomcome/classes/dialog)
+Dice | wh::playermodule::C_ScriptBind_Dice | [Function Reference](kingdomcome/classes/dice)
+EntityModule | wh::entitymodule::C_ScriptBindEntityModule | [Function Reference](kingdomcome/classes/entitymodule)
+Environment | wh::environmentmodule::C_ScriptBindEnvironment | [Function Reference](kingdomcome/classes/environment)
+Framework | wh::framework::C_ScriptBindFramework | [Function Reference](kingdomcome/classes/framework)
+Game | wh::game::CScriptBindGame | [Function Reference](kingdomcome/classes/game)
+GameRules | wh::entitymodule::C_ScriptBindGameRules | [Function Reference](kingdomcome/classes/gamerules)
+Horse | wh::entitymodule::C_ScriptBindHorse | [Function Reference](kingdomcome/classes/horse)
+Human | wh::entitymodule::C_ScriptBindHuman | [Function Reference](kingdomcome/classes/human)
+InteractiveObject | wh::entitymodule::C_ScriptBindInteractiveObject | [Function Reference](kingdomcome/classes/interactiveobject)
+Inventory | wh::entitymodule::C_ScriptBindInventory | [Function Reference](kingdomcome/classes/inventory)
+ItemManager | wh::entitymodule::C_ScriptBindItemManager | [Function Reference](kingdomcome/classes/itemmanager)
+Minigame | wh::playermodule::C_ScriptBindMinigame | [Function Reference](kingdomcome/classes/minigame)
+PickableItem | wh::entitymodule::C_ScriptBindPickableItem | [Function Reference](kingdomcome/classes/pickableitem)
+Player | wh::entitymodule::C_ScriptBindPlayer | [Function Reference](kingdomcome/classes/player)
+QuestSystem | wh::questmodule::C_ScriptBindQuest | [Function Reference](kingdomcome/classes/questsystem)
+RPG | wh::rpgmodule::C_ScriptBindRPGModule | [Function Reference](kingdomcome/classes/minigame)
+Sharpening | wh::playermodule::C_ScriptBind_Sharpening | [Function Reference](kingdomcome/classes/sharpening)
+Shops | wh::shopmodule::C_ScriptBindShop | [Function Reference](kingdomcome/classes/minigame)
+SmartObject | wh::xgenaimodule::C_ScriptBindSmartObject | [Function Reference](kingdomcome/classes/smartobject)
+Soul | wh::rpgmodule::C_ScriptBindSoul | [Function Reference](kingdomcome/classes/soul)
+Statistics | wh::rpgmodule::C_ScriptBindStatistics | [Function Reference](kingdomcome/classes/statistics)
+Trace | wh::framework::C_ScriptBindTrace | [Function Reference](kingdomcome/classes/trace)
+Tutorial | wh::playermodule::C_ScriptBindTutorial | [Function Reference](kingdomcome/classes/tutorial)
+UIMap | wh::guimodule::C_ScriptBindMap | [Function Reference](kingdomcome/classes/uimap)
+Variables | wh::framework::C_ScriptBindVariables | [Function Reference](kingdomcome/classes/variables)
+XGenAIModule | wh::xgenaimodule::C_ScriptBindXGenAIModule | [Function Reference](kingdomcome/classes/xgenaimodule)
 
 ## CryEngine
 
