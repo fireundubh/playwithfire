@@ -5,7 +5,9 @@
 
 ### BookTranscriptionNextPage
 
-#### Syntax
+No description entered.
+
+#### **Syntax**
 
 `Minigame.BookTranscriptionNextPage()`
 
@@ -15,6 +17,8 @@
 
 
 ### CloseInventory
+
+No description entered.
 
 #### Syntax
 
@@ -27,6 +31,8 @@
 
 ### GetBookStudyProgress
 
+Returns a number representing the player's reading progress for a book.
+
 #### Syntax
 
 `local studyProgress = Minigame.GetBookStudyProgress(documentGuidStr)`
@@ -37,10 +43,12 @@
 
 #### Return value
 
-A `number` representing the study progress for the specified book
+A `number` representing the reading progress for the specified book
 
 
 ### StartDice
+
+Activates the dice minigame.
 
 #### Syntax
 
