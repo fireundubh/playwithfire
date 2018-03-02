@@ -1,5 +1,4 @@
 <!-- TITLE: Minigame Function Reference -->
-<!-- SUBTITLE: kingdomcome/classes/minigame -->
 
 # Minigame Class
 ## Methods
