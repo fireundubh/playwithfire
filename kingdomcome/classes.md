@@ -1,5 +1,4 @@
-<!-- TITLE: classes -->
-<!-- SUBTITLE: Lua classes for Kingdom Come: Deliverance -->
+<!-- TITLE: Classes -->
 
 # Classes
 ## Warhorse
@@ -24,7 +23,7 @@ Human | wh::entitymodule::C_ScriptBindHuman | [Function Reference](classes/human
 InteractiveObject | wh::entitymodule::C_ScriptBindInteractiveObject | [Function Reference](classes/interactiveobject)
 Inventory | wh::entitymodule::C_ScriptBindInventory | [Function Reference](classes/inventory)
 ItemManager | wh::entitymodule::C_ScriptBindItemManager | [Function Reference](classes/itemmanager)
-Minigame | wh::playermodule::C_ScriptBindMinigame | [Function Reference](classes/minigame)
+Minigame | wh::playermodule::C_ScriptBindMinigame | [Function Reference](classes/minigame) (completed)
 PickableItem | wh::entitymodule::C_ScriptBindPickableItem | [Function Reference](classes/pickableitem)
 Player | wh::entitymodule::C_ScriptBindPlayer | [Function Reference](classes/player)
 QuestSystem | wh::questmodule::C_ScriptBindQuest | [Function Reference](classes/questsystem)
