@@ -47,7 +47,7 @@ Lua Global Name | C++ Class
 Action | CScriptableBase::CScriptBind_Action
 ActionMapManager | CScriptableBase::CScriptBind_ActionMapManager
 ActorSystem | CScriptableBase::CScriptBind_ActorSystem
-AI | Actor | CScriptableBase::CScriptBind_AI
+AI | CScriptableBase::CScriptBind_AI
 Boids | CScriptableBase::CScriptBind_Boids
 DialogSystem | CScriptableBase::CScriptBind_DialogSystem
 Entity | CScriptableBase::CScriptBind_Entity
