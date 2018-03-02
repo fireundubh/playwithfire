@@ -11,7 +11,7 @@ No description entered.
 
 `Minigame.BookTranscriptionNextPage()`
 
-#### Return value
+#### **Return value**
 
 `nil`
 
@@ -20,11 +20,11 @@ No description entered.
 
 No description entered.
 
-#### Syntax
+#### **Syntax**
 
 `Minigame.CloseInventory()`
 
-#### Return value
+#### **Return value**
 
 `nil`
 
@@ -33,15 +33,15 @@ No description entered.
 
 Returns a number representing the player's reading progress for a book.
 
-#### Syntax
+#### **Syntax**
 
 `local studyProgress = Minigame.GetBookStudyProgress(documentGuidStr)`
 
-#### Parameters
+#### **Parameters**
 
 * `documentGuidStr`: A string reference to the book UUID
 
-#### Return value
+#### **Return value**
 
 A `number` representing the reading progress for the specified book
 
@@ -50,17 +50,17 @@ A `number` representing the reading progress for the specified book
 
 Activates the dice minigame.
 
-#### Syntax
+#### **Syntax**
 
 `Minigame.StartDice(tableId, playerId, opponentId)`
 
-#### Parameters
+#### **Parameters**
 
 * `tableId`: A string reference to the dice table UUID
 * `playerId`: A string reference to the player UUID
 * `opponentId`: A string reference to the opponent UUID
 
-#### Return value
+#### **Return value**
 
 `nil`
 
@@ -69,11 +69,11 @@ Activates the dice minigame.
 
 This function is internal or may not be implemented.
 
-#### Syntax
+#### **Syntax**
 
 `Minigame.StartDiceByName(entityName)`
 
-#### Parameters
+#### **Parameters**
 
 `entityName`: A string reference to the entity name.
 
@@ -86,15 +86,15 @@ This function is internal or may not be implemented.
 
 This function is internal or may not be implemented.
 
-#### Syntax
+#### **Syntax**
 
 `Minigame.StartDiceWithScore(targetScore)`
 
-#### Parameters
+#### **Parameters**
 
 `targetScore`: A number reference to the score required to trigger the win condition.
 
-#### Return value
+#### **Return value**
 
 `nil`
 
@@ -103,15 +103,15 @@ This function is internal or may not be implemented.
 
 Plays the herb gathering animation, collects the targeted herb, and adds additional herbs based on the player's Herbalism skill level.
 
-#### Syntax
+#### **Syntax**
 
 `Minigame.StartHerbGathering(areaId)`
 
-#### Parameters
+#### **Parameters**
 
 `areaId`: A string reference to the UUID of the pickable area.
 
-#### Return value
+#### **Return value**
 
 `nil`
 
@@ -120,15 +120,15 @@ Plays the herb gathering animation, collects the targeted herb, and adds additio
 
 Plays the digging animation and activates the targeted entity.
 
-#### Syntax
+#### **Syntax**
 
 `Minigame.StartHoleDigging(entityId)`
 
-#### Parameters
+#### **Parameters**
 
 `entityId`: A string reference to the UUID of the interactive entity.
 
-#### Return value
+#### **Return value**
 
 `nil`
 
@@ -137,15 +137,15 @@ Plays the digging animation and activates the targeted entity.
 
 Activates the lockpicking minigame.
 
-#### Syntax
+#### **Syntax**
 
 `Minigame.StartLockPicking(entityId)`
 
-#### Parameters
+#### **Parameters**
 
 `entityId`: A string reference to the UUID of the interactive entity.
 
-#### Return value
+#### **Return value**
 
 `nil`
 
@@ -154,11 +154,11 @@ Activates the lockpicking minigame.
 
 Returns `true` if the specified book was opened.
 
-#### Syntax
+#### **Syntax**
 
 `local bookOpened = Minigame.WasBookOpened(documentGuidStr)`
 
-#### Parameters
+#### **Parameters**
 
 `documentGuidStr`: A string reference to the UUID of the specified book.
 
