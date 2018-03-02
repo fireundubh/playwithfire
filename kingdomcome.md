@@ -8,9 +8,11 @@ Welcome to the *Kingdom Come: Deliverance* wiki at **#playwithfire**. This wiki 
 
 ### Documentation
 
-* [Lua Classes](kingdomcome/classes)
-* [Lua Functions](kingdomcome/functions)
-* [Stats and Derived Stats](kingdomcome/stats)
+Section | Description
+--- | ---
+[Lua Classes](kingdomcome/classes) | Lua-exposed C++ classes, both implemented by Warhorse and native to CryEngine
+[Lua Functions](kingdomcome/functions) | Lua-implemented functions in every script
+[Stats and Derived Stats](kingdomcome/stats) | Full and abbreviated stat and derived stat name mappings
 
 ## Tutorials
 
