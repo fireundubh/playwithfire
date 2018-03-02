@@ -45,36 +45,38 @@ XGenAIModule | wh::xgenaimodule::C_ScriptBindXGenAIModule | [Function Reference]
 
 ## CryEngine
 
-Lua Global Name | C++ Class
---- | ---
-Action | CScriptableBase::CScriptBind_Action
-ActionMapManager | CScriptableBase::CScriptBind_ActionMapManager
-ActorSystem | CScriptableBase::CScriptBind_ActorSystem
-AI | CScriptableBase::CScriptBind_AI
-Boids | CScriptableBase::CScriptBind_Boids
-DialogSystem | CScriptableBase::CScriptBind_DialogSystem
-Entity | CScriptableBase::CScriptBind_Entity
-Game | CScriptableBase::CScriptBind_Game
-GameAI | CScriptableBase::CScriptBind_GameAI
-GameAudio | CScriptableBase::CScriptBind_GameAudio
-GameRules | CScriptableBase::CScriptBind_GameRules
-GameStatistics | CScriptableBase::CScriptBind_GameStatistics
-GameToken | CScriptableBase::CScriptBind_GameToken
-HitDeathReactions | CScriptableBase::CScriptBind_HitDeathReactions
-HUD | CScriptableBase::CScriptBind_HUD
-Inventory | CScriptableBase::CScriptBind_Inventory
-Item | CScriptableBase::CScriptBind_Item
-ItemSystem | CScriptableBase::CScriptBind_ItemSystem
-MaterialEffects | CScriptableBase::CScriptBind_MaterialEffects
-Particle | CScriptableBase::CScriptBind_Particle
-Physics | CScriptableBase::CScriptBindPhysics
-ProtectedBinds | CScriptableBase::CScriptBind_ProtectedBinds
-Script | CScriptableBase::CScriptBind_Script
-Sound | CScriptableBase::CScriptBind_Sound
-System | CScriptableBase::CScriptBind_System
-Turret | CScriptableBase::CScriptBind_Turret
-UIAction | CScriptableBase::CScriptBind_UIAction
-Vehicle | CScriptableBase::CScriptBind_Vehicle
-VehicleSeat | CScriptableBase::CScriptBind_VehicleSeat
-VehicleSystem | CScriptableBase::CScriptBind_VehicleSystem
-Weapon | CScriptableBase::CScriptBind_Weapon
+Lua Global Name | C++ Class | Function Reference
+--- | --- | ---
+Action | CScriptableBase::CScriptBind_Action | [Function Reference](classes/action)
+ActionMapManager | CScriptableBase::CScriptBind_ActionMapManager | [Function Reference](classes/actionmapmanager)
+ActorSystem | CScriptableBase::CScriptBind_ActorSystem | [Function Reference](classes/actorsystem)
+AI | CScriptableBase::CScriptBind_AI | [Function Reference](classes/ai)
+Boids | CScriptableBase::CScriptBind_Boids | [Function Reference](classes/boids)
+DialogSystem | CScriptableBase::CScriptBind_DialogSystem | [Function Reference](classes/dialogsystem)
+Entity | CScriptableBase::CScriptBind_Entity | [Function Reference](classes/entity)
+Game | CScriptableBase::CScriptBind_Game | [Function Reference](classes/game)
+GameAI | CScriptableBase::CScriptBind_GameAI | [Function Reference](classes/gameai)
+GameAudio | CScriptableBase::CScriptBind_GameAudio | [Function Reference](classes/gameaudio)
+GameRules | CScriptableBase::CScriptBind_GameRules | [Function Reference](classes/gamerules)
+GameStatistics | CScriptableBase::CScriptBind_GameStatistics | [Function Reference](classes/gamestatistics)
+GameToken | CScriptableBase::CScriptBind_GameToken | [Function Reference](classes/gametoken)
+HitDeathReactions | CScriptableBase::CScriptBind_HitDeathReactions | [Function Reference](classes/hitdeathreactions)
+HUD | CScriptableBase::CScriptBind_HUD | [Function Reference](classes/hud)
+Inventory | CScriptableBase::CScriptBind_Inventory | [Function Reference](classes/inventory)
+Item | CScriptableBase::CScriptBind_Item | [Function Reference](classes/item)
+ItemSystem | CScriptableBase::CScriptBind_ItemSystem | [Function Reference](classes/itemsystem)
+MaterialEffects | CScriptableBase::CScriptBind_MaterialEffects | [Function Reference](classes/materialeffects)
+Particle | CScriptableBase::CScriptBind_Particle | [Function Reference](classes/particle)
+Physics | CScriptableBase::CScriptBindPhysics | [Function Reference](classes/physics)
+ProtectedBinds | CScriptableBase::CScriptBind_ProtectedBinds | [Function Reference](classes/protectedbinds)
+Script | CScriptableBase::CScriptBind_Script | [Function Reference](classes/script)
+Sound | CScriptableBase::CScriptBind_Sound | [Function Reference](classes/sound)
+System | CScriptableBase::CScriptBind_System | [Function Reference](classes/system)
+Turret | CScriptableBase::CScriptBind_Turret | [Function Reference](classes/turret)
+UIAction | CScriptableBase::CScriptBind_UIAction | [Function Reference](classes/uiaction)
+Vehicle | CScriptableBase::CScriptBind_Vehicle | [Function Reference](classes/vehicle)
+VehicleSeat | CScriptableBase::CScriptBind_VehicleSeat | [Function Reference](classes/vehicleseat)
+VehicleSystem | CScriptableBase::CScriptBind_VehicleSystem | [Function Reference](classes/vehiclesystem)
+Weapon | CScriptableBase::CScriptBind_Weapon | [Function Reference](classes/weapon)
+
+**Note:** The above implementations may differ from the [official CryEngine C++ API Documentation](http://docs.cryengine.com/display/CPPAPI/Home).
