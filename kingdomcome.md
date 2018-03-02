@@ -6,7 +6,7 @@ Welcome to the *Kingdom Come: Deliverance* wiki at **#playwithfire**. This wiki 
 
 ## Patreon
 
-[Support my work as a modder through Patreon!](https://www.patreon.com/fireundubh)
+[Support my mods, modding tools, and modding resources through Patreon!](https://www.patreon.com/fireundubh)
 
 ## Scripting Reference
 
