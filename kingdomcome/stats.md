@@ -5,6 +5,8 @@ This table is incomplete and a work-in-progress.
 
 ## Usage
 
+In `Libs\Tables\rpg\buff.xml`, buffs are defined in rows. Each row has a `params` property that generally defines the effect of the buff. The value of the `params` property consists of an expression, the abbreviated name of a stat followed by an operator and a number value, or a comma-delimited list of such expressions. For example, the Clinch Master perk has a constant buff with a `params` value of `cli+0.4`, which increases the chance that the player will overpower an opponent in a clinch by 40%. Using a different operator, such as `cli*0.4`, would dramatically change the effect.
+
 ```
 <!-- Clinch Master -->
 <row buff_ai_tag_id=""
@@ -29,6 +31,8 @@ This table is incomplete and a work-in-progress.
 ```
 
 ## Data Table
+
+**Note:** The `×` symbol is used in this table to avoid formatting issues. In practice, the correct operator is the asterisk (`*`).
 
 Abbr. | Internal Name | Example | Description
 --- | --- | --- | ---
