@@ -3,6 +3,10 @@
 # Stats and Derived Stats
 This table is incomplete and a work-in-progress.
 
+## Patreon
+
+If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
+
 ## Usage
 
 In `Libs\Tables\rpg\buff.xml`, buffs are defined in rows. Each row has a `params` property that generally defines the effect of the buff. The value of the `params` property consists of an expression, the abbreviated name of a stat followed by an operator and a number value, or a comma-delimited list of such expressions. For example, the Clinch Master perk has a constant buff with a `params` value of `cli+0.4`, which increases the chance that the player will overpower an opponent in a clinch by 40%. Using a different operator, such as `cli*0.4`, would dramatically change the effect.
