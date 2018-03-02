@@ -31,7 +31,7 @@ This table is incomplete and a work-in-progress.
 ## Table
 
 Abbr. | Stat Name | Example | Description
---- | --- | ---
+--- | --- | --- | ---
 aco | DerivStat_ArmorCollisionWeight | aco×6 | Modifies the impact weight of armor when colliding with another entity 
 act |  |  | No description entered
 ade |  |  | No description entered
