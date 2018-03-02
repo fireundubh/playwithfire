@@ -122,7 +122,7 @@ mor | DerivStat_Morale |  | No description entered
 mst | DerivStat_MaxStamina | mst×1.5 | Modifies the maximum amount of the Stamina stat
 mut | DerivStat_Mute |  | No description entered
 nbi | DerivStat_NoiseFromBuffedItems |  | No description entered
-noi | DerivStat_Noise | noi×0.8 | lowers or increases noise of armor
+noi | DerivStat_Noise | noi×0.8 | Modifies the Noise derived stat
 nrs | DerivStat_NormalizedRunSpeed |  | No description entered
 oad | DerivStat_OverallArmorDefense |  | No description entered
 ore | DerivStat_Overreadness |  | No description entered
