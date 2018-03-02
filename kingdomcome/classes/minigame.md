@@ -8,9 +8,7 @@
 
 #### Syntax
 
-```
-Minigame.BookTranscriptionNextPage()
-```
+`Minigame.BookTranscriptionNextPage()`
 
 #### Return value
 
@@ -21,9 +19,7 @@ Minigame.BookTranscriptionNextPage()
 
 #### Syntax
 
-```
-Minigame.CloseInventory()
-```
+`Minigame.CloseInventory()`
 
 #### Return value
 
@@ -34,9 +30,7 @@ Minigame.CloseInventory()
 
 #### Syntax
 
-```
-local studyProgress = Minigame.GetBookStudyProgress(documentGuidStr)
-```
+`local studyProgress = Minigame.GetBookStudyProgress(documentGuidStr)`
 
 #### Parameters
 
@@ -51,9 +45,7 @@ A `number` representing the study progress for the specified book
 
 #### Syntax
 
-```
-Minigame.StartDice(tableId, playerId, opponentId)
-```
+`Minigame.StartDice(tableId, playerId, opponentId)`
 
 #### Parameters
 
@@ -72,9 +64,7 @@ This function is internal or may not be implemented.
 
 #### Syntax
 
-```
-Minigame.StartDiceByName(entityName)
-```
+`Minigame.StartDiceByName(entityName)`
 
 #### Parameters
 
@@ -91,9 +81,7 @@ This function is internal or may not be implemented.
 
 #### Syntax
 
-```
-Minigame.StartDiceWithScore(targetScore)
-```
+`Minigame.StartDiceWithScore(targetScore)`
 
 #### Parameters
 
@@ -110,9 +98,7 @@ Plays the herb gathering animation, collects the targeted herb, and adds additio
 
 #### Syntax
 
-```
-Minigame.StartHerbGathering(areaId)
-```
+`Minigame.StartHerbGathering(areaId)`
 
 #### Parameters
 
@@ -129,9 +115,7 @@ Plays the digging animation and activates the targeted entity.
 
 #### Syntax
 
-```
-Minigame.StartHoleDigging(entityId)
-```
+`Minigame.StartHoleDigging(entityId)`
 
 #### Parameters
 
@@ -148,9 +132,7 @@ Activates the lockpicking minigame.
 
 #### Syntax
 
-```
-Minigame.StartLockPicking(entityId)
-```
+`Minigame.StartLockPicking(entityId)`
 
 #### Parameters
 
@@ -167,9 +149,7 @@ Returns `true` if the specified book was opened.
 
 #### Syntax
 
-```
-local bookOpened = Minigame.WasBookOpened(documentGuidStr)
-```
+`local bookOpened = Minigame.WasBookOpened(documentGuidStr)`
 
 #### Parameters
 
