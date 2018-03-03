@@ -16,8 +16,8 @@ No description entered
 
 #### **Parameters**
 
-* `userId`: An integer indicating the ID of the user
-* `item_type`: An integer indicating the type of alchemy
+* `userId`: A number indicating the ID of the user
+* `item_type`: A number indicating the type of alchemy
 
 #### **Return value**
 
@@ -34,8 +34,8 @@ No description entered
 
 #### **Parameters**
 
-* `userId`: An integer indicating the ID of the user
-* `item_type`: An integer indicating the type of alchemy
+* `userId`: A number indicating the ID of the user
+* `item_type`: A number indicating the type of alchemy
 
 #### **Return value**
 
@@ -58,8 +58,8 @@ No description entered
 
 #### **Parameters**
 
-* `userId`: An integer indicating the ID of the user
-* `item_type`: An integer indicating the type of alchemy
+* `userId`: A number indicating the ID of the user
+* `item_type`: A number indicating the type of alchemy
 
 #### **Return value**
 
@@ -76,8 +76,8 @@ No description entered
 
 #### **Parameters**
 
-* `userId`: An integer indicating the ID of the user
-* `item_type`: An integer indicating the type of alchemy
+* `userId`: A number indicating the ID of the user
+* `item_type`: A number indicating the type of alchemy
 
 #### **Return value**
 
@@ -111,7 +111,7 @@ No description entered
 
 #### **Parameters**
 
-* `userId`: An integer indicating the ID of the user
+* `userId`: A number indicating the ID of the user
 * `tableId`: A string representing the UUID of the alchemy table
 
 #### **Return value**
