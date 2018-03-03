@@ -21,8 +21,8 @@ Section | Description
 
 Section | Description
 --- | ---
-[Buff Implementations](kingdomcome/buffs) (complete) | A complete table of buff implementations
-[Perks and Effects](kingdomcome/perks) (complete) | A complete table of perks and their buff effects
+[Buff Implementations](kingdomcome/buffs) (completed) | A complete table of buff implementations
+[Perks and Effects](kingdomcome/perks) (completed) | A complete table of perks and their buff effects
 [Stats and Derived Stats](kingdomcome/stats) (completed) | Full and abbreviated stat and derived stat name mappings
 
 ## Tutorials
