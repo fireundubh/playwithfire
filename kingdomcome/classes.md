@@ -16,7 +16,7 @@ Boids | wh::entitymodule::boids::C_ScriptBindBoids | [Function Reference](classe
 Calendar | wh::rpgmodule::C_ScriptBindCalendar | [Function Reference](classes/calendar) (completed)
 Database | wh::databasemodule::C_ScriptBindDatabase | [Function Reference](classes/database)
 DialogModule | wh::dialogmodule::C_ScriptBindDialog | [Function Reference](classes/dialog)
-Dice | wh::playermodule::C_ScriptBind_Dice | [Function Reference](classes/dice)
+Dice | wh::playermodule::C_ScriptBind_Dice | [Function Reference](classes/dice) (completed)
 EntityModule | wh::entitymodule::C_ScriptBindEntityModule | [Function Reference](classes/entitymodule)
 EnvironmentModule | wh::environmentmodule::C_ScriptBindEnvironment | [Function Reference](classes/environmentmodule) (completed)
 Framework | wh::framework::C_ScriptBindFramework | [Function Reference](classes/framework) (completed)
