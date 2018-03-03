@@ -14,7 +14,7 @@ Backgammon | `wh::playermodule::C_ScriptBindBackgammon` | [Function Reference](c
 Boids | `wh::entitymodule::boids::C_ScriptBindBoids` | [Function Reference](classes/boids) | **Done**
 Calendar | `wh::rpgmodule::C_ScriptBindCalendar` | [Function Reference](classes/calendar) | **Done**
 Database | `wh::databasemodule::C_ScriptBindDatabase` | [Function Reference](classes/database) | **Done**
-DialogModule | `wh::dialogmodule::C_ScriptBindDialog` | [Function Reference](classes/dialog) | Not started
+DialogModule | `wh::dialogmodule::C_ScriptBindDialog` | [Function Reference](classes/dialog) | **Done**
 Dice | `wh::playermodule::C_ScriptBind_Dice` | [Function Reference](classes/dice) | **Done**
 EntityModule | `wh::entitymodule::C_ScriptBindEntityModule` | [Function Reference](classes/entitymodule) | Not started
 EnvironmentModule | `wh::environmentmodule::C_ScriptBindEnvironment` | [Function Reference](classes/environmentmodule) | **Done**
