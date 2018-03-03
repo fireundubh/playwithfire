@@ -44,7 +44,7 @@ XGenAIModule | wh::xgenaimodule::C_ScriptBindXGenAIModule | [Function Reference]
 
 * Return values of class methods are not fully tested and are largely the product of guess work.
 * Class methods starting with the words "is," "has," or "have" are assumed to return a `boolean`. Most class methods are documented as returning `nil` when their return values cannot be determined from their name.
-* In Lua, there is a single data structure, `table`, and eight data types: `nil`, `boolean`, `number`, `string`, `function`, `userdata`, `thread`, and `table`. ([Lua 5.3 Reference Manual: Values and Types](https://www.lua.org/manual/5.3/manual.html#2.1))
+* In Lua, there is a single data structure, `table`, and eight data types: `nil`, `boolean`, `number`, `string`, `function`, `userdata`, `thread`, and `table`. See: [Lua 5.3 Reference Manual: Values and Types](https://www.lua.org/manual/5.3/manual.html#2.1)
 
 ## CryEngine
 
