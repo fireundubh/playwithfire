@@ -25,10 +25,6 @@ Section | Description
 [Perks and Effects](kingdomcome/perks) (completed) | A complete table of perks and their buff effects
 [Stats and Derived Stats](kingdomcome/stats) (completed) | Full and abbreviated stat and derived stat name mappings
 
-## Tutorials
-
-* [FAQs: Creating Perks](kingdomcome/faqs_creating_perks)
-
 ## Reporting Issues
 
 Please use the [GitHub Issue Tracker](https://github.com/fireundubh/playwithfire/issues) to report issues.
