@@ -1,10 +1,8 @@
 <!-- TITLE: Framework Function Reference -->
 
-# Framework Class
-## Patreon
-
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
+# Framework Class
 ## Methods
 
 ### Expr
