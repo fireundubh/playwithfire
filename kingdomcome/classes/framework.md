@@ -1,4 +1,4 @@
-<!-- TITLE: Framework Function Reference -->
+<!-- TITLE: Framework -->
 
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
@@ -15,7 +15,7 @@ Evaluates the specified expression and returns a number
 
 #### **Parameters**
 
-`expr`: An expression to be evaluated
+`expr`: An expression to evaluate
 
 #### **Return value**
 
@@ -49,7 +49,7 @@ Converts the specified script handler to a string.
 
 #### **Parameters**
 
-`scriptHandler`: Unknown type.
+`scriptHandler`: Unknown type
 
 #### **Return value**
 
@@ -79,7 +79,7 @@ Converts the specified WUID to a string
 
 #### **Syntax**
 
-`local result = Framework.WUIDToString(wuid)`
+`local wuidString = Framework.WUIDToString(wuid)`
 
 #### **Parameters**
 
@@ -87,7 +87,7 @@ Converts the specified WUID to a string
 
 #### **Return value**
 
-`string`: A string formatted as `[Class - ID]`
+`string`: "[Class - ID]"
 
 
 ### WUIDToUI
@@ -104,4 +104,6 @@ Converts the specified WUID to a data type usable by the UI system
 
 #### **Return value**
 
-`"w"-prefixed WUID`
+`unknown type`
+
+When printed as a string, the return value is the WUID prefixed with the letter `w`.
