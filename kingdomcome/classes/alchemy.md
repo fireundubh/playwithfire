@@ -39,11 +39,11 @@ No description entered
 
 `integer`
 
-Value | Description
---- | ---
-`0` | Undefined
-`1` | Take
-`2` | Use
+Value | Description | Hint Text
+--- | --- | ---
+`0` | Undefined | @ui_hud_undefined
+`1` | Take | @ui_hud_take
+`2` | Use | @ui_hud_use_item
 
 
 ### IsUsableByHold
