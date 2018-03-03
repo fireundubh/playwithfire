@@ -117,7 +117,7 @@ Cpp:FoodPoisoning | Not recommended for use in mods. See [Nexus Wiki](https://wi
 Cpp:Hangover | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | Release
 Cpp:Injured | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | Release
 Cpp:ItemHealthChecking | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | Release
-Cpp:ItemHealthMyItemChecking | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 1.3
+Cpp:ItemHealthMyItemChecking | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | Patch v1.3
 Cpp:JailRecovery | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | Release
 Cpp:LastGasp | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | Release
 Cpp:LowHealth | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | Release
