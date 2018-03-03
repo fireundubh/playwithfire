@@ -29,13 +29,13 @@ Cpp:SettlementLocation | Effect applies when within a settlement |  | Release
 
 Implementation | Description | Governing RPG Parameters | Version Added
 --- | --- | --- | ---
-Cpp:Alerted | Adds the `Alerted` mannequin tag for animations |  | Release
-Cpp:Curious | Adds the `Curious` tag for animations |  | Release
-Cpp:Drunk | Adds the `Drunk` tag for animations |  | Release
-Cpp:InjuredTag | Adds the `Injured` tag for animations |  | Release
-Cpp:Monk | Adds the `Monk` mannequin tag for animations |  | Release
-Cpp:Sick | Adds the `Sick` tag for animations |  | Release
-Cpp:StomachPain | Adds the `Shitty` tag for animations |  | Release
+Cpp:Alerted | Adds `Alerted` tag for animations |  | Release
+Cpp:Curious | Adds `Curious` tag for animations |  | Release
+Cpp:Drunk | Adds `Drunk` tag for animations |  | Release
+Cpp:InjuredTag | Adds `Injured` tag for animations |  | Release
+Cpp:Monk | Adds `Monk` mannequin tag for animations |  | Release
+Cpp:Sick | Adds `Sick` tag for animations |  | Release
+Cpp:StomachPain | Adds `Shitty` tag for animations |  | Release
 
 ### Context
 
