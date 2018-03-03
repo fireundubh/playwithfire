@@ -10,27 +10,27 @@ Lua Global Name | C++ Class | Function Reference | Edit Status
 --- | --- | --- | ---
 Actor | wh::entitymodule::C_ScriptBindActor | [Function Reference](classes/actor) | Not started
 Alchemy | wh::playermodule::C_ScriptBind_Alchemy | [Function Reference](classes/alchemy) | Not started
-Backgammon | wh::playermodule::C_ScriptBindBackgammon | [Function Reference](classes/backgammon) | Completed
-Boids | wh::entitymodule::boids::C_ScriptBindBoids | [Function Reference](classes/boids) | Completed
-Calendar | wh::rpgmodule::C_ScriptBindCalendar | [Function Reference](classes/calendar) | Completed
-Database | wh::databasemodule::C_ScriptBindDatabase | [Function Reference](classes/database) | Completed
+Backgammon | wh::playermodule::C_ScriptBindBackgammon | [Function Reference](classes/backgammon) | **Completed**
+Boids | wh::entitymodule::boids::C_ScriptBindBoids | [Function Reference](classes/boids) | **Completed**
+Calendar | wh::rpgmodule::C_ScriptBindCalendar | [Function Reference](classes/calendar) | **Completed**
+Database | wh::databasemodule::C_ScriptBindDatabase | [Function Reference](classes/database) | **Completed**
 DialogModule | wh::dialogmodule::C_ScriptBindDialog | [Function Reference](classes/dialog) | Not started
-Dice | wh::playermodule::C_ScriptBind_Dice | [Function Reference](classes/dice) | Completed
+Dice | wh::playermodule::C_ScriptBind_Dice | [Function Reference](classes/dice) | **Completed**
 EntityModule | wh::entitymodule::C_ScriptBindEntityModule | [Function Reference](classes/entitymodule) | Not started
-EnvironmentModule | wh::environmentmodule::C_ScriptBindEnvironment | [Function Reference](classes/environmentmodule) | Completed
-Framework | wh::framework::C_ScriptBindFramework | [Function Reference](classes/framework) | Completed
+EnvironmentModule | wh::environmentmodule::C_ScriptBindEnvironment | [Function Reference](classes/environmentmodule) | **Completed**
+Framework | wh::framework::C_ScriptBindFramework | [Function Reference](classes/framework) | **Completed**
 Game | wh::game::CScriptBindGame | [Function Reference](classes/game) | Not started
 GameRules | wh::entitymodule::C_ScriptBindGameRules | [Function Reference](classes/gamerules) | Not started
 Horse | wh::entitymodule::C_ScriptBindHorse | [Function Reference](classes/horse) | Not started
 Human | wh::entitymodule::C_ScriptBindHuman | [Function Reference](classes/human) | Not started
 InteractiveObject | wh::entitymodule::C_ScriptBindInteractiveObject | [Function Reference](classes/interactiveobject) | Not started
 Inventory | wh::entitymodule::C_ScriptBindInventory | [Function Reference](classes/inventory) | Not started
-ItemManager | wh::entitymodule::C_ScriptBindItemManager | [Function Reference](classes/itemmanager) | Completed
-Minigame | wh::playermodule::C_ScriptBindMinigame | [Function Reference](classes/minigame) | Completed
+ItemManager | wh::entitymodule::C_ScriptBindItemManager | [Function Reference](classes/itemmanager) | **Completed**
+Minigame | wh::playermodule::C_ScriptBindMinigame | [Function Reference](classes/minigame) | **Completed**
 PickableItem | wh::entitymodule::C_ScriptBindPickableItem | [Function Reference](classes/pickableitem) | Not started
 Player | wh::entitymodule::C_ScriptBindPlayer | [Function Reference](classes/player) | Not started
 QuestSystem | wh::questmodule::C_ScriptBindQuest | [Function Reference](classes/questsystem) | Not started
-RPG | wh::rpgmodule::C_ScriptBindRPGModule | [Function Reference](classes/rpg) | Completed
+RPG | wh::rpgmodule::C_ScriptBindRPGModule | [Function Reference](classes/rpg) | **Completed**
 Sharpening | wh::playermodule::C_ScriptBind_Sharpening | [Function Reference](classes/sharpening) | Not started
 Shops | wh::shopmodule::C_ScriptBindShop | [Function Reference](classes/shops) | Not started
 SmartObject | wh::xgenaimodule::C_ScriptBindSmartObject | [Function Reference](classes/smartobject) | Not started
