@@ -12,7 +12,7 @@ Lua Global Name | C++ Class | Function Reference
 Actor | wh::entitymodule::C_ScriptBindActor | [Function Reference](classes/actor)
 Alchemy | wh::playermodule::C_ScriptBind_Alchemy | [Function Reference](classes/alchemy)
 Backgammon | wh::playermodule::C_ScriptBindBackgammon | [Function Reference](classes/backgammon)
-Boids | wh::entitymodule::boids::C_ScriptBindBoids | [Function Reference](classes/boids)
+Boids | wh::entitymodule::boids::C_ScriptBindBoids | [Function Reference](classes/boids) (completed)
 Calendar | wh::rpgmodule::C_ScriptBindCalendar | [Function Reference](classes/calendar)
 Database | wh::databasemodule::C_ScriptBindDatabase | [Function Reference](classes/database)
 DialogModule | wh::dialogmodule::C_ScriptBindDialog | [Function Reference](classes/dialog)
