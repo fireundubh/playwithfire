@@ -18,6 +18,14 @@ Section | Description
 [Lua Functions](kingdomcome/functions) | Lua-implemented functions in every script
 [Stats and Derived Stats](kingdomcome/stats) | Full and abbreviated stat and derived stat name mappings
 
+## Data Reference
+
+### Documentation
+
+Section | Description
+--- | ---
+[Perks and Effects](kingdomcome/perks) | A complete table of perks and their buff effects
+
 ## Tutorials
 
 * [FAQs: Creating Perks](kingdomcome/faqs_creating_perks)
