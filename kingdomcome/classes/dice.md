@@ -1,10 +1,8 @@
 <!-- TITLE: Dice Function Reference -->
 
-# Dice Class
-## Patreon
-
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
+# Dice Class
 ## Methods
 
 ### OverrideNextThrow
