@@ -15,8 +15,8 @@ No description entered
 
 #### **Parameters**
 
-* `playerId`: A string representing the UUID of an entity
-* `opponentId`: A string representing the UUID of an entity
+* `playerId`: A string representing the UUID of the player
+* `opponentId`: A string representing the UUID of the opponent
 
 #### **Return value**
 
@@ -29,12 +29,11 @@ No description entered
 
 #### **Syntax**
 
-`Backgammon.EndGame(playerId, end)`
+`Backgammon.EndGame(playerId)`
 
 #### **Parameters**
 
-* `playerId`: A string representing the UUID of an entity
-* `end`: A boolean determining whether the game should end
+`playerId`: A string representing the UUID of the player
 
 #### **Return value**
 
@@ -51,7 +50,7 @@ No description entered
 
 #### **Parameters**
 
-* `playerId`: A string representing the UUID of an entity
+* `playerId`: A string representing the UUID of the player
 * `pointFrom`: A number (?) indicating the last move position
 * `pointTo`: A number (?) indicating the new move position
 
@@ -70,7 +69,7 @@ No description entered
 
 #### **Parameters**
 
-* `playerId`: A string representing the UUID of an entity
+* `playerId`: A string representing the UUID of the player
 * `money`: A number indicating the bet amount
 
 #### **Return value**
@@ -88,9 +87,9 @@ No description entered
 
 #### **Parameters**
 
-* `playerId`: A string representing the UUID of an entity
-* `opponentId`: A string representing the UUID of an entity
-* `boardId`: A string representing the UUID of an entity
+* `playerId`: A string representing the UUID of the player
+* `opponentId`: A string representing the UUID of the opponent
+* `boardId`: A string representing the UUID of the board
 
 #### **Return value**
 
@@ -107,7 +106,7 @@ No description entered
 
 #### **Parameters**
 
-`playerId`: A string representing the UUID of an entity
+`playerId`: A string representing the UUID of the player
 
 #### **Return value**
 
@@ -124,7 +123,7 @@ No description entered
 
 #### **Parameters**
 
-`playerId`: A string representing the UUID of an entity
+`playerId`: A string representing the UUID of the player
 
 #### **Return value**
 
