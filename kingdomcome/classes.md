@@ -18,7 +18,7 @@ Database | wh::databasemodule::C_ScriptBindDatabase | [Function Reference](class
 DialogModule | wh::dialogmodule::C_ScriptBindDialog | [Function Reference](classes/dialog)
 Dice | wh::playermodule::C_ScriptBind_Dice | [Function Reference](classes/dice)
 EntityModule | wh::entitymodule::C_ScriptBindEntityModule | [Function Reference](classes/entitymodule)
-Environment | wh::environmentmodule::C_ScriptBindEnvironment | [Function Reference](classes/environment)
+EnvironmentModule | wh::environmentmodule::C_ScriptBindEnvironment | [Function Reference](classes/environmentmodule)
 Framework | wh::framework::C_ScriptBindFramework | [Function Reference](classes/framework) (completed)
 Game | wh::game::CScriptBindGame | [Function Reference](classes/game)
 GameRules | wh::entitymodule::C_ScriptBindGameRules | [Function Reference](classes/gamerules)
