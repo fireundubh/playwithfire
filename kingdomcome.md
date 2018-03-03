@@ -22,7 +22,8 @@ Section | Description
 
 Section | Description
 --- | ---
-[Perks and Effects](kingdomcome/perks) | A complete table of perks and their buff effects
+[Buff Implementations](kingdomcome/buffs) (complete) | A complete table of buff implementations
+[Perks and Effects](kingdomcome/perks) (complete) | A complete table of perks and their buff effects
 
 ## Tutorials
 
