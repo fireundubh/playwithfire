@@ -1,10 +1,7 @@
 <!-- TITLE: Perks -->
 
-# Perks
-## Patreon
-
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
-
+# Perks
 ## Table
 
 **Note:** This table shows only perks that can be acquired through the UI.
