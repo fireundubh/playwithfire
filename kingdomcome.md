@@ -25,12 +25,12 @@ Section | Description | Edit Status
 [Perks and Effects](kingdomcome/perks) | A complete table of perks and their buff effects | *In progress*
 [Stats and Derived Stats](kingdomcome/stats) | Full and abbreviated stat and derived stat name mappings | *In progress*
 
-## Edit Status Legend
+## Wiki: Edit Status Legend
 
 * **Completed**: The page provides as close to 100% coverage as possible.
 * *In progress*: The page is fundamentally complete, but may need additional work and testing.
 * Not started: The page does not exist yet.
 
-## Reporting Issues
+## Wiki: Reporting Issues
 
 Please use the [GitHub Issue Tracker](https://github.com/fireundubh/playwithfire/issues) to report issues.
