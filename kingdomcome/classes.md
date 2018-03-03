@@ -2,7 +2,7 @@
 
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 # Classes
-Only sections marked as `(completed)` have content. Wiki.js does not color nonexistent pages.
+Only sections marked as `(completed)` have content. The current version of Wiki.js does not color nonexistent pages.
 
 ## Warhorse
 
