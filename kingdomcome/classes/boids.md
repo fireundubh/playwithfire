@@ -1,10 +1,7 @@
 <!-- TITLE: Boids Function Reference -->
 
-# Boids Class
-## Patreon
-
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
-
+# Boids Class
 ## Enums
 
 Key | Value
