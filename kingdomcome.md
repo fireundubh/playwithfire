@@ -10,20 +10,20 @@ Welcome to the *Kingdom Come: Deliverance* wiki at **#playwithfire**. This wiki 
 
 ### Documentation
 
-Section | Description
---- | ---
-[Lua Classes](kingdomcome/classes) | Lua-exposed C++ classes, both implemented by Warhorse and native to CryEngine
-[Lua Functions](kingdomcome/functions) | Lua-implemented functions in every script
+Section | Description | Edit Status
+--- | --- | ---
+[Lua Classes](kingdomcome/classes) | Lua-exposed C++ classes | Completed
+[Lua Functions](kingdomcome/functions) | Lua-implemented functions in every script | Not started
 
 ## Data Reference
 
 ### Documentation
 
-Section | Description
---- | ---
-[Buff Implementations](kingdomcome/buffs) (completed) | A complete table of buff implementations
-[Perks and Effects](kingdomcome/perks) (completed) | A complete table of perks and their buff effects
-[Stats and Derived Stats](kingdomcome/stats) (completed) | Full and abbreviated stat and derived stat name mappings
+Section | Description | Edit Status
+--- | --- | ---
+[Buff Implementations](kingdomcome/buffs) | A complete table of buff implementations | In progress
+[Perks and Effects](kingdomcome/perks) | A complete table of perks and their buff effects | In progress
+[Stats and Derived Stats](kingdomcome/stats) | Full and abbreviated stat and derived stat name mappings | In progress
 
 ## Reporting Issues
 
