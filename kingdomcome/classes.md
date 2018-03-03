@@ -9,7 +9,7 @@ Sections marked as `Done` have content, but may need additional details, such as
 Lua Global Name | C++ Class | Function Reference | Edit Status
 --- | --- | --- | ---
 Actor | `wh::entitymodule::C_ScriptBindActor` | [Function Reference](classes/actor) | Not started
-Alchemy | `wh::playermodule::C_ScriptBind_Alchemy` | [Function Reference](classes/alchemy) | Not started
+Alchemy | `wh::playermodule::C_ScriptBind_Alchemy` | [Function Reference](classes/alchemy) | **Done**
 Backgammon | `wh::playermodule::C_ScriptBindBackgammon` | [Function Reference](classes/backgammon) | **Done**
 Boids | `wh::entitymodule::boids::C_ScriptBindBoids` | [Function Reference](classes/boids) | **Done**
 Calendar | `wh::rpgmodule::C_ScriptBindCalendar` | [Function Reference](classes/calendar) | **Done**
