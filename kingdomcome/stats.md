@@ -1,11 +1,8 @@
 <!-- TITLE: Stats and Derived Stats -->
 
+If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 # Stats and Derived Stats
 This table is incomplete and a work-in-progress.
-
-## Patreon
-
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
 ## Usage
 
