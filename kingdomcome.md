@@ -1,12 +1,12 @@
 <!-- TITLE: Kingdom Come -->
 <!-- SUBTITLE: Kingdom Come: Deliverance -->
 
-# Kingdom Come: Deliverance
-Welcome to the *Kingdom Come: Deliverance* wiki at **#playwithfire**. This wiki was created to provide modders with potentially useful technical information.
-
-## Patreon
+# Patreon
 
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
+
+# Kingdom Come: Deliverance
+Welcome to the *Kingdom Come: Deliverance* wiki at **#playwithfire**. This wiki was created to provide modders with potentially useful technical information.
 
 ## Scripting Reference
 
