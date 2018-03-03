@@ -1,4 +1,4 @@
-<!-- TITLE: DialogModule -->
+<!-- TITLE: DialogModule Function Reference -->
 
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
