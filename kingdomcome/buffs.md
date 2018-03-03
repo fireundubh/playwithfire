@@ -1,116 +1,159 @@
 <!-- TITLE: Buffs -->
-<!-- SUBTITLE: Buffs -->
 
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
 # Buffs
 ## Table
 
-Index | Implementation | Condition | Used in buff.xml
+### Common
+
+Implementation | Description | Governing RPG Parameters | Version Added
 --- | --- | --- | ---
-1 | Cpp:AdditionalAttackerCountFading |  | true
-2 | Cpp:AgilityWeaponBuff |  | true
-3 | Cpp:Alerted |  | true
-4 | Cpp:BasicTimed |  | true
-5 | Cpp:Berserk | Effect applies when berserk | true
-6 | Cpp:Bleeding | Effect applies when bleeding | true
-7 | Cpp:BloodRush |  | true
-8 | Cpp:BuffInstanceBase |  | false
-9 | Cpp:Caffeine |  | true
-10 | Cpp:CarryingBody | Effect applies when carrying a body | true
-11 | Cpp:CarryingBodyGravedigger |  | true
-12 | Cpp:ChainStrike | Effect applies when chaining strikes | true
-13 | Cpp:CombatContextBuff |  | true
-14 | Cpp:Constant | Effect applies always | true
-15 | Cpp:ConstantContextChecking |  | false
-16 | Cpp:ConsumablePoisoning |  | false
-17 | Cpp:CountrysideLocation | Effect applies when outside settlements | true
-18 | Cpp:Curious |  | true
-19 | Cpp:DeathProtection |  | true
-20 | Cpp:DialogSkillCheck | Effect applies when dialog skill checked | true
-21 | Cpp:DocumentItemBuff |  | true
-22 | Cpp:Drunk | Effect applies when drunk | true
-23 | Cpp:DrunkChecking |  | true
-24 | Cpp:Drunkenness | Effect applies when drinking | true
-25 | Cpp:DuringFader |  | true
-26 | Cpp:Educated |  | true
-27 | Cpp:Encumbered | Effect applies when encumbered | true
-28 | Cpp:EquippableItemWeighted |  | true
-29 | Cpp:Exhausted | Effect applies when exhausted | true
-30 | Cpp:Fading |  | true
-31 | Cpp:FoodHealth |  | true
-32 | Cpp:FoodPoisoning |  | true
-33 | Cpp:ForestLocation | Effect applies when in a forest | true
-34 | Cpp:Haggle | Effect applies when haggling | true
-35 | Cpp:Hangover | Effect applies when experiencing a hangover | true
-36 | Cpp:HealthFadingFromLimit |  | true
-37 | Cpp:HealthinessFading |  | true
-38 | Cpp:HerbItemBuff | Effect applies when selling herbs | true
-39 | Cpp:Highborn | Effect applies when interacting with highborn | true
-40 | Cpp:Horseman |  | true
-41 | Cpp:Infamous |  | true
-42 | Cpp:Injured | Effect applies when injured | true
-43 | Cpp:InjuredTag |  | true
-44 | Cpp:Instant |  | true
-45 | Cpp:ItemHealthChecking |  | true
-46 | Cpp:JailRecovery | Effect applies when recovering from jail time | true
-47 | Cpp:KnightInAShiningArmor | Effect applies when wearing plate armor in sunny weather | true
-48 | Cpp:LastGasp |  | true
-49 | Cpp:LocalHero |  | true
-50 | Cpp:LocalHeroInfamousSwitch |  | true
-51 | Cpp:LocalReputationBuffBase |  | false
-52 | Cpp:LocationMonitorBuffBase |  | false
-53 | Cpp:Lowborn | Effect applies when interacting with lowborn | true
-54 | Cpp:LowHealth | Effect applies at low health | true
-55 | Cpp:ManlyOdourStealth |  | true
-56 | Cpp:ManlyOdourWoman |  | true
-57 | Cpp:Monk |  | true
-58 | Cpp:MoraleContext |  | true
-59 | Cpp:Night | Effect applies when the world time is night | true
-60 | Cpp:Overeat | Effect applies when player has overeaten | true
-61 | Cpp:Overread | Effect applies when player has overstudied | true
-62 | Cpp:Oversleep | Effect applies when player has overslept | true
-63 | Cpp:PerkFlowerPower |  | true
-64 | Cpp:PerkHorsenip |  | true
-65 | Cpp:PotionHealth |  | true
-66 | Cpp:ProperDiet | Effect applies when eating well | true
-67 | Cpp:ReadingCartographer |  | true
-68 | Cpp:ReadingQuality |  | true
-69 | Cpp:RiddenHorse |  | true
-70 | Cpp:Sadist |  | true
-71 | Cpp:SettlementLocation | Effect applies when within a settlement | true
-72 | Cpp:SharpeningPressure |  | true
-73 | Cpp:ShieldAndArmorBuff |  | true
-74 | Cpp:ShortTermFood |  | true
-75 | Cpp:Sick | Effect applies when ill | true
-76 | Cpp:Sleep | Effect applies after sleeping | true
-77 | Cpp:SleepImproved |  | true
-78 | Cpp:SoulBuffInstance |  | false
-79 | Cpp:Starvation | Effect applies when starving | false
-80 | Cpp:Still | Effect applies when motionless | true
-81 | Cpp:StillAndHidden | Effect applies when motionless and undetected | true
-82 | Cpp:StomachPain |  | true
-83 | Cpp:StrengthWeaponBuff |  | true
-84 | Cpp:TestRealSpeed |  | true
-85 | Cpp:Thunderstorm | Effect applies during rainy weather | true
-86 | Cpp:TipplerPotion |  | true
-87 | Cpp:TwoState |  | false
-88 | Cpp:TwoStateLocationMonitorBuffBase |  | false
-89 | Cpp:Unconscious | Effect applies when in an alcoholic stupor | true
-90 | Cpp:UniversalHealth |  | false
-91 | Cpp:VersusAnimal | Effect applies when attacking wild animals | true
-92 | Cpp:VersusCuman | Effect applies when attacking Cumans | true
-93 | Cpp:VersusDog | Effect applies when attacking dogs | true
-94 | Cpp:VersusEnemy | Effect applies when attacking any enemy | true
-95 | Cpp:VersusSoldier | Effect applies when attacking soldiers | true
-96 | Cpp:VersusWoman | Effect applies when attacking women | false
-97 | Cpp:VersusWomanDialogSkillCheck | Effect applies when interacting with women | true
-98 | Cpp:Void |  | true
-99 | Cpp:Wanted | Effect applies when wanted | true
-100 | Cpp:WeaponHealthIntensity |  | true
-101 | Cpp:WellWorn | Reduces equipped weight by a third | true
-102 | Cpp:WithoutPlatingArmor | Effect applies when not wearing heavy armor | true
-103 | Cpp:WithPlatingArmor | Effect applies when wearing heavy armor | false
-104 | Cpp:WorldTimeFading |  | true
-105 | Cpp:WorldTimeTimed |  | true
-106 | Script:BasicBuff |  | true
+Cpp:BasicTimed | Effect applies for a duration in game time |  | 
+Cpp:Constant | Effect applies always |  | 
+Cpp:Fading | Effect applies for a duration in game time and dissipates |  | 
+Cpp:Instant | Effect applies once immediately |  | 
+Cpp:Void | Returns immediately |  | 
+Cpp:WorldTimeFading | Effect applies for a duration in world time and dissipates |  | 
+Cpp:WorldTimeTimed | Effect applies for a duration in world time |  | 
+
+### Location
+
+Implementation | Description | Governing RPG Parameters | Version Added
+--- | --- | --- | ---
+Cpp:CountrysideLocation | Effect applies when outside settlements |  | 
+Cpp:ForestLocation | Effect applies when in a forest |  | 
+Cpp:SettlementLocation | Effect applies when within a settlement |  | 
+
+### Mannequin
+
+Implementation | Description | Governing RPG Parameters | Version Added
+--- | --- | --- | ---
+Cpp:Alerted | Adds the `Alerted` mannequin tag for animations |  | 
+Cpp:Curious | Adds the `Curious` tag for animations |  | 
+Cpp:Drunk | Adds the `Drunk` tag for animations |  | 
+Cpp:InjuredTag | Adds the `Injured` tag for animations |  | 
+Cpp:Monk | Adds the `Monk` mannequin tag for animations |  | 
+Cpp:Sick | Adds the `Sick` tag for animations |  | 
+Cpp:StomachPain | Adds the `Shitty` tag for animations |  | 
+
+### Context
+
+Implementation | Description | Governing RPG Parameters | Version Added
+--- | --- | --- | ---
+Cpp:CombatContextBuff | Effect applies when in combat |  | 
+Cpp:DialogSkillCheck | Effect applies when in dialog |  | 
+Cpp:DocumentItemBuff | Effect applies when trading `document` items |  | 
+Cpp:Educated | Effect applies when interacting with noblemen, monks, and circators |  | 
+Cpp:Haggle | Effect applies when haggling |  | 
+Cpp:HerbItemBuff | Effect applies when trading `herb` items |  | 
+Cpp:Highborn | Effect applies when interacting with highborn souls | HighbornWealthThreshold | 
+Cpp:Lowborn | Effect applies when interacting with lowborn souls | HighbornWealthThreshold | 
+Cpp:ManlyOdourWoman | Effect applies when interacting with women while Dirtiness greater than threshold | PerkManlyOdourDirtinessThreshold | 
+Cpp:ShieldAndArmorBuff | Effect applies when trading `armor`, `weapon`, and `shield` items |  | 
+Cpp:VersusAnimal | Effect applies when attacking wild animals |  | 
+Cpp:VersusCuman | Effect applies when attacking Cumans  |  | 
+Cpp:VersusDog | Effect applies when attacking dogs |  | 
+Cpp:VersusEnemy | Effect applies when attacking any enemy |  | 
+Cpp:VersusSoldier | Effect applies when attacking soldiers |  | 
+Cpp:VersusWoman | Effect applies when attacking women |  | 
+Cpp:VersusWomanDialogSkillCheck | Effect applies when interacting with women |  | 
+
+### Two State
+
+Implementation | Description | Governing RPG Parameters | Version Added
+--- | --- | --- | ---
+Cpp:DrunkChecking | Effect applies when drunk |  | 
+Cpp:DuringFader | Effect applies during fader | DuringFaderHysteresis (GameTime) | 
+Cpp:Infamous | Effect applies when reputation in location below threshold | LocalHeroInfamousReputationThreshold | 
+Cpp:LocalHero | Effect applies when reputation in location above threshold | LocalHeroInfamousReputationThreshold | 
+Cpp:ManlyOdourStealth | Effect applies when Dirtiness greater than threshold | PerkManlyOdourDirtinessThreshold | 
+Cpp:Night | Effect applies when the world time is night |  | 
+Cpp:PerkFlowerPower | Effect applies when herbs in inventory greater than or equal to parameter value | HerbsInInventoryForFlowerPowerPerk | 
+Cpp:PerkHorsenip | Effect applies when herbs in horse inventory greater than or equal to parameter value | HerbsInHorseInventoryForHorsenipPerk | 
+Cpp:Sadist | Effect applies when opponent bleeding |  | 
+Cpp:Still | Effect applies when motionless | StillBuffDuration (WorldTime) | 
+Cpp:StillAndHidden | Effect applies when motionless and undetected | StillAndHiddenHysteresis (GameTime) | 
+Cpp:Thunderstorm | Effect applies during rainy weather when rain intensity greater than threshold | ThunderstormBuffRainIntensity | 
+Cpp:Wanted | Effect applies when wanted in any location | PerkDaringDebonairWantedLevel | 
+Cpp:WithoutPlatingArmor | Effect applies when not wearing heavy armor |  | 
+Cpp:WithPlatingArmor | Effect applies when wearing heavy armor |  | 
+
+### Specialized
+
+Implementation | Description | Governing RPG Parameters | Version Added
+--- | --- | --- | ---
+Cpp:AdditionalAttackerCountFading | Effect applies when outnumbered in combat | AdditionalAttackerCountForMaxFadingBuff | 
+Cpp:AgilityWeaponBuff | Effect applies when Agility weapon requirement greater than Strength requirement |  | 
+Cpp:Berserk | Effect applies when Health below threshold | PerkBerserkHealthThreshold, PerkBerserkDuration (GameTime) | 
+Cpp:BloodRush | Effect applies when nearby enemy killed | PerkBloodRushDistance, PerkBloodRushDuration (GameTime) | 
+Cpp:ChainStrike | Effect applies and stacks when chaining strikes | PerkChainStrikeMaxChain | 
+Cpp:HealthFadingFromLimit | Effect magnitude derived from Health | HealthFadingFromLimitValue | 
+Cpp:HealthinessFading | Effect magnitude derived from Healthiness |  | 
+Cpp:Horseman | Effect applies for a duration in game time and/or while attacking dogs |  | 
+Cpp:KnightInAShiningArmor | Effect applies when wearing plate armor between dawn and dusk | MaxCloudAverageForShiningArmor | 
+Cpp:ProperDiet | Effect applies when eating well | PerkProperDietActivationTime | 
+Cpp:ReadingCartographer | Reveals all locations on map |  | 
+Cpp:Respec |  |  | 1.3
+Cpp:StrengthWeaponBuff | Effect applies when Strength weapon requirement greater than Agility requirement |  | 
+Cpp:TipplerPotion | Effect applies for a duration in world time and removes other buffs when applied |  | 
+Cpp:WeaponHealthIntensity | Effect magnitude derived from item durability |  | 
+
+### System
+
+Implementation | Description | Governing RPG Parameters | Version Added
+--- | --- | --- | ---
+Cpp:AdditionalWeight | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 1.3
+Cpp:Bleeding | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:Caffeine | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:CarryingBody | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:CarryingBodyGravedigger | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:Drunkenness | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:Encumbered | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:EquippableItemWeighted | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:Exhausted | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:FoodHealth | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:FoodPoisoning | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:Hangover | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:Injured | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:ItemHealthChecking | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:ItemHealthMyItemChecking | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 1.3
+Cpp:JailRecovery | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:LastGasp | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:LowHealth | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:MoraleContext | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:Overeat | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:Overread | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:Oversleep | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:PotionHealth | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:ReadingQuality | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:RiddenHorse | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:SharpeningPressure | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:ShortTermFood | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:Sleep | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:SleepImproved | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:Starvation | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:TestRealSpeed | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:Unconscious | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Cpp:WellWorn | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+Script:BasicBuff | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | 
+
+### Undocumented
+
+Implementation | Description | Governing RPG Parameters | Version Added
+--- | --- | --- | ---
+Cpp:BuffInstanceBase |  |  | 
+Cpp:ConstantContextChecking |  |  | 
+Cpp:ConsumablePoisoning |  |  | 
+Cpp:DeathProtection |  |  | 
+Cpp:LocalHeroInfamousSwitch |  |  | 
+Cpp:LocalReputationBuffBase |  |  | 
+Cpp:LocationMonitorBuffBase |  |  | 
+Cpp:SoulBuffInstance |  |  | 
+Cpp:TwoState |  |  | 
+Cpp:TwoStateLocationMonitorBuffBase |  |  | 
+Cpp:UniversalHealth |  |  | 
+
+## Credits
+
+**Moggabor** for categories, descriptions, and *future* patch data (probably a developer)
