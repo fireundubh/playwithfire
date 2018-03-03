@@ -1,10 +1,8 @@
 <!-- TITLE: EnvironmentModule Function Reference -->
 
-# EnvironmentModule Class
-## Patreon
-
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
+# EnvironmentModule Class
 ## Methods
 
 ### BlendTimeOfDay
