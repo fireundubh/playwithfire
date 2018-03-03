@@ -2,7 +2,7 @@
 
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 # Classes
-Sections marked as `Done` have content. The current version of Wiki.js does not color nonexistent pages.
+Sections marked as `Done` have content, but may need additional details, such as method descriptions.
 
 ## Warhorse
 
