@@ -4,6 +4,8 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 # Alchemy Class
 
+## Methods
+
 ### GetFlagTextFor
 
 No description entered
