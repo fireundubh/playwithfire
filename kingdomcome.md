@@ -1,4 +1,4 @@
-<!-- TITLE: kingdomcome -->
+<!-- TITLE: Kingdom Come -->
 <!-- SUBTITLE: Kingdom Come: Deliverance -->
 
 # Kingdom Come: Deliverance
