@@ -1,10 +1,7 @@
 <!-- TITLE: Classes -->
 
-# Classes
-## Patreon
-
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
-
+# Classes
 ## Warhorse
 
 Lua Global Name | C++ Class | Function Reference
