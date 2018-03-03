@@ -52,7 +52,7 @@ No description entered
 
 #### **Syntax**
 
-`local isUsableByHold = Alchemy.IsUsableByHold(userId, item_Type)`
+`local isUsableByHold = Alchemy.IsUsableByHold(userId, item_type)`
 
 #### **Parameters**
 
