@@ -109,8 +109,8 @@ Cpp:Void |  | true
 Cpp:Wanted | Effect applies only while wanted | true
 Cpp:WeaponHealthIntensity |  | true
 Cpp:WellWorn |  | true
-Cpp:WithoutPlatingArmor |  | true
-Cpp:WithPlatingArmor |  | false
+Cpp:WithoutPlatingArmor | Effect applies while not wearing heavy armor | true
+Cpp:WithPlatingArmor | Effect applies only while wearing heavy armor | false
 Cpp:WorldTimeFading |  | true
 Cpp:WorldTimeTimed |  | true
 Script:BasicBuff |  | true
