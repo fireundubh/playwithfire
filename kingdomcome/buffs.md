@@ -101,6 +101,8 @@ Cpp:WeaponHealthIntensity | Effect magnitude derived from item durability |  | R
 
 ### System
 
+Per Moggabor, these buff implementations are not recommended for use in mods, so they are not detailed here.
+
 Implementation | Description | Governing RPG Parameters | Version Added
 --- | --- | --- | ---
 Cpp:AdditionalWeight | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | Patch v1.3
