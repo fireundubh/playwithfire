@@ -11,8 +11,8 @@ Parameter | Description
 --- | ---
 AdditionalAttackerCountForMaxFadingBuff | for AdditionalAttackerCountFading buff
 AgiDiffToAttackSpeed | relative attak speed gain for one agi level difference
-AgilityXPLevelBase | 
-AgilityXPLevelDiff | 
+AgilityXPLevelBase |
+AgilityXPLevelDiff |
 AimCiriticalLimitTime | time limit after when AI is notified about low stamina when aiming
 AimPainlessDelay | aiming without stam. loss
 AimSkillToZoom | zoom increase by each skill level above the base
@@ -52,19 +52,19 @@ AlcoholMoodMaxExhaustPossitiveEffect | max positive exhaust effect while in mood
 AlcoholMoodThreshold | threshold for alcohol mood from max alcohol poisoning
 AlcoholPerkBacchusHangoverEffectMod | hangover effects mod
 AlcoholPerkCorrectResistanceModif | alcohol content modif for correct resistance
-AlcoholPerkDrunkHangoverDurationMod | 
+AlcoholPerkDrunkHangoverDurationMod |
 AlcoholPerkDrunkMoodRangeMod | mood range is expanded by this mod
 AlcoholPerkLooseTongueSpcChaModif | speech and charisma modif bonus/malus for loose tongue perk
 AlcoholPerkTrueSlavHangoverDurationMod | hangover duration mod
 AlcoholPerkTrueSlavMaxAlcoholMod | max amount of alcohol is divided by this mod
 AlcoholPerkWrongResistanceModif | alcohol content modif for wrong resistance
 ArmorDefenseToAttackingWeaponStatus | how opponet's defense value damages my weapon - hit to armor
-ArmorDirtToCharismaCoef | 
-ArmorLoadDiffToMax | 
+ArmorDirtToCharismaCoef |
+ArmorLoadDiffToMax |
 ArmorLoadToJumpCost | how armor load coefficient affects the stamina jump cost (times base)
 ArmorLoadToRun | how armor load coefficient affects running speed
 ArmorLoadToSprint | how armor load coefficient affects sprint
-ArmorStatusToCharismaCoef | 
+ArmorStatusToCharismaCoef |
 ArmorStatusToDefenseCoef | health to armor defense multiplicative coef
 AthleticXPAwardDistance | award xp for travelling some distance
 AttackEnergyModifier | utoku
@@ -77,9 +77,9 @@ AttSkillToHorsePullDown | relative attacker skill to horse pull down
 AttStrengthToHorsePullDown | relative attacker stat to horse pull down
 AverageArmorDefenseWeight | 0 = only body part defense, 1 = only average defense
 AvidReaderReadingSpeed | AvidReader soul ability advances reading progress on one book in inventory during sleep or skiptime. This constant determines speed of reading (reading spot is always None).
-BadassnessDiffToSkillCheckResult | 
-BarterAngrynessCoefWeightA | 
-BarterAngrynessCoefWeightB | 
+BadassnessDiffToSkillCheckResult |
+BarterAngrynessCoefWeightA |
+BarterAngrynessCoefWeightB |
 BarterCoefWeightA | shopkeeper shop barter calculation 'a' coef
 BarterCoefWeightB | shopkeeper shop barter calculation 'b' coef
 BarterDominanceChaBaseE | barter dominance calculation 'e' coef
@@ -110,7 +110,7 @@ CharismaDiffToSkillCheckResult | > 0; scaled charisma diff for result = -1/1
 CharismaMulOnExtremeExhaustion | Player will have this charisma multiplied by this value when he has exhaust equal to 0. Charisma will not be changed when exhaust is 50. Linear interpolation on multiplier is applied when exhaust is between 0 and 50;
 ClassCourageMoraleWeight | Weight of soul class courage affecting morale
 ClothDirtyingUpdatePeriod | how often (in meters walked) do we add dirt to clothing (both for player and NPCs)
-CollisionVelocityDeltaToDmgR | 
+CollisionVelocityDeltaToDmgR |
 CombatAutoAggressionDiffScale | the bigger number the bigger difference in aggresion for skill differnce
 CombatAutoAttackDelayIncreasePerAttacker | how many times is the period increased for each attacker
 CombatAutoAttackDelayIncreasePerAttackerHorse | CombatAutoAttackDelayIncreasePerAttacker if the victim is on horse
@@ -121,11 +121,11 @@ CombatAutoClinchReactionDelayMaxMin | maximal minimum
 CombatAutoClinchReactionDelayMinMax | minimal maximum
 CombatAutoClinchReactionDelayMinMin | minimal minimum
 CombatAutoComboStepsSigma | standard deviation of performed combo steps
-CombatAutoDodgeWeight | 
+CombatAutoDodgeWeight |
 CombatAutoEasyZoneWeight | [0-1] how much are easy zones favored by the lame AI (1 = favored)
 CombatAutoForcedComboStaminaLimit | stamina threshold
 CombatAutoForcedPeriodicalAttackStaminaLimit | stamina threshold
-CombatAutoGuardHysteresis | 
+CombatAutoGuardHysteresis |
 CombatAutoLameGuardOffset | offset to max distance
 CombatAutoMasterComboSteps | combo steps a skilled npc will typically perform
 CombatAutoMasterGuardOffset | offset to max distance
@@ -139,34 +139,34 @@ CombatAutoMinDefenseModeWeight | [0-1] the lowest weight for the defense mode
 CombatAutoMinHuntAttackDuration | minimal time the NPC is hunting/chasing
 CombatAutoMoveActivityDecreasePerAttacker | my activity decrease per opponents aditinal attackers
 CombatAutoNaturalComboRatio | [0-1] ratio of natural combos
-CombatAutoNoDefenseWeight | 
-CombatAutoNormalBWeight | 
+CombatAutoNoDefenseWeight |
+CombatAutoNormalBWeight |
 CombatAutoOppZoneAdaptDelayMaxMax | reaction delay maximal maximum
 CombatAutoOppZoneAdaptDelayMaxMin | reaction delay maximal minimum
 CombatAutoOppZoneAdaptDelayMinMax | reaction delay minimal maximum
 CombatAutoOppZoneAdaptDelayMinMin | reaction delay minimal minimum
-CombatAutoPBWeight | 
+CombatAutoPBWeight |
 CombatAutoReactionDelayRangeSpread | [0-1] higher nunber -> changes state less often
-CombatAutoReactivePreblockMaxDelay | 
-CombatAutoReactivePreblockMinDelay | 
-CombatAutoRiposteAggressionWeight | 
+CombatAutoReactivePreblockMaxDelay |
+CombatAutoReactivePreblockMinDelay |
+CombatAutoRiposteAggressionWeight |
 CombatAutoScaleDefensivenessDelayRel | relative to attack delay, time to override defensiveness and go near
-CombatAutoSPBWeight | 
-CombatAutoStaticPreblockMaxTime | 
-CombatAutoStaticPreblockRandBias | 
+CombatAutoSPBWeight |
+CombatAutoStaticPreblockMaxTime |
+CombatAutoStaticPreblockRandBias |
 CombatAutoTrickAttackProb | [0-1] attack prob for the first step
 CombatAutoTrickDelayVariability | added to the lower bound
 CombatAutoTrickInvalidBlockAttackMaxProb | [0-1] max trick prob for a skilled AI if the block is invalid
 CombatAutoTrickMaxProb | [0-1] max trick prob for the first step
 CombatAutoTrickMinMaxDelay | lower bound of the max delay
 CombatAutoTrickNoAttackProb | [0-1] no attack prob for the first step
-CombatAutoTrickReactionMaxDelay | 
-CombatAutoTrickReactionMinDelay | 
-CombatAutoTrickReactionSkillWeight | 
+CombatAutoTrickReactionMaxDelay |
+CombatAutoTrickReactionMinDelay |
+CombatAutoTrickReactionSkillWeight |
 CombatAutoTrickReactionStaWeight | [0-1] 0 - use just stamina; 1 - use just 1 - aggression
-CombatAutoUnarmedBlockProb | 
-CombatAutoWpnHealthBlockMax | 
-CombatAutoWpnHealthMinBlockProb | 
+CombatAutoUnarmedBlockProb |
+CombatAutoWpnHealthBlockMax |
+CombatAutoWpnHealthMinBlockProb |
 CombatAutoZoneChangeDelayMaxMax | zone change timeout maximal maximum
 CombatAutoZoneChangeDelayMaxMin | zone change timeout maximal minimum
 CombatAutoZoneChangeDelayMinMax | zone change timeout minimal maximum
@@ -175,7 +175,7 @@ CombatDangerCooldown | how long is the combat danger active after last enemy sto
 CombatDmgRBonusFromBehind | multiplicative DmgR bohus for attacks from behind
 CombatHitImmortalUnconsciousDepth | depth for immortal knock-out
 CombatHitUnconsciousDepth | depth after a combat hit
-CombatMoveApproachHysteresis | 
+CombatMoveApproachHysteresis |
 CombatMoveApproachSprintMinStamina | do not allow sprint during the approach
 CorpseDisappearanceTimeDiscovered | time before a NPC corpse is hidden when discovered
 CorpseDisappearanceTimeUndiscovered | time before a NPC corpse is hidden when undiscovered
@@ -188,8 +188,8 @@ DefaultVisVolume | default item size-volume that have no visibility recognition 
 DefaultWorldTimeRatio | default world time ratio useed to calculate game time ration in superspeed skiptime
 DigestionSpeed | amount of food 'lost' per world-time second (global base value)
 DistanceCheckInterval | check distance travelled for statistics
-DmgRToHealthCoefA | 
-DmgRToHealthCoefB | 
+DmgRToHealthCoefA |
+DmgRToHealthCoefB |
 DuringFaderHysteresis | the in-fader state is kept for how longer
 DuskTime | Time when night begins, used by rpg (default 21:30)
 EncumberanceForSecondaryModifiers | when the buff will activate the secondary group
@@ -231,7 +231,7 @@ FullClothDirtyingOnFullSpeed | how far do we walk with full speed (1.0 walk spee
 FullClothDirtyingOnZeroSpeed | how far do we walk with half speed to get 100% dirty (other speeds than FullSpeed and HalfSpeed are linearly interpolated)
 GoodArmorDefense | mainly for AI, used to judge armor
 GoodWeaponAttack | mainly for AI, used to judge weapon
-GoodWeaponDefense | 
+GoodWeaponDefense |
 HarmlessFallHeight | falling height below which no health or stamina damage is taken at agility 0
 HeadHitKnockOutBaseProbability | for hits dealing a hp damage
 HealthDamageToInjury | note: health is [0-100] but injury is [0-1]
@@ -240,13 +240,13 @@ HealthFadingFromLimitValue | health percentage to activate health fading buff
 HealthFull | maximum health
 HealthToKnockOut | threshold for unarmed combat, health cannot reach this level
 HealthToMoraleMinCoef | multiplicative coef for health = 0
-HearingToFov | 
+HearingToFov |
 HeavyWeaponWeight | used to deduce 'attack weight'
-HerbGatherSkillToCount | multiplied by sqrt(skill level) to modify the number of collected herbs (#herb)
-HerbGatherSkillToRadius | multiplied by skill level to calculate radius (#herb)
-HerbGatherXP | final XP reward for one herb gathering(#herb)
-HerbsInHorseInventoryForHorsenipPerk | number of herbs in horse inventory needed for Horsenip perk to be active (#herb)
-HerbsInInventoryForFlowerPowerPerk | number of herbs in inventory needed for FlowerPower perk to be active (#herb)
+HerbGatherSkillToCount | multiplied by sqrt(skill level) to modify the number of collected herbs
+HerbGatherSkillToRadius | multiplied by skill level to calculate radius
+HerbGatherXP | final XP reward for one herb gathering
+HerbsInHorseInventoryForHorsenipPerk | number of herbs in horse inventory needed for Horsenip perk to be active
+HerbsInInventoryForFlowerPowerPerk | number of herbs in inventory needed for FlowerPower perk to be active
 HighbornWealthThreshold | social class wealth threshold for perks
 HorseAttackMaxSpeed | speed of the attacking rider to gain maximal attack bonus
 HorseMaxAttackCoef | [1,inf) maximal multiplicative coef a rider will gain when attacking on HorseMaxAttackSpeed
@@ -256,7 +256,7 @@ HorseRidingToHorseCourage | how the rider's horse riding skill increases courage
 HorseRidingToHorseStamina | how the rider's horse riding skill lowers sta consumption of his horse
 HorseRidingXPPerDistance | horse riding xp gain after riding HorseRidingAwardDistance
 HourglassTimeout | the time until all the sand goes down
-HunterLootAmountAddCoef | add coef, the fixed portion (#hunter)
+HunterLootAmountAddCoef | add coef, the fixed portion
 HunterXPKill | hunter skill XP gain after a kill, multiplied by the game db coef and level
 HunterXPLoot | hunter skill XP gain after a loot, multiplied by the game db coef and level
 ImmortalHealthMin | min health for immortal souls
@@ -269,18 +269,18 @@ InjuryLowThreshold | limb is considered healthy if below this treshold
 InjuryRegenInterval | injuries fade-out, the time required to regen 1% of injury
 ItemDisappearingMulti | multiplier 1/x - x limit(up/down) for item disappearing speed in extremes (cheap vs. expensive, small vs. large)
 ItemHealthPriceStatusWeight | item health status weight price coef
-ItemOwnerDescFadeToSuspiciencyExp | 
-ItemOwnerFactionDistanceCoef1 | 
-ItemOwnerFactionDistanceCoef2 | 
-ItemOwnerFactionDistanceToSuspiciencyMax | 
-ItemOwnerFactionDistanceToSuspiciencyMin | 
-ItemOwnerFadeCoefToSuspiciencyExp | 
-ItemOwnerFadeCoefToSuspiciencyMul | 
+ItemOwnerDescFadeToSuspiciencyExp |
+ItemOwnerFactionDistanceCoef1 |
+ItemOwnerFactionDistanceCoef2 |
+ItemOwnerFactionDistanceToSuspiciencyMax |
+ItemOwnerFactionDistanceToSuspiciencyMin |
+ItemOwnerFadeCoefToSuspiciencyExp |
+ItemOwnerFadeCoefToSuspiciencyMul |
 ItemOwnerFadeConspicuousnessToHours | world time hours
 ItemOwnerFadePriceToHours | world time hours per decigrosh
 ItemOwnerIsShopkeeperToSuspiciency | basket suspiciency calculation
-ItemOwnerNeverFadesToSuspiciency | 
-ItemOwnerRelationshipToSuspiciencyMin | 
+ItemOwnerNeverFadesToSuspiciency |
+ItemOwnerRelationshipToSuspiciencyMin |
 JailRecoveryDebuffDurationMultiplier | duration of JailRecovery debuff is calculated as jail duration * this multiplier
 JailRecoveryDebuffMaxHours | hours spent in jail after JailRecovery debuff reaches its maximal values
 JumpCostBase | stamina cost of one jump
@@ -310,7 +310,7 @@ LowHealthThreshold | threshold for low health effects (for npcs)
 MatPierceableMaxArmor | armor of a rock-solid material
 MatPierceableMin | OBSOLETE: projectiles with stab damage can stab into
 MaxAgilityToMovementSpeedAddition | max positive addition (for maximal vit), the same amount is subtracted on level 0
-MaxArmorLoad | 
+MaxArmorLoad |
 MaxAttackSpeedMod | maximal relative change in the attack speed
 MaxCloudAverageForShiningArmor | used by perk Knight in a shining armor; this is maximal current cloud average that still allows this perk to be active
 MaxCourageMoraleContextFadingMod | how much can courage affect morale context fading
@@ -357,11 +357,11 @@ MinStatToAttackStaminaCostMult | min stamina cost mult for a high stat
 MinStealthHitSoundMultiplier | intensity multiplier for min stealth level
 MinTrueRelationDistThreshold | minimal distance required to see the true faction
 MinViewRadius | the minimal view radius an almost blind NPC will have, also threshold for instant detection
-MinWeaponBuffCharge | 
+MinWeaponBuffCharge |
 MoraleContextFadingSpeed | Speed of Morale context increasing/decreasing to 0
 MoraleDecisionReliability | Reliability of morale checks
 MoraleForCombat | how much must an NPC have to not flee from combat
-NightCoefToNoise | 
+NightCoefToNoise |
 NightCoefToVis | nightCoef = 1 - daytimeCoef;
 NonSkillBookXP | XP rewarded for reading non-skill books
 NPCRepWeight | Weight of player - npc reputation (reputation median)
@@ -372,28 +372,28 @@ OverreadnessFillTime | how long (in game hours) does it take to fill the oversle
 OversleepnessEmptyTime | how long (in game hours) does it take to empty the oversleepness stat (time player have to be awake to be able to sleep max time again)
 OversleepnessFillTime | how long (in game hours) does it take to fill the oversleepness stat (max time player can sleep)
 PerceivedSuperfactionImportanceThresholdRel | superfaction items must occupy more than this for the soul to look like the superfaction
-PerceptionBaseCha | 
+PerceptionBaseCha |
 PerceptionMaxFov | the maximal field of view a superman NPC will have
-PerceptionMeanDist | 
+PerceptionMeanDist |
 PerceptionMinFov | the minimal field of view a deaf NPC will have
 PerceptionPriorBoostPlayer | boost for player
 PerceptionPriorBoostRangedWeapon | boost for ranged weapons (multiplied by PriorWeapon!)
-PerceptionPriorCha | 
-PerceptionPriorConsp | 
-PerceptionPriorCrimeLockpick | 
+PerceptionPriorCha |
+PerceptionPriorConsp |
+PerceptionPriorCrimeLockpick |
 PerceptionPriorCrimeLoot | priority boost for crime
 PerceptionPriorDead | dead or unconscious
-PerceptionPriorDist | 
-PerceptionPriorEnemyRelationship | 
-PerceptionPriorFriendRelationship | 
-PerceptionPriorGender | 
-PerceptionPriorNotHumanRace | 
+PerceptionPriorDist |
+PerceptionPriorEnemyRelationship |
+PerceptionPriorFriendRelationship |
+PerceptionPriorGender |
+PerceptionPriorNotHumanRace |
 PerceptionPriorTarget | target priority estimation
-PerceptionPriorThreatened | 
-PerceptionPriorVisCrimes | 
-PerceptionPriorVisItems | 
-PerceptionPriorVisPeople | 
-PerceptionPriorWeapon | 
+PerceptionPriorThreatened |
+PerceptionPriorVisCrimes |
+PerceptionPriorVisItems |
+PerceptionPriorVisPeople |
+PerceptionPriorWeapon |
 PerkBerserkDuration | how long are buffs active after the perk is triggered
 PerkBerserkHealthThreshold | activatinon health
 PerkBloodRushDistance | distance from dying enemy when BloodRush perk bonuses are activated
@@ -427,7 +427,7 @@ PickpocketingTimeChancePenaltyBest | penalty in pickpocketing chance in best cas
 PickpocketingTimeChancePenaltyWorst | penalty in pickpocketing chance in worst case (s)
 PickpocketingTreasurePriceXP | additional XP gain calculated by stolen items total value
 PickpocketingXP | XP for each successful pickpocketing
-PoorWeaponDefense | 
+PoorWeaponDefense |
 ProjectileMaxBreakProb | probability of breaking an arrow if a rock-solid material is hit
 QuestMoneyRewardScaleConstant | scale constnat for quest reward item amount
 RangedWpnCosThetaToAttackMin | cos(theta) lieary lowers the attack in the range [this,1]
@@ -467,22 +467,22 @@ RiderHorseStaminaCoef | the ratio between stamina consumption of a horse and its
 RiderSkillToHorsePullDown | relative riding skill skill to horse pull down
 RiderThreatToHorseMorale | morale decrease per one rider threat
 SecondaryStatXPRatio | secondary weapon stat ratio
-SharpeningFullNegativeHealthXP | 
+SharpeningFullNegativeHealthXP |
 SharpeningFullPositiveHealthXP | change in weapon health at which the sharpening is considered successful
-SharpeningMaxDestructionAngle | 
-SharpeningMaxIdealAngle | 
-SharpeningMinDestructionAngle | 
+SharpeningMaxDestructionAngle |
+SharpeningMaxIdealAngle |
+SharpeningMinDestructionAngle |
 SharpeningMinEfficiencyHealth | health you can achieve with the worst efficiency
-SharpeningMinIdealAngle | 
-SharpeningSuccessfulHealthDelta | 
+SharpeningMinIdealAngle |
+SharpeningSuccessfulHealthDelta |
 ShoeHealthDecrease | status delta per traveled m
 ShoeHealthUpdateDistance | shoe health is update after traveling N m
 ShortTermNutritionDigestionSpeedMultiplier | digestion multiplier for part of the food with low nutrition value
 SkillCap | max skill level, also effects of a general skill are maximal at this level
 SkillDiffToAttackSpeed | relative attak speed gain for one skill level difference
-SkillToDefense | 
-SkillToDmgConstA | 
-SkillToFencingBase | 
+SkillToDefense |
+SkillToDmgConstA |
+SkillToFencingBase |
 SkillToPerfectBlockPowTo | slot = relativeSkill ^ this
 SkillToRangedWpnAIRange | how the relative skill influences the weapon range for the AI
 SkillXPBlock | XP gain after a successful block
@@ -501,8 +501,8 @@ SlimCollisionWeightMul | multiplies the archetype body weight if the character i
 SoulCourageMoraleWeight | Weight of soul courage affecting morale
 SpeechDiffToSkillCheckResult | > 0; speech diff for result = -1/1
 SpeechMulOnExtremeExhaustion | Player will have this speech multiplied by this value when he has exhaust equal to 0. Speech will not be changed when exhaust is 50. Linear interpolation on multiplier is applied when exhaust is between 0 and 50;
-SpeechXPLevelBase | 
-SpeechXPLevelDiff | 
+SpeechXPLevelBase |
+SpeechXPLevelDiff |
 SprintCost | stam cost of sprint
 StamDamage | see: rpglib::calcStaminaDamageCost
 StaminaDamageToInjury | note: stamina is [0-100] but injury is [0-1]
@@ -514,18 +514,18 @@ StamRegenCooldown | cooldown timer expiry
 StamRegenFromVit | how our VIT stat affects stamina regeneration
 StamRegenMoveMod | relative stam regen speed during movement
 StamRegenRelativeDiff | maximal relative difference to the base speed on low/high stamina
-StarvationExtremeThreshold | 
+StarvationExtremeThreshold |
 StarvationHealthLossSpeed | by design the same speed as the digestion
-StarvationHugeThreshold | 
+StarvationHugeThreshold |
 StarvationPlayerEffectMaxMax | the longest interval between effects for high hunger stat
 StarvationPlayerEffectMaxMin | the longest interval between effects for low hunger stat
 StarvationPlayerEffectMinMax | the shortest interval between effects for high hunger stat
 StarvationPlayerEffectMinMin | the shortest interval between effects for low hunger stat
-StarvationThreshold | 
+StarvationThreshold |
 StatCap | max stat level
 StatsToDodgePowTo | slot = relativeStats ^ this
 StatToMainLevelBase | a1 of the geometric progression
-StatXPAgilityPerDodge | 
+StatXPAgilityPerDodge |
 StatXPComboHit | xp gain after a kill
 StatXPHit | xp gain after a hit
 StatXPKill | xp gain after a dodge
@@ -541,8 +541,8 @@ StealthAttackMinXp | xp gain for successful stealth kill or take-down, weakest e
 StealthCooldown | after last detector npc stops seeing player
 StealthKillDamage | damage given to the victim
 StealthKillProbCoefA | stealth kill/knock-out probability formula
-StealthKillProbCoefB | 
-StealthKillProbCoefC | 
+StealthKillProbCoefB |
+StealthKillProbCoefC |
 StealthKnockOutUnconsciousDepthBase | the base unconsciousness depth for stealth knockout
 StealthSkillToFootstepSoundMult | how much are footsteps attenuated for the max skill
 StealthSkillToRecogTime | how much is the required time extended by the skill level (relative)
@@ -551,17 +551,17 @@ StealthSneakBaseDistance | sneaked distance that triggers stealth leveling
 StealthSneakBaseXp | base xp gain when sneaking
 StealthSneakCheckRadius | npc query radius when sneaking
 StealthSneakXpSumCoefA | combine xps from more npcs
-StealthSneakXpSumCoefB | 
+StealthSneakXpSumCoefB |
 StealthToUnconsciousDepth | modifies the time victim is unconscious
 StillAndHiddenHysteresis | switch the state after this timeout
 StillBuffDuration | duration of standing still after which Still buff bonuses are activated (in worldtime seconds)
 StolenGoodsForcedDiscount | price multiplier for when merchant detects that the sold items are stolen
-StoryProgressXPLevelBase | 
-StoryProgressXPLevelDiff | 
-StrAgiToEqwArmorLoad | 
+StoryProgressXPLevelBase |
+StoryProgressXPLevelDiff |
+StrAgiToEqwArmorLoad |
 StrengthToInventoryCapacity | derives the inventory capacity from the strength stat
-StrengthXPLevelBase | 
-StrengthXPLevelDiff | 
+StrengthXPLevelBase |
+StrengthXPLevelDiff |
 SuperFactionRepWeight | Weight of superfaction reputation (reputation median)
 SuperWeaponDefense | like the best shield mainly for AI, used to judge weapon
 SurfaceToArmorLoadALWCoef | Coef alw from terrain/surface to armor load influence calculation
@@ -579,8 +579,8 @@ VigourFull | maximum vigour
 VigourTickInterval | vigour timer expiry
 VisionToViewRadius | an increase of FOV caused by the hea stat
 VitalityToUnconsciousDepthFadeoutSpeed | relative vitality
-VitalityXPLevelBase | 
-VitalityXPLevelDiff | 
-WeakBlockStamCoef | 
+VitalityXPLevelBase |
+VitalityXPLevelDiff |
+WeakBlockStamCoef |
 WeaponDefenseToAttackingWeaponStatus | how opponet's defense value damages my weapon - hit to weapon/block
 WeaponStatusToAttackCoef | weapon health to status multiplicative coef
