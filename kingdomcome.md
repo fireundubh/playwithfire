@@ -23,6 +23,7 @@ Section | Description | Edit Status
 --- | --- | ---
 [Buff Implementations](kingdomcome/buffs) | A complete table of buff implementations | **Completed**
 [Perks and Effects](kingdomcome/perks) | A complete table of perks and their buff effects | *In progress*
+[RPG Parameters](kingdomcome/rpg-parameters) | A complete table of RPG parameters *and their descriptions* | **Completed**
 [Stats and Derived Stats](kingdomcome/stats) | Full and abbreviated stat and derived stat name mappings | *In progress*
 
 ## Wiki: Edit Status Legend
