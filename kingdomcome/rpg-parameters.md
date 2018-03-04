@@ -9,45 +9,45 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 Parameter | Description
 --- | ---
-AdditionalAttackerCountForMaxFadingBuff | for AdditionalAttackerCountFading buff
-AgiDiffToAttackSpeed | relative attak speed gain for one agi level difference
+AdditionalAttackerCountForMaxFadingBuff | For AdditionalAttackerCountFading buff
+AgiDiffToAttackSpeed | Relative attack speed gain for one Agility level difference
 AgilityXPLevelBase |
 AgilityXPLevelDiff |
-AimCiriticalLimitTime | time limit after when AI is notified about low stamina when aiming
-AimPainlessDelay | aiming without stam. loss
-AimSkillToZoom | zoom increase by each skill level above the base
-AimSpreadMax | aiming spread due to low stam and skill - max angle - used right before all the stamina is lost
-AimSpreadMinRatio | aiming spread min relative to max - this value is used right after entering the painless zone
-AimSpreadSkillDecrease | relative decrease of MAX aim spread for each skill level
-AimStamCost | after painless delay, stam loss
+AimCiriticalLimitTime | Time limit after AI is notified about low Stamina when aiming
+AimPainlessDelay | Aiming without Stamina loss
+AimSkillToZoom | Zoom increase by each skill level above the base
+AimSpreadMax | Aiming spread due to low Stamina and skill. Max angle. Used right before all Stamina is lost.
+AimSpreadMinRatio | Aiming spread minimum, relative to max. This value is used after entering the painless zone.
+AimSpreadSkillDecrease | Relative decrease of maximum aim spread for each skill level
+AimStamCost | Stamina loss after after painless delay
 AimZoomBase | aim zoom (=fov decrease) after reaching some skill level
-AimZoomBaseSkill | minimal skill level required to benefit from the zoom effect
+AimZoomBaseSkill | Minimal skill level required to benefit from the zoom effect
 AimZoomMax | maximal aim zoom (=fov decrease)
-AlchemyRecipeStepsTolerance | how many recipe steps might fail in order to successfully brew the recipe
-AlchemyToleranceBase | base brewing tolerance on level 1
+AlchemyRecipeStepsTolerance | How many recipe steps might fail in order to successfully brew the recipe
+AlchemyToleranceBase | Base brewing tolerance at level 1
 AlchemyTolerancePerLevel | Brewing tolerance gain per level
-AlchemyTrialEndErrorPerkTolerance | Additional tolerance gained by having Train And Error perk.
-AlchemyXPPerSuccessfullBrewing | how many XP you get when successfully brew a potion
-AlcoholBaseHangoverDuration | base max duration for hangover (after blackout) in world time
-AlcoholBlackoutDuration | blackout unconscious duration
-AlcoholContentFPAntidoteThreshold | food with alcohol content above this threashold have anti food poisoning effect.
-AlcoholDigestSpeedModfifOnEmptyStomache | multiplier for alc. digest speed on empty stomache
-AlcoholDigestSpeedModfifOnFullStomache | multiplier for alc. digest speed on full stomache
-AlcoholDrunkMaxExhaustNegativeEffect | max negative exhaust effect while drunk
-AlcoholDrunkThreshold | threshold for drunkenness mood from max alcohol poisoning
-AlcoholHangoverOffsetModif | starting hangover negative effects are modified by this offset
-AlcoholismDuration | alcoholism duration in world time
-AlcoholismMaxSkillLevelThreshold | temporary alcoholism threashold with max drinikng skill
-AlcoholismRemoveSpeed | alcoholism removed per world-time second (default 100 / 4days)
-AlcoholismThreshold | amount of alcohol that will cause temporary alcoholism
-AlcoholismTickInterval | alcoholism timer expiry
-AlcoholMaxAGIEffect | max negative/positive stat effect
-AlcoholMaxCHAEffect | max negative/positive stat effect
-AlcoholMaxCONEffect | max negative/positive stat effect
-AlcoholMaxDrinkingSkillHangoverDurationModifier | hangover duration modifier for max=best drinking skill
-AlcoholMaxSPCEffect | max negative/positive stat effect
-AlcoholMaxSTREffect | max negative/positive stat effect
-AlcoholMaxVITEffect | max negative/positive stat effect
+AlchemyTrialEndErrorPerkTolerance | Additional tolerance gained with Trial and Error perk
+AlchemyXPPerSuccessfullBrewing | XP gained when a potion is successfully brewed
+AlcoholBaseHangoverDuration | Base max duration for hangover (after blackout) in world time
+AlcoholBlackoutDuration | Blackout unconscious duration
+AlcoholContentFPAntidoteThreshold | Food with alcohol content above this threshold counters food poisoning
+AlcoholDigestSpeedModfifOnEmptyStomache | Alcohol digest speed multiplier on empty stomache
+AlcoholDigestSpeedModfifOnFullStomache | Alcohol digest speed multiplieron full stomache
+AlcoholDrunkMaxExhaustNegativeEffect | Max negative exhaustion effect while drunk
+AlcoholDrunkThreshold | Threshold for Drunkenness mood from max alcohol poisoning
+AlcoholHangoverOffsetModif | Starting hangover negative effects are modified by this offset
+AlcoholismDuration | Alcoholism duration in world time
+AlcoholismMaxSkillLevelThreshold | Temporary alcoholism threshold with max drinking skill
+AlcoholismRemoveSpeed | Alcoholism removed per world-time second (default: 100 every 4 days)
+AlcoholismThreshold | Amount of alcohol that will cause temporary alcoholism
+AlcoholismTickInterval | Alcoholism timer expiry
+AlcoholMaxAGIEffect | Max negative/positive stat effect
+AlcoholMaxCHAEffect | Max negative/positive stat effect
+AlcoholMaxCONEffect | Max negative/positive stat effect
+AlcoholMaxDrinkingSkillHangoverDurationModifier | Hangover duration modifier for max Drinking skill
+AlcoholMaxSPCEffect | Max negative/positive stat effect
+AlcoholMaxSTREffect | Max negative/positive stat effect
+AlcoholMaxVITEffect | Max negative/positive stat effect
 AlcoholMoodMaxExhaustPossitiveEffect | max positive exhaust effect while in mood
 AlcoholMoodThreshold | threshold for alcohol mood from max alcohol poisoning
 AlcoholPerkBacchusHangoverEffectMod | hangover effects mod
