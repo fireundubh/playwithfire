@@ -5,7 +5,11 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 # RPG Parameters
 **Data Quality Note:** The following descriptions were dumped directly from the game. The parameter names are correct, but the descriptions contain typos and misspellings. They will be cleaned up later.
 
-## Table
+## Tables
+
+These tables will be updated when the 1.3 patch is released.
+
+### Game Version 1.2.2
 
 Parameter | Default Value | Description
 --- | --- | ---
@@ -585,3 +589,24 @@ WeakBlockStamCoef | 2.000000 |
 WeaponDefenseToAttackingWeaponStatus | 0.010000 | how opponet's defense value damages my weapon - hit to weapon/block
 WeaponStatusToAttackCoef | 0.200000 | weapon health to status multiplicative coef
 
+### Game Version 1.2.5/1.3
+
+Parameter | Default Value | Description
+--- | --- | ---
+AlchemyXPPerAutocookBrewingRelative | |
+BlindViewRadiusFakeRelative | |
+CharismaMulOnExtremeExhaustionInterpolation | |
+ControllerLockPickingAppropriateTolerance | |
+ControllerLockPickingToleranceACoef | |
+ControllerLockPickingToleranceKCoef | |
+ControllerLockPickingToleranceMCoef | |
+ControllerLockPickingToleranceNCoef | |
+DamageToArmorStatus | |
+DamageToArmorStatusHigherLayers | |
+DamageToArmorStatusLowerLayers | |
+ImprovedSleepMultiplierSurvival | |
+InactiveTimeToDestroyOversleepCreated | |
+PickpocketingDistance | |
+PickpocketingMisstargetingTolerance | |
+PickpocketingRandomChanceRollMinCap | |
+UnarmedHitArmorDamageCoef | |
