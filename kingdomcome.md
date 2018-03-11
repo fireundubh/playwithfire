@@ -8,9 +8,9 @@ Welcome to the *Kingdom Come: Deliverance* wiki at **#playwithfire**. This wiki 
 
 ## Tools
 
-Name | Link | Description
---- | --- | ---
-Modsmith | [GitHub](https://github.com/fireundubh/modsmith) | Automatically packages mods for distribution, merges modified XML tables with vanilla tables at package time, and generates zero-byte TBL files as needed at package time
+Name | Developer | Link | Description
+--- | --- | --- | ---
+Modsmith | fireundubh | [GitHub](https://github.com/fireundubh/modsmith) | Automatically packages mods for distribution, merges modified XML tables with vanilla tables at package time, and generates zero-byte TBL files as needed at package time
 
 ## Scripting Reference
 
