@@ -2,15 +2,10 @@
 <!-- SUBTITLE: Kingdom Come: Deliverance -->
 
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
+![https://www.patreon.com/fireundubh](https://i.imgur.com/llPEyru.png)
 
 # Kingdom Come: Deliverance
 Welcome to the *Kingdom Come: Deliverance* wiki at **#playwithfire**. This wiki was created to provide modders with potentially useful technical information.
-
-## Tools
-
-Name | Developer | Description
---- | --- | ---
-[Modsmith](https://github.com/fireundubh/modsmith) | fireundubh | Automatically packages mods for distribution, merges modified XML tables with vanilla tables at package time, and generates zero-byte TBL files as needed at package time
 
 ## Scripting Reference
 
@@ -31,6 +26,12 @@ Section | Description | Edit Status
 [Perks and Effects](kingdomcome/perks) | A complete table of perks and their buff effects | *In progress*
 [RPG Parameters](kingdomcome/rpg-parameters) | A complete table of RPG parameters, default values, and their descriptions | **Completed**
 [Stats and Derived Stats](kingdomcome/stats) | Full and abbreviated stat and derived stat name mappings | *In progress*
+
+## Tools
+
+Name | Developer | Description
+--- | --- | ---
+[Modsmith](https://github.com/fireundubh/modsmith) | fireundubh | Automatically packages mods for distribution, merges modified XML tables with vanilla tables at package time, and generates zero-byte TBL files as needed at package time
 
 ## Wiki: Edit Status Legend
 
