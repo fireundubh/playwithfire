@@ -6,6 +6,12 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 # Kingdom Come: Deliverance
 Welcome to the *Kingdom Come: Deliverance* wiki at **#playwithfire**. This wiki was created to provide modders with potentially useful technical information.
 
+## Tools
+
+Name | Link | Description
+--- | --- | ---
+Modsmith | [GitHub](https://github.com/fireundubh/modsmith) | Automatically packages mods for distribution, merges modified XML tables with vanilla tables at package time, and generates zero-byte TBL files as needed at package time
+
 ## Scripting Reference
 
 ### Documentation
