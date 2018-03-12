@@ -158,4 +158,5 @@ Cpp:UniversalHealth |  |  | Release
 
 ## Credits
 
-**Moggabor** for categories, descriptions, and *future* patch data (probably a developer)
+* Warhorse developer **Moggabor** for categories, descriptions, and *future* patch data
+* Undocumented implementations were found via disassembly
