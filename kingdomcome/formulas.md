@@ -12,3 +12,5 @@ Herbalism Skill | Number of collected herbs | `numOfHerbs = RPG.HerbGatherSkillT
 Herbalism Skill | Radius of herb collection | `radius = RPG.HerbGatherSkillToRadius * skillLevel`
 Lockpicking Skill | XP reward for picking locks | `XP = RPG.LockPickingSuccessXPMulCoef * (lockDifficulty + 1) / (RPG.LockPickingSuccessXPDivCoef * skillLevel + 1)`
 Well Worn Perk | Weight reduced by Well Worn perk | `equippedWeight = standardWeight * (1.0 - EquippedWeightSubWithWellWornPerk)`
+
+For default values of RPG parameters, [go to the RPG Parameters page](https://wiki.fireundubh.com/kingdomcome/rpg-parameters).
