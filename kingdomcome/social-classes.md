@@ -121,8 +121,9 @@ Zora | Merchant | Neuhof villagers | Neuhof
 ## Lowborn
 
 * **Total social classes:** 43
-* **Total souls:** 3101
+* **Total souls:** 3059
 * Duplicate rows were removed for clarity.
+* Horses were removed because... you can't talk to them.
 
 Soul | Social Class | Faction | Location
 --- | --- | --- | ---
@@ -130,7 +131,6 @@ Adam | Beggar | Skalitz refugees - Rattay | Rattay
 Adam | Villager | Skalitz villagers | Skalitz
 Adela | Bathhousemaid | Ledetchko villagers | Ledetchko
 Agnes | Beggar | Skalitz refugees - Rattay | Rattay
-Al-Burāq | Animal-tamed |  | God knows where
 Alex | Beggar | Skalitz refugees - Rattay | Rattay
 Alex | Villager | Skalitz villagers | Skalitz
 Antonia | Beggar | Skalitz refugees - Rattay | Rattay
@@ -189,7 +189,6 @@ Bathmaid | Bathhousemaid | Ledetchko villagers | Ledetchko
 Bathmaid | Bathhousemaid | Rattay Citizens | Rattay
 Bathmaid | Bathhousemaid | Sasau villagers | Sasau
 Bathmaid | Bathhousemaid | Talmberg villagers | Talmberg
-Bayard | Animal-tamed |  | God knows where
 Bedrishka | Villager | Merhojed villagers | Merhojed
 Beggar Jane | Beggar | Skalitz refugees - Rattay | Rattay
 Beggar Jane | Villager | Skalitz villagers | Skalitz
@@ -208,7 +207,6 @@ Beran | Villager | Skalitz villagers | Skalitz
 Beran's wife | Beggar | Skalitz refugees - Rattay | Rattay
 Beran's wife | Villager | Skalitz villagers | Skalitz
 Betty | Villager | Talmberg villagers | Talmberg
-Binky | Animal-tamed |  | God knows where
 Black Lukesh | Villager | Talmberg villagers | Talmberg
 Blacksmith Mikesh | Blacksmith | Sasau villagers | Sasau
 Blacksmith | Blacksmith |  | 
@@ -222,7 +220,6 @@ Blacksmith's apprentice | Blacksmithapprentice | Rattay Citizens | Rattay
 Blacksmith's apprentice | Blacksmithapprentice | Talmberg villagers | Talmberg
 Blacksmith's wife | Villager | Sasau villagers | Sasau
 Borya   | Collier | Rovna villagers | Rovna
-Boxer  | Animal-tamed |  | God knows where
 Bran | Collier | Highland villagers | Highlands
 Brawler | Fightclubfighter | Skalitz villagers | Skalitz
 Brother Cellarius | Monk | Sasau Monastery monks | Monastery
@@ -231,7 +228,6 @@ Brother Librarian | Monk | Sasau Monastery monks | Monastery
 Brother Nevlas | Monk | Sasau Monastery monks | Monastery
 Brother Nicodemus | Apothecary | Sasau Monastery public | Monastery
 Brother Porter | Villager | Sasau Monastery public | Monastery
-Bucephalus | Animal-tamed |  | God knows where
 Butcher | Butcher | Ledetchko villagers | Ledetchko
 Butcher | Butcher | Rattay Citizens | Rattay
 Butcher | Butcher | Samopesh villagers | Samopesh
@@ -253,7 +249,6 @@ Charcoal-burner leader | Collier | Rattay's countryside | Rattay
 Charcoal-burner twin | Collier | Highland villagers | Highlands
 Charcoal-burner | Collier | Highland villagers | Highlands
 Charcoal-burner's Helper | Collier | Skalitz villagers | Skalitz
-Chollima | Animal-tamed |  | God knows where
 Circator John | Circator | Sasau Monastery monks | Monastery
 Circator | Circator | Samopesh villagers | Samopesh
 Circator | Circator | Sasau Monastery monks | Monastery
@@ -278,7 +273,6 @@ Deutsch's Wife | Villager | Skalitz villagers | Skalitz
 Elderly man | Miller | Rattay's countryside | Rattay
 Elderly woman | Villager | Rattay's countryside | Rattay
 Elishka | Villager | Rattay Citizens | Rattay
-Epona | Animal-tamed |  | God knows where
 Erik | Bandit | Rattay Citizens | Rattay
 Erik | Bandit | Vranik bandits | Vranik
 Executioner Hermann | Renegade | Rattay Citizens | Rattay
@@ -328,7 +322,6 @@ Hanekin Hare  | Poacher |  | Talmberg
 Hans Capon | Soldier | Rattay Citizens | Rattay
 Hans | Villager | Skalitz villagers | Skalitz
 Hanush | Bandit | Rattay Citizens | Rattay
-Hatatitla | Animal-tamed |  | God knows where
 Henry | Player | Player's faction | 
 Herb woman | Herbalist | Uzhitz villagers | Uzhitz
 Herbalist Kunhuta | Herbalist | Ledetchko villagers | Ledetchko
@@ -337,10 +330,6 @@ Herbalist | Herbalist | Samopesh villagers | Samopesh
 Herbalist | Herbalist | Uzhitz villagers | Uzhitz
 Hired hand | Bandit | Sasau villagers | Sasau
 Hired hand | Villager | Sasau villagers | Sasau
-Horse | Animal-tamed |  | 
-Horse | Animal-tamed | Animals | God knows where
-Horse | Animal-tamed | Sasau villagers | Sasau
-Horse | Animal-tamed | Talmberg villagers | Talmberg
 Horse | None |  | 
 Insomniac | Beggar | Skalitz refugees - Sasau | Sasau
 Jake Piper | Villager | Talmberg villagers | Talmberg
@@ -351,8 +340,6 @@ Jaroslav | Soldier | Rattay Soldiers | Rattay
 Johanka | Beggar | Skalitz refugees - Sasau | Sasau
 Johanka | Villager | Skalitz villagers | Skalitz
 Josef | Villager | Uzhitz villagers | Uzhitz
-Kanthaka | Animal-tamed |  | God knows where
-Kelpie | Animal-tamed |  | God knows where
 Khuta | Villager | Uzhitz villagers | Uzhitz
 Konrad Kyeser | None | Rattay Citizens | Rattay
 Kornelius | Beggar | Skalitz refugees - Rattay | Rattay
@@ -409,13 +396,10 @@ Olena | Villager | Talmberg villagers | Talmberg
 Overseer | Villager | Sasau Monastery public | Monastery
 Overseer's Hand | Villager | Sasau Monastery public | Monastery
 Pavel | Villager | Uzhitz villagers | Uzhitz
-Pebbles | Animal-tamed |  | God knows where
-Pegasus | Animal-tamed |  | God knows where
 Pickman | Beggar | Skalitz refugees - Rattay | Rattay
 Poacher Radan | Collier | Highland villagers | Highlands
 Poacher | Poacher |  | Talmberg
 Poacher | Poacher | Event civilians | God knows where
-Podagros | Animal-tamed |  | God knows where
 Prior | Monk | Sasau Monastery monks | Monastery
 Prokop | Villager | Sasau villagers | Sasau
 Punch | Ruffian | Sasau villagers | Sasau
@@ -430,8 +414,6 @@ Reeky | Poacher | Ledetchko villagers | Ledetchko
 Refugee | Refugee | Samopesh villagers | Samopesh
 Refugee | Refugee | Skalitz refugees - Rattay | Rattay
 Ringlet  | Beggar | Rattay Citizens | Rattay
-Roach | Animal-tamed |  | God knows where
-Rocinante | Animal-tamed |  | God knows where
 Rock | Beggar | Skalitz refugees - Rattay | Rattay
 Ruch | Villager | Uzhitz villagers | Uzhitz
 Ruda | Soldier | Rattay Soldiers | Rattay
@@ -440,7 +422,6 @@ Ruffian | Ruffian | Rattay Citizens | Rattay
 Ruffian | Ruffian | Sasau villagers | Sasau
 Rupert | Craftsman | Talmberg villagers | Talmberg
 Sassau scribe | Scribe | Sasau villagers | Sasau
-Schemig | Animal-tamed |  | God knows where
 Scribe | Craftsman | Rattay Citizens | Rattay
 Scribe | Scribe | Rattay Citizens | Rattay
 Scribe | Scribe | Samopesh villagers | Samopesh
@@ -458,7 +439,6 @@ Sir Divish   | Soldier | Talmberg soldiers | Talmberg
 Sir Radzig Kobyla | Soldier | Talmberg soldiers | Talmberg
 Sir Robard  | Bandit | Talmberg soldiers | Talmberg
 Sir Robard  | Soldier | Talmberg soldiers | Talmberg
-Sleipnir | Animal-tamed |  | God knows where
 Soldier  | Fake_soldier |  | God knows where
 Soldier  | Soldier | Bernard soldiers | Rattay
 Soldier  | Soldier | Conquest (attackers) | Talmberg
@@ -494,9 +474,6 @@ Thomas | Beggar | Skalitz refugees - Sasau | Sasau
 Timmy | Villager |  | God knows where
 Tonda | Beggar | Skalitz refugees - Rattay | Rattay
 Tonda | Villager | Skalitz villagers | Skalitz
-Trojan | Animal-tamed |  | God knows where
-Tulpar | Animal-tamed |  | God knows where
-Uchchaihshravas | Animal-tamed |  | God knows where
 Urban  | Soldier | Sasau Monastery public | Monastery
 Vagabond | Beggar | Skalitz refugees - Rattay | Rattay
 Vagrant | Villager | Sasau villagers | Sasau
@@ -532,7 +509,6 @@ Villager | Villager | Uzhitz villagers | Uzhitz
 Vincent | Beggar | Skalitz refugees - Rattay | Rattay
 Vincent | Villager | Merhojed villagers | Merhojed
 Vitus | Craftsman | Sasau villagers | Sasau
-Warhorse Jenda | Animal-tamed |  | God knows where
 Watchman | Watchman |  | 
 Watchman | Watchman | Ledetchko villagers | Ledetchko
 Watchman | Watchman | Merhojed villagers | Merhojed
@@ -555,4 +531,3 @@ Zbyshek | Villager | Skalitz villagers | Skalitz
 Zdena | Bathhousemaid | Rattay Citizens | Rattay
 Zlata | Villager | Uzhitz villagers | Uzhitz
 Zmola | Renegade | Sasau Monastery public | Monastery
-Zora's dappled grey | None |  | 
