@@ -31,12 +31,12 @@ Offset | Name | Type
 
 ### Hashes
 
-_Additional hash information provided by moggabor and Bodowens86._
-
 Hash | Algorithm | Initial Value
 --- | --- | ---
 Descriptors Hash | FNV-1a | `0x811c9dc5`
 Layout Hash | FNV-1a | `0x811c9dc5`
+
+_Additional hash information and pseudocode provided by moggabor._
 
 #### Pseudocode
 
