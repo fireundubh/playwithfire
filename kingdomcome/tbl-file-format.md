@@ -42,6 +42,8 @@ _Additional hash information and pseudocode provided by moggabor and Bodowens86.
 
 ### Hash Generation Pseudocode
 
+This pseudocode describes how the descriptors and layout hashes are generated.
+
 ```text
 descriptorsHash = 0x811c9dc5
 layoutHash = 0x811c9dc5
