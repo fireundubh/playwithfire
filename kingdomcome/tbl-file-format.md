@@ -9,9 +9,9 @@ _This information was mirrored from the Nexus Wiki, contributed by Bodowens86, w
 
 Offset | Name | Type
 --- | --- | ---
-0 | Header | Header
-28 | Row Data | Type depends on table structure, count is `Line Count` in `Header`
-28 + line size * line count | String Data |
+`0` | Header | Header
+`28` | Row Data | Type depends on table structure, count is `Line Count` in `Header`
+`28 + line size * line count` | String Data |
 
 Line size can be calculated as `(file size - header size - string data size) / line count`.
 
@@ -19,13 +19,13 @@ Line size can be calculated as `(file size - header size - string data size) / l
 
 Offset | Name | Type
 --- | --- | --- | --- | ---
-0 | File Format Version | int32
-4 | Descriptors Hash | uint32
-8 | Layout Hash | uint32
-12 | Table Version | int32
-16 | Line Count | int32
-20 | String Data Size | int32
-24 | Unique String Count | int32
+`0` | File Format Version | `int32`
+`4` | Descriptors Hash | `uint32`
+`8` | Layout Hash | `uint32`
+`12` | Table Version | `int32`
+`16` | Line Count | `int32`
+`20` | String Data Size | `int32`
+`24` | Unique String Count | `int32`
 
 ## Descriptors and Layout Hashes
 
@@ -77,19 +77,19 @@ layoutHash = crc32(lineSize, layoutHash)
 
 ## Data Types
 
-Type ID | Name | Bit Width | Width in Bytes | Name in XML table descriptor
+Type ID | Name | Bit Width | Width in Bytes | XML Type Name
 --- | --- | --- | --- | ---
--1 | `InvalidType` | |
-0 | `Int` | 32 bit | 4 bytes | `integer`
-1 | `Int64` | 64 bit | 8 bytes | `bigint`
-2 | `Float` | 32 bit | 4 bytes | `real`
-3 | `Guid` | 128 bit | 16 bytes | `uuid`
-4 | `Bool` | 8 bit | 1 byte | `boolean`
-5 | `String` | 32 bit | 4 bytes | `text`, `character varying`
-6 | `Vec3` | 96 bit (3 * 32 bit) | 12 bytes | `vec3`
-7 | `Quat` | 128 bit (4 * 32 bit) | 16 bytes | `quat`
-8 | `QuatT` | 224 bit ((4 + 3) * 32 bit) | 28 bytes | `quatt`
-9 | `Padding` | variable | |
+`-1` | `InvalidType` | |
+`0` | `Int` | 32 bit | 4 bytes | `integer`
+`1` | `Int64` | 64 bit | 8 bytes | `bigint`
+`2` | `Float` | 32 bit | 4 bytes | `real`
+`3` | `Guid` | 128 bit | 16 bytes | `uuid`
+`4` | `Bool` | 8 bit | 1 byte | `boolean`
+`5` | `String` | 32 bit | 4 bytes | `text`, `character varying`
+`6` | `Vec3` | 96 bit (3 * 32 bit) | 12 bytes | `vec3`
+`7` | `Quat` | 128 bit (4 * 32 bit) | 16 bytes | `quat`
+`8` | `QuatT` | 224 bit ((4 + 3) * 32 bit) | 28 bytes | `quatt`
+`9` | `Padding` | variable | |
 
 _Type IDs provided by moggabor._
 
