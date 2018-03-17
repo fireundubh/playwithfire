@@ -3,7 +3,7 @@
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
 # TBL File Format
-_This information was mirrored from the Nexus Wiki, contributed by Bodowens86._
+_This information was mirrored from the Nexus Wiki, contributed by Bodowens86, with some additions._
 
 ## Top-Level File Format
 
