@@ -79,17 +79,17 @@ layoutHash = crc32(lineSize, layoutHash)
 
 Type ID | Name | Bit Width | Width in Bytes | Name in XML table descriptor
 --- | --- | --- | --- | ---
--1 | InvalidType | |
-0 | Int | 32 bit | 4 bytes | integer
-1 | Int64 | 64 bit | 8 bytes | bigint
-2 | Float | 32 bit | 4 bytes | real
-3 | Guid | 128 bit | 16 bytes | uuid
-4 | Bool | 8 bit | 1 byte | boolean
-5 | String | 32 bit | 4 bytes | text, character varying
-6 | Vec3 | 96 bit (3 * 32 bit) | 12 bytes | vec3
-7 | Quat | 128 bit (4 * 32 bit) | 16 bytes | quat
-8 | QuatT | 224 bit ((4 + 3) * 32 bit) | 28 bytes | quatt
-9 | Padding | variable | |
+-1 | `InvalidType` | |
+0 | `Int` | 32 bit | 4 bytes | `integer`
+1 | `Int64` | 64 bit | 8 bytes | `bigint`
+2 | `Float` | 32 bit | 4 bytes | `real`
+3 | `Guid` | 128 bit | 16 bytes | `uuid`
+4 | `Bool` | 8 bit | 1 byte | `boolean`
+5 | `String` | 32 bit | 4 bytes | `text`, `character varying`
+6 | `Vec3` | 96 bit (3 * 32 bit) | 12 bytes | `vec3`
+7 | `Quat` | 128 bit (4 * 32 bit) | 16 bytes | `quat`
+8 | `QuatT` | 224 bit ((4 + 3) * 32 bit) | 28 bytes | `quatt`
+9 | `Padding` | variable | |
 
 _Type IDs provided by moggabor._
 
