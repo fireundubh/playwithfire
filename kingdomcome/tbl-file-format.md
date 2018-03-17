@@ -77,7 +77,7 @@ layoutHash = crc32(lineSize, layoutHash)
 
 ## Data Types
 
-Type ID | Name | Bit Width | Length in Bytes | Name in XML table descriptor
+Type ID | Name | Bit Width | Width in Bytes | Name in XML table descriptor
 --- | --- | --- | --- | ---
 -1 | InvalidType | |
 0 | Int | 32 bit | 4 bytes | integer
