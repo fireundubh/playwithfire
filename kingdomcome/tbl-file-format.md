@@ -33,8 +33,8 @@ Offset | Name | Type
 
 Hash | Algorithm | Initial Value
 --- | --- | ---
-Descriptors Hash | FNV-1a | `0x811c9dc5`
-Layout Hash | FNV-1a | `0x811c9dc5`
+Descriptors Hash | 32-bit FNV-1a | `0x811c9dc5`
+Layout Hash | 32-bit FNV-1a | `0x811c9dc5`
 
 _Additional hash information and pseudocode provided by moggabor._
 
