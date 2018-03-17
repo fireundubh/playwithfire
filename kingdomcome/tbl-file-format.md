@@ -29,7 +29,7 @@ Offset | Name | Type
 20 | String Data Size | int32
 24 | Unique String Count | int32
 
-### Hashes
+## Descriptors and Layout Hashes
 
 Generating new hashes is unnecessary because new XML files cannot be added without modifying the game binaries.
 
@@ -42,7 +42,7 @@ Layout Hash | 32-bit FNV-1a | `0x811c9dc5`
 
 _Additional hash information and pseudocode provided by moggabor and Bodowens86._
 
-#### Hash Generation Pseudocode
+### Hash Generation Pseudocode
 
 ```text
 descriptorsHash = 0x811c9dc5
