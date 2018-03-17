@@ -93,5 +93,6 @@ _Type IDs provided by moggabor._
 
 ### Notes
 
-* Strings are stored as 32-bit signed integers pointing into the string table​.
+* Strings are stored as 32-bit signed integers pointing into the string table.
 * Most tables do not use any padding. Whether table uses or doesn't use padding is hard-coded in KCD source. KCD data can only tell you that there is some padding somewhere, but not where. To see whether table uses padding, compare table description in XML file with line size in TBL file.
+* Padding is not a true data type and relates to the memory layout in C++.
