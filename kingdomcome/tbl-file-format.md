@@ -13,8 +13,6 @@ Offset | Name | Type
 28 | Row Data | Type depends on table structure, count is `Line Count` in `Header`
 28 + line size * line count | String Data |
 
-### Notes
-
 Line size can be calculated as `(file size - header size - string data size) / line count`.
 
 ## Header Format
