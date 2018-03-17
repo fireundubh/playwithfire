@@ -3,7 +3,7 @@
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
 # TBL File Format
-This information was mirrored from the Nexus Wiki, contributed by "Bodowens86."
+_This information was mirrored from the Nexus Wiki, contributed by Bodowens86._
 
 ## Top-Level File Format
 
@@ -20,7 +20,7 @@ Line size can be calculated as `(file size - header size - string data size) / l
 ## Header Format
 
 Offset | Name | Type
---- | --- | ---
+--- | --- | --- | --- | ---
 0 | File Format Version | int32
 4 | Descriptors Hash | uint32
 8 | Layout Hash | uint32
@@ -29,20 +29,65 @@ Offset | Name | Type
 20 | String Data Size | int32
 24 | Unique String Count | int32
 
+### Hashes
+
+_Additional hash information provided by moggabor and Bodowens86._
+
+Hash | Algorithm | Initial Value
+--- | --- | ---
+Descriptors Hash | FNV-1a | `0x811c9dc5`
+Layout Hash | FNV-1a | `0x811c9dc5`
+
+#### Pseudocode
+
+```text
+descriptorsHash = 0x811c9dc5
+layoutHash = 0x811c9dc5
+explicitPaddingSize = 0
+maxColumnAlignment = 1
+lineSize = 0
+
+for column in columns:
+	descriptorsHash = crc32(column.name, descriptorsHash)
+	descriptorsHash = crc32(column.typeID, descriptorsHash)
+	layoutHash = crc32(column.offset, layoutHash)
+
+	if columnDataType == Padding:
+		explicitPaddingSize += column.size
+		continue
+
+	nextOffset = column.offset + column.size
+	if lineSize < nextOffset:
+		lineSize = nextOffset
+
+	if maxColumnAlignment < column.alignment:
+		maxColumnAlignment = column.alignment
+
+lineSize += explicitPaddingSize
+
+if lineSize % maxColumnAlignment:
+	lineSize = maxColumnAlignment * ((lineSize + maxColumnAlignment - 1) / maxColumnAlignment)
+
+layoutHash = crc32(lineSize, layoutHash)
+```
+
 ## Data Types
 
-Name | Width in TBL file | Name in XML table descriptor
---- | --- | ---
-Int | 32 bit | integer
-Int64 | 64 bit | bigint
-Float | 32 git | real
-Guid | 128 bit | uuid
-Bool | 8 bit | boolean
-String | 32 bit | text, character varying
-Vec3 | 96 bit (3 * 32 bit) | vec3
-Quat | 128 bit (4 * 32 bit) | quat
-QuatT | 224 bit ((4 + 3) * 32 bit) | quatt
-Padding | variable | 
+Type ID | Name | Width in TBL file | Name in XML table descriptor
+--- | --- | --- | ---
+-1 | InvalidType | |
+0 | Int | 32 bit | integer
+1 | Int64 | 64 bit | bigint
+2 | Float | 32 git | real
+3 | Guid | 128 bit | uuid
+4 | Bool | 8 bit | boolean
+5 | String | 32 bit | text, character varying
+6 | Vec3 | 96 bit (3 * 32 bit) | vec3
+7 | Quat | 128 bit (4 * 32 bit) | quat
+8 | QuatT | 224 bit ((4 + 3) * 32 bit) | quatt
+9 | Padding | variable | 
+
+_Type IDs provided by moggabor._
 
 ### Notes
 
