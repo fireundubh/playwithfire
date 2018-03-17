@@ -30,6 +30,14 @@ Section | Description | Edit Status
 [Social Classes](kingdomcome/social-classes) | A complete table of Highborn and Lowborn souls with faction and location names | **Completed**
 [Stats and Derived Stats](kingdomcome/stats) | Full and abbreviated stat and derived stat name mappings | *In progress*
 
+## Technical Reference
+
+### Documentation
+
+Section | Description | Edit Status
+--- | --- | ---
+[TBL File Format](kingdomcome/tbl-file-format) | TBL file format specification | **Mirrored**
+
 ## Tools
 
 Name | Developer | Description
