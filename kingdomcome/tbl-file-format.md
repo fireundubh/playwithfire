@@ -31,14 +31,18 @@ Offset | Name | Type
 
 ### Hashes
 
+Generating new hashes is unnecessary because new XML files cannot be added without modifying the game binaries.
+
+These hashes are not dynamically generated based on the table content; they are hardcoded.
+
 Hash | Algorithm | Initial Value
 --- | --- | ---
 Descriptors Hash | 32-bit FNV-1a | `0x811c9dc5`
 Layout Hash | 32-bit FNV-1a | `0x811c9dc5`
 
-_Additional hash information and pseudocode provided by moggabor._
+_Additional hash information and pseudocode provided by moggabor and Bodowens86._
 
-#### Pseudocode
+#### Hash Generation Pseudocode
 
 ```text
 descriptorsHash = 0x811c9dc5
