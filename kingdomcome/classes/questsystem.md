@@ -28,7 +28,7 @@ Method | Return Type | Description
 `IsQuestCompleted(string: questName)` | boolean
 `IsQuestStarted(string: questName)` | boolean
 `IsQuestUnchanged(string: questName)` | boolean
-`RegisterQuestEntity(entityId)` |
+`RegisterQuestEntity(uuid: entityId)` |
 `ResetQuest(string: questName)` |
 `StartObjective(string: questName, string: objectiveName)` | 
 `StartQuest(string: questName)` |
