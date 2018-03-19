@@ -99,8 +99,8 @@ ID | Abbr. | Internal Name | Example | Description
 62 | `lfu` | DerivStat_LockFailUnlockProb | lfu=0.1 | 10% chance of opening locks instantly
 63 | `lio` | DerivStat_LockInstantOpenDifficulty | lio=0.3 | Modifies the maximum lock difficulty of instantly unlockable locks
 207 | `lpb` | | | 
-198 | `lpd` | Lockpicking Difficulty | | Adjusts the difficulty rating of locks
-199 | `lpn` | Lockpicking Noise | | Modifies the amount of noise produced by lockpicking
+198 | `lpd` | | | Adjusts the difficulty rating of locks
+199 | `lpn` | | | Modifies the amount of noise produced by lockpicking
 47 | `lpv` | DerivStat_LightProbeVisibility | | 
 61 | `lsa` | DerivStat_LockStartAngle | | Modifies the lockpick's proximity to the end of the lockpicking minigame
 69 | `lvl` | DerivStat_MainLevel | | Modifies the player's Main Level
