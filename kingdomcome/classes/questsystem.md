@@ -10,8 +10,8 @@ Method | Return Type | Description
 --- | --- | ---
 `ActivateQuest(string: questName, [boolean: unknown])` |
 `AreQuestVIPsAlive(string: questName)` | boolean
-`CancelObjective(string: questName, string: objectiveName, sendMessage)` |
-`CancelQuest(string: questName, flag)` | 
+`CancelObjective(string: questName, string: objectiveName, boolean: sendMessage)` |
+`CancelQuest(string: questName, [unknown: flag])` | 
 `CanRepeatQuest(string: questName)` | boolean
 `CompleteObjective(string: questName, string: objectiveName)` |
 `DeactivateQuest(string: questName)`  |
