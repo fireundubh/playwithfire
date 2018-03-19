@@ -35,13 +35,30 @@ In `Libs\Tables\rpg\buff.xml`, buffs are defined in rows. Each row has a `params
 
 **Note:** The `×` symbol is used in this table to avoid formatting issues. In practice, the correct operator is the asterisk (`*`).
 
+
+### Stats
+
+Abbr. | Internal Name | Example | Description
+--- | --- | --- | ---
+agi | Stat_Agility | agi+1 | Modifies the Agility stat
+bar | Stat_Barter | bar+3 | Modifies the Barter stat
+cou | Stat_Courage |  | Modifies the Courage stat
+hea | Stat_Hearing |  | Modifies the Hearing stat
+prg | Stat_StoryProgress |  | No description entered.
+rep | Stat_PlayerReputation |  | Modifies the player's reputation
+spc | Stat_Speech | spc+1 | Modifies the Speech stat
+str | Stat_Strength | str+1 | Modifies the Strength stat
+vis | Stat_Vision |  | Modifies the Vision stat
+vit | Stat_Vitality | vit+1 | Modifies the Vitality stat
+
+### Derived Stats
+
 Abbr. | Internal Name | Example | Description
 --- | --- | --- | ---
 aco | DerivStat_ArmorCollisionWeight | aco×6 | Modifies the impact weight of armor when colliding with another entity 
 act |  |  | No description entered
 ade |  |  | No description entered
 adm | DerivStat_AlcoholDigestMod |  | Modifies the rate of alcohol digestion
-agi | Stat_Agility | agi+1 | Modifies the Agility stat
 ahm | Mounted Attack Damage | ahm×1.15 | Modifies the amount of attack damage while mounted
 ain | | ain×1.3 | Modifies the chance to cause bleeding
 alc | DerivStat_Alcoholism |  | No description entered
@@ -51,7 +68,6 @@ apr | DerivStat_AttackProtection |  | No description entered
 arr | DerivStat_ArmorRating | arr×1.3 | Modifies the chance to cause enemies to flee
 asp |  |  | No description entered
 bad | DerivStat_Badassness | bad+3 | Modifies the Badassness derived stat
-bar | Stat_Barter | bar+3 | Modifies the Barter stat
 bld | DerivStat_Bloodiness |  | No description entered
 ble | DerivStat_BleedingTotal |  | No description entered
 bma | DerivStat_BuyMarginAdjust | bma+0.15 | Modifies the percentage amount of money received in trade
@@ -71,7 +87,6 @@ cli | | cli+0.4 | Modifies the chance to overpower an opponent in a clinch
 coc | DerivStat_Consciousness |  | No description entered
 con | DerivStat_Conspicuousness | con-1 | Modifies the hostile search duration of NPCs
 cos |  |  | No description entered
-cou | Stat_Courage |  | Modifies the Courage stat
 cow | DerivStat_CollisionWeight | cow+1200 | Modifies the overall impact of colliding with another entity 
 dbf | DerivStat_DiceBustFixing |  | No description entered
 dee |  |  | No description entered
@@ -97,7 +112,6 @@ fsm | DerivStat_FootstepSoundMultiplier |  | Modifies the noise produced by walk
 grm | DerivStat_GoodReputationMod |  | Modifies the influence of positive actions on reputation
 hac | DerivStat_HaggleAdditionalChances |  | Modifies the number of times a trader will haggle
 hcm | DerivStat_HorseCourageMod |  | Modifies the Courage stat of the mounted horse
-hea | Stat_Hearing |  | Modifies the Hearing stat
 hgs | DerivStat_HerbGatherStrengthXp |  | Modifies the amount of Strength skill experience gained from herb gathering
 hko | DerivStat_HeadHitKnockOutProbability |  | Modifies the chance of knocking out an opponent with a blow to the head
 hlh |  | hlh×0.5 | not_so_tough_guy buff
@@ -142,14 +156,12 @@ pos | DerivStat_PocketSight | pos+2 | reveals some number of items while pickpoc
 ppr | DerivStat_PickpocketProtection |  | No description entered
 prb | DerivStat_PerceptionPriorityBoost |  | No description entered
 prc | DerivStat_PicklockReturnChance | prc+0.2 | Modifies the percentage chance of repairing a broken lockpick
-prg | Stat_StoryProgress |  | No description entered.
 pt1 | DerivStat_PerfectThrowMultiplier1 |  | No description entered
 pt5 | DerivStat_PerfectThrowMultiplier5 |  | No description entered
 ran | DerivStat_RobbedAngriness | ran+1 | No description entered
 rch | DerivStat_RelativeCharisma |  | No description entered
 rcw | DerivStat_RelativeCarriedWeight |  | No description entered
 rdq | DerivStat_ReadingQuality | rdq>1 | It doesn't matter to you where you read, you get a learning bonus anywhere you read
-rep | Stat_PlayerReputation |  | Modifies the player's reputation
 rml | DerivStat_RandomMoneyLoot |  | No description entered
 rms | DerivStat_RealMoveSpeedMod |  | No description entered
 rsa | DerivStat_RelativeMovementSpeedAddition |  | No description entered.
@@ -163,19 +175,15 @@ sle | DerivStat_Sleeping |  | No description entered
 slh | |  | Unknown - Could modified the rate at which stamina recovers
 sls |  | sls×0.7 | blocking costs 30% less stamina
 sma | DerivStat_SellMarginAdjust | sma-0.2 | Modifies the percentage amount of money given in trade
-spc | Stat_Speech | spc+1 | Modifies the Speech stat
 sra | | sra×1.5 | 
 srb |  |  | No description entered
 src | DerivStat_StaminaRegenCooldown |  | No description entered
 srg | | srg×1.5 | Modifies the rate at which stamina regenerates
-str | Stat_Strength | str+1 | Modifies the Strength stat
 sur | DerivStat_Surrendering |  | No description entered
 ufo | DerivStat_UnconsciousnessFadeoutSpeed | ufo×100 | infinite_unconsciousness buff
 upr | DerivStat_UnconsciousnessProtection |  | No description entered
 vib | DerivStat_Visibility | vib-10 | Dog Person
 vir | DerivStat_ViewRadius |  | No description entered
-vis | Stat_Vision |  | Modifies the Vision stat
-vit | Stat_Vitality | vit+1 | Modifies the Vitality stat
 wac |  |  | No description entered
 was | DerivStat_RangedWeaponAimSpread |  | No description entered
 wat | Weapon Attack | wat×1.2 | Modifies the amount of attack damage inflicted
