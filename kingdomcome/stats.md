@@ -44,8 +44,8 @@ Internal ID | Abbr. | Internal Name | Example | Description
 38 | `bar` | Stat_Barter | bar+3 | Modifies the Barter stat
 39 | `cou` | Stat_Courage |  | Modifies the Courage stat
 37 | `hea` | Stat_Hearing |  | Modifies the Hearing stat
-41 | `prg` | Stat_StoryProgress |  | No description entered.
-40 | `rep` | Stat_PlayerReputation |  | Modifies the player's reputation
+41 | `prg` | Stat_StoryProgress |  | 
+40 | `rep` | Stat_PlayerReputation |  | 
 35 | `spc` | Stat_Speech | spc+1 | Modifies the Speech stat
 32 | `str` | Stat_Strength | str+1 | Modifies the Strength stat
 36 | `vis` | Stat_Vision |  | Modifies the Vision stat
