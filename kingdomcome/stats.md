@@ -293,7 +293,7 @@ ID | Abbr | Description
 273 | `Perception`
 275 | `StaminaUpdate`
 
-## Unknown Stats and Derived Stats
+## Unknown Stats
 
 Abbr. | Internal Name | Example | Description
 --- | --- | --- | ---
