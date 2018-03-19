@@ -38,18 +38,18 @@ In `Libs\Tables\rpg\buff.xml`, buffs are defined in rows. Each row has a `params
 
 ### Stats
 
-Abbr. | Internal Name | Example | Description
---- | --- | --- | ---
-`agi` | Stat_Agility | agi+1 | Modifies the Agility stat
-`bar` | Stat_Barter | bar+3 | Modifies the Barter stat
-`cou` | Stat_Courage |  | Modifies the Courage stat
-`hea` | Stat_Hearing |  | Modifies the Hearing stat
-`prg` | Stat_StoryProgress |  | No description entered.
-`rep` | Stat_PlayerReputation |  | Modifies the player's reputation
-`spc` | Stat_Speech | spc+1 | Modifies the Speech stat
-`str` | Stat_Strength | str+1 | Modifies the Strength stat
-`vis` | Stat_Vision |  | Modifies the Vision stat
-`vit` | Stat_Vitality | vit+1 | Modifies the Vitality stat
+Internal ID | Abbr. | Internal Name | Example | Description
+--- | --- | --- | --- | ---
+33 | `agi` | Stat_Agility | agi+1 | Modifies the Agility stat
+38 | `bar` | Stat_Barter | bar+3 | Modifies the Barter stat
+39 | `cou` | Stat_Courage |  | Modifies the Courage stat
+37 | `hea` | Stat_Hearing |  | Modifies the Hearing stat
+41 | `prg` | Stat_StoryProgress |  | No description entered.
+40 | `rep` | Stat_PlayerReputation |  | Modifies the player's reputation
+35 | `spc` | Stat_Speech | spc+1 | Modifies the Speech stat
+32 | `str` | Stat_Strength | str+1 | Modifies the Strength stat
+36 | `vis` | Stat_Vision |  | Modifies the Vision stat
+34 | `vit` | Stat_Vitality | vit+1 | Modifies the Vitality stat
 
 ### Derived Stats
 
