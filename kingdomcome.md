@@ -28,6 +28,7 @@ Section | Description | Edit Status
 [Perks and Effects](kingdomcome/perks) | A complete table of perks and their buff effects | *In progress*
 [RPG Parameters](kingdomcome/rpg-parameters) | A complete table of RPG parameters, default values, and their descriptions | **Completed**
 [Social Classes](kingdomcome/social-classes) | A complete table of Highborn and Lowborn souls with faction and location names | **Completed**
+[Soul Abilities](kingdomcome/soul-abilities) | A complete table of soul abilities | **Completed**
 [Stats and Derived Stats](kingdomcome/stats) | Full and abbreviated stat and derived stat name mappings | *In progress*
 
 ## Technical Reference
