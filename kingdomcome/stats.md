@@ -166,132 +166,139 @@ ID | Abbr. | Internal Name | Example | Description
 
 ## Other Stats
 
-ID | Abbr | Description
---- | --- | ---
-0 | `Stealth`
-1 | `HorseRiding`
-2 | `Fencing`
-3 | `Bard`
-4 | `Lockpicking`
-5 | `Pickpocketing`
-6 | `Alchemy`
-7 | `Cooking`
-8 | `Repairing`
-9 | `Smithing`
-10 | `Fishing`
-11 | `Mining`
-12 | `FirstAid`
-13 | `Drinking`
-14 | `Hunter`
-15 | `Defense`
-16 | `WeaponSword`
-17 | `WeaponAxe`
-18 | `WeaponBow`
-19 | `WeaponCrossbow`
-20 | `WeaponShield`
-21 | `WeaponMace`
-22 | `WeaponDagger`
-23 | `WeaponLarge`
-24 | `WeaponUnarmed`
-25 | `Herbalism`
-26 | `Reading`
-27 | `Tailoring`
-28 | `Armourer`
-29 | `WeaponSmithing`
-30 | `Shoemaking`
-146 | `health`
-147 | `stamina`
-148 | `exhaust`
-149 | `hunger`
-150 | `karma`
-151 | `alcoholism`
-153 | `StaminaRegenCooldown`
-154 | `HasUnholsteredWeapon`
-155 | `HasUnholsteredMissileWeapon`
-156 | `HasRaisedWeapon`
-157 | `IsBlocking`
-158 | `IsAiming`
-159 | `HasActiveThreats`
-160 | `IsInCombatDanger`
-161 | `IsActiveInCombat`
-162 | `IsRunning`
-163 | `WasRunning`
-164 | `WannaSprint`
-165 | `IsMoving`
-166 | `WasMoving`
-167 | `IsSprinting`
-168 | `WasSprinting`
-169 | `IsOnHorse`
-170 | `IsStealth`
-171 | `IsPotentialStealth`
-172 | `IsInAir`
-173 | `HasLimitedRunByItem`
-174 | `HasLimitedSprintByItem`
-210 | `Dodge`
-211 | `PerfectBlock`
-212 | `Riposte`
-213 | `Finticka`
-214 | `StealthKnockOut`
-215 | `StealthKill`
-216 | `HorsePullDown`
-217 | `Bumper`
-218 | `Deprecated2`
-219 | `Deprecated1`
-220 | `Comrade`
-221 | `Deprecated5`
-222 | `EasyWayOut`
-223 | `Deprecated4`
-224 | `Reading_ArtAdmirer`
-225 | `Reading_AvidReader`
-226 | `_unused_`
-227 | `SteakTartare`
-228 | `TrialAndError`
-229 | `EasyDrunk`
-230 | `Deprecated3`
-231 | `TrueSlav`
-232 | `Bacchus`
-233 | `AlchemyRoutine1`
-234 | `AlchemyRoutine2`
-235 | `WineBibber`
-236 | `BeerBibber`
-237 | `LiquorBibber`
-238 | `LooseTongue`
-239 | `BundleAlchemist`
-240 | `HumanDustbin`
-241 | `SaltAndSmoke`
-242 | `_unused3_`
-243 | `Witcher`
-244 | `_unused2_`
-245 | `EutuBrutus`
-246 | `Reading_Wanderer`
-247 | `Butcher`
-248 | `Antlers`
-249 | `Tusks`
-250 | `Tanner`
-251 | `Salty`
-252 | `WaterOfLife`
-253 | `Taunt`
-254 | `HuntAttack`
-255 | `MercyKill`
-256 | `FirstAid`
-257 | `Empathic`
-258 | `Serration`
-259 | `HeavyTip`
-260 | `ChainStrike`
-261 | `SevenLeague`
-262 | `Letailleur`
-263 | `Padding`
-264 | `Blacksmithsson`
-265 | `Last`
-266 | `MovementModifier`
-267 | `Inventory`
-268 | `MovementType`
-269 | `Stance`
-270 | `Surface`
-271 | `MovementSpeeds`
-272 | `CombatMovement`
-273 | `Perception`
-275 | `StaminaUpdate`
+ID | Abbr | Internal Name | Description
+--- | --- | --- | ---
+0 | | `Stealth` |
+1 | | `HorseRiding` |
+2 | | `Fencing` |
+3 | | `Bard` |
+4 | | `Lockpicking` |
+5 | | `Pickpocketing` |
+6 | | `Alchemy` |
+7 | | `Cooking` |
+8 | | `Repairing` |
+9 | | `Smithing` |
+10 | | `Fishing` |
+11 | | `Mining` |
+12 | | `FirstAid` |
+13 | | `Drinking` |
+14 | | `Hunter` |
+15 | | `Defense` |
+16 | `weapon_sword` | `WeaponSword` |
+17 | `weapon_axe` | `WeaponAxe` |
+18 | `weapon_bow` | `WeaponBow` |
+19 | `weapon_crossbow` | `WeaponCrossbow` |
+20 | `weapon_shield` | `WeaponShield` |
+21 | `weapon_mace` | `WeaponMace` |
+22 | `weapon_dagger` | `WeaponDagger` |
+23 | `weapon_large` | `WeaponLarge` |
+24 | `weapon_unarmed` | `WeaponUnarmed` |
+25 | | `Herbalism` |
+26 | | `Reading` |
+27 | | `Tailoring` |
+28 | | `Armourer` |
+29 | | `WeaponSmithing` |
+30 | | `Shoemaking` |
+146 | | `health` |
+147 | | `stamina` |
+148 | | `exhaust` |
+149 | | `hunger` |
+150 | | `karma` |
+151 | | `alcoholism` |
+153 | | `StaminaRegenCooldown` |
+154 | | `HasUnholsteredWeapon` |
+155 | | `HasUnholsteredMissileWeapon` |
+156 | | `HasRaisedWeapon` |
+157 | | `IsBlocking` |
+158 | | `IsAiming` |
+159 | | `HasActiveThreats` |
+160 | | `IsInCombatDanger` |
+161 | | `IsActiveInCombat` |
+162 | | `IsRunning` |
+163 | | `WasRunning` |
+164 | | `WannaSprint` |
+165 | | `IsMoving` |
+166 | | `WasMoving` |
+167 | | `IsSprinting` |
+168 | | `WasSprinting` |
+169 | | `IsOnHorse` |
+170 | | `IsStealth` |
+171 | | `IsPotentialStealth` |
+172 | | `IsInAir` |
+173 | | `HasLimitedRunByItem` |
+174 | | `HasLimitedSprintByItem` |
+210 | | `Dodge` |
+211 | | `PerfectBlock` |
+212 | | `Riposte` |
+213 | | `Finticka` |
+214 | | `StealthKnockOut` |
+215 | | `StealthKill` |
+216 | | `HorsePullDown` |
+217 | | `Bumper` |
+218 | | `Deprecated2` |
+219 | | `Deprecated1` |
+220 | | `Comrade` |
+221 | | `Deprecated5` |
+222 | | `EasyWayOut` |
+223 | | `Deprecated4` |
+224 | | `Reading_ArtAdmirer` |
+225 | | `Reading_AvidReader` |
+226 | | `_unused_` |
+227 | | `SteakTartare` |
+228 | | `TrialAndError` |
+229 | | `EasyDrunk` |
+230 | | `Deprecated3` |
+231 | | `TrueSlav` |
+232 | | `Bacchus` |
+233 | | `AlchemyRoutine1` |
+234 | | `AlchemyRoutine2` |
+235 | | `WineBibber` |
+236 | | `BeerBibber` |
+237 | | `LiquorBibber` |
+238 | | `LooseTongue` |
+239 | | `BundleAlchemist` |
+240 | | `HumanDustbin` |
+241 | | `SaltAndSmoke` |
+242 | | `_unused3_` |
+243 | | `Witcher` |
+244 | | `_unused2_` |
+245 | | `EutuBrutus` |
+246 | | `Reading_Wanderer` |
+247 | | `Butcher` |
+248 | | `Antlers` |
+249 | | `Tusks` |
+250 | | `Tanner` |
+251 | | `Salty` |
+252 | | `WaterOfLife` |
+253 | | `Taunt` |
+254 | | `HuntAttack` |
+255 | | `MercyKill` |
+256 | | `FirstAid` |
+257 | | `Empathic` |
+258 | | `Serration` |
+259 | | `HeavyTip` |
+260 | | `ChainStrike` |
+261 | | `SevenLeague` |
+262 | | `Letailleur` |
+263 | | `Padding` |
+264 | | `Blacksmithsson` |
+265 | | `Last` |
+266 | | `MovementModifier` |
+267 | | `Inventory` |
+268 | | `MovementType` |
+269 | | `Stance` |
+270 | | `Surface` |
+271 | | `MovementSpeeds` |
+272 | | `CombatMovement` |
+273 | | `Perception` |
+275 | | `StaminaUpdate` |
+
+## Limit Stats
+
+ID | Abbr | Internal Name | Description
+--- | --- | --- | ---
+| `LimitRun` | |
+| `LimitSprint` | |
 
 ## Unknown Stats
 
