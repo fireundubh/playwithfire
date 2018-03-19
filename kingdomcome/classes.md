@@ -76,7 +76,7 @@ MaterialEffects | `CScriptableBase::CScriptBind_MaterialEffects` | [Function Ref
 Particle | `CScriptableBase::CScriptBind_Particle` | [Function Reference](classes/particle) | Not started
 Physics | `CScriptableBase::CScriptBindPhysics` | [Function Reference](classes/physics) | Not started
 ProtectedBinds | `CScriptableBase::CScriptBind_ProtectedBinds` | [Function Reference](classes/protectedbinds) | Not started
-Script | `CScriptableBase::CScriptBind_Script` | [Function Reference](classes/script) | Not started
+Script | `CScriptableBase::CScriptBind_Script` | [Function Reference](classes/script) | **Done**
 Sound | `CScriptableBase::CScriptBind_Sound` | [Function Reference](classes/sound) | Not started
 System | `CScriptableBase::CScriptBind_System` | [Function Reference](classes/system) | Not started
 Turret | `CScriptableBase::CScriptBind_Turret` | [Function Reference](classes/turret) | Not started
