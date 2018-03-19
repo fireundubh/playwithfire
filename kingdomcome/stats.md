@@ -75,7 +75,7 @@ ID | Abbr. | Internal Name | Example | Description
 88 | `erq` | DerivStat_EffectiveReadingQuality | | 
 46 | `evi` | DerivStat_EquipVisib | | 
 188 | `exh` | | exh×0 | Tiredness?
-201 | `fae` | | | 
+201 | `fae` | | fae×2 | First Aid
 112 | `fdm` | DerivStat_FallDamageMultiplier | | Modifies the amount of damage received after falling
 98 | `fol` | DerivStat_DistanceFollowing | | 
 54 | `fov` | DerivStat_FieldOfView | | 
