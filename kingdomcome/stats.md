@@ -166,39 +166,39 @@ ID | Abbr. | Internal Name | Example | Description
 
 ## Skill Stats
 
-ID | Abbr | Internal Name | Description
---- | --- | --- | ---
+ID | Abbr | Internal Name | Description | Comments
+--- | --- | --- | --- | ---
 0 | `stealth` | `Stealth` | Modifies the player's Stealth skill level
 1 | `horse_riding` | `HorseRiding` | Modifies the player's Horsemanship skill level
-2 | `fencing` | `Fencing` | Modifies the player's Fencing skill level
-3 | `bard` | `Bard` | Modifies the player's Bard skill level
+2 | `fencing` | `Fencing` | Modifies the player's Fencing skill level | Not implemented
+3 | `bard` | `Bard` | Modifies the player's Bard skill level | Not implemented
 4 | `lockpicking` | `Lockpicking` | Modifies the player's Lockpicking skill level
 5 | `pickpocketing` | `Pickpocketing` | Modifies the player's Pickpocketing skill level
 6 | `alchemy` | `Alchemy` | Modifies the player's Alchemy skill level
-7 | `cooking` | `Cooking` | Modifies the player's Cooking skill level
+7 | `cooking` | `Cooking` | Modifies the player's Cooking skill level | Not implemented
 8 | `repairing` | `Repairing` | Modifies the player's Maintenance skill level
-9 | `smithing` | `Smithing` | Modifies the player's Smithing skill level
-10 | `fishing` | `Fishing` | Modifies the player's Fishing skill level
-11 | `mining` | `Mining` | Modifies the player's Mining skill level
-12 | `first_aid` | `FirstAid` | Modifies the player's First Aid skill level
+9 | `smithing` | `Smithing` | Modifies the player's Smithing skill level | Not implemented
+10 | `fishing` | `Fishing` | Modifies the player's Fishing skill level | Not implemented
+11 | `mining` | `Mining` | Modifies the player's Mining skill level | Not implemented
+12 | `first_aid` | `FirstAid` | Modifies the player's First Aid skill level | Not implemented
 13 | `drinking` | `Drinking` | Modifies the player's Drinking skill level
 14 | `hunter` | `Hunter` | Modifies the player's Hunting skill level
 15 | `defense` | `Defense` | Modifies the player's Defence skill level
 16 | `weapon_sword` | `WeaponSword` | Modifies the player's Swords skill level
 17 | `weapon_axe` | `WeaponAxe` | Modifies the player's Axes skill level
 18 | `weapon_bow` | `WeaponBow` | Modifies the player's Bows skill level
-19 | `weapon_crossbow` | `WeaponCrossbow` | Modifies the player's Crossbows skill level
+19 | `weapon_crossbow` | `WeaponCrossbow` | Modifies the player's Crossbows skill level | Not implemented
 20 | `weapon_shield` | `WeaponShield` | Modifies the player's Shields skill level
 21 | `weapon_mace` | `WeaponMace` | Modifies the player's Maces skill level
-22 | `weapon_dagger` | `WeaponDagger` | Modifies the player's Daggers skill level
-23 | `weapon_large` | `WeaponLarge` | Modifies the player's Polearms skill level
+22 | `weapon_dagger` | `WeaponDagger` | Modifies the player's Daggers skill level | Not implemented
+23 | `weapon_large` | `WeaponLarge` | Modifies the player's Polearms skill level | Not implemented
 24 | `weapon_unarmed` | `WeaponUnarmed` | Modifies the player's Unarmed skill level
 25 | `herbalism` | `Herbalism` | Modifies the player's Herbalism skill level
 26 | `reading` | `Reading` | Modifies the player's Reading skill level
 27 | `tailoring` | `Tailoring` | Modifies the player's Tailoring skill level
-28 | `armourer` | `Armourer` | Modifies the player's Armourer skill level
-29 | `weaponsmithing` | `WeaponSmithing` | Modifies the player's Weaponsmithing skill level
-30 | `shoemaking` | `Shoemaking` | Modifies the player's Shoemaking skill level
+28 | `armourer` | `Armourer` | Modifies the player's Armourer skill level | Not implemented
+29 | `weaponsmithing` | `WeaponSmithing` | Modifies the player's Weaponsmithing skill level | Not implemented
+30 | `shoemaking` | `Shoemaking` | Modifies the player's Shoemaking skill level | Not implemented
 
 ## Other Stats
 
