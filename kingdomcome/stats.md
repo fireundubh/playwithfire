@@ -172,8 +172,8 @@ ID | Abbr | Internal Name | Description
 1 | `horse_riding` | `HorseRiding` | Modifies the player's Horsemanship skill level
 2 | `fencing` | `Fencing` | Modifies the player's Fencing skill level
 3 | `bard` | `Bard` | Modifies the player's Bard skill level
-4 | `lockpicking` | `Lockpicking` | Modifies the player's skill level
-5 | `pickpocketing` | `Pickpocketing` |Modifies the player's skill level
+4 | `lockpicking` | `Lockpicking` | Modifies the player's Lockpicking skill level
+5 | `pickpocketing` | `Pickpocketing` | Modifies the player's Pickpocketing skill level
 6 | `alchemy` | `Alchemy` | Modifies the player's Alchemy skill level
 7 | `cooking` | `Cooking` | Modifies the player's Cooking skill level
 8 | `repairing` | `Repairing` | Modifies the player's Maintenance skill level
