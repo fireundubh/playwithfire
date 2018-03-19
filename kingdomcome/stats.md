@@ -11,7 +11,7 @@ These tables are incomplete and works-in-progress.
 ## Active Stats
 
 ID | Abbr/Internal Name | Example | Description
---- | --- | --- | ---
+---: | :--- | :--- | :---
 146 | `health` | health+0.125/s | Modifies the player's current Health
 147 | `stamina` | stamina+0.125/s | Modifies the player's current Stamina
 148 | `exhaust` | exhaust-100/s | Modifies the player's current Exhaustion
@@ -21,8 +21,8 @@ ID | Abbr/Internal Name | Example | Description
 
 ## Base Stats
 
-ID | Abbr. | Internal Name | Example | Description
---- | --- | --- | --- | ---
+ID | Abbr | Internal Name | Example | Description
+---: | :--- | :--- | :--- | :---
 33 | `agi` | Stat_Agility | agi+1 | Modifies the Agility stat
 38 | `bar` | Stat_Barter | bar+3 | Modifies the Barter stat
 39 | `cou` | Stat_Courage | cou+2 | Modifies the Courage stat
@@ -36,8 +36,8 @@ ID | Abbr. | Internal Name | Example | Description
 
 ## Derived Stats
 
-ID | Abbr. | Internal Name | Example | Description
---- | --- | --- | --- | ---
+ID | Abbr | Internal Name | Example | Description
+---: | :--- | :--- | :--- | :---
 78 | `aco` | DerivStat_ArmorCollisionWeight | aco×6 | Modifies the impact weight of armor when colliding with another entity 
 180 | `act` | | | 
 175 | `ade` | | ade×0.9 | Defence
@@ -178,7 +178,7 @@ ID | Abbr. | Internal Name | Example | Description
 ## Skill Stats
 
 ID | Abbr | Internal Name | Description | Comments
---- | --- | --- | --- | ---
+---: | :--- | :--- | :--- | :---
 0 | `stealth` | `Stealth` | Modifies the player's Stealth skill level
 1 | `horse_riding` | `HorseRiding` | Modifies the player's Horsemanship skill level
 2 | `fencing` | `Fencing` | Modifies the player's Fencing skill level | Not implemented
@@ -214,7 +214,7 @@ ID | Abbr | Internal Name | Description | Comments
 ## Limit Stats
 
 Abbr | Description
---- | ---
+:--- | :---
 `LimitRun` | Used without expression
 `LimitSprint` | Used without expression
 
@@ -223,7 +223,7 @@ Abbr | Description
 **Note:** Some of this data probably doesn't belong on this page.
 
 ID | Abbr | Internal Name | Description
---- | --- | --- | ---
+---: | :--- | :--- | :---
 153 | | `StaminaRegenCooldown` |
 154 | | `HasUnholsteredWeapon` |
 155 | | `HasUnholsteredMissileWeapon` |
@@ -249,7 +249,7 @@ ID | Abbr | Internal Name | Description
 
 ## Unknown Stats
 
-Abbr. | Internal Name | Example | Description
---- | --- | --- | ---
+Abbr | Internal Name | Example | Description
+:--- | :--- | :--- | :---
 `---` | Stat_Last | |
 `---` | DerivStat_Last | |
