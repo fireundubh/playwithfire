@@ -29,7 +29,7 @@ ItemManager | `wh::entitymodule::C_ScriptBindItemManager` | [Function Reference]
 Minigame | `wh::playermodule::C_ScriptBindMinigame` | [Function Reference](classes/minigame) | **Done**
 PickableItem | `wh::entitymodule::C_ScriptBindPickableItem` | [Function Reference](classes/pickableitem) | Not started
 Player | `wh::entitymodule::C_ScriptBindPlayer` | [Function Reference](classes/player) | Not started
-QuestSystem | `wh::questmodule::C_ScriptBindQuest` | [Function Reference](classes/questsystem) | Not started
+QuestSystem | `wh::questmodule::C_ScriptBindQuest` | [Function Reference](classes/questsystem) | **In progress**
 RPG | `wh::rpgmodule::C_ScriptBindRPGModule` | [Function Reference](classes/rpg) | **Done**
 Sharpening | `wh::playermodule::C_ScriptBind_Sharpening` | [Function Reference](classes/sharpening) | Not started
 Shops | `wh::shopmodule::C_ScriptBindShop` | [Function Reference](classes/shops) | Not started
