@@ -166,8 +166,10 @@ ID | Abbr. | Internal Name | Example | Description
 
 ## Other Stats
 
-ID | Abbr | Internal Name | Description
---- | --- | --- | ---
+**Note:** Some of this data probably doesn't belong on this page.
+
+ID | Abbr | Internal Name | Description | soul_ability_id
+--- | --- | --- | --- | ---
 0 | | `Stealth` |
 1 | | `HorseRiding` |
 2 | | `Fencing` |
