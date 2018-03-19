@@ -6,7 +6,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 ## Table
 
 Soul Ability ID | Soul Ability
---- | ---
+---: | ---
 0 | `Dodge`
 1 | `PerfectBlock`
 2 | `Riposte`
