@@ -69,7 +69,7 @@ ID | Abbr. | Internal Name | Example | Description
 204 | `dsl` | | dsl×1.5 | Modifies the difficulty of dodging in combat
 56 | `dtf` | DerivStat_DiceThrowFixing | | 
 131 | `edm` | DerivStat_EquipmentUseDamageMultiplier | edm×0.8 | 
-197 | `eep` | | | Evasion Chance
+197 | `eep` | | eep×1.1 | Evasion Chance
 111 | `enc` | DerivStat_Encumberance | | 
 134 | `eqw` | DerivStat_EquippedWeight | | 
 88 | `erq` | DerivStat_EffectiveReadingQuality | | 
