@@ -8,29 +8,29 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 Method | Return Type | Description
 --- | --- | ---
-`ActivateQuest(questName)` |
-`AreQuestVIPsAlive(questName)` | boolean
-`CancelObjective(questName, objectiveName, sendMessage)` |
-`CancelQuest(questName, flag)` | 
-`CanRepeatQuest(questName)` | boolean
-`CompleteObjective(questName, objectiveName)` |
-`DeactivateQuest(questName)`  |
-`GetActiveObjectives(questName)` |
-`GetObjectiveExpCoeff(questName, objectiveName)` | float
-`IsObjectiveCanceled(questName, objectiveName)` | boolean
-`IsObjectiveCompleted(questName, objectiveName)` | boolean
-`IsObjectiveStarted(questName, objectiveName)` | boolean
-`IsObjectiveTrackedCompleted(questName, objectiveName)` | boolean
-`IsObjectiveUnchanged(questName, objectiveName)` | boolean
-`IsQuestActivated(questName)` | boolean
-`IsQuestAvailable(questName)` | boolean
-`IsQuestCanceled(questName)` | boolean
-`IsQuestCompleted(questName)` | boolean
-`IsQuestStarted(questName)` | boolean
-`IsQuestUnchanged(questName)` | boolean
+`ActivateQuest(string: questName, [boolean: unknown])` |
+`AreQuestVIPsAlive(string: questName)` | boolean
+`CancelObjective(string: questName, string: objectiveName, sendMessage)` |
+`CancelQuest(string: questName, flag)` | 
+`CanRepeatQuest(string: questName)` | boolean
+`CompleteObjective(string: questName, string: objectiveName)` |
+`DeactivateQuest(string: questName)`  |
+`GetActiveObjectives(string: questName)` |
+`GetObjectiveExpCoeff(string: questName, string: objectiveName)` | float
+`IsObjectiveCanceled(string: questName, string: objectiveName)` | boolean
+`IsObjectiveCompleted(string: questName, string: objectiveName)` | boolean
+`IsObjectiveStarted(string: questName, string: objectiveName)` | boolean
+`IsObjectiveTrackedCompleted(string: questName, string: objectiveName)` | boolean
+`IsObjectiveUnchanged(string: questName, string: objectiveName)` | boolean
+`IsQuestActivated(string: questName)` | boolean
+`IsQuestAvailable(string: questName)` | boolean
+`IsQuestCanceled(string: questName)` | boolean
+`IsQuestCompleted(string: questName)` | boolean
+`IsQuestStarted(string: questName)` | boolean
+`IsQuestUnchanged(string: questName)` | boolean
 `RegisterQuestEntity(entityId)` |
-`ResetQuest(questName)` |
-`StartObjective(questName, objectiveName)` | 
-`StartQuest(questName)` |
-`TriggerCondition(questName, objectiveName, conditionId)` |
+`ResetQuest(string: questName)` |
+`StartObjective(string: questName, string: objectiveName)` | 
+`StartQuest(string: questName)` |
+`TriggerCondition(string: questName, string: objectiveName, conditionId)` |
 `UserEnteredTrigger(placeAssetId, user)` | boolean
