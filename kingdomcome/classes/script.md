@@ -15,4 +15,4 @@ Method | Return Type | Description
 `DumpLoadedScripts()` | int | Dumps all the loaded scripts
 `SetTimer(nMilliseconds, luaFunction, [, userData, [, bUpdateDuringPause]])` | timerId | Set a general script timer, when timer expires will call back a specified lua function
 `SetTimerForFunction(nMilliseconds, luaFunction [, userData [, bUpdateDuringPause]])` | timerId | Set a general script timer, when timer expires will call back a specified lua function
-`KillTimer(nTimerId)` | int | Stops a timer set by the SetTimer function.
+`KillTimer(nTimerId)` | int | Stops a timer set by the SetTimer function
