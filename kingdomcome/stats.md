@@ -213,10 +213,10 @@ ID | Abbr | Internal Name | Description | Comments
 
 ## Limit Stats
 
-ID | Abbr | Internal Name | Description
---- | --- | --- | ---
-| `LimitRun` | | Used without expression
-| `LimitSprint` | | Used without expression
+Abbr | Description
+--- | ---
+`LimitRun` | Used without expression
+`LimitSprint` | Used without expression
 
 ## Other Stats
 
