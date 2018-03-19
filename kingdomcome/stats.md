@@ -297,8 +297,8 @@ ID | Abbr | Internal Name | Description
 
 ID | Abbr | Internal Name | Description
 --- | --- | --- | ---
-| `LimitRun` | |
-| `LimitSprint` | |
+| `LimitRun` | | Used without expression
+| `LimitSprint` | | Used without expression
 
 ## Unknown Stats
 
