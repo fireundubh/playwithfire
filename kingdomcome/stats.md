@@ -6,11 +6,9 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 This table is incomplete and a work-in-progress.
 
-## Data Table
+**Note:** The `×` symbol is used in these tables to avoid formatting issues. In practice, the correct operator is the asterisk (`*`).
 
-**Note:** The `×` symbol is used in this table to avoid formatting issues. In practice, the correct operator is the asterisk (`*`).
-
-### Stats
+## Stats
 
 ID | Abbr. | Internal Name | Example | Description
 --- | --- | --- | --- | ---
@@ -25,7 +23,7 @@ ID | Abbr. | Internal Name | Example | Description
 36 | `vis` | Stat_Vision | | Modifies the Vision stat
 34 | `vit` | Stat_Vitality | vit+1 | Modifies the Vitality stat
 
-### Derived Stats
+## Derived Stats
 
 ID | Abbr. | Internal Name | Example | Description
 --- | --- | --- | --- | ---
@@ -166,14 +164,14 @@ ID | Abbr. | Internal Name | Example | Description
 68 | `wud` | DerivStat_WeaponUsageDamageMod | | 
 83 | `xpm` | DerivStat_XPMultiplier | | Modifies the amount of experience gained
 
-### Unknown Stats and Derived Stats
+## Unknown Stats and Derived Stats
 
 Abbr. | Internal Name | Example | Description
 --- | --- | --- | ---
 `---` | Stat_Last | |
 `---` | DerivStat_Last | |
 
-### Other Stats and Derived Stats
+## Other Stats and Derived Stats
 
 ID | Abbr | Description
 --- | --- | ---
