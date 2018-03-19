@@ -20,7 +20,7 @@ ID | Abbr. | Internal Name | Example | Description
 40 | `rep` | Stat_PlayerReputation | | 
 35 | `spc` | Stat_Speech | spc+1 | Modifies the Speech stat
 32 | `str` | Stat_Strength | str+1 | Modifies the Strength stat
-36 | `vis` | Stat_Vision | | Modifies the Vision stat
+36 | `vis` | Stat_Vision | vis×0.3 | Modifies the Vision stat
 34 | `vit` | Stat_Vitality | vit+1 | Modifies the Vitality stat
 
 ## Derived Stats
