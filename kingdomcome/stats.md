@@ -165,13 +165,13 @@ ID | Abbr. | Internal Name | Example | Description
 87 | `rdq` | DerivStat_ReadingQuality | rdq>1 | It doesn't matter to you where you read, you get a learning bonus anywhere you read
 119 | `rml` | DerivStat_RandomMoneyLoot |  | 
 144 | `rms` | DerivStat_RealMoveSpeedMod |  | 
-73 | `rsa` | DerivStat_RelativeMovementSpeedAddition |  | .
-195 | `rst` |  |  | .
-179 | `rtm` |  |  | .
-191 | `sco` |  |  | .
-52 | `sdt` | DerivStat_StaminaDerivation |  | .
-117 | `sha` | DerivStat_BowSelfHarmAttack |  | .
-194 | `skp` |  |  | .
+73 | `rsa` | DerivStat_RelativeMovementSpeedAddition |  | 
+195 | `rst` |  |  | 
+179 | `rtm` |  |  | 
+191 | `sco` |  |  | 
+52 | `sdt` | DerivStat_StaminaDerivation |  | 
+117 | `sha` | DerivStat_BowSelfHarmAttack |  | 
+194 | `skp` |  |  | 
 89 | `sle` | DerivStat_Sleeping |  | 
 185 | `slh` |  |   | Unknown - Could modified the rate at which stamina recovers
 186 | `sls` |  | sls×0.7 | blocking costs 30% less stamina
