@@ -29,7 +29,7 @@ ID | Abbr. | Internal Name | Example | Description
 --- | --- | --- | --- | ---
 78 | `aco` | DerivStat_ArmorCollisionWeight | aco×6 | Modifies the impact weight of armor when colliding with another entity 
 180 | `act` | | | 
-175 | `ade` | | | 
+175 | `ade` | | ade×0.9 | Defence
 141 | `adm` | DerivStat_AlcoholDigestMod | | Modifies the rate of alcohol digestion
 178 | `ahm` | Mounted Attack Damage | ahm×1.15 | Modifies the amount of attack damage while mounted
 200 | `ain` | | ain×1.3 | Modifies the chance to cause bleeding
@@ -38,7 +38,7 @@ ID | Abbr. | Internal Name | Example | Description
 95 | `apa` | DerivStat_AlcoholPoisoningAntidote | | 
 127 | `apr` | DerivStat_AttackProtection | | 
 123 | `arr` | DerivStat_ArmorRating | arr×1.3 | Modifies the chance to cause enemies to flee
-181 | `asp` | | | 
+181 | `asp` | | asp×0.75 | Related to (right arm?) injuries
 99 | `bad` | DerivStat_Badassness | bad+3 | Modifies the Badassness derived stat
 122 | `bld` | DerivStat_Bloodiness | | 
 74 | `ble` | DerivStat_BleedingTotal | | 
@@ -58,7 +58,7 @@ ID | Abbr. | Internal Name | Example | Description
 183 | `cli` | | cli+0.4 | Modifies the chance to overpower an opponent in a clinch
 90 | `coc` | DerivStat_Consciousness | | 
 48 | `con` | DerivStat_Conspicuousness | con-1 | Modifies the hostile search duration of NPCs
-205 | `cos` | | | 
+205 | `cos` | | cos=0 | Used in limited_combat buff
 77 | `cow` | DerivStat_CollisionWeight | cow+1200 | Modifies the overall impact of colliding with another entity 
 57 | `dbf` | DerivStat_DiceBustFixing | | 
 202 | `dee` | | dee+0.15 | Damage to armor
@@ -86,19 +86,19 @@ ID | Abbr. | Internal Name | Example | Description
 105 | `hcm` | DerivStat_HorseCourageMod | | Modifies the Courage stat of the mounted horse
 115 | `hgs` | DerivStat_HerbGatherStrengthXp | | Modifies the amount of Strength skill experience gained from herb gathering
 110 | `hko` | DerivStat_HeadHitKnockOutProbability | | Modifies the chance of knocking out an opponent with a blow to the head
-184 | `hlh` | | hlh×0.5 | not_so_tough_guy buff
+184 | `hlh` | | hlh×0.5 | Chance to be wounded when attacked? Always used with `slh`
 51 | `hlt` | DerivStat_Healthiness | | 
 120 | `hml` | DerivStat_HorseThrowDownMoraleLimit | hml=0 | Determines whether the player's horse will throw the player outside of combat
 75 | `ibi` | DerivStat_InjuryBleedingInterval | | 
 104 | `iex` | DerivStat_ItemExpert | | 
 126 | `imm` | DerivStat_Immortality | | 
 124 | `jrm` | DerivStat_JailRecoverySpeedMod | jrm×0.8 | Modifies the rate at which the player recovers from jail time
-189 | `lcs` | | | perk_steady_hand buff - nonexistent perk
+189 | `lcs` | | lcs=0 | perk_steady_hand buff - nonexistent perk
 62 | `lfu` | DerivStat_LockFailUnlockProb | lfu=0.1 | 10% chance of opening locks instantly
 63 | `lio` | DerivStat_LockInstantOpenDifficulty | lio=0.3 | Modifies the maximum lock difficulty of instantly unlockable locks
-207 | `lpb` | | | 
-198 | `lpd` | | | Adjusts the difficulty rating of locks
-199 | `lpn` | | | Modifies the amount of noise produced by lockpicking
+207 | `lpb` | | lpb×0.1 | Adjusts the AI noise level of broken lockpicks
+198 | `lpd` | | lpd×0.5 | Adjusts the difficulty rating of locks
+199 | `lpn` | | lpn×1.3 | Modifies the amount of noise produced by lockpicking
 47 | `lpv` | DerivStat_LightProbeVisibility | | 
 61 | `lsa` | DerivStat_LockStartAngle | | Modifies the lockpick's proximity to the end of the lockpicking minigame
 69 | `lvl` | DerivStat_MainLevel | | Modifies the player's Main Level
@@ -113,15 +113,15 @@ ID | Abbr. | Internal Name | Example | Description
 72 | `nrs` | DerivStat_NormalizedRunSpeed | | 
 66 | `oad` | DerivStat_OverallArmorDefense | | 
 85 | `ore` | DerivStat_Overreadness | | 
-208 | `ors` | | | 
-203 | `osb` | | | 
+208 | `ors` | | ors=-1 | With Cpp:VersusDog, whether dogs bark at you. As a constant, whether souls react to you?
+203 | `osb` | | osb×1.15 | Opponent's stamina cost of attacking your shield?
 84 | `osl` | DerivStat_Oversleepness | | 
 67 | `owa` | DerivStat_OverallWeaponAttack | | 
-143 | `owl` | | | 
-206 | `pac` | | | 
+143 | `owl` | | owl+1 | Whether you can see in the dark 
+206 | `pac` | | pac×1.5 | Chance to poison on attack
 118 | `pbm` | DerivStat_CraftedPotionsBuyMarginAdjust | | Modifies the percentage amount of money received in trade for crafted potions 
-182 | `pbs` | | | 
-196 | `pdp` | | | 
+182 | `pbs` | | pbs×2 | 
+196 | `pdp` | | pdp×1.15 | Chance to remain in saddle when opponents attempts to unhorse you
 116 | `pds` | DerivStat_PicklockDmgSpeed | | Modifies the rate at which lockpicks are damaged
 135 | `pla` | DerivStat_PlatingRatio | | 
 101 | `poi` | DerivStat_Poisoning | poi=1 | You've been poisoned
@@ -138,29 +138,29 @@ ID | Abbr. | Internal Name | Example | Description
 119 | `rml` | DerivStat_RandomMoneyLoot | | 
 144 | `rms` | DerivStat_RealMoveSpeedMod | | 
 73 | `rsa` | DerivStat_RelativeMovementSpeedAddition | | 
-195 | `rst` | | | 
-179 | `rtm` | | | 
-191 | `sco` | | | 
+195 | `rst` | | rst < 0.6 | Related to the overeating buff
+179 | `rtm` | | rtm×0.5 | Chance for horse to shy at nearby foes
+191 | `sco` | | sco=0 | Used in god_mode buff effect 
 52 | `sdt` | DerivStat_StaminaDerivation | | 
 117 | `sha` | DerivStat_BowSelfHarmAttack | | 
-194 | `skp` | | | 
+194 | `skp` | | skp=0 | 0 - stealth kill fail, 1 - stealth kill success
 89 | `sle` | DerivStat_Sleeping | | 
-185 | `slh` | | | Unknown - Could modified the rate at which stamina recovers
-186 | `sls` | | sls×0.7 | blocking costs 30% less stamina
+185 | `slh` | | slh×0.5 | Chance to be wounded when attacked
+186 | `sls` | | sls×0.7 | Stamina cost of blocking
 113 | `sma` | DerivStat_SellMarginAdjust | sma-0.2 | Modifies the percentage amount of money given in trade
-193 | `sra` | | sra×1.5 | 
+193 | `sra` | | sra×1.5 | Stamina regeneration rate
 192 | `srb` | | | 
-53 | `src` | DerivStat_StaminaRegenCooldown | | 
+53 | `src` | DerivStat_StaminaRegenCooldown | src+1 | Used in injured_head buff effect
 190 | `srg` | | srg×1.5 | Modifies the rate at which stamina regenerates
-125 | `sur` | DerivStat_Surrendering | | 
+125 | `sur` | DerivStat_Surrendering | sur=1 | 0 - opponent is not surrendering, 1 - opponent is surrendering 
 91 | `ufo` | DerivStat_UnconsciousnessFadeoutSpeed | ufo×100 | infinite_unconsciousness buff
-129 | `upr` | DerivStat_UnconsciousnessProtection | | 
-45 | `vib` | DerivStat_Visibility | vib-10 | Dog Person
+129 | `upr` | DerivStat_UnconsciousnessProtection | upr=1 | 0 - disabled, 1 - enabled
+45 | `vib` | DerivStat_Visibility | vib-10 | Adjusts visibility
 55 | `vir` | DerivStat_ViewRadius | | 
-177 | `wac` | | | 
-106 | `was` | DerivStat_RangedWeaponAimSpread | | 
-176 | `wat` | | wat×1.2 | Modifies the amount of attack damage inflicted
-136 | `wbc` | DerivStat_WeaponBuffCharges | | 
+177 | `wac` | | wac×0.7 | Weapon attack stamina cost
+106 | `was` | DerivStat_RangedWeaponAimSpread | was-0.25 | Ranged weapon accuracy
+176 | `wat` | | wat×1.2 | Weapon attack damage
+136 | `wbc` | DerivStat_WeaponBuffCharges | wbc×1.3 | Adjusts the number of poison charges applied to a weapon
 68 | `wud` | DerivStat_WeaponUsageDamageMod | | 
 83 | `xpm` | DerivStat_XPMultiplier | | Modifies the amount of experience gained
 
