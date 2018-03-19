@@ -164,14 +164,7 @@ ID | Abbr. | Internal Name | Example | Description
 68 | `wud` | DerivStat_WeaponUsageDamageMod | | 
 83 | `xpm` | DerivStat_XPMultiplier | | Modifies the amount of experience gained
 
-## Unknown Stats and Derived Stats
-
-Abbr. | Internal Name | Example | Description
---- | --- | --- | ---
-`---` | Stat_Last | |
-`---` | DerivStat_Last | |
-
-## Other Stats and Derived Stats
+## Other Stats
 
 ID | Abbr | Description
 --- | --- | ---
@@ -299,3 +292,10 @@ ID | Abbr | Description
 272 | `CombatMovement`
 273 | `Perception`
 275 | `StaminaUpdate`
+
+## Unknown Stats and Derived Stats
+
+Abbr. | Internal Name | Example | Description
+--- | --- | --- | ---
+`---` | Stat_Last | |
+`---` | DerivStat_Last | |
