@@ -46,29 +46,29 @@ ahm | Mounted Attack Damage | ahm×1.15 | Modifies the amount of attack damage w
 ain | | ain×1.3 | Modifies the chance to cause bleeding
 alc | DerivStat_Alcoholism |  | No description entered
 alo | DerivStat_ArmorLoad | alo=-0.2 | test buffs: suppress armor load
-apa |  |  | No description entered
-apr |  |  | No description entered
-arr | | arr×1.3 | Modifies the chance to cause enemies to flee
+apa | DerivStat_AlcoholPoisoningAntidote |  | No description entered
+apr | DerivStat_AttackProtection |  | No description entered
+arr | DerivStat_ArmorRating | arr×1.3 | Modifies the chance to cause enemies to flee
 asp |  |  | No description entered
 bad | DerivStat_Badassness | bad+3 | Modifies the Badassness derived stat
 bar | Stat_Barter | bar+3 | Modifies the Barter stat
-bld |  |  | No description entered
-ble |  |  | No description entered
+bld | DerivStat_Bloodiness |  | No description entered
+ble | DerivStat_BleedingTotal |  | No description entered
 bma | DerivStat_BuyMarginAdjust | bma+0.15 | Modifies the percentage amount of money received in trade
-bow |  |  | No description entered
+bow | DerivStat_BodyWeight |  | No description entered
 brm | DerivStat_BadReputationMod | brm×1.5 | Modifies the influence of negative actions on reputation
-bso | Buy Stolen Objects | bso+0.5 | Modifies the willingness of traders to buy stolen objects
+bso | DerivStat_BasketSuspiciencyMod | bso+0.5 | 
 btw | DerivStat_BoidThreatWeight | btw×0.4 | Modifies the skittishness of wild animals
 caf | DerivStat_Caffeine |  | No description entered
 cag | DerivStat_CombatAggression |  | No description entered
-cap | Carrying Capacity | cap+1000 | Modifies the amount of weight that can be carried before becoming encumbered
-caw |  |  | No description entered
+cap | DerivStat_InventoryCapacity | cap+1000 | Modifies the amount of weight that can be carried before becoming encumbered
+caw | DerivStat_CarriedWeight |  | No description entered
 cbi | DerivStat_CharismaFromBuffedItems |  | No description entered
 cds | DerivStat_ClothDirtyingSpeedKm |  | Modifies the rate at which clothing becomes dirty
 cdw | DerivStat_ClinchDamageToWeapon | cdw+0.15 | Modifies the percentage damage inflicted on an opponent's weapon durability
 cha | DerivStat_Charisma | cha+1 | Modifies the Charisma stat
 cli | | cli+0.4 | Modifies the chance to overpower an opponent in a clinch
-coc |  |  | No description entered
+coc | DerivStat_Consciousness |  | No description entered
 con | DerivStat_Conspicuousness | con-1 | Modifies the hostile search duration of NPCs
 cos |  |  | No description entered
 cou | Stat_Courage |  | Modifies the Courage stat
@@ -83,14 +83,14 @@ dsl |  | dsl×1.5 | Modifies the difficulty of dodging in combat
 dtf | DerivStat_DiceThrowFixing |  | No description entered
 edm | DerivStat_EquipmentUseDamageMultiplier | edm×0.8 | 
 eep |  |  | No description entered
-enc | Encumberance |  | No description entered
+enc | DerivStat_Encumberance |  | No description entered
 eqw | DerivStat_EquippedWeight |  | No description entered
 erq | DerivStat_EffectiveReadingQuality |  | No description entered
 evi | DerivStat_EquipVisib |  | No description entered
 exh | Tiredness | exh×0 | No description entered
 fae |  |  | No description entered
 fdm | DerivStat_FallDamageMultiplier |  | Modifies the amount of damage received after falling
-fol |  |  | No description entered
+fol | DerivStat_DistanceFollowing |  | No description entered
 fov | DerivStat_FieldOfView |  | No description entered
 fpa | DerivStat_FoodPoisoningAntidote |  | No description entered
 fsm | DerivStat_FootstepSoundMultiplier |  | Modifies the noise produced by walking and running
@@ -101,7 +101,7 @@ hea | Stat_Hearing |  | Modifies the Hearing stat
 hgs | DerivStat_HerbGatherStrengthXp |  | Modifies the amount of Strength skill experience gained from herb gathering
 hko | DerivStat_HeadHitKnockOutProbability |  | Modifies the chance of knocking out an opponent with a blow to the head
 hlh |  | hlh×0.5 | not_so_tough_guy buff
-hlt |  |  | No description entered
+hlt | DerivStat_Healthiness |  | No description entered
 hml | DerivStat_HorseThrowDownMoraleLimit | hml=0 | Determines whether the player's horse will throw the player outside of combat
 ibi | DerivStat_InjuryBleedingInterval |  | No description entered
 iex | DerivStat_ItemExpert |  | No description entered
@@ -142,7 +142,7 @@ pos | DerivStat_PocketSight | pos+2 | reveals some number of items while pickpoc
 ppr | DerivStat_PickpocketProtection |  | No description entered
 prb | DerivStat_PerceptionPriorityBoost |  | No description entered
 prc | DerivStat_PicklockReturnChance | prc+0.2 | Modifies the percentage chance of repairing a broken lockpick
-prg |  |  | No description entered.
+prg | Stat_StoryProgress |  | No description entered.
 pt1 | DerivStat_PerfectThrowMultiplier1 |  | No description entered
 pt5 | DerivStat_PerfectThrowMultiplier5 |  | No description entered
 ran | DerivStat_RobbedAngriness | ran+1 | No description entered
@@ -151,13 +151,13 @@ rcw | DerivStat_RelativeCarriedWeight |  | No description entered
 rdq | DerivStat_ReadingQuality | rdq>1 | It doesn't matter to you where you read, you get a learning bonus anywhere you read
 rep | Stat_PlayerReputation |  | Modifies the player's reputation
 rml | DerivStat_RandomMoneyLoot |  | No description entered
-rms | DerivStat_RelativeMovementSpeedAddition |  | No description entered
-rsa |  |  | No description entered.
+rms | DerivStat_RealMoveSpeedMod |  | No description entered
+rsa | DerivStat_RelativeMovementSpeedAddition |  | No description entered.
 rst |  |  | No description entered.
 rtm |  |  | No description entered.
 sco |  |  | No description entered.
-sdt |  |  | No description entered.
-sha |  |  | No description entered.
+sdt | DerivStat_StaminaDerivation |  | No description entered.
+sha | DerivStat_BowSelfHarmAttack |  | No description entered.
 skp |  |  | No description entered.
 sle | DerivStat_Sleeping |  | No description entered
 slh | |  | Unknown - Could modified the rate at which stamina recovers
@@ -177,7 +177,7 @@ vir | DerivStat_ViewRadius |  | No description entered
 vis | Stat_Vision |  | Modifies the Vision stat
 vit | Stat_Vitality | vit+1 | Modifies the Vitality stat
 wac |  |  | No description entered
-was |  |  | No description entered
+was | DerivStat_RangedWeaponAimSpread |  | No description entered
 wat | Weapon Attack | wat×1.2 | Modifies the amount of attack damage inflicted
 wbc | DerivStat_WeaponBuffCharges |  | No description entered
 wud | DerivStat_WeaponUsageDamageMod |  | No description entered
