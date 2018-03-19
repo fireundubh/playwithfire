@@ -38,7 +38,7 @@ In `Libs\Tables\rpg\buff.xml`, buffs are defined in rows. Each row has a `params
 
 ### Stats
 
-Internal ID | Abbr. | Internal Name | Example | Description
+ID | Abbr. | Internal Name | Example | Description
 --- | --- | --- | --- | ---
 33 | `agi` | Stat_Agility | agi+1 | Modifies the Agility stat
 38 | `bar` | Stat_Barter | bar+3 | Modifies the Barter stat
@@ -53,7 +53,7 @@ Internal ID | Abbr. | Internal Name | Example | Description
 
 ### Derived Stats
 
-Internal ID | Abbr. | Internal Name | Example | Description
+ID | Abbr. | Internal Name | Example | Description
 --- | --- | --- | --- | ---
 78 | `aco` | DerivStat_ArmorCollisionWeight | aco×6 | Modifies the impact weight of armor when colliding with another entity 
 180 | `act` |  |  | 
