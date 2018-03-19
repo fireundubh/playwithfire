@@ -8,7 +8,18 @@ These tables are incomplete and works-in-progress.
 
 **Note:** The `×` symbol is used in these tables to avoid formatting issues. In practice, the correct operator is the asterisk (`*`).
 
-## Stats
+## Active Stats
+
+ID | Abbr/Internal Name | Example | Description
+--- | --- | --- | ---
+146 | `health` | health+0.125/s | Modifies the player's current Health
+147 | `stamina` | stamina+0.125/s | Modifies the player's current Stamina
+148 | `exhaust` | exhaust-100/s | Modifies the player's current Exhaustion
+149 | `hunger` | hunger+1000/s | Modifies the player's current Hunger
+150 | `karma` | | Modifies the player's current Karma?
+151 | `alcoholism` | | Modifies the player's current Drunkenness?
+
+## Base Stats
 
 ID | Abbr. | Internal Name | Example | Description
 --- | --- | --- | --- | ---
@@ -200,18 +211,19 @@ ID | Abbr | Internal Name | Description | Comments
 29 | `weaponsmithing` | `WeaponSmithing` | Modifies the player's Weaponsmithing skill level | Not implemented
 30 | `shoemaking` | `Shoemaking` | Modifies the player's Shoemaking skill level | Not implemented
 
+## Limit Stats
+
+ID | Abbr | Internal Name | Description
+--- | --- | --- | ---
+| `LimitRun` | | Used without expression
+| `LimitSprint` | | Used without expression
+
 ## Other Stats
 
 **Note:** Some of this data probably doesn't belong on this page.
 
 ID | Abbr | Internal Name | Description
 --- | --- | --- | ---
-146 | | `health` |
-147 | | `stamina` |
-148 | | `exhaust` |
-149 | | `hunger` |
-150 | | `karma` |
-151 | | `alcoholism` |
 153 | | `StaminaRegenCooldown` |
 154 | | `HasUnholsteredWeapon` |
 155 | | `HasUnholsteredMissileWeapon` |
@@ -234,13 +246,6 @@ ID | Abbr | Internal Name | Description
 172 | | `IsInAir` |
 173 | | `HasLimitedRunByItem` |
 174 | | `HasLimitedSprintByItem` |
-
-## Limit Stats
-
-ID | Abbr | Internal Name | Description
---- | --- | --- | ---
-| `LimitRun` | | Used without expression
-| `LimitSprint` | | Used without expression
 
 ## Unknown Stats
 
