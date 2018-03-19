@@ -4,7 +4,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 # Stats and Derived Stats
 
-This table is incomplete and a work-in-progress.
+These tables are incomplete and a work-in-progress.
 
 **Note:** The `×` symbol is used in these tables to avoid formatting issues. In practice, the correct operator is the asterisk (`*`).
 
