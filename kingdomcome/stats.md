@@ -61,7 +61,7 @@ ID | Abbr. | Internal Name | Example | Description
 205 | `cos` | | | 
 77 | `cow` | DerivStat_CollisionWeight | cow+1200 | Modifies the overall impact of colliding with another entity 
 57 | `dbf` | DerivStat_DiceBustFixing | | 
-202 | `dee` | | | 
+202 | `dee` | | dee+0.15 | Damage to armor
 97 | `def` | DerivStat_Defensiveness | | 
 187 | `dig` | | dig×0 | Hunger?
 109 | `drt` | DerivStat_Dirtiness | | 
