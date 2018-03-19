@@ -190,3 +190,10 @@ wat | Weapon Attack | wat×1.2 | Modifies the amount of attack damage inflicted
 wbc | DerivStat_WeaponBuffCharges |  | No description entered
 wud | DerivStat_WeaponUsageDamageMod |  | No description entered
 xpm | DerivStat_XPMultiplier |  | Modifies the amount of experience gained
+
+### Unknown Stats and Derived Stats
+
+Abbr. | Internal Name | Example | Description
+--- | --- | --- | ---
+`---` | Stat_Last | |
+`---` | DerivStat_Last | |
