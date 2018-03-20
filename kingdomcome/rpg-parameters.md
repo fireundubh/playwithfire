@@ -518,14 +518,14 @@ StamRegenCooldown | 1.500000 | cooldown timer expiry
 StamRegenFromVit | 1.000000 | how our VIT stat affects stamina regeneration
 StamRegenMoveMod | 0.750000 | relative stam regen speed during movement
 StamRegenRelativeDiff | 0.666667 | maximal relative difference to the base speed on low/high stamina
-StarvationExtremeThreshold | 0.000000 | 
+StarvationExtremeThreshold | 0.000000 | when nutrition is below this value, extreme hunger starts
 StarvationHealthLossSpeed | 0.000579 | by design the same speed as the digestion
-StarvationHugeThreshold | 25.000000 | 
+StarvationHugeThreshold | 25.000000 | when nutrition is below this value, significant hunger starts
 StarvationPlayerEffectMaxMax | 60.000000 | the longest interval between effects for high hunger stat
 StarvationPlayerEffectMaxMin | 90.000000 | the longest interval between effects for low hunger stat
 StarvationPlayerEffectMinMax | 30.000000 | the shortest interval between effects for high hunger stat
 StarvationPlayerEffectMinMin | 60.000000 | the shortest interval between effects for low hunger stat
-StarvationThreshold | 50.000000 | 
+StarvationThreshold | 50.000000 | when nutrition is below this value, hunger starts
 StatCap | 20.000000 | max stat level
 StatsToDodgePowTo | 0.500000 | slot = relativeStats ^ this
 StatToMainLevelBase | 0.500000 | a1 of the geometric progression
