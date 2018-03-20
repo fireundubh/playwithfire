@@ -198,7 +198,7 @@ DuringFaderHysteresis | 1.000000 | the in-fader state is kept for how longer
 DuskTime | 21.500000 | Time when night begins, used by rpg (default 21:30)
 EncumberanceForSecondaryModifiers | 0.500000 | when the buff will activate the secondary group
 EncumberedToSpeedSurfaceCoef | 0.300000 | Coef that controls terrain/surface influence in encumbered speed mod
-EquippedWeightSubWithWellWornPerk | 0.333333 | when player has Well Worn perk, weight of items is lowered when they are equipped; `equippedWeight=standardWeight*(1.0 - EquippedWeightSubWithWellWornPerk)`
+EquippedWeightSubWithWellWornPerk | 0.333333 | when player has Well Worn perk, weight of items is lowered when they are equipped
 ExhaustedPlayerEffectMaxMax | 60.000000 | the longest interval between effects for high exhaust stat
 ExhaustedPlayerEffectMaxMin | 30.000000 | the longest interval between effects for low exhaust stat
 ExhaustedPlayerEffectMinMax | 30.000000 | the shortest interval between effects for high exhaust stat
