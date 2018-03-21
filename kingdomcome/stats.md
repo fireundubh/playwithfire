@@ -142,7 +142,7 @@ Abbr | Name | Description | Base Value
 
 ### Morale Base Value
 
-The base value of Morale is quite long, so the formula is here:
+The base value formula is quite long, so I've placed the formula here:
 
 ```
 clamp(((Courage / StatCap) * SoulCourageMoraleWeight + clamp(soul_class.soul_class_courage, 0, 1) * ClassCourageMoraleWeight + ArmorRating * OverallArmorDefenseMoraleWeight + clamp(OverallWeaponAttack / GoodWeaponAttack, 0, 1) * OverallWeaponAttackMoraleWeight) 
