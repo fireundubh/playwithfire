@@ -10,29 +10,29 @@ These tables are incomplete and works-in-progress.
 
 ## Active Stats
 
-ID | Abbr/Internal Name | Example | Description
----: | :--- | :--- | :---
-146 | `health` | health+0.125/s | Modifies the player's current Health
-147 | `stamina` | stamina+0.125/s | Modifies the player's current Stamina
-148 | `exhaust` | exhaust-100/s | Modifies the player's current Exhaustion
-149 | `hunger` | hunger+1000/s | Modifies the player's current Hunger
-150 | `karma` | | Modifies the player's current Karma?
-151 | `alcoholism` | | Modifies the player's current Drunkenness?
+Abbr | Example | Description
+:--- | :--- | :---
+`health` | `health+0.125/s` | Modifies the player's current Health
+`stamina` | `stamina+0.125/s` | Modifies the player's current Stamina
+`exhaust` | `exhaust-100/s` | Modifies the player's current Exhaustion
+`hunger` | `hunger+1000/s` | Modifies the player's current Hunger
+`karma` | | Modifies the player's current Karma?
+`alcoholism` | | Modifies the player's current Drunkenness?
 
 ## Base Stats
 
-ID | Abbr | Internal Name | Example | Description
----: | :--- | :--- | :--- | :---
-33 | `agi` | Agility | agi+1 | Modifies the Agility stat
-38 | `bar` | Barter | bar+3 | Modifies the Barter stat
-39 | `cou` | Courage | cou+2 | Modifies the Courage stat
-37 | `hea` | Hearing | hea=0 | Modifies the Hearing stat
-41 | `prg` | StoryProgress | | 
-40 | `rep` | PlayerReputation | | 
-35 | `spc` | Speech | spc+1 | Modifies the Speech stat
-32 | `str` | Strength | str+1 | Modifies the Strength stat
-36 | `vis` | Vision | vis×0.3 | Modifies the Vision stat
-34 | `vit` | Vitality | vit+1 | Modifies the Vitality stat
+Abbr | Name | Description
+:--- | :--- | :---
+`agi` | Agility | Modifies the Agility stat
+`bar` | Barter | Modifies the Barter stat
+`cou` | Courage | Modifies the Courage stat
+`hea` | Hearing | Modifies the Hearing stat
+`prg` | StoryProgress |
+`rep` | PlayerReputation |
+`spc` | Speech | Modifies the Speech stat
+`str` | Strength | Modifies the Strength stat
+`vis` | Vision | Modifies the Vision stat
+`vit` | Vitality | Modifies the Vitality stat
 
 ## Derived Stats
 
@@ -227,30 +227,30 @@ Abbr | Description
 
 **Note:** Some of this data probably doesn't belong on this page.
 
-ID | Abbr | Internal Name | Description
----: | :--- | :--- | :---
-153 | | `StaminaRegenCooldown` |
-154 | | `HasUnholsteredWeapon` |
-155 | | `HasUnholsteredMissileWeapon` |
-156 | | `HasRaisedWeapon` |
-157 | | `IsBlocking` |
-158 | | `IsAiming` |
-159 | | `HasActiveThreats` |
-160 | | `IsInCombatDanger` |
-161 | | `IsActiveInCombat` |
-162 | | `IsRunning` |
-163 | | `WasRunning` |
-164 | | `WannaSprint` |
-165 | | `IsMoving` |
-166 | | `WasMoving` |
-167 | | `IsSprinting` |
-168 | | `WasSprinting` |
-169 | | `IsOnHorse` |
-170 | | `IsStealth` |
-171 | | `IsPotentialStealth` |
-172 | | `IsInAir` |
-173 | | `HasLimitedRunByItem` |
-174 | | `HasLimitedSprintByItem` |
+Name | Description
+:--- | :---
+`StaminaRegenCooldown` |
+`HasUnholsteredWeapon` |
+`HasUnholsteredMissileWeapon` |
+`HasRaisedWeapon` |
+`IsBlocking` |
+`IsAiming` |
+`HasActiveThreats` |
+`IsInCombatDanger` |
+`IsActiveInCombat` |
+`IsRunning` |
+`WasRunning` |
+`WannaSprint` |
+`IsMoving` |
+`WasMoving` |
+`IsSprinting` |
+`WasSprinting` |
+`IsOnHorse` |
+`IsStealth` |
+`IsPotentialStealth` |
+`IsInAir` |
+`HasLimitedRunByItem` |
+`HasLimitedSprintByItem` |
 
 ## Unknown Stats
 
