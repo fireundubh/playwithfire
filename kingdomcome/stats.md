@@ -36,111 +36,110 @@ ID | Abbr | Internal Name | Example | Description
 
 ## Derived Stats
 
-ID | Abbr | Name | Example | Description | Base Value
----: | :--- | :--- | :--- | :--- | :---
-78 | `aco` | ArmorCollisionWeight | `aco*6` | Modifies the impact weight of armor when colliding with another entity | Derived from equipped items
-141 | `adm` | AlcoholDigestMod | | Modifies the rate of alcohol digestion | 1
-139 | `alc` | Alcoholism | | | 0
-65 | `alo` | ArmorLoad | `alo=-0.2` | test buffs: suppress armor load | Derived from `EquippedWeight`, `Strength`, `Agility`, `MaxArmorLoad`, `StrAgiToEqwArmorLoad` and `ArmorLoadDiffToMax`
-95 | `apa` | AlcoholPoisoningAntidote | | | 0
-127 | `apr` | AttackProtection | | | Derived from `soul.soul_vip_class_id`
-123 | `arr` | ArmorRating | `arr*1.3` | Modifies the chance to cause enemies to flee | `clamp(OverallArmorDefense / GoodArmorDefense, 0, 1)`
-99 | `bad` | Badassness | `bad+0.5` | Modifies the Badassness derived stat | `lerp(Morale, Strength / StatCap, ThreatenStrenghtWeight)`
-122 | `bld` | Bloodiness | | | Derived from equipped items
-74 | `ble` | BleedingTotal | | | Derived from buffs which have a special `Bleeding` modifier
-114 | `bma` | BuyMarginAdjust | `bma+0.15` | Modifies the percentage amount of money received in trade | 0
-76 | `bow` | BodyWeight | | | Derived from `soul_archetype.normal_body_weight`, `SlimCollisionWeightMul` and `FatCollisionWeightMul`
-108 | `brm` | BadReputationMod | `brm*1.5` | Modifies the influence of negative actions on reputation | 1
-121 | `bso` | BasketSuspiciencyMod | `bso+0.5` | | 0
-142 | `btw` | BoidThreatWeight | `btw*0.4` | Modifies the skittishness of wild animals | 1
-86 | `caf` | Caffeine | | | 0
-96 | `cag` | CombatAggression | | | Derived from `Defense`, `Fencing`, `SkillCap` and `CombatAutoAggressionDiffScale`
-64 | `cap` | InventoryCapacity | `cap+1000` | Modifies the amount of weight that can be carried before becoming encumbered | `(BaseInventoryCapacity + StrengthToInventoryCapacity * Strength) * soul_archetype.inventory_capacity_multiplier`
-79 | `caw` | CarriedWeight | | | Derived from inventory
-137 | `cbi` | CharismaFromBuffedItems | | | 0
-130 | `cds` | ClothDirtyingSpeedKm | | Modifies the rate at which clothing becomes dirty | Derived from surface, `FullClothDirtyingOnZeroSpeed` and `FullClothDirtyingOnFullSpeed`
-133 | `cdw` | ClinchDamageToWeapon | `cdw+0.15` | Modifies the percentage damage inflicted on an opponent's weapon durability | 0
-43 | `cha` | Charisma | `cha+1` | Modifies the Charisma stat | Derived from equipped items, `soul.charisma` and `CharismaFromBuffedItems`.
-90 | `coc` | Consciousness | | | 1
-48 | `con` | Conspicuousness | `con-1` | Modifies the hostile search duration of NPCs | Derived from equipped items.
-77 | `cow` | CollisionWeight | `cow+1200` | Modifies the overall impact of colliding with another entity | `BodyWeight + ArmorCollisionWeight`
-57 | `dbf` | DiceBustFixing | | | 0
-97 | `def` | Defensiveness | | | Derived from `Stamina`, `CombatAggression`, `MeanAttackPeriod`, `CombatAutoScaleDefensivenessDelayRel` and `CombatAutoAttackDelaySigma`
-109 | `drt` | Dirtiness | | | Derived from equipped items
-100 | `dru` | Drunkenness | | | 0
-56 | `dtf` | DiceThrowFixing | | | 0
-131 | `edm` | EquipmentUseDamageMultiplier | `edm*0.8` | | 1
-111 | `enc` | Encumberance | | | Derived from surface, `RelativeCarriedWeight` and `EncumberedToSpeedSurfaceCoef`
-134 | `eqw` | EquippedWeight | | | Derived from equipped items
-88 | `erq` | EffectiveReadingQuality | | | `ReadingQuality`
-46 | `evi` | EquipVisib | | | Derived from equipped items
-112 | `fdm` | FallDamageMultiplier | | Modifies the amount of damage received after falling | `lerp(1, FallDamageMultiplierAtMaxAgility, Agility / StatCap)`
-98 | `fol` | DistanceFollowing | | | `Fencing / SkillCap`
-54 | `fov` | FieldOfView | | | `min(PerceptionMinFov + HearingToFov * Hearing, PerceptionMaxFov)`
-94 | `fpa` | FoodPoisoningAntidote | | | 0
-71 | `fsm` | FootstepSoundMultiplier | | Modifies the noise produced by walking and running | `clamp(1 - StealthSkillToFootstepSoundMult * Stealth / SkillCap, 0, 1)`
-107 | `grm` | GoodReputationMod | | Modifies the influence of positive actions on reputation | 1
-60 | `hac` | HaggleAdditionalChances | | Modifies the number of times a trader will haggle | 0
-105 | `hcm` | HorseCourageMod | | Modifies the Courage stat of the mounted horse | `1 + HorseRiding * HorseRidingToHorseCourage`
-115 | `hgs` | HerbGatherStrengthXp | | Modifies the amount of Strength skill experience gained from herb gathering | 0
-110 | `hko` | HeadHitKnockOutProbability | | Modifies the chance of knocking out an opponent with a blow to the head | `HeadHitKnockOutBaseProbability`
-51 | `hlt` | Healthiness | | | `MaxStamina` / `MaxHealthyStamina`
-120 | `hml` | HorseThrowDownMoraleLimit | `hml=0` | Determines whether the player's horse will throw the player outside of combat | `HorseMoraleToThrowOffRider`
-75 | `ibi` | InjuryBleedingInterval | | | `InjuryBleedingInterval`
-104 | `iex` | ItemExpert | | | 0
-126 | `imm` | Immortality | | | Derived from `soul.soul_vip_class_id`
-124 | `jrm` | JailRecoverySpeedMod | `jrm*0.8` | Modifies the rate at which the player recovers from jail time | 1
-62 | `lfu` | LockFailUnlockProb | `lfu=0.1` | 10% chance of opening locks instantly | 0
-63 | `lio` | LockInstantOpenDifficulty | `lio=0.3` | Modifies the maximum lock difficulty of instantly unlockable locks | 0
-47 | `lpv` | LightProbeVisibility | | | Calculated from light probe. Value between `MinLightProbeVisibility` and `MaxLightProbeValue`.
-61 | `lsa` | LockStartAngle | | Modifies the lockpick's proximity to the end of the lockpicking minigame | 0
-69 | `lvl` | MainLevel | | Modifies the player's Main Level | Derived from `Strength`, `Agility`, `Vitality`, `Speech` and `StoryProgress`
-140 | `map` | MeanAttackPeriod | | | Derived from `Stamina`, `Fencing`, `CombatAggression` and `CombatAutoMaxAttackDelay`
-82 | `mcf` | MoraleContextFadingMod | | | Derived from `Courage`, `StatCap` and `MaxCourageMoraleContextFadingMod`
-50 | `mhs` | MaxHealthyStamina | | | `soul_archetype.base_stamina + soul_archetype.relative_vitality_to_stamina * Vitality / StatCap`
-81 | `mor` | Morale | | | `clamp( ( (Courage / StatCap) * SoulCourageMoraleWeight + clamp(soul_class.soul_class_courage, 0, 1) * ClassCourageMoraleWeight + ArmorRating * OverallArmorDefenseMoraleWeight + clamp(OverallWeaponAttack / GoodWeaponAttack, 0, 1) * OverallWeaponAttackMoraleWeight ) / ( SoulCourageMoraleWeight + ClassCourageMoraleWeight + OverallArmorDefenseMoraleWeight + OverallWeaponAttackMoraleWeight ) * ( HealthToMoraleMinCoef + (1 - HealthToMoraleMinCoef) * (Health / HealthFull) ) , 0, 1)`
-49 | `mst` | MaxStamina | `mst×1.5` | Modifies the maximum amount of the Stamina stat | Derived from `MaxHealthyStamina` and `Health`
-92 | `mut` | Mute | | | 1 if soul is Unconscious or Dead, 0 otherwise
-138 | `nbi` | NoiseFromBuffedItems | | | 0
-70 | `noi` | Noise | `noi*0.8` | Modifies the Noise derived stat | Derived from equipped items and `NoiseFromBuffedItems`
-72 | `nrs` | NormalizedRunSpeed | | | Derived from movement
-66 | `oad` | OverallArmorDefense | | | Derived from equipped items
-85 | `ore` | Overreadness | | | 0
-84 | `osl` | Oversleepness | | | 0
-67 | `owa` | OverallWeaponAttack | | | Derived from equipped items
-143 | `owl` | Owl | `owl+1` | Whether you can see in the dark | 0
-118 | `pbm` | CraftedPotionsBuyMarginAdjust | | Modifies the percentage amount of money received in trade for crafted potions | 0
-116 | `pds` | PicklockDmgSpeed | | Modifies the rate at which lockpicks are damaged | `PicklockDmgSpeed`
-135 | `pla` | PlatingRatio | | | Derived from equipped items
-101 | `poi` | Poisoning | `poi=1` | You've been poisoned | 0
-102 | `pos` | PocketSight | `pos+2` | reveals some number of items while pickpocketing | 0
-128 | `ppr` | PickpocketProtection | | | Derived from `soul.soul_vip_class_id`
-93 | `prb` | PerceptionPriorityBoost | | | 0
-132 | `prc` | PicklockReturnChance | `prc+0.2` | Modifies the percentage chance of repairing a broken lockpick | 0
-58 | `pt1` | PerfectThrowMultiplier1 | | | 1
-59 | `pt5` | PerfectThrowMultiplier5 | | | 1
-103 | `ran` | RobbedAngriness | `ran+1` | | 0
-44 | `rch` | RelativeCharisma | | | `Charisma / StatCap`
-80 | `rcw` | RelativeCarriedWeight | | | `CarriedWeight / InventoryCapacity`
-87 | `rdq` | ReadingQuality | `rdq>1` | It doesn't matter to you where you read, you get a learning bonus anywhere you read | `DefaultReadingQuality`
-119 | `rml` | RandomMoneyLoot | | | 0
-144 | `rms` | RealMoveSpeedMod | | | 1
-73 | `rsa` | RelativeMovementSpeedAddition | | | `lerp(-MaxAgilityToMovementSpeedAddition, MaxAgilityToMovementSpeedAddition, Agility / StatCap)`
-52 | `sdt` | StaminaDerivation | | | Derived from Vitality, MaxHealthyStamina, ArmorLoad, Stamina, HorseRiding, and many others.
-117 | `sha` | BowSelfHarmAttack | | | 0
-89 | `sle` | Sleeping | | | 0
-113 | `sma` | SellMarginAdjust | `sma-0.2` | Modifies the percentage amount of money given in trade | 0
-53 | `src` | StaminaRegenCooldown | `src+1` | Used in injured_head buff effect | `StamRegenCooldown`
-125 | `sur` | Surrendering | `sur=1` | 0 - opponent is not surrendering, 1 - opponent is surrendering | 0
-91 | `ufo` | UnconsciousnessFadeoutSpeed | `ufo×100` | infinite_unconsciousness buff | `UnconsciousDepthFadeoutSpeedBase + VitalityToUnconsciousDepthFadeoutSpeed * Vitality / StatCap`
-129 | `upr` | UnconsciousnessProtection | `upr=1` | 0 - disabled, 1 - enabled | Derived from `soul.soul_vip_class_id`
-45 | `vib` | Visibility | `vib-10` | Adjusts visibility | `EquipVisib + MovementVisibilityPenalization + LightProbeVisibility`
-55 | `vir` | ViewRadius | | | `min(MinViewRadius + VisionToViewRadius * TimeOfDayCoef * (Vision - 1), MaxViewRadius)`
-106 | `was` | RangedWeaponAimSpread | `was-0.25` | Ranged weapon accuracy | `AimSpreadMax * (1 - WeaponBow * AimSpreadSkillDecrease)`
-136 | `wbc` | WeaponBuffCharges | `wbc×1.3` | Adjusts the number of poison charges applied to a weapon | `lerp(MinWeaponBuffCharge, MaxWeaponBuffCharge, random)`
-68 | `wud` | WeaponUsageDamageMod | | | `lerp(1, MaxFencingWeaponUsageMod, Fencing / SkillCap)`
-83 | `xpm` | XPMultiplier | | Modifies the amount of experience gained | `soul.xp_multiplier`
-
+Abbr | Name | Description | Base Value
+:--- | :--- | :--- | :---
+ `aco` | ArmorCollisionWeight | Modifies the impact weight of armor when colliding with another entity | Derived from equipped items
+ `adm` | AlcoholDigestMod | Modifies the rate of alcohol digestion | 1
+ `alc` | Alcoholism | | 0
+ `alo` | ArmorLoad | test buffs: suppress armor load | Derived from `EquippedWeight`, `Strength`, `Agility`, `MaxArmorLoad`, `StrAgiToEqwArmorLoad` and `ArmorLoadDiffToMax`
+ `apa` | AlcoholPoisoningAntidote | | 0
+ `apr` | AttackProtection | | Derived from `soul.soul_vip_class_id`
+ `arr` | ArmorRating | Modifies the chance to cause enemies to flee | `clamp(OverallArmorDefense / GoodArmorDefense, 0, 1)`
+ `bad` | Badassness | Modifies the Badassness derived stat | `lerp(Morale, Strength / StatCap, ThreatenStrenghtWeight)`
+ `bld` | Bloodiness | | Derived from equipped items
+ `ble` | BleedingTotal | | Derived from buffs which have a special `Bleeding` modifier
+ `bma` | BuyMarginAdjust | Modifies the percentage amount of money received in trade | 0
+ `bow` | BodyWeight | | Derived from `soul_archetype.normal_body_weight`, `SlimCollisionWeightMul` and `FatCollisionWeightMul`
+ `brm` | BadReputationMod | Modifies the influence of negative actions on reputation | 1
+ `bso` | BasketSuspiciencyMod | | 0
+ `btw` | BoidThreatWeight | Modifies the skittishness of wild animals | 1
+ `caf` | Caffeine | | 0
+ `cag` | CombatAggression | | Derived from `Defense`, `Fencing`, `SkillCap` and `CombatAutoAggressionDiffScale`
+ `cap` | InventoryCapacity | Modifies the amount of weight that can be carried before becoming encumbered | `(BaseInventoryCapacity + StrengthToInventoryCapacity * Strength) * soul_archetype.inventory_capacity_multiplier`
+ `caw` | CarriedWeight | | Derived from inventory
+ `cbi` | CharismaFromBuffedItems | | 0
+ `cds` | ClothDirtyingSpeedKm | Modifies the rate at which clothing becomes dirty | Derived from surface, `FullClothDirtyingOnZeroSpeed` and `FullClothDirtyingOnFullSpeed`
+ `cdw` | ClinchDamageToWeapon | Modifies the percentage damage inflicted on an opponent's weapon durability | 0
+ `cha` | Charisma | Modifies the Charisma stat | Derived from equipped items, `soul.charisma` and `CharismaFromBuffedItems`.
+ `coc` | Consciousness | | 1
+ `con` | Conspicuousness | Modifies the hostile search duration of NPCs | Derived from equipped items.
+ `cow` | CollisionWeight | Modifies the overall impact of colliding with another entity | `BodyWeight + ArmorCollisionWeight`
+ `dbf` | DiceBustFixing | | 0
+ `def` | Defensiveness | | Derived from `Stamina`, `CombatAggression`, `MeanAttackPeriod`, `CombatAutoScaleDefensivenessDelayRel` and `CombatAutoAttackDelaySigma`
+ `drt` | Dirtiness | | Derived from equipped items
+ `dru` | Drunkenness | | 0
+ `dtf` | DiceThrowFixing | | 0
+ `edm` | EquipmentUseDamageMultiplier | | 1
+ `enc` | Encumberance | | Derived from surface, `RelativeCarriedWeight` and `EncumberedToSpeedSurfaceCoef`
+ `eqw` | EquippedWeight | | Derived from equipped items
+ `erq` | EffectiveReadingQuality | | `ReadingQuality`
+ `evi` | EquipVisib | | Derived from equipped items
+ `fdm` | FallDamageMultiplier | Modifies the amount of damage received after falling | `lerp(1, FallDamageMultiplierAtMaxAgility, Agility / StatCap)`
+ `fol` | DistanceFollowing | | `Fencing / SkillCap`
+ `fov` | FieldOfView | | `min(PerceptionMinFov + HearingToFov * Hearing, PerceptionMaxFov)`
+ `fpa` | FoodPoisoningAntidote | | 0
+ `fsm` | FootstepSoundMultiplier | Modifies the noise produced by walking and running | `clamp(1 - StealthSkillToFootstepSoundMult * Stealth / SkillCap, 0, 1)`
+ `grm` | GoodReputationMod | Modifies the influence of positive actions on reputation | 1
+ `hac` | HaggleAdditionalChances | Modifies the number of times a trader will haggle | 0
+ `hcm` | HorseCourageMod | Modifies the Courage stat of the mounted horse | `1 + HorseRiding * HorseRidingToHorseCourage`
+ `hgs` | HerbGatherStrengthXp | Modifies the amount of Strength skill experience gained from herb gathering | 0
+ `hko` | HeadHitKnockOutProbability | Modifies the chance of knocking out an opponent with a blow to the head | `HeadHitKnockOutBaseProbability`
+ `hlt` | Healthiness | | `MaxStamina` / `MaxHealthyStamina`
+ `hml` | HorseThrowDownMoraleLimit | Determines whether the player's horse will throw the player outside of combat | `HorseMoraleToThrowOffRider`
+ `ibi` | InjuryBleedingInterval | | `InjuryBleedingInterval`
+ `iex` | ItemExpert | | 0
+ `imm` | Immortality | | Derived from `soul.soul_vip_class_id`
+ `jrm` | JailRecoverySpeedMod | Modifies the rate at which the player recovers from jail time | 1
+ `lfu` | LockFailUnlockProb | 10% chance of opening locks instantly | 0
+ `lio` | LockInstantOpenDifficulty | Modifies the maximum lock difficulty of instantly unlockable locks | 0
+ `lpv` | LightProbeVisibility | | Calculated from light probe. Value between `MinLightProbeVisibility` and `MaxLightProbeValue`.
+ `lsa` | LockStartAngle | Modifies the lockpick's proximity to the end of the lockpicking minigame | 0
+ `lvl` | MainLevel | Modifies the player's Main Level | Derived from `Strength`, `Agility`, `Vitality`, `Speech` and `StoryProgress`
+ `map` | MeanAttackPeriod | | Derived from `Stamina`, `Fencing`, `CombatAggression` and `CombatAutoMaxAttackDelay`
+ `mcf` | MoraleContextFadingMod | | Derived from `Courage`, `StatCap` and `MaxCourageMoraleContextFadingMod`
+ `mhs` | MaxHealthyStamina | | `soul_archetype.base_stamina + soul_archetype.relative_vitality_to_stamina * Vitality / StatCap`
+ `mor` | Morale | | `clamp( ( (Courage / StatCap) * SoulCourageMoraleWeight + clamp(soul_class.soul_class_courage, 0, 1) * ClassCourageMoraleWeight + ArmorRating * OverallArmorDefenseMoraleWeight + clamp(OverallWeaponAttack / GoodWeaponAttack, 0, 1) * OverallWeaponAttackMoraleWeight ) / ( SoulCourageMoraleWeight + ClassCourageMoraleWeight + OverallArmorDefenseMoraleWeight + OverallWeaponAttackMoraleWeight ) * ( HealthToMoraleMinCoef + (1 - HealthToMoraleMinCoef) * (Health / HealthFull) ) , 0, 1)`
+ `mst` | MaxStamina | Modifies the maximum amount of the Stamina stat | Derived from `MaxHealthyStamina` and `Health`
+ `mut` | Mute | | 1 if soul is Unconscious or Dead, 0 otherwise
+ `nbi` | NoiseFromBuffedItems | | 0
+ `noi` | Noise | Modifies the Noise derived stat | Derived from equipped items and `NoiseFromBuffedItems`
+ `nrs` | NormalizedRunSpeed | | Derived from movement
+ `oad` | OverallArmorDefense | | Derived from equipped items
+ `ore` | Overreadness | | 0
+ `osl` | Oversleepness | | 0
+ `owa` | OverallWeaponAttack | | Derived from equipped items
+ `owl` | Owl | Whether you can see in the dark | 0
+ `pbm` | CraftedPotionsBuyMarginAdjust | Modifies the percentage amount of money received in trade for crafted potions | 0
+ `pds` | PicklockDmgSpeed | Modifies the rate at which lockpicks are damaged | `PicklockDmgSpeed`
+ `pla` | PlatingRatio | | Derived from equipped items
+ `poi` | Poisoning | You've been poisoned | 0
+ `pos` | PocketSight | reveals some number of items while pickpocketing | 0
+ `ppr` | PickpocketProtection | | Derived from `soul.soul_vip_class_id`
+ `prb` | PerceptionPriorityBoost | | 0
+ `prc` | PicklockReturnChance | Modifies the percentage chance of repairing a broken lockpick | 0
+ `pt1` | PerfectThrowMultiplier1 | | 1
+ `pt5` | PerfectThrowMultiplier5 | | 1
+ `ran` | RobbedAngriness | | 0
+ `rch` | RelativeCharisma | | `Charisma / StatCap`
+ `rcw` | RelativeCarriedWeight | | `CarriedWeight / InventoryCapacity`
+ `rdq` | ReadingQuality | It doesn't matter to you where you read, you get a learning bonus anywhere you read | `DefaultReadingQuality`
+ `rml` | RandomMoneyLoot | | 0
+ `rms` | RealMoveSpeedMod | | 1
+ `rsa` | RelativeMovementSpeedAddition | | `lerp(-MaxAgilityToMovementSpeedAddition, MaxAgilityToMovementSpeedAddition, Agility / StatCap)`
+ `sdt` | StaminaDerivation | | Derived from Vitality, MaxHealthyStamina, ArmorLoad, Stamina, HorseRiding, and many others.
+ `sha` | BowSelfHarmAttack | | 0
+ `sle` | Sleeping | | 0
+ `sma` | SellMarginAdjust | Modifies the percentage amount of money given in trade | 0
+ `src` | StaminaRegenCooldown | Used in injured_head buff effect | `StamRegenCooldown`
+ `sur` | Surrendering | 0 - opponent is not surrendering, 1 - opponent is surrendering | 0
+ `ufo` | UnconsciousnessFadeoutSpeed | infinite_unconsciousness buff | `UnconsciousDepthFadeoutSpeedBase + VitalityToUnconsciousDepthFadeoutSpeed * Vitality / StatCap`
+ `upr` | UnconsciousnessProtection | 0 - disabled, 1 - enabled | Derived from `soul.soul_vip_class_id`
+ `vib` | Visibility | Adjusts visibility | `EquipVisib + MovementVisibilityPenalization + LightProbeVisibility`
+ `vir` | ViewRadius | | `min(MinViewRadius + VisionToViewRadius * TimeOfDayCoef * (Vision - 1), MaxViewRadius)`
+ `was` | RangedWeaponAimSpread | Ranged weapon accuracy | `AimSpreadMax * (1 - WeaponBow * AimSpreadSkillDecrease)`
+ `wbc` | WeaponBuffCharges | Adjusts the number of poison charges applied to a weapon | `lerp(MinWeaponBuffCharge, MaxWeaponBuffCharge, random)`
+ `wud` | WeaponUsageDamageMod | | `lerp(1, MaxFencingWeaponUsageMod, Fencing / SkillCap)`
+ `xpm` | XPMultiplier | Modifies the amount of experience gained | `soul.xp_multiplier`
 
 ## Intermediate Stats
 
