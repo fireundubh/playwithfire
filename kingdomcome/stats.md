@@ -97,7 +97,7 @@ Abbr | Name | Description | Base Value
  `map` | MeanAttackPeriod | | Derived from `Stamina`, `Fencing`, `CombatAggression` and `CombatAutoMaxAttackDelay`
  `mcf` | MoraleContextFadingMod | | Derived from `Courage`, `StatCap` and `MaxCourageMoraleContextFadingMod`
  `mhs` | MaxHealthyStamina | | `soul_archetype.base_stamina + soul_archetype.relative_vitality_to_stamina * Vitality / StatCap`
- `mor` | Morale | | 
+ `mor` | Morale | | See below for base value formula.
  `mst` | MaxStamina | Modifies the maximum amount of the Stamina stat | Derived from `MaxHealthyStamina` and `Health`
  `mut` | Mute | | 1 if soul is Unconscious or Dead, 0 otherwise
  `nbi` | NoiseFromBuffedItems | | 0
@@ -139,6 +139,15 @@ Abbr | Name | Description | Base Value
  `wbc` | WeaponBuffCharges | Adjusts the number of poison charges applied to a weapon | `lerp(MinWeaponBuffCharge, MaxWeaponBuffCharge, random)`
  `wud` | WeaponUsageDamageMod | | `lerp(1, MaxFencingWeaponUsageMod, Fencing / SkillCap)`
  `xpm` | XPMultiplier | Modifies the amount of experience gained | `soul.xp_multiplier`
+
+### Morale Base Value
+
+The base value of Morale is quite long, so the formula is here:
+
+```
+clamp(((Courage / StatCap) * SoulCourageMoraleWeight + clamp(soul_class.soul_class_courage, 0, 1) * ClassCourageMoraleWeight + ArmorRating * OverallArmorDefenseMoraleWeight + clamp(OverallWeaponAttack / GoodWeaponAttack, 0, 1) * OverallWeaponAttackMoraleWeight) 
+				/ (SoulCourageMoraleWeight + ClassCourageMoraleWeight + OverallArmorDefenseMoraleWeight + OverallWeaponAttackMoraleWeight) * (HealthToMoraleMinCoef + (1 - HealthToMoraleMinCoef) * (Health / HealthFull) ), 0, 1)
+```
 
 ## Intermediate Stats
 
