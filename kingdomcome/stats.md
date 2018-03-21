@@ -147,39 +147,39 @@ Abbr | Name | Description | Base Value
 Abbr | Name | Example | Description
 :--- | :--- | :--- | :---
 `act` | MovementActivity | | 
-`ade` | ArmorDefense | ade×0.9 | Defence
-`ahm` | AttackFromHorseMod | ahm×1.15 | Modifies the amount of attack damage while mounted
-`ain` | AttackInjury | ain×1.3 | Modifies the chance to cause bleeding
-`asp` | AttackSpeed01 | asp×0.75 | Used in arm injury buff effect
-`cli` | ClinchAdvantage | cli+0.4 | Modifies the chance to overpower an opponent in a clinch
-`cos` | ComboSlot01 | cos=0 | Used in limited_combat buff
-`dee` | DamageToEnemyEquipment | dee+0.15 | Damage to armor
-`dig` | DigestionSpeed | dig×0 | Hunger?
-`dsl` | DodgeSlot | dsl×1.5 | Modifies the difficulty of dodging in combat
-`eep` | RandomEventEscapeProbability | eep×1.1 | Evasion Chance
-`exh` | ExhaustionSpeed | exh×0 | Rate at which you're exhausted
-`fae` | FirstAidEfficiency | fae×2 | Bandage effectiveness
-`hlh` | HealthLossHit | hlh×0.5 | Amount of health lost when hit, always used with `slh`
-`lcs` | LockCursorShake | lcs=0 | perk_steady_hand buff - nonexistent perk
-`lpb` | LockpickingLockpickBreakChance | lpb×0.1 | Adjusts the chance to break lockpicks
-`lpd` | LockpickingDifficulty | lpd×0.5 | Adjusts the difficulty rating of locks
-`lpn` | LockpickingNoiseMultiplier | lpn×1.3 | Modifies the amount of noise produced by lockpicking
-`ors` | ObserverRecognitionSpeed | ors=-1 | With Cpp:VersusDog, whether dogs bark at you. As a constant, whether souls react to you?
-`osb` | OpponentStaminaLossBlocking | osb×1.15 | Opponent's stamina cost of attacking while you're blocking
-`pac` | WeaponPoisonApplyChance | pac×1.5 | Chance to poison on attack
-`pbs` | PerfectBlockSlot01 | pbs×2 | 
-`pdp` | PullDownProbability | pdp×1.15 | Chance to remain in saddle when opponents attempts to unhorse you
-`rst` | RelativeStaminaMax | rst < 0.6 | Used in the overeating buff effect
-`rtm` | RiderThreatsToHorseMorale | rtm×0.5 | Chance for horse to shy at nearby foes
-`sco` | StaminaConsumption | sco=0 | Used in god_mode buff effect 
-`skp` | StealthKillProbability | skp=0 | 0 - stealth kill fail, 1 - stealth kill success
-`slh` | StaminaLossHit | slh×0.5 | Amount of stamina to lose when attacked
-`sls` | StaminaLossBlockingShield | sls×0.7 | Stamina cost of blocking with a shield
-`sra` | StaminaRegenAttack | sra×1.5 | Stamina regeneration rate while attacking
+`ade` | ArmorDefense | `ade*0.9` | Defence
+`ahm` | AttackFromHorseMod | `ahm*1.15` | Modifies the amount of attack damage while mounted
+`ain` | AttackInjury | `ain×1.3` | Modifies the chance to cause bleeding
+`asp` | AttackSpeed01 | `asp*0.75` | Used in arm injury buff effect
+`cli` | ClinchAdvantage | `cli+0.4` | Modifies the chance to overpower an opponent in a clinch
+`cos` | ComboSlot01 | `cos=0` | Used in limited_combat buff
+`dee` | DamageToEnemyEquipment | `dee+0.15` | Damage to armor
+`dig` | DigestionSpeed | `dig*0` | Hunger?
+`dsl` | DodgeSlot | `dsl*1.5` | Modifies the difficulty of dodging in combat
+`eep` | RandomEventEscapeProbability | `eep*1.1` | Evasion Chance
+`exh` | ExhaustionSpeed | `exh*0` | Rate at which you're exhausted
+`fae` | FirstAidEfficiency | `fae*2` | Bandage effectiveness
+`hlh` | HealthLossHit | `hlh*0.5` | Amount of health lost when hit, always used with `slh`
+`lcs` | LockCursorShake | `lcs=0` | perk_steady_hand buff - nonexistent perk
+`lpb` | LockpickingLockpickBreakChance | `lpb*0.1` | Adjusts the chance to break lockpicks
+`lpd` | LockpickingDifficulty | `lpd*0.5` | Adjusts the difficulty rating of locks
+`lpn` | LockpickingNoiseMultiplier | `lpn*1.3` | Modifies the amount of noise produced by lockpicking
+`ors` | ObserverRecognitionSpeed | `ors=-1` | With Cpp:VersusDog, whether dogs bark at you. As a constant, whether souls react to you?
+`osb` | OpponentStaminaLossBlocking | `osb*1.15` | Opponent's stamina cost of attacking while you're blocking
+`pac` | WeaponPoisonApplyChance | `pac*1.5` | Chance to poison on attack
+`pbs` | PerfectBlockSlot01 | `pbs*2` | 
+`pdp` | PullDownProbability | `pdp*1.15` | Chance to remain in saddle when opponents attempts to unhorse you
+`rst` | RelativeStaminaMax | `rst < 0.6` | Used in the overeating buff effect
+`rtm` | RiderThreatsToHorseMorale | `rtm*0.5` | Chance for horse to shy at nearby foes
+`sco` | StaminaConsumption | `sco=0` | Used in god_mode buff effect 
+`skp` | StealthKillProbability | `skp=0` | 0 - stealth kill fail, 1 - stealth kill success
+`slh` | StaminaLossHit | `slh*0.5` | Amount of stamina to lose when attacked
+`sls` | StaminaLossBlockingShield | `sls*0.7` | Stamina cost of blocking with a shield
+`sra` | StaminaRegenAttack | `sra*1.5` | Stamina regeneration rate while attacking
 `srb` | StaminaRegenBlock | | Stamina regeneration rate while blocking 
-`srg` | StaminaRegen | srg×1.5 | Modifies the rate at which stamina regenerates
-`wac` | WeaponAttackCost | wac×0.7 | Weapon attack stamina cost
-`wat` | WeaponAttack | wat×1.2 | Weapon attack damage
+`srg` | StaminaRegen | `srg*1.5` | Modifies the rate at which stamina regenerates
+`wac` | WeaponAttackCost | `wac*0.7` | Weapon attack stamina cost
+`wat` | WeaponAttack | `wat*1.2` | Weapon attack damage
 
 ## Skill Stats
 
