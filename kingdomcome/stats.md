@@ -97,7 +97,7 @@ Abbr | Name | Description | Base Value
  `map` | MeanAttackPeriod | | Derived from `Stamina`, `Fencing`, `CombatAggression` and `CombatAutoMaxAttackDelay`
  `mcf` | MoraleContextFadingMod | | Derived from `Courage`, `StatCap` and `MaxCourageMoraleContextFadingMod`
  `mhs` | MaxHealthyStamina | | `soul_archetype.base_stamina + soul_archetype.relative_vitality_to_stamina * Vitality / StatCap`
- `mor` | Morale | | `clamp( ( (Courage / StatCap) * SoulCourageMoraleWeight + clamp(soul_class.soul_class_courage, 0, 1)<br>* ClassCourageMoraleWeight + ArmorRating * OverallArmorDefenseMoraleWeight + clamp(OverallWeaponAttack / GoodWeaponAttack, 0, 1) * OverallWeaponAttackMoraleWeight ) / ( SoulCourageMoraleWeight + ClassCourageMoraleWeight + OverallArmorDefenseMoraleWeight + OverallWeaponAttackMoraleWeight ) * ( HealthToMoraleMinCoef + (1 - HealthToMoraleMinCoef) * (Health / HealthFull) ) , 0, 1)`
+ `mor` | Morale | | `clamp( ( (Courage / StatCap) * SoulCourageMoraleWeight + clamp(soul_class.soul_class_courage, 0, 1)<br>* ClassCourageMoraleWeight + ArmorRating * OverallArmorDefenseMoraleWeight + clamp(OverallWeaponAttack / GoodWeaponAttack, 0, 1)<br>* OverallWeaponAttackMoraleWeight ) / ( SoulCourageMoraleWeight + ClassCourageMoraleWeight + OverallArmorDefenseMoraleWeight<br>* + OverallWeaponAttackMoraleWeight ) * ( HealthToMoraleMinCoef + (1 - HealthToMoraleMinCoef) * (Health / HealthFull) ) , 0, 1)`
  `mst` | MaxStamina | Modifies the maximum amount of the Stamina stat | Derived from `MaxHealthyStamina` and `Health`
  `mut` | Mute | | 1 if soul is Unconscious or Dead, 0 otherwise
  `nbi` | NoiseFromBuffedItems | | 0
