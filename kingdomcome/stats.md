@@ -36,8 +36,8 @@ ID | Abbr | Internal Name | Example | Description
 
 ## Derived Stats
 
-ID | Abbr | Name | Example | Description
----: | :--- | :--- | :--- | :---
+ID | Abbr | Name | Base Value | Description | Example
+---: | :--- | :--- | :--- | :--- | :---
 78 | `aco` | ArmorCollisionWeight | Derived from equipped items | Modifies the impact weight of armor when colliding with another entity | `aco*6`
 141 | `adm` | AlcoholDigestMod | 1 | Modifies the rate of alcohol digestion | 
 139 | `alc` | Alcoholism | 0 | | 
