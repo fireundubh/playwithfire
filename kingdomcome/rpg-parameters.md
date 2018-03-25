@@ -31,7 +31,7 @@ AlchemyRecipeStepsTolerance | 2.000000 | How many recipe steps might fail in ord
 AlchemyToleranceBase | 0.500000 | Base brewing tolerance at level 1
 AlchemyTolerancePerLevel | 0.150000 | Brewing tolerance gain per level
 AlchemyTrialEndErrorPerkTolerance | 1.000000 | Additional tolerance gained with Trial and Error perk
-AlchemyXPPerSuccessfullBrewing | 40.000000 | XP gained when a potion is successfully brewed
+AlchemyXPPerSuccessfullBrewing | 40.000000 | Alchemy XP gained when a potion is successfully brewed
 AlcoholBaseHangoverDuration | 14400.000000 | Base max duration for hangover (after blackout) in world time
 AlcoholBlackoutDuration | 14400.000000 | Blackout unconscious duration
 AlcoholContentFPAntidoteThreshold | 60.000000 | Food with alcohol content above this threshold counters food poisoning
@@ -42,7 +42,7 @@ AlcoholDrunkThreshold | 0.500000 | Threshold for Drunkenness mood from max alcoh
 AlcoholHangoverOffsetModif | 1.100000 | Starting hangover negative effects are modified by this offset
 AlcoholismDuration | 500000.000000 | Alcoholism duration in world time
 AlcoholismMaxSkillLevelThreshold | 1000.000000 | Temporary alcoholism threshold with max drinking skill
-AlcoholismRemoveSpeed | 0.001000 | Alcoholism removed per world-time second (default: 100 every 4 days)
+AlcoholismRemoveSpeed | 0.001000 | Alcoholism removed per world time second (default: 100 every 4 days)
 AlcoholismThreshold | 700.000000 | Amount of alcohol that will cause temporary alcoholism
 AlcoholismTickInterval | 1.000000 | Alcoholism timer expiry
 AlcoholMaxAGIEffect | 2.000000 | Max negative/positive stat effect
@@ -62,7 +62,7 @@ AlcoholPerkLooseTongueSpcChaModif | 1.500000 | speech and charisma modif bonus/m
 AlcoholPerkTrueSlavHangoverDurationMod | 0.500000 | hangover duration mod
 AlcoholPerkTrueSlavMaxAlcoholMod | 0.500000 | max amount of alcohol is divided by this mod
 AlcoholPerkWrongResistanceModif | 2.000000 | alcohol content modif for wrong resistance
-ArmorDefenseToAttackingWeaponStatus | 0.020000 | how opponet's defense value damages my weapon - hit to armor
+ArmorDefenseToAttackingWeaponStatus | 0.020000 | how opponent's defense value damages my weapon - hit to armor
 ArmorDirtToCharismaCoef | 1.000000 | 
 ArmorLoadDiffToMax | 10.000000 | 
 ArmorLoadToJumpCost | 2.000000 | how armor load coefficient affects the stamina jump cost (times base)
@@ -75,7 +75,7 @@ AttackEnergyModifier | 2.000000 | utoku
 AttackRequiredStamRatio | 0.000000 | actual/cost stamina ratio must be > than this value for attack to be allowed
 AttackSpeedNormal | 0.500000 | normal attack speed, 0-min, 1-max
 AttackSpeedNormalAgi | 5.000000 | agility required for the normal attack speed
-AttackSpeedPlayerRelative | 1.000000 | 1 - attack speed is always calculated using the player, 0 - using opponents skill
+AttackSpeedPlayerRelative | 1.000000 | 0 - using opponent's skill<br>1 - attack speed is always calculated using the player
 AttackStamModMin | 0.500000 | attack strength/power stamina modifier minimum (0stam->Xattack)
 AttSkillToHorsePullDown | 0.500000 | relative attacker skill to horse pull down
 AttStrengthToHorsePullDown | 0.500000 | relative attacker stat to horse pull down
@@ -450,9 +450,9 @@ RecognitionTimeDistanceGain | 0.100000 | perlin gain for the distance influencin
 RecognitionTimeKNegativeCoef | -6.000000 | multiplicative coef for negative values of conspicuousness
 RecognitionTimeKPositiveCoef | -3.000000 | multiplicative coef for positive values of conspicuousness
 RecognitionTimePCoef | 8.000000 | recognition time for a character with conspicuousness = 0
-RelationshipToImpressCharisma | 0.800000 | [0,inf]: how much is the repuation used to raise charisma
-RelationshipToPersuadeSpeech | 0.800000 | [0,inf]: how much is the repuation used to raise speech
-RelationshipToThreatenBadassness | 0.800000 | [0,inf]: how much is the repuation used to raise badassness
+RelationshipToImpressCharisma | 0.800000 | [0,inf]: how much is the reputation used to raise charisma
+RelationshipToPersuadeSpeech | 0.800000 | [0,inf]: how much is the reputation used to raise speech
+RelationshipToThreatenBadassness | 0.800000 | [0,inf]: how much is the reputation used to raise badassness
 RepairKitCapacity | 200.000000 | Repair kit capacity to repair
 RepairKitItemHealthBestLimit | 0.600000 | With high skill/quality repairkit can repauir items until this health limit
 RepairKitItemHealthDefaultLimit | 0.800000 | Default repairkit item helth limit
@@ -586,7 +586,7 @@ VitalityToUnconsciousDepthFadeoutSpeed | 1.000000 | relative vitality
 VitalityXPLevelBase | 20.000000 | 
 VitalityXPLevelDiff | 30.000000 | 
 WeakBlockStamCoef | 2.000000 | 
-WeaponDefenseToAttackingWeaponStatus | 0.010000 | how opponet's defense value damages my weapon - hit to weapon/block
+WeaponDefenseToAttackingWeaponStatus | 0.010000 | how opponent's defense value damages my weapon - hit to weapon/block
 WeaponStatusToAttackCoef | 0.200000 | weapon health to status multiplicative coef
 
 ### Game Version 1.2.5/1.3
