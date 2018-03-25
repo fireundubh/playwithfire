@@ -167,7 +167,7 @@ CombatAutoTrickNoAttackProb | 0.100000 | [0-1] no attack prob for the first step
 CombatAutoTrickReactionMaxDelay | 8.000000 | 
 CombatAutoTrickReactionMinDelay | 0.100000 | 
 CombatAutoTrickReactionSkillWeight | 4.000000 | 
-CombatAutoTrickReactionStaWeight | 1.000000 | [0-1] 0 - use just stamina; 1 - use just 1 - aggression
+CombatAutoTrickReactionStaWeight | 1.000000 | 0 - use just stamina<br>1 - use just aggression
 CombatAutoUnarmedBlockProb | 1.600000 | 
 CombatAutoWpnHealthBlockMax | 20.000000 | 
 CombatAutoWpnHealthMinBlockProb | 0.800000 | 
@@ -220,15 +220,15 @@ FoodFull | 100.000000 | you are full
 FoodHealSpeed | 2.000000 | hp regen speed
 FoodHealthThreshold | 0.500000 | Health threshold for possitive/negative food effect
 FoodOverEat | 120.000000 | you cannot eat more
-FoodPoisoningMaxHealthEffectSpeed | 0.500000 | Maximum loose of health per sec for food poisoning
+FoodPoisoningMaxHealthEffectSpeed | 0.500000 | Maximum loss of health/s for food poisoning
 FoodPoisoningMaxStatPenalty | 10.000000 | maximum temporary penalty for affected stats while food poisoning
 FoodPoisoningMaxValue | 100.000000 | Max amount of food poisoning
-FoodPoisoningMinHealthEffectSpeed | 0.100000 | minimum loose of health per sec for food poisoning
+FoodPoisoningMinHealthEffectSpeed | 0.100000 | minimum loss of health/s for food poisoning
 FoodPoisoningThreshold | 0.000500 | threshold for food posioning to start taking affecting
 FoodPreserverHealthIncreaseAmount | 0.500000 | this amount is added to food's health when food preserver is applied
-FoodSaltOrSmokePerkDecayModif | 0.750000 | food decay perk modif
+FoodSaltOrSmokePerkDecayModif | 0.750000 | food decay perk modifier
 FoodTickInterval | 2.000000 | food timer expiry
-FoodWitcherPerkNutritionModif | 0.700000 | potion nutrition wicher perk modif
+FoodWitcherPerkNutritionModif | 0.700000 | potion nutrition wicher perk modifier
 ForcedFireAimSpreadMalus | 7.000000 | spread added when the rpg forces the firing on low stamina
 FromBehindAngle | 2.356190 | minimal angle to classify the attack as 'from behind' - 0 face, PI back
 FullClothDirtyingOnFullSpeed | 3000.000000 | how far do we walk with full speed (1.0 walk speed) to get 100% dirty
@@ -250,20 +250,20 @@ HerbGatherSkillToCount | 0.300000 | multiplied by sqrt(skill level) to modify th
 HerbGatherSkillToRadius | 0.200000 | multiplied by skill level to calculate radius
 HerbGatherXP | 6.000000 | final XP reward for one herb gathering
 HerbsInHorseInventoryForHorsenipPerk | 30.000000 | number of herbs in horse inventory needed for Horsenip perk to be active
-HerbsInInventoryForFlowerPowerPerk | 30.000000 | number of herbs in inventory needed for FlowerPower perk to be active
+HerbsInInventoryForFlowerPowerPerk | 30.000000 | number of herbs in inventory needed for Flower Power perk to be active
 HighbornWealthThreshold | 10.000000 | social class wealth threshold for perks
 HorseAttackMaxSpeed | 7.000000 | speed of the attacking rider to gain maximal attack bonus
-HorseMaxAttackCoef | 2.500000 | [1,inf) maximal multiplicative coef a rider will gain when attacking on HorseMaxAttackSpeed
-HorseMoraleToThrowOffRider | 0.200000 | if the horse mor is below this, it throws off the rider
-HorseRidingAwardDistance | 500.000000 | award xp for travelling some distance on horse
+HorseMaxAttackCoef | 2.500000 | [1,inf] maximal multiplicative coefficient a rider will gain when attacking on HorseMaxAttackSpeed
+HorseMoraleToThrowOffRider | 0.200000 | if the horse morale is below this, it throws off the rider
+HorseRidingAwardDistance | 500.000000 | Horsemanship XP for travelling some distance on horse
 HorseRidingToHorseCourage | 0.050000 | how the rider's horse riding skill increases courage of his horse
 HorseRidingToHorseStamina | 0.020000 | how the rider's horse riding skill lowers sta consumption of his horse
 HorseRidingXPPerDistance | 12.500000 | horse riding xp gain after riding HorseRidingAwardDistance
 HourglassTimeout | 10.000000 | the time until all the sand goes down
 HunterLootAmountAddCoef | 0.300000 | add coef, the fixed portion
-HunterXPKill | 15.000000 | hunter skill XP gain after a kill, multiplied by the game db coef and level
-HunterXPLoot | 10.000000 | hunter skill XP gain after a loot, multiplied by the game db coef and level
-ImmortalHealthMin | 1.000000 | min health for immortal souls
+HunterXPKill | 15.000000 | Hunting XP gain after a kill, multiplied by the game db coef and level
+HunterXPLoot | 10.000000 | Hunting XP gain after a loot, multiplied by the game db coef and level
+ImmortalHealthMin | 1.000000 | Minimum health for immortal souls
 ImprovedSleepMultiplier | 2.000000 | How much better better (Rest regeneration speed) is SleepImproved than Sleep buff. This buff is used for reading when player has perk InTheFlow.
 InactiveTimeToDestroyOversleep | 8.000000 | how long to let inactive oversleep buff survive (in game seconds) (we have this threshold so that the buff will not be destroyed right after being created in SkipTime class)
 InjuringFallHeight | 2.500000 | falling height above which health damage is taken at agility 0
@@ -285,9 +285,9 @@ ItemOwnerFadePriceToHours | 1.000000 | world time hours per decigrosh
 ItemOwnerIsShopkeeperToSuspiciency | 8.000000 | basket suspiciency calculation
 ItemOwnerNeverFadesToSuspiciency | 10.000000 | 
 ItemOwnerRelationshipToSuspiciencyMin | 0.100000 | 
-JailRecoveryDebuffDurationMultiplier | 0.200000 | duration of JailRecovery debuff is calculated as jail duration * this multiplier
+JailRecoveryDebuffDurationMultiplier | 0.200000 | duration of JailRecovery debuff is calculated as `jail duration * this multiplier`
 JailRecoveryDebuffMaxHours | 240.000000 | hours spent in jail after JailRecovery debuff reaches its maximal values
-JumpCostBase | 6.000000 | stamina cost of one jump
+JumpCostBase | 6.000000 | Stamina cost of one jump
 LethalDmgR | 10.000000 | DmgR that is known to cause death
 LocalHeroInfamousReputationThreshold | 0.700000 | above this rep local hero, under infamous
 LocationReputationHatedThreshold | 0.200000 | reputation threshold below which a location will hate the player
@@ -299,7 +299,7 @@ LockPickingFailRelativeXPMulCoef | 0.101563 | multiplicative constant to derive 
 LockpickingFailSoundIntensity | 0.500000 | one-shot intensity relative to the database
 LockpickingLockpickBreakChance | 1.000000 | base lockpick break chance
 LockpickingRelDistanceToSoundIntensity | 0.500000 | how relative distance influences sound
-LockPickingSkillToShakeRel | 0.030000 | how much does the skill decrease the cursor shake (skill * this is relative to maximum/base)
+LockPickingSkillToShakeRel | 0.030000 | how much does the skill decrease the cursor shake (`skill * this is relative to maximum/base`)
 LockpickingSoundIntensityMin | 0.300000 | minimal multiplier the lockpicking minigame will generate
 LockPickingStealthXP | 8.000000 | xp to stealth for each successful lock-pick
 LockPickingSuccessXPDivCoef | 0.046875 | constant used in the denominator to derive XP reward for a successfully opened lock
@@ -316,7 +316,7 @@ MatPierceableMin | 6.000000 | OBSOLETE: projectiles with stab damage can stab in
 MaxAgilityToMovementSpeedAddition | 0.150000 | max positive addition (for maximal vit), the same amount is subtracted on level 0
 MaxArmorLoad | 0.200000 | 
 MaxAttackSpeedMod | 0.400000 | maximal relative change in the attack speed
-MaxCloudAverageForShiningArmor | 0.300000 | used by perk Knight in a shining armor; this is maximal current cloud average that still allows this perk to be active
+MaxCloudAverageForShiningArmor | 0.300000 | used by perk Knight in a Shining Armor; this is maximal current cloud average that still allows this perk to be active
 MaxCourageMoraleContextFadingMod | 0.030000 | how much can courage affect morale context fading
 MaxDamage | 200.000000 | all stam and health damages are clamped
 MaxDmgR | 4.000000 | ceil of DmgR ('damage raw')
@@ -333,43 +333,43 @@ MaxPerkPoints | 10.000000 | total number of perk points player will gain per sta
 MaxSlashBuffApplyChance | 1.500000 | chance to apply buff on slash when giving max hp damage
 MaxSmashBuffApplyChance | 0.700000 | chance to apply buff on smash when giving max hp damage
 MaxSpecialPerfectBlockSlotModifier | 0.400000 | modifier of SPB slot window - determined as (t_hit - t_pbslot) from attack x this value.
-MaxStabBuffApplyChance | 2.000000 | chance to apply buff on stab when giving max hp damage
-MaxStatToAttackMult | 1.200000 | maximal relative attack multiplier (for a high stat)
-MaxStatToAttackStaminaCostMult | 2.000000 | max stamina cost mult for a low stat
+MaxStabBuffApplyChance | 2.000000 | Chance to apply buff on stab when giving maximum health damage
+MaxStatToAttackMult | 1.200000 | Maximal relative attack multiplier (for a high stat)
+MaxStatToAttackStaminaCostMult | 2.000000 | Maximum Stamina cost multiplier for a low stat
 MaxStatToAttackStaminaCostStatDiff | 5.000000 | stat difference for max/min cost multiplier
 MaxStatToAttackStatDiff | 5.000000 | stat difference for max/min relative attack multiplier
 MaxStealthHitSoundMultiplier | 0.400000 | intensity multiplier for max stealth level
 MaxViewRadius | 100.000000 | the maximal view radius a superman NPC will have
 MaxWeaponBuffCharge | 30.000000 | max number of uses
-MaxWeatherSoundAttenuationCoef | 0.200000 | 0 - allow weather conditions to mute the sounds, 1 - no influence
-MetabolismAbsorbSpeed | 0.006900 | food/alcohol metabolised(removed) in world time
-MetabolismDigestSpeed | 0.027700 | food/alcohol digested(added) in world time
+MaxWeatherSoundAttenuationCoef | 0.200000 | 0 - allow weather conditions to mute the sounds<br>1 - no influence
+MetabolismAbsorbSpeed | 0.006900 | food/alcohol metabolised (removed) in world time
+MetabolismDigestSpeed | 0.027700 | food/alcohol digested (added) in world time
 MetabolismDigestSpeedMultiplier | 1.500000 | accelerate digest speed multiplier to_digest = max_poisoning
-MinHealthToBeAbleToSleepOrSkiptime | 30.000000 | player will not be able to go sleep or skiptime if his health would go under this threshold during the sleep or skiptime
-MinLeftoverPerks | 1.000000 | preferred number of leftovers
-MinLightProbeVisibility | 0.000000 | min value for the minimal probe result
-MinModConspicuousness | -1.000000 | final modified conspicuousness stat minimum (the least conspicuous actor)
-MinModVisibility | 0.000000 | final modified visibility stat minimum (the most invisible actor)
-MinMorale | 0.000000 | min deriv stat value
-MinPedalCost | 1.000000 | pedaling STA cost (pressure 0)
-MinPerfectBlockSlot01 | 0.300000 | the smallest PB slot for the lowest level
+MinHealthToBeAbleToSleepOrSkiptime | 30.000000 | player will not be able to sleep or wait if health would go under this threshold during sleep or waiting
+MinLeftoverPerks | 1.000000 | Preferred number of leftovers
+MinLightProbeVisibility | 0.000000 | Minimum value for the minimal probe result
+MinModConspicuousness | -1.000000 | Final modified Conspicuousness stat minimum (the least conspicuous actor)
+MinModVisibility | 0.000000 | Final modified Visibility stat minimum (the most invisible actor)
+MinMorale | 0.000000 | Minimum derived stat value
+MinPedalCost | 1.000000 | Pedaling Stamina cost (pressure 0)
+MinPerfectBlockSlot01 | 0.300000 | the smallest Perfect Block slot for the lowest level
 MinPerkPoints | 5.000000 | no leftovers if the number of perk points would be <= than this
 MinPossibleSleepTime | 1.001000 | player will reject to lie into bed when he will not be able to sleep at least this long (due to bleeding/hunger/etc, in hours)
-MinRelativeStaminaMax | 0.300000 | short-term stamina maximum relative to long-term maximum
-MinStatToAttackMult | 0.500000 | minimal relative attack multiplier (for a low stat)
-MinStatToAttackStaminaCostMult | 0.800000 | min stamina cost mult for a high stat
-MinStealthHitSoundMultiplier | 0.100000 | intensity multiplier for min stealth level
-MinTrueRelationDistThreshold | 1.500000 | minimal distance required to see the true faction
-MinViewRadius | 2.500000 | the minimal view radius an almost blind NPC will have, also threshold for instant detection
+MinRelativeStaminaMax | 0.300000 | Short-term stamina maximum relative to long-term maximum
+MinStatToAttackMult | 0.500000 | Minimal relative attack multiplier for a low stat
+MinStatToAttackStaminaCostMult | 0.800000 | Minimum Stamina cost multiplier for a high stat
+MinStealthHitSoundMultiplier | 0.100000 | Intensity multiplier for minimum Stealth level
+MinTrueRelationDistThreshold | 1.500000 | Minimal distance required to see the true faction
+MinViewRadius | 2.500000 | Minimal view radius an almost blind NPC will have, also threshold for instant detection
 MinWeaponBuffCharge | 15.000000 | 
 MoraleContextFadingSpeed | 0.050000 | Speed of Morale context increasing/decreasing to 0
 MoraleDecisionReliability | 0.150000 | Reliability of morale checks
-MoraleForCombat | 0.200000 | how much must an NPC have to not flee from combat
+MoraleForCombat | 0.200000 | How much morale an NPC must have to not flee from combat
 NightCoefToNoise | 0.200000 | 
-NightCoefToVis | -0.500000 | nightCoef = 1 - daytimeCoef;
-NonSkillBookXP | 30.000000 | XP rewarded for reading non-skill books
+NightCoefToVis | -0.500000 | `nightCoef = 1 - daytimeCoef`
+NonSkillBookXP | 30.000000 | Reading XP rewarded for reading non-skill books
 NPCRepWeight | 5.000000 | Weight of player - npc reputation (reputation median)
-OverallArmorDefenseMoraleWeight | 3.000000 | Weight of normalized oad affecting morale
+OverallArmorDefenseMoraleWeight | 3.000000 | Weight of normalized load affecting morale
 OverallWeaponAttackMoraleWeight | 3.000000 | Weight of normalized attack affecting morale
 OverreadnessEmptyTime | 16.000000 | how long (in game hours) does it take to empty the oversleepness stat (time player have to be not reading to be able to read max time again)
 OverreadnessFillTime | 8.000000 | how long (in game hours) does it take to fill the oversleepness stat (max time player can read)
@@ -416,8 +416,8 @@ PicklockDmgSpeed | 10.000000 | how fast is picklock durability decreasing (will 
 PicklockFatalRelativeDist | 5.000000 | maximal relative distance, if futher the pick lock is destroyer
 PickpocketingAngleChancePenalty | 0.002700 | penalty in (0-1) to chance pickpocketing for each angle from optimal possition exactly from behind victim (180 max)
 PickpocketingComradePerkBonus | 0.300000 | max bonus in (0-1) to pickpocketing for comrade perk
-PickpocketingFailXPMod | 0.300000 | XP modified on fail
-PickpocketingIndicatorSharpness | 0.200000 | 0 - precise slow change, 1 - sharp change
+PickpocketingFailXPMod | 0.300000 | Pickpocketing XP modified on failure
+PickpocketingIndicatorSharpness | 0.200000 | 0 - precise slow change<br>1 - sharp change
 PickpocketingItemUncoverTimePerWeight | 0.100000 | time to uncover item per weight unit
 PickpocketingMaxSkillChargeSpeedRatio | 6.000000 | charge speed ratio boost with best skill
 PickpocketingMaxSkillChargeTime | 30.000000 | max charge time with best skill
@@ -426,25 +426,25 @@ PickpocketingNPCDrunkTimeChanceMod | 0.500000 | Modifies TimeChancePenalty when 
 PickpocketingNPCHurtTimeChanceMod | 0.750000 | Modifies TimeChancePenalty when hurt
 PickpocketingNPCSleepingTimeChanceMod | 0.500000 | Modifies TimeChancePenalty when sleeping
 PickpocketingRobbedAngrinessChancePenalty | 0.050000 | penalty in (0-1) to pickpocketing chance for each time victim was robbed before
-PickpocketingStealthXP | 12.000000 | XP to stealth for each successful pickpocketing
-PickpocketingTimeChancePenaltyBest | 0.013300 | penalty in pickpocketing chance in best case (s)
-PickpocketingTimeChancePenaltyWorst | 0.100000 | penalty in pickpocketing chance in worst case (s)
-PickpocketingTreasurePriceXP | 100.000000 | additional XP gain calculated by stolen items total value
-PickpocketingXP | 15.000000 | XP for each successful pickpocketing
+PickpocketingStealthXP | 12.000000 | Stealth XP for each successful pickpocketing
+PickpocketingTimeChancePenaltyBest | 0.013300 | penalty in pickpocketing chance in best case(s)
+PickpocketingTimeChancePenaltyWorst | 0.100000 | penalty in pickpocketing chance in worst case(s)
+PickpocketingTreasurePriceXP | 100.000000 | Additional XP gain calculated by stolen items total value
+PickpocketingXP | 15.000000 | Pickpocketing XP for each pocket successfully picked
 PoorWeaponDefense | 1.000000 | 
 ProjectileMaxBreakProb | 0.700000 | probability of breaking an arrow if a rock-solid material is hit
 QuestMoneyRewardScaleConstant | 1.250000 | scale constnat for quest reward item amount
 RangedWpnCosThetaToAttackMin | 0.700000 | cos(theta) lieary lowers the attack in the range [this,1]
-RangedWpnMinPowerCoef | 0.100000 | the power coef for a really weak soul (the stats are far below requirements)
+RangedWpnMinPowerCoef | 0.100000 | the power coefficient for a really weak soul (the stats are far below requirements)
 RangedWpnMinStrCoef | 0.500000 | if the curr/req strength ratio goes below this, the power is minimal
 RangedWpnOptimalDistanceToMinamal | 0.500000 | ratio between the database attack distance and the minimal range for the AI
 RangedWpnPowerConstA | 1.850000 | used to convert strength requirements to the resulting power
 RangedWpnPwrToSpeed | 1.000000 | total power to launch speed
-RangedWpnSelfHarmCoef | 15.000000 | Special constant used in self harm equation.
+RangedWpnSelfHarmCoef | 15.000000 | Special constant used in self harm equation
 RangedWpnSpeedToAttack | 0.012000 | attack mod deduced from impact speed
 ReadingRestEffectiveness | 0.300000 | If this value is 0.3, reading will regen player as sleeping on bed with comfort 30%.
 ReadingRestUpperLimit | 1.000000 | When sleeping, the rest can not exceed bed quality. When reading, the threshold is given by this value.
-ReadingXpPerHour | 30.000000 | how much xp in reading skill player gets after one hour of reading with reading speed 100%
+ReadingXpPerHour | 30.000000 | Reading XP gained after one hour of reading with 100% reading speed
 RecognitionSpeedNotVisible | -0.500000 | must be negative, how the recognition is decreased
 RecognitionTimeDistanceGain | 0.100000 | perlin gain for the distance influencing the recognition time
 RecognitionTimeKNegativeCoef | -6.000000 | multiplicative coef for negative values of conspicuousness
@@ -457,19 +457,19 @@ RepairKitCapacity | 200.000000 | Repair kit capacity to repair
 RepairKitItemHealthBestLimit | 0.600000 | With high skill/quality repairkit can repauir items until this health limit
 RepairKitItemHealthDefaultLimit | 0.800000 | Default repairkit item helth limit
 RepairKitItemPerkBuffHealthThreshold | 0.300000 | Buffs added by repair kit perks wont be functional under this item health
-RepairKitMaxSkillCapacityCoef | 1.500000 | Max skill coef for repair kit total capacity.
+RepairKitMaxSkillCapacityCoef | 1.500000 | Max skill coefficient for repair kit total capacity
 RepairPriceModif | 0.650000 | Default reparing shop price modif
 ReputationPropagationBiasTime | 1800.000000 | random bias to propagation time (world time)
 ReputationPropagationCoef | 0.300000 | Propagation coef up (soul->faction->superfaction)
 ReputationPropagationTime | 10800.000000 | propagation time from npc to faction/superfaction (world time)
 ResetNearbyRelationshipRange | 50.000000 | range for relationship reset
 ResetPublicFriendsRelationshipMin | 0.150000 | minimal relationship for the alied forces after reset
-RespawnTimeBase | 200.000000 | time before a hidden corpse respawns (base time)
-RespawnTimeVariation | 60.000000 | time before a hidden corpse respawns (random extra time)
-RiderAgilityToHorsePullDown | 0.500000 | relative rider agility to horse pull down
-RiderHorseStaminaCoef | 0.250000 | the ratio between stamina consumption of a horse and its rider
-RiderSkillToHorsePullDown | 0.500000 | relative riding skill skill to horse pull down
-RiderThreatToHorseMorale | 0.100000 | morale decrease per one rider threat
+RespawnTimeBase | 200.000000 | Time before a hidden corpse respawns (base time)
+RespawnTimeVariation | 60.000000 | Time before a hidden corpse respawns (random extra time)
+RiderAgilityToHorsePullDown | 0.500000 | Relative rider Agility to horse pull down
+RiderHorseStaminaCoef | 0.250000 | Ratio between Stamina consumption of a horse and its rider
+RiderSkillToHorsePullDown | 0.500000 | Relative riding skill skill to horse pull down
+RiderThreatToHorseMorale | 0.100000 | Morale decrease per one rider threat
 SecondaryStatXPRatio | 0.500000 | secondary weapon stat ratio
 SharpeningFullNegativeHealthXP | 20.000000 | 
 SharpeningFullPositiveHealthXP | 100.000000 | change in weapon health at which the sharpening is considered successful
@@ -483,11 +483,11 @@ ShoeHealthDecrease | 0.001000 | status delta per traveled m
 ShoeHealthUpdateDistance | 50.000000 | shoe health is update after traveling N m
 ShortTermNutritionDigestionSpeedMultiplier | 5.000000 | digestion multiplier for part of the food with low nutrition value
 SkillCap | 20.000000 | max skill level, also effects of a general skill are maximal at this level
-SkillDiffToAttackSpeed | 0.100000 | relative attak speed gain for one skill level difference
+SkillDiffToAttackSpeed | 0.100000 | relative attack speed gain for one skill level difference
 SkillToDefense | 0.028570 | 
 SkillToDmgConstA | 1000.000000 | 
 SkillToFencingBase | 0.800000 | 
-SkillToPerfectBlockPowTo | 0.500000 | slot = relativeSkill ^ this
+SkillToPerfectBlockPowTo | 0.500000 | `slot = relativeSkill ^ this`
 SkillToRangedWpnAIRange | 0.500000 | how the relative skill influences the weapon range for the AI
 SkillXPBlock | 2.000000 | XP gain after a successful block
 SkillXPComboHit | 4.000000 | weapon XP gain after a hit in a combo
@@ -507,7 +507,7 @@ SpeechDiffToSkillCheckResult | 0.300000 | > 0; speech diff for result = -1/1
 SpeechMulOnExtremeExhaustion | 0.750000 | Player will have this speech multiplied by this value when he has exhaust equal to 0. Speech will not be changed when exhaust is 50. Linear interpolation on multiplier is applied when exhaust is between 0 and 50;
 SpeechXPLevelBase | 20.000000 | 
 SpeechXPLevelDiff | 30.000000 | 
-SprintCost | 3.500000 | stam cost of sprint
+SprintCost | 3.500000 | stamina cost of sprint
 StamDamage | 8.000000 | see: rpglib::calcStaminaDamageCost
 StaminaDamageToInjury | 0.000000 | note: stamina is [0-100] but injury is [0-1]
 StaminaToHealthDamageMax | 0.750000 | stamina-health damage transfer for dmgr=1
@@ -521,27 +521,27 @@ StamRegenRelativeDiff | 0.666667 | maximal relative difference to the base speed
 StarvationExtremeThreshold | 0.000000 | when nutrition is below this value, extreme hunger starts
 StarvationHealthLossSpeed | 0.000579 | by design the same speed as the digestion
 StarvationHugeThreshold | 25.000000 | when nutrition is below this value, significant hunger starts
-StarvationPlayerEffectMaxMax | 60.000000 | the longest interval between effects for high hunger stat
-StarvationPlayerEffectMaxMin | 90.000000 | the longest interval between effects for low hunger stat
-StarvationPlayerEffectMinMax | 30.000000 | the shortest interval between effects for high hunger stat
-StarvationPlayerEffectMinMin | 60.000000 | the shortest interval between effects for low hunger stat
+StarvationPlayerEffectMaxMax | 60.000000 | longest interval between effects for high hunger stat
+StarvationPlayerEffectMaxMin | 90.000000 | longest interval between effects for low hunger stat
+StarvationPlayerEffectMinMax | 30.000000 | shortest interval between effects for high hunger stat
+StarvationPlayerEffectMinMin | 60.000000 | shortest interval between effects for low hunger stat
 StarvationThreshold | 50.000000 | when nutrition is below this value, hunger starts
 StatCap | 20.000000 | max stat level
-StatsToDodgePowTo | 0.500000 | slot = relativeStats ^ this
+StatsToDodgePowTo | 0.500000 | `slot = relativeStats ^ this`
 StatToMainLevelBase | 0.500000 | a1 of the geometric progression
 StatXPAgilityPerDodge | 2.000000 | 
-StatXPComboHit | 4.000000 | xp gain after a kill
-StatXPHit | 2.000000 | xp gain after a hit
-StatXPKill | 8.000000 | xp gain after a dodge
-StatXPSpeechPerSequence | 1.000000 | speech xp gain after selecting an unused sequence (multiplied by speech_coef of that sequence)
-StatXPSpeechPersuadeSuccessMax | 10.000000 | maximal xp gain for persuade
-StatXPVitalityPerDistance | 8.000000 | vitality xp gain after sprinting AthleticXPAwardDistance
-StatXPVitalityPerJump | 0.500000 | vitality xp gain for each jump
-StatXPVitalityPerKill | 15.000000 | vitality xp gain after a kill
-StatXPVitalityPerVault | 0.700000 | vitality xp gain for each vault over a ledge
-StealthAttackFailXp | 10.000000 | xp gain for failed stealth kill or take-down
-StealthAttackMaxXp | 50.000000 | xp gain for successful stealth kill or take-down, strongest enemy
-StealthAttackMinXp | 25.000000 | xp gain for successful stealth kill or take-down, weakest enemy
+StatXPComboHit | 4.000000 | XP gain after a kill
+StatXPHit | 2.000000 | XP gain after a hit
+StatXPKill | 8.000000 | XP gain after a dodge
+StatXPSpeechPerSequence | 1.000000 | Speech XP gain after selecting an unused sequence (multiplied by speech_coef of that sequence)
+StatXPSpeechPersuadeSuccessMax | 10.000000 | Maximal XP gain for persuade
+StatXPVitalityPerDistance | 8.000000 | Vitality XP gain after sprinting AthleticXPAwardDistance
+StatXPVitalityPerJump | 0.500000 | Vitality XP gain for each jump
+StatXPVitalityPerKill | 15.000000 | Vitality XP gain after a kill
+StatXPVitalityPerVault | 0.700000 | Vitality XP gain for each vault over a ledge
+StealthAttackFailXp | 10.000000 | Stealth XP gain for failed stealth kill or take-down
+StealthAttackMaxXp | 50.000000 | Stealth XP gain for successful stealth kill or take-down, strongest enemy
+StealthAttackMinXp | 25.000000 | Stealth XP gain for successful stealth kill or take-down, weakest enemy
 StealthCooldown | 5.000000 | after last detector npc stops seeing player
 StealthKillDamage | 100.000000 | damage given to the victim
 StealthKillProbCoefA | 4.000000 | stealth kill/knock-out probability formula
@@ -551,10 +551,10 @@ StealthKnockOutUnconsciousDepthBase | 250.000000 | the base unconsciousness dept
 StealthSkillToFootstepSoundMult | 0.400000 | how much are footsteps attenuated for the max skill
 StealthSkillToRecogTime | 0.050000 | how much is the required time extended by the skill level (relative)
 StealthSkillToViewRadiusDecr | 0.020000 | how much is the view radius decreased by the skill level (relative)
-StealthSneakBaseDistance | 4.000000 | sneaked distance that triggers stealth leveling
-StealthSneakBaseXp | 1.000000 | base xp gain when sneaking
-StealthSneakCheckRadius | 15.000000 | npc query radius when sneaking
-StealthSneakXpSumCoefA | 5.000000 | combine xps from more npcs
+StealthSneakBaseDistance | 4.000000 | Sneaked distance that triggers Stealth leveling
+StealthSneakBaseXp | 1.000000 | Base XP gain when sneaking
+StealthSneakCheckRadius | 15.000000 | NPC query radius when sneaking
+StealthSneakXpSumCoefA | 5.000000 | Combine XP from each NPC
 StealthSneakXpSumCoefB | 4.000000 | 
 StealthToUnconsciousDepth | 250.000000 | modifies the time victim is unconscious
 StillAndHiddenHysteresis | 1.500000 | switch the state after this timeout
@@ -570,7 +570,7 @@ SuperFactionRepWeight | 1.000000 | Weight of superfaction reputation (reputation
 SuperWeaponDefense | 20.000000 | like the best shield mainly for AI, used to judge weapon
 SurfaceToArmorLoadALWCoef | 1.000000 | Coef alw from terrain/surface to armor load influence calculation
 SurfaceToArmorLoadTWCoef | 0.150000 | Coef tw from terrain/surface to armor load influence calculation
-ThreatenStrenghtWeight | 0.500000 | [0,1]: 0 - full weight to morale; 1- full weight to strength
+ThreatenStrenghtWeight | 0.500000 | [0,1]: 0 - full weight to morale<br>1- full weight to strength
 ThunderstormBuffRainIntensity | 0.300000 | rain intensity threshold when Thunderstorm buff bonuses are activated
 TreasureItemPricee | 1000.000000 | starting price of treasure items
 TrueRelationDistThresholdRel | 0.333333 | distance, relative to observers maximum distance, required to see the true faction
@@ -579,8 +579,8 @@ UnarmedAttackReqStrBase | 2.000000 | for attack with relative stam cost = 1
 UnarmedBlockDefense | 3.000000 | defense value for unarmed block
 UnconsciousDepthFadeoutSpeedBase | 1.000000 | how fast is the depth consumed
 UnconsciousTimeWhenTimeIsNotRunning | 8.000000 | if world time is not running, skiptime can not be started when player is unconscious; screen will only fade for this long instead; this is slightly modified by some rpg stats
-VigourFull | 100.000000 | maximum vigour
-VigourTickInterval | 2.000000 | vigour timer expiry
+VigourFull | 100.000000 | Maximum vigour
+VigourTickInterval | 2.000000 | Vigour timer expiry
 VisionToViewRadius | 2.000000 | an increase of FOV caused by the hea stat
 VitalityToUnconsciousDepthFadeoutSpeed | 1.000000 | relative vitality
 VitalityXPLevelBase | 20.000000 | 
