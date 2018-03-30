@@ -32,6 +32,8 @@ If you do not know how to open the cmd shell, press `Win+R`, type `cmd`, and pre
 
 ## Reference
 
+### App and Depots
+
 Type | Value | Description
 --- | --- | ---
 App ID | `379430` | Kingdom Come: Deliverance
