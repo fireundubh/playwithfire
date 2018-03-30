@@ -5,7 +5,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 # Using Steam to Download Previous Versions
 ## Step by Step
 
-1. With Steam running, go to this URL in your browser: `steam://nav/console`. If nothing happens in Chrome, use Internet Explorer.
+1. With Steam running, go to this URL in your browser: `steam://nav/console` ([steam://nav/console](link)). If nothing happens in Chrome, use Internet Explorer.
 2. Enter the following command: `download_depot <app_id> <depot_id> <manifest_id>`
 3. The depot will begin downloading. You should receive a notification when the download is complete.
 
