@@ -8,18 +8,16 @@ If you want to see more resources like this:
 # Kingdom Come: Deliverance
 Welcome to the *Kingdom Come: Deliverance* wiki at **#playwithfire**. This wiki was created to provide modders with potentially useful technical information.
 
-## Scripting Reference
+## Tools
 
-### Documentation
-
-Section | Description | Edit Status
+Name | Developer | Description
 --- | --- | ---
-[Lua Classes](kingdomcome/classes) | Lua-exposed C++ classes | **Completed**
-[Lua Functions](kingdomcome/functions) | Lua-implemented functions in every script | Not started
+[Modsmith](https://github.com/fireundubh/modsmith) | fireundubh | Automatically packages mods for distribution, merges modified XML tables with vanilla tables at package time, and generates zero-byte TBL files as needed at package time
 
-## Data Reference
 
-### Documentation
+## Documentation
+
+### Data
 
 Section | Description | Edit Status
 --- | --- | ---
@@ -31,30 +29,32 @@ Section | Description | Edit Status
 [Soul Abilities](kingdomcome/soul-abilities) | A complete table of soul abilities | **Completed**
 [Stats and Derived Stats](kingdomcome/stats) | Full and abbreviated stat and derived stat name mappings | *In progress*
 
-## Technical Reference
+### Scripting
 
-### Documentation
+Section | Description | Edit Status
+--- | --- | ---
+[Lua Classes](kingdomcome/classes) | Lua-exposed C++ classes | **Completed**
+[Lua Functions](kingdomcome/functions) | Lua-implemented functions in every script | Not started
+
+### Technical
 
 Section | Description | Edit Status
 --- | --- | ---
 [TBL File Format](kingdomcome/tbl-file-format) | TBL file format specification | **Mirrored**
 
-## Tools
-
-Name | Developer | Description
---- | --- | ---
-[Modsmith](https://github.com/fireundubh/modsmith) | fireundubh | Automatically packages mods for distribution, merges modified XML tables with vanilla tables at package time, and generates zero-byte TBL files as needed at package time
-
-## Miscellaneous Reference
+### Guides
 
 - [Using Steam to Download Previous Versions](kingdomcome/steam-console)
 
-## Wiki: Edit Status Legend
+
+## Wiki
+
+### Edit Status Legend
 
 * **Completed**: The page provides as close to 100% coverage as possible.
 * *In progress*: The page is fundamentally complete, but may need additional work and testing.
 * Not started: The page does not exist yet.
 
-## Wiki: Reporting Issues
+### Reporting Issues
 
 Please use the [GitHub Issue Tracker](https://github.com/fireundubh/playwithfire/issues) to report issues.
