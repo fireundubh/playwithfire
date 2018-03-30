@@ -21,7 +21,7 @@ Type | Value | Description
 --- | --- | ---
 App ID | `379430` | Kingdom Come: Deliverance
 Depot ID | `379432` | goldmaster
-Manifest ID | `5725479270789300781` | Version 1.4 - March 29, 2018 – 23:16:26 UTC 
+Manifest ID | `5725479270789300781` | Version 1.4 (after making HD textures optional) - March 29, 2018 – 23:16:26 UTC 
 Manifest ID | `8087559557021397984` | Version 1.4 - March 29, 2018 – 20:34:19 UTC
 Manifest ID | `5914698958093409181` | Version 1.3.4 - March 23, 2018 – 18:52:42 UTC
 Manifest ID | `2336283802842258594` | Version 1.3.3 - March 14, 2018 – 12:05:18 UTC
