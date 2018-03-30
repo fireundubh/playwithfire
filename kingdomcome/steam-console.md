@@ -9,9 +9,40 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 2. Enter the following command: `download_depot <app_id> <depot_id> <manifest_id>`
 3. The depot will begin downloading. You should receive a notification when the download is complete.
 
-The depot will likely download to: `C:\Program Files (x86)\Steam\steamapps\content\app_379430\depot_379432\`
+The depot will likely download to: `C:\Program Files (x86)\Steam\steamapps\content\app_379430\depot_379432\` (or wherever Steam is installed)
 
 Once downloaded, you can move the depot anywhere.
+
+## Optional
+
+### Change the download path
+
+You cannot change the path to which the depot downloads; however, you can "trick" Steam into downloading depots wherever you want using Junction Points.
+
+What are Junction Points? Junction Points are a type of symbolic link unique to NTFS file systems.
+
+If Steam was installed on your `C:` drive, and you wanted to download the depot to `D:`, you would do the following:
+
+1. Delete the `app_379430` folder in `C:\Program Files (x86)\Steam\steamapps\content`.
+2. Create a folder on `D:` named `app_379430`, such as `D:\app_379430`.
+3. In a cmd shell, type: `mklink /J "C:\Program Files (x86)\Steam\steamapps\content\app_379430" "D:\app_379430"`
+4. Then, run the `download_depot` command.
+
+#### mklink Syntax Reference
+
+```
+Creates a symbolic link.
+
+MKLINK [[/D] | [/H] | [/J]] Link Target
+
+        /D      Creates a directory symbolic link.  Default is a file
+                symbolic link.
+        /H      Creates a hard link instead of a symbolic link.
+        /J      Creates a Directory Junction.
+        Link    Specifies the new symbolic link name.
+        Target  Specifies the path (relative or absolute) that the new link
+                refers to.
+```
 
 ## Reference
 
