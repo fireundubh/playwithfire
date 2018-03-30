@@ -37,8 +37,8 @@ If you do not know how to open the cmd shell, press `Win+R`, type `cmd`, and pre
 Type | Value | Description
 --- | --- | ---
 App ID | `379430` | Kingdom Come: Deliverance
-Depot ID | `379432` | goldmaster
-Depot ID | `379433` | goldmaster_bin
+Depot ID | `379432` | goldmaster - This depot contains the game assets.
+Depot ID | `379433` | goldmaster_bin - This depot contains the game binaries.
 
 ### Game Data (Depot: goldmaster)
 
