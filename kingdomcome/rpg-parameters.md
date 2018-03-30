@@ -7,7 +7,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 ## Table
 
-- Parameters are up-to-date with 1.4.1.
+- Parameter names are up-to-date with 1.4.1.
 - Default values are not up-to-date.
 
 Parameter | Default Value | Description
