@@ -45,6 +45,10 @@ Name | Developer | Description
 --- | --- | ---
 [Modsmith](https://github.com/fireundubh/modsmith) | fireundubh | Automatically packages mods for distribution, merges modified XML tables with vanilla tables at package time, and generates zero-byte TBL files as needed at package time
 
+## Miscellaneous Reference
+
+- [Using Steam to Download Previous Versions](kingdomcome/steam-console)
+
 ## Wiki: Edit Status Legend
 
 * **Completed**: The page provides as close to 100% coverage as possible.
