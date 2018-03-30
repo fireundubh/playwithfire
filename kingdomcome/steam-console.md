@@ -28,22 +28,6 @@ If Steam was installed on your `C:` drive, and you wanted to download the depot 
 3. In a cmd shell, type: `mklink /J "C:\Program Files (x86)\Steam\steamapps\content\app_379430" "D:\app_379430"`
 4. Then, run the `download_depot` command.
 
-#### mklink Syntax Reference
-
-```
-Creates a symbolic link.
-
-MKLINK [[/D] | [/H] | [/J]] Link Target
-
-        /D      Creates a directory symbolic link.  Default is a file
-                symbolic link.
-        /H      Creates a hard link instead of a symbolic link.
-        /J      Creates a Directory Junction.
-        Link    Specifies the new symbolic link name.
-        Target  Specifies the path (relative or absolute) that the new link
-                refers to.
-```
-
 ## Reference
 
 ### Arguments
