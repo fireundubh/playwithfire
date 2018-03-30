@@ -21,17 +21,17 @@ Type | Value | Description
 --- | --- | ---
 App ID | `379430` | Kingdom Come: Deliverance
 Depot ID | `379432` | goldmaster
-Manifest ID | `5725479270789300781` | March 29, 2018 – 23:16:26 UTC
-Manifest ID | `8087559557021397984` | March 29, 2018 – 20:34:19 UTC
-Manifest ID | `5914698958093409181` | March 23, 2018 – 18:52:42 UTC
-Manifest ID | `2336283802842258594` | March 14, 2018 – 12:05:18 UTC
-Manifest ID | `5466979519765255293` | March 10, 2018 – 17:01:41 UTC
-Manifest ID | `6648306801271692541` | March 9, 2018 – 18:02:55 UTC
-Manifest ID | `5922355296132692872` | March 9, 2018 – 15:23:15 UTC
-Manifest ID | `189591112647295182`| February 21, 2018 – 16:55:57 UTC
-Manifest ID | `5015448431446448432` | February 20, 2018 – 16:07:25 UTC
-Manifest ID | `7728356487649391633` | February 13, 2018 – 19:09:01 UTC
-Manifest ID | `1574197374724500814` | February 13, 2018 – 08:01:41 UTC
+Manifest ID | `5725479270789300781` | Version 1.4 - March 29, 2018 – 23:16:26 UTC 
+Manifest ID | `8087559557021397984` | Version 1.4 - March 29, 2018 – 20:34:19 UTC
+Manifest ID | `5914698958093409181` | Version 1.3.4 - March 23, 2018 – 18:52:42 UTC
+Manifest ID | `2336283802842258594` | Version 1.3.3 - March 14, 2018 – 12:05:18 UTC
+Manifest ID | `5466979519765255293` | Version 1.3.2 - March 10, 2018 – 17:01:41 UTC
+Manifest ID | `6648306801271692541` | Version 1.3.1 - March 9, 2018 – 18:02:55 UTC
+Manifest ID | `5922355296132692872` | Version 1.3 - March 9, 2018 – 15:23:15 UTC
+Manifest ID | `189591112647295182`| Version 1.2.5 (likely game + OST) - February 21, 2018 – 16:55:57 UTC
+Manifest ID | `5015448431446448432` | Version 1.2.5 - February 20, 2018 – 16:07:25 UTC
+Manifest ID | `7728356487649391633` | Version 1.2 - February 13, 2018 – 19:09:01 UTC
+Manifest ID | `1574197374724500814` | Version 1.1 - February 13, 2018 – 08:01:41 UTC
 
 ### Depots and Manifests
 
