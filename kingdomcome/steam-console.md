@@ -19,7 +19,7 @@ Once downloaded, you can move the depot anywhere.
 
 You cannot change the path to which the depot downloads; however, you can "trick" Steam into downloading depots wherever you want using Junction Points.
 
-What are Junction Points? Junction Points are a type of symbolic link unique to NTFS file systems.
+What are Junction Points? Junction Points are a type of symbolic link unique to the NTFS file system.
 
 If Steam was installed on your `C:` drive, and you wanted to download the depot to `D:`, you would do the following:
 
@@ -27,6 +27,8 @@ If Steam was installed on your `C:` drive, and you wanted to download the depot 
 2. Create a folder on `D:` named `app_379430`, such as `D:\app_379430`.
 3. In a cmd shell, type: `mklink /J "C:\Program Files (x86)\Steam\steamapps\content\app_379430" "D:\app_379430"`
 4. Then, run the `download_depot` command in the Steam Console.
+
+If you do not know how to open the cmd shell, press `Win+R`, type `cmd`, and press `Enter`.
 
 ## Reference
 
