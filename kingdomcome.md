@@ -42,9 +42,9 @@ Section | Description | Edit Status
 --- | --- | ---
 [TBL File Format](kingdomcome/tbl-file-format) | TBL file format specification | **Mirrored**
 
-### Guides
+### Miscellaneous
 
-- [Using Steam to Download Previous Versions](kingdomcome/steam-console)
+- [Guide: Using Steam to Download Previous Versions](kingdomcome/steam-console)
 
 
 ## Wiki
