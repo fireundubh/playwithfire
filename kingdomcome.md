@@ -12,7 +12,7 @@ Welcome to the *Kingdom Come: Deliverance* wiki at **#playwithfire**. This wiki 
 
 Name | Developer | Description
 --- | --- | ---
-[Modsmith](https://github.com/fireundubh/modsmith) | fireundubh | Automatically packages mods for distribution, merges modified XML tables with vanilla tables at package time, and generates zero-byte TBL files as needed at package time
+[Modsmith](https://github.com/fireundubh/modsmith) | fireundubh | Automated framework for building and packaging mods
 
 
 ## Documentation
