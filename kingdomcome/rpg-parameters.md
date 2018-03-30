@@ -5,11 +5,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 # RPG Parameters
 **Data Quality Note:** The following descriptions were dumped directly from the game. The parameter names are correct, but the descriptions contain typos and misspellings. They will be cleaned up later.
 
-## Tables
-
-These tables will be updated when the 1.3 patch is released.
-
-### Game Version 1.2.2
+## Table
 
 Parameter | Default Value | Description
 --- | --- | ---
@@ -31,6 +27,7 @@ AlchemyRecipeStepsTolerance | 2.000000 | How many recipe steps might fail in ord
 AlchemyToleranceBase | 0.500000 | Base brewing tolerance at level 1
 AlchemyTolerancePerLevel | 0.150000 | Brewing tolerance gain per level
 AlchemyTrialEndErrorPerkTolerance | 1.000000 | Additional tolerance gained with Trial and Error perk
+AlchemyXPPerAutocookBrewingRelative | | how many XP you get when you auto-cook a potion, relative to manual brewing
 AlchemyXPPerSuccessfullBrewing | 40.000000 | Alchemy XP gained when a potion is successfully brewed
 AlcoholBaseHangoverDuration | 14400.000000 | Base max duration for hangover (after blackout) in world time
 AlcoholBlackoutDuration | 14400.000000 | Blackout unconscious duration
@@ -101,6 +98,7 @@ BasketSuspiciencyNoDealThreashold | 10000000.000000 | Haggle reaction 2 threshol
 BasketSuspiciencyThreashold | 0.100000 | Haggle reaction 1 threshold (haggle more difficult)
 BestVisVolume | 10000.000000 | object volume for maximum recognition bonus
 BigZoneDistanceSlotMod | 0.800000 | temporary solution, slot mod for distance > 1
+BlindViewRadiusFakeRelative | | for blinded (mostly sleeping) NPC we have to calculate stealth XP somehow, so we calculate this fake radius
 BowChargeDurationMax | 3.000000 | maximum duration of bow charge animation
 BowChargeDurationMin | 1.350000 | minimum duration of bow charge animation
 BowPowerToChargeDuration | 0.100000 | nominal charge duration for bow with power = 1
@@ -181,9 +179,17 @@ CombatHitImmortalUnconsciousDepth | 120.000000 | depth for immortal knock-out
 CombatHitUnconsciousDepth | 60.000000 | depth after a combat hit
 CombatMoveApproachHysteresis | 1.500000 | 
 CombatMoveApproachSprintMinStamina | 1.000000 | do not allow sprint during the approach
+ControllerLockPickingAppropriateTolerance | | the lock is considered too hard to pick, if the tolerance is smaller than this
+ControllerLockPickingToleranceACoef | |
+ControllerLockPickingToleranceKCoef | |
+ControllerLockPickingToleranceMCoef | |
+ControllerLockPickingToleranceNCoef | |
 CorpseDisappearanceTimeDiscovered | 5.000000 | time before a NPC corpse is hidden when discovered
 CorpseDisappearanceTimeUndiscovered | 25.000000 | time before a NPC corpse is hidden when undiscovered
 CorpseDisapperanceMinDistanceFromPlayer | 100.000000 | distance from player below which a corpse will never disappear
+DamageToArmorStatus | | for the stopping layer
+DamageToArmorStatusHigherLayers | | for layers above the stopping layer
+DamageToArmorStatusLowerLayers | | for layers below the stopping layer
 DawnTime | 4.500000 | Time when night ends, used by rpg (default 04:30)
 DefaultReadingQuality | 0.500000 | Reading quality when doing nothing special (standing).
 DefaultRelationship | 0.500000 | default value for the alied forces
@@ -292,6 +298,7 @@ LethalDmgR | 10.000000 | DmgR that is known to cause death
 LocalHeroInfamousReputationThreshold | 0.700000 | above this rep local hero, under infamous
 LocationReputationHatedThreshold | 0.200000 | reputation threshold below which a location will hate the player
 LocationReputationLovedThreshold | 0.800000 | reputation threshold above which a location will love the player
+LockPickingAdequateTolerance | | locks on a similar level as the player have adequate tolerance
 LockPickingAppropriateTolerance | 0.045000 | the lock is considered too hard to pick, if the tolerance is smaller than this
 LockPickingCursorShakeRange | 0.080000 | how much does cursor shake during lock picking (maximum/base value)
 LockPickingCursorShakeSpeed | 30.000000 | how fast does cursor shake during lock picking
@@ -416,15 +423,18 @@ PicklockDmgSpeed | 10.000000 | how fast is picklock durability decreasing (will 
 PicklockFatalRelativeDist | 5.000000 | maximal relative distance, if futher the pick lock is destroyer
 PickpocketingAngleChancePenalty | 0.002700 | penalty in (0-1) to chance pickpocketing for each angle from optimal possition exactly from behind victim (180 max)
 PickpocketingComradePerkBonus | 0.300000 | max bonus in (0-1) to pickpocketing for comrade perk
+PickpocketingDistance | | Max pickpocketing range (not starting interactor range)
 PickpocketingFailXPMod | 0.300000 | Pickpocketing XP modified on failure
 PickpocketingIndicatorSharpness | 0.200000 | 0 - precise slow change<br>1 - sharp change
 PickpocketingItemUncoverTimePerWeight | 0.100000 | time to uncover item per weight unit
 PickpocketingMaxSkillChargeSpeedRatio | 6.000000 | charge speed ratio boost with best skill
 PickpocketingMaxSkillChargeTime | 30.000000 | max charge time with best skill
 PickpocketingMinChargeTime | 2.000000 | min charge time needed
+PickpocketingMisstargetingTolerance | | Time tolerance for temporarily mistargeting your victim
 PickpocketingNPCDrunkTimeChanceMod | 0.500000 | Modifies TimeChancePenalty when drunk
 PickpocketingNPCHurtTimeChanceMod | 0.750000 | Modifies TimeChancePenalty when hurt
 PickpocketingNPCSleepingTimeChanceMod | 0.500000 | Modifies TimeChancePenalty when sleeping
+PickpocketingRandomChanceRollMinCap | | Worst random rolls will always be capped to this minimum chance
 PickpocketingRobbedAngrinessChancePenalty | 0.050000 | penalty in (0-1) to pickpocketing chance for each time victim was robbed before
 PickpocketingStealthXP | 12.000000 | Stealth XP for each successful pickpocketing
 PickpocketingTimeChancePenaltyBest | 0.013300 | penalty in pickpocketing chance in best case(s)
@@ -577,6 +587,7 @@ TrueRelationDistThresholdRel | 0.333333 | distance, relative to observers maximu
 UnarmedAttackBase | 2.000000 | attack value for attack with relative stam cost = 1
 UnarmedAttackReqStrBase | 2.000000 | for attack with relative stam cost = 1
 UnarmedBlockDefense | 3.000000 | defense value for unarmed block
+UnarmedHitArmorDamageCoef | | relative to armed combat
 UnconsciousDepthFadeoutSpeedBase | 1.000000 | how fast is the depth consumed
 UnconsciousTimeWhenTimeIsNotRunning | 8.000000 | if world time is not running, skiptime can not be started when player is unconscious; screen will only fade for this long instead; this is slightly modified by some rpg stats
 VigourFull | 100.000000 | Maximum vigour
@@ -589,24 +600,12 @@ WeakBlockStamCoef | 2.000000 |
 WeaponDefenseToAttackingWeaponStatus | 0.010000 | how opponent's defense value damages my weapon - hit to weapon/block
 WeaponStatusToAttackCoef | 0.200000 | weapon health to status multiplicative coef
 
-### Game Version 1.2.5/1.3
+### Defunct Parameters
+
+These parameters appear to have been removed.
 
 Parameter | Default Value | Description
 --- | --- | ---
-AlchemyXPPerAutocookBrewingRelative | |
-BlindViewRadiusFakeRelative | |
-CharismaMulOnExtremeExhaustionInterpolation | |
-ControllerLockPickingAppropriateTolerance | |
-ControllerLockPickingToleranceACoef | |
-ControllerLockPickingToleranceKCoef | |
-ControllerLockPickingToleranceMCoef | |
-ControllerLockPickingToleranceNCoef | |
-DamageToArmorStatus | |
-DamageToArmorStatusHigherLayers | |
-DamageToArmorStatusLowerLayers | |
-ImprovedSleepMultiplierSurvival | |
-InactiveTimeToDestroyOversleepCreated | |
-PickpocketingDistance | |
-PickpocketingMisstargetingTolerance | |
-PickpocketingRandomChanceRollMinCap | |
-UnarmedHitArmorDamageCoef | |
+CharismaMulOnExtremeExhaustionInterpolation | | Removed?
+ImprovedSleepMultiplierSurvival | | Removed?
+InactiveTimeToDestroyOversleepCreated | | Removed?
