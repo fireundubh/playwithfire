@@ -44,7 +44,7 @@ Section | Description | Edit Status
 
 ### Miscellaneous
 
-- [Guide: Using Steam to Download Previous Versions](kingdomcome/steam-console)
+- Guide: [Using Steam to Download Previous Versions](kingdomcome/steam-console)
 
 
 ## Wiki
