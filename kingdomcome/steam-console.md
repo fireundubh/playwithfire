@@ -26,7 +26,7 @@ If Steam was installed on your `C:` drive, and you wanted to download the depot 
 1. Delete the `app_379430` folder in `C:\Program Files (x86)\Steam\steamapps\content`.
 2. Create a folder on `D:` named `app_379430`, such as `D:\app_379430`.
 3. In a cmd shell, type: `mklink /J "C:\Program Files (x86)\Steam\steamapps\content\app_379430" "D:\app_379430"`
-4. Then, run the `download_depot` command.
+4. Then, run the `download_depot` command in the Steam Console.
 
 ## Reference
 
