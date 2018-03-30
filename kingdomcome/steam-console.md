@@ -9,7 +9,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 2. Enter the following command: `download_depot <app_id> <depot_id> <manifest_id>` (refer to the Reference tables below)
 3. The depot will begin downloading. You should receive a notification when the download is complete.
 
-The depot will likely download to: `C:\Program Files (x86)\Steam\steamapps\content\app_379430\depot_379432\` (or wherever Steam is installed)
+The depot will likely download to: `C:\Program Files (x86)\Steam\steamapps\content\app_379430\depot_37943x\` (or wherever Steam is installed)
 
 Once downloaded, you can move the depot anywhere.
 
