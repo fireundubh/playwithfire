@@ -196,7 +196,7 @@ DamageToArmorStatusLowerLayers | | for layers below the stopping layer
 DawnTime | 4.500000 | Time when night ends, used by rpg (default 04:30)
 DefaultReadingQuality | 0.500000 | Reading quality when doing nothing special (standing).
 DefaultRelationship | 0.500000 | default value for the alied forces
-DefaultStateDeltaSpeed | 1.000000 | any soul state regen / loosing speed
+DefaultStateDeltaSpeed | 1.000000 | any soul state regen / losing speed
 DefaultVisVolume | 0.030000 | default item size-volume that have no visibility recognition penalty
 DefaultWorldTimeRatio | 15.000000 | default world time ratio useed to calculate game time ration in superspeed skiptime
 DigestionSpeed | 0.000579 | amount of food 'lost' per world-time second (global base value)
