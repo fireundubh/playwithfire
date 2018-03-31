@@ -108,7 +108,7 @@ BowPowerToChargeDuration | 0.100000 | nominal charge duration for bow with power
 BundleAlchemistPerkAdd | 1.000000 | Addition of potions created with Bundle Alchemist perk
 CaffeineFromFoodCoef | 2.000000 | how much caffeine is added from a unit refresh
 CaffeineFullThreshold | 0.900000 | you cannot use more refreshing items if above this value
-CarriedBodyMaxStamConsumption | 10.000000 | uses encumberence to interpolate from 0 to this
+CarriedBodyMaxStamConsumption | 10.000000 | uses encumberance to interpolate from 0 to this
 CarriedBodyWeightCoef | 0.250000 | how much of the carried body weight is added to the carried weight of the carrier
 CarriedCarriedWeightCoef | 0.500000 | how much of the carried weight of the carried NPC is added to the carried weight of the carrier
 CharismaDiffToSkillCheckResult | 0.300000 | > 0; scaled charisma diff for result = -1/1
