@@ -364,8 +364,8 @@ MinMorale | 0.000000 | Minimum derived stat value
 MinPedalCost | 1.000000 | Pedaling Stamina cost (pressure 0)
 MinPerfectBlockSlot01 | 0.300000 | the smallest Perfect Block slot for the lowest level
 MinPerkPoints | 5.000000 | no leftovers if the number of perk points would be <= than this
-MinPossibleSleepTime | 1.001000 | player will reject to lie into bed when he will not be able to sleep at least this long (due to bleeding/hunger/etc, in hours)
-MinRelativeStaminaMax | 0.300000 | Short-term stamina maximum relative to long-term maximum
+MinPossibleSleepTime | 1.001000 | player will reject to lie into bed when he will not be able to sleep at least this long (due to bleeding/hunger/etc in hours)
+MinRelativeStaminaMax | 0.300000 | Short-term Stamina maximum relative to long-term maximum
 MinStatToAttackMult | 0.500000 | Minimal relative attack multiplier for a low stat
 MinStatToAttackStaminaCostMult | 0.800000 | Minimum Stamina cost multiplier for a high stat
 MinStealthHitSoundMultiplier | 0.100000 | Intensity multiplier for minimum Stealth level
@@ -409,15 +409,15 @@ PerceptionPriorVisItems | 0.500000 |
 PerceptionPriorVisPeople | 2.000000 | 
 PerceptionPriorWeapon | 8.000000 | 
 PerkBerserkDuration | 30.000000 | how long are buffs active after the perk is triggered
-PerkBerserkHealthThreshold | 0.150000 | activatinon health
-PerkBloodRushDistance | 5.000000 | distance from dying enemy when BloodRush perk bonuses are activated
-PerkBloodRushDuration | 15.000000 | duration of BloodRush perk bonuses after an enemy dies nearby
+PerkBerserkHealthThreshold | 0.150000 | activate on health
+PerkBloodRushDistance | 5.000000 | distance from dying enemy when Blood Rush perk bonuses are activated
+PerkBloodRushDuration | 15.000000 | duration of Blood Rush perk bonuses after an enemy dies nearby
 PerkBrutusCombatDmgRBonusFromBehind | 1.300000 | brutus perk multiplicative base Dmg (CombatDmgRBonusFromBehind)
 PerkCarriedBodyGravediggerWeightMul | 0.500000 | carried body weight multiplier for gravedigger perk
 PerkChainStrikeMaxChain | 5.000000 | maximal successive strikes
-PerkDaringDebonairWantedLevel | 1.000000 | daring debonair wanted level threshold
+PerkDaringDebonairWantedLevel | 1.000000 | Daring Debonair wanted level threshold
 PerkLastGaspCooldown | 600.000000 | how fast can the perk be activated again
-PerkManlyOdourDirtinessThreshold | 0.500000 | above this dirtiness manly odour perk bonuses are activated
+PerkManlyOdourDirtinessThreshold | 0.500000 | Manly Odour perk bonuses are activated above this dirtiness threshold
 PerkProperDietActivationTime | 120.000000 | hours until ProperDiet perk bonuses are activated
 PerkTauntAttackerMoraleMultiplier | 3.000000 | multiplier for 'combat_dodge_attacker' morale change when victim has Taunt perk
 PerkWaterOfLifeAlcoholMultiplier | 0.500000 | potion alcohol effect multiplier for Water of life perk
@@ -445,9 +445,9 @@ PickpocketingTimeChancePenaltyWorst | 0.100000 | penalty in pickpocketing chance
 PickpocketingTreasurePriceXP | 100.000000 | Additional XP gain calculated by stolen items total value
 PickpocketingXP | 15.000000 | Pickpocketing XP for each pocket successfully picked
 PoorWeaponDefense | 1.000000 | 
-ProjectileMaxBreakProb | 0.700000 | probability of breaking an arrow if a rock-solid material is hit
+ProjectileMaxBreakProb | 0.700000 | probability of breaking an arrow when a rock-solid material is hit
 QuestMoneyRewardScaleConstant | 1.250000 | scale constnat for quest reward item amount
-RangedWpnCosThetaToAttackMin | 0.700000 | cos(theta) lieary lowers the attack in the range [this,1]
+RangedWpnCosThetaToAttackMin | 0.700000 | cos(theta) linearly lowers the attack in the range [this,1]
 RangedWpnMinPowerCoef | 0.100000 | the power coefficient for a really weak soul (the stats are far below requirements)
 RangedWpnMinStrCoef | 0.500000 | if the curr/req strength ratio goes below this, the power is minimal
 RangedWpnOptimalDistanceToMinamal | 0.500000 | ratio between the database attack distance and the minimal range for the AI
@@ -463,15 +463,15 @@ RecognitionTimeDistanceGain | 0.100000 | perlin gain for the distance influencin
 RecognitionTimeKNegativeCoef | -6.000000 | multiplicative coef for negative values of conspicuousness
 RecognitionTimeKPositiveCoef | -3.000000 | multiplicative coef for positive values of conspicuousness
 RecognitionTimePCoef | 8.000000 | recognition time for a character with conspicuousness = 0
-RelationshipToImpressCharisma | 0.800000 | [0,inf]: how much is the reputation used to raise charisma
-RelationshipToPersuadeSpeech | 0.800000 | [0,inf]: how much is the reputation used to raise speech
-RelationshipToThreatenBadassness | 0.800000 | [0,inf]: how much is the reputation used to raise badassness
+RelationshipToImpressCharisma | 0.800000 | [0,inf]: how much reputation is used to raise charisma
+RelationshipToPersuadeSpeech | 0.800000 | [0,inf]: how much reputation is used to raise speech
+RelationshipToThreatenBadassness | 0.800000 | [0,inf]: how much reputation is used to raise badassness
 RepairKitCapacity | 200.000000 | Repair kit capacity to repair
-RepairKitItemHealthBestLimit | 0.600000 | With high skill/quality repairkit can repauir items until this health limit
-RepairKitItemHealthDefaultLimit | 0.800000 | Default repairkit item helth limit
-RepairKitItemPerkBuffHealthThreshold | 0.300000 | Buffs added by repair kit perks wont be functional under this item health
+RepairKitItemHealthBestLimit | 0.600000 | With high skill/quality repair kit, can repair items until this health limit
+RepairKitItemHealthDefaultLimit | 0.800000 | Default repair kit item health limit
+RepairKitItemPerkBuffHealthThreshold | 0.300000 | Buffs added by repair kit perks won't be functional under this item health
 RepairKitMaxSkillCapacityCoef | 1.500000 | Max skill coefficient for repair kit total capacity
-RepairPriceModif | 0.650000 | Default reparing shop price modif
+RepairPriceModif | 0.650000 | Default repairing shop price modifier
 ReputationPropagationBiasTime | 1800.000000 | random bias to propagation time (world time)
 ReputationPropagationCoef | 0.300000 | Propagation coef up (soul->faction->superfaction)
 ReputationPropagationTime | 10800.000000 | propagation time from npc to faction/superfaction (world time)
@@ -542,13 +542,13 @@ StarvationThreshold | 50.000000 | when nutrition is below this value, hunger sta
 StatCap | 20.000000 | max stat level
 StatsToDodgePowTo | 0.500000 | `slot = relativeStats ^ this`
 StatToMainLevelBase | 0.500000 | a1 of the geometric progression
-StatXPAgilityPerDodge | 2.000000 | 
-StatXPComboHit | 4.000000 | XP gain after a kill
+StatXPAgilityPerDodge | 2.000000 | XP gain after a dodge
+StatXPComboHit | 4.000000 | XP gain after combo hit
 StatXPHit | 2.000000 | XP gain after a hit
-StatXPKill | 8.000000 | XP gain after a dodge
+StatXPKill | 8.000000 | XP gain after a kill
 StatXPSpeechPerSequence | 1.000000 | Speech XP gain after selecting an unused sequence (multiplied by speech_coef of that sequence)
 StatXPSpeechPersuadeSuccessMax | 10.000000 | Maximal XP gain for persuade
-StatXPVitalityPerDistance | 8.000000 | Vitality XP gain after sprinting AthleticXPAwardDistance
+StatXPVitalityPerDistance | 8.000000 | Vitality XP gain after sprinting `AthleticXPAwardDistance`
 StatXPVitalityPerJump | 0.500000 | Vitality XP gain for each jump
 StatXPVitalityPerKill | 15.000000 | Vitality XP gain after a kill
 StatXPVitalityPerVault | 0.700000 | Vitality XP gain for each vault over a ledge
@@ -557,9 +557,9 @@ StealthAttackMaxXp | 50.000000 | Stealth XP gain for successful stealth kill or 
 StealthAttackMinXp | 25.000000 | Stealth XP gain for successful stealth kill or take-down, weakest enemy
 StealthCooldown | 5.000000 | after last detector npc stops seeing player
 StealthKillDamage | 100.000000 | damage given to the victim
-StealthKillProbCoefA | 4.000000 | stealth kill/knock-out probability formula
-StealthKillProbCoefB | 1.000000 | 
-StealthKillProbCoefC | 1.000000 | 
+StealthKillProbCoefA | 4.000000 | coefficient for stealth kill/knock-out probability formula
+StealthKillProbCoefB | 1.000000 | coefficient for stealth kill/knock-out probability formula
+StealthKillProbCoefC | 1.000000 | coefficient for stealth kill/knock-out probability formula
 StealthKnockOutUnconsciousDepthBase | 250.000000 | the base unconsciousness depth for stealth knockout
 StealthSkillToFootstepSoundMult | 0.400000 | how much are footsteps attenuated for the max skill
 StealthSkillToRecogTime | 0.050000 | how much is the required time extended by the skill level (relative)
@@ -576,14 +576,14 @@ StolenGoodsForcedDiscount | 0.400000 | price multiplier for when merchant detect
 StoryProgressXPLevelBase | 20.000000 | 
 StoryProgressXPLevelDiff | 30.000000 | 
 StrAgiToEqwArmorLoad | 1.000000 | 
-StrengthToInventoryCapacity | 4.000000 | derives the inventory capacity from the strength stat
+StrengthToInventoryCapacity | 4.000000 | derives inventory capacity from Strength
 StrengthXPLevelBase | 20.000000 | 
 StrengthXPLevelDiff | 30.000000 | 
 SuperFactionRepWeight | 1.000000 | Weight of superfaction reputation (reputation median)
-SuperWeaponDefense | 20.000000 | like the best shield mainly for AI, used to judge weapon
+SuperWeaponDefense | 20.000000 | like the best shield - mainly for AI, used to judge weapon
 SurfaceToArmorLoadALWCoef | 1.000000 | Coef alw from terrain/surface to armor load influence calculation
 SurfaceToArmorLoadTWCoef | 0.150000 | Coef tw from terrain/surface to armor load influence calculation
-ThreatenStrenghtWeight | 0.500000 | [0,1]: 0 - full weight to morale<br>1- full weight to strength
+ThreatenStrenghtWeight | 0.500000 | 0 - full weight to morale<br>1- full weight to strength
 ThunderstormBuffRainIntensity | 0.300000 | rain intensity threshold when Thunderstorm buff bonuses are activated
 TreasureItemPricee | 1000.000000 | starting price of treasure items
 TrueRelationDistThresholdRel | 0.333333 | distance, relative to observers maximum distance, required to see the true faction
