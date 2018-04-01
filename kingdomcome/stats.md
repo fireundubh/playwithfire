@@ -196,7 +196,7 @@ Abbr | Internal Name | Description | Comments
 :--- | :--- | :--- | :---
 `stealth` | `Stealth` | Modifies the player's Stealth skill level
 `horse_riding` | `HorseRiding` | Modifies the player's Horsemanship skill level
-`fencing` | `Fencing` | Modifies the player's Fencing skill level | Not implemented
+`fencing` | `Fencing` | Modifies the player's Warfare skill level |
 `bard` | `Bard` | Modifies the player's Bard skill level | Not implemented
 `lockpicking` | `Lockpicking` | Modifies the player's Lockpicking skill level
 `pickpocketing` | `Pickpocketing` | Modifies the player's Pickpocketing skill level
