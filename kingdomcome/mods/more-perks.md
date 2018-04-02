@@ -30,11 +30,11 @@ Required Level | Perk Name | Perk Description | Requires Perks | Incompatible Pe
 
 Required Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 --- | --- | --- | --- | ---
-16 | Revenant II: Your health regenerates faster. (0.25/s) | Revenant I |
-20 | Revenant III: Your health regenerates much faster. (0.5/s) | Revenant II |
-6  | Sprinter II: You can sprint 50% faster at a cost of 30% more Stamina. | Sprinter I |
-9  | Sprinter III: You can sprint twice as fast at a cost of 40% more Stamina. | Sprinter II |
-12 | Thickblooded II: You bleed three times slower. | Thickblooded I |
+16 | Revenant II | Your health regenerates faster. (0.25/s) | Revenant I |
+20 | Revenant III | Your health regenerates much faster. (0.5/s) | Revenant II |
+6  | Sprinter II | You can sprint 50% faster at a cost of 30% more Stamina. | Sprinter I |
+9  | Sprinter III | You can sprint twice as fast at a cost of 40% more Stamina. | Sprinter II |
+12 | Thickblooded II | You bleed three times slower. | Thickblooded I |
 
 
 ### Speech
