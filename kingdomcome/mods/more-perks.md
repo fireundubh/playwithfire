@@ -168,6 +168,8 @@ Misc. | Cuman Killer | The description states this perk increases damage against
 - Mummer now reduces Visibility by 10% instead of reducing Visibility by 10
 - Savage perk now increases the moving speed multiplier from 1.1 (+10%) to 1.2 (+20%)
 
+Cloak and Dagger, and Mummer, were nerfed because reducing Visibility by 10 (or 20 with both perks) essentially made Henry invisible.
+
 ### Version 1.4.2
 
 - Updated for compatibility with game version 1.4.1
