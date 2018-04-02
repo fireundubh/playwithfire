@@ -21,13 +21,13 @@ Syntax:
 download_depot <app_id> <depot_id> <manifest_id>
 ```
 
-To download the 1.4.1 game assets:
+To download the v1.4.1 game assets:
 
 ```
 download_depot 379430 379432 3366038057672856335
 ```
 
-To download the 1.4.1 binaries:
+To download the v1.4.1 binaries:
 
 ```
 download_depot 379430 379433 1106887327694715381
