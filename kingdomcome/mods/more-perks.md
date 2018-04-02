@@ -48,21 +48,21 @@ Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 8 | Highborn II: Bard | You gain +3 Charisma when talking to nobles and wealthy people. | Highborn | Knight Errant
 12 | Highborn III: Mummer | You know well the art of the disguise. You're 10% less likely to be seen by those who you'd rather not see you. | Bard | Infamous
 
-#### Knight Path
+#### **Knight Path**
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 --- | --- | --- | --- | ---
 8 | Highborn II: Knight Errant | You're more threatening when interacting with nobles and wealthy people. | Highborn | Bard
 12 | Highborn III: Perfect Knight | When you perform good deeds, your reputation rises 20% faster. | Knight Errant | Infamous
 
-#### Rogue Path
+#### **Rogue Path**
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 --- | --- | --- | --- | ---
 8 | Lowborn II: Rogue | You gain +3 Charisma when talking to commoners. | Lowborn | Ruffian
 12 | Lowborn III: Charlatan | When you perform dastardly deeds, your reputation falls 20% slower. | Rogue | Local Hero
 
-#### Thug Path
+#### **Thug Path**
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 --- | --- | --- | --- | ---
