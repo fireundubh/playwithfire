@@ -1,5 +1,6 @@
 <!-- TITLE: Social Classes -->
-<!-- SUBTITLE: Social Classes -->
+
+[&larr; Kingdom Come](/kingdomcome)
 
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
