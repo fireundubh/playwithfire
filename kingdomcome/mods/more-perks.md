@@ -156,3 +156,105 @@ Misc. | Cuman Killer | The description states this perk increases damage against
 
 - Conflicts with any mod that changes `buff.xml`, `perk.xml`, `perk_buff.xml`, `perk_buff_override.xml`, or `perk2perk_exclusivity.xml`
 - Conflicts with any mod that changes English localization
+
+## Update Notes
+
+### Version 1.4.3
+
+- Added a Level 16 Warfare perk, Bloody Mess, that increases attack speed and bloodiness by 20% with each uninterrupted strike for 8 seconds
+- Burgher perk now increases the moving speed multiplier from 1.1 (+10%) to 1.2 (+20%) and no longer adds 1 Charisma (for consistency with Savage)
+- Cloak and Dagger perk now reduces footstep noise by 10% instead of reducing Visibility by 10
+- Local Hero perk no longer adds 1 Charisma (for consistency with Infamous)
+- Mummer now reduces Visibility by 10% instead of reducing Visibility by 10
+- Savage perk now increases the moving speed multiplier from 1.1 (+10%) to 1.2 (+20%)
+
+### Version 1.4.2
+
+- Updated for compatibility with game version 1.4.1
+
+### Version 1.4.1
+
+- Fixed an issue introduced in game version 1.3+ where Heavy Swing I reduced +% damage from 20% to 3%
+- Fixed an issue where the Fast Striker series did not reduce attack stamina costs in line with game version 1.3+
+- Fixed an issue where the Fast Striker descriptions did not reflect the +% damage changes in game version 1.3+
+- Removed the Badassness buffs from the Infamous and Savage perks because these buffs substantially increased your threat
+- Rebalanced the Knight Errant and Thug perks by reducing the Badassness buffs by 0.5 because these buffs substantially increased your threat
+- Adjusted the descriptions for the Infamous, Savage, Knight Errant, and Thug perks accordingly
+- Fixed an issue introduced in game version 1.3 where the Cuman Killer description did not reflect the change to damage against Cumans
+
+### Version 1.4
+
+- All Main Level perks that increased base stats now boost derived stats to improve the usefulness of these perks at higher levels
+- Main Level perk Brute now increases damage by 10% and reduces Charisma by 2
+- Main Level perk Burgher now increases damage by 10%, sprint speed by 10%, and increases Charisma by 1
+- Main Level perk Cloak and Dagger now decreases visibility by 10 and Charisma by 2
+- Main Level perk Golden Tongue now increases Charisma by 2 and reduces damage by 10%
+- Main Level perk Infamous now increases sell price by 20%, Badassness by 1, and reputation gain from good deeds by 200%
+- Main Level perk Ken now increases Charisma by 2 and reduces Carrying Capacity by 25
+- Main Level perk Juggler now increases dodging ability by 10% and reduces Charisma by 2
+- Main Level perk Local Hero now reduces buy price by 20%, Charisma by 1, and reputation loss from bad deeds by 200%
+- Main Level perk Savage now increases damage by 10%, sprint speed by 10%, and Badassness by 1
+- Vitality perk Balanced Diet now increases Max Stamina by 20% and Evasion Chance by 10%
+- Added a Level 15 Alchemy perk, Witcher II, that allows you see better at night
+- Added a Level 12 Speech perk, Charlatan, that decreases reputation loss from bad deeds by 20%
+- Added a Level 12 Speech perk, Guildsman, that increases your jail recovery rate by 20%
+- Added a Level 12 Speech perk, Mummer, that reduces your visibility by 10
+- Added a Level 12 Speech perk, Perfect Knight, that increases reputation gain from good deeds by 20%
+- Rebalanced the Sprinter II perk by increasing sprint speed from 40% to 50% and sprint stamina cost from 20% to 30%
+- Rebalanced the Sprinter III perk by increasing sprint speed from 60% to 100% and sprint stamina cost from 30% to 40%
+- Fixed an issue where the Revenant III perk increased your health regen rate by 0.375/s instead of 0.5/s
+- Renamed the Bandit perk to Thug
+- Cleaned up most strings for English localization
+
+### Version 1.3.1.1
+
+- Fixed an issue where the Heavy Swing and Fast Striker perks were not mutually exclusive
+- Fixed an issue where the Heavy Swing and Featherweight perks were mutually exclusive
+
+### Version 1.3.1
+
+- Fixed an issue where the Firm Hand perks did not have the correct parents
+- Fixed an issue where the Slim Fit perks did not have the correct parents
+- Fixed an issue where the Secret Pockets perks did not have the correct parents
+- Fixed an issue where the Bloodletter perks did not have the correct parents
+
+### Version 1.3
+
+- Added a Level 7 Reading perk, Anatomist, that increases damage against wild animals by 10%
+- Added a Level 7 Reading perk, Tactician, that increases damage against soldiers by 10%
+- Added a Level 12 Stealth perk, Slim Fit II, that reduces noise by 30%
+- Added a Level 16 Stealth perk, Slim Fit III, that reduces noise by 40%
+- Added a Level 8 Defence perk, Firm Grip II, that costs opponents 20% more Stamina when blocking
+- Added a Level 12 Defence perk, Firm Grip III, that costs opponents 25% more Stamina when blocking
+- Added a Level 8 Warfare perk, Bloodletter II, that increases your chance to draw blood by 20%
+- Added a Level 12 Warfare perk, Bloodletter III, that increases your chance to draw blood by 25%
+- Rebalanced the Bloodletter I perk by reducing the chance to draw blood from 30% to 15%
+- Fixed an issue introduced in game version 1.0+ where the Golem perk did not increase ArmorRating by 1/3
+- Restored zero-byte TBL files until Warhorse eliminates the need for them
+
+### Version 1.2
+
+- All unchanged perks, buffs, and strings were updated for game version v1.3+ using my Modsmith framework
+- Repackaged mod for game version v1.3+ using my Modsmith framework
+- Added a Level 18 Agility perk, Fast Striker III, that reduces attack stamina cost by 70% and damage by 40%
+- Added a Level 16 Agility perk, Featherweight III, that reduces fall damage by 75%
+- Added a Level 16 Lockpicking perk, Expert Thief, that unlocks Hard locks automatically
+- Added a Level 20 Lockpicking perk, Master Thief, that unlocks Very Hard locks automatically
+- Rebalanced the Fast Striker II perk by reducing attack stamina cost to 50% and damage to 30%
+- Rebalanced the Fast Striker and Heavy Swing series by making them mutually exclusive to encourage specialization
+- Renamed the Ruffian perk to Bandit
+- Renamed the vanilla Master Thief perk to Adept Thief
+
+### Version 1.1.1
+
+- Fixed several issues where formulas were incorrect, providing slightly more or less advantages than intended
+- Fixed an issue where the formula changes to the Scout II and Scout III perks were incorrect
+
+### Version 1.1
+
+- Removed the Racehorse II and Racehorse III perks because they do not work for some reason
+- Reverted the change to the Leg Day perk, reducing Strength XP gain per herb picked from +5 to +1
+
+### Version 1.0
+
+- Initial release
