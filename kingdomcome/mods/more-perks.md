@@ -90,7 +90,7 @@ Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 ---: | :--- | :--- | :--- | :---
-12 | Adept Thief (formerly Master Thief) | You unlock Easy and Very Easy locks automatically. | | 
+12 | Adept Thief (formerly Master Thief) | You unlock Very Easy and Easy locks automatically. | | 
 16 | Expert Thief | You unlock Hard locks automatically. | Adept Thief | 
 20 | Master Thief | You unlock Very Hard locks automatically. | Master Thief | 
 
