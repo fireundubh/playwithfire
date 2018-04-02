@@ -5,6 +5,14 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 # More Perks
 [Download](https://www.nexusmods.com/kingdomcomedeliverance/mods/92) — Nexus Mods
 
+## Installation
+
+1. Download the file.
+2. Navigate to wherever you installed Kingdom Come: Deliverance.
+3. Create a Mods folder in the game's root path. It should be at the same level as Data, Engine, Localization, etc.
+4. Extract the contents of the ZIP file into your Mods folder.
+5. Play the game.
+
 ## Stat Perks
 
 ### Strength
