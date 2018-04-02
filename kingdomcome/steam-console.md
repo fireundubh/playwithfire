@@ -13,6 +13,20 @@ The depot will likely download to: `C:\Program Files (x86)\Steam\steamapps\conte
 
 Once downloaded, you can move the depot anywhere.
 
+## Example
+
+To download the 1.4.1 game assets:
+
+```
+download_depot 379430 379432 3366038057672856335
+```
+
+To download the 1.4.1 binaries:
+
+```
+download_depot 379430 379433 1106887327694715381
+```
+
 ## Optional
 
 ### Change the download path
@@ -40,7 +54,7 @@ App ID | `379430` | Kingdom Come: Deliverance
 Depot ID | `379432` | goldmaster - This depot contains the game assets. (Max size: 37.17 GB)
 Depot ID | `379433` | goldmaster_bin - This depot contains the game binaries. (Max size: 43.6 MB)
 
-### Game Data (Depot: goldmaster)
+### Depot: goldmaster
 
 Type | Value | Version | Date
 --- | --- | --- | ---
@@ -57,7 +71,7 @@ Manifest ID | `5015448431446448432` | 1.2.5 | February 20, 2018 – 16:07:25 UTC
 Manifest ID | `7728356487649391633` | 1.2 | February 13, 2018 – 19:09:01 UTC
 Manifest ID | `1574197374724500814` | 1.1 | February 13, 2018 – 08:01:41 UTC
 
-### Binaries (Depot: goldmaster_bin)
+### Depot: goldmaster_bin
 
 Type | Value | Version | Date
 --- | --- | --- | ---
