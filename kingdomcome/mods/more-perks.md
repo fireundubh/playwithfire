@@ -1,6 +1,6 @@
 <!-- TITLE: More Perks -->
 
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
+If you want to see more mods and resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
 # More Perks
 [Download](https://www.nexusmods.com/kingdomcomedeliverance/mods/92) — Nexus Mods
