@@ -18,7 +18,7 @@ If you want to see more mods and resources like this, [become a Patreon supporte
 ### Strength
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
-:--- | :--- | :--- | :--- | :---
+---: | :--- | :--- | :--- | :---
 12 | Clinch Master II | In a clinch, you're 60% more likely to overpower your opponent. | Clinch Master I |
 12 | Headcracker II | You gain a 20% greater chance of knocking out an opponent with a blow to the head. | Headcracker I |
 16 | Headcracker III | You gain a 30% greater chance of knocking out an opponent with a blow to the head. | Headcracker II |
@@ -28,7 +28,7 @@ Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 ### Agility
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
-:--- | :--- | :--- | :--- | :---
+---: | :--- | :--- | :--- | :---
 12 | Fast Striker II | Your attacks cost 40% less Stamina, but you deal 20% less damage. | Fast Striker I | Heavy Swing
 16 | Fast Striker III | Your attacks cost 50% less Stamina, but you deal 30% less damage. | Fast Striker II | Heavy Swing
 8  | Featherweight II | You suffer 50% less damage from falling. | Featherweight I |
@@ -37,7 +37,7 @@ Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 ### Vitality
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
-:--- | :--- | :--- | :--- | :---
+---: | :--- | :--- | :--- | :---
 16 | Revenant II | Your health regenerates faster. (0.25/s) | Revenant I |
 20 | Revenant III | Your health regenerates much faster. (0.5/s) | Revenant II |
 6  | Sprinter II | You can sprint 50% faster at a cost of 30% more Stamina. | Sprinter I |
@@ -52,28 +52,28 @@ More Perks introduces four specialization paths for Speech practitioners: Bard, 
 #### **Bard Path**
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
-:--- | :--- | :--- | :--- | :---
+---: | :--- | :--- | :--- | :---
 8 | Highborn II: Bard | You gain +3 Charisma when talking to nobles and wealthy people. | Highborn | Knight Errant
 12 | Highborn III: Mummer | You know well the art of the disguise. You're 10% less likely to be seen by those who you'd rather not see you. | Bard | Infamous
 
 #### **Knight Path**
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
-:--- | :--- | :--- | :--- | :---
+---: | :--- | :--- | :--- | :---
 8 | Highborn II: Knight Errant | You're more threatening when interacting with nobles and wealthy people. | Highborn | Bard
 12 | Highborn III: Perfect Knight | When you perform good deeds, your reputation rises 20% faster. | Knight Errant | Infamous
 
 #### **Rogue Path**
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
-:--- | :--- | :--- | :--- | :---
+---: | :--- | :--- | :--- | :---
 8 | Lowborn II: Rogue | You gain +3 Charisma when talking to commoners. | Lowborn | Ruffian
 12 | Lowborn III: Charlatan | When you perform dastardly deeds, your reputation falls 20% slower. | Rogue | Local Hero
 
 #### **Thug Path**
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
-:--- | :--- | :--- | :--- | :---
+---: | :--- | :--- | :--- | :---
 8 | Lowborn II: Thug | You're more threatening when interacting with commoners. | Lowborn | Rogue
 12 | Lowborn III: Guildsman | You're a made guy. You recover from jail time 20% faster than your more fragile peers. | Thug | Local Hero
 
@@ -82,14 +82,14 @@ Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 ### Alchemy
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
-:--- | :--- | :--- | :--- | :---
+---: | :--- | :--- | :--- | :---
 10 | Venomous Blade II | Poison applied to weapons last 50% longer. | Venomous Blade I |
 15 | Witcher II | Your witcher senses have evolved. When night falls, you see better in dark places. | Witcher I |
 
 ### Lockpicking
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
-:--- | :--- | :--- | :--- | :---
+---: | :--- | :--- | :--- | :---
 12 | Adept Thief (formerly Master Thief) | You unlock Easy and Very Easy locks automatically. | | 
 16 | Expert Thief | You unlock Hard locks automatically. | Adept Thief | 
 20 | Master Thief | You unlock Very Hard locks automatically. | Master Thief | 
@@ -97,21 +97,21 @@ Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 ### Pickpocketing
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
-:--- | :--- | :--- | :--- | :---
+---: | :--- | :--- | :--- | :---
 6  | Secret Pockets II | When looting corpses, you have a greater chance of finding more groschen. | Secret Pockets I |
 10 | Secret Pockets III | When looting corpses, you have an excellent chance of finding more groschen. | Secret Pockets II |
 
 ### Reading
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
-:--- | :--- | :--- | :--- | :---
+---: | :--- | :--- | :--- | :---
 7 | Anatomist | You've learned enough about wild animals to deal 10% more damage to them. | |
 7 | Tactician | A keen student of warfare, your attacks deal 10% more damage against soldiers. | |
 
 ### Stealth
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
-:--- | :--- | :--- | :--- | :---
+---: | :--- | :--- | :--- | :---
 12 | Slim Fit II | Lowers the noise of armour and other equipment by 30%. | Slim Fit I |
 16 | Slim Fit III | Lowers the noise of armour and other equipment by 40%. | Slim Fit II |
 
@@ -120,14 +120,14 @@ Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 ### Defence
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
-:--- | :--- | :--- | :--- | :---
+---: | :--- | :--- | :--- | :---
 8  | Firm Grip II | Blocking your strikes cost an opponent 20% more Stamina. | Firm Grip I |
 12 | Firm Grip III | Blocking your strikes cost an opponent 25% more Stamina. | Firm Grip II |
 
 ### Warfare
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
-:--- | :--- | :--- | :--- | :---
+---: | :--- | :--- | :--- | :---
 12 | Bloodletter II | You gain a 20% greater chance of drawing blood in combat. | Bloodletter I |
 16 | Bloodletter III | You gain a 25% greater chance of drawing blood in combat. | Bloodletter II |
 16 | Bloody Mess | Each blow in an uninterrupted chain increases your attack speed and bloodiness by 20%. Any interruption cancels the bonus. | |
@@ -140,7 +140,7 @@ Main Level | Infamous | Incompatible with Bard, Mummer, Knight Errant, and Perfe
 Main Level | Local Hero | Incompatible with Rogue, Charlatan, Thug, and Guildsman
 Strength | Heavy Swing | Incompatible with Fast Striker
 Agility | Fast Striker | Incompatible with Heavy Swing
-Warfare | Bloodletter I | Reduced chance to draw blood from 30% to 15%.
+Warfare | Bloodletter I | Reduced chance to draw blood from 30% to 15%
 
 ## Fixed Perks
 
