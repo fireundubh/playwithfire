@@ -21,7 +21,6 @@ Syntax:
 download_depot <app_id> <depot_id> <manifest_id>
 ```
 
-
 To download the 1.4.1 game assets:
 
 ```
