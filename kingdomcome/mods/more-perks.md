@@ -41,7 +41,7 @@ Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 
 More Perks introduces four specialization paths for Speech practitioners: Bard, Knight, Rogue, and Thug. Each path is mutually exclusive.
 
-#### Bard Path
+#### **Bard Path**
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 --- | --- | --- | --- | ---
