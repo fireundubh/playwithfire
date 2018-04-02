@@ -9,8 +9,8 @@ If you want to see more mods and resources like this, [become a Patreon supporte
 
 1. Download the file.
 2. Navigate to wherever you installed Kingdom Come: Deliverance.
-3. Create a Mods folder in the game's root path. It should be at the same level as Data, Engine, Localization, etc.
-4. Extract the contents of the ZIP file into your Mods folder.
+3. Create a `Mods` folder in the game's root path. It should be at the same level as the `Data`, `Engine`, and `Localization` folders.
+4. Extract the contents of the ZIP file into your Mods folder (e.g., `KingdomComeDeliverance\Mods\More Perks`.)
 5. Play the game.
 
 ## Stat Perks
