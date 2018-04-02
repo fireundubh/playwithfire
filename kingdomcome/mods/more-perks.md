@@ -155,7 +155,7 @@ Misc. | Cuman Killer | The description states this perk increases damage against
 ## Compatibility
 
 - Conflicts with any mod that changes `buff.xml`, `perk.xml`, `perk_buff.xml`, `perk_buff_override.xml`, or `perk2perk_exclusivity.xml`
-- Conflicts with any mod that changes English localization
+- Conflicts with any mod that changes English localization for `text_ui_soul.xml`
 
 ## Patch Notes
 
