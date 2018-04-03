@@ -31,7 +31,7 @@ Command | Default Value | Description
 
 ### Where can I find the logs?
 
-You have to enable Papyrus logging in Skyrim.ini before you enable disguise/faction/detection system logging.
+You have to enable Papyrus logging in `Skyrim.ini` before you enable disguise/faction/detection system logging.
 
 ```
 [Papyrus]
