@@ -25,7 +25,7 @@ Command | Default Value | Description
 `set iDubhScriptDebugMonitor to [0, 1]` | `0` | Toggles detection system logging
 `set iDubhAlwaysSucceedDremora to [0, 1]` | `1` | Toggles whether Daedric disguises always succeed vs. Dremora
 `set iDubhAlwaysSucceedWerewolves to [0, 1]` | `1` | Toggles whether the Savior's Hide always succeeds vs. Werewolves
-`AddFormToFormlist xxFF0320 xx027AA9` | Disables bandit disguises (xx is the load order of Master of Disguise in hex)
+`AddFormToFormlist xxFF0320 xx027AA9` | | Disables bandit disguises (xx is the load order of Master of Disguise in hex)
 
 ## Frequently Asked Questions
 
