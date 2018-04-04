@@ -9,7 +9,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 ## Table
 
-Parameter Name | Default (1.2.5) | Default (1.4.1) | Change | Description
+Parameter Name | Default (1.2.2) | Default (1.4.1) | Change | Description
 :--- | ---: | ---: | :---: | :---
 AdditionalAttackerCountForMaxFadingBuff | 2.000000000 | 2.000000000 |  | For AdditionalAttackerCountFading buff
 AgiDiffToAttackSpeed | 0.200000000 | 0.200000000 |  | Relative attack speed gain for one Agility level difference
