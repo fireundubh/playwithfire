@@ -454,8 +454,8 @@ RangedWpnPowerConstA | 1.850000000 | 1.850000000 |  | used to convert strength r
 RangedWpnPwrToSpeed | 1.000000000 | 1.000000000 |  | total power to launch speed
 RangedWpnSelfHarmCoef | 15.000000000 | 15.000000000 |  | Special constant used in self harm equation
 RangedWpnSpeedToAttack | 0.012000000 | 0.012000000 |  | attack mod deduced from impact speed
-ReadingRestEffectiveness | 0.300000000 | nil | Increased | If this value is 0.3, reading will regen player as sleeping on bed with comfort 30%.
-ReadingRestUpperLimit | 1.000000000 | nil | Increased | When sleeping, the rest can not exceed bed quality. When reading, the threshold is given by this value.
+ReadingRestEffectiveness | 0.300000000 | nil | Decreased | If this value is 0.3, reading will regen player as sleeping on bed with comfort 30%.
+ReadingRestUpperLimit | 1.000000000 | nil | Decreased | When sleeping, the rest can not exceed bed quality. When reading, the threshold is given by this value.
 ReadingXpPerHour | 30.000000000 | 20.000000000 | Decreased | Reading XP gained after one hour of reading with 100% reading speed
 RecognitionSpeedNotVisible | -0.500000000 | -0.500000000 |  | must be negative, how the recognition is decreased
 RecognitionTimeDistanceGain | 0.100000000 | 0.100000000 |  | perlin gain for the distance influencing the recognition time
