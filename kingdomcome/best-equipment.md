@@ -5,15 +5,15 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 # Best Equipment
 ## Weapons
 
-- [Axe](best-equipment/axe) (order by: Attack, Slash Mod, Stab Mod)
-- [Halberd](best-equipment/halberd) (order by: Attack, Slash Mod, Stab Mod)
-- [Longsword](best-equipment/longsword) (order by: Attack, Slash Mod, Stab Mod)
-- [Mace](best-equipment/mace) (order by: Attack, Slash Mod, Stab Mod)
-- [Sabre](best-equipment/sabre) (order by: Attack, Slash Mod, Stab Mod)
-- [Sword](best-equipment/sword) (order by: Attack, Slash Mod, Stab Mod)
+- [Axe](best-equipment/axe) (ordered by: Attack, Slash Mod, Stab Mod)
+- [Halberd](best-equipment/halberd) (ordered by: Attack, Slash Mod, Stab Mod)
+- [Longsword](best-equipment/longsword) (ordered by: Attack, Slash Mod, Stab Mod)
+- [Mace](best-equipment/mace) (ordered by: Attack, Slash Mod, Stab Mod)
+- [Sabre](best-equipment/sabre) (ordered by: Attack, Slash Mod, Stab Mod)
+- [Sword](best-equipment/sword) (ordered by: Attack, Slash Mod, Stab Mod)
 
 ## Armour
 
-- [Armour - Charisma](best-equipment/armour-charisma) (order by: Charisma, Slash Def, Stab Def)
-- [Armour - Defence](best-equipment/armour-defence) (order by: Slash Def, Stab Def)
-- [Armour - Stealth](best-equipment/armour-stealth) (order by: Noise, Conspicuousness, Visibility)
+- [Armour - Charisma](best-equipment/armour-charisma) (ordered by: Charisma, Slash Def, Stab Def)
+- [Armour - Defence](best-equipment/armour-defence) (ordered by: Slash Def, Stab Def)
+- [Armour - Stealth](best-equipment/armour-stealth) (ordered by: Noise, Conspicuousness, Visibility)
