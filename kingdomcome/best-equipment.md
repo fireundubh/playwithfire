@@ -40,8 +40,8 @@ Item UUID | Clothing Name | Item Name | Slash Def | Stab Def | Smash Def | Locat
 
 ## Status / Slash Def / Stab Def
 
-Item UUID | Clothing Name | Item Name | Max Status | Slash Def | Stab Def | Smash Def
---- | --- | --- | --- | --- | --- | ---
+Item UUID | Clothing Name | Item Name | Max Status | Slash Def | Stab Def | Smash Def | Location
+--- | --- | --- | --- | --- | --- | --- | ---
 `40edf98e-f577-4192-67cd-4f1776d14ea4` | `pa_kyrys_007` | Nurembergian cuirass | `80` | `2.5` | `2.5` | `1` | Ancient Map III / Can also be found after a certain battle
 `481cfd5b-b646-1c6b-ff58-af749941cf9e` | `pa_helmet_024` | Warhorse helmet | `80` | `2.4` | `2.4` | `0.96` | 
 `42ed6b9c-19c5-0b8c-5feb-bfe0d7001997` | `pa_arm_016` | Magdeburg plate pauldrons | `80` | `2.3` | `2.3` | `0.92` | Sold by merchants
