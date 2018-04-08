@@ -6,7 +6,9 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 **Note:** Slash Def, Stab Def, and Smash Def are multiplied by 10 in the game.
 
-## Attack / Slash Mod / Stab Mod
+## Weapons
+
+Order: Attack, Slash Mod, then Stab Mod
 
 ### Sword
 
@@ -139,7 +141,9 @@ UUID | Name | Attack | Slash Mod | Stab Mod | Smash Mod | Defense | Str Req | Ag
 `b6ce8b62-9cab-428f-b1e8-0e12823f18c8` | `None` | `1.3` | `1` | `1` | `1` | `1` | `1` | `1`
 `e73cf113-a458-40fc-82a5-36c00f96da08` | `Wooden training axe` | `0.1` | `0.25` | `0.25` | `1` | `4` | `1` | `1`
 
-## Slash Def / Stab Def
+## Armour
+
+### Slash Def / Stab Def
 
 Item UUID | Clothing Name | Item Name | Slash Def | Stab Def | Smash Def | Location
 --- | --- | --- | --- | --- | --- | ---
@@ -171,7 +175,7 @@ Item UUID | Clothing Name | Item Name | Slash Def | Stab Def | Smash Def | Locat
 `0082de35-b635-4b85-a9ec-95024713f3ab` | `pa_helmet_002` | Kettle hat | `2` | `2` | `1.8` | Common item
 `422917fc-435a-f436-3245-a356367f8881` | `pa_arm_017` | Milanese plate pauldrons | `2` | `2` | `0.8` | Sold by Rattay Armourer
 
-## Charisma / Slash Def / Stab Def
+### Charisma / Slash Def / Stab Def
 
 Item UUID | Clothing Name | Item Name | Charisma | Slash Def | Stab Def | Smash Def | Location
 --- | --- | --- | --- | --- | --- | --- | ---
@@ -199,7 +203,7 @@ Item UUID | Clothing Name | Item Name | Charisma | Slash Def | Stab Def | Smash 
 `47d11f76-1007-00c0-1c63-cfb2b02b0c80` | `pa_kyrys_010` | Kuttenberg cuirass | `12` | `2.2` | `2.2` | `0.88` | Treasure map VII<br>q_escape_from_Vranik_4
 `481b929a-0e8e-05da-54c5-2939bd72e594` | `pa_helmet_015` | Italian bascinet | `10` | `2.07` | `2.07` | `0.828` | Sold by Rattay Armourer<br>Treasure map XXV<br>q_konradk_fejfar_chest
 
-## Stealth
+### Stealth
 
 Item UUID | Clothing Name | Item Name | Noi | Con | Vis | Location
 --- | --- | --- | --- | --- | --- | ---
