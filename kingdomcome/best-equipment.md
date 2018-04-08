@@ -30,23 +30,24 @@ Archetype | UUID | Localized Name | Slash Def | Stab Def | Smash Def | Location
 
 ### Body garment
 
-Archetype | UUID | Clothing Name | Localized Name | Slash Def | Stab Def | Smash Def | Location
-:--- | :--- | :--- | :--- | ---: | ---: | ---: | :---
-`BodyPlateCuirassFullShort` | `40edf98e-f577-4192-67cd-4f1776d14ea4` | `pa_kyrys_007` | Nurembergian cuirass | `2.5` | `2.5` | `1` | Ancient Map III (Treasures of the Past DLC)<br>Can also be found after a certain battle
-`BodyPlateCuirassFullShort` | `4e0fbb0b-70c0-1ae3-da9c-fc74e2512193` | `pa_brigandine_009` | Dark Milanese brigandine | `2.43` | `2.43` | `0.972` | Treasure map XXII
-`BodyPlateCuirassFullShort` | `4d3eb06c-581c-72a2-acf5-07c56cbb47b4` | `pa_brigandine_009` | Dyed Milanese brigandine | `2.43` | `2.43` | `0.972` | Sold by Rattay Armourer<br>q_counterOffensive_pirk_chest
-`BodyPlateCuirassFullShort` | `4c8f4d4b-72d3-c337-ed0c-41225e7b2382` | `pa_brigandine_009` | Dyed Milanese brigandine | `2.43` | `2.43` | `0.972` | Treasure map V
-`BodyPlateCuirassFullShort` | `4964faf4-b122-9856-e3d4-7e026ce4a0a7` | `pa_brigandine_009` | Dyed Milanese brigandine | `2.43` | `2.43` | `0.972` | Treasure map XXV
-`BodyPlateCuirassFullShort` | `440074cf-4d3d-5d80-2944-f49d91d642a1` | `pa_brigandine_009` | Dyed Milanese brigandine | `2.43` | `2.43` | `0.972` | Sold by Rattay Armourer
-`BodyPlateCuirassFullShort` | `4222ca69-3a10-91c1-91ff-26f36122b8a2` | `pa_brigandine_009` | Bright Milanese brigandine | `2.43` | `2.43` | `0.972` | Sold by Rattay Armourer<br>Treasure map XXI
-`BodyPlateCuirassFullShort` | `41e550e4-12df-49f0-3b05-74959224a8a5` | `pa_brigandine_009` | Milanese brigandine | `2.43` | `2.43` | `0.972` | Sold by Rattay Armourer
-`BodyPlateCuirassFullShort` | `4fedd7a1-ac86-40b1-ba0b-847e602df774` | `pa_kyrys_011` | Vitus' cuirass | `2.35` | `2.35` | `0.94` | Sasau quest reward
-`BodyPlateCuirassFullShort` | `4c71ff43-0696-66e4-71d9-45f30cf05392` | `pa_kyrys_008` | Noble cuirass | `2.35` | `2.35` | `0.94` | Treasure map II<br>Treasure map XIII
-`BodyPlateCuirassFullShort` | `47b8a5a6-0912-c070-49b9-d126e8c55bbd` | `pa_kyrys_009` | Magdeburg cuirass | `2.28` | `2.28` | `0.912` | Treasure map XVI
-`BodyPlateCuirassFullShort` | `4bef1aa8-1d05-6ecc-7797-083fa321cf80` | `pa_brigandine_009_bonus` | Warhorse brigandine | `2.2` | `2.2` | `0.88` | Ancient Map V (Treasures of the Past DLC)
-`BodyPlateCuirassFullShort` | `47d11f76-1007-00c0-1c63-cfb2b02b0c80` | `pa_kyrys_010` | Kuttenberg cuirass | `2.2` | `2.2` | `0.88` | Treasure map VII<br>q_escape_from_Vranik_4
-`BodyPlateCuirassFullLong` | `40c05582-26f8-b1dc-f0ba-80e717a8869e` | `pa_kyrys_005` | Decorated cuirass | `2.13` | `2.13` | `0.852` | Treasure map XIX
-`BodyPlateCuirassFullShort` | `4ab8c97d-6977-4b6c-4d66-86b471549483` | `pa_kyrys_001` | Milanese cuirass | `2.05` | `2.05` | `0.82` | Lord Divish<br>Sold by Rattay Armourer<br>Sold by Merhojed army camp armourer<br>Sold by unknown merchant
+Archetype | UUID | Localized Name | Slash Def | Stab Def | Smash Def | Location
+:--- | :--- | :--- | ---: | ---: | ---: | :---
+`BodyPlateCuirassFullShort` | `40edf98e-f577-4192-67cd-4f1776d14ea4` | Nurembergian cuirass | `2.5` | `2.5` | `1` | Ancient Map III (Treasures of the Past DLC)<br>Can also be found after a certain battle
+`BodyPlateCuirassFullShort` | `4e0fbb0b-70c0-1ae3-da9c-fc74e2512193` | Dark Milanese brigandine | `2.43` | `2.43` | `0.972` | Treasure map XXII
+`BodyPlateCuirassFullShort` | `4d3eb06c-581c-72a2-acf5-07c56cbb47b4` | Dyed Milanese brigandine | `2.43` | `2.43` | `0.972` | Sold by Rattay Armourer<br>q_counterOffensive_pirk_chest
+`BodyPlateCuirassFullShort` | `4c8f4d4b-72d3-c337-ed0c-41225e7b2382` | Dyed Milanese brigandine | `2.43` | `2.43` | `0.972` | Treasure map V
+`BodyPlateCuirassFullShort` | `4964faf4-b122-9856-e3d4-7e026ce4a0a7` | Dyed Milanese brigandine | `2.43` | `2.43` | `0.972` | Treasure map XXV
+`BodyPlateCuirassFullShort` | `440074cf-4d3d-5d80-2944-f49d91d642a1` | Dyed Milanese brigandine | `2.43` | `2.43` | `0.972` | Sold by Rattay Armourer
+`BodyPlateCuirassFullShort` | `4222ca69-3a10-91c1-91ff-26f36122b8a2` | Bright Milanese brigandine | `2.43` | `2.43` | `0.972` | Sold by Rattay Armourer<br>Treasure map XXI
+`BodyPlateCuirassFullShort` | `41e550e4-12df-49f0-3b05-74959224a8a5` | Milanese brigandine | `2.43` | `2.43` | `0.972` | Sold by Rattay Armourer
+`BodyPlateCuirassFullShort` | `4fedd7a1-ac86-40b1-ba0b-847e602df774` | Vitus' cuirass | `2.35` | `2.35` | `0.94` | Sasau quest reward
+`BodyPlateCuirassFullShort` | `4c71ff43-0696-66e4-71d9-45f30cf05392` | Noble cuirass | `2.35` | `2.35` | `0.94` | Treasure map II<br>Treasure map XIII
+`BodyPlateCuirassFullShort` | `47b8a5a6-0912-c070-49b9-d126e8c55bbd` | Magdeburg cuirass | `2.28` | `2.28` | `0.912` | Treasure map XVI
+`BodyPlateCuirassFullShort` | `4bef1aa8-1d05-6ecc-7797-083fa321cf80` | Warhorse brigandine | `2.2` | `2.2` | `0.88` | Ancient Map V (Treasures of the Past DLC)
+`BodyPlateCuirassFullShort` | `47d11f76-1007-00c0-1c63-cfb2b02b0c80` | Kuttenberg cuirass | `2.2` | `2.2` | `0.88` | Treasure map VII<br>q_escape_from_Vranik_4
+`BodyPlateCuirassFullLong` | `40c05582-26f8-b1dc-f0ba-80e717a8869e` | Decorated cuirass | `2.13` | `2.13` | `0.852` | Treasure map XIX
+`BodyPlateCuirassFullShort` | `4ab8c97d-6977-4b6c-4d66-86b471549483` | Milanese cuirass | `2.05` | `2.05` | `0.82` | Lord Divish<br>Sold by Rattay Armourer<br>Sold by Merhojed army camp armourer<br>Sold by unknown merchant
+
 
 ### Head chainmail
 
