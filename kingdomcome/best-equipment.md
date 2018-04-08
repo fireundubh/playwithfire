@@ -170,7 +170,7 @@ Archetype | UUID | Localized Name | Vis | Con | Noi | Location
 `HandsGloves` | `49f22875-6f21-0d2c-fc78-11fa556779b4` | Hunter's gloves | `-0.74` | `-0.74` | `0.1` | Sold by Rattay huntsman<br>Sold by Talmberg huntsman<br>q_counterOffensive_pirk_chest<br>q_escapeToTalmberk_soldiersLocker<br>sazava_monastery_urba_konrad_keyser_chest
 `HeadClothCap` | `42de552f-eaac-ee43-5e36-129615d2b4ab` | Padded coif | `-0.74` | `-0.74` | `0.08` | Sold by Sassau tailor
 `FeetBoots` | `4a0742c5-ec0d-b5d5-dadc-b5e9776e22bb` | Quiet dark shoes | `-0.72` | `-0.76` | `0` | Sold by Rattay shoemaker
-`Robe` | `457ca6d3-b64a-66b8-4c1e-fd606a6530af` | Monk's habit | `-0.7` | `-0.74` | `0.08` | `Tmp_HoodDown` | Loot
+`Robe` | `457ca6d3-b64a-66b8-4c1e-fd606a6530af` | Monk's habit | `-0.7` | `-0.74` | `0.08` | Loot
 `LegsClothTrousersLong` | `4903be20-7d0c-ca13-5a9b-4ab2fd5a10bd` | Green nobleman's hose | `-0.62` | `-0.38` | `0.082` | Sold by Sassau tailor<br>q_counterfeiters_crimeScene_chest
 `LegsClothTrousersLong` | `486fb98b-9cbe-79dd-314a-ac379dfc96b3` | Decorated black hose | `-0.62` | `-0.33` | `0.08` | Loot
 `BodyClothShirt_longSleeves` | `4deb11fd-f319-17b9-8d46-27f7f3d7a7a3` | Dark Silesian gambeson | `-0.56` | `-0.71` | `0.03` | Sold by Rattay armourer
