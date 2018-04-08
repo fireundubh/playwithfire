@@ -6,6 +6,8 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 ## Weapons
 
+- [Sword](kingdomcome/best-equipment/sword)
+
 Order by: Attack, Slash Mod, Stab Mod
 
 ### Sword
