@@ -22,7 +22,7 @@ Order by: Slash Def, Stab Def
 ### Arm armour
 
 Archetype | UUID | Clothing Name | Item Name | Slash Def | Stab Def | Smash Def | Location
-:--- | :--- | :--- | :--- | ---: | ---: | ---: | ---: | :---
+:--- | :--- | :--- | :--- | ---: | ---: | ---: | :---
 `ArmsPlateBackGuardsShort` | `42ed6b9c-19c5-0b8c-5feb-bfe0d7001997` | `pa_arm_016` | Magdeburg plate pauldrons | `2.3` | `2.3` | `0.92` | Sold by Rattay Armourer
 `ArmsPlateBackGuardsShort` | `47a86203-78c8-463a-6ce6-4b22754786ba` | `pa_arm_014` | Meissen plate pauldrons | `2.2` | `2.2` | `0.88` | Sold by Rattay Armourer
 `ArmsPlateBackGuardsShort` | `4516652a-7e40-d46d-cdd7-62ea97c3bb83` | `pa_arm_020` | Augsburg plate pauldrons | `2.1` | `2.1` | `0.84` | Sold by Rattay Armourer
@@ -51,7 +51,7 @@ UUID | Clothing Name | Item Name | Slash Def | Stab Def | Smash Def | Location
 ### Head chainmail
 
 Archetype | UUID | Clothing Name | Item Name | Slash Def | Stab Def | Smash Def | Location
-:--- | :--- | :--- | :--- | ---: | ---: | ---: | ---: | :---
+:--- | :--- | :--- | :--- | ---: | ---: | ---: | :---
 `HeadPlateHelmFull_collar` | `481cfd5b-b646-1c6b-ff58-af749941cf9e` | `pa_helmet_024` | Warhorse helmet | `2.4` | `2.4` | `0.96` | Ancient Map IV (Treasures of the Past DLC)
 `HeadPlateHelmFull_collar` | `421f173c-99b2-f030-cedd-0ba2a25270ac` | `pa_helmet_024` | Arching bascinet | `2.29` | `2.29` | `0.916` | Treasure map IV
 `HeadPlateHelmFull` | `4a0b54a0-f893-122d-5171-74ac68e933ad` | `pa_helmet_006` | Hounskull | `2.18` | `2.18` | `0.872` | Sold by Merhojed army camp armourer
@@ -61,7 +61,7 @@ Archetype | UUID | Clothing Name | Item Name | Slash Def | Stab Def | Smash Def 
 ### Hose
 
 Archetype | UUID | Clothing Name | Item Name | Slash Def | Stab Def | Smash Def | Location
-:--- | :--- | :--- | :--- | ---: | ---: | ---: | ---: | :---
+:--- | :--- | :--- | :--- | ---: | ---: | ---: | :---
 `LegsPlateProtsLongFull_withFeet` | `4dc120cc-1a9c-aaf4-939a-c843e2ea2394` | `pa_legs_015` | Magdeburg plate chausses | `2.1` | `2.1` | `0.84` | Treasure map III
 `LegsPlateProtsLongFull_withFeet` | `48a827cd-c6ea-4976-9561-327a122326b7` | `pa_legs_018` | Augsburg plate chausses | `2.02` | `2.02` | `0.808` | Treasure map I
 
