@@ -4,11 +4,9 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 # Best Equipment
 
-**Note:** Slash Def, Stab Def, and Smash Def are multiplied by 10 in the game.
-
 ## Weapons
 
-Order: Attack, Slash Mod, then Stab Mod
+Order by: Attack, Slash Mod, Stab Mod
 
 ### Sword
 
@@ -143,7 +141,7 @@ UUID | Name | Attack | Slash Mod | Stab Mod | Smash Mod | Defense | Str Req | Ag
 
 ## Armour
 
-### Slash Def / Stab Def
+### Order by: Slash Def, Stab Def
 
 Item UUID | Clothing Name | Item Name | Slash Def | Stab Def | Smash Def | Location
 --- | --- | --- | --- | --- | --- | ---
@@ -175,7 +173,7 @@ Item UUID | Clothing Name | Item Name | Slash Def | Stab Def | Smash Def | Locat
 `0082de35-b635-4b85-a9ec-95024713f3ab` | `pa_helmet_002` | Kettle hat | `2` | `2` | `1.8` | Common item
 `422917fc-435a-f436-3245-a356367f8881` | `pa_arm_017` | Milanese plate pauldrons | `2` | `2` | `0.8` | Sold by Rattay Armourer
 
-### Charisma / Slash Def / Stab Def
+### Order by: Charisma, Slash Def, Stab Def
 
 Item UUID | Clothing Name | Item Name | Charisma | Slash Def | Stab Def | Smash Def | Location
 --- | --- | --- | --- | --- | --- | --- | ---
@@ -203,7 +201,7 @@ Item UUID | Clothing Name | Item Name | Charisma | Slash Def | Stab Def | Smash 
 `47d11f76-1007-00c0-1c63-cfb2b02b0c80` | `pa_kyrys_010` | Kuttenberg cuirass | `12` | `2.2` | `2.2` | `0.88` | Treasure map VII<br>q_escape_from_Vranik_4
 `481b929a-0e8e-05da-54c5-2939bd72e594` | `pa_helmet_015` | Italian bascinet | `10` | `2.07` | `2.07` | `0.828` | Sold by Rattay Armourer<br>Treasure map XXV<br>q_konradk_fejfar_chest
 
-### Stealth
+### Order by: Noise, Conspicuousness, Visibility
 
 Item UUID | Clothing Name | Item Name | Noi | Con | Vis | Location
 --- | --- | --- | --- | --- | --- | ---
