@@ -44,27 +44,27 @@ Item UUID | Clothing Name | Item Name | Charisma | Slash Def | Stab Def | Smash 
 --- | --- | --- | --- | --- | --- | --- | ---
 `4bef1aa8-1d05-6ecc-7797-083fa321cf80` | `pa_brigandine_009_bonus` | Warhorse brigandine | `20` | `2.2` | `2.2` | `0.88` | Ancient Map V (Treasures of the Past DLC)
 `4516652a-7e40-d46d-cdd7-62ea97c3bb83` | `pa_arm_020` | Augsburg plate pauldrons | `20` | `2.1` | `2.1` | `0.84` | Sold by Rattay Armourer
-`48a827cd-c6ea-4976-9561-327a122326b7` | `pa_legs_018` | Augsburg plate chausses | `20` | `2.02` | `2.02` | `0.808` | treasure_map_klaster_northwest
+`48a827cd-c6ea-4976-9561-327a122326b7` | `pa_legs_018` | Augsburg plate chausses | `20` | `2.02` | `2.02` | `0.808` | reasure map I
 `422917fc-435a-f436-3245-a356367f8881` | `pa_arm_017` | Milanese plate pauldrons | `19` | `2` | `2` | `0.8` | Sold by Rattay Armourer
 `481cfd5b-b646-1c6b-ff58-af749941cf9e` | `pa_helmet_024` | Warhorse helmet | `18` | `2.4` | `2.4` | `0.96` | Ancient Map IV (Treasures of the Past DLC)
 `42ed6b9c-19c5-0b8c-5feb-bfe0d7001997` | `pa_arm_016` | Magdeburg plate pauldrons | `18` | `2.3` | `2.3` | `0.92` | Sold by Rattay Armourer
 `47a86203-78c8-463a-6ce6-4b22754786ba` | `pa_arm_014` | Meissen plate pauldrons | `18` | `2.2` | `2.2` | `0.88` | Sold by Rattay Armourer
-`40c05582-26f8-b1dc-f0ba-80e717a8869e` | `pa_kyrys_005` | Decorated cuirass | `17` | `2.13` | `2.13` | `0.852` | treasure_map_sazava_northwest
-`40edf98e-f577-4192-67cd-4f1776d14ea4` | `pa_kyrys_007` | Nurembergian cuirass | `16` | `2.5` | `2.5` | `1` | treasure_map_uzice_north
-`47b8a5a6-0912-c070-49b9-d126e8c55bbd` | `pa_kyrys_009` | Magdeburg cuirass | `16` | `2.28` | `2.28` | `0.912` | treasure_map_samopesh_west
+`40c05582-26f8-b1dc-f0ba-80e717a8869e` | `pa_kyrys_005` | Decorated cuirass | `17` | `2.13` | `2.13` | `0.852` | Treasure map XIX
+`40edf98e-f577-4192-67cd-4f1776d14ea4` | `pa_kyrys_007` | Nurembergian cuirass | `16` | `2.5` | `2.5` | `1` | Ancient Map III
+`47b8a5a6-0912-c070-49b9-d126e8c55bbd` | `pa_kyrys_009` | Magdeburg cuirass | `16` | `2.28` | `2.28` | `0.912` | Treasure map XVI
 `4ab8c97d-6977-4b6c-4d66-86b471549483` | `pa_kyrys_001` | Milanese cuirass | `16` | `2.05` | `2.05` | `0.82` | Lord Divish<br>Sold by Rattay Armourer<br>Sold by Merhojed army camp armourer<br>Sold by unknown merchant
-`4964faf4-b122-9856-e3d4-7e026ce4a0a7` | `pa_brigandine_009` | Dyed Milanese brigandine | `15` | `2.43` | `2.43` | `0.972` | treasure_map_skalitz_west
-`4222ca69-3a10-91c1-91ff-26f36122b8a2` | `pa_brigandine_009` | Bright Milanese brigandine | `15` | `2.43` | `2.43` | `0.972` | Sold by Rattay Armourer<br>treasure_map_skalitz_mines
-`421f173c-99b2-f030-cedd-0ba2a25270ac` | `pa_helmet_024` | Arching bascinet | `15` | `2.29` | `2.29` | `0.916` | treasure_map_ledetchko_east
-`4e0fbb0b-70c0-1ae3-da9c-fc74e2512193` | `pa_brigandine_009` | Dark Milanese brigandine | `14` | `2.43` | `2.43` | `0.972` | treasure_map_vranik_southwest
+`4964faf4-b122-9856-e3d4-7e026ce4a0a7` | `pa_brigandine_009` | Dyed Milanese brigandine | `15` | `2.43` | `2.43` | `0.972` | Treasure map XXV
+`4222ca69-3a10-91c1-91ff-26f36122b8a2` | `pa_brigandine_009` | Bright Milanese brigandine | `15` | `2.43` | `2.43` | `0.972` | Sold by Rattay Armourer<br>Treasure map XXI 
+`421f173c-99b2-f030-cedd-0ba2a25270ac` | `pa_helmet_024` | Arching bascinet | `15` | `2.29` | `2.29` | `0.916` | Treasure map IV
+`4e0fbb0b-70c0-1ae3-da9c-fc74e2512193` | `pa_brigandine_009` | Dark Milanese brigandine | `14` | `2.43` | `2.43` | `0.972` | Treasure map XXII
 `4d3eb06c-581c-72a2-acf5-07c56cbb47b4` | `pa_brigandine_009` | Dyed Milanese brigandine | `14` | `2.43` | `2.43` | `0.972` | Sold by Rattay Armourer<br>q_counterOffensive_pirk_chest
-`4c8f4d4b-72d3-c337-ed0c-41225e7b2382` | `pa_brigandine_009` | Dyed Milanese brigandine | `14` | `2.43` | `2.43` | `0.972` | treasure_map_ledetchko_north
+`4c8f4d4b-72d3-c337-ed0c-41225e7b2382` | `pa_brigandine_009` | Dyed Milanese brigandine | `14` | `2.43` | `2.43` | `0.972` | Treasure map V
 `440074cf-4d3d-5d80-2944-f49d91d642a1` | `pa_brigandine_009` | Dyed Milanese brigandine | `14` | `2.43` | `2.43` | `0.972` | Sold by Rattay Armourer
-`4c71ff43-0696-66e4-71d9-45f30cf05392` | `pa_kyrys_008` | Noble cuirass | `14` | `2.35` | `2.35` | `0.94` | treasure_map_klaster_west<br>treasure_map_neuhof_southeast
-`4dc120cc-1a9c-aaf4-939a-c843e2ea2394` | `pa_legs_015` | Magdeburg plate chausses | `14` | `2.1` | `2.1` | `0.84` | treasure_map_klaster_west2
+`4c71ff43-0696-66e4-71d9-45f30cf05392` | `pa_kyrys_008` | Noble cuirass | `14` | `2.35` | `2.35` | `0.94` | Treasure map II<br>Treasure map XIII
+`4dc120cc-1a9c-aaf4-939a-c843e2ea2394` | `pa_legs_015` | Magdeburg plate chausses | `14` | `2.1` | `2.1` | `0.84` | Treasure map III
 `41e550e4-12df-49f0-3b05-74959224a8a5` | `pa_brigandine_009` | Milanese brigandine | `13` | `2.43` | `2.43` | `0.972` | Sold by Rattay Armourer
-`47d11f76-1007-00c0-1c63-cfb2b02b0c80` | `pa_kyrys_010` | Kuttenberg cuirass | `12` | `2.2` | `2.2` | `0.88` | treasure_map_ledetchko_northwest<br>q_escape_from_Vranik_4
-`481b929a-0e8e-05da-54c5-2939bd72e594` | `pa_helmet_015` | Italian bascinet | `10` | `2.07` | `2.07` | `0.828` | Sold by Rattay Armourer<br>treasure_map_skalitz_west<br>q_konradk_fejfar_chest
+`47d11f76-1007-00c0-1c63-cfb2b02b0c80` | `pa_kyrys_010` | Kuttenberg cuirass | `12` | `2.2` | `2.2` | `0.88` | Treasure map VII<br>q_escape_from_Vranik_4
+`481b929a-0e8e-05da-54c5-2939bd72e594` | `pa_helmet_015` | Italian bascinet | `10` | `2.07` | `2.07` | `0.828` | Sold by Rattay Armourer<br>Treasure map XXV<br>q_konradk_fejfar_chest
 
 ## Status / Slash Def / Stab Def
 
