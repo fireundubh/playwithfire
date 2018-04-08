@@ -5,8 +5,8 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 # Halberd
 ## Table
 
-UUID | Name | Attack | Slash Mod | Stab Mod | Smash Mod | Defense | Str Req | Agi Req
---- | --- | --- | --- | --- | --- | --- | --- | ---
+UUID | Name | Attack | Slash Mod | Stab Mod | Smash Mod | Defense | Str Req | Agi Req | Location
+--- | --- | --- | --- | --- | --- | --- | --- | --- | ---
 `cf58c28c-f2bd-41a0-9c6d-764767d144cf` | `Hunting spear` | `9.727273` | `0.25` | `1.25` | `0.25` | `8` | `11` | `0`
 `0f5be0ac-ff11-4a01-a7f4-bf8e84c2e31b` | `Spear` | `9.272727` | `0.5` | `1.25` | `0.1` | `7` | `9` | `0`
 `8ef902ea-0c32-44c9-b101-71f35b9cbe3d` | `Bardiche` | `8.818182` | `0.9` | `0.75` | `0.25` | `7` | `8` | `0`
