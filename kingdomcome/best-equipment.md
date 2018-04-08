@@ -9,7 +9,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 ### Order by: Attack, Slash Mod, Stab Mod
 
 - [Axe](best-equipment/axe)
-- [Halberd](best-equipment/mace)
+- [Halberd](best-equipment/halberd)
 - [Longsword](best-equipment/longsword)
 - [Mace](best-equipment/mace)
 - [Sabre](best-equipment/sabre)
