@@ -19,7 +19,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 Order by: Slash Def, Stab Def
 
-### Arm armour
+### Arms
 
 Archetype | UUID | Localized Name | Slash Def | Stab Def | Smash Def | Location
 :--- | :--- | :--- | ---: | ---: | ---: | :---
@@ -28,7 +28,7 @@ Archetype | UUID | Localized Name | Slash Def | Stab Def | Smash Def | Location
 `ArmsPlateBackGuardsShort` | `4516652a-7e40-d46d-cdd7-62ea97c3bb83` | Augsburg plate pauldrons | `2.1` | `2.1` | `0.84` | Sold by Rattay Armourer
 `ArmsPlateFullComplete_withShoulders` | `422917fc-435a-f436-3245-a356367f8881` | Milanese plate pauldrons | `2` | `2` | `0.8` | Sold by Rattay Armourer
 
-### Body garment
+### Body
 
 Archetype | UUID | Localized Name | Slash Def | Stab Def | Smash Def | Location
 :--- | :--- | :--- | ---: | ---: | ---: | :---
@@ -49,7 +49,7 @@ Archetype | UUID | Localized Name | Slash Def | Stab Def | Smash Def | Location
 `BodyPlateCuirassFullShort` | `4ab8c97d-6977-4b6c-4d66-86b471549483` | Milanese cuirass | `2.05` | `2.05` | `0.82` | Lord Divish<br>Sold by Rattay Armourer<br>Sold by Merhojed army camp armourer<br>Sold by unknown merchant
 
 
-### Head chainmail
+### Head
 
 Archetype | UUID | Localized Name | Slash Def | Stab Def | Smash Def | Location
 :--- | :--- | :--- | ---: | ---: | ---: | :---
@@ -60,7 +60,7 @@ Archetype | UUID | Localized Name | Slash Def | Stab Def | Smash Def | Location
 `HeadPlateHatBig` | `0082de35-b635-4b85-a9ec-95024713f3ab` | Kettle hat | `2` | `2` | `1.8` | Common item | 
 
 
-### Hose
+### Legs
 
 Archetype | UUID | Localized Name | Slash Def | Stab Def | Smash Def | Location
 :--- | :--- | :--- | ---: | ---: | ---: | :---
@@ -72,7 +72,7 @@ Archetype | UUID | Localized Name | Slash Def | Stab Def | Smash Def | Location
 
 Order by: Charisma, Slash Def, Stab Def
 
-### Arm armour
+### Arms
 
 Archetype | UUID | Localized Name | Charisma | Slash Def | Stab Def | Smash Def | Location
 :--- | :--- | :--- | ---: | ---: | ---: | ---: | :---
@@ -81,7 +81,7 @@ Archetype | UUID | Localized Name | Charisma | Slash Def | Stab Def | Smash Def 
 `ArmsPlateBackGuardsShort` | `42ed6b9c-19c5-0b8c-5feb-bfe0d7001997` | Magdeburg plate pauldrons | `18` | `2.3` | `2.3` | `0.92` | Sold by Rattay Armourer
 `ArmsPlateBackGuardsShort` | `47a86203-78c8-463a-6ce6-4b22754786ba` | Meissen plate pauldrons | `18` | `2.2` | `2.2` | `0.88` | Sold by Rattay Armourer
 
-### Body garment
+### Body
 
 Archetype | UUID | Localized Name | Charisma | Slash Def | Stab Def | Smash Def | Location
 :--- | :--- | :--- | ---: | ---: | ---: | ---: | :---
@@ -100,7 +100,7 @@ Archetype | UUID | Localized Name | Charisma | Slash Def | Stab Def | Smash Def 
 `BodyPlateCuirassFullShort` | `41e550e4-12df-49f0-3b05-74959224a8a5` | Milanese brigandine | `13` | `2.43` | `2.43` | `0.972` | Sold by Rattay Armourer
 `BodyPlateCuirassFullShort` | `47d11f76-1007-00c0-1c63-cfb2b02b0c80` | Kuttenberg cuirass | `12` | `2.2` | `2.2` | `0.88` | Treasure map VII<br>q_escape_from_Vranik_4
 
-### Head chainmail
+### Head
 
 Archetype | UUID | Localized Name | Charisma | Slash Def | Stab Def | Smash Def | Location
 :--- | :--- | :--- | ---: | ---: | ---: | ---: | :---
@@ -108,7 +108,7 @@ Archetype | UUID | Localized Name | Charisma | Slash Def | Stab Def | Smash Def 
 `HeadPlateHelmFull_collar` | `421f173c-99b2-f030-cedd-0ba2a25270ac` | Arching bascinet | `15` | `2.29` | `2.29` | `0.916` | Treasure map IV
 `HeadPlateHelmFull_collar` | `481b929a-0e8e-05da-54c5-2939bd72e594` | Italian bascinet | `10` | `2.07` | `2.07` | `0.828` | Sold by Rattay Armourer<br>Treasure map XXV<br>q_konradk_fejfar_chest
 
-### Hose
+### Legs
 
 Archetype | UUID | Localized Name | Charisma | Slash Def | Stab Def | Smash Def | Location
 :--- | :--- | :--- | ---: | ---: | ---: | ---: | :---
