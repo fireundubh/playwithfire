@@ -44,7 +44,7 @@ Item UUID | Clothing Name | Item Name | Charisma | Slash Def | Stab Def | Smash 
 --- | --- | --- | --- | --- | --- | --- | ---
 `4bef1aa8-1d05-6ecc-7797-083fa321cf80` | `pa_brigandine_009_bonus` | Warhorse brigandine | `20` | `2.2` | `2.2` | `0.88` | Ancient Map V (Treasures of the Past DLC)
 `4516652a-7e40-d46d-cdd7-62ea97c3bb83` | `pa_arm_020` | Augsburg plate pauldrons | `20` | `2.1` | `2.1` | `0.84` | Sold by Rattay Armourer
-`48a827cd-c6ea-4976-9561-327a122326b7` | `pa_legs_018` | Augsburg plate chausses | `20` | `2.02` | `2.02` | `0.808` | reasure map I
+`48a827cd-c6ea-4976-9561-327a122326b7` | `pa_legs_018` | Augsburg plate chausses | `20` | `2.02` | `2.02` | `0.808` | Treasure map I
 `422917fc-435a-f436-3245-a356367f8881` | `pa_arm_017` | Milanese plate pauldrons | `19` | `2` | `2` | `0.8` | Sold by Rattay Armourer
 `481cfd5b-b646-1c6b-ff58-af749941cf9e` | `pa_helmet_024` | Warhorse helmet | `18` | `2.4` | `2.4` | `0.96` | Ancient Map IV (Treasures of the Past DLC)
 `42ed6b9c-19c5-0b8c-5feb-bfe0d7001997` | `pa_arm_016` | Magdeburg plate pauldrons | `18` | `2.3` | `2.3` | `0.92` | Sold by Rattay Armourer
