@@ -118,8 +118,8 @@ UUID | Clothing Name | Item Name | Charisma | Slash Def | Stab Def | Smash Def |
 
 Order by: Noise, Conspicuousness, Visibility
 
-Slot | UUID | Clothing Name | Item Name | Noi | Con | Vis | Location
---- | --- | --- | --- | --- | --- | --- | ---
+UUID | Clothing Name | Item Name | Noi | Con | Vis | Location
+--- | --- | --- | --- | --- | --- | ---
 `4765b22e-ac12-f985-ebfe-19f9c7e37481` | `pa_gloves_001` | Leather gloves | `0.00` | `-0.92` | `-0.92` | Sold by Rattay Armorer
 `473110cf-b888-a84b-7c65-e5b1beab47ac` | `pants_005` | Tight red hose | `0.00` | `-0.81` | `-0.82` | Sold by Sassau Tailor
 `4dd34997-a8f3-9f9f-ddaa-ca0ca4b07c9f` | `hood_001` | Black hood | `0.00` | `-0.77` | `-0.88` | Sold by Sassau Tailor
