@@ -50,7 +50,7 @@ Item UUID | Clothing Name | Item Name | Charisma | Slash Def | Stab Def | Smash 
 `42ed6b9c-19c5-0b8c-5feb-bfe0d7001997` | `pa_arm_016` | Magdeburg plate pauldrons | `18` | `2.3` | `2.3` | `0.92` | Sold by Rattay Armourer
 `47a86203-78c8-463a-6ce6-4b22754786ba` | `pa_arm_014` | Meissen plate pauldrons | `18` | `2.2` | `2.2` | `0.88` | Sold by Rattay Armourer
 `40c05582-26f8-b1dc-f0ba-80e717a8869e` | `pa_kyrys_005` | Decorated cuirass | `17` | `2.13` | `2.13` | `0.852` | Treasure map XIX
-`40edf98e-f577-4192-67cd-4f1776d14ea4` | `pa_kyrys_007` | Nurembergian cuirass | `16` | `2.5` | `2.5` | `1` | Ancient Map III
+`40edf98e-f577-4192-67cd-4f1776d14ea4` | `pa_kyrys_007` | Nurembergian cuirass | `16` | `2.5` | `2.5` | `1` | Ancient Map III (Treasures of the Past DLC)
 `47b8a5a6-0912-c070-49b9-d126e8c55bbd` | `pa_kyrys_009` | Magdeburg cuirass | `16` | `2.28` | `2.28` | `0.912` | Treasure map XVI
 `4ab8c97d-6977-4b6c-4d66-86b471549483` | `pa_kyrys_001` | Milanese cuirass | `16` | `2.05` | `2.05` | `0.82` | Lord Divish<br>Sold by Rattay Armourer<br>Sold by Merhojed army camp armourer<br>Sold by unknown merchant
 `4964faf4-b122-9856-e3d4-7e026ce4a0a7` | `pa_brigandine_009` | Dyed Milanese brigandine | `15` | `2.43` | `2.43` | `0.972` | Treasure map XXV
