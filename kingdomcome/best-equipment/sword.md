@@ -18,7 +18,7 @@ UUID | Localized Name | Attack | Slash Mod | Stab Mod | Smash Mod | Defense | St
 `6c8a6e64-350c-4f47-9a3f-18e3450987ef` | Stalwart | `4.625` | `1` | `1` | `0.05` | `7.40625` | `0` | `7` | Sold by Rattay swordsmith<br>Sold by Sassau swordsmith<br>armory_common<br>q_counterOffensive_pirk_chest
 `e6391b02-c09c-495d-a980-ad675d523fb3` | Needle | `4.5` | `0.9` | `1.1` | `0.05` | `6.9` | `0` | `6` | Sold by Rattay swordsmith<br>Sold by Sassau swordsmith<br>armory_common
 `4317a4e7-cfdc-4984-aab0-eba14f01e0ab` | Coxcomb | `4.375` | `1.25` | `0.9` | `0.05` | `6.7875` | `0` | `5` | Sold by Rattay swordsmith<br>Sold by Sassau swordsmith<br>armory_common
-`a8014877-ce10-4331-88ab-04173b6370ad` | Burgher's sword | `4.25` | `1` | `1` | `0.05` | `6.75` | `0` | `5` | Sold by Rattay swordsmith<br>Sold by Sassau swordsmith<br>armory_common<br>axe_shield<br>q_counterfeiters_crimeScene_chest<br>rat_garrison
+`a8014877-ce10-4331-88ab-04173b6370ad` | Burgher's sword | `4.25` | `1` | `1` | `0.05` | `6.75` | `0` | `5` | Sold by Rattay swordsmith<br>Sold by Sassau swordsmith<br>armory_common<br>q_counterfeiters_crimeScene_chest<br>rat_garrison
 `c9cc366b-7192-4261-8861-be7877e9ef17` | Mercenary's bedfellow | `4.125` | `1.1` | `1.1` | `0.05` | `6.46875` | `0` | `4` | Sold by Rattay swordsmith<br>Sold by Sassau swordsmith
 `5ab5581a-be10-4520-9ab4-90c6985498d3` | Trusty companion | `4` | `0.75` | `0.75` | `0.05` | `6.55` | `0` | `4` | Sold by Rattay swordsmith<br>Sold by Sassau swordsmith
 `58ef3e13-d40f-4b25-b4bc-3b06df0f2578` | Shard | `3.875` | `1.1` | `0.9` | `0.05` | `6.3375` | `0` | `3` | Sold by Sassau blacksmith
