@@ -50,20 +50,20 @@ UUID | Clothing Name | Item Name | Slash Def | Stab Def | Smash Def | Location
 
 ### Head chainmail
 
-UUID | Clothing Name | Item Name | Slash Def | Stab Def | Smash Def | Location
---- | --- | --- | --- | --- | --- | ---
-`481cfd5b-b646-1c6b-ff58-af749941cf9e` | `pa_helmet_024` | Warhorse helmet | `2.4` | `2.4` | `0.96` | Ancient Map IV (Treasures of the Past DLC)
-`421f173c-99b2-f030-cedd-0ba2a25270ac` | `pa_helmet_024` | Arching bascinet | `2.29` | `2.29` | `0.916` | Treasure map IV
-`4a0b54a0-f893-122d-5171-74ac68e933ad` | `pa_helmet_006` | Hounskull | `2.18` | `2.18` | `0.872` | Sold by Merhojed army camp armourer
-`481b929a-0e8e-05da-54c5-2939bd72e594` | `pa_helmet_015` | Italian bascinet | `2.07` | `2.07` | `0.828` | Sold by Rattay Armourer<br>Treasure map XXV<br>q_konradk_fejfar_chest
-`0082de35-b635-4b85-a9ec-95024713f3ab` | `pa_helmet_002` | Kettle hat | `2` | `2` | `1.8` | Common item
+Archetype | UUID | Clothing Name | Item Name | Slash Def | Stab Def | Smash Def | Location
+--- | --- | --- | --- | --- | --- | --- | ---
+`HeadPlateHelmFull_collar` | `481cfd5b-b646-1c6b-ff58-af749941cf9e` | `pa_helmet_024` | Warhorse helmet | `2.4` | `2.4` | `0.96` | Ancient Map IV (Treasures of the Past DLC)
+`HeadPlateHelmFull_collar` | `421f173c-99b2-f030-cedd-0ba2a25270ac` | `pa_helmet_024` | Arching bascinet | `2.29` | `2.29` | `0.916` | Treasure map IV
+`HeadPlateHelmFull` | `4a0b54a0-f893-122d-5171-74ac68e933ad` | `pa_helmet_006` | Hounskull | `2.18` | `2.18` | `0.872` | Sold by Merhojed army camp armourer
+`HeadPlateHelmFull_collar` | `481b929a-0e8e-05da-54c5-2939bd72e594` | `pa_helmet_015` | Italian bascinet | `2.07` | `2.07` | `0.828` | Sold by Rattay Armourer<br>Treasure map XXV<br>q_konradk_fejfar_chest
+`HeadPlateHatBig` | `0082de35-b635-4b85-a9ec-95024713f3ab` | `pa_helmet_002` | Kettle hat | `2` | `2` | `1.8` | Common item
 
 ### Hose
 
-UUID | Clothing Name | Item Name | Slash Def | Stab Def | Smash Def | Location
---- | --- | --- | --- | --- | --- | ---
-`4dc120cc-1a9c-aaf4-939a-c843e2ea2394` | `pa_legs_015` | Magdeburg plate chausses | `2.1` | `2.1` | `0.84` | Treasure map III
-`48a827cd-c6ea-4976-9561-327a122326b7` | `pa_legs_018` | Augsburg plate chausses | `2.02` | `2.02` | `0.808` | Treasure map I
+Archetype | UUID | Clothing Name | Item Name | Slash Def | Stab Def | Smash Def | Location
+--- | --- | --- | --- | --- | --- | --- | ---
+`LegsPlateProtsLongFull_withFeet` | `4dc120cc-1a9c-aaf4-939a-c843e2ea2394` | `pa_legs_015` | Magdeburg plate chausses | `2.1` | `2.1` | `0.84` | Treasure map III
+`LegsPlateProtsLongFull_withFeet` | `48a827cd-c6ea-4976-9561-327a122326b7` | `pa_legs_018` | Augsburg plate chausses | `2.02` | `2.02` | `0.808` | Treasure map I
 
 
 ## Armour - Charisma
