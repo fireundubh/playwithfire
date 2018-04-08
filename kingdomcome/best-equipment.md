@@ -19,7 +19,7 @@ Item UUID | Clothing Name | Item Name | Slash Def | Stab Def | Smash Def | Locat
 `4222ca69-3a10-91c1-91ff-26f36122b8a2` | `pa_brigandine_009` | Bright Milanese brigandine | `2.43` | `2.43` | `0.972` | Sold by Rattay Armourer<br>Treasure map XXI
 `41e550e4-12df-49f0-3b05-74959224a8a5` | `pa_brigandine_009` | Milanese brigandine | `2.43` | `2.43` | `0.972` | Sold by Rattay Armourer
 `481cfd5b-b646-1c6b-ff58-af749941cf9e` | `pa_helmet_024` | Warhorse helmet | `2.4` | `2.4` | `0.96` | Ancient Map IV (Treasures of the Past DLC)
-`4fedd7a1-ac86-40b1-ba0b-847e602df774` | `pa_kyrys_011` | Vitus' cuirass | `2.35` | `2.35` | `0.94` |
+`4fedd7a1-ac86-40b1-ba0b-847e602df774` | `pa_kyrys_011` | Vitus' cuirass | `2.35` | `2.35` | `0.94` | Sasau quest reward
 `4c71ff43-0696-66e4-71d9-45f30cf05392` | `pa_kyrys_008` | Noble cuirass | `2.35` | `2.35` | `0.94` | Treasure map II<br>Treasure map XIII
 `42ed6b9c-19c5-0b8c-5feb-bfe0d7001997` | `pa_arm_016` | Magdeburg plate pauldrons | `2.3` | `2.3` | `0.92` | Sold by Rattay Armourer
 `421f173c-99b2-f030-cedd-0ba2a25270ac` | `pa_helmet_024` | Arching bascinet | `2.29` | `2.29` | `0.916` | Treasure map IV
