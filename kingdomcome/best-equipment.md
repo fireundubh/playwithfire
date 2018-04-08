@@ -82,7 +82,7 @@ Archetype | UUID | Clothing Name | Item Name | Charisma | Slash Def | Stab Def |
 ### Body garment
 
 UUID | Clothing Name | Item Name | Charisma | Slash Def | Stab Def | Smash Def | Location
---- | --- | --- | --- | --- | --- | --- | ---
+:--- | :--- | :--- | ---: | ---: | ---: | ---: | :---
 `4bef1aa8-1d05-6ecc-7797-083fa321cf80` | `pa_brigandine_009_bonus` | Warhorse brigandine | `20` | `2.2` | `2.2` | `0.88` | Ancient Map V (Treasures of the Past DLC)
 `40c05582-26f8-b1dc-f0ba-80e717a8869e` | `pa_kyrys_005` | Decorated cuirass | `17` | `2.13` | `2.13` | `0.852` | Treasure map XIX
 `40edf98e-f577-4192-67cd-4f1776d14ea4` | `pa_kyrys_007` | Nurembergian cuirass | `16` | `2.5` | `2.5` | `1` | Ancient Map III (Treasures of the Past DLC)<br>Can also be found after a certain battle
