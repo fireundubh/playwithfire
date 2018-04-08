@@ -6,7 +6,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 ## Table
 
 UUID | Localized Name | Attack | Slash Mod | Stab Mod | Smash Mod | Defense | Str Req | Agi Req | Location
---- | --- | --- | --- | --- | --- | --- | --- | --- | ---
+:--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
 `d5ca8f35-28ec-4bf3-b042-7c97ce4c4f14` | Metal-plated battle axe | `5.3` | `0.8` | `0.5` | `0.75` | `4.5` | `15` | `0` | Sold by Rattay swordsmith<br>Sold by Sassau swordsmith<br>Treasure map 9
 `8e2ccaa1-17c2-4cef-b378-e71dc83bddb7` | Metal-plated battle axe | `5.02` | `0.8` | `0.05` | `0.9` | `4.25` | `14` | `0` | Sold by Rattay swordsmith<br>Sold by Sassau swordsmith
 `5bcd587a-4d97-4bad-a8b4-3248fc6d0cc6` | Heavy battle axe | `4.8` | `0.8` | `0.5` | `0.75` | `4` | `12` | `0` | Sold by Rattay swordsmith<br>Sold by Sassau swordsmith
