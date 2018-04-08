@@ -14,6 +14,6 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 ## Armour
 
-- [Armour - Defence](best-equipment/armour-defence) (order by: Slash Def, Stab Def)
 - [Armour - Charisma](best-equipment/armour-charisma) (order by: Charisma, Slash Def, Stab Def)
+- [Armour - Defence](best-equipment/armour-defence) (order by: Slash Def, Stab Def)
 - [Armour - Stealth](best-equipment/armour-stealth) (order by: Noise, Conspicuousness, Visibility)
