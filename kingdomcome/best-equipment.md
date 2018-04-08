@@ -149,7 +149,7 @@ Archetype | UUID | Clothing Name | Item Name | Con | Vis | Noi | Location
 
 ### Order by: Visibility, Conspicuousness, Noise
 
-Archetype | UUID | Clothing Name | Item Name | Con | Vis | Noi | Location
+Archetype | UUID | Clothing Name | Item Name | Vis | Con | Noi | Location
 :--- | :--- | :--- | :--- | ---: | ---: | ---: | :---
 `HandsGloves` | `4765b22e-ac12-f985-ebfe-19f9c7e37481` | `pa_gloves_001` | Leather gloves | `-0.92` | `-0.92` | `0`
 `Tmp_HoodOn` | `4dd34997-a8f3-9f9f-ddaa-ca0ca4b07c9f` | `hood_001` | Black hood | `-0.88` | `-0.77` | `0`
