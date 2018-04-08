@@ -8,12 +8,12 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 ### Order by: Attack, Slash Mod, Stab Mod
 
-- [Axe](kingdomcome/best-equipment/axe)
-- [Halberd](kingdomcome/best-equipment/mace)
-- [Longsword](kingdomcome/best-equipment/longsword)
-- [Mace](kingdomcome/best-equipment/mace)
-- [Sabre](kingdomcome/best-equipment/sabre)
-- [Sword](kingdomcome/best-equipment/sword)
+- [Axe](best-equipment/axe)
+- [Halberd](best-equipment/mace)
+- [Longsword](best-equipment/longsword)
+- [Mace](best-equipment/mace)
+- [Sabre](best-equipment/sabre)
+- [Sword](best-equipment/sword)
 
 ## Armour
 
