@@ -34,7 +34,7 @@ Item UUID | Clothing Name | Item Name | Slash Def | Stab Def | Smash Def | Locat
 `481b929a-0e8e-05da-54c5-2939bd72e594` | `pa_helmet_015` | Italian bascinet | `2.07` | `2.07` | `0.828` |
 `4ab8c97d-6977-4b6c-4d66-86b471549483` | `pa_kyrys_001` | Milanese cuirass | `2.05` | `2.05` | `0.82` |
 `48a827cd-c6ea-4976-9561-327a122326b7` | `pa_legs_018` | Augsburg plate chausses | `2.02` | `2.02` | `0.808` |
-`c9e42db7-4f90-4b4f-89f1-b3a81e7e2108` | `leather_boots_Hi_001` | Servant's boots | `2` | `2` | `2` |
+`c9e42db7-4f90-4b4f-89f1-b3a81e7e2108` | `leather_boots_Hi_001` | Servant's boots | `2` | `2` | `2` | Test item
 `0082de35-b635-4b85-a9ec-95024713f3ab` | `pa_helmet_002` | Kettle hat | `2` | `2` | `1.8` | 
 `422917fc-435a-f436-3245-a356367f8881` | `pa_arm_017` | Milanese plate pauldrons | `2` | `2` | `0.8` |
 
@@ -71,10 +71,10 @@ Item UUID | Clothing Name | Item Name | Max Status | Slash Def | Stab Def | Smas
 
 Item UUID | Clothing Name | Item Name | Noi | Con | Vis | Location
 --- | --- | --- | --- | --- | --- | ---
-`33069aba-2dcf-42c4-97ea-f9c8a6f7e06e` | `hat_003` | Servant's cap | `0.00` | `-1.00` | `-1.00` | 
-`5450027a-1499-4b4c-ab96-6370976fc2da` | `pants_004` | Servant's hose | `0.00` | `-1.00` | `-1.00` | 
-`60e78fa6-2155-4f5f-8173-5fd0cfd4f314` | `cuman_jacket_001` | Servant's shirt | `0.00` | `-1.00` | `-1.00` | 
-`c9e42db7-4f90-4b4f-89f1-b3a81e7e2108` | `leather_boots_Hi_001` | Servant's boots | `0.00` | `-1.00` | `-1.00` | 
+`33069aba-2dcf-42c4-97ea-f9c8a6f7e06e` | `hat_003` | Servant's cap | `0.00` | `-1.00` | `-1.00` | Test item
+`5450027a-1499-4b4c-ab96-6370976fc2da` | `pants_004` | Servant's hose | `0.00` | `-1.00` | `-1.00` | Test item
+`60e78fa6-2155-4f5f-8173-5fd0cfd4f314` | `cuman_jacket_001` | Servant's shirt | `0.00` | `-1.00` | `-1.00` | Test item
+`c9e42db7-4f90-4b4f-89f1-b3a81e7e2108` | `leather_boots_Hi_001` | Servant's boots | `0.00` | `-1.00` | `-1.00` | Test item
 `4765b22e-ac12-f985-ebfe-19f9c7e37481` | `pa_gloves_001` | Leather gloves | `0.00` | `-0.92` | `-0.92` | 
 `473110cf-b888-a84b-7c65-e5b1beab47ac` | `pants_005` | Tight red hose | `0.00` | `-0.81` | `-0.82` | 
 `4dd34997-a8f3-9f9f-ddaa-ca0ca4b07c9f` | `hood_001` | Black hood | `0.00` | `-0.77` | `-0.88` | 
