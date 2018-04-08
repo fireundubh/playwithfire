@@ -90,7 +90,7 @@ Item UUID | Clothing Name | Item Name | Max Status | Slash Def | Stab Def | Smas
 `47b8a5a6-0912-c070-49b9-d126e8c55bbd` | `pa_kyrys_009` | Magdeburg cuirass | `74` | `2.28` | `2.28` | `0.912` | Treasure map XVI
 `4516652a-7e40-d46d-cdd7-62ea97c3bb83` | `pa_arm_020` | Augsburg plate pauldrons | `74` | `2.1` | `2.1` | `0.84` | Sold by Rattay Armourer
 `481b929a-0e8e-05da-54c5-2939bd72e594` | `pa_helmet_015` | Italian bascinet | `73` | `2.07` | `2.07` | `0.828` | Sold by Rattay Armourer<br>Treasure map XXV<br>q_konradk_fejfar_chest
-`4bef1aa8-1d05-6ecc-7797-083fa321cf80` | `pa_brigandine_009_bonus` | Warhorse brigandine | `72` | `2.2` | `2.2` | `0.88` | 
+`4bef1aa8-1d05-6ecc-7797-083fa321cf80` | `pa_brigandine_009_bonus` | Warhorse brigandine | `72` | `2.2` | `2.2` | `0.88` | Ancient Map V (Treasures of the Past DLC)
 `47d11f76-1007-00c0-1c63-cfb2b02b0c80` | `pa_kyrys_010` | Kuttenberg cuirass | `72` | `2.2` | `2.2` | `0.88` | Treasure map VII<br>q_escape_from_Vranik_4
 `422917fc-435a-f436-3245-a356367f8881` | `pa_arm_017` | Milanese plate pauldrons | `71` | `2` | `2` | `0.8` | Sold by Rattay Armourer
 `40c05582-26f8-b1dc-f0ba-80e717a8869e` | `pa_kyrys_005` | Decorated cuirass | `70` | `2.13` | `2.13` | `0.852` | Treasure map XIX
