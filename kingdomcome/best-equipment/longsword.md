@@ -5,7 +5,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 # Longsword
 ## Table
 
-UUID | Name | Attack | Slash Mod | Stab Mod | Smash Mod | Defense | Str Req | Agi Req | Location
+UUID | Localized Name | Attack | Slash Mod | Stab Mod | Smash Mod | Defense | Str Req | Agi Req | Location
 :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
 `a7d5c50c-de7d-4982-969e-33fcbccb749a` | Wooden training sword | `6.75` | `1.1` | `1.1` | `0.05` | `9.928572` | `8` | `0` | 
 `db0725ac-c0e0-41db-b7a6-2887c57df612` | St. George's sword | `6.5` | `1.1` | `1.1` | `0.05` | `11` | `12` | `0` | Treasure map 7
