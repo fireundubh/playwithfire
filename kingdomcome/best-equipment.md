@@ -128,12 +128,12 @@ Archetype | UUID | Clothing Name | Item Name | Noi | Con | Vis | Location
 `FeetBoots` | `4cee3ad0-5249-8bc6-de75-a00f4e4b0d8e` | `boots_011` | Silent shoes | `0` | `-0.7` | `-0.66` | Sold by Rattay shoemaker
 `BodyClothShirtLong_longSleeves` | `490d57d4-3e96-3a75-96ca-54cb52c6f6ab` | `s1_gambeson_02` | Light tarred jacket | `0.022` | `-0.81` | `-0.82`
 `BodyClothShirt_longSleeves` | `4deb11fd-f319-17b9-8d46-27f7f3d7a7a3` | `s1_gambeson_07` | Dark Silesian gambeson | `0.03` | `-0.71` | `-0.56`
-`LegsClothTrousersLong` | `486fb98b-9cbe-79dd-314a-ac379dfc96b3` | `pants_001` | Decorated black hose | `0.08` | `-0.33` | `-0.62`
-`Tmp_HoodDown` | `4d83cddb-a7ce-dfd5-d2d0-aa7454313f8d` | `hood_002_down` | Black hood | `0.08` | `-0.69` | `-0.7`
-`Robe` | `457ca6d3-b64a-66b8-4c1e-fd606a6530af` | `monk_coat` | Monk's habit | `0.08` | `-0.74` | `-0.7`
 `HeadClothCap` | `42de552f-eaac-ee43-5e36-129615d2b4ab` | `g_hood_001` | Padded coif | `0.08` | `-0.74` | `-0.74`
+`Robe` | `457ca6d3-b64a-66b8-4c1e-fd606a6530af` | `monk_coat` | Monk's habit | `0.08` | `-0.74` | `-0.7`
+`Tmp_HoodDown` | `4d83cddb-a7ce-dfd5-d2d0-aa7454313f8d` | `hood_002_down` | Black hood | `0.08` | `-0.69` | `-0.7`
+`LegsClothTrousersLong` | `486fb98b-9cbe-79dd-314a-ac379dfc96b3` | `pants_001` | Decorated black hose | `0.08` | `-0.33` | `-0.62`
 `LegsClothTrousersLong` | `4903be20-7d0c-ca13-5a9b-4ab2fd5a10bd` | `pants_006` | Green nobleman's hose | `0.082` | `-0.38` | `-0.62`
-`FeetBoots` | `4f4b2cdc-1690-4e32-bba8-00eff2f14f0c` | `s1_boots_005` | `Slippers` | `0.084` | `-0.31` | `-0.48`
+`FeetBoots` | `4f4b2cdc-1690-4e32-bba8-00eff2f14f0c` | `s1_boots_005` | Slippers | `0.084` | `-0.31` | `-0.48`
 `HandsGloves` | `49f22875-6f21-0d2c-fc78-11fa556779b4` | `pa_gloves_002` | Hunter's gloves | `0.1` | `-0.74` | `-0.74`
 
 ### Order by: Conspicuousness, Visibility, Noise
