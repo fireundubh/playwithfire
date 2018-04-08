@@ -126,15 +126,15 @@ Archetype | UUID | Clothing Name | Item Name | Noi | Con | Vis | Location
 `FeetBoots` | `4a0742c5-ec0d-b5d5-dadc-b5e9776e22bb` | `boots_011` | Quiet dark shoes | `0` | `-0.76` | `-0.72` | Sold by Rattay shoemaker
 `BodyClothShirtLong_longSleeves` | `4517b07b-ca19-07bf-6011-e2cec8868185` | `s1_gambeson_08_s1` | Dark Saxon gambeson | `0` | `-0.74` | `-0.84` | Sold by Rattay armourer
 `FeetBoots` | `4cee3ad0-5249-8bc6-de75-a00f4e4b0d8e` | `boots_011` | Silent shoes | `0` | `-0.7` | `-0.66` | Sold by Rattay shoemaker
-`BodyClothShirtLong_longSleeves` | `490d57d4-3e96-3a75-96ca-54cb52c6f6ab` | `s1_gambeson_02` | Light tarred jacket | `0.022` | `-0.81` | `-0.82`
-`BodyClothShirt_longSleeves` | `4deb11fd-f319-17b9-8d46-27f7f3d7a7a3` | `s1_gambeson_07` | Dark Silesian gambeson | `0.03` | `-0.71` | `-0.56`
-`HeadClothCap` | `42de552f-eaac-ee43-5e36-129615d2b4ab` | `g_hood_001` | Padded coif | `0.08` | `-0.74` | `-0.74`
-`Robe` | `457ca6d3-b64a-66b8-4c1e-fd606a6530af` | `monk_coat` | Monk's habit | `0.08` | `-0.74` | `-0.7`
-`Tmp_HoodDown` | `4d83cddb-a7ce-dfd5-d2d0-aa7454313f8d` | `hood_002_down` | Black hood | `0.08` | `-0.69` | `-0.7`
-`LegsClothTrousersLong` | `486fb98b-9cbe-79dd-314a-ac379dfc96b3` | `pants_001` | Decorated black hose | `0.08` | `-0.33` | `-0.62`
-`LegsClothTrousersLong` | `4903be20-7d0c-ca13-5a9b-4ab2fd5a10bd` | `pants_006` | Green nobleman's hose | `0.082` | `-0.38` | `-0.62`
-`FeetBoots` | `4f4b2cdc-1690-4e32-bba8-00eff2f14f0c` | `s1_boots_005` | Slippers | `0.084` | `-0.31` | `-0.48`
-`HandsGloves` | `49f22875-6f21-0d2c-fc78-11fa556779b4` | `pa_gloves_002` | Hunter's gloves | `0.1` | `-0.74` | `-0.74`
+`BodyClothShirtLong_longSleeves` | `490d57d4-3e96-3a75-96ca-54cb52c6f6ab` | `s1_gambeson_02` | Light tarred jacket | `0.022` | `-0.81` | `-0.82` | 
+`BodyClothShirt_longSleeves` | `4deb11fd-f319-17b9-8d46-27f7f3d7a7a3` | `s1_gambeson_07` | Dark Silesian gambeson | `0.03` | `-0.71` | `-0.56` | Sold by Rattay armourer
+`HeadClothCap` | `42de552f-eaac-ee43-5e36-129615d2b4ab` | `g_hood_001` | Padded coif | `0.08` | `-0.74` | `-0.74` | Sold by Sassau tailor
+`Robe` | `457ca6d3-b64a-66b8-4c1e-fd606a6530af` | `monk_coat` | Monk's habit | `0.08` | `-0.74` | `-0.7` | 
+`Tmp_HoodDown` | `4d83cddb-a7ce-dfd5-d2d0-aa7454313f8d` | `hood_002_down` | Black hood | `0.08` | `-0.69` | `-0.7` | 
+`LegsClothTrousersLong` | `486fb98b-9cbe-79dd-314a-ac379dfc96b3` | `pants_001` | Decorated black hose | `0.08` | `-0.33` | `-0.62` | 
+`LegsClothTrousersLong` | `4903be20-7d0c-ca13-5a9b-4ab2fd5a10bd` | `pants_006` | Green nobleman's hose | `0.082` | `-0.38` | `-0.62` | Sold by Sassau tailor
+`FeetBoots` | `4f4b2cdc-1690-4e32-bba8-00eff2f14f0c` | `s1_boots_005` | Slippers | `0.084` | `-0.31` | `-0.48` | 
+`HandsGloves` | `49f22875-6f21-0d2c-fc78-11fa556779b4` | `pa_gloves_002` | Hunter's gloves | `0.1` | `-0.74` | `-0.74` | Sold by Rattay huntsman<br>Sold by Talmberg huntsman
 
 ### Order by: Conspicuousness, Visibility, Noise
 
@@ -146,15 +146,15 @@ Archetype | UUID | Clothing Name | Item Name | Con | Vis | Noi | Location
 `Tmp_HoodOn` | `4dd34997-a8f3-9f9f-ddaa-ca0ca4b07c9f` | `hood_001` | Black hood | `-0.77` | `-0.88` | `0` | Sold by Sassau tailor
 `FeetBoots` | `4a0742c5-ec0d-b5d5-dadc-b5e9776e22bb` | `boots_011` | Quiet dark shoes | `-0.76` | `-0.72` | `0` | Sold by Rattay shoemaker
 `BodyClothShirtLong_longSleeves` | `4517b07b-ca19-07bf-6011-e2cec8868185` | `s1_gambeson_08_s1` | Dark Saxon gambeson | `-0.74` | `-0.84` | `0` | Sold by Rattay armourer
-`HandsGloves` | `49f22875-6f21-0d2c-fc78-11fa556779b4` | `pa_gloves_002` | Hunter's gloves | `-0.74` | `-0.74` | `0.1`
-`HeadClothCap` | `42de552f-eaac-ee43-5e36-129615d2b4ab` | `g_hood_001` | Padded coif | `-0.74` | `-0.74` | `0.08`
+`HandsGloves` | `49f22875-6f21-0d2c-fc78-11fa556779b4` | `pa_gloves_002` | Hunter's gloves | `-0.74` | `-0.74` | `0.1` | Sold by Rattay huntsman<br>Sold by Talmberg huntsman
+`HeadClothCap` | `42de552f-eaac-ee43-5e36-129615d2b4ab` | `g_hood_001` | Padded coif | `-0.74` | `-0.74` | `0.08` | Sold by Sassau tailor
 `Robe` | `457ca6d3-b64a-66b8-4c1e-fd606a6530af` | `monk_coat` | Monk's habit | `-0.74` | `-0.7` | `0.08`
-`BodyClothShirt_longSleeves` | `4deb11fd-f319-17b9-8d46-27f7f3d7a7a3` | `s1_gambeson_07` | Dark Silesian gambeson | `-0.71` | `-0.56` | `0.03`
+`BodyClothShirt_longSleeves` | `4deb11fd-f319-17b9-8d46-27f7f3d7a7a3` | `s1_gambeson_07` | Dark Silesian gambeson | `-0.71` | `-0.56` | `0.03` | Sold by Rattay armourer
 `FeetBoots` | `4cee3ad0-5249-8bc6-de75-a00f4e4b0d8e` | `boots_011` | Silent shoes | `-0.7` | `-0.66` | `0` | Sold by Rattay shoemaker
 `Tmp_HoodDown` | `4d83cddb-a7ce-dfd5-d2d0-aa7454313f8d` | `hood_002_down` | Black hood | `-0.69` | `-0.7` | `0.08`
-`LegsClothTrousersLong` | `4903be20-7d0c-ca13-5a9b-4ab2fd5a10bd` | `pants_006` | Green nobleman's hose | `-0.38` | `-0.62` | `0.082`
+`LegsClothTrousersLong` | `4903be20-7d0c-ca13-5a9b-4ab2fd5a10bd` | `pants_006` | Green nobleman's hose | `-0.38` | `-0.62` | `0.082` | Sold by Sassau tailor
 `LegsClothTrousersLong` | `486fb98b-9cbe-79dd-314a-ac379dfc96b3` | `pants_001` | Decorated black hose | `-0.33` | `-0.62` | `0.08`
-`FeetBoots` | `4f4b2cdc-1690-4e32-bba8-00eff2f14f0c` | `s1_boots_005` | Slippers | `-0.31` | `-0.48` | `0.084`
+`FeetBoots` | `4f4b2cdc-1690-4e32-bba8-00eff2f14f0c` | `s1_boots_005` | Slippers | `-0.31` | `-0.48` | `0.084` |
 
 ### Order by: Visibility, Conspicuousness, Noise
 
@@ -165,13 +165,13 @@ Archetype | UUID | Clothing Name | Item Name | Vis | Con | Noi | Location
 `BodyClothShirtLong_longSleeves` | `4517b07b-ca19-07bf-6011-e2cec8868185` | `s1_gambeson_08_s1` | Dark Saxon gambeson | `-0.84` | `-0.74` | `0` | Sold by Rattay armourer
 `BodyClothShirtLong_longSleeves` | `490d57d4-3e96-3a75-96ca-54cb52c6f6ab` | `s1_gambeson_02` | Light tarred jacket | `-0.82` | `-0.81` | `0.022`
 `LegsClothTrousersLong` | `473110cf-b888-a84b-7c65-e5b1beab47ac` | `pants_005` | Tight red hose | `-0.82` | `-0.81` | `0` | Sold by Sassau tailor
-`HandsGloves` | `49f22875-6f21-0d2c-fc78-11fa556779b4` | `pa_gloves_002` | Hunter's gloves | `-0.74` | `-0.74` | `0.1`
-`HeadClothCap` | `42de552f-eaac-ee43-5e36-129615d2b4ab` | `g_hood_001` | Padded coif | `-0.74` | `-0.74` | `0.08`
+`HandsGloves` | `49f22875-6f21-0d2c-fc78-11fa556779b4` | `pa_gloves_002` | Hunter's gloves | `-0.74` | `-0.74` | `0.1` | Sold by Rattay huntsman<br>Sold by Talmberg huntsman
+`HeadClothCap` | `42de552f-eaac-ee43-5e36-129615d2b4ab` | `g_hood_001` | Padded coif | `-0.74` | `-0.74` | `0.08` | Sold by Sassau tailor
 `FeetBoots` | `4a0742c5-ec0d-b5d5-dadc-b5e9776e22bb` | `boots_011` | Quiet dark shoes | `-0.72` | `-0.76` | `0` | Sold by Rattay shoemaker
-`Robe` | `457ca6d3-b64a-66b8-4c1e-fd606a6530af` | `monk_coat` | Monk's habit | `-0.7` | `-0.74` | `0.08`
-`Tmp_HoodDown` | `4d83cddb-a7ce-dfd5-d2d0-aa7454313f8d` | `hood_002_down` | Black hood | `-0.7` | `-0.69` | `0.08`
+`Robe` | `457ca6d3-b64a-66b8-4c1e-fd606a6530af` | `monk_coat` | Monk's habit | `-0.7` | `-0.74` | `0.08` |
+`Tmp_HoodDown` | `4d83cddb-a7ce-dfd5-d2d0-aa7454313f8d` | `hood_002_down` | Black hood | `-0.7` | `-0.69` | `0.08` |
 `FeetBoots` | `4cee3ad0-5249-8bc6-de75-a00f4e4b0d8e` | `boots_011` | Silent shoes | `-0.66` | `-0.7` | `0` | Sold by Rattay shoemaker
-`LegsClothTrousersLong` | `4903be20-7d0c-ca13-5a9b-4ab2fd5a10bd` | `pants_006` | Green nobleman's hose | `-0.62` | `-0.38` | `0.082`
-`LegsClothTrousersLong` | `486fb98b-9cbe-79dd-314a-ac379dfc96b3` | `pants_001` | Decorated black hose | `-0.62` | `-0.33` | `0.08`
-`BodyClothShirt_longSleeves` | `4deb11fd-f319-17b9-8d46-27f7f3d7a7a3` | `s1_gambeson_07` | Dark Silesian gambeson | `-0.56` | `-0.71` | `0.03`
-`FeetBoots` | `4f4b2cdc-1690-4e32-bba8-00eff2f14f0c` | `s1_boots_005` | Slippers | `-0.48` | `-0.31` | `0.084`
+`LegsClothTrousersLong` | `4903be20-7d0c-ca13-5a9b-4ab2fd5a10bd` | `pants_006` | Green nobleman's hose | `-0.62` | `-0.38` | `0.082` | Sold by Sassau tailor
+`LegsClothTrousersLong` | `486fb98b-9cbe-79dd-314a-ac379dfc96b3` | `pants_001` | Decorated black hose | `-0.62` | `-0.33` | `0.08` | 
+`BodyClothShirt_longSleeves` | `4deb11fd-f319-17b9-8d46-27f7f3d7a7a3` | `s1_gambeson_07` | Dark Silesian gambeson | `-0.56` | `-0.71` | `0.03` | Sold by Rattay armourer
+`FeetBoots` | `4f4b2cdc-1690-4e32-bba8-00eff2f14f0c` | `s1_boots_005` | Slippers | `-0.48` | `-0.31` | `0.084` | 
