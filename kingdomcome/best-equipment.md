@@ -36,7 +36,7 @@ Item UUID | Clothing Name | Item Name | Slash Def | Stab Def | Smash Def | Locat
 `48a827cd-c6ea-4976-9561-327a122326b7` | `pa_legs_018` | Augsburg plate chausses | `2.02` | `2.02` | `0.808` |
 `c9e42db7-4f90-4b4f-89f1-b3a81e7e2108` | `leather_boots_Hi_001` | Servant's boots | `2` | `2` | `2` | Test item
 `0082de35-b635-4b85-a9ec-95024713f3ab` | `pa_helmet_002` | Kettle hat | `2` | `2` | `1.8` | 
-`422917fc-435a-f436-3245-a356367f8881` | `pa_arm_017` | Milanese plate pauldrons | `2` | `2` | `0.8` | Sold by Merhojed army camp armourer
+`422917fc-435a-f436-3245-a356367f8881` | `pa_arm_017` | Milanese plate pauldrons | `2` | `2` | `0.8` | Sold by Rattay Armourer
 
 ## Status / Slash Def / Stab Def
 
@@ -51,20 +51,20 @@ Item UUID | Clothing Name | Item Name | Max Status | Slash Def | Stab Def | Smas
 `4c8f4d4b-72d3-c337-ed0c-41225e7b2382` | `pa_brigandine_009` | Dyed Milanese brigandine | `78` | `2.43` | `2.43` | `0.972` | Duel prize?
 `4964faf4-b122-9856-e3d4-7e026ce4a0a7` | `pa_brigandine_009` | Dyed Milanese brigandine | `78` | `2.43` | `2.43` | `0.972` | Duel prize?
 `440074cf-4d3d-5d80-2944-f49d91d642a1` | `pa_brigandine_009` | Dyed Milanese brigandine | `78` | `2.43` | `2.43` | `0.972` | Sold by Rattay Armourer<br>Duel prize?
-`4222ca69-3a10-91c1-91ff-26f36122b8a2` | `pa_brigandine_009` | Bright Milanese brigandine | `78` | `2.43` | `2.43` | `0.972` | 
-`41e550e4-12df-49f0-3b05-74959224a8a5` | `pa_brigandine_009` | Milanese brigandine | `78` | `2.43` | `2.43` | `0.972` | 
+`4222ca69-3a10-91c1-91ff-26f36122b8a2` | `pa_brigandine_009` | Bright Milanese brigandine | `78` | `2.43` | `2.43` | `0.972` | Sold by Rattay Armourer
+`41e550e4-12df-49f0-3b05-74959224a8a5` | `pa_brigandine_009` | Milanese brigandine | `78` | `2.43` | `2.43` | `0.972` | Sold by Rattay Armourer
 `421f173c-99b2-f030-cedd-0ba2a25270ac` | `pa_helmet_024` | Arching bascinet | `78` | `2.29` | `2.29` | `0.916` | Treasure Map IV<br>Bandit loot
-`48a827cd-c6ea-4976-9561-327a122326b7` | `pa_legs_018` | Augsburg plate chausses | `78` | `2.02` | `2.02` | `0.808` | 
+`48a827cd-c6ea-4976-9561-327a122326b7` | `pa_legs_018` | Augsburg plate chausses | `78` | `2.02` | `2.02` | `0.808` | Sold by Rattay Armourer
 `47a86203-78c8-463a-6ce6-4b22754786ba` | `pa_arm_014` | Meissen plate pauldrons | `77` | `2.2` | `2.2` | `0.88` | Sold by Rattay Armourer
 `4fedd7a1-ac86-40b1-ba0b-847e602df774` | `pa_kyrys_011` | Vitus' cuirass | `76` | `2.35` | `2.35` | `0.94` | 
 `4c71ff43-0696-66e4-71d9-45f30cf05392` | `pa_kyrys_008` | Noble cuirass | `76` | `2.35` | `2.35` | `0.94` | 
-`4a0b54a0-f893-122d-5171-74ac68e933ad` | `pa_helmet_006` | Hounskull | `76` | `2.18` | `2.18` | `0.872` | 
+`4a0b54a0-f893-122d-5171-74ac68e933ad` | `pa_helmet_006` | Hounskull | `76` | `2.18` | `2.18` | `0.872` | Sold by Merhojed army camp armourer
 `47b8a5a6-0912-c070-49b9-d126e8c55bbd` | `pa_kyrys_009` | Magdeburg cuirass | `74` | `2.28` | `2.28` | `0.912` | 
 `4516652a-7e40-d46d-cdd7-62ea97c3bb83` | `pa_arm_020` | Augsburg plate pauldrons | `74` | `2.1` | `2.1` | `0.84` | 
-`481b929a-0e8e-05da-54c5-2939bd72e594` | `pa_helmet_015` | Italian bascinet | `73` | `2.07` | `2.07` | `0.828` | 
+`481b929a-0e8e-05da-54c5-2939bd72e594` | `pa_helmet_015` | Italian bascinet | `73` | `2.07` | `2.07` | `0.828` | Sold by Rattay Armourer
 `4bef1aa8-1d05-6ecc-7797-083fa321cf80` | `pa_brigandine_009_bonus` | Warhorse brigandine | `72` | `2.2` | `2.2` | `0.88` | 
 `47d11f76-1007-00c0-1c63-cfb2b02b0c80` | `pa_kyrys_010` | Kuttenberg cuirass | `72` | `2.2` | `2.2` | `0.88` | 
-`422917fc-435a-f436-3245-a356367f8881` | `pa_arm_017` | Milanese plate pauldrons | `71` | `2` | `2` | `0.8` | Sold by Merhojed army camp armourer
+`422917fc-435a-f436-3245-a356367f8881` | `pa_arm_017` | Milanese plate pauldrons | `71` | `2` | `2` | `0.8` | Sold by Rattay Armourer
 `40c05582-26f8-b1dc-f0ba-80e717a8869e` | `pa_kyrys_005` | Decorated cuirass | `70` | `2.13` | `2.13` | `0.852` | 
 
 ## Stealth
