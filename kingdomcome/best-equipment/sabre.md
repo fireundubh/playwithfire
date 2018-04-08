@@ -5,7 +5,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 # Sabre
 ## Table
 
-UUID | Name | Attack | Slash Mod | Stab Mod | Smash Mod | Defense | Str Req | Agi Req | Location
+UUID | Localized Name | Attack | Slash Mod | Stab Mod | Smash Mod | Defense | Str Req | Agi Req | Location
 --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
 `aca90050-0b70-4ca0-9d29-b94326203c75` | Oriental blade | `4.8` | `1.25` | `1` | `0.05` | `8.625` | `0` | `13` |
 `28a3a4be-3866-47be-91db-878888340674` | Noble's hunting sword | `4.8` | `0.9` | `1` | `0.25` | `8.625` | `0` | `13` | Sold by Rattay swordsmith<br>Sold by Sassau swordsmith<br>Treasure map 3
