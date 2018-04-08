@@ -5,7 +5,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 # Mace
 ## Table
 
-UUID | Name | Attack | Slash Mod | Stab Mod | Smash Mod | Defense | Str Req | Agi Req | Location
+UUID | Localized Name | Attack | Slash Mod | Stab Mod | Smash Mod | Defense | Str Req | Agi Req | Location
 :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
 `b741463f-fe65-430b-9082-13d1950a523d` | Runt's club | `5.8` | `0.05` | `0.05` | `1.1` | `3.5` | `14` | `0` |
 `e16b0af6-fb6a-43e2-9a9c-1b8c227e64b8` | Raven's beak | `5.5` | `0.05` | `0.25` | `1` | `4.25` | `13` | `0` | q_escape_from_Vranik_4
