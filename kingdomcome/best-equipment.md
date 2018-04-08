@@ -21,12 +21,12 @@ Order by: Slash Def, Stab Def
 
 ### Arm armour
 
-Archetype | UUID | Clothing Name | Item Name | Slash Def | Stab Def | Smash Def | Location
-:--- | :--- | :--- | :--- | ---: | ---: | ---: | :---
-`ArmsPlateBackGuardsShort` | `42ed6b9c-19c5-0b8c-5feb-bfe0d7001997` | `pa_arm_016` | Magdeburg plate pauldrons | `2.3` | `2.3` | `0.92` | Sold by Rattay Armourer
-`ArmsPlateBackGuardsShort` | `47a86203-78c8-463a-6ce6-4b22754786ba` | `pa_arm_014` | Meissen plate pauldrons | `2.2` | `2.2` | `0.88` | Sold by Rattay Armourer
-`ArmsPlateBackGuardsShort` | `4516652a-7e40-d46d-cdd7-62ea97c3bb83` | `pa_arm_020` | Augsburg plate pauldrons | `2.1` | `2.1` | `0.84` | Sold by Rattay Armourer
-`ArmsPlateFullComplete_withShoulders` | `422917fc-435a-f436-3245-a356367f8881` | `pa_arm_017` | Milanese plate pauldrons | `2` | `2` | `0.8` | Sold by Rattay Armourer
+Archetype | UUID | Item Name | Slash Def | Stab Def | Smash Def | Location
+:--- | :--- | :--- | ---: | ---: | ---: | :---
+`ArmsPlateBackGuardsShort` | `42ed6b9c-19c5-0b8c-5feb-bfe0d7001997` | Magdeburg plate pauldrons | `2.3` | `2.3` | `0.92` | Sold by Rattay Armourer
+`ArmsPlateBackGuardsShort` | `47a86203-78c8-463a-6ce6-4b22754786ba` | Meissen plate pauldrons | `2.2` | `2.2` | `0.88` | Sold by Rattay Armourer
+`ArmsPlateBackGuardsShort` | `4516652a-7e40-d46d-cdd7-62ea97c3bb83` | Augsburg plate pauldrons | `2.1` | `2.1` | `0.84` | Sold by Rattay Armourer
+`ArmsPlateFullComplete_withShoulders` | `422917fc-435a-f436-3245-a356367f8881` | Milanese plate pauldrons | `2` | `2` | `0.8` | Sold by Rattay Armourer
 
 ### Body garment
 
