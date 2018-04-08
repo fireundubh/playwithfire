@@ -165,4 +165,4 @@ Archetype | UUID | Clothing Name | Item Name | Vis | Con | Noi | Location
 `LegsClothTrousersLong` | `4903be20-7d0c-ca13-5a9b-4ab2fd5a10bd` | `pants_006` | Green nobleman's hose | `-0.62` | `-0.38` | `0.082`
 `LegsClothTrousersLong` | `486fb98b-9cbe-79dd-314a-ac379dfc96b3` | `pants_001` | Decorated black hose | `-0.62` | `-0.33` | `0.08`
 `BodyClothShirt_longSleeves` | `4deb11fd-f319-17b9-8d46-27f7f3d7a7a3` | `s1_gambeson_07` | Dark Silesian gambeson | `-0.56` | `-0.71` | `0.03`
-`FeetBoots` | `4f4b2cdc-1690-4e32-bba8-00eff2f14f0c` | `s1_boots_005` | `Slippers` | `-0.48` | `-0.31` | `0.084`
+`FeetBoots` | `4f4b2cdc-1690-4e32-bba8-00eff2f14f0c` | `s1_boots_005` | Slippers | `-0.48` | `-0.31` | `0.084`
