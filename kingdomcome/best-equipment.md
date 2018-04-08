@@ -116,17 +116,13 @@ UUID | Clothing Name | Item Name | Charisma | Slash Def | Stab Def | Smash Def |
 
 ## Armour - Stealth
 
-Order by: Noise, Conspicuousness, Visibility 
+Order by: Noise, Conspicuousness, Visibility
 
-Item UUID | Clothing Name | Item Name | Noi | Con | Vis | Location
---- | --- | --- | --- | --- | --- | ---
-`33069aba-2dcf-42c4-97ea-f9c8a6f7e06e` | `hat_003` | Servant's cap | `0.00` | `-1.00` | `-1.00` | Test item (not obtainable without console commands)
-`5450027a-1499-4b4c-ab96-6370976fc2da` | `pants_004` | Servant's hose | `0.00` | `-1.00` | `-1.00` | Test item (not obtainable without console commands)
-`60e78fa6-2155-4f5f-8173-5fd0cfd4f314` | `cuman_jacket_001` | Servant's shirt | `0.00` | `-1.00` | `-1.00` | Test item (not obtainable without console commands)
-`c9e42db7-4f90-4b4f-89f1-b3a81e7e2108` | `leather_boots_Hi_001` | Servant's boots | `0.00` | `-1.00` | `-1.00` | Test item (not obtainable without console commands)
-`4765b22e-ac12-f985-ebfe-19f9c7e37481` | `pa_gloves_001` | Leather gloves | `0.00` | `-0.92` | `-0.92` | Sold by Rattay Armorer
-`473110cf-b888-a84b-7c65-e5b1beab47ac` | `pants_005` | Tight red hose | `0.00` | `-0.81` | `-0.82` | Sold by Sassau Tailor
-`4dd34997-a8f3-9f9f-ddaa-ca0ca4b07c9f` | `hood_001` | Black hood | `0.00` | `-0.77` | `-0.88` | Sold by Sassau Tailor
-`4a0742c5-ec0d-b5d5-dadc-b5e9776e22bb` | `boots_011` | Quiet dark shoes | `0.00` | `-0.76` | `-0.72` | Sold by Rattay Shoemaker
-`4517b07b-ca19-07bf-6011-e2cec8868185` | `s1_gambeson_08_s1` | Dark Saxon gambeson | `0.00` | `-0.74` | `-0.84` | Sold by Rattay Armorer
-`4cee3ad0-5249-8bc6-de75-a00f4e4b0d8e` | `boots_011` | Silent shoes | `0.00` | `-0.70` | `-0.66` | Sold by Rattay Shoemaker
+Slot | UUID | Clothing Name | Item Name | Noi | Con | Vis | Location
+--- | --- | --- | --- | --- | --- | --- | ---
+Ring | `4765b22e-ac12-f985-ebfe-19f9c7e37481` | `pa_gloves_001` | Leather gloves | `0.00` | `-0.92` | `-0.92` | Sold by Rattay Armorer
+Hose | `473110cf-b888-a84b-7c65-e5b1beab47ac` | `pants_005` | Tight red hose | `0.00` | `-0.81` | `-0.82` | Sold by Sassau Tailor
+Body garment | `4dd34997-a8f3-9f9f-ddaa-ca0ca4b07c9f` | `hood_001` | Black hood | `0.00` | `-0.77` | `-0.88` | Sold by Sassau Tailor
+Boots | `4a0742c5-ec0d-b5d5-dadc-b5e9776e22bb` | `boots_011` | Quiet dark shoes | `0.00` | `-0.76` | `-0.72` | Sold by Rattay Shoemaker
+Body garment | `4517b07b-ca19-07bf-6011-e2cec8868185` | `s1_gambeson_08_s1` | Dark Saxon gambeson | `0.00` | `-0.74` | `-0.84` | Sold by Rattay Armorer
+Boots | `4cee3ad0-5249-8bc6-de75-a00f4e4b0d8e` | `boots_011` | Silent shoes | `0.00` | `-0.70` | `-0.66` | Sold by Rattay Shoemaker
