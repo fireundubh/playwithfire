@@ -145,4 +145,4 @@ Archetype | UUID | Clothing Name | Item Name | Con | Vis | Noi | Location
 `Tmp_HoodDown` | `4d83cddb-a7ce-dfd5-d2d0-aa7454313f8d` | `hood_002_down` | Black hood | `-0.69` | `-0.7` | `0.08`
 `LegsClothTrousersLong` | `4903be20-7d0c-ca13-5a9b-4ab2fd5a10bd` | `pants_006` | Green nobleman's hose | `-0.38` | `-0.62` | `0.082`
 `LegsClothTrousersLong` | `486fb98b-9cbe-79dd-314a-ac379dfc96b3` | `pants_001` | Decorated black hose | `-0.33` | `-0.62` | `0.08`
-`FeetBoots` | `4f4b2cdc-1690-4e32-bba8-00eff2f14f0c` | `s1_boots_005` | `Slippers` | `-0.31` | `-0.48` | `0.084`
+`FeetBoots` | `4f4b2cdc-1690-4e32-bba8-00eff2f14f0c` | `s1_boots_005` | Slippers | `-0.31` | `-0.48` | `0.084`
