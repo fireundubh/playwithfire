@@ -118,11 +118,11 @@ Archetype | UUID | Clothing Name | Item Name | Charisma | Slash Def | Stab Def |
 
 Order by: Noise, Conspicuousness, Visibility
 
-UUID | Clothing Name | Item Name | Noi | Con | Vis | Location
-:--- | :--- | :--- | ---: | ---: | ---: | :---
-`4765b22e-ac12-f985-ebfe-19f9c7e37481` | `pa_gloves_001` | Leather gloves | `0.00` | `-0.92` | `-0.92` | Sold by Rattay Armorer
-`473110cf-b888-a84b-7c65-e5b1beab47ac` | `pants_005` | Tight red hose | `0.00` | `-0.81` | `-0.82` | Sold by Sassau Tailor
-`4dd34997-a8f3-9f9f-ddaa-ca0ca4b07c9f` | `hood_001` | Black hood | `0.00` | `-0.77` | `-0.88` | Sold by Sassau Tailor
-`4a0742c5-ec0d-b5d5-dadc-b5e9776e22bb` | `boots_011` | Quiet dark shoes | `0.00` | `-0.76` | `-0.72` | Sold by Rattay Shoemaker
-`4517b07b-ca19-07bf-6011-e2cec8868185` | `s1_gambeson_08_s1` | Dark Saxon gambeson | `0.00` | `-0.74` | `-0.84` | Sold by Rattay Armorer
-`4cee3ad0-5249-8bc6-de75-a00f4e4b0d8e` | `boots_011` | Silent shoes | `0.00` | `-0.70` | `-0.66` | Sold by Rattay Shoemaker
+Archetype | UUID | Clothing Name | Item Name | Noi | Con | Vis | Location
+:--- | :--- | :--- | :--- | ---: | ---: | ---: | :---
+`HandsGloves` | `4765b22e-ac12-f985-ebfe-19f9c7e37481` | `pa_gloves_001` | Leather gloves | `0.00` | `-0.92` | `-0.92` | Sold by Rattay Armorer
+`LegsClothTrousersLong` | `473110cf-b888-a84b-7c65-e5b1beab47ac` | `pants_005` | Tight red hose | `0.00` | `-0.81` | `-0.82` | Sold by Sassau Tailor
+`Tmp_HoodOn` | `4dd34997-a8f3-9f9f-ddaa-ca0ca4b07c9f` | `hood_001` | Black hood | `0.00` | `-0.77` | `-0.88` | Sold by Sassau Tailor
+`FeetBoots` | `4a0742c5-ec0d-b5d5-dadc-b5e9776e22bb` | `boots_011` | Quiet dark shoes | `0.00` | `-0.76` | `-0.72` | Sold by Rattay Shoemaker
+`BodyClothShirtLong_longSleeves` | `4517b07b-ca19-07bf-6011-e2cec8868185` | `s1_gambeson_08_s1` | Dark Saxon gambeson | `0.00` | `-0.74` | `-0.84` | Sold by Rattay Armorer
+`FeetBoots` | `4cee3ad0-5249-8bc6-de75-a00f4e4b0d8e` | `boots_011` | Silent shoes | `0.00` | `-0.70` | `-0.66` | Sold by Rattay Shoemaker
