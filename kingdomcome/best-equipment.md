@@ -24,7 +24,7 @@ Item UUID | Clothing Name | Item Name | Slash Def | Stab Def | Smash Def | Locat
 `42ed6b9c-19c5-0b8c-5feb-bfe0d7001997` | `pa_arm_016` | Magdeburg plate pauldrons | `2.3` | `2.3` | `0.92` | Sold by Rattay Armourer
 `421f173c-99b2-f030-cedd-0ba2a25270ac` | `pa_helmet_024` | Arching bascinet | `2.29` | `2.29` | `0.916` | Treasure map IV
 `47b8a5a6-0912-c070-49b9-d126e8c55bbd` | `pa_kyrys_009` | Magdeburg cuirass | `2.28` | `2.28` | `0.912` | Treasure map XVI
-`4bef1aa8-1d05-6ecc-7797-083fa321cf80` | `pa_brigandine_009_bonus` | Warhorse brigandine | `2.2` | `2.2` | `0.88` |
+`4bef1aa8-1d05-6ecc-7797-083fa321cf80` | `pa_brigandine_009_bonus` | Warhorse brigandine | `2.2` | `2.2` | `0.88` | Ancient Map V (Treasures of the Past DLC)
 `47d11f76-1007-00c0-1c63-cfb2b02b0c80` | `pa_kyrys_010` | Kuttenberg cuirass | `2.2` | `2.2` | `0.88` | Treasure map VII<br>q_escape_from_Vranik_4
 `47a86203-78c8-463a-6ce6-4b22754786ba` | `pa_arm_014` | Meissen plate pauldrons | `2.2` | `2.2` | `0.88` | Sold by Rattay Armourer
 `4a0b54a0-f893-122d-5171-74ac68e933ad` | `pa_helmet_006` | Hounskull | `2.18` | `2.18` | `0.872` | Sold by Merhojed army camp armourer
