@@ -35,7 +35,7 @@ Item UUID | Clothing Name | Item Name | Slash Def | Stab Def | Smash Def | Locat
 `4ab8c97d-6977-4b6c-4d66-86b471549483` | `pa_kyrys_001` | Milanese cuirass | `2.05` | `2.05` | `0.82` | Lord Divish<br>Sold by Rattay Armourer<br>Sold by Merhojed army camp armourer<br>Sold by unknown merchant
 `48a827cd-c6ea-4976-9561-327a122326b7` | `pa_legs_018` | Augsburg plate chausses | `2.02` | `2.02` | `0.808` | Treasure map I
 `c9e42db7-4f90-4b4f-89f1-b3a81e7e2108` | `leather_boots_Hi_001` | Servant's boots | `2` | `2` | `2` | Test item (not obtainable without console commands)
-`0082de35-b635-4b85-a9ec-95024713f3ab` | `pa_helmet_002` | Kettle hat | `2` | `2` | `1.8` | 
+`0082de35-b635-4b85-a9ec-95024713f3ab` | `pa_helmet_002` | Kettle hat | `2` | `2` | `1.8` | Common item
 `422917fc-435a-f436-3245-a356367f8881` | `pa_arm_017` | Milanese plate pauldrons | `2` | `2` | `0.8` | Sold by Rattay Armourer
 
 ## Charisma / Slash Def / Stab Def
