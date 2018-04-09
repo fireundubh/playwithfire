@@ -8,7 +8,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 ## Table
 
 Filter | Value
---- | ---
+:--- | ---:
 Any | `0`
 Dead | `1`
 Unconscious | `2`
