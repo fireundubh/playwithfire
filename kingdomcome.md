@@ -47,6 +47,7 @@ Section | Description | Edit Status
 - Guide: [Using Steam to Download Previous Versions](kingdomcome/steam-console)
 - Table: [1.4 Changed Files](https://gist.github.com/fireundubh/fdc526f7941c87707ecd21febe55dc6a)
 - Table: [1.4.1 Changed Files](https://gist.github.com/fireundubh/148a840352cada34d49e7c4f3e2013f2)
+- Table: [1.4.2 Changed Files](https://gist.github.com/fireundubh/9b5f78f0667f76c195925958e6ac858f)
 - Table: [Best Equipment](kingdomcome/best-equipment)
 
 ## Wiki
