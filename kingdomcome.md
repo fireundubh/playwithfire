@@ -8,13 +8,6 @@ If you want to see more resources like this:
 # Kingdom Come: Deliverance
 Welcome to the *Kingdom Come: Deliverance* wiki at **#playwithfire**. This wiki was created to provide modders with potentially useful technical information.
 
-## Tools
-
-Name | Developer | Description
---- | --- | ---
-[Modsmith](https://github.com/fireundubh/modsmith) | fireundubh | Automated framework for building and packaging mods
-
-
 ## Documentation
 
 ### Data
@@ -44,11 +37,22 @@ Section | Description | Edit Status
 
 ### Miscellaneous
 
-- Guide: [Using Steam to Download Previous Versions](kingdomcome/steam-console)
 - Table: [1.4 Changed Files](https://gist.github.com/fireundubh/fdc526f7941c87707ecd21febe55dc6a)
 - Table: [1.4.1 Changed Files](https://gist.github.com/fireundubh/148a840352cada34d49e7c4f3e2013f2)
 - Table: [1.4.2 Changed Files](https://gist.github.com/fireundubh/9b5f78f0667f76c195925958e6ac858f)
-- Table: [Best Equipment](kingdomcome/best-equipment)
+
+## Gameplay
+
+Section | Description
+--- | ---
+[Best Equipment](kingdomcome/best-equipment) | A database of best-in-slot armor and weapons, excluding common and average items
+
+## Tools
+
+Name | Developer | Description
+--- | --- | ---
+[Modsmith](https://github.com/fireundubh/modsmith) | fireundubh | Automated framework for building and packaging mods
+[Steam Console](kingdomcome/steam-console) | | Guide: Using Steam to download previous versions
 
 ## Wiki
 
