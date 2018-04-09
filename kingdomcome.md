@@ -13,7 +13,7 @@ Welcome to the *Kingdom Come: Deliverance* wiki at **#playwithfire**. This wiki 
 ### Data
 
 Section | Description | Edit Status
---- | --- | ---
+:--- | :--- | :---
 [Buff Implementations](kingdomcome/buffs) | A complete table of buff implementations | **Completed**
 [Known Formulas](kingdomcome/formulas) | A table of known formulas for RPG mechanics | *In progress*
 [Perks and Effects](kingdomcome/perks) | A complete table of perks and their buff effects | *In progress*
@@ -25,7 +25,7 @@ Section | Description | Edit Status
 ### Scripting
 
 Section | Description | Edit Status
---- | --- | ---
+:--- | :--- | :---
 [Lua Classes](kingdomcome/classes) | Lua-exposed C++ classes | **Completed**
 [Lua Functions](kingdomcome/functions) | Lua-implemented functions in every script | Not started
 
@@ -44,13 +44,13 @@ Section | Description | Edit Status
 ## Gameplay
 
 Section | Description
---- | ---
+:--- | :---
 [Best Equipment](kingdomcome/best-equipment) | A database of best-in-slot armor and weapons, excluding common and average items
 
 ## Tools
 
 Name | Developer | Description
---- | --- | ---
+:--- | :--- | :---
 [Modsmith](https://github.com/fireundubh/modsmith) | fireundubh | Automated framework for building and packaging mods
 [Steam Console](kingdomcome/steam-console) | | Guide: Using Steam to download previous versions
 
