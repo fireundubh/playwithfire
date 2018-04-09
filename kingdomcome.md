@@ -22,6 +22,7 @@ Name | Developer | Description
 Section | Description | Edit Status
 --- | --- | ---
 [Buff Implementations](kingdomcome/buffs) | A complete table of buff implementations | **Completed**
+[Interaction Filters](kingdomcome/interaction-filters) | A complete list of interaction filters | **Completed**
 [Known Formulas](kingdomcome/formulas) | A table of known formulas for RPG mechanics | *In progress*
 [Perks and Effects](kingdomcome/perks) | A complete table of perks and their buff effects | *In progress*
 [RPG Parameters](kingdomcome/rpg-parameters) | A complete table of RPG parameters, default values, and their descriptions | **Completed**
