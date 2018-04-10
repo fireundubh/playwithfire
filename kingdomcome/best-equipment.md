@@ -12,8 +12,9 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 ## Weapons
 
 - [Axe](equipment/axe) (ordered by: Attack, Slash Mod, Stab Mod)
+- [Bow](equipment/bow) (ordered by: Power, Value, Weight)
 - [Halberd](equipment/halberd) (ordered by: Attack, Slash Mod, Stab Mod)
-- [Longsword](best-equipment/longsword) (ordered by: Attack, Slash Mod, Stab Mod)
-- [Mace](best-equipment/mace) (ordered by: Attack, Slash Mod, Stab Mod)
-- [Sabre](best-equipment/sabre) (ordered by: Attack, Slash Mod, Stab Mod)
-- [Sword](best-equipment/sword) (ordered by: Attack, Slash Mod, Stab Mod)
+- [Longsword](equipment/longsword) (ordered by: Attack, Slash Mod, Stab Mod)
+- [Mace](equipment/mace) (ordered by: Attack, Slash Mod, Stab Mod)
+- [Sabre](equipment/sabre) (ordered by: Attack, Slash Mod, Stab Mod)
+- [Sword](equipment/sword) (ordered by: Attack, Slash Mod, Stab Mod)
