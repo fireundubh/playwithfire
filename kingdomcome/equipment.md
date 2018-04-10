@@ -4,6 +4,10 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 # Equipment
 
+## Armor and Weapons
+
+- [By Value](equipment/by-value) (ordered by: V/W Ratio, Value, Weight)
+
 ## Armor
 
 - [Armor - Defence](equipment/armor-defence) (ordered by: Slash Def, Stab Def)
