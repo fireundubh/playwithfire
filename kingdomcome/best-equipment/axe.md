@@ -4,4 +4,4 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 # Axes
 
-Moved to [kingdomcome/equipment/axe](/kingdomcome/equipment/axe).
+Page moved to: [kingdomcome/equipment/axe](/kingdomcome/equipment/axe)
