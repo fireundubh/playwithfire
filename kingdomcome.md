@@ -45,7 +45,8 @@ Section | Description | Edit Status
 
 Section | Description
 :--- | :---
-[Best Equipment](kingdomcome/best-equipment) | A database of best-in-slot armor and weapons, excluding common and average items
+[All Equipment](kingdomcome/equipment) | A database of all equipment, including locations
+[Best Equipment](kingdomcome/best-equipment) | A database of best-in-slot armor and weapons, including locations
 
 ## Tools
 
