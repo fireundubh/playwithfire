@@ -2,9 +2,10 @@
 
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
-# By Value
+# Equipment by Value
 
 ## Table
+
 UUID | Localized Name | V/W Ratio | Value | Weight | Locations
 --- | --- | --- | --- | --- | ---
 `af6f2946-ce54-4e38-9b2b-5ab95d5c4777` | Golded spurs | `2392.40` | `2392.40` | `1.00` | Looted from Bandit (`reinforcements_banditLeader`)<br>Looted from Bandit (random event)<br>Looted from Bandit at Skalitz<br>Looted from Cuman (random event)<br>Looted from Guard (random event)<br>Looted from Guard at Rattay<br>Looted from Guard at Talmberk<br>Looted from Soldier (Siege)<br>Looted from Soldier at Vranik<br>Looted from Soldier at the Battle of Pribislavitz<br>Looted from Soldier at the Conquest of Kuttenberg<br>Sold by Neuhof stablemaster<br>Sold by Uzhitz stablemaster
