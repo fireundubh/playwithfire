@@ -5,8 +5,8 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 # Axes
 ## Table
 
-Class | UUID | Localized Name | Attack | Slash Mod | Stab Mod | Smash Mod | Defense | Str Req | Agi Req | Location
-:--- | :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
+UUID | Localized Name | Attack | Slash Mod | Stab Mod | Smash Mod | Defense | Str Req | Agi Req | Location
+:--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
 `d5ca8f35-28ec-4bf3-b042-7c97ce4c4f14` | Metal-plated battle axe | `5.3` | `0.8` | `0.5` | `0.75` | `4.5` | `15.0` | `0.0` | Looted from Guard at Merhojed<br>Looted from Soldier at the Conquest of Kuttenberg<br>Sold by Rattay swordsmith<br>Sold by Sassau swordsmith<br>Treasure map 9
 `8e2ccaa1-17c2-4cef-b378-e71dc83bddb7` | Metal-plated battle axe | `5.02` | `0.8` | `0.05` | `0.9` | `4.25` | `14.0` | `0.0` | Looted from Bandit (random event)<br>Looted from Bandit at Samopesh<br>Looted from Bandit at Vranik<br>Looted from Guard (random event)<br>Sold by Rattay swordsmith<br>Sold by Sassau swordsmith
 `5bcd587a-4d97-4bad-a8b4-3248fc6d0cc6` | Heavy battle axe | `4.8` | `0.8` | `0.5` | `0.75` | `4.0` | `12.0` | `0.0` | Looted from Bandit (`barbican_bandit3`)<br>Looted from Bandit (`defence_bandit6`)<br>Looted from Bandit (`defence_bandit8`)<br>Looted from Bandit (`reinforcements_bandit17`)<br>Looted from Bandit (random event)<br>Looted from Bandit at Pribislavitz<br>Looted from Bandit at Skalitz<br>Looted from Bandit at Talmberk<br>Looted from Bandit at Vranik<br>Looted from Guard (random event)<br>Looted from Guard at Rattay<br>Looted from Guard at Talmberk<br>Looted from Soldier at the Conquest of Kuttenberg<br>Sold by Rattay swordsmith<br>Sold by Sassau swordsmith
