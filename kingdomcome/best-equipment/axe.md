@@ -1,0 +1,1 @@
+Moved to [kingdomcome/equipment/axe](kingdomcome/equipment/axe).
