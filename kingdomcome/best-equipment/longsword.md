@@ -7,7 +7,6 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 UUID | Localized Name | Attack | Slash Mod | Stab Mod | Smash Mod | Defense | Str Req | Agi Req | Location
 :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
-`a7d5c50c-de7d-4982-969e-33fcbccb749a` | Wooden training sword | `6.75` | `1.1` | `1.1` | `0.05` | `9.928572` | `8.0` | `0.0` | Perception
 `db0725ac-c0e0-41db-b7a6-2887c57df612` | St. George's sword | `6.5` | `1.1` | `1.1` | `0.05` | `11.0` | `12.0` | `0.0` | Looted from Hans Capon at Rattay<br>Treasure map 7
 `d459cb3a-04b5-4de7-b115-35ec17d293ba` | Queen of Sheba's sword | `6.5` | `1.0` | `1.0` | `0.05` | `10.0` | `12.0` | `0.0` | 
 `9f754566-7fb2-47e1-951b-22c27debb3c8` | Magdeburg sword | `6.321429` | `0.9` | `0.9` | `0.05` | `12.64286` | `11.0` | `0.0` | Looted from Bandit (random event)<br>Looted from Guard at Rattay<br>Looted from Soldier at the Conquest of Kuttenberg<br>Treasure map 22
@@ -30,5 +29,5 @@ UUID | Localized Name | Attack | Slash Mod | Stab Mod | Smash Mod | Defense | St
 `8f2764bc-e4e7-407a-b1ed-8ee221b2bb5d` | Bastard sword | `1.3` | `1.0` | `1.0` | `1.0` | `1.0` | `1.0` | `1.0` | 
 `6dda19ab-a26d-4585-9600-15942e16caeb` | Bastard sword | `1.3` | `1.0` | `1.0` | `1.0` | `1.0` | `1.0` | `1.0` | 
 `581f1eb0-7d42-4d6d-9609-9902d3690c07` | Bastard sword | `1.3` | `1.0` | `1.0` | `1.0` | `1.0` | `1.0` | `1.0` | 
-`00000000-0000-0000-0000-000000000005` | Bastard sword | `1.3` | `1.0` | `1.0` | `1.0` | `1.0` | `1.0` | `1.0` | Bababab<br>Looted from Bandit at Talmberk
+`00000000-0000-0000-0000-000000000005` | Bastard sword | `1.3` | `1.0` | `1.0` | `1.0` | `1.0` | `1.0` | `1.0` | Looted from Bandit at Talmberk
 `e5fc1a89-9bb1-44a9-a524-c6834a5e2e76` | Wooden training sword | `0.5` | `1.0` | `1.0` | `0.05` | `4.0` | `1.0` | `0.0` | Sold by Merjohed army camp armourer<br>aus_bohuta
