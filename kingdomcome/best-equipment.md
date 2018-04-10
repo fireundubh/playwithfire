@@ -11,7 +11,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 ## Weapons
 
-- [Axe](best-equipment/axe) (ordered by: Attack, Slash Mod, Stab Mod)
+- [Axe](equipment/axe) (ordered by: Attack, Slash Mod, Stab Mod)
 - [Halberd](best-equipment/halberd) (ordered by: Attack, Slash Mod, Stab Mod)
 - [Longsword](best-equipment/longsword) (ordered by: Attack, Slash Mod, Stab Mod)
 - [Mace](best-equipment/mace) (ordered by: Attack, Slash Mod, Stab Mod)
