@@ -26,6 +26,29 @@ File | Compressed? | Flags | Resource Types
 `HighResTexturePack02.bsa` | True | Include Directory Names, Include File Names, Embed File Names | Textures
 `HighResTexturePack03.bsa` | True | Include Directory Names, Include File Names, Embed File Names | Textures
 
+### The Elder Scrolls V: Skyrim - Special Edition
+
+File | Compressed? | Flags | Resource Types 
+--- | --- | --- | ---
+`Skyrim - Animations.bsa` | False | Include Directory Names, Include File Names |  
+`Skyrim - Interface.bsa` | False | Include Directory Names, Include File Names |  
+`Skyrim - Meshes0.bsa` | True | Include Directory Names, Include File Names, Retain Strings During Startup, Embed File Names | 
+`Skyrim - Meshes1.bsa` | True | Include Directory Names, Include File Names, Retain Strings During Startup, Embed File Names | 
+`Skyrim - Misc.bsa` | False | Include Directory Names, Include File Names, Retain File Names | 
+`Skyrim - Patch.bsa` | False | Include Directory Names, Include File Names, Retain File Names | 
+`Skyrim - Shaders.bsa` | False | Include Directory Names, Include File Names | 
+`Skyrim - Sounds.bsa` | False | Include Directory Names, Include File Names, Retain File Names | Sounds, Voices
+`Skyrim - Textures0.bsa` | True | Include Directory Names, Include File Names, Embed File Names, XMem Codec | 
+`Skyrim - Textures1.bsa` | True | Include Directory Names, Include File Names, Embed File Names, XMem Codec | 
+`Skyrim - Textures2.bsa` | True | Include Directory Names, Include File Names, Embed File Names, XMem Codec | 
+`Skyrim - Textures3.bsa` | True | Include Directory Names, Include File Names, Embed File Names, XMem Codec | 
+`Skyrim - Textures4.bsa` | True | Include Directory Names, Include File Names, Embed File Names, XMem Codec | 
+`Skyrim - Textures5.bsa` | True | Include Directory Names, Include File Names, Embed File Names, XMem Codec | 
+`Skyrim - Textures6.bsa` | True | Include Directory Names, Include File Names, Embed File Names, XMem Codec | 
+`Skyrim - Textures7.bsa` | True | Include Directory Names, Include File Names, Embed File Names, XMem Codec | 
+`Skyrim - Textures8.bsa` | True | Include Directory Names, Include File Names, Embed File Names, XMem Codec | 
+`Skyrim - Voices_en0.bsa` | False | Include Directory Names, Include File Names | Sounds, Voices
+
 ## Raw Data
 
 ### The Elder Scrolls V: Skyrim - Archive Flags
