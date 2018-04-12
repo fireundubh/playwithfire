@@ -5,7 +5,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 # All Consumables
 ## Tables
 
-### None
+### No food type
 
 UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (days) | Price | Weight | Locations
 --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
