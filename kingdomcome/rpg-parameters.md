@@ -29,7 +29,7 @@ AlchemyRecipeStepsTolerance | 2.000000000 |  | 2.000000000 |  | 2.000000000 | Ho
 AlchemyToleranceBase | 0.500000000 |  | 0.500000000 |  | 0.500000000 | Base brewing tolerance at level 1
 AlchemyTolerancePerLevel | 0.150000000 |  | 0.150000000 |  | 0.150000000 | Brewing tolerance gain per level
 AlchemyTrialEndErrorPerkTolerance | 1.000000000 |  | 1.000000000 |  | 1.000000000 | Additional tolerance gained with Trial and Error perk
-AlchemyXPPerAutocookBrewingRelative | nil | Decreased | 0.100000000 |  | 0.100000000 | how many XP you get when you auto-cook a potion, relative to manual brewing
+AlchemyXPPerAutocookBrewingRelative | nil | Added | 0.100000000 |  | 0.100000000 | how many XP you get when you auto-cook a potion, relative to manual brewing
 AlchemyXPPerSuccessfullBrewing | 40.000000000 |  | 40.000000000 |  | 40.000000000 | Alchemy XP gained when a potion is successfully brewed
 AlcoholBaseHangoverDuration | 14400.000000000 |  | 14400.000000000 |  | 14400.000000000 | Base max duration for hangover (after blackout) in world time
 AlcoholBlackoutDuration | 14400.000000000 |  | 14400.000000000 |  | 14400.000000000 | Blackout unconscious duration
