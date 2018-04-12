@@ -47,6 +47,7 @@ Section | Description
 :--- | :---
 [All Consumables](kingdomcome/consumables) | A database of all consumables, including locations
 [All Equipment](kingdomcome/equipment) | A database of all equipment, including locations
+[All Herbs](kingdomcome/herbs) | A database of all herbs, including used recipes and locations
 [Best Equipment](kingdomcome/best-equipment) | A database of best-in-slot armor and weapons, including locations
 
 ## Tools
