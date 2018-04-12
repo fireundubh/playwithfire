@@ -5,7 +5,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 # All Consumables
 ## Tables
 
-### No food type
+### Food type: None
 
 UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (days) | Price | Weight | Locations
 --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -18,7 +18,7 @@ UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (da
 `7beb4bdc-6478-455c-8746-afb92c604be8` | Honey | `2.5` | `0.0` | `3.0` | `0.0` | `0.0` | `1.7` | `0.8` | Inventory: `beehive`<br>Sold by baker at Rattay (`Rataje_bakery`)<br>Sold by general goods merchant at Rattay (`rat_general`)<br>Sold by general goods stallkeeper at Samopesh (`sam_general_stall`)<br>Sold by stallkeeper at Rattay (`rat_stall1`)<br>Sold by trader at Skalitz (`ska_shop3`)<br>Sold by trader at Skalitz (`ska_shop4`)
 `4f4b113c-0d1c-4f37-b846-77869d810ab5` | Powdered unicorn horn | `0.0` | `0.0` | `0.0` | `0.0` | `0.0` | `6.0` | `0.0` | Inventory: `charlatan_reward_chest`<br>Sold by charlatan at Sassau (`sas_charlatan_shop`)
 
-### Bowel
+### Food type: Bowel
 
 UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (days) | Price | Weight | Locations
 --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -44,7 +44,7 @@ UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (da
 `3a2d670c-bfc8-441a-aaf6-3a0ffc874b91` | Offal | `3.0` | `0.0` | `-1.0` | `0.0` | `72.0` | `0.5` | `0.3` | Inventory: `hare`
 `2bac1a01-c77a-4d1b-803d-020c33af4de2` | Sheep kidneys | `3.0` | `0.0` | `-4.0` | `0.0` | `24.0` | `12.0` | `0.4` | Inventory: `sheep`
 
-### Dairy
+### Food type: Dairy
 
 UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (days) | Price | Weight | Locations
 --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -53,7 +53,7 @@ UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (da
 `63d98446-f3c8-4407-8949-c246295b1496` | Hardboiled egg | `5.0` | `0.0` | `-0.5` | `0.0` | `48.0` | `1.0` | `0.1` | Inventory: `ultimate_hangoverSpot`
 `7ae2e77b-bdae-46cb-b6ac-f532cf225748` | Egg | `3.0` | `0.0` | `-1.0` | `0.0` | `48.0` | `1.0` | `0.1` | 
 
-### Drink
+### Food type: Drink
 
 UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (days) | Price | Weight | Locations
 --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -105,7 +105,7 @@ UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (da
 `eca88106-4bab-4419-8772-4450739c193c` | Digestion potion | `-20.0` | `0.0` | `4.0` | `30.0` | `0.0` | `30.0` | `0.5` | Sold by apothecary Konyash at Rattay (`rat_konyas_shop`)
 `42e54d97-6e63-4e50-a09d-325ef4dd2286` | Bane potion | `-20.0` | `-110.0` | `-20.0` | `20.0` | `0.0` | `90.0` | `0.5` | Sold by apothecary at Ledetchko (`Led_herbalist`)<br>Sold by apothecary at Neuhof (`neu_herbalist`)<br>Sold by apothecary at Pribislavitz (`prib_herbalistShop`)<br>Sold by apothecary at Samopesh (`sam_herbalistShop`)
 
-### Fruit
+### Food type: Fruit
 
 UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (days) | Price | Weight | Locations
 --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -118,7 +118,7 @@ UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (da
 `2264f217-590e-4c0f-a4c6-f50c6532b9f6` | Apple | `2.0` | `2.0` | `0.0` | `0.0` | `120.0` | `0.4` | `0.3` | Inventory: `a_antiqueHooker_money`<br>Inventory: `a_vagabund_merchant`<br>Inventory: `a_vagabund_pazdera_torch`<br>Inventory: `a_vagabund_pazdera`<br>Inventory: `mrh_armyCamp_chest1_torch`<br>Inventory: `mrh_armyCamp_chest1`<br>Inventory: `perception`<br>Inventory: `player_alpha`<br>Inventory: `poi_talmberk_north_feeder1`<br>Inventory: `poi_talmberk_north_hole1`<br>Inventory: `poi_talmberk_north_sack4`<br>Inventory: `sackOfApples_01`<br>Inventory: `ultimate_hangoverSpot`<br>Sold by blacksmith at Rattay (`Rateje_forge01`)<br>Sold by general goods merchant at Rattay (`rat_general`)<br>Sold by general goods stallkeeper at Samopesh (`sam_general_stall`)<br>Sold by trader at Skalitz (`ska_shop3`)<br>Sold by trader at Skalitz (`ska_shop4`)
 `22eb16a0-1175-4e2e-a951-33d362e288fb` | Crystal meth | `0.0` | `0.0` | `250.0` | `0.0` | `0.0` | `100.0` | `0.2` | 
 
-### Meat
+### Food type: Meat
 
 UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (days) | Price | Weight | Locations
 --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -161,7 +161,7 @@ UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (da
 `6f1d0e9e-d532-4476-af7a-e24ea01da040` | Hare meat | `5.0` | `0.0` | `-6.0` | `0.0` | `24.0` | `5.8` | `0.2` | Inventory: `hare`<br>Inventory: `poi_talmberk_north_hole1`<br>Inventory: `poi_talmberk_north_sack1_hunter`<br>Inventory: `poi_talmberk_north_sack3`<br>Inventory: `tal_innkeeper_chest`<br>Sold by butcher at Ledetchko (`led_butcher`)<br>Sold by general goods merchant at Rattay (`rat_general`)<br>Sold by general goods stallkeeper at Samopesh (`sam_general_stall`)<br>Sold by trader at Skalitz (`ska_shop3`)
 `ff25cae9-7182-4d55-bbb0-0706404e5b69` | Dog meat | `5.0` | `0.0` | `-6.0` | `0.0` | `24.0` | `0.2` | `0.2` | Inventory: `dog`
 
-### Mushroom
+### Food type: Mushroom
 
 UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (days) | Price | Weight | Locations
 --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -170,7 +170,7 @@ UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (da
 `c27e73bd-05db-42c5-963e-09c42395160a` | Lepiota | `2.0` | `0.0` | `0.0` | `0.0` | `24.0` | `0.5` | `0.2` | Sold by trader at Skalitz (`ska_shop4`)
 `4dab452b-7f35-4cd9-942f-f59fd14c83fe` | Boletus edulis | `1.0` | `0.0` | `0.0` | `0.0` | `24.0` | `0.4` | `0.2` | Sold by fisherman at Talmberg (`tal_fishFarmerShop`)<br>Sold by general goods merchant at Rattay (`rat_general`)<br>Sold by general goods stallkeeper at Samopesh (`sam_general_stall`)<br>Sold by trader at Skalitz (`ska_shop3`)<br>Sold by trader at Skalitz (`ska_shop4`)
 
-### Pastry
+### Food type: Pastry
 
 UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (days) | Price | Weight | Locations
 --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -180,7 +180,7 @@ UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (da
 `ca873759-2d0d-4f2f-ba05-49b6c1872a9e` | Bread roll | `7.0` | `0.0` | `1.0` | `0.0` | `96.0` | `1.0` | `0.2` | Inventory: `monastery_bread_cheese_and_water`<br>Sold by baker at Rattay (`Rataje_bakery`)<br>Sold by bartender at Samopesh (`sam_bartender`)<br>Sold by general goods merchant at Rattay (`rat_general`)<br>Sold by general goods stallkeeper at Samopesh (`sam_general_stall`)<br>Sold by innkeeper at Inn in the Glade (`cross_pub_innkeeper`)<br>Sold by innkeeper at Ledetchko (`led_pub_innkeeper`)<br>Sold by innkeeper at Rattay (`rat_lower_pub_inkeeper`)<br>Sold by innkeeper at Rattay (`rat_outskirt_pub_inkeeper`)<br>Sold by innkeeper at Sassau (`sas_shop_innkeeper1`)<br>Sold by innkeeper at Sassau (`saso_innkeeper1`)<br>Sold by innkeeper at Talmberg (`tal_inkeeperShop`)<br>Sold by innkeeper at Uzhitz (`aus_innkeeper`)<br>Sold by stallkeeper at Rattay (`rat_stall1`)<br>Sold by trader at Skalitz (`ska_shop3`)
 `c352d8ae-4021-4f9b-b49c-b1f087f2cd2c` | Pretzel | `6.0` | `0.0` | `1.0` | `0.0` | `96.0` | `1.5` | `0.1` | Sold by baker at Rattay (`Rataje_bakery`)<br>Sold by bartender at Samopesh (`sam_bartender`)<br>Sold by general goods merchant at Rattay (`rat_general`)<br>Sold by general goods stallkeeper at Samopesh (`sam_general_stall`)<br>Sold by innkeeper at Inn in the Glade (`cross_pub_innkeeper`)<br>Sold by innkeeper at Ledetchko (`led_pub_innkeeper`)<br>Sold by innkeeper at Rattay (`rat_lower_pub_inkeeper`)<br>Sold by innkeeper at Rattay (`rat_outskirt_pub_inkeeper`)<br>Sold by innkeeper at Sassau (`sas_shop_innkeeper1`)<br>Sold by innkeeper at Sassau (`saso_innkeeper1`)<br>Sold by innkeeper at Talmberg (`tal_inkeeperShop`)<br>Sold by innkeeper at Uzhitz (`aus_innkeeper`)<br>Sold by stallkeeper at Rattay (`rat_stall1`)<br>Sold by trader at Skalitz (`ska_shop3`)
 
-### Vegetable
+### Food type: Vegetable
 
 UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (days) | Price | Weight | Locations
 --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
