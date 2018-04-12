@@ -3,10 +3,10 @@
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
 # All Consumables
-## None
+## Food type: None
 
 Category | UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (days) | Price | Weight | Locations
-:--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
+:--- | :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
 Food | `6198800d-2524-4b66-b9ca-b640e2ae99f5` | Lentil soup | `25.0` | `0.0` | `0.0` | `0.0` | `48.0` | `1.3` | `0.4` | 
 Food | `d76e8a7d-afc3-48f7-a0f5-7920e4763497` | Easter egg green | `10.0` | `5.0` | `5.0` | `0.0` | `48.0` | `15.0` | `0.1` | 
 Food | `675288ca-b644-4694-9874-90c5ca7e38e0` | Easter egg red | `10.0` | `5.0` | `5.0` | `0.0` | `48.0` | `15.0` | `0.1` | 
@@ -16,10 +16,10 @@ Food | `b73fc42f-829f-4f3e-8ae5-2b6fc5f4b157` | Lentil mash | `9.0` | `0.0` | `2
 Food | `7beb4bdc-6478-455c-8746-afb92c604be8` | Honey | `2.5` | `0.0` | `3.0` | `0.0` | `0.0` | `1.7` | `0.8` | Inventory: `beehive`<br>Sold by baker at Rattay (`Rataje_bakery`)<br>Sold by general goods merchant at Rattay (`rat_general`)<br>Sold by general goods stallkeeper at Samopesh (`sam_general_stall`)<br>Sold by stallkeeper at Rattay (`rat_stall1`)<br>Sold by trader at Skalitz (`ska_shop3`)<br>Sold by trader at Skalitz (`ska_shop4`)
 Food | `4f4b113c-0d1c-4f37-b846-77869d810ab5` | Powdered unicorn horn | `0.0` | `0.0` | `0.0` | `0.0` | `0.0` | `6.0` | `0.0` | Inventory: `charlatan_reward_chest`<br>Sold by charlatan at Sassau (`sas_charlatan_shop`)
 
-## Bowel
+## Food type: Bowel
 
 Category | UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (days) | Price | Weight | Locations
-:--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
+:--- | :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
 Food | `5c0981cd-1c99-4690-8e54-29dbfc315c1d` | Cooked beef tongue | `22.0` | `0.0` | `-6.0` | `0.0` | `48.0` | `11.0` | `0.9` | 
 Food | `4a3dc302-b035-44cc-a49b-9da912c28cc1` | Cooked pork liver | `18.0` | `0.0` | `-3.0` | `0.0` | `48.0` | `23.0` | `0.8` | 
 Food | `bd6a9ffc-68b6-4222-b7fd-7bd72634b712` | Cooked deer kidneys | `15.0` | `0.0` | `-2.0` | `0.0` | `48.0` | `80.0` | `0.3` | 
@@ -42,19 +42,19 @@ Food | `ab3ee24b-1e2f-4fe8-a3e8-a059d8391d2f` | Cooked offal | `5.0` | `0.0` | `
 Food | `3a2d670c-bfc8-441a-aaf6-3a0ffc874b91` | Offal | `3.0` | `0.0` | `-1.0` | `0.0` | `72.0` | `0.5` | `0.3` | Inventory: `hare`
 Food | `2bac1a01-c77a-4d1b-803d-020c33af4de2` | Sheep kidneys | `3.0` | `0.0` | `-4.0` | `0.0` | `24.0` | `12.0` | `0.4` | Inventory: `sheep`
 
-## Dairy
+## Food type: Dairy
 
 Category | UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (days) | Price | Weight | Locations
-:--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
+:--- | :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
 Food | `0b4e244a-e3de-4502-afd0-fb7fe309629a` | Cream | `16.0` | `0.0` | `0.0` | `0.0` | `48.0` | `2.0` | `1.0` | 
 Food | `b2f8f5e3-8e5e-4600-a4bb-be17e2d4a058` | Cheese | `10.0` | `0.0` | `-3.0` | `0.0` | `120.0` | `7.3` | `0.6` | Inventory: `monastery_bread_cheese_and_water`<br>Inventory: `stash_cheese`<br>Sold by bartender at Samopesh (`sam_bartender`)<br>Sold by innkeeper at Inn in the Glade (`cross_pub_innkeeper`)<br>Sold by innkeeper at Ledetchko (`led_pub_innkeeper`)<br>Sold by innkeeper at Rattay (`rat_lower_pub_inkeeper`)<br>Sold by innkeeper at Rattay (`rat_outskirt_pub_inkeeper`)<br>Sold by innkeeper at Sassau (`sas_shop_innkeeper1`)<br>Sold by innkeeper at Sassau (`saso_innkeeper1`)<br>Sold by innkeeper at Talmberg (`tal_inkeeperShop`)<br>Sold by innkeeper at Uzhitz (`aus_innkeeper`)
 Food | `63d98446-f3c8-4407-8949-c246295b1496` | Hardboiled egg | `5.0` | `0.0` | `-0.5` | `0.0` | `48.0` | `1.0` | `0.1` | Inventory: `ultimate_hangoverSpot`
 Food | `7ae2e77b-bdae-46cb-b6ac-f532cf225748` | Egg | `3.0` | `0.0` | `-1.0` | `0.0` | `48.0` | `1.0` | `0.1` | 
 
-## Drink
+## Food type: Drink
 
 Category | UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (days) | Price | Weight | Locations
-:--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
+:--- | :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
 Potion | `2529e246-6f1b-4529-8d6b-64245207bae8` | Moonshine | `20.0` | `5.0` | `15.0` | `90.0` | `0.0` | `20.0` | `1.0` | Inventory: `aus_vicar_pockets`<br>Inventory: `pub_drinks_supply`<br>Inventory: `ultimate_hangoverSpot`<br>Sold by apothecary Konyash at Rattay (`rat_konyas_shop`)<br>Sold by bartender at Samopesh (`sam_bartender`)<br>Sold by fisherman at Talmberg (`tal_fishFarmerShop`)<br>Sold by innkeeper at Inn in the Glade (`cross_pub_innkeeper`)<br>Sold by innkeeper at Ledetchko (`led_pub_innkeeper`)<br>Sold by innkeeper at Rattay (`rat_lower_pub_inkeeper`)<br>Sold by innkeeper at Rattay (`rat_outskirt_pub_inkeeper`)<br>Sold by innkeeper at Sassau (`sas_shop_innkeeper1`)<br>Sold by innkeeper at Sassau (`saso_innkeeper1`)<br>Sold by innkeeper at Talmberg (`tal_inkeeperShop`)<br>Sold by innkeeper at Uzhitz (`aus_innkeeper`)
 Potion | `f1309a89-045f-44ae-a4d9-c997b892a162` | Artemisia potion | `10.0` | `4.0` | `0.0` | `40.0` | `0.0` | `40.0` | `0.5` | Inventory: `pub_drinks_supply`<br>Sold by apothecary Konyash at Rattay (`rat_konyas_shop`)<br>Sold by apothecary at Ledetchko (`Led_herbalist`)<br>Sold by apothecary at Neuhof (`neu_herbalist`)<br>Sold by apothecary at Pribislavitz (`prib_herbalistShop`)<br>Sold by apothecary at Samopesh (`sam_herbalistShop`)
 Potion | `c40dc516-9886-4245-8a8b-2cbb16da918d` | Cockerel potion | `10.0` | `0.0` | `20.0` | `30.0` | `0.0` | `30.0` | `0.5` | Sold by apothecary Konyash at Rattay (`rat_konyas_shop`)
@@ -103,10 +103,10 @@ Food | `52afd6fa-9377-457c-83a2-b5b39321a4dc` | Beer | `7.0` | `0.0` | `-2.0` | 
 Food | `ddb0fc96-be22-42d8-ba8c-ff00b68c0481` | Coffee | `1.0` | `0.0` | `10.0` | `0.0` | `0.0` | `0.1` | `2.2` | 
 Food | `0cb47176-06c5-42a9-8d70-969e917eb999` | Drinking water | `0.5` | `1.0` | `1.0` | `0.0` | `0.0` | `0.1` | `1.0` | Inventory: `monastery_bread_cheese_and_water`<br>Sold by general goods merchant at Rattay (`rat_general`)<br>Sold by general goods stallkeeper at Samopesh (`sam_general_stall`)<br>Sold by innkeeper at Inn in the Glade (`cross_pub_innkeeper`)<br>Sold by innkeeper at Ledetchko (`led_pub_innkeeper`)<br>Sold by innkeeper at Rattay (`rat_lower_pub_inkeeper`)<br>Sold by innkeeper at Rattay (`rat_outskirt_pub_inkeeper`)<br>Sold by innkeeper at Sassau (`sas_shop_innkeeper1`)<br>Sold by innkeeper at Sassau (`saso_innkeeper1`)<br>Sold by innkeeper at Talmberg (`tal_inkeeperShop`)<br>Sold by innkeeper at Uzhitz (`aus_innkeeper`)<br>Sold by trader at Skalitz (`ska_shop3`)
 
-## Fruit
+## Food type: Fruit
 
 Category | UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (days) | Price | Weight | Locations
-:--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
+:--- | :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
 Food | `1afb192c-f3d9-4ac2-a261-623d56d70b7e` | Dried mushrooms | `14.0` | `3.0` | `1.0` | `0.0` | `0.0` | `1.5` | `0.3` | Inventory: `q_escape_from_Vranik_1`<br>Inventory: `q_hon_ptacek_luk_a_sipy`<br>Sold by general goods merchant at Rattay (`rat_general`)<br>Sold by general goods stallkeeper at Samopesh (`sam_general_stall`)<br>Sold by trader at Skalitz (`ska_shop3`)
 Food | `bc16f9ec-a4c9-4d4e-9f6a-35ffcad7085e` | Dried fruit | `6.0` | `4.0` | `2.0` | `0.0` | `0.0` | `1.0` | `0.2` | Inventory: `q_escape_from_Vranik_1`<br>Inventory: `q_hon_ptacek_luk_a_sipy`<br>Sold by general goods merchant at Rattay (`rat_general`)<br>Sold by general goods stallkeeper at Samopesh (`sam_general_stall`)<br>Sold by trader at Skalitz (`ska_shop3`)
 Food | `1c2da556-488b-4a86-b22a-c42acb299938` | Watermelon | `3.0` | `3.0` | `1.0` | `0.0` | `72.0` | `1.0` | `2.2` | Sold by trader at Skalitz (`ska_shop4`)
@@ -116,10 +116,10 @@ Food | `295c54f8-76a3-42fa-8fe1-8f1ecb63576b` | Cooked apple | `3.0` | `2.0` | `
 Food | `2264f217-590e-4c0f-a4c6-f50c6532b9f6` | Apple | `2.0` | `2.0` | `0.0` | `0.0` | `120.0` | `0.4` | `0.3` | Inventory: `a_antiqueHooker_money`<br>Inventory: `a_vagabund_merchant`<br>Inventory: `a_vagabund_pazdera_torch`<br>Inventory: `a_vagabund_pazdera`<br>Inventory: `mrh_armyCamp_chest1_torch`<br>Inventory: `mrh_armyCamp_chest1`<br>Inventory: `perception`<br>Inventory: `player_alpha`<br>Inventory: `poi_talmberk_north_feeder1`<br>Inventory: `poi_talmberk_north_hole1`<br>Inventory: `poi_talmberk_north_sack4`<br>Inventory: `sackOfApples_01`<br>Inventory: `ultimate_hangoverSpot`<br>Sold by blacksmith at Rattay (`Rateje_forge01`)<br>Sold by general goods merchant at Rattay (`rat_general`)<br>Sold by general goods stallkeeper at Samopesh (`sam_general_stall`)<br>Sold by trader at Skalitz (`ska_shop3`)<br>Sold by trader at Skalitz (`ska_shop4`)
 Food | `22eb16a0-1175-4e2e-a951-33d362e288fb` | Crystal meth | `0.0` | `0.0` | `250.0` | `0.0` | `0.0` | `100.0` | `0.2` | 
 
-## Meat
+## Food type: Meat
 
 Category | UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (days) | Price | Weight | Locations
-:--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
+:--- | :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
 Food | `29a4f58e-6e00-4f9c-9273-1a76e0eccff0` | Smoked sausage | `27.0` | `0.0` | `-7.0` | `0.0` | `120.0` | `2.4` | `0.6` | Sold by bartender at Samopesh (`sam_bartender`)<br>Sold by butcher at Ledetchko (`led_butcher`)<br>Sold by innkeeper at Inn in the Glade (`cross_pub_innkeeper`)<br>Sold by innkeeper at Ledetchko (`led_pub_innkeeper`)<br>Sold by innkeeper at Rattay (`rat_lower_pub_inkeeper`)<br>Sold by innkeeper at Rattay (`rat_outskirt_pub_inkeeper`)<br>Sold by innkeeper at Sassau (`sas_shop_innkeeper1`)<br>Sold by innkeeper at Sassau (`saso_innkeeper1`)<br>Sold by innkeeper at Talmberg (`tal_inkeeperShop`)<br>Sold by innkeeper at Uzhitz (`aus_innkeeper`)<br>Sold by trader at Sassau (`sas_shop1`)
 Food | `c888acac-26ef-4f4a-be33-0b8bd82e7500` | Roast duck | `26.0` | `0.0` | `-6.0` | `0.0` | `48.0` | `15.0` | `1.0` | Sold by bartender at Samopesh (`sam_bartender`)<br>Sold by innkeeper at Inn in the Glade (`cross_pub_innkeeper`)<br>Sold by innkeeper at Ledetchko (`led_pub_innkeeper`)<br>Sold by innkeeper at Rattay (`rat_lower_pub_inkeeper`)<br>Sold by innkeeper at Rattay (`rat_outskirt_pub_inkeeper`)<br>Sold by innkeeper at Sassau (`sas_shop_innkeeper1`)<br>Sold by innkeeper at Sassau (`saso_innkeeper1`)<br>Sold by innkeeper at Talmberg (`tal_inkeeperShop`)<br>Sold by innkeeper at Uzhitz (`aus_innkeeper`)
 Food | `b8f8953c-5668-4e6c-9d8c-843d85ec83ee` | Cooked piece of meat | `24.0` | `0.0` | `-4.0` | `0.0` | `48.0` | `6.8` | `1.0` | 
@@ -159,29 +159,29 @@ Food | `f2e16499-8a27-4acc-a4af-f29e00300507` | Trout | `5.0` | `0.0` | `0.0` | 
 Food | `6f1d0e9e-d532-4476-af7a-e24ea01da040` | Hare meat | `5.0` | `0.0` | `-6.0` | `0.0` | `24.0` | `5.8` | `0.2` | Inventory: `hare`<br>Inventory: `poi_talmberk_north_hole1`<br>Inventory: `poi_talmberk_north_sack1_hunter`<br>Inventory: `poi_talmberk_north_sack3`<br>Inventory: `tal_innkeeper_chest`<br>Sold by butcher at Ledetchko (`led_butcher`)<br>Sold by general goods merchant at Rattay (`rat_general`)<br>Sold by general goods stallkeeper at Samopesh (`sam_general_stall`)<br>Sold by trader at Skalitz (`ska_shop3`)
 Food | `ff25cae9-7182-4d55-bbb0-0706404e5b69` | Dog meat | `5.0` | `0.0` | `-6.0` | `0.0` | `24.0` | `0.2` | `0.2` | Inventory: `dog`
 
-## Mushroom
+## Food type: Mushroom
 
 Category | UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (days) | Price | Weight | Locations
-:--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
+:--- | :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
 Food | `239ea469-3237-48d8-af90-da7cdf4140dc` | Cooked Lepiota | `2.0` | `0.0` | `1.0` | `0.0` | `48.0` | `0.5` | `0.2` | 
 Food | `81358847-cc24-4036-aa0f-99f180cd4ecc` | Cooked boletus | `2.0` | `0.0` | `0.5` | `0.0` | `48.0` | `1.5` | `0.2` | 
 Food | `c27e73bd-05db-42c5-963e-09c42395160a` | Lepiota | `2.0` | `0.0` | `0.0` | `0.0` | `24.0` | `0.5` | `0.2` | Sold by trader at Skalitz (`ska_shop4`)
 Food | `4dab452b-7f35-4cd9-942f-f59fd14c83fe` | Boletus edulis | `1.0` | `0.0` | `0.0` | `0.0` | `24.0` | `0.4` | `0.2` | Sold by fisherman at Talmberg (`tal_fishFarmerShop`)<br>Sold by general goods merchant at Rattay (`rat_general`)<br>Sold by general goods stallkeeper at Samopesh (`sam_general_stall`)<br>Sold by trader at Skalitz (`ska_shop3`)<br>Sold by trader at Skalitz (`ska_shop4`)
 
-## Pastry
+## Food type: Pastry
 
 Category | UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (days) | Price | Weight | Locations
-:--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
+:--- | :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
 Food | `86e4ff24-88db-4024-abe6-46545fa0fbd1` | Bread | `17.0` | `0.0` | `2.0` | `0.0` | `96.0` | `2.0` | `0.6` | Inventory: `a_antiqueHooker_knife`<br>Inventory: `monastery_bread_cheese_and_water`<br>Inventory: `poi_talmberk_north_garbage1`<br>Inventory: `sam_pub_homeChest`<br>Inventory: `stash_bread`<br>Sold by baker at Rattay (`Rataje_bakery`)<br>Sold by bartender at Samopesh (`sam_bartender`)<br>Sold by general goods merchant at Rattay (`rat_general`)<br>Sold by general goods stallkeeper at Samopesh (`sam_general_stall`)<br>Sold by innkeeper at Inn in the Glade (`cross_pub_innkeeper`)<br>Sold by innkeeper at Ledetchko (`led_pub_innkeeper`)<br>Sold by innkeeper at Rattay (`rat_lower_pub_inkeeper`)<br>Sold by innkeeper at Rattay (`rat_outskirt_pub_inkeeper`)<br>Sold by innkeeper at Sassau (`sas_shop_innkeeper1`)<br>Sold by innkeeper at Sassau (`saso_innkeeper1`)<br>Sold by innkeeper at Talmberg (`tal_inkeeperShop`)<br>Sold by innkeeper at Uzhitz (`aus_innkeeper`)<br>Sold by stallkeeper at Rattay (`rat_stall1`)<br>Sold by trader at Skalitz (`ska_shop3`)
 Food | `b3e363cf-8dde-4733-89a9-c468d5580d2e` | Sweet pancake | `9.0` | `0.0` | `4.0` | `0.0` | `96.0` | `1.0` | `0.2` | Inventory: `stash_bun`<br>Sold by baker at Rattay (`Rataje_bakery`)<br>Sold by stallkeeper at Rattay (`rat_stall1`)
 Food | `e1c06864-38e2-4bb8-a5c2-dcc52eee1c44` | Pastry | `8.0` | `0.0` | `0.0` | `0.0` | `96.0` | `0.2` | `0.2` | 
 Food | `ca873759-2d0d-4f2f-ba05-49b6c1872a9e` | Bread roll | `7.0` | `0.0` | `1.0` | `0.0` | `96.0` | `1.0` | `0.2` | Inventory: `monastery_bread_cheese_and_water`<br>Sold by baker at Rattay (`Rataje_bakery`)<br>Sold by bartender at Samopesh (`sam_bartender`)<br>Sold by general goods merchant at Rattay (`rat_general`)<br>Sold by general goods stallkeeper at Samopesh (`sam_general_stall`)<br>Sold by innkeeper at Inn in the Glade (`cross_pub_innkeeper`)<br>Sold by innkeeper at Ledetchko (`led_pub_innkeeper`)<br>Sold by innkeeper at Rattay (`rat_lower_pub_inkeeper`)<br>Sold by innkeeper at Rattay (`rat_outskirt_pub_inkeeper`)<br>Sold by innkeeper at Sassau (`sas_shop_innkeeper1`)<br>Sold by innkeeper at Sassau (`saso_innkeeper1`)<br>Sold by innkeeper at Talmberg (`tal_inkeeperShop`)<br>Sold by innkeeper at Uzhitz (`aus_innkeeper`)<br>Sold by stallkeeper at Rattay (`rat_stall1`)<br>Sold by trader at Skalitz (`ska_shop3`)
 Food | `c352d8ae-4021-4f9b-b49c-b1f087f2cd2c` | Pretzel | `6.0` | `0.0` | `1.0` | `0.0` | `96.0` | `1.5` | `0.1` | Sold by baker at Rattay (`Rataje_bakery`)<br>Sold by bartender at Samopesh (`sam_bartender`)<br>Sold by general goods merchant at Rattay (`rat_general`)<br>Sold by general goods stallkeeper at Samopesh (`sam_general_stall`)<br>Sold by innkeeper at Inn in the Glade (`cross_pub_innkeeper`)<br>Sold by innkeeper at Ledetchko (`led_pub_innkeeper`)<br>Sold by innkeeper at Rattay (`rat_lower_pub_inkeeper`)<br>Sold by innkeeper at Rattay (`rat_outskirt_pub_inkeeper`)<br>Sold by innkeeper at Sassau (`sas_shop_innkeeper1`)<br>Sold by innkeeper at Sassau (`saso_innkeeper1`)<br>Sold by innkeeper at Talmberg (`tal_inkeeperShop`)<br>Sold by innkeeper at Uzhitz (`aus_innkeeper`)<br>Sold by stallkeeper at Rattay (`rat_stall1`)<br>Sold by trader at Skalitz (`ska_shop3`)
 
-## Vegetable
+## Food type: Vegetable
 
 Category | UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (days) | Price | Weight | Locations
-:--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
+:--- | :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
 Food | `5585da96-12c9-478d-a1a2-d5f206d9fe72` | Boiled cabbage | `20.0` | `2.0` | `-2.0` | `0.0` | `48.0` | `2.0` | `1.8` | 
 Food | `8d6964b1-b645-4aa1-adcc-db22646f3722` | Cabbage | `16.0` | `1.0` | `0.0` | `0.0` | `96.0` | `1.0` | `1.4` | Inventory: `poi_talmberk_north_feeder1`<br>Inventory: `poi_talmberk_north_garbage1`<br>Inventory: `sam_pub_barrel`<br>Inventory: `stash_cabbage`<br>Inventory: `stash_carrotCabbage`<br>Sold by bartender at Samopesh (`sam_bartender`)<br>Sold by general goods merchant at Rattay (`rat_general`)<br>Sold by general goods stallkeeper at Samopesh (`sam_general_stall`)<br>Sold by trader at Skalitz (`ska_shop3`)<br>Sold by trader at Skalitz (`ska_shop4`)
 Food | `7ac72484-f37f-458d-857a-74cf4bba672e` | Boiled radish | `6.0` | `2.0` | `1.0` | `0.0` | `48.0` | `1.5` | `0.7` | 
