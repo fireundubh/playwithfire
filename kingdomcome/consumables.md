@@ -1,8 +1,10 @@
-<!-- TITLE: All Consumables -->
+<!-- TITLE: Consumables -->
+
+[&larr; Kingdom Come](/kingdomcome)
 
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
-# All Consumables
+# Consumables
 ## Uncategorized
 
 UUID | Localized Name | Nourishment | Health | Energy | Alcohol | Durability (days) | Price | Weight | Locations
