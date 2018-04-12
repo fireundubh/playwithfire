@@ -92,7 +92,7 @@ Manifest ID | `7652858052225644863` | 1.3 | March 9, 2018 – 15:23:15 UTC
 Manifest ID | `4042719886608370500` | 1.2.5 | February 20, 2018 – 16:07:25 UTC
 Manifest ID | `3337151599264696796` | 1.2.2? | February 15, 2018 – 09:05:12 UTC
 Manifest ID | `8998644657350293708` | 1.2.1? | February 14, 2018 – 12:37:09 UTC
-Manifest ID | `4430868609853567107` | 1.2 | February 13, 2018 – 19:09:01 UTC
+Manifest ID | `4430868609853567107` | 1.2 (Chinese localization) | February 13, 2018 – 19:09:01 UTC
 Manifest ID | `4903570955311779730` | 1.1 | February 13, 2018 – 08:01:41 UTC
 
 ## Other Depots and Manifests
