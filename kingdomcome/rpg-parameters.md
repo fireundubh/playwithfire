@@ -112,6 +112,7 @@ CarriedBodyWeightCoef | 0.250000000 | 0.250000000 |  | how much of the carried b
 CarriedCarriedWeightCoef | 0.500000000 | 0.500000000 |  | how much of the carried weight of the carried NPC is added to the carried weight of the carrier
 CharismaDiffToSkillCheckResult | 0.300000000 | 0.300000000 |  | > 0; scaled charisma diff for result = -1/1
 CharismaMulOnExtremeExhaustion | 0.750000000 | 0.750000000 |  | Player will have this charisma multiplied by this value when he has exhaust equal to 0. Charisma will not be changed when exhaust is 50. Linear interpolation on multiplier is applied when exhaust is between 0 and 50;
+CharismaMulOnExtremeExhaustionInterpolation | | Removed?
 ClassCourageMoraleWeight | 0.000000000 | 0.000000000 |  | Weight of soul class courage affecting morale
 ClothDirtyingUpdatePeriod | 50.000000000 | 50.000000000 |  | how often (in meters walked) do we add dirt to clothing (both for player and NPCs)
 CollisionVelocityDeltaToDmgR | 0.250000000 | 0.250000000 |  | 
@@ -273,7 +274,9 @@ HunterXPKill | 15.000000000 | 15.000000000 |  | Hunting XP gain after a kill, mu
 HunterXPLoot | 10.000000000 | 10.000000000 |  | Hunting XP gain after a loot, multiplied by the game db coef and level
 ImmortalHealthMin | 1.000000000 | 1.000000000 |  | Minimum health for immortal souls
 ImprovedSleepMultiplier | 2.000000000 | 2.000000000 |  | How much better better (Rest regeneration speed) is SleepImproved than Sleep buff. This buff is used for reading when player has perk InTheFlow.
+ImprovedSleepMultiplierSurvival | | Removed?
 InactiveTimeToDestroyOversleep | 8.000000000 | 8.000000000 |  | how long to let inactive oversleep buff survive (in game seconds) (we have this threshold so that the buff will not be destroyed right after being created in SkipTime class)
+InactiveTimeToDestroyOversleepCreated | | Removed?
 InjuringFallHeight | 2.500000000 | 2.500000000 |  | falling height above which health damage is taken at agility 0
 InjuryBleedingInterval | 6.000000000 | 6.000000000 |  | bleeding interval, the time required to lose 1HP
 InjuryHighThreshold | 0.800000000 | 0.800000000 |  | limb is bleeding if above this threshold
@@ -601,13 +604,3 @@ VitalityXPLevelDiff | 30.000000000 | 30.000000000 |  |
 WeakBlockStamCoef | 2.000000000 | 2.000000000 |  | 
 WeaponDefenseToAttackingWeaponStatus | 0.010000000 | 0.010000000 |  | how opponent's defense value damages my weapon - hit to weapon/block
 WeaponStatusToAttackCoef | 0.200000000 | 0.500000000 | Increased | weapon health to status multiplicative coef
-
-### Defunct Parameters
-
-These parameters appear to have been removed.
-
-Parameter | Default Value | Description
---- | --- | ---
-CharismaMulOnExtremeExhaustionInterpolation | | Removed?
-ImprovedSleepMultiplierSurvival | | Removed?
-InactiveTimeToDestroyOversleepCreated | | Removed?
