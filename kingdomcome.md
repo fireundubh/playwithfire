@@ -45,9 +45,9 @@ Section | Description | Edit Status
 
 Section | Description
 :--- | :---
+[All Consumables](kingdomcome/consumables) | A database of all consumables, including locations
 [All Equipment](kingdomcome/equipment) | A database of all equipment, including locations
 [Best Equipment](kingdomcome/best-equipment) | A database of best-in-slot armor and weapons, including locations
-[Food](kingdomcome/food) | A database of all food and consumables, including locations
 
 ## Tools
 
