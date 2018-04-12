@@ -75,7 +75,7 @@ Manifest ID | `2336283802842258594` | 1.3.3 | March 14, 2018 – 12:05:18 UTC
 Manifest ID | `5466979519765255293` | 1.3.2 | March 10, 2018 – 17:01:41 UTC
 Manifest ID | `6648306801271692541` | 1.3.1 | March 9, 2018 – 18:02:55 UTC
 Manifest ID | `5922355296132692872` | 1.3 | March 9, 2018 – 15:23:15 UTC
-Manifest ID | `189591112647295182`| 1.2.5 (likely game + OST) | February 21, 2018 – 16:55:57 UTC
+Manifest ID | `189591112647295182`| 1.2.5 Hotfix | February 21, 2018 – 16:55:57 UTC
 Manifest ID | `5015448431446448432` | 1.2.5 | February 20, 2018 – 16:07:25 UTC
 Manifest ID | `7728356487649391633` | 1.2 (Chinese localization) | February 13, 2018 – 19:09:01 UTC
 Manifest ID | `1574197374724500814` | 1.1 | February 13, 2018 – 08:01:41 UTC
