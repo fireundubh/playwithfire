@@ -35,7 +35,7 @@ Abbr | Name | Description
 
 ## Derived Stats
 
-> These stats are derived from other stats, states, skills, params, items or table values. Some derived stats have constant base value (often 0), the purpose of these is to be modified by buffs.
+> These stats are derived from other stats, states, skills, params, items, or table values. Some derived stats have constant base values. The purpose of these is to be modified by buffs.
 
 Abbr | Name | Description | Base Value
 :--- | :--- | :--- | :---
