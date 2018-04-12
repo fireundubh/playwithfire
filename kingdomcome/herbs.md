@@ -1,8 +1,10 @@
-<!-- TITLE: All Herbs -->
+<!-- TITLE: Herbs -->
+
+[&larr; Kingdom Come](/kingdomcome)
 
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
-# All Herbs
+# Herbs
 ## Table
 
 UUID | Localized Name | Latin Name | Poisonous | Price | Weight | Elements | Used Recipes | Locations
