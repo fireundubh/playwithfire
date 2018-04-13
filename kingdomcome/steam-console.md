@@ -35,7 +35,7 @@ To download the v1.4.2 binaries:
 download_depot 379430 379433 2984004457424079313
 ```
 
-To download only the v1.4.2 game assets that are different from v1.3.4:
+To download only the v1.4.2 game assets that have changed since v1.3.4:
 
 ```
 download_depot 379430 379432 1956773116114829879 5914698958093409181
