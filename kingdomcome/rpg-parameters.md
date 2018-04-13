@@ -5,7 +5,7 @@
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
 # RPG Parameters
-**Data Quality Note:** The <font color="red">following</font> descriptions were dumped directly from the game. The parameter names are correct, but the descriptions contain typos and misspellings. They will be cleaned up later.
+**Data Quality Note:** The following descriptions were dumped directly from the game. The parameter names are correct, but the descriptions contain typos and misspellings. They will be cleaned up later.
 
 ## Table
 
