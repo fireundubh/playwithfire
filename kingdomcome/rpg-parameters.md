@@ -351,7 +351,7 @@ LockPickingAdequateTolerance | nil | nil | <font color="blue">0.17</font> | lock
 LockPickingAppropriateTolerance | 0.045 | 0.045 | 0.045 | the lock is considered too hard to pick, if the tolerance is smaller than this
 LockPickingCursorShakeRange | 0.08 | 0.08 | 0.08 | how much does cursor shake during lock picking (maximum/base value)
 LockPickingCursorShakeSpeed | 30.0 | 30.0 | 30.0 | how fast does cursor shake during lock picking
-LockPickingFailRelativeXPMulCoef | 0.11563000 | 0.11563000 | 0.11563000 | multiplicative constant to derive XP reward relative to the success
+LockPickingFailRelativeXPMulCoef | 0.11563 | 0.11563 | 0.11563 | multiplicative constant to derive XP reward relative to the success
 LockpickingFailSoundIntensity | 0.5 | 0.5 | 0.5 | one-shot intensity relative to the database
 LockpickingLockpickBreakChance | 1.0 | 1.0 | 1.0 | base lockpick break chance
 LockpickingRelDistanceToSoundIntensity | 0.5 | 0.5 | 0.5 | how relative distance influences sound
