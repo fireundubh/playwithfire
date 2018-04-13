@@ -182,7 +182,7 @@ CombatHitImmortalUnconsciousDepth | 120.000000000 |  | 120.000000000 |  | 120.00
 CombatHitUnconsciousDepth | 60.000000000 |  | 60.000000000 |  | 60.000000000 | depth after a combat hit
 CombatMoveApproachHysteresis | 1.500000000 |  | 1.500000000 |  | 1.500000000 | 
 CombatMoveApproachSprintMinStamina | 1.000000000 |  | 1.000000000 |  | 1.000000000 | do not allow sprint during the approach
-ControllerLockPickingAppropriateTolerance | nil | Added | 0.060000000 | Decreased | 0.045000000 | the lock is considered too hard to pick, if the tolerance is smaller than this
+ControllerLockPickingAppropriateTolerance | nil | Added | 0.060000000 | Decreased | <font color="red">0.045000000</font> | the lock is considered too hard to pick, if the tolerance is smaller than this
 ControllerLockPickingToleranceACoef | nil | Added | 0.450000000 |  | 0.450000000 | 
 ControllerLockPickingToleranceKCoef | nil | Added | 0.030000000 | Increased | 0.070000000 | 
 ControllerLockPickingToleranceMCoef | nil | Added | 0.687000000 |  | 0.687000000 | 
@@ -346,11 +346,11 @@ MaxSlashBuffApplyChance | 1.500000000 |  | 1.500000000 |  | 1.500000000 | chance
 MaxSmashBuffApplyChance | 0.700000000 |  | 0.700000000 |  | 0.700000000 | chance to apply buff on smash when giving max hp damage
 MaxSpecialPerfectBlockSlotModifier | 0.600000000 |  | 0.600000000 |  | 0.600000000 | modifier of SPB slot window - determined as (t_hit - t_pbslot) from attack x this value.
 MaxStabBuffApplyChance | 2.000000000 |  | 2.000000000 |  | 2.000000000 | Chance to apply buff on stab when giving maximum health damage
-MaxStatToAttackMult | 1.200000000 | Decreased | 1.100000000 |  | 1.100000000 | Maximal relative attack multiplier (for a high stat)
+MaxStatToAttackMult | 1.200000000 | Decreased | <font color="red">1.100000000</font> |  | 1.100000000 | Maximal relative attack multiplier (for a high stat)
 MaxStatToAttackStaminaCostMult | 2.000000000 |  | 2.000000000 |  | 2.000000000 | Maximum Stamina cost multiplier for a low stat
 MaxStatToAttackStaminaCostStatDiff | 5.000000000 |  | 5.000000000 |  | 5.000000000 | stat difference for max/min cost multiplier
 MaxStatToAttackStatDiff | 5.000000000 |  | 5.000000000 |  | 5.000000000 | stat difference for max/min relative attack multiplier
-MaxStealthHitSoundMultiplier | 0.400000000 | Decreased | 0.220000000 |  | 0.220000000 | intensity multiplier for max stealth level
+MaxStealthHitSoundMultiplier | 0.400000000 | Decreased | <font color="red">0.220000000</font> |  | 0.220000000 | intensity multiplier for max stealth level
 MaxViewRadius | 100.000000000 |  | 100.000000000 |  | 100.000000000 | the maximal view radius a superman NPC will have
 MaxWeaponBuffCharge | 30.000000000 |  | 30.000000000 |  | 30.000000000 | max number of uses
 MaxWeatherSoundAttenuationCoef | 0.200000000 |  | 0.200000000 |  | 0.200000000 | 0 - allow weather conditions to mute the sounds<br>1 - no influence
@@ -370,7 +370,7 @@ MinPossibleSleepTime | 1.001000000 |  | 1.001000000 |  | 1.001000000 | player wi
 MinRelativeStaminaMax | 0.300000000 |  | 0.300000000 |  | 0.300000000 | Short-term Stamina maximum relative to long-term maximum
 MinStatToAttackMult | 0.500000000 |  | 0.500000000 |  | 0.500000000 | Minimal relative attack multiplier for a low stat
 MinStatToAttackStaminaCostMult | 0.800000000 |  | 0.800000000 |  | 0.800000000 | Minimum Stamina cost multiplier for a high stat
-MinStealthHitSoundMultiplier | 0.100000000 | Decreased | 0.060000000 |  | 0.060000000 | Intensity multiplier for minimum Stealth level
+MinStealthHitSoundMultiplier | 0.100000000 | Decreased | <font color="red">0.060000000</font> |  | 0.060000000 | Intensity multiplier for minimum Stealth level
 MinTrueRelationDistThreshold | 1.500000000 |  | 1.500000000 |  | 1.500000000 | Minimal distance required to see the true faction
 MinViewRadius | 2.500000000 |  | 2.500000000 |  | 2.500000000 | Minimal view radius an almost blind NPC will have, also threshold for instant detection
 MinWeaponBuffCharge | 15.000000000 |  | 15.000000000 |  | 15.000000000 | 
@@ -430,7 +430,7 @@ PickpocketingAngleChancePenalty | 0.002700000 |  | 0.002700000 |  | 0.002700000 
 PickpocketingComradePerkBonus | 0.300000000 |  | 0.300000000 |  | 0.300000000 | max bonus in (0-1) to pickpocketing for comrade perk
 PickpocketingDistance | nil | Added | 2.000000000 |  | 2.000000000 | Max pickpocketing range (not starting interactor range)
 PickpocketingFailXPMod | 0.300000000 |  | 0.300000000 |  | 0.300000000 | Pickpocketing XP modified on failure
-PickpocketingIndicatorSharpness | 0.200000000 | Decreased | 0.000000000 |  | 0.000000000 | 0 - precise slow change<br>1 - sharp change
+PickpocketingIndicatorSharpness | 0.200000000 | Decreased | <font color="red">0.000000000</font> |  | 0.000000000 | 0 - precise slow change<br>1 - sharp change
 PickpocketingItemUncoverTimePerWeight | 0.100000000 |  | 0.100000000 |  | 0.100000000 | time to uncover item per weight unit
 PickpocketingMaxSkillChargeSpeedRatio | 6.000000000 |  | 6.000000000 |  | 6.000000000 | charge speed ratio boost with best skill
 PickpocketingMaxSkillChargeTime | 30.000000000 |  | 30.000000000 |  | 30.000000000 | max charge time with best skill
@@ -448,7 +448,7 @@ PickpocketingTreasurePriceXP | 100.000000000 |  | 100.000000000 |  | 100.0000000
 PickpocketingXP | 15.000000000 |  | 15.000000000 |  | 15.000000000 | Pickpocketing XP for each pocket successfully picked
 PoorWeaponDefense | 1.000000000 |  | 1.000000000 |  | 1.000000000 | 
 ProjectileMaxBreakProb | 0.700000000 |  | 0.700000000 |  | 0.700000000 | probability of breaking an arrow when a rock-solid material is hit
-QuestMoneyRewardScaleConstant | 1.250000000 | Decreased | 1.200000000 |  | 1.200000000 | scale constnat for quest reward item amount
+QuestMoneyRewardScaleConstant | 1.250000000 | Decreased | <font color="red">1.200000000</font> |  | 1.200000000 | scale constnat for quest reward item amount
 RangedWpnCosThetaToAttackMin | 0.700000000 |  | 0.700000000 |  | 0.700000000 | cos(theta) linearly lowers the attack in the range [this,1]
 RangedWpnMinPowerCoef | 0.100000000 |  | 0.100000000 |  | 0.100000000 | the power coefficient for a really weak soul (the stats are far below requirements)
 RangedWpnMinStrCoef | 0.500000000 |  | 0.500000000 |  | 0.500000000 | if the curr/req strength ratio goes below this, the power is minimal
