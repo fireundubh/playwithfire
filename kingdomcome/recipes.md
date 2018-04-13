@@ -6,7 +6,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 # Recipes
 
-# Table: Sorted by V/W Ratio
+## Table: Sorted by V/W Ratio
 
 Localized Name | Base | Ingredients | Steps | Product | V/W Ratio | Value | Weight
 :--- | :--- | :--- | :--- | :--- | ---: | ---: | ---:
