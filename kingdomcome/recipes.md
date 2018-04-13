@@ -73,6 +73,11 @@ Witch potion | 1x Belladonna<br>1x Herb Paris<br>1x Marigold | 3x Witch potion |
 Cockerel | 1x Valerian<br>2x Mint | 3x Cockerel potion | `175.0` | `1.5` | `90.0` | `1.5` | `60.0`
 Digestive potion | 1x Mint<br>2x Chamomile | 3x Digestion potion | `170.0` | `1.4` | `90.0` | `1.5` | `60.0`
 Hair o' the Dog potion | 1x Mint<br>1x Sage<br>1x St. John's wort | 3x Hair o' the Dog potion | `150.0` | `2.6` | `75.0` | `1.5` | `50.0`
+Merhojed remedy | 1x Charcoal<br>1x Valerian<br>2x Thistle | 1x Aid for Merhojed | `-1.0` | `1.3` | `11.1` | `0.5` | `22.2`
+Merhojed remedy | 1x Wormwood<br>2x Valerian | 1x Aid for Merhojed | `-1.0` | `2.8` | `11.0` | `0.5` | `22.0`
 Moonshine | 1x Mint<br>1x Sage<br>1x St. John's wort | 3x Moonshine | `115.0` | `2.6` | `60.0` | `3.0` | `20.0`
+Dandelion syrup | 1x Honey<br>1x Mint<br>2x Dandelion | 3x Dandelion syrup | `-1.0` | `13.4` | `0.3` | `1.5` | `0.2`
+Dementia potion | 1x Sage<br>2x Thistle | 1x Mind enfeeblement potion | `-1.0` | `1.6` | `0.1` | `0.5` | `0.2`
+Drowsiness | 1x Chamomile<br>2x Poppy | 1x Tiredness potion | `-1.0` | `0.8` | `0.1` | `0.5` | `0.2`
 Lethean Water | 1x Belladonna<br>1x Fly agaric<br>2x Wormwood | 1x Lethean Water | `1000.0` | `8.7` | `0.0` | `0.5` | `0.0`
 
