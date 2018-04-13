@@ -184,9 +184,9 @@ CombatMoveApproachHysteresis | 1.500000000 |  | 1.500000000 |  | 1.500000000 |
 CombatMoveApproachSprintMinStamina | 1.000000000 |  | 1.000000000 |  | 1.000000000 | do not allow sprint during the approach
 ControllerLockPickingAppropriateTolerance | nil | Added | 0.060000000 | Decreased | <font color="red">0.045000000</font> | the lock is considered too hard to pick, if the tolerance is smaller than this
 ControllerLockPickingToleranceACoef | nil | Added | 0.450000000 |  | 0.450000000 | 
-ControllerLockPickingToleranceKCoef | nil | Added | 0.030000000 | Increased | 0.070000000 | 
+ControllerLockPickingToleranceKCoef | nil | Added | 0.030000000 | Increased | <font color="green">0.070000000</font> | 
 ControllerLockPickingToleranceMCoef | nil | Added | 0.687000000 |  | 0.687000000 | 
-ControllerLockPickingToleranceNCoef | nil | Added | 0.355000000 | Increased | 0.480000000 | 
+ControllerLockPickingToleranceNCoef | nil | Added | 0.355000000 | Increased | <font color="green">0.480000000</font> | 
 CorpseDisappearanceTimeDiscovered | 5.000000000 |  | 5.000000000 |  | 5.000000000 | time before a NPC corpse is hidden when discovered
 CorpseDisappearanceTimeUndiscovered | 25.000000000 |  | 25.000000000 |  | 25.000000000 | time before a NPC corpse is hidden when undiscovered
 CorpseDisapperanceMinDistanceFromPlayer | 100.000000000 |  | 100.000000000 |  | 100.000000000 | distance from player below which a corpse will never disappear
@@ -500,7 +500,7 @@ ShortTermNutritionDigestionSpeedMultiplier | 5.000000000 |  | 5.000000000 |  | 5
 SkillCap | 20.000000000 |  | 20.000000000 |  | 20.000000000 | max skill level, also effects of a general skill are maximal at this level
 SkillDiffToAttackSpeed | 0.100000000 |  | 0.100000000 |  | 0.100000000 | relative attack speed gain for one skill level difference
 SkillToDefense | 0.028570000 |  | 0.028570000 |  | 0.028570000 | 
-SkillToDmgConstA | 70.000000000 | Increased | 250.000000000 |  | 250.000000000 | 
+SkillToDmgConstA | 70.000000000 | Increased | <font color="green">250.000000000</font> |  | 250.000000000 | 
 SkillToFencingBase | 0.800000000 |  | 0.800000000 |  | 0.800000000 | 
 SkillToPerfectBlockPowTo | 0.500000000 |  | 0.500000000 |  | 0.500000000 | `slot = relativeSkill ^ this`
 SkillToRangedWpnAIRange | 0.500000000 |  | 0.500000000 |  | 0.500000000 | how the relative skill influences the weapon range for the AI
@@ -534,12 +534,12 @@ StamRegenFromVit | 1.000000000 |  | 1.000000000 |  | 1.000000000 | how our VIT s
 StamRegenMoveMod | 0.750000000 |  | 0.750000000 |  | 0.750000000 | relative stam regen speed during movement
 StamRegenRelativeDiff | 0.666667000 |  | 0.666667000 |  | 0.666667000 | maximal relative difference to the base speed on low/high stamina
 StarvationExtremeThreshold | 0.000000000 |  | 0.000000000 |  | 0.000000000 | when nutrition is below this value, extreme hunger starts
-StarvationHealthLossSpeed | 0.000578704 | Increased | 0.001000000 |  | 0.001000000 | by design the same speed as the digestion
+StarvationHealthLossSpeed | 0.000578704 | Increased | <font color="green">0.001000000</font> |  | 0.001000000 | by design the same speed as the digestion
 StarvationHugeThreshold | 25.000000000 |  | 25.000000000 |  | 25.000000000 | when nutrition is below this value, significant hunger starts
-StarvationPlayerEffectMaxMax | 60.000000000 |  | 60.000000000 | Increased | 75.000000000 | longest interval between effects for high hunger stat
-StarvationPlayerEffectMaxMin | 90.000000000 |  | 90.000000000 | Increased | 120.000000000 | longest interval between effects for low hunger stat
-StarvationPlayerEffectMinMax | 30.000000000 |  | 30.000000000 | Increased | 45.000000000 | shortest interval between effects for high hunger stat
-StarvationPlayerEffectMinMin | 60.000000000 |  | 60.000000000 | Increased | 90.000000000 | shortest interval between effects for low hunger stat
+StarvationPlayerEffectMaxMax | 60.000000000 |  | 60.000000000 | Increased | <font color="green">75.000000000</font> | longest interval between effects for high hunger stat
+StarvationPlayerEffectMaxMin | 90.000000000 |  | 90.000000000 | Increased | <font color="green">120.000000000</font> | longest interval between effects for low hunger stat
+StarvationPlayerEffectMinMax | 30.000000000 |  | 30.000000000 | Increased | <font color="green">45.000000000</font> | shortest interval between effects for high hunger stat
+StarvationPlayerEffectMinMin | 60.000000000 |  | 60.000000000 | Increased | <font color="green">90.000000000</font> | shortest interval between effects for low hunger stat
 StarvationThreshold | 50.000000000 |  | 50.000000000 |  | 50.000000000 | when nutrition is below this value, hunger starts
 StatCap | 20.000000000 |  | 20.000000000 |  | 20.000000000 | max stat level
 StatsToDodgePowTo | 0.500000000 |  | 0.500000000 |  | 0.500000000 | `slot = relativeStats ^ this`
