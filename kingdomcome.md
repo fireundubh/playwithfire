@@ -49,6 +49,7 @@ Section | Description
 [Equipment](kingdomcome/equipment) | A database of all equipment, including locations
 [Herbs](kingdomcome/herbs) | A table of all herbs, including used recipes and locations
 [Misc. Items](kingdomcome/misc-items) | A table of all miscellaneous items, including locations
+[Recipes](kingdomcome/recipes) | A table of all recipes, including locations
 [Best Equipment](kingdomcome/best-equipment) | A database of best-in-slot armor and weapons, including locations
 
 ## Tools
