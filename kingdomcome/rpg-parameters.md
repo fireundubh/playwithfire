@@ -29,7 +29,7 @@ AlchemyRecipeStepsTolerance | 2.000000000 |  | 2.000000000 |  | 2.000000000 | Ho
 AlchemyToleranceBase | 0.500000000 |  | 0.500000000 |  | 0.500000000 | Base brewing tolerance at level 1
 AlchemyTolerancePerLevel | 0.150000000 |  | 0.150000000 |  | 0.150000000 | Brewing tolerance gain per level
 AlchemyTrialEndErrorPerkTolerance | 1.000000000 |  | 1.000000000 |  | 1.000000000 | Additional tolerance gained with Trial and Error perk
-AlchemyXPPerAutocookBrewingRelative | nil | Added | 0.100000000 |  | 0.100000000 | how many XP you get when you auto-cook a potion, relative to manual brewing
+AlchemyXPPerAutocookBrewingRelative | nil | Added | <font color="blue">0.100000000</font> |  | 0.100000000 | how many XP you get when you auto-cook a potion, relative to manual brewing
 AlchemyXPPerSuccessfullBrewing | 40.000000000 |  | 40.000000000 |  | 40.000000000 | Alchemy XP gained when a potion is successfully brewed
 AlcoholBaseHangoverDuration | 14400.000000000 |  | 14400.000000000 |  | 14400.000000000 | Base max duration for hangover (after blackout) in world time
 AlcoholBlackoutDuration | 14400.000000000 |  | 14400.000000000 |  | 14400.000000000 | Blackout unconscious duration
@@ -100,7 +100,7 @@ BasketSuspiciencyNoDealThreashold | 10000000.000000000 |  | 10000000.000000000 |
 BasketSuspiciencyThreashold | 0.100000000 |  | 0.100000000 |  | 0.100000000 | Haggle reaction 1 threshold (haggle more difficult)
 BestVisVolume | 10000.000000000 |  | 10000.000000000 |  | 10000.000000000 | object volume for maximum recognition bonus
 BigZoneDistanceSlotMod | 0.800000000 |  | 0.800000000 |  | 0.800000000 | temporary solution, slot mod for distance > 1
-BlindViewRadiusFakeRelative | nil | Added | 0.800000000 |  | 0.800000000 | for blinded (mostly sleeping) NPC we have to calculate stealth XP somehow, so we calculate this fake radius
+BlindViewRadiusFakeRelative | nil | Added | <font color="blue">0.800000000</font> |  | 0.800000000 | for blinded (mostly sleeping) NPC we have to calculate stealth XP somehow, so we calculate this fake radius
 BowChargeDurationMax | 3.000000000 |  | 3.000000000 |  | 3.000000000 | maximum duration of bow charge animation
 BowChargeDurationMin | 1.350000000 |  | 1.350000000 |  | 1.350000000 | minimum duration of bow charge animation
 BowPowerToChargeDuration | 0.100000000 |  | 0.100000000 |  | 0.100000000 | nominal charge duration for bow with power = 1
@@ -182,17 +182,17 @@ CombatHitImmortalUnconsciousDepth | 120.000000000 |  | 120.000000000 |  | 120.00
 CombatHitUnconsciousDepth | 60.000000000 |  | 60.000000000 |  | 60.000000000 | depth after a combat hit
 CombatMoveApproachHysteresis | 1.500000000 |  | 1.500000000 |  | 1.500000000 | 
 CombatMoveApproachSprintMinStamina | 1.000000000 |  | 1.000000000 |  | 1.000000000 | do not allow sprint during the approach
-ControllerLockPickingAppropriateTolerance | nil | Added | 0.060000000 | Decreased | <font color="red">0.045000000</font> | the lock is considered too hard to pick, if the tolerance is smaller than this
-ControllerLockPickingToleranceACoef | nil | Added | 0.450000000 |  | 0.450000000 | 
-ControllerLockPickingToleranceKCoef | nil | Added | 0.030000000 | Increased | <font color="green">0.070000000</font> | 
-ControllerLockPickingToleranceMCoef | nil | Added | 0.687000000 |  | 0.687000000 | 
-ControllerLockPickingToleranceNCoef | nil | Added | 0.355000000 | Increased | <font color="green">0.480000000</font> | 
+ControllerLockPickingAppropriateTolerance | nil | Added | <font color="blue">0.060000000</font> | Decreased | <font color="red">0.045000000</font> | the lock is considered too hard to pick, if the tolerance is smaller than this
+ControllerLockPickingToleranceACoef | nil | Added | <font color="blue">0.450000000</font> |  | 0.450000000 | 
+ControllerLockPickingToleranceKCoef | nil | Added | <font color="blue">0.030000000</font> | Increased | <font color="green">0.070000000</font> | 
+ControllerLockPickingToleranceMCoef | nil | Added | <font color="blue">0.687000000</font> |  | 0.687000000 | 
+ControllerLockPickingToleranceNCoef | nil | Added | <font color="blue">0.355000000</font> | Increased | <font color="green">0.480000000</font> | 
 CorpseDisappearanceTimeDiscovered | 5.000000000 |  | 5.000000000 |  | 5.000000000 | time before a NPC corpse is hidden when discovered
 CorpseDisappearanceTimeUndiscovered | 25.000000000 |  | 25.000000000 |  | 25.000000000 | time before a NPC corpse is hidden when undiscovered
 CorpseDisapperanceMinDistanceFromPlayer | 100.000000000 |  | 100.000000000 |  | 100.000000000 | distance from player below which a corpse will never disappear
-DamageToArmorStatus | nil | Added | 1.000000000 |  | 1.000000000 | for the stopping layer
-DamageToArmorStatusHigherLayers | nil | Added | 2.000000000 |  | 2.000000000 | for layers above the stopping layer
-DamageToArmorStatusLowerLayers | nil | Added | 0.500000000 |  | 0.500000000 | for layers below the stopping layer
+DamageToArmorStatus | nil | Added | <font color="blue">1.000000000 |  | 1.000000000 | for the stopping layer
+DamageToArmorStatusHigherLayers | nil | Added | <font color="blue">2.000000000</font> |  | 2.000000000 | for layers above the stopping layer
+DamageToArmorStatusLowerLayers | nil | Added | <font color="blue">0.500000000</font> |  | 0.500000000 | for layers below the stopping layer
 DawnTime | 4.500000000 |  | 4.500000000 |  | 4.500000000 | Time when night ends, used by rpg (default 04:30)
 DefaultReadingQuality | 0.500000000 |  | 0.500000000 |  | 0.500000000 | Reading quality when doing nothing special (standing).
 DefaultRelationship | 0.500000000 |  | 0.500000000 |  | 0.500000000 | default value for the alied forces
@@ -303,7 +303,7 @@ LethalDmgR | 10.000000000 |  | 10.000000000 |  | 10.000000000 | DmgR that is kno
 LocalHeroInfamousReputationThreshold | 0.700000000 |  | 0.700000000 |  | 0.700000000 | above this rep local hero, under infamous
 LocationReputationHatedThreshold | 0.200000000 |  | 0.200000000 |  | 0.200000000 | reputation threshold below which a location will hate the player
 LocationReputationLovedThreshold | 0.800000000 |  | 0.800000000 |  | 0.800000000 | reputation threshold above which a location will love the player
-LockPickingAdequateTolerance | nil |  | nil | Added | 0.170000000 | locks on a similar level as the player have adequate tolerance
+LockPickingAdequateTolerance | nil |  | nil | Added | <font color="blue">0.170000000</font> | locks on a similar level as the player have adequate tolerance
 LockPickingAppropriateTolerance | 0.045000000 |  | 0.045000000 |  | 0.045000000 | the lock is considered too hard to pick, if the tolerance is smaller than this
 LockPickingCursorShakeRange | 0.080000000 |  | 0.080000000 |  | 0.080000000 | how much does cursor shake during lock picking (maximum/base value)
 LockPickingCursorShakeSpeed | 30.000000000 |  | 30.000000000 |  | 30.000000000 | how fast does cursor shake during lock picking
@@ -428,18 +428,18 @@ PicklockDmgSpeed | 10.000000000 |  | 10.000000000 |  | 10.000000000 | how fast i
 PicklockFatalRelativeDist | 5.000000000 |  | 5.000000000 |  | 5.000000000 | maximal relative distance, if futher the pick lock is destroyer
 PickpocketingAngleChancePenalty | 0.002700000 |  | 0.002700000 |  | 0.002700000 | penalty in (0-1) to chance pickpocketing for each angle from optimal possition exactly from behind victim (180 max)
 PickpocketingComradePerkBonus | 0.300000000 |  | 0.300000000 |  | 0.300000000 | max bonus in (0-1) to pickpocketing for comrade perk
-PickpocketingDistance | nil | Added | 2.000000000 |  | 2.000000000 | Max pickpocketing range (not starting interactor range)
+PickpocketingDistance | nil | Added | <font color="blue">2.000000000</font> |  | 2.000000000 | Max pickpocketing range (not starting interactor range)
 PickpocketingFailXPMod | 0.300000000 |  | 0.300000000 |  | 0.300000000 | Pickpocketing XP modified on failure
 PickpocketingIndicatorSharpness | 0.200000000 | Decreased | <font color="red">0.000000000</font> |  | 0.000000000 | 0 - precise slow change<br>1 - sharp change
 PickpocketingItemUncoverTimePerWeight | 0.100000000 |  | 0.100000000 |  | 0.100000000 | time to uncover item per weight unit
 PickpocketingMaxSkillChargeSpeedRatio | 6.000000000 |  | 6.000000000 |  | 6.000000000 | charge speed ratio boost with best skill
 PickpocketingMaxSkillChargeTime | 30.000000000 |  | 30.000000000 |  | 30.000000000 | max charge time with best skill
 PickpocketingMinChargeTime | 2.000000000 |  | 2.000000000 |  | 2.000000000 | min charge time needed
-PickpocketingMisstargetingTolerance | nil | Added | 2000.000000000 |  | 2000.000000000 | Time tolerance for temporarily mistargeting your victim
+PickpocketingMisstargetingTolerance | nil | Added | <font color="blue">2000.000000000</font> |  | 2000.000000000 | Time tolerance for temporarily mistargeting your victim
 PickpocketingNPCDrunkTimeChanceMod | 0.500000000 |  | 0.500000000 |  | 0.500000000 | Modifies TimeChancePenalty when drunk
 PickpocketingNPCHurtTimeChanceMod | 0.750000000 |  | 0.750000000 |  | 0.750000000 | Modifies TimeChancePenalty when hurt
 PickpocketingNPCSleepingTimeChanceMod | 0.500000000 |  | 0.500000000 |  | 0.500000000 | Modifies TimeChancePenalty when sleeping
-PickpocketingRandomChanceRollMinCap | nil | Added | 0.100000000 |  | 0.100000000 | Worst random rolls will always be capped to this minimum chance
+PickpocketingRandomChanceRollMinCap | nil | Added | <font color="blue">0.100000000</font> |  | 0.100000000 | Worst random rolls will always be capped to this minimum chance
 PickpocketingRobbedAngrinessChancePenalty | 0.050000000 |  | 0.050000000 |  | 0.050000000 | penalty in (0-1) to pickpocketing chance for each time victim was robbed before
 PickpocketingStealthXP | 12.000000000 |  | 12.000000000 |  | 12.000000000 | Stealth XP for each successful pickpocketing
 PickpocketingTimeChancePenaltyBest | 0.013300000 |  | 0.013300000 |  | 0.013300000 | penalty in pickpocketing chance in best case(s)
@@ -592,7 +592,7 @@ TrueRelationDistThresholdRel | 0.333333000 |  | 0.333333000 |  | 0.333333000 | d
 UnarmedAttackBase | 2.000000000 |  | 2.000000000 |  | 2.000000000 | attack value for attack with relative stam cost = 1
 UnarmedAttackReqStrBase | 2.000000000 |  | 2.000000000 |  | 2.000000000 | for attack with relative stam cost = 1
 UnarmedBlockDefense | 3.000000000 |  | 3.000000000 |  | 3.000000000 | defense value for unarmed block
-UnarmedHitArmorDamageCoef | nil | Added | 0.250000000 |  | 0.250000000 | relative to armed combat
+UnarmedHitArmorDamageCoef | nil | Added | <font color="blue">0.250000000</font> |  | 0.250000000 | relative to armed combat
 UnconsciousDepthFadeoutSpeedBase | 1.000000000 |  | 1.000000000 |  | 1.000000000 | how fast is the depth consumed
 UnconsciousTimeWhenTimeIsNotRunning | 8.000000000 |  | 8.000000000 |  | 8.000000000 | if world time is not running, skiptime can not be started when player is unconscious; screen will only fade for this long instead; this is slightly modified by some rpg stats
 VigourFull | 100.000000000 |  | 100.000000000 |  | 100.000000000 | Maximum vigour
