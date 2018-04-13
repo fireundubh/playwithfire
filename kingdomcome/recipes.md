@@ -9,7 +9,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 ## Table
 
 UUID | Localized Name | Base | Ingredients | Steps | Product at Max Yield | Locations
-:--- | :--- | :--- | :--- | :--- | :---
+:--- | :--- | :--- | :--- | :--- | :--- | :---
 `8b8f2de7-d10e-4ccd-8e97-39134ddd78ac` | Witch potion | Oleum | 1x Belladonna<br>1x Herb Paris<br>1x Marigold | 1. Prepare oil, a handful of marigold, one of belladonna and one of herb paris.<br>2. Boil the herb paris for one turn.<br>3. Grind the marigold<br>4. Add the marigold to the cauldron and boil for one more turn.<br>5. Grind the belladonna.<br>6. Add the belladonna to the cauldron, but do not boil any more. | 3x Witch potion | Inventory: `q_baby_v_lese_gertrudas_chest_recipe`
 `f65708b5-f7bb-4ee0-adc3-bddc426976f5` | Saviour Schnapps | Vinum | 1x Nettle<br>2x Belladonna | 1. Prepare wine, two handfuls of belladonna and one of nettle.<br>2. Boil the nettles for two turns.<br>3. Grind the belladonna .<br>4. Drop in the belladonna and boil for one more turn. | 3x Saviour Schnapps | 
 `99a4625d-816a-4d72-9859-098a5ba016ae` | Preserver | Oleum | 1x Mint<br>1x Nettle<br>1x St. John's wort | 1. Prepare oil, a handful of nettles, one of mint and one of St. John's wort.<br>2. Grind the mint.<br>3. Grind the nettles.<br>4. Drop the mint and nettles in the cauldron.<br>5. Boil for one turn.<br>6. Add the St. John's wort, but do not boil it any more.<br>8. Distil. | 3x Preserver | Sold by apothecary at Ledetchko (`Led_herbalist`)<br>Sold by apothecary at Neuhof (`neu_herbalist`)<br>Sold by apothecary at Pribislavitz (`prib_herbalistShop`)<br>Sold by apothecary at Samopesh (`sam_herbalistShop`)<br>Treasure map 23
