@@ -12,7 +12,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 * <font color="green">Green</font>: The parameter value was increased.
 * <font color="red">Red</font>: The parameter value was decreased.
 * <font color="blue">Blue</font>: The parameter was added.
-* <strike>Strikethrough</strike>: The parameter has been removed.
+* <strike>Strikethrough</strike>: The parameter has been removed, or the value is empty and nonzero.
 
 ## Table: Changes at a Glance
 
