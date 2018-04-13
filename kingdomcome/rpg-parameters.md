@@ -20,6 +20,7 @@ Parameter | v1.1&ndash;1.2.5 | v1.3&ndash;1.3.4 | v1.4&ndash;1.4.2 | Description
 :--- | ---: | ---: | ---: | :---
 AlchemyXPPerAutocookBrewingRelative | nil | <font color="blue">0.100000000</font> | 0.100000000 | how many XP you get when you auto-cook a potion, relative to manual brewing
 BlindViewRadiusFakeRelative | nil | <font color="blue">0.800000000</font> | 0.800000000 | for blinded (mostly sleeping) NPC we have to calculate stealth XP somehow, so we calculate this fake radius
+<strike>CharismaMulOnExtremeExhaustionInterpolation</strike> | nil | nil | nil | Possibly the original name of the `CharismaMulOnExtremeExhaustion` parameter
 ControllerLockPickingAppropriateTolerance | nil | <font color="blue">0.060000000</font> | <font color="red">0.045000000</font> | the lock is considered too hard to pick, if the tolerance is smaller than this
 ControllerLockPickingToleranceACoef | nil | <font color="blue">0.450000000</font> | 0.450000000 | 
 ControllerLockPickingToleranceKCoef | nil | <font color="blue">0.030000000</font> | <font color="green">0.070000000</font> | 
@@ -28,6 +29,8 @@ ControllerLockPickingToleranceNCoef | nil | <font color="blue">0.355000000</font
 DamageToArmorStatus | nil | <font color="blue">1.000000000 | 1.000000000 | for the stopping layer
 DamageToArmorStatusHigherLayers | nil | <font color="blue">2.000000000</font> | 2.000000000 | for layers above the stopping layer
 DamageToArmorStatusLowerLayers | nil | <font color="blue">0.500000000</font> | 0.500000000 | for layers below the stopping layer
+<strike>ImprovedSleepMultiplierSurvival</strike> | nil | nil | nil | Possibly the original name of the `ImprovedSleepMultiplier` parameter
+<strike>InactiveTimeToDestroyOversleepCreated</strike> | nil | nil | nil | Possibly the original name of the `InactiveTimeToDestroyOversleep` parameter
 LockPickingAdequateTolerance | nil | nil | <font color="blue">0.170000000</font> | locks on a similar level as the player have adequate tolerance
 MaxStatToAttackMult | 1.200000000 | <font color="red">1.100000000</font> | 1.100000000 | Maximal relative attack multiplier (for a high stat)
 MaxStealthHitSoundMultiplier | 0.400000000 | <font color="red">0.220000000</font> | 0.220000000 | intensity multiplier for max stealth level
@@ -46,6 +49,7 @@ StarvationPlayerEffectMaxMin | 90.000000000 | 90.000000000 | <font color="green"
 StarvationPlayerEffectMinMax | 30.000000000 | 30.000000000 | <font color="green">45.000000000</font> | shortest interval between effects for high hunger stat
 StarvationPlayerEffectMinMin | 60.000000000 | 60.000000000 | <font color="green">90.000000000</font> | shortest interval between effects for low hunger stat
 UnarmedHitArmorDamageCoef | nil | <font color="blue">0.250000000</font> | 0.250000000 | relative to armed combat
+
 
 ## Table: All Parameters
 
