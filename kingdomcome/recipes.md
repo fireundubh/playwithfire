@@ -8,7 +8,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 ## Table: Sorted by V/W Ratio
 
-Recipe Name | Base | Ingredients | Steps | Product at Max Yield | V/W Ratio | Value | Weight | Locations
+Recipe | Base | Ingredients | Steps | Product at Max Yield | V/W Ratio | Value | Weight | Locations
 :--- | :--- | :--- | :--- | :--- | ---: | ---: | ---: | :---
 Lazarus Potion<br>`1324d620-c5ad-4000-8dc5-3253e2d49a1d` | Aqua | 1x Valerian<br>2x Comfrey | 1. You will need water, two handfuls of comfrey one of valerian.<br>2. Boil the valerian for one turn.<br>3. Grind the comfrey.<br>4. Add the comfrey to the valerian and boil for one turn.<br>5. Distil. | 3x Lazarus potion | `220.0` | `330.0` | `1.5` | Quest reward: Money for Old Rope (`subchapter_294_name`)<br>Sold by apothecary Konyash at Rattay (`rat_konyas_shop`)<br>Treasure map 6
 Saviour Schnapps<br>`f65708b5-f7bb-4ee0-adc3-bddc426976f5` | Vinum | 1x Nettle<br>2x Belladonna | 1. Prepare wine, two handfuls of belladonna and one of nettle.<br>2. Boil the nettles for two turns.<br>3. Grind the belladonna .<br>4. Drop in the belladonna and boil for one more turn. | 3x Saviour Schnapps | `200.0` | `300.0` | `1.5` | 
