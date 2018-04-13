@@ -5,8 +5,11 @@
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
 # Recipes
+
+# Table: Sorted by V/W Ratio
+
 Localized Name | Base | Ingredients | Steps | Product | V/W Ratio | Value | Weight
---- | --- | --- | --- | --- | --- | --- | ---
+:--- | :--- | :--- | :--- | :--- | ---: | ---: | ---:
 Lazarus Potion | Aqua | 1x Valerian<br>2x Comfrey | 1. You will need water, two handfuls of comfrey one of valerian.<br>2. Boil the valerian for one turn.<br>3. Grind the comfrey.<br>4. Add the comfrey to the valerian and boil for one turn.<br>5. Distil. | 3x Lazarus potion | `220.0` | `330.0` | `1.5`
 Saviour Schnapps | Vinum | 1x Nettle<br>2x Belladonna | 1. Prepare wine, two handfuls of belladonna and one of nettle.<br>2. Boil the nettles for two turns.<br>3. Grind the belladonna .<br>4. Drop in the belladonna and boil for one more turn. | 3x Saviour Schnapps | `200.0` | `300.0` | `1.5`
 Bane potion | Vinum | 1x Fly agaric<br>1x Wormwood<br>2x Belladonna | 1. You will need wine, a handful of wormwood, two handfuls of belladonna and a fly agaric.<br>2. Boil the wormwood for two turns.<br>3. Leave the wormwood to cool.<br>4. Grind the belladonna.<br>5. Drop the belladonna in the cauldron, but do not boil!<br>6. Finally add the fly agaric.<br>7. Distil. | 3x Bane potion | `180.0` | `270.0` | `1.5`
