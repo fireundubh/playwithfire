@@ -15,27 +15,27 @@ The depot will likely download to: `C:\Program Files (x86)\Steam\steamapps\conte
 
 Once downloaded, you can move the depot anywhere.
 
-## Example
-
-Syntax:
+## Syntax
 
 ```
 download_depot <app_id> <depot_id> <manifest_id> [<delta_manifest_id>]
 ```
 
-To download the v1.4.2 game assets:
+## Examples
+
+Download the v1.4.2 game assets:
 
 ```
 download_depot 379430 379432 1956773116114829879
 ```
 
-To download the v1.4.2 binaries:
+Download the v1.4.2 binaries:
 
 ```
 download_depot 379430 379433 2984004457424079313
 ```
 
-To download only the v1.4.2 game assets that have changed since v1.3.4:
+Download only the v1.4.2 game assets that have changed since v1.3.4:
 
 ```
 download_depot 379430 379432 1956773116114829879 5914698958093409181
