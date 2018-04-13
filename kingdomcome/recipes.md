@@ -6,7 +6,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 # Recipes
 
-## Table
+## Table: All Recipes
 
 UUID | Localized Name | Base | Ingredients | Steps | Product at Max Yield | Locations
 :--- | :--- | :--- | :--- | :--- | :--- | :---
