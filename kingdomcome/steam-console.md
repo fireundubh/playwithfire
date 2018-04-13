@@ -20,19 +20,25 @@ Once downloaded, you can move the depot anywhere.
 Syntax:
 
 ```
-download_depot <app_id> <depot_id> <manifest_id>
+download_depot <app_id> <depot_id> <manifest_id> [<delta_manifest_id>]
 ```
 
-To download the v1.4.1 game assets:
+To download the v1.4.2 game assets:
 
 ```
-download_depot 379430 379432 3366038057672856335
+download_depot 379430 379432 1956773116114829879
 ```
 
-To download the v1.4.1 binaries:
+To download the v1.4.2 binaries:
 
 ```
-download_depot 379430 379433 1106887327694715381
+download_depot 379430 379433 2984004457424079313
+```
+
+To download only the v1.4.2 game assets that are different from v1.3.4:
+
+```
+download_depot 379430 379432 1956773116114829879 5914698958093409181
 ```
 
 ## Optional
