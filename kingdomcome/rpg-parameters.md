@@ -7,6 +7,13 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 # RPG Parameters
 **Data Quality Note:** The following descriptions were dumped directly from the game. The parameter names are correct, but the descriptions contain typos and misspellings. They will be cleaned up later.
 
+## Legend
+
+* <font color="green">Green</font>: The parameter value was increased.
+* <font color="green">Red</font>: The parameter value was decreased.
+* <font color="green">Blue</font>: The parameter was added.
+* <strike>Strikethrough</strike>: The parameter has been removed.
+
 ## Table
 
 Parameter | v1.1&ndash;1.2.5 | Change | v1.3&ndash;1.3.4 | Change | v1.4&ndash;1.4.2 | Description
