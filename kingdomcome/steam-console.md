@@ -21,7 +21,7 @@ Once downloaded, you can move the depot anywhere.
 download_depot <app_id> <depot_id> <manifest_id> [<delta_manifest_id>]
 ```
 
-## Examples
+### Examples
 
 Download the v1.4.2 game assets:
 
