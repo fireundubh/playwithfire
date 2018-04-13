@@ -14,7 +14,40 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 * <font color="blue">Blue</font>: The parameter was added.
 * <strike>Strikethrough</strike>: The parameter has been removed.
 
-## Table
+## Table: Changes at a Glance
+
+Parameter | v1.1&ndash;1.2.5 | v1.3&ndash;1.3.4 | v1.4&ndash;1.4.2 | Description
+:--- | ---: | ---: | ---: | :---
+AlchemyXPPerAutocookBrewingRelative | nil | <font color="blue">0.100000000</font> | 0.100000000 | how many XP you get when you auto-cook a potion, relative to manual brewing
+BlindViewRadiusFakeRelative | nil | <font color="blue">0.800000000</font> | 0.800000000 | for blinded (mostly sleeping) NPC we have to calculate stealth XP somehow, so we calculate this fake radius
+ControllerLockPickingAppropriateTolerance | nil | <font color="blue">0.060000000</font> | <font color="red">0.045000000</font> | the lock is considered too hard to pick, if the tolerance is smaller than this
+ControllerLockPickingToleranceACoef | nil | <font color="blue">0.450000000</font> | 0.450000000 | 
+ControllerLockPickingToleranceKCoef | nil | <font color="blue">0.030000000</font> | <font color="green">0.070000000</font> | 
+ControllerLockPickingToleranceMCoef | nil | <font color="blue">0.687000000</font> | 0.687000000 | 
+ControllerLockPickingToleranceNCoef | nil | <font color="blue">0.355000000</font> | <font color="green">0.480000000</font> | 
+DamageToArmorStatus | nil | <font color="blue">1.000000000 | 1.000000000 | for the stopping layer
+DamageToArmorStatusHigherLayers | nil | <font color="blue">2.000000000</font> | 2.000000000 | for layers above the stopping layer
+DamageToArmorStatusLowerLayers | nil | <font color="blue">0.500000000</font> | 0.500000000 | for layers below the stopping layer
+LockPickingAdequateTolerance | nil | nil | <font color="blue">0.170000000</font> | locks on a similar level as the player have adequate tolerance
+MaxStatToAttackMult | 1.200000000 | <font color="red">1.100000000</font> | 1.100000000 | Maximal relative attack multiplier (for a high stat)
+MaxStealthHitSoundMultiplier | 0.400000000 | <font color="red">0.220000000</font> | 0.220000000 | intensity multiplier for max stealth level
+MinStealthHitSoundMultiplier | 0.100000000 | <font color="red">0.060000000</font> | 0.060000000 | Intensity multiplier for minimum Stealth level
+PickpocketingDistance | nil | <font color="blue">2.000000000</font> | 2.000000000 | Max pickpocketing range (not starting interactor range)
+PickpocketingIndicatorSharpness | 0.200000000 | <font color="red">0.000000000</font> | 0.000000000 | 0 - precise slow change<br>1 - sharp change
+PickpocketingMisstargetingTolerance | nil | <font color="blue">2000.000000000</font> | 2000.000000000 | Time tolerance for temporarily mistargeting your victim
+PickpocketingRandomChanceRollMinCap | nil | <font color="blue">0.100000000</font> | 0.100000000 | Worst random rolls will always be capped to this minimum chance
+QuestMoneyRewardScaleConstant | 1.250000000 | <font color="red">1.200000000</font> | 1.200000000 | scale constnat for quest reward item amount
+<strike>ReadingRestEffectiveness</strike> | 0.300000000 | nil | nil | If this value is 0.3, reading will regen player as sleeping on bed with comfort 30%.
+<strike>ReadingRestUpperLimit</strike> | 1.000000000 | nil | nil | When sleeping, the rest can not exceed bed quality. When reading, the threshold is given by this value.
+SkillToDmgConstA | 70.000000000 | <font color="green">250.000000000</font> | 250.000000000 | 
+StarvationHealthLossSpeed | 0.000578704 | <font color="green">0.001000000</font> | 0.001000000 | by design the same speed as the digestion
+StarvationPlayerEffectMaxMax | 60.000000000 | 60.000000000 | <font color="green">75.000000000</font> | longest interval between effects for high hunger stat
+StarvationPlayerEffectMaxMin | 90.000000000 | 90.000000000 | <font color="green">120.000000000</font> | longest interval between effects for low hunger stat
+StarvationPlayerEffectMinMax | 30.000000000 | 30.000000000 | <font color="green">45.000000000</font> | shortest interval between effects for high hunger stat
+StarvationPlayerEffectMinMin | 60.000000000 | 60.000000000 | <font color="green">90.000000000</font> | shortest interval between effects for low hunger stat
+UnarmedHitArmorDamageCoef | nil | <font color="blue">0.250000000</font> | 0.250000000 | relative to armed combat
+
+## Table: All Parameters
 
 Parameter | v1.1&ndash;1.2.5 | v1.3&ndash;1.3.4 | v1.4&ndash;1.4.2 | Description
 :--- | ---: | ---: | ---: | :---
@@ -372,7 +405,7 @@ MinModVisibility | -2.000000000 | -2.000000000 | -2.000000000 | Final modified V
 MinMorale | 0.000000000 | 0.000000000 | 0.000000000 | Minimum derived stat value
 MinPedalCost | 1.000000000 | 1.000000000 | 1.000000000 | Pedaling Stamina cost (pressure 0)
 MinPerfectBlockSlot01 | 0.300000000 | 0.300000000 | 0.300000000 | the smallest Perfect Block slot for the lowest level
-MinPerkPoints | 5.000000000 | 5.000000000 | 5.000000000 | no leftovers if the number of perk points would be <= than this
+MinPerkPoints | 5.000000000 | 5.000000000 | 5.000000000 | no leftovers if the number of perk points would be &lt;= than this
 MinPossibleSleepTime | 1.001000000 | 1.001000000 | 1.001000000 | player will reject to lie into bed when he will not be able to sleep at least this long (due to bleeding/hunger/etc in hours)
 MinRelativeStaminaMax | 0.300000000 | 0.300000000 | 0.300000000 | Short-term Stamina maximum relative to long-term maximum
 MinStatToAttackMult | 0.500000000 | 0.500000000 | 0.500000000 | Minimal relative attack multiplier for a low stat
@@ -611,3 +644,4 @@ VitalityXPLevelDiff | 30.000000000 | 30.000000000 | 30.000000000 |
 WeakBlockStamCoef | 2.000000000 | 2.000000000 | 2.000000000 | 
 WeaponDefenseToAttackingWeaponStatus | 0.010000000 | 0.010000000 | 0.010000000 | how opponent's defense value damages my weapon - hit to weapon/block
 WeaponStatusToAttackCoef | 0.500000000 | 0.500000000 | 0.500000000 | weapon health to status multiplicative coef
+
