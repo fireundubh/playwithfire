@@ -70,7 +70,7 @@ Manifest ID | `1956773116114829879` | 1.4.2 | April 9, 2018 – 17:36:43 UTC |
 Manifest ID | `3366038057672856335` | 1.4.1 | March 30, 2018 – 16:01:30 UTC |
 Manifest ID | `5725479270789300781` | 1.4 (without HD textures) | March 29, 2018 – 23:16:26 UTC | 
 Manifest ID | `8087559557021397984` | 1.4 (with HD textures) | March 29, 2018 – 20:34:19 UTC |
-Manifest ID | `5914698958093409181` | 1.3.4 | March 23, 2018 – 18:52:42 UTC | 33.537 GB (77 files)
+Manifest ID | `5914698958093409181` | 1.3.4 | March 23, 2018 – 18:52:42 UTC | 33.537 GB (76 files)
 Manifest ID | `2336283802842258594` | 1.3.3 | March 14, 2018 – 12:05:18 UTC | 33.537 GB (77 files)
 Manifest ID | `5466979519765255293` | 1.3.2 | March 10, 2018 – 17:01:41 UTC | 33.629 GB (77 files)
 Manifest ID | `6648306801271692541` | 1.3.1 | March 9, 2018 – 18:02:55 UTC | 33.629 GB (77 files)
