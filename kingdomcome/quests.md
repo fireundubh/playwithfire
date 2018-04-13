@@ -34,6 +34,8 @@ activity | `ui_position_side` (ID: `49907775`) | `2. QUEST`<br>`--> 4. a`<br>`--
 
 ## Activity Giver Quests
 
+Quest Type | Quest Name | Quest Objectives
+--- | --- | ---
 activity_giver | `q_activityGivers` (ID: `100715427`) | `2. QUEST`<br>`--> 9. a_swordofsheba_swordsmith`<br>`--> 13. q_fightClub_rataje_machal`<br>`--> 133. q_package_completed`<br>`--> 147. a_currier_tal_brada`<br>`--> 151. a_landlord_cros_ondrej`<br>`--> 193. cond_chamberlain`<br>`--> 194. cond_butcher`<br>`--> 195. cond_alex`<br>`13. q_fightClub_rataje_machal`<br>`--> 99. q_fightClub_uzice_waitForStart`<br>`--> 96. q_fightClub_uzice_fisherman`<br>`--> 103. q_fightClub_skalice_waitForStart`<br>`--> 100. q_fightClub_skalice_speaker`<br>`133. q_package_completed`<br>`--> 114. a_vagabund_vagabund`<br>`--> 115. a_antiqueHooker_hooker`<br>`--> 116. q_jealousGroom_groom`<br>`193. cond_chamberlain`<br>`--> 174. a_huntsman_chamberlain_tal_chamberlain`<br>`194. cond_butcher`<br>`--> 171. a_huntsman_butcher_sas_butcher`<br>`195. cond_alex`<br>`--> 168. a_huntsman_alex_rat_refugee_ales`<br>`14. basicTrainingTracker`<br>`--> 16. a_camps_bernard`<br>`--> 30. a_camps_tracker`<br>`--> 23. a_camps2_borek`<br>`--> 31. a_camps2_tracker`<br>`--> 26. a_camps3_sebastian`<br>`215. a_pesek_thievery_starter`<br>`--> 38. a_pesek_thievery_pesek`<br>`234. a_vojtech_thievery_starter`<br>`--> 46. a_vojtech_thievery_vojtech`<br>`235. a_simon_thievery_starter`<br>`--> 49. a_simon_thievery_simon`
 
 ## Hub Quests
