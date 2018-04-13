@@ -10,8 +10,8 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 ## Legend
 
 * <font color="green">Green</font>: The parameter value was increased.
-* <font color="green">Red</font>: The parameter value was decreased.
-* <font color="green">Blue</font>: The parameter was added.
+* <font color="red">Red</font>: The parameter value was decreased.
+* <font color="blue">Blue</font>: The parameter was added.
 * <strike>Strikethrough</strike>: The parameter has been removed.
 
 ## Table
