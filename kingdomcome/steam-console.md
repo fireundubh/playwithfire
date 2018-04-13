@@ -24,6 +24,15 @@ download_depot <app_id> <depot_id> <manifest_id> [<delta_manifest_id>]
 
 <br>
 
+Parameter | Required | Description
+--- | --- | ---
+`app_id` | `true` | the game's App ID
+`depot_id` | `true` | the Depot ID corresponding to a content package (e.g., binaries, game assets)
+`manifest_id` | `true` | the Manifest ID corresponding to a version of the content package
+`delta_manifest_id` | `false` | the Manifest ID corresponding to a previous version of the content package
+
+If the `delta_manifest_id` argument is not omitted, Steam will download only the differences between the target manifest and delta manifest.
+
 ### Examples
 
 Download the v1.4.2 game assets:
