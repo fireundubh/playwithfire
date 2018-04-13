@@ -8,7 +8,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 ## Table: Sorted by V/W Ratio
 
-Localized Name | Base | Ingredients | Steps | Product (at Max Yield) | Cumulative V/W Ratio | Cumulative Value | Cumulative Weight
+Localized Name | Base | Ingredients | Steps | Product at Max Yield | Cumulative V/W Ratio | Cumulative Value | Cumulative Weight
 :--- | :--- | :--- | :--- | :--- | ---: | ---: | ---:
 Lazarus Potion | Aqua | 1x Valerian<br>2x Comfrey | 1. You will need water, two handfuls of comfrey one of valerian.<br>2. Boil the valerian for one turn.<br>3. Grind the comfrey.<br>4. Add the comfrey to the valerian and boil for one turn.<br>5. Distil. | 3x Lazarus potion | `220.0` | `330.0` | `1.5`
 Saviour Schnapps | Vinum | 1x Nettle<br>2x Belladonna | 1. Prepare wine, two handfuls of belladonna and one of nettle.<br>2. Boil the nettles for two turns.<br>3. Grind the belladonna .<br>4. Drop in the belladonna and boil for one more turn. | 3x Saviour Schnapps | `200.0` | `300.0` | `1.5`
