@@ -37,5 +37,34 @@ UUID | Localized Name | Base | Ingredients | Steps | Product at Max Yield | Loca
 `f65708b5-f7bb-4ee0-adc3-bddc426976f5` | Saviour Schnapps | Vinum | 1x Nettle<br>2x Belladonna | 1. Prepare wine, two handfuls of belladonna and one of nettle.<br>2. Boil the nettles for two turns.<br>3. Grind the belladonna .<br>4. Drop in the belladonna and boil for one more turn. | 3x Saviour Schnapps | 
 `8b8f2de7-d10e-4ccd-8e97-39134ddd78ac` | Witch potion | Oleum | 1x Belladonna<br>1x Herb Paris<br>1x Marigold | 1. Prepare oil, a handful of marigold, one of belladonna and one of herb paris.<br>2. Boil the herb paris for one turn.<br>3. Grind the marigold<br>4. Add the marigold to the cauldron and boil for one more turn.<br>5. Grind the belladonna.<br>6. Add the belladonna to the cauldron, but do not boil any more. | 3x Witch potion | Inventory: `q_baby_v_lese_gertrudas_chest_recipe`
 
+## Table: Sorted by V/W Ratio
 
+Localized Name | Ingredients | Product at Max Yield | Recipe Cost | Ingredient Cost | Product Value | Product Weight | V/W Ratio
+--- | --- | --- | --- | --- | --- | --- | ---
+Lazarus Potion | 1x Valerian<br>2x Comfrey | 3x Lazarus potion | `650.0` | `1.7` | `330.0` | `1.5` | `220.0`
+Saviour Schnapps | 1x Nettle<br>2x Belladonna | 3x Saviour Schnapps | `100.0` | `6.1` | `300.0` | `1.5` | `200.0`
+Bane potion | 1x Fly agaric<br>1x Wormwood<br>2x Belladonna | 3x Bane potion | `540.0` | `9.5` | `270.0` | `1.5` | `180.0`
+Aqua Vitalis | 1x Marigold<br>2x Dandelion | 3x Vitality potion | `410.0` | `1.3` | `210.0` | `1.5` | `140.0`
+Nighthawk | 1x Belladonna<br>1x Cave mushroom<br>2x Eyebright | 3x Nighthawk potion | `780.0` | `7.0` | `195.0` | `1.5` | `130.0`
+Padfoot | 1x Chamomile<br>1x Cobweb<br>1x Eyebright<br>1x Valerian | 3x Padfoot potion | `390.0` | `4.7` | `195.0` | `1.5` | `130.0`
+Bivoj's Rage | 1x Cave mushroom<br>1x Wormwood<br>2x Sage | 3x Bivoj's Rage potion | `385.0` | `7.6` | `195.0` | `1.5` | `130.0`
+Buck's Blood potion | 1x Comfrey<br>1x Dandelion<br>1x St. John's wort | 3x Buck's Blood potion | `350.0` | `1.9` | `180.0` | `1.5` | `120.0`
+Amor | 1x Antlers<br>1x Chamomile<br>1x Marigold<br>1x Wormwood | 3x Amor potion | `330.0` | `28.1` | `165.0` | `1.5` | `110.0`
+Bard potion | 1x Belladonna<br>1x Charcoal<br>1x Nettle<br>1x St. John's wort | 3x Bard potion | `325.0` | `4.5` | `165.0` | `1.5` | `110.0`
+Poison | 1x Thistle<br>2x Herb Paris | 3x Poison | `300.0` | `1.0` | `150.0` | `1.5` | `100.0`
+Lullaby | 1x Herb Paris<br>1x Poppy<br>1x Thistle | 3x Lullaby potion | `300.0` | `0.8` | `150.0` | `1.5` | `100.0`
+Dollmaker potion | 1x Valerian<br>2x Herb Paris | 3x Dollmaker potion | `270.0` | `1.1` | `135.0` | `1.5` | `90.0`
+Bowman's Brew | 1x St. John's wort<br>2x Eyebright | 3x Bowman's Brew | `265.0` | `1.8` | `135.0` | `1.5` | `90.0`
+Preserver | 1x Mint<br>1x Nettle<br>1x St. John's wort | 3x Preserver | `240.0` | `1.5` | `120.0` | `1.5` | `80.0`
+Embrocation | 1x Eyebright<br>1x Poppy<br>1x Valerian<br>1x Wild boar's tusk | 3x Embrocation | `235.0` | `16.0` | `120.0` | `1.5` | `80.0`
+Antidote | 1x Charcoal<br>1x Nettle<br>2x Thistle | 3x Antidote  | `180.0` | `1.1` | `120.0` | `1.5` | `80.0`
+Artemisia | 1x Sage<br>2x Wormwood | 3x Artemisia potion | `40.0` | `5.6` | `120.0` | `1.5` | `80.0`
+Aesop potion | 1x Belladonna<br>1x Comfrey<br>1x Wild boar's tusk<br>1x Wormwood | 3x Aesop potion | `200.0` | `20.9` | `105.0` | `1.5` | `70.0`
+Marigold decoction | 1x Nettle<br>2x Marigold | 3x Marigold decoction | `150.0` | `1.1` | `105.0` | `1.5` | `70.0`
+Witch potion | 1x Belladonna<br>1x Herb Paris<br>1x Marigold | 3x Witch potion | `0.0` | `3.9` | `96.0` | `1.5` | `64.0`
+Cockerel | 1x Valerian<br>2x Mint | 3x Cockerel potion | `175.0` | `1.5` | `90.0` | `1.5` | `60.0`
+Digestive potion | 1x Mint<br>2x Chamomile | 3x Digestion potion | `170.0` | `1.4` | `90.0` | `1.5` | `60.0`
+Hair o' the Dog potion | 1x Mint<br>1x Sage<br>1x St. John's wort | 3x Hair o' the Dog potion | `150.0` | `2.6` | `75.0` | `1.5` | `50.0`
+Moonshine | 1x Mint<br>1x Sage<br>1x St. John's wort | 3x Moonshine | `115.0` | `2.6` | `60.0` | `3.0` | `20.0`
+Lethean Water | 1x Belladonna<br>1x Fly agaric<br>2x Wormwood | 1x Lethean Water | `1000.0` | `8.7` | `0.0` | `0.5` | `0.0`
 
