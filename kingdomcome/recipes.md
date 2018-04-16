@@ -44,7 +44,7 @@ Saviour Schnapps<br>(`f65708b5-f7bb-4ee0-adc3-bddc426976f5`) | Vinum | 1x Nettle
 Witch potion<br>(`8b8f2de7-d10e-4ccd-8e97-39134ddd78ac`) | Oleum | 1x Belladonna<br>1x Herb Paris<br>1x Marigold | 1. Prepare oil, a handful of marigold, one of belladonna and one of herb paris.<br>2. Boil the herb paris for one turn.<br>3. Grind the marigold<br>4. Add the marigold to the cauldron and boil for one more turn.<br>5. Grind the belladonna.<br>6. Add the belladonna to the cauldron, but do not boil any more. | 3x Witch potion | `q_baby_v_lese_gertrudas_chest_recipe`
 
 
-## Table: Sorted by V/W Ratio
+## Table: Costs and Weight
 
 Name | Ingredients | Product | Recipe Cost | Ingredient Cost | Product Value | Product Weight | V/W Ratio
 --- | --- | --- | --- | --- | --- | --- | ---
