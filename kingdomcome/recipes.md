@@ -46,7 +46,7 @@ Witch potion<br>(`8b8f2de7-d10e-4ccd-8e97-39134ddd78ac`) | Oleum | 1x Belladonna
 
 ## Table: Costs and Weight
 
-Name | Ingredients | Product | Recipe Cost | Ingredient Cost | Product Value | Product Weight | V/W Ratio
+Name | Ingredients | Product | Recipe Cost | Ingredient Cost | V/W Ratio | Product Value | Product Weight
 --- | --- | --- | --- | --- | --- | --- | ---
 Abortifacient |  | 1x `ui_nm_potion_abortion` | -1.0 | 0.0 | 0.2 | 0.1 | 0.5
 Aesop potion | 1x Belladonna<br>1x Comfrey<br>1x Wild boar's tusk<br>1x Wormwood | 3x Aesop potion | 200.0 | 20.9 | 70.0 | 105.0 | 1.5
