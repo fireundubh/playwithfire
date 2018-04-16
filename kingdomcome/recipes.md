@@ -46,37 +46,38 @@ Witch potion<br>(`8b8f2de7-d10e-4ccd-8e97-39134ddd78ac`) | Oleum | 1x Belladonna
 
 ## Table: Sorted by V/W Ratio
 
-Localized Name | Ingredients | Product at Max Yield | Recipe Cost | Ingredient Cost | Product Value | Product Weight | V/W Ratio
+Name | Ingredients | Product | Recipe Cost | Ingredient Cost | Product Value | Product Weight | V/W Ratio
 --- | --- | --- | --- | --- | --- | --- | ---
-Lazarus Potion | 1x Valerian<br>2x Comfrey | 3x Lazarus potion | `650.0` | `1.7` | `330.0` | `1.5` | `220.0`
-Saviour Schnapps | 1x Nettle<br>2x Belladonna | 3x Saviour Schnapps | `100.0` | `6.1` | `300.0` | `1.5` | `200.0`
-Bane potion | 1x Fly agaric<br>1x Wormwood<br>2x Belladonna | 3x Bane potion | `540.0` | `9.5` | `270.0` | `1.5` | `180.0`
-Aqua Vitalis | 1x Marigold<br>2x Dandelion | 3x Vitality potion | `410.0` | `1.3` | `210.0` | `1.5` | `140.0`
-Nighthawk | 1x Belladonna<br>1x Cave mushroom<br>2x Eyebright | 3x Nighthawk potion | `780.0` | `7.0` | `195.0` | `1.5` | `130.0`
-Padfoot | 1x Chamomile<br>1x Cobweb<br>1x Eyebright<br>1x Valerian | 3x Padfoot potion | `390.0` | `4.7` | `195.0` | `1.5` | `130.0`
-Bivoj's Rage | 1x Cave mushroom<br>1x Wormwood<br>2x Sage | 3x Bivoj's Rage potion | `385.0` | `7.6` | `195.0` | `1.5` | `130.0`
-Buck's Blood potion | 1x Comfrey<br>1x Dandelion<br>1x St. John's wort | 3x Buck's Blood potion | `350.0` | `1.9` | `180.0` | `1.5` | `120.0`
-Amor | 1x Antlers<br>1x Chamomile<br>1x Marigold<br>1x Wormwood | 3x Amor potion | `330.0` | `28.1` | `165.0` | `1.5` | `110.0`
-Bard potion | 1x Belladonna<br>1x Charcoal<br>1x Nettle<br>1x St. John's wort | 3x Bard potion | `325.0` | `4.5` | `165.0` | `1.5` | `110.0`
-Poison | 1x Thistle<br>2x Herb Paris | 3x Poison | `300.0` | `1.0` | `150.0` | `1.5` | `100.0`
-Lullaby | 1x Herb Paris<br>1x Poppy<br>1x Thistle | 3x Lullaby potion | `300.0` | `0.8` | `150.0` | `1.5` | `100.0`
-Dollmaker potion | 1x Valerian<br>2x Herb Paris | 3x Dollmaker potion | `270.0` | `1.1` | `135.0` | `1.5` | `90.0`
-Bowman's Brew | 1x St. John's wort<br>2x Eyebright | 3x Bowman's Brew | `265.0` | `1.8` | `135.0` | `1.5` | `90.0`
-Preserver | 1x Mint<br>1x Nettle<br>1x St. John's wort | 3x Preserver | `240.0` | `1.5` | `120.0` | `1.5` | `80.0`
-Embrocation | 1x Eyebright<br>1x Poppy<br>1x Valerian<br>1x Wild boar's tusk | 3x Embrocation | `235.0` | `16.0` | `120.0` | `1.5` | `80.0`
-Antidote | 1x Charcoal<br>1x Nettle<br>2x Thistle | 3x Antidote  | `180.0` | `1.1` | `120.0` | `1.5` | `80.0`
-Artemisia | 1x Sage<br>2x Wormwood | 3x Artemisia potion | `40.0` | `5.6` | `120.0` | `1.5` | `80.0`
-Aesop potion | 1x Belladonna<br>1x Comfrey<br>1x Wild boar's tusk<br>1x Wormwood | 3x Aesop potion | `200.0` | `20.9` | `105.0` | `1.5` | `70.0`
-Marigold decoction | 1x Nettle<br>2x Marigold | 3x Marigold decoction | `150.0` | `1.1` | `105.0` | `1.5` | `70.0`
-Witch potion | 1x Belladonna<br>1x Herb Paris<br>1x Marigold | 3x Witch potion | `0.0` | `3.9` | `96.0` | `1.5` | `64.0`
-Cockerel | 1x Valerian<br>2x Mint | 3x Cockerel potion | `175.0` | `1.5` | `90.0` | `1.5` | `60.0`
-Digestive potion | 1x Mint<br>2x Chamomile | 3x Digestion potion | `170.0` | `1.4` | `90.0` | `1.5` | `60.0`
-Hair o' the Dog potion | 1x Mint<br>1x Sage<br>1x St. John's wort | 3x Hair o' the Dog potion | `150.0` | `2.6` | `75.0` | `1.5` | `50.0`
-Merhojed remedy | 1x Charcoal<br>1x Valerian<br>2x Thistle | 1x Aid for Merhojed | &nbsp; | `1.3` | `11.1` | `0.5` | `22.2`
-Merhojed remedy | 1x Wormwood<br>2x Valerian | 1x Aid for Merhojed | &nbsp; | `2.8` | `11.0` | `0.5` | `22.0`
-Moonshine | 1x Mint<br>1x Sage<br>1x St. John's wort | 3x Moonshine | `115.0` | `2.6` | `60.0` | `3.0` | `20.0`
-Dandelion syrup | 1x Honey<br>1x Mint<br>2x Dandelion | 3x Dandelion syrup | &nbsp; | `13.4` | `0.3` | `1.5` | `0.2`
-Dementia potion | 1x Sage<br>2x Thistle | 1x Mind enfeeblement potion | &nbsp; | `1.6` | `0.1` | `0.5` | `0.2`
-Drowsiness | 1x Chamomile<br>2x Poppy | 1x Tiredness potion | &nbsp; | `0.8` | `0.1` | `0.5` | `0.2`
-Lethean Water | 1x Belladonna<br>1x Fly agaric<br>2x Wormwood | 1x Lethean Water | `1000.0` | `8.7` | `0.0` | `0.5` | `0.0`
+Abortifacient |  | 1x `ui_nm_potion_abortion` | -1.0 | 0.0 | 0.2 | 0.1 | 0.5
+Aesop potion | 1x Belladonna<br>1x Comfrey<br>1x Wild boar's tusk<br>1x Wormwood | 3x Aesop potion | 200.0 | 20.9 | 70.0 | 105.0 | 1.5
+Amor | 1x Antlers<br>1x Chamomile<br>1x Marigold<br>1x Wormwood | 3x Amor potion | 330.0 | 28.1 | 110.0 | 165.0 | 1.5
+Antidote | 1x Charcoal<br>1x Nettle<br>2x Thistle | 3x Antidote | 180.0 | 1.1 | 80.0 | 120.0 | 1.5
+Aqua Vitalis | 1x Marigold<br>2x Dandelion | 3x Vitality potion | 410.0 | 1.3 | 140.0 | 210.0 | 1.5
+Artemisia | 1x Sage<br>2x Wormwood | 3x Artemisia potion | 40.0 | 5.6 | 80.0 | 120.0 | 1.5
+Bane potion | 1x Fly agaric<br>1x Wormwood<br>2x Belladonna | 3x Bane potion | 540.0 | 9.5 | 180.0 | 270.0 | 1.5
+Bard potion | 1x Belladonna<br>1x Charcoal<br>1x Nettle<br>1x St. John's wort | 3x Bard potion | 325.0 | 4.5 | 110.0 | 165.0 | 1.5
+Bivoj's Rage | 1x Cave mushroom<br>1x Wormwood<br>2x Sage | 3x Bivoj's Rage potion | 385.0 | 7.6 | 130.0 | 195.0 | 1.5
+Bowman's Brew | 1x St. John's wort<br>2x Eyebright | 3x Bowman's Brew | 265.0 | 1.8 | 90.0 | 135.0 | 1.5
+Buck's Blood potion | 1x Comfrey<br>1x Dandelion<br>1x St. John's wort | 3x Buck's Blood potion | 350.0 | 1.9 | 120.0 | 180.0 | 1.5
+Cockerel | 1x Valerian<br>2x Mint | 3x Cockerel potion | 175.0 | 1.5 | 60.0 | 90.0 | 1.5
+Dandelion syrup | 1x Honey<br>1x Mint<br>2x Dandelion | 3x Dandelion syrup | -1.0 | 13.4 | 0.2 | 0.3 | 1.5
+Dementia potion | 1x Sage<br>2x Thistle | 1x Mind enfeeblement potion | -1.0 | 1.6 | 0.2 | 0.1 | 0.5
+Digestive potion | 1x Mint<br>2x Chamomile | 3x Digestion potion | 170.0 | 1.4 | 60.0 | 90.0 | 1.5
+Dollmaker potion | 1x Valerian<br>2x Herb Paris | 3x Dollmaker potion | 270.0 | 1.1 | 90.0 | 135.0 | 1.5
+Drowsiness | 1x Chamomile<br>2x Poppy | 1x Tiredness potion | -1.0 | 0.8 | 0.2 | 0.1 | 0.5
+Embrocation | 1x Eyebright<br>1x Poppy<br>1x Valerian<br>1x Wild boar's tusk | 3x Embrocation | 235.0 | 16.0 | 80.0 | 120.0 | 1.5
+Hair o' the Dog potion | 1x Mint<br>1x Sage<br>1x St. John's wort | 3x Hair o' the Dog potion | 150.0 | 2.6 | 50.0 | 75.0 | 1.5
+Lazarus Potion | 1x Valerian<br>2x Comfrey | 3x Lazarus potion | 650.0 | 1.7 | 220.0 | 330.0 | 1.5
+Lethean Water | 1x Belladonna<br>1x Fly agaric<br>2x Wormwood | 1x Lethean Water | 1000.0 | 8.7 | 0.0 | 0.0 | 0.5
+Lullaby | 1x Herb Paris<br>1x Poppy<br>1x Thistle | 3x Lullaby potion | 300.0 | 0.8 | 100.0 | 150.0 | 1.5
+Marigold decoction | 1x Nettle<br>2x Marigold | 3x Marigold decoction | 150.0 | 1.1 | 70.0 | 105.0 | 1.5
+Merhojed remedy | 1x Charcoal<br>1x Valerian<br>2x Thistle | 1x Aid for Merhojed | -1.0 | 1.3 | 22.2 | 11.1 | 0.5
+Merhojed remedy | 1x Wormwood<br>2x Valerian | 1x Aid for Merhojed | -1.0 | 2.8 | 22.0 | 11.0 | 0.5
+Moonshine | 1x Mint<br>1x Sage<br>1x St. John's wort | 3x Moonshine | 115.0 | 2.6 | 20.0 | 60.0 | 3.0
+Nighthawk | 1x Belladonna<br>1x Cave mushroom<br>2x Eyebright | 3x Nighthawk potion | 780.0 | 7.0 | 130.0 | 195.0 | 1.5
+Padfoot | 1x Chamomile<br>1x Cobweb<br>1x Eyebright<br>1x Valerian | 3x Padfoot potion | 390.0 | 4.7 | 130.0 | 195.0 | 1.5
+Poison | 1x Thistle<br>2x Herb Paris | 3x Poison | 300.0 | 1.0 | 100.0 | 150.0 | 1.5
+Preserver | 1x Mint<br>1x Nettle<br>1x St. John's wort | 3x Preserver | 240.0 | 1.5 | 80.0 | 120.0 | 1.5
+Saviour Schnapps | 1x Nettle<br>2x Belladonna | 3x Saviour Schnapps | 100.0 | 6.1 | 200.0 | 300.0 | 1.5
+Witch potion | 1x Belladonna<br>1x Herb Paris<br>1x Marigold | 3x Witch potion | 0.0 | 3.9 | 64.0 | 96.0 | 1.5
 
