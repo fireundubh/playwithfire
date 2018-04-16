@@ -12,28 +12,28 @@ Welcome to the *Kingdom Come: Deliverance* wiki at **#playwithfire**. This wiki 
 
 ### Data
 
-Section | Description | Edit Status
-:--- | :--- | :---
-[Buff Implementations](kingdomcome/buffs) | A complete table of buff implementations | **Completed**
-[Known Formulas](kingdomcome/formulas) | A table of known formulas for RPG mechanics | *In progress*
-[Perks and Effects](kingdomcome/perks) | A complete table of perks and their buff effects | *In progress*
-[RPG Parameters](kingdomcome/rpg-parameters) | A complete table of RPG parameters, default values, and their descriptions | **Completed**
-[Social Classes](kingdomcome/social-classes) | A complete table of Highborn and Lowborn souls with faction and location names | **Completed**
-[Soul Abilities](kingdomcome/soul-abilities) | A complete table of soul abilities | **Completed**
-[Stats and Derived Stats](kingdomcome/stats) | Full and abbreviated stat and derived stat name mappings | *In progress*
+Section | Description
+:--- | :---
+[Buff Implementations](kingdomcome/buffs) | A complete table of buff implementations
+[Known Formulas](kingdomcome/formulas) | A table of known formulas for RPG mechanics
+[Perks and Effects](kingdomcome/perks) | A complete table of perks and their buff effects
+[RPG Parameters](kingdomcome/rpg-parameters) | A complete table of RPG parameters, default values, and their descriptions
+[Social Classes](kingdomcome/social-classes) | A complete table of Highborn and Lowborn souls with faction and location names
+[Soul Abilities](kingdomcome/soul-abilities) | A complete table of soul abilities
+[Stats and Derived Stats](kingdomcome/stats) | Full and abbreviated stat and derived stat name mappings
 
 ### Scripting
 
-Section | Description | Edit Status
-:--- | :--- | :---
-[Lua Classes](kingdomcome/classes) | Lua-exposed C++ classes | **Completed**
-[Lua Functions](kingdomcome/functions) | Lua-implemented functions in every script | Not started
+Section | Description
+:--- | :---
+[Lua Classes](kingdomcome/classes) | Lua-exposed C++ classes
+[Lua Functions](kingdomcome/functions) | Lua-implemented functions in every script
 
 ### Technical
 
-Section | Description | Edit Status
---- | --- | ---
-[TBL File Format](kingdomcome/tbl-file-format) | TBL file format specification | **Mirrored**
+Section | Description
+:--- | :---
+[TBL File Format](kingdomcome/tbl-file-format) | TBL file format specification
 
 ### Miscellaneous
 
@@ -59,11 +59,3 @@ Name | Developer | Description
 :--- | :--- | :---
 [Modsmith](https://github.com/fireundubh/modsmith) | fireundubh | Automated framework for building and packaging mods
 [Steam Console](kingdomcome/steam-console) | | Guide: Using Steam to download previous versions
-
-## Wiki
-
-### Edit Status Legend
-
-* **Completed**: The page provides as close to 100% coverage as possible.
-* *In progress*: The page is fundamentally complete, but may need additional work and testing.
-* Not started: The page does not exist yet.
