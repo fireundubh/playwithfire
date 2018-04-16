@@ -16,13 +16,10 @@ The depot will likely download to: `C:\Program Files (x86)\Steam\steamapps\conte
 Once downloaded, you can move the depot anywhere.
 
 ## Syntax
-<br>
 
 ```
 download_depot <app_id> <depot_id> <manifest_id> [<delta_manifest_id>]
 ```
-
-<br>
 
 Parameter | Required | Description
 --- | --- | ---
