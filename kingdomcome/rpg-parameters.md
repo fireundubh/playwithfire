@@ -18,37 +18,37 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 Parameter | v1.1&ndash;1.2.5 | v1.3&ndash;1.3.4 | v1.4&ndash;1.4.2 | Description
 :--- | ---: | ---: | ---: | :---
-`AlchemyXPPerAutocookBrewingRelative` | nil | <font color="blue">`0.100000000`</font> | `0.100000000` | how many XP you get when you auto-cook a potion, relative to manual brewing
-`BlindViewRadiusFakeRelative` | nil | <font color="blue">`0.800000000`</font> | `0.800000000` | for blinded (mostly sleeping) NPC we have to calculate stealth XP somehow, so we calculate this fake radius
-<strike>CharismaMulOnExtremeExhaustionInterpolation</strike> | nil | nil | nil | Possibly the original name of the `CharismaMulOnExtremeExhaustion` parameter
-`ControllerLockPickingAppropriateTolerance` | nil | <font color="blue">`0.060000000`</font> | <font color="red">`0.045000000`</font> | the lock is considered too hard to pick, if the tolerance is smaller than this
-`ControllerLockPickingToleranceACoef` | nil | <font color="blue">`0.450000000`</font> | `0.450000000` | 
-`ControllerLockPickingToleranceKCoef` | nil | <font color="blue">`0.030000000`</font> | <font color="green">`0.070000000`</font> | 
-`ControllerLockPickingToleranceMCoef` | nil | <font color="blue">`0.687000000`</font> | `0.687000000` | 
-`ControllerLockPickingToleranceNCoef` | nil | <font color="blue">`0.355000000`</font> | <font color="green">`0.480000000`</font> | 
-`DamageToArmorStatus` | nil | <font color="blue">`1.000000000` | `1.000000000` | for the stopping layer
-`DamageToArmorStatusHigherLayers` | nil | <font color="blue">`2.000000000`</font> | `2.000000000` | for layers above the stopping layer
-`DamageToArmorStatusLowerLayers` | nil | <font color="blue">`0.500000000`</font> | `0.500000000` | for layers below the stopping layer
-<strike>`ImprovedSleepMultiplierSurvival`</strike> | nil | nil | nil | Possibly the original name of the `ImprovedSleepMultiplier` parameter
-<strike>`InactiveTimeToDestroyOversleepCreated`</strike> | nil | nil | nil | Possibly the original name of the `InactiveTimeToDestroyOversleep` parameter
-`LockPickingAdequateTolerance` | nil | nil | <font color="blue">`0.170000000`</font> | locks on a similar level as the player have adequate tolerance
+`AlchemyXPPerAutocookBrewingRelative` | `nil` | <font color="blue">`0.100000000`</font> | `0.100000000` | how many XP you get when you auto-cook a potion, relative to manual brewing
+`BlindViewRadiusFakeRelative` | `nil` | <font color="blue">`0.800000000`</font> | `0.800000000` | for blinded (mostly sleeping) NPC we have to calculate stealth XP somehow, so we calculate this fake radius
+<strike>CharismaMulOnExtremeExhaustionInterpolation</strike> | `nil` | `nil` | `nil` | Possibly the original name of the `CharismaMulOnExtremeExhaustion` parameter
+`ControllerLockPickingAppropriateTolerance` | `nil` | <font color="blue">`0.060000000`</font> | <font color="red">`0.045000000`</font> | the lock is considered too hard to pick, if the tolerance is smaller than this
+`ControllerLockPickingToleranceACoef` | `nil` | <font color="blue">`0.450000000`</font> | `0.450000000` | 
+`ControllerLockPickingToleranceKCoef` | `nil` | <font color="blue">`0.030000000`</font> | <font color="green">`0.070000000`</font> | 
+`ControllerLockPickingToleranceMCoef` | `nil` | <font color="blue">`0.687000000`</font> | `0.687000000` | 
+`ControllerLockPickingToleranceNCoef` | `nil` | <font color="blue">`0.355000000`</font> | <font color="green">`0.480000000`</font> | 
+`DamageToArmorStatus` | `nil` | <font color="blue">`1.000000000`</font> | `1.000000000` | for the stopping layer
+`DamageToArmorStatusHigherLayers` | `nil` | <font color="blue">`2.000000000`</font> | `2.000000000` | for layers above the stopping layer
+`DamageToArmorStatusLowerLayers` | `nil` | <font color="blue">`0.500000000`</font> | `0.500000000` | for layers below the stopping layer
+<strike>`ImprovedSleepMultiplierSurvival`</strike> | `nil` | `nil` | `nil` | Possibly the original name of the `ImprovedSleepMultiplier` parameter
+<strike>`InactiveTimeToDestroyOversleepCreated`</strike> | `nil` | `nil` | `nil` | Possibly the original name of the `InactiveTimeToDestroyOversleep` parameter
+`LockPickingAdequateTolerance` | `nil` | `nil` | <font color="blue">`0.170000000`</font> | locks on a similar level as the player have adequate tolerance
 `MaxStatToAttackMult` | `1.200000000` | <font color="red">`1.100000000`</font> | `1.100000000` | Maximal relative attack multiplier (for a high stat)
 `MaxStealthHitSoundMultiplier` | `0.400000000` | <font color="red">`0.220000000`</font> | `0.220000000` | intensity multiplier for max stealth level
 `MinStealthHitSoundMultiplier` | `0.100000000` | <font color="red">`0.060000000`</font> | `0.060000000` | Intensity multiplier for minimum Stealth level
-`PickpocketingDistance` | nil | <font color="blue">`2.000000000`</font> | `2.000000000` | Max pickpocketing range (not starting interactor range)
+`PickpocketingDistance` | `nil` | <font color="blue">`2.000000000`</font> | `2.000000000` | Max pickpocketing range (not starting interactor range)
 `PickpocketingIndicatorSharpness` | `0.200000000` | <font color="red">`0.000000000`</font> | `0.000000000` | 0 - precise slow change<br>1 - sharp change
-`PickpocketingMisstargetingTolerance` | nil | <font color="blue">`2000.000000000`</font> | `2000.000000000` | Time tolerance for temporarily mistargeting your victim
-`PickpocketingRandomChanceRollMinCap` | nil | <font color="blue">`0.100000000`</font> | `0.100000000` | Worst random rolls will always be capped to this minimum chance
+`PickpocketingMisstargetingTolerance` | `nil` | <font color="blue">`2000.000000000`</font> | `2000.000000000` | Time tolerance for temporarily mistargeting your victim
+`PickpocketingRandomChanceRollMinCap` | `nil` | <font color="blue">`0.100000000`</font> | `0.100000000` | Worst random rolls will always be capped to this minimum chance
 `QuestMoneyRewardScaleConstant` | `1.250000000` | <font color="red">`1.200000000`</font> | `1.200000000` | scale constnat for quest reward item amount
-<strike>`ReadingRestEffectiveness`</strike> | `0.300000000` | nil | nil | If this value is 0.3, reading will regen player as sleeping on bed with comfort 30%.
-<strike>`ReadingRestUpperLimit`</strike> | `1.000000000` | nil | nil | When sleeping, the rest can not exceed bed quality. When reading, the threshold is given by this value.
+<strike>`ReadingRestEffectiveness`</strike> | `0.300000000` | `nil` | `nil` | If this value is 0.3, reading will regen player as sleeping on bed with comfort 30%.
+<strike>`ReadingRestUpperLimit`</strike> | `1.000000000` | `nil` | `nil` | When sleeping, the rest can not exceed bed quality. When reading, the threshold is given by this value.
 `SkillToDmgConstA` | `70.000000000` | <font color="green">`250.000000000`</font> | `250.000000000` | 
 `StarvationHealthLossSpeed` | `0.00057870`4 | <font color="green">`0.001000000`</font> | `0.001000000` | by design the same speed as the digestion
 `StarvationPlayerEffectMaxMax` | `60.000000000` | `60.000000000` | <font color="green">`75.000000000`</font> | longest interval between effects for high hunger stat
 `StarvationPlayerEffectMaxMin` | `90.000000000` | `90.000000000` | <font color="green">`120.000000000`</font> | longest interval between effects for low hunger stat
 `StarvationPlayerEffectMinMax` | `30.000000000` | `30.000000000` | <font color="green">`45.000000000`</font> | shortest interval between effects for high hunger stat
 `StarvationPlayerEffectMinMin` | `60.000000000` | `60.000000000` | <font color="green">`90.000000000`</font> | shortest interval between effects for low hunger stat
-`UnarmedHitArmorDamageCoef` | nil | <font color="blue">`0.250000000`</font> | `0.250000000` | relative to armed combat
+`UnarmedHitArmorDamageCoef` | `nil` | <font color="blue">`0.250000000`</font> | `0.250000000` | relative to armed combat
 
 
 ## Table: All Parameters
@@ -73,7 +73,7 @@ Parameter | v1.1&ndash;1.2.5 | v1.3&ndash;1.3.4 | v1.4&ndash;1.4.2 | Description
 `AlchemyToleranceBase` | `0.500000000` | `0.500000000` | `0.500000000` | Base brewing tolerance at level 1
 `AlchemyTolerancePerLevel` | `0.150000000` | `0.150000000` | `0.150000000` | Brewing tolerance gain per level
 `AlchemyTrialEndErrorPerkTolerance` | `1.000000000` | `1.000000000` | `1.000000000` | Additional tolerance gained with Trial and Error perk
-`AlchemyXPPerAutocookBrewingRelative` | nil | <font color="blue">`0.100000000`</font> | `0.100000000` | how many XP you get when you auto-cook a potion, relative to manual brewing
+`AlchemyXPPerAutocookBrewingRelative` | `nil` | <font color="blue">`0.100000000`</font> | `0.100000000` | how many XP you get when you auto-cook a potion, relative to manual brewing
 `AlchemyXPPerSuccessfullBrewing` | `40.000000000` | `40.000000000` | `40.000000000` | Alchemy XP gained when a potion is successfully brewed
 `AlcoholBaseHangoverDuration` | `14400.000000000` | `14400.000000000` | `14400.000000000` | Base max duration for hangover (after blackout) in world time
 `AlcoholBlackoutDuration` | `14400.000000000` | `14400.000000000` | `14400.000000000` | Blackout unconscious duration
@@ -144,7 +144,7 @@ Parameter | v1.1&ndash;1.2.5 | v1.3&ndash;1.3.4 | v1.4&ndash;1.4.2 | Description
 `BasketSuspiciencyThreashold` | `0.100000000` | `0.100000000` | `0.100000000` | Haggle reaction 1 threshold (haggle more difficult)
 `BestVisVolume` | `10000.000000000` | `10000.000000000` | `10000.000000000` | object volume for maximum recognition bonus
 `BigZoneDistanceSlotMod` | `0.800000000` | `0.800000000` | `0.800000000` | temporary solution, slot mod for distance > 1
-`BlindViewRadiusFakeRelative` | nil | <font color="blue">`0.800000000`</font> | `0.800000000` | for blinded (mostly sleeping) NPC we have to calculate stealth XP somehow, so we calculate this fake radius
+`BlindViewRadiusFakeRelative` | `nil` | <font color="blue">`0.800000000`</font> | `0.800000000` | for blinded (mostly sleeping) NPC we have to calculate stealth XP somehow, so we calculate this fake radius
 `BowChargeDurationMax` | `3.000000000` | `3.000000000` | `3.000000000` | maximum duration of bow charge animation
 `BowChargeDurationMin` | `1.350000000` | `1.350000000` | `1.350000000` | minimum duration of bow charge animation
 `BowPowerToChargeDuration` | `0.100000000` | `0.100000000` | `0.100000000` | nominal charge duration for bow with power = 1
@@ -156,7 +156,7 @@ Parameter | v1.1&ndash;1.2.5 | v1.3&ndash;1.3.4 | v1.4&ndash;1.4.2 | Description
 `CarriedCarriedWeightCoef` | `0.500000000` | `0.500000000` | `0.500000000` | how much of the carried weight of the carried NPC is added to the carried weight of the carrier
 `CharismaDiffToSkillCheckResult` | `0.300000000` | `0.300000000` | `0.300000000` | > 0; scaled charisma diff for result = -1/1
 `CharismaMulOnExtremeExhaustion` | `0.750000000` | `0.750000000` | `0.750000000` | Player will have this charisma multiplied by this value when he has exhaust equal to 0. Charisma will not be changed when exhaust is 50. Linear interpolation on multiplier is applied when exhaust is between 0 and 50;
-<strike>`CharismaMulOnExtremeExhaustionInterpolation`</strike> | nil | nil | nil | Possibly the original name of the `CharismaMulOnExtremeExhaustion` parameter
+<strike>`CharismaMulOnExtremeExhaustionInterpolation`</strike> | `nil` | `nil` | `nil` | Possibly the original name of the `CharismaMulOnExtremeExhaustion` parameter
 `ClassCourageMoraleWeight` | `0.000000000` | `0.000000000` | `0.000000000` | Weight of soul class courage affecting morale
 `ClothDirtyingUpdatePeriod` | `50.000000000` | `50.000000000` | `50.000000000` | how often (in meters walked) do we add dirt to clothing (both for player and NPCs)
 `CollisionVelocityDeltaToDmgR` | `0.250000000` | `0.250000000` | `0.250000000` | 
@@ -226,17 +226,17 @@ Parameter | v1.1&ndash;1.2.5 | v1.3&ndash;1.3.4 | v1.4&ndash;1.4.2 | Description
 `CombatHitUnconsciousDepth` | `60.000000000` | `60.000000000` | `60.000000000` | depth after a combat hit
 `CombatMoveApproachHysteresis` | `1.500000000` | `1.500000000` | `1.500000000` | 
 `CombatMoveApproachSprintMinStamina` | `1.000000000` | `1.000000000` | `1.000000000` | do not allow sprint during the approach
-`ControllerLockPickingAppropriateTolerance` | nil | <font color="blue">`0.060000000`</font> | <font color="red">`0.045000000`</font> | the lock is considered too hard to pick, if the tolerance is smaller than this
-`ControllerLockPickingToleranceACoef` | nil | <font color="blue">`0.450000000`</font> | `0.450000000` | 
-`ControllerLockPickingToleranceKCoef` | nil | <font color="blue">`0.030000000`</font> | <font color="green">`0.070000000`</font> | 
-`ControllerLockPickingToleranceMCoef` | nil | <font color="blue">`0.687000000`</font> | `0.687000000` | 
-`ControllerLockPickingToleranceNCoef` | nil | <font color="blue">`0.355000000`</font> | <font color="green">`0.480000000`</font> | 
+`ControllerLockPickingAppropriateTolerance` | `nil` | <font color="blue">`0.060000000`</font> | <font color="red">`0.045000000`</font> | the lock is considered too hard to pick, if the tolerance is smaller than this
+`ControllerLockPickingToleranceACoef` | `nil` | <font color="blue">`0.450000000`</font> | `0.450000000` | 
+`ControllerLockPickingToleranceKCoef` | `nil` | <font color="blue">`0.030000000`</font> | <font color="green">`0.070000000`</font> | 
+`ControllerLockPickingToleranceMCoef` | `nil` | <font color="blue">`0.687000000`</font> | `0.687000000` | 
+`ControllerLockPickingToleranceNCoef` | `nil` | <font color="blue">`0.355000000`</font> | <font color="green">`0.480000000`</font> | 
 `CorpseDisappearanceTimeDiscovered` | `5.000000000` | `5.000000000` | `5.000000000` | time before a NPC corpse is hidden when discovered
 `CorpseDisappearanceTimeUndiscovered` | `25.000000000` | `25.000000000` | `25.000000000` | time before a NPC corpse is hidden when undiscovered
 `CorpseDisapperanceMinDistanceFromPlayer` | `100.000000000` | `100.000000000` | `100.000000000` | distance from player below which a corpse will never disappear
-`DamageToArmorStatus` | nil | <font color="blue">`1.000000000` | `1.000000000` | for the stopping layer
-`DamageToArmorStatusHigherLayers` | nil | <font color="blue">`2.000000000`</font> | `2.000000000` | for layers above the stopping layer
-`DamageToArmorStatusLowerLayers` | nil | <font color="blue">`0.500000000`</font> | `0.500000000` | for layers below the stopping layer
+`DamageToArmorStatus` | `nil` | <font color="blue">`1.000000000`</font> | `1.000000000` | for the stopping layer
+`DamageToArmorStatusHigherLayers` | `nil` | <font color="blue">`2.000000000`</font> | `2.000000000` | for layers above the stopping layer
+`DamageToArmorStatusLowerLayers` | `nil` | <font color="blue">`0.500000000`</font> | `0.500000000` | for layers below the stopping layer
 `DawnTime` | `4.500000000` | `4.500000000` | `4.500000000` | Time when night ends, used by rpg (default 04:30)
 `DefaultReadingQuality` | `0.500000000` | `0.500000000` | `0.500000000` | Reading quality when doing nothing special (standing).
 `DefaultRelationship` | `0.500000000` | `0.500000000` | `0.500000000` | default value for the alied forces
@@ -318,9 +318,9 @@ Parameter | v1.1&ndash;1.2.5 | v1.3&ndash;1.3.4 | v1.4&ndash;1.4.2 | Description
 `HunterXPLoot` | `10.000000000` | `10.000000000` | `10.000000000` | Hunting XP gain after a loot, multiplied by the game db coef and level
 `ImmortalHealthMin` | `1.000000000` | `1.000000000` | `1.000000000` | Minimum health for immortal souls
 `ImprovedSleepMultiplier` | `2.000000000` | `2.000000000` | `2.000000000` | How much better better (Rest regeneration speed) is SleepImproved than Sleep buff. This buff is used for reading when player has perk InTheFlow.
-<strike>`ImprovedSleepMultiplierSurvival`</strike> | nil | nil | nil | Possibly the original name of the `ImprovedSleepMultiplier` parameter
+<strike>`ImprovedSleepMultiplierSurvival`</strike> | `nil` | `nil` | `nil` | Possibly the original name of the `ImprovedSleepMultiplier` parameter
 `InactiveTimeToDestroyOversleep` | `8.000000000` | `8.000000000` | `8.000000000` | how long to let inactive oversleep buff survive (in game seconds) (we have this threshold so that the buff will not be destroyed right after being created in SkipTime class)
-<strike>`InactiveTimeToDestroyOversleepCreated`</strike> | nil | nil | nil | Possibly the original name of the `InactiveTimeToDestroyOversleep` parameter
+<strike>`InactiveTimeToDestroyOversleepCreated`</strike> | `nil` | `nil` | `nil` | Possibly the original name of the `InactiveTimeToDestroyOversleep` parameter
 `InjuringFallHeight` | `2.500000000` | `2.500000000` | `2.500000000` | falling height above which health damage is taken at agility 0
 `InjuryBleedingInterval` | `6.000000000` | `6.000000000` | `6.000000000` | bleeding interval, the time required to lose 1HP
 `InjuryHighThreshold` | `0.800000000` | `0.800000000` | `0.800000000` | limb is bleeding if above this threshold
@@ -347,7 +347,7 @@ Parameter | v1.1&ndash;1.2.5 | v1.3&ndash;1.3.4 | v1.4&ndash;1.4.2 | Description
 `LocalHeroInfamousReputationThreshold` | `0.700000000` | `0.700000000` | `0.700000000` | above this rep local hero, under infamous
 `LocationReputationHatedThreshold` | `0.200000000` | `0.200000000` | `0.200000000` | reputation threshold below which a location will hate the player
 `LocationReputationLovedThreshold` | `0.800000000` | `0.800000000` | `0.800000000` | reputation threshold above which a location will love the player
-`LockPickingAdequateTolerance` | nil | nil | <font color="blue">`0.170000000`</font> | locks on a similar level as the player have adequate tolerance
+`LockPickingAdequateTolerance` | `nil` | `nil` | <font color="blue">`0.170000000`</font> | locks on a similar level as the player have adequate tolerance
 `LockPickingAppropriateTolerance` | `0.045000000` | `0.045000000` | `0.045000000` | the lock is considered too hard to pick, if the tolerance is smaller than this
 `LockPickingCursorShakeRange` | `0.080000000` | `0.080000000` | `0.080000000` | how much does cursor shake during lock picking (maximum/base value)
 `LockPickingCursorShakeSpeed` | `30.000000000` | `30.000000000` | `30.000000000` | how fast does cursor shake during lock picking
@@ -472,18 +472,18 @@ Parameter | v1.1&ndash;1.2.5 | v1.3&ndash;1.3.4 | v1.4&ndash;1.4.2 | Description
 `PicklockFatalRelativeDist` | `5.000000000` | `5.000000000` | `5.000000000` | maximal relative distance, if futher the pick lock is destroyer
 `PickpocketingAngleChancePenalty` | `0.002700000` | `0.002700000` | `0.002700000` | penalty in (0-1) to chance pickpocketing for each angle from optimal possition exactly from behind victim (180 max)
 `PickpocketingComradePerkBonus` | `0.300000000` | `0.300000000` | `0.300000000` | max bonus in (0-1) to pickpocketing for comrade perk
-`PickpocketingDistance` | nil | <font color="blue">`2.000000000`</font> | `2.000000000` | Max pickpocketing range (not starting interactor range)
+`PickpocketingDistance` | `nil` | <font color="blue">`2.000000000`</font> | `2.000000000` | Max pickpocketing range (not starting interactor range)
 `PickpocketingFailXPMod` | `0.300000000` | `0.300000000` | `0.300000000` | Pickpocketing XP modified on failure
 `PickpocketingIndicatorSharpness` | `0.200000000` | <font color="red">`0.000000000`</font> | `0.000000000` | 0 - precise slow change<br>1 - sharp change
 `PickpocketingItemUncoverTimePerWeight` | `0.100000000` | `0.100000000` | `0.100000000` | time to uncover item per weight unit
 `PickpocketingMaxSkillChargeSpeedRatio` | `6.000000000` | `6.000000000` | `6.000000000` | charge speed ratio boost with best skill
 `PickpocketingMaxSkillChargeTime` | `30.000000000` | `30.000000000` | `30.000000000` | max charge time with best skill
 `PickpocketingMinChargeTime` | `2.000000000` | `2.000000000` | `2.000000000` | min charge time needed
-`PickpocketingMisstargetingTolerance` | nil | <font color="blue">`2000.000000000`</font> | `2000.000000000` | Time tolerance for temporarily mistargeting your victim
+`PickpocketingMisstargetingTolerance` | `nil` | <font color="blue">`2000.000000000`</font> | `2000.000000000` | Time tolerance for temporarily mistargeting your victim
 `PickpocketingNPCDrunkTimeChanceMod` | `0.500000000` | `0.500000000` | `0.500000000` | Modifies TimeChancePenalty when drunk
 `PickpocketingNPCHurtTimeChanceMod` | `0.750000000` | `0.750000000` | `0.750000000` | Modifies TimeChancePenalty when hurt
 `PickpocketingNPCSleepingTimeChanceMod` | `0.500000000` | `0.500000000` | `0.500000000` | Modifies TimeChancePenalty when sleeping
-`PickpocketingRandomChanceRollMinCap` | nil | <font color="blue">`0.100000000`</font> | `0.100000000` | Worst random rolls will always be capped to this minimum chance
+`PickpocketingRandomChanceRollMinCap` | `nil` | <font color="blue">`0.100000000`</font> | `0.100000000` | Worst random rolls will always be capped to this minimum chance
 `PickpocketingRobbedAngrinessChancePenalty` | `0.050000000` | `0.050000000` | `0.050000000` | penalty in (0-1) to pickpocketing chance for each time victim was robbed before
 `PickpocketingStealthXP` | `12.000000000` | `12.000000000` | `12.000000000` | Stealth XP for each successful pickpocketing
 `PickpocketingTimeChancePenaltyBest` | `0.013300000` | `0.013300000` | `0.013300000` | penalty in pickpocketing chance in best case(s)
@@ -501,8 +501,8 @@ Parameter | v1.1&ndash;1.2.5 | v1.3&ndash;1.3.4 | v1.4&ndash;1.4.2 | Description
 `RangedWpnPwrToSpeed` | `1.000000000` | `1.000000000` | `1.000000000` | total power to launch speed
 `RangedWpnSelfHarmCoef` | `15.000000000` | `15.000000000` | `15.000000000` | Special constant used in self harm equation
 `RangedWpnSpeedToAttack` | `0.012000000` | `0.012000000` | `0.012000000` | attack mod deduced from impact speed
-<strike>`ReadingRestEffectiveness`</strike> | `0.300000000` | nil | nil | If this value is 0.3, reading will regen player as sleeping on bed with comfort 30%.
-<strike>`ReadingRestUpperLimit`</strike> | `1.000000000` | nil | nil | When sleeping, the rest can not exceed bed quality. When reading, the threshold is given by this value.
+<strike>`ReadingRestEffectiveness`</strike> | `0.300000000` | `nil` | `nil` | If this value is 0.3, reading will regen player as sleeping on bed with comfort 30%.
+<strike>`ReadingRestUpperLimit`</strike> | `1.000000000` | `nil` | `nil` | When sleeping, the rest can not exceed bed quality. When reading, the threshold is given by this value.
 `ReadingXpPerHour` | `20.000000000` | `20.000000000` | `20.000000000` | Reading XP gained after one hour of reading with 100% reading speed
 `RecognitionSpeedNotVisible` | -`0.500000000` | -`0.500000000` | -`0.500000000` | must be negative, how the recognition is decreased
 `RecognitionTimeDistanceGain` | `0.100000000` | `0.100000000` | `0.100000000` | perlin gain for the distance influencing the recognition time
@@ -636,7 +636,7 @@ Parameter | v1.1&ndash;1.2.5 | v1.3&ndash;1.3.4 | v1.4&ndash;1.4.2 | Description
 `UnarmedAttackBase` | `2.000000000` | `2.000000000` | `2.000000000` | attack value for attack with relative stam cost = 1
 `UnarmedAttackReqStrBase` | `2.000000000` | `2.000000000` | `2.000000000` | for attack with relative stam cost = 1
 `UnarmedBlockDefense` | `3.000000000` | `3.000000000` | `3.000000000` | defense value for unarmed block
-`UnarmedHitArmorDamageCoef` | nil | <font color="blue">`0.250000000`</font> | `0.250000000` | relative to armed combat
+`UnarmedHitArmorDamageCoef` | `nil` | <font color="blue">`0.250000000`</font> | `0.250000000` | relative to armed combat
 `UnconsciousDepthFadeoutSpeedBase` | `1.000000000` | `1.000000000` | `1.000000000` | how fast is the depth consumed
 `UnconsciousTimeWhenTimeIsNotRunning` | `8.000000000` | `8.000000000` | `8.000000000` | if world time is not running, skiptime can not be started when player is unconscious; screen will only fade for this long instead; this is slightly modified by some rpg stats
 `VigourFull` | `100.000000000` | `100.000000000` | `100.000000000` | Maximum vigour
