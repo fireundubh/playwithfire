@@ -8,7 +8,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 ## Table: All Recipes
 
-UUID | Localized Name | Base | Ingredients | Steps | Product at Max Yield | Locations
+UUID | Localized Name | Base | Ingredients | Steps | Product | Locations
 :--- | :--- | :--- | :--- | :--- | :--- | :---
 &nbsp; | Abortifacient |  |  |  | 1x `ui_nm_potion_abortion` | &nbsp;
 `604529f5-ba8b-46e8-8210-2683d67d6dbb` | Aesop potion | Spiritus | 1x Belladonna<br>1x Comfrey<br>1x Wild boar's tusk<br>1x Wormwood | 1. Prepare spirits, a handful of wormwood, one of belladonna and one of comfrey and the tusk of a wild boar.<br>2. Drop the wormwood and tusk in the cauldron.<br>3. Boil the wormwood and tusk for two turns.<br>4. Leave the cauldron to cool.<br>5. Grind the comfrey.<br>6. Drop the belladonna and comfrey in the cauldron, but do not boil.<br>7. Distil. | 3x Aesop potion | Sold by apothecary Konyash at Rattay (`rat_konyas_shop`)<br>Treasure map 13
