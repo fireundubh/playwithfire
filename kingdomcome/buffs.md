@@ -49,9 +49,9 @@ Implementation | Description | Governing RPG Parameters | Version Added
 `Cpp:Educated` | Effect applies when interacting with noblemen, monks, and circators |  | Release
 `Cpp:Haggle` | Effect applies when haggling |  | Release
 `Cpp:HerbItemBuff` | Effect applies when trading `herb` items |  | Release
-`Cpp:Highborn` | Effect applies when interacting with highborn souls | HighbornWealthThreshold | Release
-`Cpp:Lowborn` | Effect applies when interacting with lowborn souls | HighbornWealthThreshold | Release
-`Cpp:ManlyOdourWoman` | Effect applies when interacting with women while Dirtiness greater than threshold | PerkManlyOdourDirtinessThreshold | Release
+`Cpp:Highborn` | Effect applies when interacting with highborn souls | `HighbornWealthThreshold` | Release
+`Cpp:Lowborn` | Effect applies when interacting with lowborn souls | `HighbornWealthThreshold` | Release
+`Cpp:ManlyOdourWoman` | Effect applies when interacting with women while Dirtiness greater than threshold | `PerkManlyOdourDirtinessThreshold` | Release
 `Cpp:ShieldAndArmorBuff` | Effect applies when trading `armor`, `weapon`, and `shield` items |  | Release
 `Cpp:VersusAnimal` | Effect applies when attacking wild animals |  | Release
 `Cpp:VersusCuman` | Effect applies when attacking Cumans  |  | Release
@@ -66,18 +66,18 @@ Implementation | Description | Governing RPG Parameters | Version Added
 Implementation | Description | Governing RPG Parameters | Version Added
 --- | --- | --- | ---
 `Cpp:DrunkChecking` | Effect applies when drunk |  | Release
-`Cpp:DuringFader` | Effect applies during fader | DuringFaderHysteresis (GameTime) | Release
-`Cpp:Infamous` | Effect applies when reputation in location below threshold | LocalHeroInfamousReputationThreshold | Release
-`Cpp:LocalHero` | Effect applies when reputation in location above threshold | LocalHeroInfamousReputationThreshold | Release
-`Cpp:ManlyOdourStealth` | Effect applies when Dirtiness greater than threshold | PerkManlyOdourDirtinessThreshold | Release
+`Cpp:DuringFader` | Effect applies during fader | `DuringFaderHysteresis` (GameTime) | Release
+`Cpp:Infamous` | Effect applies when reputation in location below threshold | `LocalHeroInfamousReputationThreshold` | Release
+`Cpp:LocalHero` | Effect applies when reputation in location above threshold | `LocalHeroInfamousReputationThreshold` | Release
+`Cpp:ManlyOdourStealth` | Effect applies when Dirtiness greater than threshold | `PerkManlyOdourDirtinessThreshold` | Release
 `Cpp:Night` | Effect applies when the world time is night |  | Release
-`Cpp:PerkFlowerPower` | Effect applies when herbs in inventory greater than or equal to parameter value | HerbsInInventoryForFlowerPowerPerk | Release
-`Cpp:PerkHorsenip` | Effect applies when herbs in horse inventory greater than or equal to parameter value | HerbsInHorseInventoryForHorsenipPerk | Release
+`Cpp:PerkFlowerPower` | Effect applies when herbs in inventory greater than or equal to parameter value | `HerbsInInventoryForFlowerPowerPerk` | Release
+`Cpp:PerkHorsenip` | Effect applies when herbs in horse inventory greater than or equal to parameter value | `HerbsInHorseInventoryForHorsenipPerk` | Release
 `Cpp:Sadist` | Effect applies when opponent bleeding |  | Release
-`Cpp:Still` | Effect applies when motionless | StillBuffDuration (WorldTime) | Release
-`Cpp:StillAndHidden` | Effect applies when motionless and undetected | StillAndHiddenHysteresis (GameTime) | Release
-`Cpp:Thunderstorm` | Effect applies during rainy weather when rain intensity greater than threshold | ThunderstormBuffRainIntensity | Release
-`Cpp:Wanted` | Effect applies when wanted in any location | PerkDaringDebonairWantedLevel | Release
+`Cpp:Still` | Effect applies when motionless | `StillBuffDuration` (WorldTime) | Release
+`Cpp:StillAndHidden` | Effect applies when motionless and undetected | `StillAndHiddenHysteresis` (GameTime) | Release
+`Cpp:Thunderstorm` | Effect applies during rainy weather when rain intensity greater than threshold | `ThunderstormBuffRainIntensity` | Release
+`Cpp:Wanted` | Effect applies when wanted in any location | `PerkDaringDebonairWantedLevel` | Release
 `Cpp:WithoutPlatingArmor` | Effect applies when not wearing heavy armor |  | Release
 `Cpp:WithPlatingArmor` | Effect applies when wearing heavy armor |  | Release
 
@@ -85,16 +85,16 @@ Implementation | Description | Governing RPG Parameters | Version Added
 
 Implementation | Description | Governing RPG Parameters | Version Added
 --- | --- | --- | ---
-`Cpp:AdditionalAttackerCountFading` | Effect applies when outnumbered in combat | AdditionalAttackerCountForMaxFadingBuff | Release
+`Cpp:AdditionalAttackerCountFading` | Effect applies when outnumbered in combat | `AdditionalAttackerCountForMaxFadingBuff` | Release
 `Cpp:AgilityWeaponBuff` | Effect applies when Agility weapon requirement greater than Strength requirement |  | Release
-`Cpp:Berserk` | Effect applies when Health below threshold | PerkBerserkHealthThreshold, PerkBerserkDuration (GameTime) | Release
-`Cpp:BloodRush` | Effect applies when nearby enemy killed | PerkBloodRushDistance, PerkBloodRushDuration (GameTime) | Release
-`Cpp:ChainStrike` | Effect applies and stacks when chaining strikes | PerkChainStrikeMaxChain | Release
-`Cpp:HealthFadingFromLimit` | Effect magnitude derived from Health | HealthFadingFromLimitValue | Release
+`Cpp:Berserk` | Effect applies when Health below threshold | `PerkBerserkHealthThreshold`, `PerkBerserkDuration` (GameTime) | Release
+`Cpp:BloodRush` | Effect applies when nearby enemy killed | `PerkBloodRushDistance`, `PerkBloodRushDuration` (GameTime) | Release
+`Cpp:ChainStrike` | Effect applies and stacks when chaining strikes | `PerkChainStrikeMaxChain` | Release
+`Cpp:HealthFadingFromLimit` | Effect magnitude derived from Health | `HealthFadingFromLimitValue` | Release
 `Cpp:HealthinessFading` | Effect magnitude derived from Healthiness |  | Release
 `Cpp:Horseman` | Effect applies for a duration in game time and/or while attacking dogs |  | Release
-`Cpp:KnightInAShiningArmor` | Effect applies when wearing plate armor between dawn and dusk | MaxCloudAverageForShiningArmor | Release
-`Cpp:ProperDiet` | Effect applies when eating well | PerkProperDietActivationTime | Release
+`Cpp:KnightInAShiningArmor` | Effect applies when wearing plate armor between dawn and dusk | `MaxCloudAverageForShiningArmor` | Release
+`Cpp:ProperDiet` | Effect applies when eating well | `PerkProperDietActivationTime` | Release
 `Cpp:ReadingCartographer` | Reveals all locations on map |  | Release
 `Cpp:Respec` |  |  | Patch v1.3
 `Cpp:StrengthWeaponBuff` | Effect applies when Strength weapon requirement greater than Agility requirement |  | Release
