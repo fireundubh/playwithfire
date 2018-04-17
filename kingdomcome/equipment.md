@@ -12,7 +12,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 ## Armor
 
-- [Armor](equipment/armor) 
+- [Armor](equipment/armor) (alphabetical, all properties including V/W Ratio)
 
 ## Weapons
 
