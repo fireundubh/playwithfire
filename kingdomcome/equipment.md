@@ -6,13 +6,28 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 # Equipment
 
-## Armor and Weapons
+## Armour
 
-- [By Value](equipment/by-value) (ordered by: V/W Ratio, Value, Weight)
+### Player
 
-## Armor
+- [Armour - Chain](equipment/chain-armour)
+- [Armour - Cloth](equipment/cloth-armour)
+- [Armour - Heavy Leather](equipment/heavy-leather-armour)
+- [Armour - Light Leather](equipment/light-leather-armour)
+- [Armour - Plate](equipment/plate-armour)
+- [Clothing](equipment/clothing)
+- [Hats](equipment/hat)
+- [Helmets - Plate](equipment/plate-helmet)
+- [Jewelry](equipment/jewelry)
+- [Shoes](equipment/shoe)
+- [Spurs](equipment/spur)
 
-- [Armor](equipment/armor) (alphabetical, all properties including V/W Ratio)
+### Horse
+
+- [Horse Bridles](equipment/horse-bridle)
+- [Horse Caparisons](equipment/horse-caparison)
+- [Horse Saddles](equipment/horse-saddle)
+- [Horse Shoes](equipment/horse-shoe)
 
 ## Weapons
 
