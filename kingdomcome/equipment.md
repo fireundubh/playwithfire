@@ -17,7 +17,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 - [Armour - Plate](equipment/plate-armour)
 - [Clothing](equipment/clothing)
 - [Hats](equipment/hat)
-- [Helmets - Plate](equipment/plate-helmet)
+- [Helmets](equipment/plate-helmet)
 - [Jewelry](equipment/jewelry)
 - [Shoes](equipment/shoe)
 - [Spurs](equipment/spur)
