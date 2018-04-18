@@ -6,6 +6,8 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 # Equipment
 
+**Note:** In the following tables, locations include souls that possess specific items. These locations are prefixed with the phrase "looted from," however, not all items can actually be looted from those souls.
+
 ## Armour
 
 ### Player
