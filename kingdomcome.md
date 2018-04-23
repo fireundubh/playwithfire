@@ -33,6 +33,7 @@ Section | Description
 
 Section | Description
 :--- | :---
+[TBL Files](kingdomcome/tbl-files) | TBL file details
 [TBL File Format](kingdomcome/tbl-file-format) | TBL file format specification
 
 ### Miscellaneous
