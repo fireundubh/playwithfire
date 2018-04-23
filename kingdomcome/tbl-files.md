@@ -6,6 +6,8 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 ## Table
 
+The following data was last updated using game version 1.4.1.
+
 Table | Format<br>Ver. | Descriptors<br>Hash | Layout<br>Hash | Table<br>Ver. | Row<br>Count | Strings<br>Block<br>Size | Unique<br>String<br>Count | File<br>Size | Row<br>Size | Real<br>Row<br>Size | Rows<br>Block<br>Size | Has<br>Strings | Has<br>Padding | Database<br>Attribute<br>Order
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
 `character_beard.tbl` | `3` | `0x2c030c0e` | `0x161b741d` | `1` | `7` | `260` | `18` | `848` | `80` | `56` | `560` | `True` | `True` | `computer_name` - `text` (4 bytes)<br>`timestamp` - `text` (4 bytes)<br>`character_beard_id` - `uuid` (16 bytes)<br>`character_beard_name` - `text` (4 bytes)<br>`model` - `text` (4 bytes)<br>`material` - `text` (4 bytes)<br>`social_class_id` - `integer` (4 bytes)<br>`wealth_level` - `integer` (4 bytes)<br>`gender_id` - `integer` (4 bytes)<br>`race_id` - `integer` (4 bytes)<br>`character_beard_archetype_id` - `integer` (4 bytes)
