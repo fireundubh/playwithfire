@@ -8,7 +8,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 ## Table
 
-The following data was last updated using game version 1.4.1.
+The following data was last updated using game version 1.4.2.
 
 Table | Format<br>Ver. | Descriptors<br>Hash | Layout<br>Hash | Table<br>Ver. | Row<br>Count | Strings<br>Block<br>Size | Unique<br>String<br>Count | File<br>Size | Row<br>Size | Real<br>Row<br>Size | Rows<br>Block<br>Size | Has<br>Strings | Has<br>Padding | Database<br>Attribute<br>Order
 :--- | ---: | :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---: | :---: | :---
