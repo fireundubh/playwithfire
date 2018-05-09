@@ -39,3 +39,54 @@ Count | Disposition | Change
 280 | Stoic | Minor
 11 | Stoic | Average
 1 | Stoic | Major
+
+### IsDisposition
+
+Count | Disposition | Rank | Comparison
+--- | --- | --- | ---
+29 | Aggressive | Rank 2 | GreaterThanOrEqualTo
+4 | Aggressive | Rank 3 | GreaterThanOrEqualTo
+3 | Aggressive | Rank 1 | GreaterThanOrEqualTo
+2 | Aggressive | Rank 2 | EqualTo
+29 | Benevolent | Rank 2 | GreaterThanOrEqualTo
+7 | Benevolent | Rank 1 | GreaterThanOrEqualTo
+2 | Benevolent | None | EqualTo
+2 | Benevolent | Rank 2 | EqualTo
+2 | Benevolent | Rank 3 | GreaterThanOrEqualTo
+1 | Benevolent | Rank 1 | EqualTo
+10 | Clever | Rank 2 | GreaterThanOrEqualTo
+3 | Clever | Rank 3 | GreaterThanOrEqualTo
+2 | Clever | Rank 1 | GreaterThanOrEqualTo
+1 | Clever | Rank 1 | EqualTo
+1 | Clever | Rank 3 | EqualTo
+40 | Cruel | Rank 2 | GreaterThanOrEqualTo
+11 | Cruel | Rank 1 | GreaterThanOrEqualTo
+7 | Cruel | Rank 3 | GreaterThanOrEqualTo
+1 | Cruel | Rank 1 | EqualTo
+1 | Cruel | Rank 2 | EqualTo
+1 | Cruel | Rank 1 | GreaterThan
+20 | Diplomatic | Rank 2 | GreaterThanOrEqualTo
+6 | Diplomatic | Rank 1 | GreaterThanOrEqualTo
+6 | Diplomatic | Rank 3 | GreaterThanOrEqualTo
+1 | Diplomatic | Rank 1 | LessThanOrEqualTo
+34 | Honest | Rank 2 | GreaterThanOrEqualTo
+4 | Honest | Rank 1 | GreaterThanOrEqualTo
+3 | Honest | Rank 3 | GreaterThanOrEqualTo
+1 | Honest | Rank 1 | EqualTo
+1 | Honest | Rank 2 | LessThan
+18 | Passionate | Rank 2 | GreaterThanOrEqualTo
+2 | Passionate | Rank 3 | GreaterThanOrEqualTo
+1 | Passionate | None | GreaterThanOrEqualTo
+1 | Passionate | Rank 1 | GreaterThanOrEqualTo
+22 | Rational | Rank 2 | GreaterThanOrEqualTo
+2 | Rational | Rank 3 | GreaterThanOrEqualTo
+1 | Rational | Rank 1 | GreaterThanOrEqualTo
+37 | Shady | Rank 2 | GreaterThanOrEqualTo
+7 | Shady | Rank 1 | GreaterThanOrEqualTo
+7 | Shady | Rank 3 | GreaterThanOrEqualTo
+1 | Shady | Rank 2 | EqualTo
+1 | Shady | Rank 1 | LessThan
+13 | Stoic | Rank 2 | GreaterThanOrEqualTo
+2 | Stoic | Rank 1 | GreaterThanOrEqualTo
+2 | Stoic | Rank 3 | GreaterThanOrEqualTo
+1 | Stoic | Rank 1 | EqualTo
