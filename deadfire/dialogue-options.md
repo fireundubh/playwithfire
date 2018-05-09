@@ -316,7 +316,7 @@ Count | Skill | Score Min | Score Max
 7 | Streetwise | 2 | 12
 8 | Survival | 1 | 6
 
-#### Party Assistable
+#### Party Assist
 
 Count | Skill | Score Min | Score Max
 --- | --- | --- | ---
