@@ -6,7 +6,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 # Dialogue Options Report
 ## Companions
 
-### IsCompanionActiveInParty[OrPresent]
+### IsCompanionActiveInParty
 
 Count | Companion
 --- | ---
