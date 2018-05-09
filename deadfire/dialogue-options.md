@@ -4,6 +4,36 @@
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
 # Dialogue Options Report
+
+## Attributes
+
+### IsAttributeScoreValue
+
+Count | Attribute | Score Min | Score Max | Character
+--- | --- | --- | --- | ---
+7 | Constitution | 11 | 18 | Watcher
+7 | Dexterity | 11 | 16 | Watcher
+36 | Intelligence | 5 | 20 | Watcher
+44 | Might | 9 | 20 | Watcher
+61 | Perception | 3 | 20 | Watcher
+38 | Resolve | 0 | 18 | Watcher
+
+#### Companion Options
+
+Count | Attribute | Comparison | Score | Character
+--- | --- | --- | --- | ---
+1 | Might | GreaterThanOrEqualTo | 16 | Eder
+1 | Intellect | GreaterThanOrEqualTo | 15 | Serafen
+
+#### Low Score Options
+
+Count | Attribute | Comparison | Score | Character
+--- | --- | --- | --- | ---
+2 | Intellect | LessThan | 8, 10 | Watcher
+1 | Perception | LessThan | 8 | Watcher
+1 | Resolve | LessThan | 8 | Watcher
+2 | Might | LessThanOrEqualTo | 10 | Watcher
+
 ## Companions
 
 ### IsCompanionActiveInParty
