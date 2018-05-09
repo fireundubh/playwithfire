@@ -128,7 +128,7 @@ Count | Companion
 
 ### CrewMemberHasPersonality
 
-Note: The `CrewMemberHasPersonality` checks specific crew members for personalities, but crew member GUIDs are not exposed, so the totals below have been merged.
+Note: The `CrewMemberHasPersonality` function checks specific crew members for personalities, but crew member GUIDs are not exposed, so the totals below have been merged.
 
 Count | Personality
 --- | ---
