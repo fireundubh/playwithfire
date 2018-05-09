@@ -189,15 +189,6 @@ Count | Disposition | Change
 11 | Stoic | Average
 1 | Stoic | Major
 
-## Gender
-
-### IsGender
-
-Count | Gender
---- | ---
-8 | Female
-4 | Male
-
 ### IsDisposition
 
 Count | Disposition | Rank | Comparison
@@ -248,6 +239,15 @@ Count | Disposition | Rank | Comparison
 2 | Stoic | Rank 1 | GreaterThanOrEqualTo
 2 | Stoic | Rank 3 | GreaterThanOrEqualTo
 1 | Stoic | Rank 1 | EqualTo
+
+## Gender
+
+### IsGender
+
+Count | Gender
+--- | ---
+8 | Female
+4 | Male
 
 ## Paladin Orders
 
