@@ -189,6 +189,15 @@ Count | Disposition | Change
 11 | Stoic | Average
 1 | Stoic | Major
 
+## Gender
+
+### IsGender
+
+Count | Gender
+--- | ---
+8 | Female
+4 | Male
+
 ### IsDisposition
 
 Count | Disposition | Rank | Comparison
