@@ -8,6 +8,8 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 ### IsCompanionActiveInParty
 
+The counts from `IsCompanionActiveInPartyOrPresent` were merged into the totals below.
+
 Count | Companion
 --- | ---
 324 | Tekehu
