@@ -4,7 +4,25 @@
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
 # Dialogue Options Report
-## Tables
+## Companions
+
+### IsCompanionActiveInParty[OrPresent]
+
+Count | Companion
+--- | ---
+324 | Tekehu
+289 | Xoti
+273 | Eder
+267 | Maia
+266 | Pallegina
+258 | Serafen
+245 | Aloth
+11 | Rekke
+9 | Ydwin
+6 | Konstanten
+3 | Fessina
+
+## Disposition
 
 ### DispositionAddPoints
 
