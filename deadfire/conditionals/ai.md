@@ -25,7 +25,7 @@ public static bool HasQueuedAction(Guid objectGuid)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Object | Object to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
+Object | Object to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
 
 
 ## Has Valid Interaction Object
@@ -37,7 +37,7 @@ public static bool HasValidInteractionObject(Guid objectGuid)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
+Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
 
 
 ## Is Auto Attack Enabled
@@ -49,7 +49,7 @@ public static bool IsAutoAttackEnabled(Guid objectGuid)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
+Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
 
 
 ## Is Casting Ability
@@ -61,8 +61,8 @@ public static bool IsCastingAbility(Guid objectGuid, Guid abilityGuid)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Object | Object to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
-Ability | Ability to test. |  | 07e64617-1712-4cc0-b72a-d513a5dbcfae | Scripts.BrowserType.GameData
+Object | Object to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
+Ability | Ability to test. |  | 07e64617-1712-4cc0-b72a-d513a5dbcfae | `Scripts.BrowserType.GameData`
 
 
 ## Is Casting With Primary Attack
@@ -74,7 +74,7 @@ public static bool IsCastingWithPrimaryAttack(Guid objectGuid)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
+Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
 
 
 ## Is Current Action Finished
@@ -86,7 +86,7 @@ public static bool IsCurrentActionFinished(Guid objectGuid)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
+Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
 
 
 ## Is Current Action Mid Cast
@@ -98,7 +98,7 @@ public static bool IsCurrentActionMidCast(Guid objectGuid)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
+Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
 
 
 ## Is Current Action Ready
@@ -110,7 +110,7 @@ public static bool IsCurrentActionReady(Guid objectGuid)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
+Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
 
 
 ## Is Current Action Type
@@ -122,8 +122,8 @@ public static bool IsCurrentActionType(Guid objectGuid, Game.AI.Action.ActionTyp
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
-Action Type | Check if the current action is this type. | Game.AI.Action.ActionType.Attack
+Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
+Action Type | Check if the current action is this type. | `Game.AI.Action.ActionType.Attack`
 
 
 ## Is Current Action Valid
@@ -135,7 +135,7 @@ public static bool IsCurrentActionValid(Guid objectGuid)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
+Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
 
 
 ## Is Far From Follow Object
@@ -147,8 +147,8 @@ public static bool IsFarFromFollowObject(Guid objectGuid, float distanceSquared)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
-Distance Squared | Check if follow object is further than specified distance. | 36
+Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
+Distance Squared | Check if follow object is further than specified distance. | 36 | 
 
 
 ## Is Forced Action Targeting Hostile
@@ -160,7 +160,7 @@ public static bool IsForcedActionTargetingHostile(Guid objectGuid)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
+Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
 
 
 ## Is Forced Action Valid
@@ -172,7 +172,7 @@ public static bool IsForcedActionValid(Guid objectGuid)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
+Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
 
 
 ## Is Full Attack
@@ -184,7 +184,7 @@ public static bool IsFullAttack(Guid objectGuid)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
+Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
 
 
 ## Is Grapple Interrupted
@@ -196,7 +196,7 @@ public static bool IsGrappleInterrupted(Guid objectGuid)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
+Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
 
 
 ## Is Grapple Missed
@@ -208,7 +208,7 @@ public static bool IsGrappleMissed(Guid objectGuid)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
+Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
 
 
 ## Is Hostile Investigation
@@ -220,7 +220,7 @@ public static bool IsHostileInvestigate(Guid objectGuid)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
+Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
 
 
 ## Is Instant Cast
@@ -232,7 +232,7 @@ public static bool IsInstantCast(Guid objectGuid)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
+Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
 
 
 ## Is Mover Blocked
@@ -244,7 +244,7 @@ public static bool IsMoverBlocked(Guid objectGuid)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Character | Character to check for movement block (should only be called directly after a MoveState completes). | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
+Character | Character to check for movement block (should only be called directly after a MoveState completes). | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
 
 
 ## Is Reload Required
@@ -256,7 +256,7 @@ public static bool IsReloadRequired(Guid objectGuid)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
+Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
 
 
 ## Is Schedule Interacting With Time Slice Object
@@ -268,8 +268,8 @@ public static bool IsScheduleInteractingWithTimeSliceObject(Guid objectGuid, int
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Object | Object to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
-Time Slice Index | Index of the AI schedule time slice to compare. | 0
+Object | Object to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
+Time Slice Index | Index of the AI schedule time slice to compare. | 0 |
 
 
 ## Is Time To
@@ -281,7 +281,7 @@ public static bool IsTimeTo(Guid objectGuid)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
+Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
 
 
 ## Is Time To Reevaluate Primary Attack
@@ -293,7 +293,7 @@ public static bool IsTimeToReevaluatePrimaryAttack(Guid objectGuid)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
+Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
 
 
 ## Is Within Range and LOS
@@ -305,5 +305,5 @@ public static bool IsWithInRangeAndLOS(Guid objectGuid)
 
 Display Name | Description | Default Value | Browser Type
 --- | --- | --- | ---
-Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | Scripts.BrowserType.ObjectGuid
+Character | Character to check. | 7d150000-0000-0000-0000-000000000000 | `Scripts.BrowserType.ObjectGuid`
 
