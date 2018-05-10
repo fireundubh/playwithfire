@@ -69,7 +69,7 @@ public static bool IsCastingAbility(Guid objectGuid, Guid abilityGuid)
 Index | Display Name | Description | Default Value | Browser Type
 --- | --- | --- | --- | ---
 0 | Object | Object to check. | `7d150000-0000-0000-0000-000000000000` | `Scripts.BrowserType.ObjectGuid`
-1 | Ability | Ability to test. |  | `07e64617-1712-4cc0-b72a-d513a5dbcfae` | `Scripts.BrowserType.GameData`
+1 | Ability | Ability to test. | `07e64617-1712-4cc0-b72a-d513a5dbcfae` | `Scripts.BrowserType.GameData`
 
 
 ## Is Casting With Primary Attack
