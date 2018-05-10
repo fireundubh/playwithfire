@@ -1,5 +1,5 @@
-<!-- TITLE: Dialogue Options -->
-<!-- SUBTITLE: Dialogue Options Report-->
+<!-- TITLE: Deadfire Dialogue Options Report-->
+<!-- SUBTITLE: Deadfire Dialogue Options Report-->
 
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
