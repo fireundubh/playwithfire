@@ -8,6 +8,12 @@ If you want to see more resources like this:
 # Home
 Welcome to the *Pillars of Eternity II: Deadfire* wiki at **#playwithfire**. This wiki was created to provide modders with potentially useful technical information.
 
+## Scripting Reference
+
+Section | Description
+--- | ---
+[Conditionals](deadfire/conditionals) | Conditional Scripts
+
 ## Reports
 
 Section | Description
