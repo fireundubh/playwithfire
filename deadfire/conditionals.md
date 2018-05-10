@@ -1,9 +1,8 @@
-<!-- TITLE: Conditional Scripts -->
-<!-- SUBTITLE: Conditional Scripts -->
+<!-- TITLE: Conditionals -->
 
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
-# Conditional Scripts
+# Conditionals
 ## Categories
 
 * [Abilities](conditionals/abilities)
