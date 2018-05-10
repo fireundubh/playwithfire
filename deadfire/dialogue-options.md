@@ -126,8 +126,6 @@ Count | Companion
 
 ### IsCompanionRelationship
 
-#### Summary
-
 Count | Source | Target
 --- | --- | ---
 14 | Aloth | Eder
