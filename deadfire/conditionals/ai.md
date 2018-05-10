@@ -9,7 +9,8 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 ```csharp
 public static bool HasForcedAction(Guid objectGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -21,7 +22,8 @@ Character | Character to check. | `7d150000-0000-0000-0000-000000000000` | `Scri
 ## Has Queued Action
 ```csharp
 public static bool HasQueuedAction(Guid objectGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -33,7 +35,8 @@ Object | Object to check. | `7d150000-0000-0000-0000-000000000000` | `Scripts.Br
 ## Has Valid Interaction Object
 ```csharp
 public static bool HasValidInteractionObject(Guid objectGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -45,7 +48,8 @@ Character | Character to check. | `7d150000-0000-0000-0000-000000000000` | `Scri
 ## Is Auto Attack Enabled
 ```csharp
 public static bool IsAutoAttackEnabled(Guid objectGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -57,7 +61,8 @@ Character | Character to check. | `7d150000-0000-0000-0000-000000000000` | `Scri
 ## Is Casting Ability
 ```csharp
 public static bool IsCastingAbility(Guid objectGuid, Guid abilityGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -70,7 +75,8 @@ Ability | Ability to test. |  | `07e64617-1712-4cc0-b72a-d513a5dbcfae` | `Script
 ## Is Casting With Primary Attack
 ```csharp
 public static bool IsCastingWithPrimaryAttack(Guid objectGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -82,7 +88,8 @@ Character | Character to check. | `7d150000-0000-0000-0000-000000000000` | `Scri
 ## Is Current Action Finished
 ```csharp
 public static bool IsCurrentActionFinished(Guid objectGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -94,7 +101,8 @@ Character | Character to check. | `7d150000-0000-0000-0000-000000000000` | `Scri
 ## Is Current Action Mid Cast
 ```csharp
 public static bool IsCurrentActionMidCast(Guid objectGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -106,7 +114,8 @@ Character | Character to check. | `7d150000-0000-0000-0000-000000000000` | `Scri
 ## Is Current Action Ready
 ```csharp
 public static bool IsCurrentActionReady(Guid objectGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -118,7 +127,8 @@ Character | Character to check. | `7d150000-0000-0000-0000-000000000000` | `Scri
 ## Is Current Action Type
 ```csharp
 public static bool IsCurrentActionType(Guid objectGuid, Game.AI.Action.ActionType actionType)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -131,7 +141,8 @@ Action Type | Check if the current action is this type. | `Game.AI.Action.Action
 ## Is Current Action Valid
 ```csharp
 public static bool IsCurrentActionValid(Guid objectGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -143,7 +154,8 @@ Character | Character to check. | `7d150000-0000-0000-0000-000000000000` | `Scri
 ## Is Far From Follow Object
 ```csharp
 public static bool IsFarFromFollowObject(Guid objectGuid, float distanceSquared)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -156,7 +168,8 @@ Distance Squared | Check if follow object is further than specified distance. | 
 ## Is Forced Action Targeting Hostile
 ```csharp
 public static bool IsForcedActionTargetingHostile(Guid objectGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -168,7 +181,8 @@ Character | Character to check. | `7d150000-0000-0000-0000-000000000000` | `Scri
 ## Is Forced Action Valid
 ```csharp
 public static bool IsForcedActionValid(Guid objectGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -180,7 +194,8 @@ Character | Character to check. | `7d150000-0000-0000-0000-000000000000` | `Scri
 ## Is Full Attack
 ```csharp
 public static bool IsFullAttack(Guid objectGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -192,7 +207,8 @@ Character | Character to check. | `7d150000-0000-0000-0000-000000000000` | `Scri
 ## Is Grapple Interrupted
 ```csharp
 public static bool IsGrappleInterrupted(Guid objectGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -204,7 +220,8 @@ Character | Character to check. | `7d150000-0000-0000-0000-000000000000` | `Scri
 ## Is Grapple Missed
 ```csharp
 public static bool IsGrappleMissed(Guid objectGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -216,7 +233,8 @@ Character | Character to check. | `7d150000-0000-0000-0000-000000000000` | `Scri
 ## Is Hostile Investigation
 ```csharp
 public static bool IsHostileInvestigate(Guid objectGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -228,7 +246,8 @@ Character | Character to check. | `7d150000-0000-0000-0000-000000000000` | `Scri
 ## Is Instant Cast
 ```csharp
 public static bool IsInstantCast(Guid objectGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -240,7 +259,8 @@ Character | Character to check. | `7d150000-0000-0000-0000-000000000000` | `Scri
 ## Is Mover Blocked
 ```csharp
 public static bool IsMoverBlocked(Guid objectGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -252,7 +272,8 @@ Character | Character to check for movement block (should only be called directl
 ## Is Reload Required
 ```csharp
 public static bool IsReloadRequired(Guid objectGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -264,7 +285,8 @@ Character | Character to check. | `7d150000-0000-0000-0000-000000000000` | `Scri
 ## Is Schedule Interacting With Time Slice Object
 ```csharp
 public static bool IsScheduleInteractingWithTimeSliceObject(Guid objectGuid, int timeSliceIndex)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -277,7 +299,8 @@ Time Slice Index | Index of the AI schedule time slice to compare. | 0 |
 ## Is Time To
 ```csharp
 public static bool IsTimeTo(Guid objectGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -289,7 +312,8 @@ Character | Character to check. | `7d150000-0000-0000-0000-000000000000` | `Scri
 ## Is Time To Reevaluate Primary Attack
 ```csharp
 public static bool IsTimeToReevaluatePrimaryAttack(Guid objectGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
@@ -301,7 +325,8 @@ Character | Character to check. | `7d150000-0000-0000-0000-000000000000` | `Scri
 ## Is Within Range and LOS
 ```csharp
 public static bool IsWithInRangeAndLOS(Guid objectGuid)
-```<br>
+```
+<br>
 
 ### Parameters
 
