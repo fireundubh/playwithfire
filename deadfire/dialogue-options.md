@@ -108,6 +108,8 @@ Count | Subclass
 
 ### CompanionAddRelationship
 
+**Note:** There are ~100 more places where companions earn relationship points between each other, but only relationships with the Watcher are formatted here.
+
 #### Aloth-Watcher
 
 Count | Companion | Axis | Strength
