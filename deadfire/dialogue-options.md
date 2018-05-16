@@ -4,6 +4,7 @@
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
 # Dialogue Options Report
+The following tables were produced from the raw data in [this spreadsheet](https://docs.google.com/spreadsheets/d/1YtruDo0zpVQ3Z7fcdMH4JEo1R8aQSAH9G57BnQ-ekL0/).
 
 ## Attributes
 
