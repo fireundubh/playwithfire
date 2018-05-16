@@ -106,6 +106,86 @@ Count | Subclass
 
 ## Companions
 
+### CompanionAddRelationship
+
+#### Aloth-Watcher
+
+Count | Companion | Axis | Strength
+--- | --- | --- | ---
+11 | Aloth | Negative | Minor 
+4 | Aloth | Negative | Average 
+5 | Aloth | Negative | Major 
+20 | Aloth | Positive | Minor
+1 | Aloth | Positive | Average
+1 | Aloth | Positive | Major
+
+#### Eder-Watcher
+
+Count | Companion | Axis | Strength
+--- | --- | --- | ---
+5 | Eder | Negative | Minor
+6 | Eder | Negative | Average
+4 | Eder | Negative | Major
+3 | Eder | Positive | Minor
+2 | Eder | Positive | Average
+1 | Eder | Positive | Major
+
+#### Maia-Watcher
+
+Count | Companion | Axis | Strength
+--- | --- | --- | ---
+16 | Maia | Negative | Minor
+4 | Maia | Negative | Average
+9 | Maia | Negative | Major
+22 | Maia | Positive | Minor
+4 | Maia | Positive | Average
+2 | Maia | Positive | Major
+
+#### Pallegina-Watcher
+
+Count | Companion | Axis | Strength
+--- | --- | --- | ---
+16 | Pallegina | Negative | Minor
+5 | Pallegina | Negative | Average
+24 | Pallegina | Negative | Major
+15 | Pallegina | Positive | Minor
+1 | Pallegina | Positive | Average
+9 | Pallegina | Positive | Major
+
+#### Serafen-Watcher
+
+Count | Companion | Axis | Strength
+--- | --- | --- | ---
+27 | Serafen | Negative | Minor
+24 | Serafen | Negative | Average
+11 | Serafen | Negative | Major
+56 | Serafen | Positive | Minor
+22 | Serafen | Positive | Average
+9 | Serafen | Positive | Major
+
+#### Tekehu-Watcher
+
+Count | Companion | Axis | Strength
+--- | --- | --- | ---
+20 | Tekehu | Negative | Minor
+3 | Tekehu | Negative | Average
+13 | Tekehu | Negative | Major
+16 | Tekehu | Positive | Minor
+2 | Tekehu | Positive | Average
+3 | Tekehu | Positive | Major
+
+#### Xoti-Watcher
+
+Count | Companion | Axis | Strength
+--- | --- | --- | ---
+22 | Tekehu | Negative | Minor
+12 | Tekehu | Negative | Average
+11 | Tekehu | Negative | Major
+38 | Tekehu | Positive | Minor
+13 | Tekehu | Positive | Average
+13 | Tekehu | Positive | Major
+
+
 ### IsCompanionActiveInParty
 
 **Note:** The counts from `IsCompanionActiveInPartyOrPresent` were merged into the totals below.
