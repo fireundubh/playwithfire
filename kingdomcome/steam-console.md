@@ -32,22 +32,22 @@ If the `delta_manifest_id` argument is not omitted, Steam will download only the
 
 ### Examples
 
-Download the v1.4.2 game assets:
+Download the v1.6.2 game assets:
 
 ```
-download_depot 379430 379432 1956773116114829879
+download_depot 379430 379432 7120882668146484686
 ```
 
-Download the v1.4.2 binaries:
+Download the v1.6.2 binaries:
 
 ```
-download_depot 379430 379433 2984004457424079313
+download_depot 379430 379433 8342093289043735329
 ```
 
-Download only the v1.4.2 game assets that have changed since v1.3.4:
+Download only the v1.6.2 game assets that have changed since v1.6:
 
 ```
-download_depot 379430 379432 1956773116114829879 5914698958093409181
+download_depot 379430 379432 7120882668146484686 6018900492685079222
 ```
 
 ## Optional
