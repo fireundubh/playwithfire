@@ -11,6 +11,10 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 
 ### Version 1.1
 
+BEFORE UPDATING, YOU WILL NEED TO TURN OFF ALL FILTERS AND SAVE YOUR GAME. All Form IDs have been changed.
+
+If you skip this step, you will need to reinstall 1.0 to turn off the loot filters. Failing to do either may not release running scripts from memory and those scripts will loop forever, which is bad. Do not skip this step.
+
 Category | Note
 --- | ---
 Requirements | Auto Loot now requires the Nuka World DLC
