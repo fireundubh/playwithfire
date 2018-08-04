@@ -57,3 +57,12 @@ Upkeep | Removed unused scripts from package
 - Arthmoor, for creating the dummy actor storage cell and dummy actors
 - computeteen5, for investigating workarounds to game engine issues
 - SKK, for advising on fixing the holotape quest script
+
+## To-Do List
+
+- **Components Filter:** Loot items based on what components they offer. Choose from among 32 components. Replaces the Valuables Filter.
+- **Keys Filter:** Loot keys. All or nothing.
+- **Magazines Filter:** Loot magazines. Choose which magazines.
+- **Quest Items Filter:** Loot quest items. Quest items will not be looted via the other filters.
+- **Auto Scrap:** Automatically scrap items based on what components they offer - within settlements and/or without.
+- **Per-Filter Advanced Settings:** All current and future advanced settings will be toggleable per filter. For example, you could allow stealing but only while crouched, or you could allow harvesting but only while in settlements, or you could allow looting Bodies but only when not in combat.
