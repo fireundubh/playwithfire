@@ -1,8 +1,8 @@
-<!-- TITLE: Master of Disguise -->
+<!-- TITLE: Auto Loot -->
 
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
-# Master of Disguise
+# Auto Loot
 ## Version History
 
 ### Version 1.0
