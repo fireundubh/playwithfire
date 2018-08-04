@@ -47,3 +47,9 @@ Upkeep | Removed unused scripts from package
 #### Notes
 
 **Destination Rules:** Rules (formerly Exclusions) are used to enable/disable sending loot to a workshop for either all filters or specific filters. Previously, you had to reset the destination to the player to disable sending loot to a workshop. If you decided to send loot to a workshop again, you had to find the workshop in the menu again. Now, your preferred workshop choice will persist, and you only need to flip a switch to toggle whether loot accumulates there.
+
+#### Special Thanks
+
+- Arthmoor, for creating the dummy actor storage cell and dummy actors
+- computeteen5, for investigating workarounds to game engine issues
+- SKK, for advising on fixing the holotape quest script
