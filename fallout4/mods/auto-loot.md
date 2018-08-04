@@ -54,9 +54,9 @@ Upkeep | Removed unused scripts from package
 
 #### Special Thanks
 
-- Arthmoor, for creating the dummy actor storage cell and dummy actors
-- computeteen5, for investigating workarounds to game engine issues
-- SKK, for advising on fixing the holotape quest script
+- **Arthmoor**, for creating the dummy actor storage cell and dummy actors
+- **computeteen5**, for investigating workarounds to game engine issues
+- **SKK**, for advising on fixing the holotape quest script
 
 ## To-Do List
 
