@@ -12,7 +12,7 @@ Welcome to the *Fallout 4* wiki at **#playwithfire**.n.
 
 Name | Latest Version | Description
 --- | --- | ---
-[Auto Loot](fallout4/auto-loot) | 1.0 | Auto Loot is the first and most configurable auto loot, auto harvest, and auto steal mod for Fallout 4.
+[Auto Loot](fallout4/mods/auto-loot) | 1.0 | Auto Loot is the first and most configurable auto loot, auto harvest, and auto steal mod for Fallout 4.
 
 
 ## Wiki: Reporting Issues
