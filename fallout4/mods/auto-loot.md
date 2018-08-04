@@ -31,16 +31,16 @@ Optimization | Significantly improved performance of all filters
 Optimization | Significantly improved performance of the Take Any filter mode
 Optimization | Micro-optimized holotape menus
 Compatibility | Pre-War NPC no longer used as temporary storage for Bodies and Containers filters
-UI | Merged the "Base Filters" and "Special Filters" submenus
-UI | Renamed Destinations>Exclusions to Destinations>Rules
-UI | Removed "reset to player" option in the Containers submenu because this is no longer possible
-UI | Removed "toggle delay before loot" option because this was ultimately pointless
-UI | Removed unused scrap component filter because implementation was never finished 
-UI | Renamed "Distance" submenus to "Radius" to improve clarity
-UI | Renamed "Containers" submenus to "Destinations" to avoid confusion with Containers filter
-UI | Renamed "send to player or settlement" to "send to settlement"
-UI | Fixed an issue where the 128 units radius option for Special Filters would not change states correctly
-UI | Fixed an issue where you had to reset the destination to the player to disable sending loot to a workshop
+UI / Holotape | Merged the "Base Filters" and "Special Filters" submenus
+UI / Holotape | Renamed Destinations>Exclusions to Destinations>Rules
+UI / Holotape | Removed "reset to player" option in the Containers submenu because this is no longer possible
+UI / Holotape | Removed "toggle delay before loot" option because this was ultimately pointless
+UI / Holotape | Removed unused scrap component filter because implementation was never finished 
+UI / Holotape | Renamed "Distance" submenus to "Radius" to improve clarity
+UI / Holotape | Renamed "Containers" submenus to "Destinations" to avoid confusion with Containers filter
+UI / Holotape | Renamed "send to player or settlement" to "send to settlement"
+UI / Holotape | Fixed an issue where the 128 units radius option for Special Filters would not change states correctly
+UI / Holotape | Fixed an issue where you had to reset the destination to the player to disable sending loot to a workshop
 Upkeep | Repopulated formlists using item tables listed on Nukapedia
 Upkeep | Removed unused scripts from package
 
