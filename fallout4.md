@@ -1,8 +1,6 @@
 <!-- TITLE: Fallout 4 -->
 <!-- SUBTITLE: Fallout 4 -->
 
-If you want to see more resources like this:
-
 [![https://www.patreon.com/fireundubh](https://i.imgur.com/llPEyru.png)](https://www.patreon.com/fireundubh)
 
 # Fallout 4
