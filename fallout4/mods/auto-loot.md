@@ -40,5 +40,10 @@ UI | Renamed "Distance" submenus to "Radius" to improve clarity
 UI | Renamed "Containers" submenus to "Destinations" to avoid confusion with Containers filter
 UI | Renamed "send to player or settlement" to "send to settlement"
 UI | Fixed an issue where the 128 units radius option for Special Filters would not change states correctly
+UI | Fixed an issue where you had to reset the destination to the player to disable sending loot to a workshop
 Upkeep | Repopulated formlists using item tables listed on Nukapedia
 Upkeep | Removed unused scripts from package
+
+#### Notes
+
+**Destination Rules:** Rules (formerly Exclusions) are used to enable/disable sending loot to a workshop for either all filters or specific filters. Previously, you had to reset the destination to the player to disable sending loot to a workshop. If you decided to send loot to a workshop again, you had to find the workshop in the menu again. Now, your preferred workshop choice will persist, and you only need to flip a switch to toggle whether loot accumulates there.
