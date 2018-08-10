@@ -27,7 +27,7 @@ The Filters submenu allows you to toggle which filters are enabled. Think of fil
 
 Filter | Description | Exclusions
 --- | --- | ---
-Ammo | Rounds, shells, cells, harpoons, cannonballs, cells, syringes, and so on | Fusion cores
+Ammo | Rounds, shells, cells, harpoons, cannonballs, cells, syringes, and so on | Fusion Cores
 Armor | Clothing, headwear, and facewear, excluding power armor for obvious reasons | 
 Bodies | Bodies are looted based on whether they are dead, have items, and are associated with an actor type keyword.  |  Some bodies may look like bodies but are actually activators; these are not lootable.
 Containers | Deks, ammo boxes, trash cans, cabinets, toolboxes, etc.  | 
@@ -38,6 +38,8 @@ Junk | Anything you can scrap |
 Medicine | Stimpaks, Rad-X, and other drugs | 
 Valuables | Junk items with rare crafting components | 
 Weapons | Guns, big guns, grenades, mines, and close combat weapons | 
+
+Activators, such as Caps Stashes and Bobby Pin Boxes, are not lootable by Auto Loot.
 
 ### Destinations
 
