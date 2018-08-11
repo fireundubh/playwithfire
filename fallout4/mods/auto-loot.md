@@ -65,6 +65,7 @@ If you skip this step, you will need to reinstall 1.0 to turn off the loot filte
 - **Arthmoor**, for creating the dummy actor storage cell and dummy actors
 - **computeteen5**, for investigating workarounds to game engine issues
 - **SKK**, for advising on fixing the holotape quest script
+- **Patreon/PayPal Backers**, for testing pre-release versions
 
 ## To-Do List
 
