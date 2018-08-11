@@ -15,38 +15,46 @@ BEFORE UPDATING, YOU WILL NEED TO TURN OFF ALL FILTERS AND SAVE YOUR GAME. All F
 
 If you skip this step, you will need to reinstall 1.0 to turn off the loot filters. Failing to do either may not release running scripts from memory and those scripts will loop forever, which is bad. Do not skip this step.
 
-Category | Note
---- | ---
-Requirements | Auto Loot now requires the Nuka World DLC
-New Feature | Added Armor Filter
-New Feature | Added Weapons Filter
-New Feature | Added support for the Nuka-World Red Rocket settlement
-New Feature | Added support for items added by the Automatron, Far Harbor, and Nuka World DLC
-New Feature | Added Advanced>Settings toggle for Allow Looting While In Combat
-New Feature | Added Advanced>Settings toggle for Allow Looting While Sneaking
-New Feature | Added Advanced>Settings toggle for Allow Looting Legendary Items
-New Feature | Restored Take Any filter mode to Advanced submenu, allowing filters to be used as "shopping lists"
-New Feature | Added DLC settlements to possible Destinations (Note: In 1.0, the menus are there, but the underlying code wasn't implemented.)
-Configuration | Changed defaults for all Destination Rules from "send to settlement" to "send to player"
-Stability | All filters now use dummy actors to loot and transfer items to (hopefully) avoid a Papyrus crash
-Stability | Prevented items from being looted while in VATS mode to avoid a Scaleform crash
-Optimization | Sorted formlists by reference count (i.e., filters now look for most common items first)
-Optimization | Significantly improved performance of all filters
-Optimization | Significantly improved performance of the Take Any filter mode
-Optimization | Micro-optimized holotape menus
-Compatibility | Pre-War NPC no longer used as temporary storage for Bodies and Containers filters
-UI / Holotape | Merged the "Base Filters" and "Special Filters" submenus
-UI / Holotape | Renamed Destinations>Exclusions to Destinations>Rules
-UI / Holotape | Removed "reset to player" option in the Containers submenu because this is no longer possible
-UI / Holotape | Removed "toggle delay before loot" option because this was ultimately pointless
-UI / Holotape | Removed unused scrap component filter because implementation was never finished 
-UI / Holotape | Renamed "Distance" submenus to "Radius" to improve clarity
-UI / Holotape | Renamed "Containers" submenus to "Destinations" to avoid confusion with Containers filter
-UI / Holotape | Renamed "send to player or settlement" to "send to settlement"
-UI / Holotape | Fixed an issue where the 128 units radius option for Special Filters would not change states correctly
-UI / Holotape | Fixed an issue where you had to reset the destination to the player to disable sending loot to a workshop
-Upkeep | Repopulated formlists using item tables listed on Nukapedia
-Upkeep | Removed unused scripts from package
+#### New Features
+
+* Added full support for the Automatron DLC, including items, workshops, and locations
+* Added full support for the Far Harbor DLC, including items, workshops, and locations
+* Added full support for the Nuka World DLC, including items, workshops, and locations
+* Added an Armor filter for automatically looting clothing, headwear, and facewear
+* Added a Weapons filter for automatically looting ranged, melee, and throwing weapons
+* Added a Take Any filter mode that allows you to, for example, loot only ammo from bodies
+* Added filter-independent radius settings
+* Added filter-independent destination settings
+* Added persistent destination settings
+
+#### Fixes
+
+* Fixed an issue where the game would crash for some users when sending loot to the player
+* Fixed an issue where Scaleform would crash the game when items were looted while in VATS mode
+* Fixed an issue where the Auto Loot Holotape would occasionally not be added to the player
+* Fixed an issue where the 128 units radius toggle for some filters would not change states
+* Fixed an issue where the player had to reset the destination to the player to disable sending loot to a workshop
+* Fixed an issue where some bodies were not automatically looted
+
+#### Optimization
+
+* Significantly improved performance of all filters (e.g., filters now look for most common items first)
+* Significantly improved performance of the Take Any filter mode
+* Repopulated formlists using playable item tables from Nukapedia
+* Removed unused scripts
+
+#### Usability
+
+* Set default destination to the Sanctuary Hills workshop
+* Reset default destination rule from _send to workshop_ to _send to player_
+* Merged similar submenus, such as Base Filters and Special Filters
+* Removed deprecated options, such as "reset destination to player" and "toggle delay before loot"
+* Renamed submenus to improve clarity (e.g., _Distance_ is now _Radius_, _Containers_ is now _Destinations_)
+* Renamed menu items to improve clarity (e.g., _send to player or settlement_ is now _send to workshop_)
+
+#### Compatibility
+
+* Pre-War actor no longer used as off-stage storage for Bodies and Containers filters
 
 #### Notes
 
