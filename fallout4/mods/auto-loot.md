@@ -5,10 +5,6 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 # Auto Loot
 ## Version History
 
-### Version 1.0
-
-- Initial re-release
-
 ### Version 1.1
 
 BEFORE UPDATING, YOU WILL NEED TO TURN OFF ALL FILTERS AND SAVE YOUR GAME. All Form IDs have been changed.
@@ -66,6 +62,10 @@ If you skip this step, you will need to reinstall 1.0 to turn off the loot filte
 - **computeteen5**, for investigating workarounds to game engine issues
 - **SKK**, for advising on fixing the holotape quest script
 - **Patreon/PayPal Backers**, for testing pre-release versions
+
+### Version 1.0
+
+- Initial re-release
 
 ## To-Do List
 
