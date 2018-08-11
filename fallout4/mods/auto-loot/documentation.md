@@ -52,6 +52,8 @@ Use the Rules submenu to control where all filters or some filters send loot.
 * **Send to player:** Looted items are activated by an off-stage actor who transfers those items to the player. Off-stage actors must act as middlemen to avoid an engine issue.
 * **Send to workshop:** Looted items are activated by an off-stage actor who transfers those items to a workshop. The destination workshop defaults to Sanctuary Hills.
 
+**Note:** The All rule is not an override; the All rule is a convenient bulk operation that toggles all rules to either "send to player" or "send to workshop."
+
 ### Ownership
 
 The Ownership submenu allows you to control whether Auto Loot obeys locks and item/container ownership.
