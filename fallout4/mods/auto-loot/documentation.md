@@ -30,16 +30,38 @@ Filter | Description | Exclusions
 Ammo | Rounds, shells, cells, harpoons, cannonballs, cells, syringes, and so on | Fusion Cores
 Armor | Clothing, headwear, and facewear, excluding power armor for obvious reasons | 
 Bodies | Bodies are looted based on whether they are dead, have items, and are associated with an actor type keyword.  |  Some bodies may look like bodies but are actually activators; these are not lootable.
+Components | Any junk items you can scrap with specific components |
 Containers | Deks, ammo boxes, trash cans, cabinets, toolboxes, etc.  | 
 Drinks | Nuka beverages, water, and alcohol  | 
 Flora | Anything you can harvest, usch as wild carrot flowers and tato plants  | 
 Food | Mostly food but includes special consumables such as Stealth Boys | 
+Holotapes | Holotapes, holodisks, hologames | 
 Junk | Anything you can scrap | 
+Keys | Keys and passwords |
+Magazines | Skill magazines | 
 Medicine | Stimpaks, Rad-X, and other drugs | 
 Valuables | Junk items with rare crafting components | 
 Weapons | Guns, big guns, grenades, mines, and close combat weapons | 
 
 Activators, such as Caps Stashes and Bobby Pin Boxes, are not lootable by Auto Loot.
+
+#### Components
+
+- The Junk filter will not work while the Components filter is enabled.
+- The Valuables filter will not work while the Components filter is enabled.
+
+**Performance Note:** The Components filter in 1.1 is experimental and can be *very* slow.
+
+#### Junk
+
+- The Junk filter will not work while the Components filter is enabled.
+- The Junk filter will not work while the Valuables filter is enabled.
+
+#### Valuables
+
+- The Junk filter will not work while the Valuables filter is enabled.
+- The Valuables filter will not work while the Components filter is enabled.
+
 
 ### Destinations
 
