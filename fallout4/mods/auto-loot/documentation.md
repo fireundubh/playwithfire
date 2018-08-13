@@ -19,7 +19,10 @@ Radius | Description
 256 units | A radius the size of two humanoid actors, heightwise, around the player
 128 units | A radius the size of a humanoid actor, heightwise, around the player
 
-The radius is effectively planar, meaning that the radius does not extend vertically beyond some engine limit.
+#### Notes
+
+- The radius is effectively planar, meaning that the radius does not extend vertically beyond some engine limit.
+- Auto Loot cannot loot objects outside the currently loaded area.
 
 ### Filters
 
