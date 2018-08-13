@@ -43,7 +43,7 @@ Medicine | Stimpaks, Rad-X, and other drugs |
 Valuables | Junk items with rare crafting components | 
 Weapons | Guns, big guns, grenades, mines, and close combat weapons | 
 
-Activators, such as Caps Stashes and Bobby Pin Boxes, are not lootable by Auto Loot.
+**General Exclusions Note:** Activators, such as Caps Stashes and Bobby Pin Boxes, are not lootable by Auto Loot.
 
 #### Components
 
