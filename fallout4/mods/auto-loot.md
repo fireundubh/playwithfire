@@ -21,6 +21,10 @@ If you skip this step, you will need to reinstall 1.0 to turn off the loot filte
 * Added full support for the Far Harbor DLC, including items, workshops, and locations
 * Added full support for the Nuka World DLC, including items, workshops, and locations
 * Added an Armor filter for automatically looting clothing, headwear, and facewear
+* Added a Components filter for automatically looting junk with specific components
+* Added a Holotapes filter for automatically looting holotapes
+* Added a Keys filter for automatically looting keys
+* Added a Magazines filter for automatically looting magazines
 * Added a Weapons filter for automatically looting ranged, melee, and throwing weapons
 * Added a Take Any filter mode that allows you to, for example, loot only ammo from bodies
 * Added filter-independent radius settings
