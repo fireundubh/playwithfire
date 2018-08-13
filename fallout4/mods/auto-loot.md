@@ -5,7 +5,7 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 # Auto Loot
 ## Documentation
 
-[Read Documentation](documentation)
+[Read Documentation](auto-loot/documentation)
 
 ## Version History
 
