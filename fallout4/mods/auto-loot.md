@@ -3,6 +3,8 @@
 If you want to see more mods like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
 # Auto Loot
+## [Documentation](documentation)
+
 ## Version History
 
 ### Version 1.1
