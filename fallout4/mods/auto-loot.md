@@ -50,6 +50,7 @@ If you skip this step, you will need to reinstall 1.0 to turn off the loot filte
 
 #### Usability
 
+* Set default radius to 128 units
 * Set default destination to the Sanctuary Hills workshop
 * Reset default destination rule from _send to workshop_ to _send to player_
 * Merged similar submenus, such as Base Filters and Special Filters
