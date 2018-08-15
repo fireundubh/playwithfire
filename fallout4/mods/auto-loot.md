@@ -20,7 +20,7 @@ If you skip this step, you will need to reinstall 1.0 to turn off the loot filte
 * Added full support for the Automatron DLC, including items, workshops, and locations
 * Added full support for the Far Harbor DLC, including items, workshops, and locations
 * Added full support for the Nuka World DLC, including items, workshops, and locations
-* Added a Pause/Resume feature that retains filter state selections
+* Added a Pause/Resume feature that retains filter state settings
 * Added an Armor filter for automatically looting clothing, headwear, and facewear
 * Added a Components filter for automatically looting junk with specific components
 * Added a Keys filter for automatically looting keys
