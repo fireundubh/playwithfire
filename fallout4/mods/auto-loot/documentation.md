@@ -5,6 +5,26 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 # Auto Loot
 ## Documentation
 
+### Pause/Resume
+
+The Pause/Resume actions can be used to temporarily suspend and continue any enabled filters. This allows you to retain filter states throughout a save.
+
+In addition, these actions are executed more quickly than the previous toggles, which added/removed Auto Loot perks.
+
+You can pause and resume from the console as well.
+
+To pause:
+
+```
+set AutoLoot_Setting_PauseLooting to 1
+```
+
+To resume:
+
+```
+set AutoLoot_Setting_PauseLooting to 0
+```
+
 ### Radius
 
 The Radius submenu allows you to set a loot radius for either all filters or specific filters.
