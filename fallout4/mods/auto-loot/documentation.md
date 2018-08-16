@@ -3,6 +3,10 @@
 If you want to see more mods like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
 # Auto Loot
+## Version History
+
+[Read Version History](/fallout4/mods/auto-loot)
+
 ## Documentation
 
 ### Pause/Resume
