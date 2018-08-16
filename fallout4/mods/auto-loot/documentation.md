@@ -9,7 +9,7 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 
 The Pause/Resume actions can be used to temporarily suspend and continue any enabled filters. This allows you to retain filter states throughout a save.
 
-In addition, these actions are executed more quickly than the previous toggles, which added/removed Auto Loot perks.
+In addition, these actions are executed more quickly than the previous toggles, which used a loop to add and remove Auto Loot perks.
 
 #### Console Commands
 
