@@ -27,6 +27,10 @@ To resume:
 set AutoLoot_Setting_PauseLooting to 0
 ```
 
+#### Hotkeys
+
+You can use a mod like [FO4 Hotkeys](https://www.nexusmods.com/fallout4/mods/11664/) to bind the above console commands to keys.
+
 ### Radius
 
 The Radius submenu allows you to set a loot radius for either all filters or specific filters.
