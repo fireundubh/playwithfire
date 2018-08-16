@@ -9,6 +9,13 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 
 ## Version History
 
+### Version 1.1.1
+
+#### Fixed Issues
+
+* Fixed an issue where component states in the Select Components menu could not be toggled
+
+
 ### Version 1.1
 
 BEFORE UPDATING, YOU WILL NEED TO TURN OFF ALL FILTERS AND SAVE YOUR GAME. All Form IDs have been changed.
@@ -31,7 +38,7 @@ If you skip this step, you will need to reinstall 1.0 to turn off the loot filte
 * Added filter-independent destination settings
 * Added persistent destination settings
 
-#### Fixes
+#### Fixed Issues
 
 * Fixed an issue where the game would crash for some users when sending loot to the player
 * Fixed an issue where Scaleform would crash the game when items were looted while in VATS mode
