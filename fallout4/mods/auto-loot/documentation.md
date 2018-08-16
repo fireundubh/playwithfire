@@ -11,6 +11,8 @@ The Pause/Resume actions can be used to temporarily suspend and continue any ena
 
 In addition, these actions are executed more quickly than the previous toggles, which added/removed Auto Loot perks.
 
+#### Console Commands
+
 You can pause and resume from the console as well.
 
 To pause:
