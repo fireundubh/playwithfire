@@ -10,7 +10,7 @@ The author of the code below uses a loop to iterate through an array uncondition
 ```
 Int i = 0
 
-While (i < LootArray.Length)
+While (i < NativeArray.Length)
 	If PlayerRef.WouldBeStealing(objLoot)
 		objLoot.SetActorRefOwner(PlayerRef)
 	EndIf
@@ -31,7 +31,7 @@ In the absence of formal `break` statements, the code above could be written:
 Int i = 0
 Bool bBreak = False
 
-While (i < LootArray.Length) && !bBreak
+While (i < NativeArray.Length) && !bBreak
 	If !GameStateIsValid()
 		bBreak = True
 	EndIf
