@@ -36,8 +36,8 @@ If there were 20 items in the outer array, and 20 items in each formlist, these 
 Always finish your code as fast as possible. Using properties, the above code can be refactored like so:
 
 ```
-Formlist Property MyFormlist1 Auto Const
-Formlist Property MyFormlist2 Auto Const
+FormList Property MyFormList1 Auto Const
+FormList Property MyFormList2 Auto Const
 
 Int i = 0
 Bool bBreak = False
@@ -46,12 +46,12 @@ While (i < DynamicArray.Length) && !bBreak
 	If !bBreak
 		ObjectReference kItem = DynamicArray[i] as ObjectReference
 	
-		If MyFormlist1.HasForm(kItem)
+		If MyFormList1.HasForm(kItem)
 			; do stuff
 			bBreak = True
 		EndIf
 	
-		If MyFormlist2.HasForm(kItem)
+		If MyFormList2.HasForm(kItem)
 			; do stuff
 			bBreak = True
 		EndIf
