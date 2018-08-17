@@ -10,7 +10,7 @@ This working document aims to present all the ways modders write "bad Papyrus" a
 
 ## Correctness
 
-- [Not returning a value on all code paths](not returning a value on all code paths)
+- [Not returning a value on all code paths](not-returning-a-value-on-all-code-paths)
 - [Not using a break condition in a loop](not using a break condition in a while loop)
 
 ## Maintainability
