@@ -28,5 +28,5 @@ This working document aims to present all the ways modders write "bad Papyrus" a
 
 ## Performance
 
-- [Using nested loops](papyrus-anti-patterns/using-nested-loops) (no page yet)
+- [Using nested loops](papyrus-anti-patterns/using-nested-loops)
 
