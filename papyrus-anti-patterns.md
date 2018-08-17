@@ -16,17 +16,17 @@ This working document aims to present all the ways modders write "bad Papyrus" a
 
 ## Maintainability
 
-- [Not removing orphaned functions](papyrus-anti-patterns/not-removing-orphaned-functions)
-- [Not removing orphaned properties](papyrus-anti-patterns/not-removing-orphaned-properties)
-- [Using a single letter to name your variables](papyrus-anti-patterns/using-a-single-letter-to-name-your-variables)
-- [Using a variable to store a property value used once](papyrus-anti-patterns/using-a-variable-to-store-a-property-value-addressed-once)
+- [Not removing orphaned functions](papyrus-anti-patterns/not-removing-orphaned-functions) (no page yet)
+- [Not removing orphaned properties](papyrus-anti-patterns/not-removing-orphaned-properties) (no page yet)
+- [Using a single letter to name your variables](papyrus-anti-patterns/using-a-single-letter-to-name-your-variables) (no page yet)
+- [Using a variable to store a property value used once](papyrus-anti-patterns/using-a-variable-to-store-a-property-value-addressed-once) (no page yet)
 
 ## Readability
 
-- [Indentation contains mixed spaces and tabs](papyrus-anti-patterns/indentation-contains-mixed-spaces-and-tabs)
-- [Indentation contains spaces](papyrus-anti-patterns/indentation-contains-spaces)
+- [Indentation contains mixed spaces and tabs](papyrus-anti-patterns/indentation-contains-mixed-spaces-and-tabs) (no page yet)
+- [Indentation contains spaces](papyrus-anti-patterns/indentation-contains-spaces) (no page yet)
 
 ## Performance
 
-- [Using nested loops](papyrus-anti-patterns/using-nested-loops)
+- [Using nested loops](papyrus-anti-patterns/using-nested-loops) (no page yet)
 
