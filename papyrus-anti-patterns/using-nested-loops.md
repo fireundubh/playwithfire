@@ -5,7 +5,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 # Using nested loops
 ## Anti-pattern
 
-The author of the code below uses an outer loop and an inner loop to iterate over and process data. In this example, the inner loop will execute on each item in the outer array. If there were 20 items in the outer array, and 20 items in the inner array, these nested loops would require 400 iterations to fully complete.
+The author of the code below uses an outer loop and an inner loop to iterate over and process data. In this example, the inner loop will execute on each item in the outer array.
 
 > **Editorial Note:** For the sake of clarity, some best practices are ignored in this example.
 
@@ -30,6 +30,8 @@ While (i < outerArray.Length)
 	i += 1
 EndWhile
 ```
+
+If there were 20 items in the outer array, and 20 items in the inner array, these nested loops would require 400 iterations to fully complete.
 
 ## Best practice
 
