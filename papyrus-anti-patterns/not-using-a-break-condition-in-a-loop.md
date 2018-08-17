@@ -21,7 +21,7 @@ EndWhile
 
 Loops should be able to terminate prematurely when a condition arises where exiting is the only safe action.
 
-> **Developer Note:** While loops  keep the thread alive, which consumes some memory, as the thread and all its stack data and calling functions stack data need to stick around. If you end up with >100 threads running at once for over a few seconds, Papyrus assumes something is wrong and starts spitting out stack dumps to the log so you can find and fix the problem. If the while loops aren't sleeping (via Wait or some other latent call) they can contribute to script lag as the VM has to take time to process the thread in addition to everything else it's running.
+> **Developer Note:** "While loops  keep the thread alive, which consumes some memory, as the thread and all its stack data and calling functions stack data need to stick around. If you end up with >100 threads running at once for over a few seconds, Papyrus assumes something is wrong and starts spitting out stack dumps to the log so you can find and fix the problem. If the while loops aren't sleeping (via Wait or some other latent call) they can contribute to script lag as the VM has to take time to process the thread in addition to everything else it's running." —SmkViper
 
 In the absence of formal `break` statements, the code above could be written:
 
