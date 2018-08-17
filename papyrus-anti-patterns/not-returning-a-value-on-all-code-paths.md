@@ -9,7 +9,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 The author of the code below returns a value on two code paths, but the functon has three code paths.
 
 ```
-Bool Function ItemCanBeProcessed(ObjectReference akItem)
+Bool Function IsItemAvailable(ObjectReference akItem)
 	If akItem.Is3DLoaded() && !akItem.IsDisabled() && !akItem.IsDeleted() && !akItem.IsDestroyed() && !akItem.IsActivationBlocked()
 		Return True
 	Else
@@ -29,7 +29,7 @@ warning: Assigning None to an non-object variable named "::temp21"
 Ensure that all code paths return a value. The above code could be written like so:
 
 ```
-Bool Function ItemCanBeProcessed(ObjectReference akItem)
+Bool Function IsItemAvailable(ObjectReference akItem)
 	If akItem.Is3DLoaded() && !akItem.IsDisabled() && !akItem.IsDeleted() && !akItem.IsDestroyed() && !akItem.IsActivationBlocked()
 		Return True
 	EndIf
