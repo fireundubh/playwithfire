@@ -31,7 +31,7 @@ While (i < outerArray.Length)
 EndWhile
 ```
 
-If there were 20 items in the outer array, and 20 items in the inner array, these nested loops would require 400 iterations to fully complete.
+If there were 20 items in the outer array, and 20 items in the inner array, these nested loops together would require 400 iterations to fully complete.
 
 ## Best practice
 
