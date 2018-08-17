@@ -15,19 +15,18 @@ Unlike arrays returned by native functions and editor-filled array properties, d
 
 The author of the code below uses a loop to iterate through a native array and add items to a dynamic array without validing the length of the dynamic array.
 
+> **Editorial Note:** For the sake of clarity, some best practices are ignored in this example.
+
 ```
 ObjectReference[] kResult = new ObjectReference[0]
 
 ObjectReference[] LootArray = PlayerRef.FindAllReferencesOfType(kItemType, fRadius)
 
 Int i = 0
-Bool bBreak = False
 
-While (i < LootArray.Length) && !bBreak
-	If !bBreak
-		ObjectReference kItem = LootArray[i] as ObjectReference
-		kResult.Add(kItem, 1)
-	EndIf
+While (i < LootArray.Length)k
+	ObjectReference kItem = LootArray[i] as ObjectReference
+	kResult.Add(kItem, 1)
 	
 	i += 1
 EndWhile
