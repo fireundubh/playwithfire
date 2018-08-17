@@ -18,7 +18,7 @@ The author of the code below uses a loop to iterate through a native array and a
 > **Editorial Note:** For the sake of clarity, some best practices are ignored in this example.
 
 ```
-ObjectReference[] kResult = new ObjectReference[0]
+ObjectReference[] DynamicArray = new ObjectReference[0]
 
 ObjectReference[] NativeArray = PlayerRef.FindAllReferencesOfType(kItemType, fRadius)
 
@@ -26,7 +26,7 @@ Int i = 0
 
 While (i < NativeArray.Length)k
 	ObjectReference kItem = NativeArray[i] as ObjectReference
-	kResult.Add(kItem, 1)
+	DynamicArray.Add(kItem, 1)
 	
 	i += 1
 EndWhile
@@ -41,7 +41,7 @@ When a script attempts to exceed the capacity of a dynamic array, Papyrus will l
 Check the length of the dynamic array and break the loop.
 
 ```
-ObjectReference[] kResult = new ObjectReference[0]
+ObjectReference[] DynamicArray = new ObjectReference[0]
 
 ObjectReference[] NativeArray = PlayerRef.FindAllReferencesOfType(kItemType, fRadius)
 
@@ -49,13 +49,13 @@ Int i = 0
 Bool bBreak = False
 
 While (i < NativeArray.Length) && !bBreak
-	If kResult.Length >= 128
+	If DynamicArray.Length >= 128
 		bBreak = True
 	EndIf
 
 	If !bBreak
 		ObjectReference kItem = NativeArray[i] as ObjectReference
-		kResult.Add(kItem, 1)
+		DynamicArray.Add(kItem, 1)
 	EndIf
 	
 	i += 1
