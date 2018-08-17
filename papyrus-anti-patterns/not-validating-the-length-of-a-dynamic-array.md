@@ -33,11 +33,11 @@ While (i < LootArray.Length) && !bBreak
 EndWhile
 ```
 
-## Best practice
-
 When a script attempts to exceed the capacity of a dynamic array, Papyrus will log the following error:
 
 > [error placeholder]
+
+## Best practice
 
 Check the length of the dynamic array and break the loop.
 
