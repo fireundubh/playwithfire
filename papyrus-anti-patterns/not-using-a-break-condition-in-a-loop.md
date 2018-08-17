@@ -14,6 +14,8 @@ While (i < LootArray.Length)
 	If PlayerRef.WouldBeStealing(objLoot)
 		objLoot.SetActorRefOwner(PlayerRef)
 	EndIf
+	
+	i += 1
 EndWhile
 ```
 
@@ -39,5 +41,7 @@ While (i < LootArray.Length) && !bBreak
 			objLoot.SetActorRefOwner(PlayerRef)
 		EndIf
 	EndIf
+	
+	i += 1
 EndWhile
 ```
