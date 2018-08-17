@@ -38,8 +38,8 @@ If there were 20 items in the outer array, and 20 items in the inner array, thes
 Always finish your code as fast as possible. The above code can be refactored like so:
 
 ```
-Formlist Property myFormlist1 Auto Const
-Formlist Property myFormlist2 Auto Const
+Formlist Property MyFormlist1 Auto Const
+Formlist Property MyFormlist2 Auto Const
 
 Int i = 0
 Bool bBreak = False
@@ -48,12 +48,12 @@ While (i < outerArray.Length) && !bBreak
 	If !bBreak
 		ObjectReference kItem = outerArray[i] as ObjectReference
 	
-		If myFormlist1.HasForm(kItem)
+		If MyFormlist1.HasForm(kItem)
 			; do stuff
 			bBreak = True
 		EndIf
 	
-		If myFormlist2.HasForm(kItem)
+		If MyFormlist2.HasForm(kItem)
 			; do stuff
 			bBreak = True
 		EndIf
