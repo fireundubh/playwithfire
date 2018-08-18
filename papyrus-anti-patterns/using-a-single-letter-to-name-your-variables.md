@@ -28,13 +28,13 @@ The compiler does not care if you call a variable `a` or `abracadabra`. Variable
 ```
 GlobalVariable Property fBestSkillContribMax Auto Const
 
-Float Function GetBestSkillWeight(Float fSkillPenalty)
+Float Function GetBestSkillWeight(Float afSkillPenalty)
 	Float fBestSkill = GetBestSkill()
 	
 	If fBestSkill > 100
 		fBestSkill = 100
 	EndIf
 	
-	Return ((fBestSkillContribMax.Value * fBestSkill) / 100) * fSkillPenalty
+	Return ((fBestSkillContribMax.Value * fBestSkill) / 100) * afSkillPenalty
 EndFunction
 ```
