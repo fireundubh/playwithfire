@@ -8,7 +8,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 A dynamic array is a new feature introduced by Fallout 4. Dynamic arrays can be created by passing zero to the array length. For example:
 
 ```
-ObjectReference[] kResult = new ObjectReference[0]
+ObjectReference[] DynamicArray = new ObjectReference[0]
 ```
 
 Unlike arrays returned by native functions and editor-filled array properties, dynamic arrays are limited to 128 items.
