@@ -5,7 +5,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 # Using a variable to store a property value used once
 ## Anti-pattern
 
-The author of the code below declares a reusable variable to store a property value, but the variable is used only once.
+The author of the code below declares a reusable variable to store a property value but the variable is used in only one code path.
 
 ```
 GlobalVariable Property SendMessage Auto Const
