@@ -35,6 +35,6 @@ Float Function GetBestSkillWeight(Float afSkillPenalty)
 		fBestSkill = 100
 	EndIf
 	
-	Return ((BestSkillContribMax.Value as Float * fBestSkill) / 100) * afSkillPenalty
+	Return ((BestSkillContribMax.Value * fBestSkill) / 100) * afSkillPenalty
 EndFunction
 ```
