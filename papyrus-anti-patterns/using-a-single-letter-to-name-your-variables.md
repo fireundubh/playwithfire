@@ -10,8 +10,8 @@ Sometimes programmers will use single letters to name variables. This produces u
 ```
 GlobalVariable Property c Auto Const
 
-Float Function GetBestSkillWeight(Float a)
-	Float b = GetBestSkill()
+Float Function gbsw(Float a)
+	Float b = gbs()
 	
 	If b > 100
 		b = 100
