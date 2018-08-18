@@ -26,7 +26,7 @@ EndFunction
 The compiler does not care if you call a variable `a` or `abracadabra`. Variables should be named to help the programmer.
 
 ```
-GlobalVariable Property fBestSkillContribMax Auto Const
+GlobalVariable Property BestSkillContribMax Auto Const
 
 Float Function GetBestSkillWeight(Float afSkillPenalty)
 	Float fBestSkill = GetBestSkill()
@@ -35,6 +35,6 @@ Float Function GetBestSkillWeight(Float afSkillPenalty)
 		fBestSkill = 100
 	EndIf
 	
-	Return ((fBestSkillContribMax.Value * fBestSkill) / 100) * afSkillPenalty
+	Return ((BestSkillContribMax.Value as Float * fBestSkill) / 100) * afSkillPenalty
 EndFunction
 ```
