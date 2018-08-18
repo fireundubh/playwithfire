@@ -14,12 +14,16 @@ While (i < DynamicArray.Length)
 	FormList kFormList = DynamicArray[i] as FormList
 	
 	Int j = 0
+	Bool bBreak = False
 	
-	While (j < kFormList.GetSize())
-		ObjectReference kItem = kFormList.GetAt(j) as ObjectReference
-		
-		If kFormList.HasForm(kItem)
-			; do stuff
+	While (j < kFormList.GetSize()) && !bBreak
+		If !bBreak
+			ObjectReference kItem = kFormList.GetAt(j) as ObjectReference
+
+			If kFormList.HasForm(kItem)
+				; do stuff
+				bBreak = True
+			EndIf
 		EndIf
 		
 		j += 1
