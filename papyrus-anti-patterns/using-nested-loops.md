@@ -5,7 +5,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 # Using nested loops
 ## Anti-pattern
 
-The author of the code below uses an outer loop and an inner loop to iterate over and process data in formlists. In this example, the inner loop will execute on each item in the outer array.
+The author of the code below uses an outer loop and an inner loop to iterate over and process data in a list. In this example, the inner loop will execute on each item in the outer array.
 
 ```
 Int i = 0
