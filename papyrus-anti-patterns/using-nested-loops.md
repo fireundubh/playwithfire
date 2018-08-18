@@ -31,9 +31,13 @@ EndWhile
 
 If there were 20 items in the outer array, and 20 items in each formlist, these nested loops together would require 400 iterations to fully complete.
 
+How many iterations would be needed to complete three, or four, or five nested loops?
+
 ## Best practice
 
-Always finish your code as fast as possible. Using properties, the above code can be refactored like so:
+Consider whether you need to access every value in each loop. If nested loops are the correct solution, look closer at where you can optimize.
+
+Otherwise, always finish your code as fast as possible. Using properties, the above code can be refactored like so:
 
 ```
 FormList Property MyFormList1 Auto Const
