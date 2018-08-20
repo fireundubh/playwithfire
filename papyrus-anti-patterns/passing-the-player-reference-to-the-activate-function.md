@@ -8,8 +8,8 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 The author of the code below passes the player reference to the `Activate` function to loot an item to the player's inventory.
 
 ```
-If objLoot != None
-	objLoot.Activate(Game.GetPlayer())
+If kItem != None
+	kItem.Activate(Game.GetPlayer())
 EndIf
 ```
 
