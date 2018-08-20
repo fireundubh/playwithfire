@@ -27,7 +27,7 @@ Since an actor value (the denominator) can be zero, this function call may fail 
 
 ## Best practice
 
-Check whether the denominator is zero and set the denominator to a minimal nonzero value before executing a division or modulus operation.
+Check whether the denominator is zero and set the denominator to an acceptable nonzero value before executing a division or modulus operation.
 
 ```
 Actor Property PlayerRef Auto
