@@ -19,13 +19,13 @@ While (i < ItemArray.Length)
 EndWhile
 ```
 
-## Best practice
-
 If an object or argument becomes `None` prior to the function call, Papyrus will abort the function call and log the following error:
 
 > error: Cannot call `Activate()` on a `None` object, aborting function call
 
-Check the variable before the function call.
+## Best practice
+
+Check the variable or variables for `None` before the function call.
 
 ```
 Int i = 0
