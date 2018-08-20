@@ -21,7 +21,11 @@ EndWhile
 
 ## Best practice
 
-If an object or argument could become `None` or any other undesirable value, check the variable before the function call.
+If an object or argument becomes `None` prior to the function call, Papyrus will abort the function call and log the following error:
+
+> error: Cannot call `Activate()` on a `None` object, aborting function call
+
+Check the variable before the function call.
 
 ```
 Int i = 0
@@ -36,7 +40,3 @@ While (i < ItemArray.Length)
 	i += 1
 EndWhile
 ```
-
-Otherwise, Papyrus will abort the function call and log the following error:
-
-> Cannot call `Activate()` on a `None` object, aborting function call
