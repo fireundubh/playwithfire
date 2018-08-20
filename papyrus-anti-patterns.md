@@ -12,7 +12,7 @@ This working document aims to present all the ways modders write "bad Papyrus" a
 
 - [Not returning a value on all code paths](papyrus-anti-patterns/not-returning-a-value-on-all-code-paths)
 - [Not using a break condition in a loop](papyrus-anti-patterns/not-using-a-break-condition-in-a-loop)
-- [Not validating arguments before passing them to functions](papyrus-anti-patterns/not-validating-arguments-before-passing-them-to-functions)
+- [Not validating objects or arguments before calling functions](papyrus-anti-patterns/not-validating-objects-or-arguments-before-calling-functions)
 - [Not validating the length of a dynamic array](papyrus-anti-patterns/not-validating-the-length-of-a-dynamic-array)
 
 ## Maintainability
