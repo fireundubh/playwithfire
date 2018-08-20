@@ -15,8 +15,6 @@ Unlike arrays returned by native functions and editor-filled array properties, d
 
 The author of the code below uses a loop to iterate through a native array and add items to a dynamic array without validing the length of the dynamic array.
 
-> **Editorial Note:** For the sake of clarity, some best practices are ignored in this example.
-
 ```
 ObjectReference[] DynamicArray = new ObjectReference[0]
 
