@@ -23,7 +23,7 @@ EndWhile
 
 If you try to access an element of a `None` array, Papyrus will log the following error:
 
-> Cannot access an element of a `None` array
+> error: Cannot access an element of a `None` array
 
 Check that the array exists before accessing elements of that array.
 
