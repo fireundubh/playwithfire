@@ -25,6 +25,7 @@ If an object or argument could become `None` or any other undesirable value, che
 
 ```
 Int i = 0
+
 While (i < ItemArray.Length)
 	ObjectReference kItem = ItemArray.GetAt(i) as ObjectReference
 
