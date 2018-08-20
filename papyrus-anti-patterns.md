@@ -29,4 +29,4 @@ This working document aims to present all the ways modders write "bad Papyrus" a
 ## Performance
 
 - [Using nested loops](papyrus-anti-patterns/using-nested-loops)
-
+- [Passing the player reference to the Activate function](papyrus-anti-patterns/passing-the-player-reference-to-the-activate-function)
