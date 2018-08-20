@@ -41,10 +41,6 @@ Bool Function CanUnlock()
 	
 	Float fRatio = 100.0 / fSkill
 
-	If fRatio > 5.0
-		Return True
-	EndIf
-
-	Return False
+	Return fRatio > 5.0
 EndIf
 ```
