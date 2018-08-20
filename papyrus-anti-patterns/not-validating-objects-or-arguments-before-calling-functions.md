@@ -37,6 +37,6 @@ While (i < ItemArray.Length)
 EndWhile
 ```
 
-Otherwise, Papyrus will abort the function call and you will see this error in the log:
+Otherwise, Papyrus will abort the function call and log the following error:
 
 > Cannot call `Activate()` on a `None` object, aborting function call
