@@ -25,18 +25,15 @@ If an object or argument could become `None` or any other undesirable value, che
 
 ```
 Int i = 0
+While (i < ItemArray.Length)
+	ObjectReference kItem = ItemArray.GetAt(i) as ObjectReference
 
-If ItemArray != None
-	While (i < ItemArray.Length)
-		ObjectReference kItem = ItemArray.GetAt(i) as ObjectReference
-	
-		If (kItem != None) && (DummyRef != None)
-			kItem.Activate(DummyRef)
-		EndIf
-	
-		i += 1
-	EndWhile
-EndIf
+	If (kItem != None) && (DummyRef != None)
+		kItem.Activate(DummyRef)
+	EndIf
+
+	i += 1
+EndWhile
 ```
 
 Otherwise, Papyrus will abort the function call and you will see this error in the log:
