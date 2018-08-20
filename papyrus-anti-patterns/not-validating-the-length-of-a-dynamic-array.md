@@ -32,7 +32,7 @@ EndWhile
 
 When a script attempts to exceed the capacity of a dynamic array, Papyrus will log the following error:
 
-> error: Array index 128 is out of range (0-127)
+> error: Array index 129 is out of range (0-128)
 
 ## Best practice
 
