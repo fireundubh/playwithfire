@@ -19,11 +19,11 @@ While (i < ItemArray.Length)
 EndWhile
 ```
 
-## Best practice
-
 If you try to access an element of a `None` array, Papyrus will log the following error:
 
 > error: Cannot access an element of a `None` array
+
+## Best practice
 
 Check that the array exists before accessing elements of that array.
 
