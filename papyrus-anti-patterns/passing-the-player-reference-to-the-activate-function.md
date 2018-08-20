@@ -13,7 +13,7 @@ If objLoot != None
 EndIf
 ```
 
-There is a game engine issue where if the player reference is passed as the activator to the `Activate` function, the game may crash or freeze for some players.
+There is a game engine issue where if the player reference is passed as the activator to the `Activate` function, the game may crash or freeze for some players, especially if this function is executed rapidly and frequently.
 
 ## Best practice
 
