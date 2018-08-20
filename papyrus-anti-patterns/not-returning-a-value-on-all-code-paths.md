@@ -20,9 +20,7 @@ EndFunction
 
 Papyrus raises a warning without an accompanying error:
 
-```
-warning: Assigning None to an non-object variable named "::temp21"
-```
+> warning: Assigning None to an non-object variable named "::temp21"
 
 ## Best practice
 
