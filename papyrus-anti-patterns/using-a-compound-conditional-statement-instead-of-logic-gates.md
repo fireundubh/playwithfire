@@ -2,7 +2,7 @@
 
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
-# Using compound conditional statements instead of logic gates
+# Using a compound conditional statement instead of logic gates
 ## Anti-pattern
 
 The author of the code below constructed a compound conditional statement to control the flow of this function.
