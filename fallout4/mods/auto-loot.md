@@ -9,6 +9,27 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 
 ## Version History
 
+### Version 1.1.2 - Hotfix
+
+#### New Features
+
+* Added a Loot Notifications setting in the Advanced submenu
+
+#### Fixed Issues
+
+* Fixed an issue where the Auto Steal setting was not obeyed
+* Fixed an issue where toggling the Components, Valuables, or Junk filter did not disable the other mutually exclusive filters
+* Fixed an issue where the Valuables filter was not properly mutually exclusive with the Components and Junk filters
+
+#### Optimization
+
+* Minor refactoring and micro-optimizations
+
+#### Usability
+
+* Set the default radius to 256 units (increased from 128 units) because 128 units is too short for some objects (e.g., bathroom mirrors with sinks)
+* Set the default Loot Notifications setting to enabled
+
 ### Version 1.1.1 - Hotfix
 
 #### Fixed Issues
