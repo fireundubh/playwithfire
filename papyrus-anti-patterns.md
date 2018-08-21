@@ -23,7 +23,7 @@ This working document aims to present all the ways modders write "bad Papyrus" a
 - [Not removing orphaned properties](papyrus-anti-patterns/not-removing-orphaned-properties) (no page yet)
 - [Using a single letter to name your variables](papyrus-anti-patterns/using-a-single-letter-to-name-your-variables)
 - [Using a variable to store a property value used once](papyrus-anti-patterns/using-a-variable-to-store-a-property-value-used-once)
-- [Using compound conditional statements instead of logic gates](papyrus-anti-patterns/using-compound-conditional statements-instead-of-logic-gates)
+- [Using compound conditional statements instead of logic gates](papyrus-anti-patterns/using-compound-conditional-statements-instead-of-logic-gates)
 - [Using multiple code paths in boolean functions](papyrus-anti-patterns/using-multiple-code-paths-in-boolean-functions)
 
 ## Readability
