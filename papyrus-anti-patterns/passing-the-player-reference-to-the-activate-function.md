@@ -29,6 +29,6 @@ Event OnInit()
 EndEvent
 
 Event OnItemAdded(Form akBaseItem, Int aiItemCount, ObjectReference akItemReference, ObjectReference akSourceContainer)
-	Self.RemoveItem(akBaseItem, aiItemCount, False, PlayerRef as ObjectReference)
+	Self.RemoveItem(akBaseItem, aiItemCount, False, PlayerRef)
 EndEvent
 ```
