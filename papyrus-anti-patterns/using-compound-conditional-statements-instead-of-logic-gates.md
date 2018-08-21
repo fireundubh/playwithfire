@@ -10,7 +10,7 @@ The author of the code below constructed a compound conditional statement to con
 ```
 Bool Function IsItemDeletedDisabledOrDestroyed(ObjectReference akItem)
 	If akItem.IsDisabled() || akItem.IsDeleted() || akItem.IsDestroyed()
-			Return True
+		Return True
 	EndIf
 
 	Return False
@@ -24,15 +24,15 @@ To improve maintainability, use logic gates instead of compound conditional stat
 ```
 Bool Function IsItemDeletedDisabledOrDestroyed(ObjectReference akItem)
 	If akItem.IsDisabled()
-			Return True
+		Return True
 	EndIf
 	
 	If akItem.IsDeleted()
-			Return True
+		Return True
 	EndIf
 	
 	If akItem.IsDestroyed()
-			Return True
+		Return True
 	EndIf
 
 	Return False
