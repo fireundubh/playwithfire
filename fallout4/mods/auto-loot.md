@@ -15,13 +15,15 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 
 * Fixed an issue where items in locked containers could be looted without Auto Lockpick enabled (Part II)
 * Fixed an issue where locked containers would not be unlocked with Auto Lockpick enabled if the player had added Locksmith 4 (but not Locksmith 1, 2, or 3) through the console
-* Removed Clarke's Personal Key from Keys Filter formlist due to association with quest Duty or Dishonor
-* Removed Covenant House Key from Keys Filter formlist due to association with quest Human Error
-* Removed Distress Pulser from Junk Filter formlist due to association with quest The Lost Patrol
-* Removed Distress Pulser from Valuables Filter formlist due to association with quest The Lost Patrol
-* Removed Fusion Pulse Charge from Valuables Filter formlist due to association with quest The Nuclear Option
-* Removed Grandpa Savoldi's Hat from Armor Filter formlist due to association with quest Fallen Hero
-* Removed Thirst Zapper from Weapons Filter formlist due to association with quest The Gauntlet
+* **Armor Filter:** Removed Grandpa Savoldi's Hat from formlist due to association with quest Fallen Hero
+* **Junk Filter:** Removed Distress Pulser from formlist due to association with quest The Lost Patrol
+* **Keys Filter:** Removed Clarke's Personal Key from formlist due to association with quest Duty or Dishonor
+* **Keys Filter:** Removed Covenant House Key from formlist due to association with quest Human Error
+* **Keys Filter:** Removed Vault 81 Tech Password from formlist due to association with quest Hole in the Wall
+* **Valuables Filter:** Removed Distress Pulser from formlist due to association with quest The Lost Patrol
+* **Valuables Filter:** Removed Fusion Pulse Charge from formlist due to association with quest The Nuclear Option
+* **Weapons Filter:** Removed Thirst Zapper from formlist due to association with quest The Gauntlet
+
 
 ### Version 1.1.3 - Hotfix
 
