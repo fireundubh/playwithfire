@@ -22,6 +22,7 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 * Keys Filter: Removed Vault 81 Tech Password from formlist due to association with quest Hole in the Wall
 * Valuables Filter: Removed Distress Pulser from formlist due to association with quest The Lost Patrol
 * Valuables Filter: Removed Fusion Pulse Charge from formlist due to association with quest The Nuclear Option
+* Weapons Filter: Removed Deathclaw Gauntlet from formlist due to association with quest 
 * Weapons Filter: Removed Thirst Zapper from formlist due to association with quest The Gauntlet
 
 
