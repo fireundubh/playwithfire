@@ -17,6 +17,7 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 * Fixed an issue where locked containers would not be unlocked with Auto Lockpick enabled if the player had added Locksmith 4 (but not Locksmith 1, 2, or 3) through the console
 * Removed Clarke's Personal Key from Keys Filter formlist due to association with quest Duty or Dishonor
 * Removed Covenant House Key from Keys Filter formlist due to association with quest Human Error
+* Removed Distress Pulser from Junk Filter formlist due to association with quest The Lost Patrol
 * Removed Grandpa Savoldi's Hat from Armor Filter formlist due to association with quest Fallen Hero
 * Removed Thirst Zapper from Weapons Filter formlist due to association with quest The Gauntlet
 
