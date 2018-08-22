@@ -15,6 +15,7 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 
 * Fixed an issue where items in locked containers could be looted without Auto Lockpick enabled (Part II)
 * Fixed an issue where locked containers would not be unlocked with Auto Lockpick enabled if the player had added Locksmith 4 (but not Locksmith 1, 2, or 3) through the console
+* Implemented formlist-based quest item exclusions for some filters to handle cases where normally non-quest items are used as quest items (e.g., Coffee Cups, Empty Gwinnett Stout Bottles)
 * Armor Filter: Removed Grandpa Savoldi's Hat from formlist due to association with quest Fallen Hero
 * Junk Filter: Removed Distress Pulser from formlist due to association with quest The Lost Patrol
 * Keys Filter: Removed Clarke's Personal Key from formlist due to association with quest Duty or Dishonor
@@ -22,7 +23,7 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 * Keys Filter: Removed Vault 81 Tech Password from formlist due to association with quest Hole in the Wall
 * Valuables Filter: Removed Distress Pulser from formlist due to association with quest The Lost Patrol
 * Valuables Filter: Removed Fusion Pulse Charge from formlist due to association with quest The Nuclear Option
-* Weapons Filter: Removed Deathclaw Gauntlet from formlist due to association with quest 
+* Weapons Filter: Removed Deathclaw Gauntlet from formlist due to association with quest The Devil's Due
 * Weapons Filter: Removed Thirst Zapper from formlist due to association with quest The Gauntlet
 
 
