@@ -15,9 +15,9 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 
 * Fixed an issue where items in locked containers could be looted without Auto Lockpick enabled (Part II)
 * Fixed an issue where locked containers would not be unlocked with Auto Lockpick enabled if the player had added Locksmith 4 (but not Locksmith 1, 2, or 3) through the console
-* Removed Grandpa Savoldi's Hat from Armor Filter formlist due to association with quest Fallen Hero
 * Removed Clarke's Personal Key from Keys Filter formlist due to association with quest Duty or Dishonor
 * Removed Covenant House Key from Keys Filter formlist due to association with quest Human Error
+* Removed Grandpa Savoldi's Hat from Armor Filter formlist due to association with quest Fallen Hero
 * Removed Thirst Zapper from Weapons Filter formlist due to association with quest The Gauntlet
 
 ### Version 1.1.3 - Hotfix
