@@ -9,6 +9,13 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 
 ## Version History
 
+### Version 1.1.3 - Hotfix
+
+#### Fixed Issues
+
+* Fixed an issue where items in locked containers could be looted without Auto Lockpick enabled
+* Fixed several issues where Auto Steal settings were not ignored with Auto Steal disabled
+
 ### Version 1.1.2 - Hotfix
 
 #### New Features
