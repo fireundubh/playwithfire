@@ -18,6 +18,8 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 * Removed Clarke's Personal Key from Keys Filter formlist due to association with quest Duty or Dishonor
 * Removed Covenant House Key from Keys Filter formlist due to association with quest Human Error
 * Removed Distress Pulser from Junk Filter formlist due to association with quest The Lost Patrol
+* Removed Distress Pulser from Valuables Filter formlist due to association with quest The Lost Patrol
+* Removed Fusion Pulse Charge from Valuables Filter formlist due to association with quest The Nuclear Option
 * Removed Grandpa Savoldi's Hat from Armor Filter formlist due to association with quest Fallen Hero
 * Removed Thirst Zapper from Weapons Filter formlist due to association with quest The Gauntlet
 
