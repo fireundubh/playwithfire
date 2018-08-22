@@ -13,6 +13,7 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 
 #### Fixed Issues
 
+* Fixed an issue where the last item in a given radius was always looted during the next cycle unless the last item was the only item in which case that item was never looted
 * Fixed an issue where items in locked containers could be looted without Auto Lockpick enabled (Part II)
 * Fixed an issue where locked containers would not be unlocked with Auto Lockpick enabled if the player had added Locksmith 4 (but not Locksmith 1, 2, or 3) through the console
 * Implemented formlist-based quest item exclusions for some filters to handle cases where normally non-quest items are used as quest items (e.g., Coffee Cups, Empty Gwinnett Stout Bottles)
