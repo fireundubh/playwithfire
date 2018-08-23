@@ -9,6 +9,16 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 
 ## Version History
 
+### Version 1.1.4.2
+
+#### Fixed Issue
+
+* Fixed an issue where items in locked containers could be looted without Auto Lockpick enabled (Part III)
+
+#### Compatibility
+
+* Added a lockpicking perks formlist to support unlocking containers using mod-added perks
+
 ### Version 1.1.4.1 - Hotfix
 
 **Version Note:** Because Nexus has [a longstanding bug](https://github.com/Nexus-Mods/web-issues/issues/601) where you cannot replace a file with a new file if the new file has the same version, the version had to be changed.
@@ -17,7 +27,7 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 
 * Fixed an issue where the 1.1.4 BA2 archive was packaged incorrectly
 
-### Version 1.1.4 - Hotfix
+### Version 1.1.4
 
 #### Fixed Issues
 
@@ -43,7 +53,7 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 * Fixed an issue where items in locked containers could be looted without Auto Lockpick enabled (Part I)
 * Fixed several issues where Auto Steal settings were not ignored with Auto Steal disabled
 
-### Version 1.1.2 - Hotfix
+### Version 1.1.2
 
 #### New Features
 
