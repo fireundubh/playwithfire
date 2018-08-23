@@ -9,6 +9,14 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 
 ## Version History
 
+### Version 1.1.4.1 - Hotfix
+
+**Version Note:** Because Nexus has [a longstanding bug](https://github.com/Nexus-Mods/web-issues/issues/601) where you cannot replace a file with a new file if the new file has the same version, the version had to be changed.
+
+#### Fixed Issue
+
+* Fixed an issue where 1.1.4 was packaged incorrectly
+
 ### Version 1.1.4 - Hotfix
 
 #### Fixed Issues
