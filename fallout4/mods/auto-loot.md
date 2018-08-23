@@ -9,6 +9,8 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 
 ## Version History
 
+**Versioning Note:** Yes, versioning doesn't make any sense! Whatever!
+
 ### Version 1.1.4.2 - Hotfix
 
 #### Fixed Issue
@@ -27,7 +29,7 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 
 * Fixed an issue where the 1.1.4 BA2 archive was packaged incorrectly
 
-### Version 1.1.4
+### Version 1.1.4 - Hotfix
 
 #### Fixed Issues
 
@@ -53,7 +55,7 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 * Fixed an issue where items in locked containers could be looted without Auto Lockpick enabled (Part I)
 * Fixed several issues where Auto Steal settings were not ignored with Auto Steal disabled
 
-### Version 1.1.2
+### Version 1.1.2 - Hotfix
 
 #### New Features
 
