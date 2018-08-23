@@ -17,7 +17,7 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 
 #### Compatibility
 
-* Added a lockpicking perks formlist to support unlocking containers using mod-added perks
+* Added a lockpicking perks formlist to support unlocking containers using mod-added perks (i.e., Locksmith perk checks are no longer hardcoded)
 
 ### Version 1.1.4.1 - Hotfix
 
