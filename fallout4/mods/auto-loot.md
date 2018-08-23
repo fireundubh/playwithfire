@@ -15,7 +15,7 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 
 #### Fixed Issue
 
-* Fixed an issue where 1.1.4 was packaged incorrectly
+* Fixed an issue where the 1.1.4 BA2 archive was packaged incorrectly
 
 ### Version 1.1.4 - Hotfix
 
