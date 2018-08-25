@@ -13,10 +13,17 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 
 #### New Features
 
-* Ammo Filter: Added Fusion Cores to formlist and excluded fusion cores in power generators
+* Ammo Filter: Added Fusion Cores to formlist but excluded fusion cores in power generators
 * Weapons Filter: Added customization options allowing you to loot only Big Guns, Energy Weapons, Explosives, Melee Weapons, Small Guns, Traps, and/or Unarmed weapons
 * Valuables Filter: Added customization options allowing you to loot only junk with Common, Uncommon, and/or Rare components
 * Valuables Filter: Added a global (not mutually exclusive) setting allowing you to loot Bottlecaps, Caps Stashes, Pre-War Cash, Bobby Pins, and Bobby Pin Boxes
+
+#### Not Yet Implemented
+
+* Added Ash Pile and Goo Pile support to the Bodies Filter
+* Added filter-independent toggles for looting while in combat
+* Added filter-independent toggles for looting while sneaking
+* Added filter-independent toggles for looting legendary armor and weapons
 
 ### Version 1.1.4.2 - Hotfix
 
