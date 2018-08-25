@@ -18,6 +18,10 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 * Valuables Filter: Added customization options allowing you to loot only junk with Common, Uncommon, and/or Rare components
 * Valuables Filter: Added a global (not mutually exclusive) setting allowing you to loot Bottlecaps, Caps Stashes, Pre-War Cash, Bobby Pins, and Bobby Pin Boxes
 
+#### Fixed Issues
+
+* Fixed an issue where an item in a restricted location could be looted, even with Loot Settlements disabled, if the player was outside that location but the item was in the loaded area
+
 #### Not Yet Implemented
 
 * Added Ash Pile and Goo Pile support to the Bodies Filter
