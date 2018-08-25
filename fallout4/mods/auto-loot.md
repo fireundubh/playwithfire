@@ -21,6 +21,15 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 #### Fixed Issues
 
 * Fixed an issue where an item in a restricted location could be looted, even with Loot Settlements disabled, if the player was outside that location but the item was in the loaded area
+* Fixed an issue where dynamic arrays used by Bodies Filter could overpopulate in object-heavy areas
+* Fixed an issue where dynamic arrays used by Bodies Filter could overpopulate during optimization
+
+#### Optimization / Under the Hood
+
+* Removed unused items from all filter formlists
+* Sorted all filter formlists by reference count using improved script
+* Implemented tiered filter (similar to normal filter but allows filters to be customized with global variables)
+* Moderate refactoring, simplified main loops, reduced nesting, and fixed some performance-related logic issues
 
 #### Not Yet Implemented
 
