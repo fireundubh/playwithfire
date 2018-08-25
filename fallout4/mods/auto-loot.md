@@ -9,7 +9,14 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 
 ## Version History
 
-**Versioning Note:** Yes, versioning doesn't make any sense! Whatever!
+### Version 1.2 (Unreleased)
+
+#### New Features
+
+* Ammo Filter: Added Fusion Cores to formlist and excluded fusion cores in power generators
+* Weapons Filter: Added customization options allowing you to loot only Big Guns, Energy Weapons, Explosives, Melee Weapons, Small Guns, Traps, and/or Unarmed weapons
+* Valuables Filter: Added customization options allowing you to loot only junk with Common, Uncommon, and/or Rare components
+* Valuables Filter: Added a global (not mutually exclusive) setting allowing you to loot Bottlecaps, Caps Stashes, Pre-War Cash, Bobby Pins, and Bobby Pin Boxes
 
 ### Version 1.1.4.2 - Hotfix
 
@@ -29,7 +36,7 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 
 * Fixed an issue where the 1.1.4 BA2 archive was packaged incorrectly
 
-### Version 1.1.4 - Hotfix
+### Version 1.1.4 - Minor Update
 
 #### Fixed Issues
 
@@ -48,14 +55,14 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 * Weapons Filter: Removed Thirst Zapper from formlist due to association with quest The Gauntlet
 
 
-### Version 1.1.3 - Hotfix
+### Version 1.1.3 - Minor Update
 
 #### Fixed Issues
 
 * Fixed an issue where items in locked containers could be looted without Auto Lockpick enabled (Part I)
 * Fixed several issues where Auto Steal settings were not ignored with Auto Steal disabled
 
-### Version 1.1.2 - Hotfix
+### Version 1.1.2 - Minor Update
 
 #### New Features
 
@@ -76,12 +83,11 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 * Set the default radius to 256 units (increased from 128 units) because 128 units is too short for some objects (e.g., bathroom mirrors with sinks)
 * Set the default Loot Notifications setting to enabled
 
-### Version 1.1.1 - Hotfix
+### Version 1.1.1 - Minor Update
 
 #### Fixed Issues
 
 * Fixed an issue where component states in the Select Components menu could not be toggled
-
 
 ### Version 1.1.0 - Major Update
 
