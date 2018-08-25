@@ -9,7 +9,7 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 
 ## Version History
 
-### Version 1.2 (Unreleased)
+### Version 1.2 - Unreleased Major Update
 
 #### New Features
 
