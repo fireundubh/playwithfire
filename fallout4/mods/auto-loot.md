@@ -14,7 +14,7 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 #### New Features
 
 * Added a system that dynamically prevents enemies from disintegrating into ash and goo piles (disabled by default; can be toggled only with console)
-* Added a Currency/Utility Filter for looting Caps, Bobby Pins, and Pre-War Money
+* Added a Currency Filter for looting Caps, Bobby Pins, and Pre-War Money
 * Ammo Filter: Added Fusion Cores to formlist but excluded fusion cores in power generators
 * Weapons Filter: Added customization options allowing you to loot only Big Guns, Energy Weapons, Explosives, Melee Weapons, Small Guns, Traps, and/or Unarmed weapons
 * Valuables Filter: Added customization options allowing you to loot only junk with Common, Uncommon, and/or Rare components
