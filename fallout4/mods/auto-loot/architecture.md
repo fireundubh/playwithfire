@@ -17,6 +17,10 @@ A filter is, fundamentally, an instance of a script that:
 * iterates through the stripped down ObjectReference array; and
 * executes a loot action on each item in that array.
 
+### What is filter customization?
+
+Filter customization exposes key decision points to the user through global variables. By changing these variables, users have control over the flow of the filter.
+
 ### Creating a new filter
 
 This chart shows new records in yellow, their immediate ancestors, and their descendants. Connections can be either properties, conditions, or elements, such as formlist items.
