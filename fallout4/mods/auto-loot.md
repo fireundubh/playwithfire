@@ -2,6 +2,8 @@
 
 If you want to see more mods like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
+[![https://www.patreon.com/fireundubh](https://i.imgur.com/llPEyru.png)](https://www.patreon.com/fireundubh)
+
 # Auto Loot
 ## Documentation
 
