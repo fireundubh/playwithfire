@@ -13,7 +13,9 @@ If you want to see more free, well-documented mods with detailed patch notes, [b
 * [Roadmap](https://trello.com/b/MTUBalXu/auto-loot-roadmap)
 * [Source Code @ GitHub](https://github.com/fireundubh/fallout4/tree/master/Auto%20Loot)
 
-## Version 1.2 - Unreleased Major Update
+## Version 1.2 - Major Update
+
+This update has not been released.
 
 ### New Features
 
