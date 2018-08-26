@@ -28,3 +28,7 @@ This chart shows new records in yellow, their immediate ancestors, and their des
 ![How to Create a New Filter](https://i.imgur.com/G6XGGPA.png)
 
 There is much, much more to creating a new filter than shown in the chart. For example, each terminal has a sequence of menu items, each global variable has a default value, and every other record has a number of properties mostly related to filter customization settings. In addition, almost every terminal has a script fragment, which is generated automatically by an xEdit script framework engineered specifically for Auto Loot. In fact, there are 20-30 xEdit scripts that are regularly used to update Auto Loot and add new features.
+
+### How do I add support for other mods?
+
+By default, Auto Loot supports only items in the base game, Automatron, Far Harbor, and Nuka World. Support for items unique to other mods can be added to the relevant filter formlists. These formlists are merely categorized collections of forms, sorted by reference count in descending order.
