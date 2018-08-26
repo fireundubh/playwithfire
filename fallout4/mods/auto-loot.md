@@ -33,7 +33,6 @@ If you want to see more mods like this, [become a Patreon supporter!](https://ww
 
 #### Not Yet Implemented
 
-* Added Ash Pile and Goo Pile support to the Bodies Filter
 * Added filter-independent toggles for looting while in combat
 * Added filter-independent toggles for looting while sneaking
 * Added filter-independent toggles for looting legendary armor and weapons
