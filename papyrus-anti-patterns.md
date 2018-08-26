@@ -2,6 +2,8 @@
 
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
+[![https://www.patreon.com/fireundubh](https://i.imgur.com/llPEyru.png)](https://www.patreon.com/fireundubh)
+
 # Papyrus Anti-Patterns
 
 > "An **anti-pattern** is like a pattern, except that instead of a solution it gives something that looks superficially like a solution, but isn't one." —Andrew Koenig, who originally coined the term in 1995
