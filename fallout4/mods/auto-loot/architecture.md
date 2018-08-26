@@ -64,3 +64,5 @@ AutoLoot_Filter_Valuables
   > AutoLoot_Filter_Valuables_Rare
   > AutoLoot_Filter_Valuables_Components
 ```
+
+Each child formlist is a standard collection of items as used by Shared filters, paired with a global variable that the script uses to determine whether the child formlist should be used to build and process references.
