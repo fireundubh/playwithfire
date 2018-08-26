@@ -33,7 +33,7 @@ The Currency Filter (called Currency/Utility Filter in the holotape menu) will l
 
 #### Ammo Filter Support for Fusion Cores
 
-The Ammo Filter will loot all Fusion Cores, excluding fusion cores installed in power generators. Auto Loot will not loot fusion cores installed in power generators because removing them via Auto Loot will not trigger the generator shutdown event.
+The Ammo Filter will loot all Fusion Cores, excluding fusion cores installed in power generators. Auto Loot will not loot fusion cores installed in power generators because removing them via Auto Loot would not trigger the generator shutdown event.
 
 #### Weapons Filter Customization
 
