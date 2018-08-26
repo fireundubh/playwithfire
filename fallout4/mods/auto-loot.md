@@ -19,12 +19,29 @@ This update has not been released.
 
 ### New Features
 
-* Added a system that dynamically prevents enemies from disintegrating into ash and goo piles (disabled by default; can be toggled only with console)
-* Added a Currency Filter for looting Caps, Bobby Pins, and Pre-War Money
-* Ammo Filter: Added Fusion Cores to formlist but excluded fusion cores in power generators
-* Weapons Filter: Added customization options allowing you to loot only Big Guns, Energy Weapons, Explosives, Melee Weapons, Small Guns, Traps, and/or Unarmed weapons
-* Valuables Filter: Added customization options allowing you to loot only junk with Common, Uncommon, and/or Rare components
-* Valuables Filter: Added a global (not mutually exclusive) setting allowing you to loot Bottlecaps, Caps Stashes, Pre-War Cash, Bobby Pins, and Bobby Pin Boxes
+#### Currency Filter
+
+The Currency Filter (called Currency/Utility Filter in the holotape menu) will loot the following items:
+
+* Bottlecap
+* Pre-War Money
+* Caps Stash
+* Bobby Pin Box
+* Bobby Pin
+* Caps (via Bottlecap Mines)
+* Caps (via Fortune Finder IV)
+
+#### Ammo Filter Support for Fusion Cores
+
+The Ammo Filter will loot all Fusion Cores, excluding fusion cores installed in power generators. Auto Loot will not loot fusion cores installed in power generators because removing them via Auto Loot will not trigger the generator shutdown event.
+
+#### Weapons Filter Customization
+
+The Weapons Filter has been upgraded to the newly minted "tiered filter" system. You can configure the Weapons Filter to loot only Big Guns, Energy Weapons, Explosives, Melee Weapons, Small Guns, Traps, Unarmed Weapons. The filter is configured to loot all weapons by default.
+
+#### Valuables Filter Customization
+
+The Valuables Filter has also been upgraded to the tiered filter system. You can configure the Valuables Filter to loot only junk with Common, Uncommon, or Rare components. The filter is configured to loot only junk with Rare components by default.
 
 #### Dynamic Ash and Goo Pile Prevention
 
