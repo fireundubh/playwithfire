@@ -7,7 +7,7 @@ This is a working document
 
 ## Creating a New Filter
 
-This chart shows new records in yellow, their immediate ancestors, and their descendants.
+This chart shows new records in yellow, their immediate ancestors, and their descendants. Connections can be either properties, conditions, or elements, such as formlist items.
 
 ![How to Create a New Filter](https://i.imgur.com/G6XGGPA.png)
 
