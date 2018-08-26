@@ -66,7 +66,7 @@ You can also toggle the global variable directly in the plugin using xEdit.
 ### Optimization / Under the Hood
 
 * Removed unused items from all filter formlists
-* Sorted all filter formlists by reference count using improved script
+* Re-sorted all filter formlists by reference count in descending order
 * Implemented tiered filter (similar to normal filter but allows filters to be customized with global variables)
 * Moderate refactoring, simplified main loops, reduced nesting, and fixed some performance-related logic issues
 
