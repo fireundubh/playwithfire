@@ -27,3 +27,4 @@ This chart shows new records in yellow, their immediate ancestors, and their des
 
 ![How to Create a New Filter](https://i.imgur.com/G6XGGPA.png)
 
+There is much, much more to creating a new filter than shown in the chart. For example, each terminal has a sequence of menu items, each global variable has a default value, and every other record has a number of properties mostly related to filter customization settings.
