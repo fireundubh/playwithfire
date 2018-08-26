@@ -4,16 +4,18 @@ If you want to see more free, well-documented mods with detailed patch notes, [b
 
 [![https://www.patreon.com/fireundubh](https://i.imgur.com/llPEyru.png)](https://www.patreon.com/fireundubh)
 
-# Auto Loot
-## Documentation
+# Version History
 
-[Read Documentation](auto-loot/documentation)
+## Quick Links
 
-## Version History
+* [Download @ Fallout 4 Nexus](https://www.nexusmods.com/fallout4/mods/27719)
+* [Documentation](auto-loot/documentation)
+* [Roadmap](https://trello.com/b/MTUBalXu/auto-loot-roadmap)
+* [Source Code @ GitHub](https://github.com/fireundubh/fallout4/tree/master/Auto%20Loot)
 
-### Version 1.2 - Unreleased Major Update
+## Version 1.2 - Unreleased Major Update
 
-#### New Features
+### New Features
 
 * Added a system that dynamically prevents enemies from disintegrating into ash and goo piles (disabled by default; can be toggled only with console)
 * Added a Currency Filter for looting Caps, Bobby Pins, and Pre-War Money
@@ -22,46 +24,46 @@ If you want to see more free, well-documented mods with detailed patch notes, [b
 * Valuables Filter: Added customization options allowing you to loot only junk with Common, Uncommon, and/or Rare components
 * Valuables Filter: Added a global (not mutually exclusive) setting allowing you to loot Bottlecaps, Caps Stashes, Pre-War Cash, Bobby Pins, and Bobby Pin Boxes
 
-#### Fixed Issues
+### Fixed Issues
 
 * Fixed an issue where an item in a restricted location could be looted, even with Loot Settlements disabled, if the player was outside that location but the item was in the loaded area
 * Fixed an issue where dynamic arrays used by Bodies Filter could overpopulate in object-heavy areas
 * Fixed an issue where dynamic arrays used by Bodies Filter could overpopulate during optimization
 
-#### Optimization / Under the Hood
+### Optimization / Under the Hood
 
 * Removed unused items from all filter formlists
 * Sorted all filter formlists by reference count using improved script
 * Implemented tiered filter (similar to normal filter but allows filters to be customized with global variables)
 * Moderate refactoring, simplified main loops, reduced nesting, and fixed some performance-related logic issues
 
-#### Not Yet Implemented
+### Not Yet Implemented
 
 * Added filter-independent toggles for looting while in combat
 * Added filter-independent toggles for looting while sneaking
 * Added filter-independent toggles for looting legendary armor and weapons
 
-### Version 1.1.4.2 - Hotfix
+## Version 1.1.4.2 - Hotfix
 
-#### Fixed Issue
+### Fixed Issue
 
 * Fixed an issue where items in locked containers could be looted without Auto Lockpick enabled (Part III)
 
-#### Compatibility
+### Compatibility
 
 * Added a lockpicking perks formlist to support unlocking containers using mod-added perks (i.e., Locksmith perk checks are no longer hardcoded)
 
-### Version 1.1.4.1 - Hotfix
+## Version 1.1.4.1 - Hotfix
 
 **Version Note:** Because Nexus has [a longstanding bug](https://github.com/Nexus-Mods/web-issues/issues/601) where you cannot replace a file with a new file if the new file has the same version, the version had to be changed.
 
-#### Fixed Issue
+### Fixed Issue
 
 * Fixed an issue where the 1.1.4 BA2 archive was packaged incorrectly
 
-### Version 1.1.4 - Minor Update
+## Version 1.1.4 - Minor Update
 
-#### Fixed Issues
+### Fixed Issues
 
 * Fixed an issue where the last item in a given radius was always looted during the next cycle unless the last item was the only item in which case that item was never looted
 * Fixed an issue where items in locked containers could be looted without Auto Lockpick enabled (Part II)
@@ -78,47 +80,47 @@ If you want to see more free, well-documented mods with detailed patch notes, [b
 * Weapons Filter: Removed Thirst Zapper from formlist due to association with quest The Gauntlet
 
 
-### Version 1.1.3 - Minor Update
+## Version 1.1.3 - Minor Update
 
-#### Fixed Issues
+### Fixed Issues
 
 * Fixed an issue where items in locked containers could be looted without Auto Lockpick enabled (Part I)
 * Fixed several issues where Auto Steal settings were not ignored with Auto Steal disabled
 
-### Version 1.1.2 - Minor Update
+## Version 1.1.2 - Minor Update
 
-#### New Features
+### New Features
 
 * Added a Loot Notifications setting in the Advanced submenu
 
-#### Fixed Issues
+### Fixed Issues
 
 * Fixed an issue where the Auto Steal setting was not obeyed
 * Fixed an issue where toggling the Components, Valuables, or Junk filter did not disable the other mutually exclusive filters
 * Fixed an issue where the Valuables filter was not properly mutually exclusive with the Components and Junk filters
 
-#### Optimization
+### Optimization
 
 * Minor refactoring and micro-optimizations
 
-#### Usability
+### Usability
 
 * Set the default radius to 256 units (increased from 128 units) because 128 units is too short for some objects (e.g., bathroom mirrors with sinks)
 * Set the default Loot Notifications setting to enabled
 
-### Version 1.1.1 - Minor Update
+## Version 1.1.1 - Minor Update
 
-#### Fixed Issues
+### Fixed Issues
 
 * Fixed an issue where component states in the Select Components menu could not be toggled
 
-### Version 1.1.0 - Major Update
+## Version 1.1.0 - Major Update
 
 BEFORE UPDATING, YOU WILL NEED TO TURN OFF ALL FILTERS AND SAVE YOUR GAME. All Form IDs have been changed.
 
 If you skip this step, you will need to reinstall 1.0 to turn off the loot filters. Failing to do either may not release running scripts from memory and those scripts will loop forever, which is bad. Do not skip this step.
 
-#### New Features
+### New Features
 
 * Added full support for the Automatron DLC, including items, workshops, and locations
 * Added full support for the Far Harbor DLC, including items, workshops, and locations
@@ -134,7 +136,7 @@ If you skip this step, you will need to reinstall 1.0 to turn off the loot filte
 * Added filter-independent destination settings
 * Added persistent destination settings
 
-#### Fixed Issues
+### Fixed Issues
 
 * Fixed an issue where the game would crash for some users when sending loot to the player
 * Fixed an issue where Scaleform would crash the game when items were looted while in VATS mode
@@ -153,14 +155,14 @@ If you skip this step, you will need to reinstall 1.0 to turn off the loot filte
 * Fixed an issue where the Loot Settlements location check could have no return path
 * Fixed a number of issues where a boolean function could have no return path
 
-#### Optimization
+### Optimization
 
 * Significantly improved performance of all filters (e.g., filters now look for most common items first)
 * Significantly improved performance of the Take Any filter mode
 * Repopulated formlists using playable item tables from Nukapedia
 * General housekeeping (e.g., removed unused scripts and terminal script fragments)
 
-#### Usability
+### Usability
 
 * Set default radius to 128 units
 * Set default destination to the Sanctuary Hills workshop
@@ -172,11 +174,11 @@ If you skip this step, you will need to reinstall 1.0 to turn off the loot filte
 * Renamed submenus to improve clarity (e.g., _Distance_ is now _Radius_, _Containers_ is now _Destinations_)
 * Renamed menu items to improve clarity (e.g., _send to player or settlement_ is now _send to workshop_)
 
-#### Compatibility
+### Compatibility
 
 * Pre-War actor no longer used as off-stage storage for Bodies and Containers filters
 
-#### Notes
+### Notes
 
 **Destination Rules:** Rules (formerly Exclusions) are used to enable/disable sending loot to a workshop for either all filters or specific filters. Previously, you had to reset the destination to the player to disable sending loot to a workshop. If you decided to send loot to a workshop again, you had to find the workshop in the menu again. Now, your preferred workshop choice will persist, and you only need to flip a switch to toggle whether loot accumulates there.
 
@@ -186,13 +188,13 @@ If you skip this step, you will need to reinstall 1.0 to turn off the loot filte
 - **Set Delay Between Iterations:** You can set Auto Loot to wait 0-5 seconds between runs, which can, in theory, increase reliability. Possible placebo, mostly a placeholder.
 - **Holotapes Filter submenus:** Looting holotapes is not supported by the game, so this filter and its various submenus were hidden. These are placeholders and do nothing.
 
-#### Special Thanks
+### Special Thanks
 
 - **Arthmoor**, for creating the dummy actor storage cell and dummy actors
 - **computeteen5**, for investigating workarounds to game engine issues
 - **SKK**, for advising on fixing the holotape quest script
 - **Patreon/PayPal Backers**, for testing pre-release versions
 
-### Version 1.0 - Initial Release
+## Version 1.0 - Initial Release
 
 - Initial re-release
