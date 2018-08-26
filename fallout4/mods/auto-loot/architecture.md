@@ -12,9 +12,9 @@ This is a working document.
 A filter is, fundamentally, an instance of a script that:
 
 * uses a formlist to find all references to items in the loaded area;
-* iterates through the resulting ObjectReference array;
-* pares down that array using specific conditions and produces a new ObjectReference array;
-* iterates through the stripped down ObjectReference array; and
+* iterates through the resulting `ObjectReference` array;
+* pares down that array using specific conditions and produces a new `ObjectReference` array;
+* iterates through the stripped down `ObjectReference` array; and
 * executes a loot action on each item in that array.
 
 ### What is filter customization?
@@ -33,22 +33,22 @@ There is much, much more to creating a new filter than shown in the chart. For e
 
 By default, Auto Loot supports only items in the base game, Automatron, Far Harbor, and Nuka World. Support for items unique to other mods can be added to the relevant filter formlists. These formlists are merely categorized collections of forms, sorted by reference count in descending order.
 
-Filter | Type | Script
---- | --- | ---
-Ammo | Base | `dubhAutoLootEffectScript`
-Armor | Base | `dubhAutoLootEffectScript`
-Bodies | Keywords | `dubhAutoLootEffectBodiesScript`
-Components | Components | `dubhAutoLootEffectComponentsScript`
-Containers | Containers | `dubhAutoLootEffectContainersScript`
-Currency | Base | `dubhAutoLootEffectScript`
-Drinks | Base | `dubhAutoLootEffectScript`
-Flora | Base | `dubhAutoLootEffectScript`
-Food | Base | `dubhAutoLootEffectScript`
-Holotapes | Base | `dubhAutoLootEffectScript`
-Junk | Base | `dubhAutoLootEffectScript`
-Keys | Base | `dubhAutoLootEffectScript`
-Magazines | Base | `dubhAutoLootEffectScript`
-Medicine | Base | `dubhAutoLootEffectScript`
-Valuables | Tiered | `dubhAutoLootEffectTieredScript`
-Weapons | Tiered | `dubhAutoLootEffectTieredScript`
+Filter | Type | Script | Notes 
+--- | --- | --- | ---
+Ammo | Shared | `dubhAutoLootEffectScript` |
+Armor | Shared | `dubhAutoLootEffectScript` |
+Bodies | Keywords | `dubhAutoLootEffectBodiesScript` | Unique functionality for building an `ObjectReference` array from actor type keywords, handling actors, and using other filters to loot specific categories of items
+Components | Shared (Modified) | `dubhAutoLootEffectComponentsScript` | Unique functionality for testing whether items have specific components
+Containers | Containers | `dubhAutoLootEffectContainersScript` | Unique functionality for handling containers and using other filters to loot specific categories of items
+Currency | Shared | `dubhAutoLootEffectScript` |
+Drinks | Shared | `dubhAutoLootEffectScript` |
+Flora | Shared | `dubhAutoLootEffectScript` |
+Food | Shared | `dubhAutoLootEffectScript` |
+Holotapes | Shared | `dubhAutoLootEffectScript` |
+Junk | Shared | `dubhAutoLootEffectScript` |
+Keys | Base | `dubhAutoLootEffectScript` |
+Magazines | Shared | `dubhAutoLootEffectScript` |
+Medicine | Shared | `dubhAutoLootEffectScript` |
+Valuables | Tiered | `dubhAutoLootEffectTieredScript` | Unique functionality for handling multi-dimensional formlists with a depth of 2
+Weapons | Tiered | `dubhAutoLootEffectTieredScript` | Unique functionality for handling multi-dimensional formlists with a depth of 2
 
