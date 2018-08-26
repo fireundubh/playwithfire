@@ -52,3 +52,15 @@ Medicine | Shared | `dubhAutoLootEffectScript` |
 Valuables | Tiered | `dubhAutoLootEffectTieredScript` | Unique functionality for handling multi-dimensional formlists with a depth of 2
 Weapons | Tiered | `dubhAutoLootEffectTieredScript` | Unique functionality for handling multi-dimensional formlists with a depth of 2
 
+#### Tiered Filters
+
+Tiered filters include the Valuables and Weapons Filters. A tiered filter has a parent formlist that contains child formlists. For example:
+
+
+```text
+AutoLoot_Filter_Valuables
+  > AutoLoot_Filter_Valuables_Common
+  > AutoLoot_Filter_Valuables_Uncommon
+  > AutoLoot_Filter_Valuables_Rare
+  > AutoLoot_Filter_Valuables_Components
+```
