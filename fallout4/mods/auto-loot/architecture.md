@@ -34,7 +34,7 @@ There is much, much more to creating a new filter than shown in the chart. For e
 By default, Auto Loot supports only items in the base game, Automatron, Far Harbor, and Nuka World. Support for items unique to other mods can be added to the relevant filter formlists. These formlists are merely categorized collections of forms, sorted by reference count in descending order.
 
 Filter | Type | Script | Notes 
---- | --- | --- | ---
+:--- | :--- | :--- | :---
 Ammo | Shared | `dubhAutoLootEffectScript` |
 Armor | Shared | `dubhAutoLootEffectScript` |
 Bodies | Keywords | `dubhAutoLootEffectBodiesScript` | Unique functionality for building an `ObjectReference` array from actor type keywords, handling actors, and using other filters to loot specific categories of items
