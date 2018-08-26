@@ -5,7 +5,9 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 # How Auto Loot Works
 This is a working document
 
-## What is a filter?
+## Filters
+
+### What is a filter?
 
 A filter is, fundamentally, an instance of a script that:
 
@@ -15,7 +17,7 @@ A filter is, fundamentally, an instance of a script that:
 * iterates through the stripped down ObjectReference array; and
 * executes a loot action on each item in that array.
 
-## Creating a new filter
+### Creating a new filter
 
 This chart shows new records in yellow, their immediate ancestors, and their descendants. Connections can be either properties, conditions, or elements, such as formlist items.
 
