@@ -37,7 +37,7 @@ The Ammo Filter will loot all Fusion Cores, excluding fusion cores installed in 
 
 #### Weapons Filter Customization
 
-The Weapons Filter has been upgraded to the newly minted "tiered filter" system. You can configure the Weapons Filter to loot only Big Guns, Energy Weapons, Explosives, Melee Weapons, Small Guns, Traps, Unarmed Weapons. The filter is configured to loot all weapons by default.
+The Weapons Filter has been upgraded to the newly created tiered filter system. You can configure the Weapons Filter to loot only Big Guns, Energy Weapons, Explosives, Melee Weapons, Small Guns, Traps, Unarmed Weapons. The filter is configured to loot all weapons by default.
 
 #### Valuables Filter Customization
 
