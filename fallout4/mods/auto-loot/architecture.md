@@ -19,7 +19,7 @@ A filter is, fundamentally, an instance of a script that:
 
 ### What is filter customization?
 
-Filter customization exposes key decision points to the user through global variables. By changing these variables, users have control over the flow of the filter.
+Filter customization exposes key decision points in a filter script to the user through global variables. By changing these variables, users can control the flow of the script's execution.
 
 ### Creating a new filter
 
