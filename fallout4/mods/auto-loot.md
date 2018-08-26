@@ -21,15 +21,7 @@ This update has not been released.
 
 #### Currency Filter
 
-The Currency Filter (called Currency/Utility Filter in the holotape menu) will loot the following items:
-
-* Bottlecap
-* Pre-War Money
-* Caps Stash
-* Bobby Pin Box
-* Bobby Pin
-* Caps (via Bottlecap Mines)
-* Caps (via Fortune Finder IV)
+The Currency Filter will loot the following items: Bottlecaps, Pre-War Money, Caps Stashes, Bobby Pins and Bobby Pin Boxes, Bottlecaps via Bottlecap Mines, and Bottlecaps via Fortune Finder IV.
 
 #### Ammo Filter Support for Fusion Cores
 
@@ -41,7 +33,7 @@ The Weapons Filter has been upgraded to the newly created tiered filter system. 
 
 #### Valuables Filter Customization
 
-The Valuables Filter has also been upgraded to the tiered filter system. You can configure the Valuables Filter to loot only junk with Common, Uncommon, or Rare components. The filter is configured to loot only junk with Rare components by default.
+The Valuables Filter has also been upgraded to the tiered filter system. You can configure the Valuables Filter to loot only junk with Common, Uncommon, or Rare components. The filter is configured to loot only junk with Rare components by default. Additionally, you can also configure the Valuables Filter to loot Component Scrap, such as the miscellaneous component items you can pick up and component shipments. This extra option was added primarily for players of certain workshop mods.
 
 #### Dynamic Ash and Goo Pile Prevention
 
