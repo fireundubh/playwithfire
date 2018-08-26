@@ -45,7 +45,8 @@ sStartingConsoleCommand="set AutoLoot_Setting_NoDisintegrate to 1"
 
 You can also toggle the global variable directly in the plugin using xEdit.
 
-If you execute this command while in a game, this command will do nothing.
+* **Note 1:** If you execute this command while in a game, this command will do nothing.
+* **Note 2:** Toggling the setting off, or uninstalling the mod, will _not_ rollback any keyword additions made by Auto Loot to previously modified NPCs.
 
 ### Fixed Issues
 
