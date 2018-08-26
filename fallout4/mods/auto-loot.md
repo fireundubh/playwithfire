@@ -26,6 +26,28 @@ This update has not been released.
 * Valuables Filter: Added customization options allowing you to loot only junk with Common, Uncommon, and/or Rare components
 * Valuables Filter: Added a global (not mutually exclusive) setting allowing you to loot Bottlecaps, Caps Stashes, Pre-War Cash, Bobby Pins, and Bobby Pin Boxes
 
+#### Dynamic Ash and Goo Pile Prevention
+
+> Ash and Goo Piles are activators with hardcoded behaviors; they are neither bodies nor containers. These activators cannot be looted by script and are therefore not supported by Auto Loot.
+> You can manually loot Ash and Goo Piles, or you can use a new feature that prevents Ash and Goo Piles from being created. This new feature dynamically adds the `NoDisintegrate` keyword to NPCs in the loaded area in a radius of 4096 units.
+
+In order to use this feature, enter the following command at the MAIN MENU: 
+
+```
+set AutoLoot_Setting_NoDisintegrate to 1
+```
+
+You can set up your `Fallout4.ini` so that the command runs at startup:
+
+```
+[General]
+sStartingConsoleCommand="set AutoLoot_Setting_NoDisintegrate to 1"
+```
+
+You can also toggle the global variable directly in the plugin using xEdit.
+
+If you execute this command while in a game, this command will do nothing.
+
 ### Fixed Issues
 
 * Fixed an issue where an item in a restricted location could be looted, even with Loot Settlements disabled, if the player was outside that location but the item was in the loaded area
