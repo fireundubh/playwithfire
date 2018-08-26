@@ -21,7 +21,7 @@ A filter is, fundamentally, an instance of a script that:
 
 Filter customization exposes key decision points in a filter script to the user through global variables. By changing these variables, users can control the flow of the script's execution.
 
-### Creating a new filter
+### How do I create a new filter?
 
 This chart shows new records in yellow, their immediate ancestors, and their descendants. Connections can be either properties, conditions, or elements, such as formlist items.
 
