@@ -46,7 +46,7 @@ Flora | Shared | `dubhAutoLootEffectScript` |
 Food | Shared | `dubhAutoLootEffectScript` |
 Holotapes | Shared | `dubhAutoLootEffectScript` |
 Junk | Shared | `dubhAutoLootEffectScript` |
-Keys | Base | `dubhAutoLootEffectScript` |
+Keys | Shared | `dubhAutoLootEffectScript` |
 Magazines | Shared | `dubhAutoLootEffectScript` |
 Medicine | Shared | `dubhAutoLootEffectScript` |
 Valuables | Tiered | `dubhAutoLootEffectTieredScript` | Unique functionality for handling multi-dimensional formlists with a depth of 2
