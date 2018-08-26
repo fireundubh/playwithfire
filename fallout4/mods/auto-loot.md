@@ -10,7 +10,7 @@ If you want to see more free, well-documented mods with detailed patch notes, [b
 
 * [Download @ Fallout 4 Nexus](https://www.nexusmods.com/fallout4/mods/27719)
 * [Documentation](auto-loot/documentation)
-* [Roadmap](https://trello.com/b/MTUBalXu/auto-loot-roadmap)
+* [Roadmap @ Trello](https://trello.com/b/MTUBalXu/auto-loot-roadmap)
 * [Source Code @ GitHub](https://github.com/fireundubh/fallout4/tree/master/Auto%20Loot)
 
 ## Version 1.2 - Major Update
