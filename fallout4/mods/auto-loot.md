@@ -58,6 +58,16 @@ You can also toggle the global variable directly in the plugin using xEdit.
 * **Note 1:** If you execute this command while in a game, this command will do nothing.
 * **Note 2:** Toggling the setting off, or uninstalling the mod, will _not_ rollback any keyword additions made by Auto Loot to previously modified NPCs. It is not possible for this to be implemented.
 
+### User Interface
+
+v1.2 streamlines the holotape menu by making the following changes:
+
+* Merged the alphabetized workshop menus into a single menu per filter
+* Removed intermediate submenus (e.g., All Filters vs. Specific Filters)
+* Removed the Delay Between Iterations submenus from the Debug Menu
+* Renamed the Advanced submenu to Advanced Settings
+* Renamed the debug-only Advanced submenu to Debug Menu
+
 ### Fixed Issues
 
 * Fixed an issue where Automatron armor was not supported by the Armor Filter
