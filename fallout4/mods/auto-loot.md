@@ -62,6 +62,7 @@ You can also toggle the global variable directly in the plugin using xEdit.
 
 v1.2 streamlines the holotape menu by making the following changes:
 
+* Moved the Components, Valuables, and Junk filters into a separate submenu
 * Merged the alphabetized Destination submenus into a single menu per filter (slower to display, easier to maintain, and you can see all workshops at once)
 * Removed intermediate submenus (e.g., All Filters vs. Specific Filters)
 * Removed the Delay Between Iterations submenus from the Debug Menu
