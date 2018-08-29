@@ -66,7 +66,7 @@ Bodies | Bodies are looted based on whether they are dead, have items, and are a
 Components | Any junk items you can scrap with specific components |
 Containers | Deks, ammo boxes, trash cans, cabinets, toolboxes, etc.  | 
 Drinks | Nuka beverages, water, and alcohol  | 
-Flora | Anything you can harvest, usch as wild carrot flowers and tato plants  | 
+Flora | Anything you can harvest, such as wild carrot flowers and tato plants  | 
 Food | Mostly food but includes special consumables such as Stealth Boys | 
 Junk | Anything you can scrap | 
 Keys | Keys and passwords |
