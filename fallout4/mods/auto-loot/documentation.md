@@ -77,22 +77,11 @@ Weapons | Guns, big guns, grenades, mines, and close combat weapons |
 
 **General Exclusions Note:** Activators, such as Caps Stashes and Bobby Pin Boxes, are not lootable by Auto Loot.
 
-#### Components
+#### Mutually Exclusive Filters
 
-- The Junk filter will not work while the Components filter is enabled.
-- The Valuables filter will not work while the Components filter is enabled.
+The Components, Valuables, and Junk filters are all Junk filters and could possibly try to loot the same items regardless of whether they were already looted.
 
-**Performance Note:** The Components filter in 1.1 is experimental and can be *very* slow.
-
-#### Junk
-
-- The Junk filter will not work while the Components filter is enabled.
-- The Junk filter will not work while the Valuables filter is enabled.
-
-#### Valuables
-
-- The Junk filter will not work while the Valuables filter is enabled.
-- The Valuables filter will not work while the Components filter is enabled.
+In v1.1, they were made mutually exclusive to avoid performance and/or stability issues. Only one type of Junk filter can be enabled at a time.
 
 
 ### Destinations
