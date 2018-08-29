@@ -60,6 +60,7 @@ You can also toggle the global variable directly in the plugin using xEdit.
 
 ### Fixed Issues
 
+* Fixed an issue where Automatron armor was not supported by the Armor Filter
 * Fixed an issue where an item in a restricted location could be looted, even with Loot Settlements disabled, if the player was outside that location but the item was in the loaded area
 * Fixed an issue where dynamic arrays used by Bodies Filter could overpopulate in object-heavy areas
 * Fixed an issue where dynamic arrays used by Bodies Filter could overpopulate during optimization
