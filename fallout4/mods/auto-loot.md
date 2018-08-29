@@ -36,6 +36,10 @@ The Weapons Filter has been upgraded to the newly created tiered filter system. 
 
 The Valuables Filter has also been upgraded to the tiered filter system. You can configure the Valuables Filter to loot only junk with Common, Uncommon, or Rare components. The filter is configured to loot only junk with Rare components by default. Additionally, you can also configure the Valuables Filter to loot Component Scrap, such as the miscellaneous component items you can pick up and component shipments. This extra option was added primarily for players of certain workshop mods.
 
+#### Take Any Filter Mode Support for the Components Filter
+
+You can now use the Take Any Filter Mode with the Components Filter, allowing you to loot junk with specific components from bodies and/or containers when the Bodies Filter and/or Containers Filter are also enabled.
+
 #### Dynamic Ash and Goo Pile Prevention
 
 Ash and Goo Piles are activators with hardcoded behaviors; they are neither bodies nor containers. Papyrus offers no support for manipulating these activators and therefore they cannot be supported by Auto Loot. You can manually loot Ash and Goo Piles, or you can use a new feature that prevents Ash and Goo Piles from being created. This new feature dynamically adds the `NoDisintegrate` keyword to NPCs in the loaded area in a radius of 4096 units.
@@ -75,7 +79,6 @@ v1.2 streamlines the holotape menu by making the following changes:
 
 ### Fixed Issues
 
-* Fixed an issue where the Bodies Filter and Containers Filter did not loot junk with specific components when the Components Filter and the Take Any Filter Mode were enabled
 * Fixed an issue where Automatron armor was not supported by the Armor Filter
 * Fixed an issue where an item in a restricted location could be looted, even with Loot Settlements disabled, if the player was outside that location but the item was in the loaded area
 * Fixed an issue where dynamic arrays used by Bodies Filter could overpopulate in object-heavy areas
