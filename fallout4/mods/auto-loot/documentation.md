@@ -152,4 +152,6 @@ This is an experimental feature. If you are running the game with Papyrus loggin
 
 **v1.1 Note:** The Delay submenu is no longer available through the holotape.
 
+**v1.2 Note:** The Delay submenu has been deleted, but the global variables can still be changed via the console.
+
 The Delay submenu allows you to slow down the rate at which Auto Loot iterates through shopping lists. The delay can be set to 0, 1, 2, 4, or 5 seconds. If the delay is 0 seconds, which is the default setting, Auto Loot will work as fast as possible.
