@@ -62,6 +62,10 @@ You can also toggle the global variable directly in the plugin using xEdit.
 
 v1.2 streamlines the holotape menu by making the following changes:
 
+* Destination>Rules: Changed "send to player" to "send to player enabled"
+* Destination>Rules: Changed "send to workshop" to "send to workshop enabled"
+* Advanced Settings>Filter Mode: Changed "take all" to "take all enabled"
+* Advanced Settings>Filter Mode: Changed "take any" to "take any enabled" 
 * Moved the Components, Valuables, and Junk filters into a separate submenu
 * Merged the alphabetized Destination submenus into a single menu per filter (slower to display, easier to maintain, and you can see all workshops at once)
 * Removed intermediate submenus (e.g., All Filters vs. Specific Filters)
