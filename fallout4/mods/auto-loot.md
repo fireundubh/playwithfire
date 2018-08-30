@@ -87,7 +87,7 @@ v1.2 streamlines the holotape menu by making the following changes:
 ### Optimization / Under the Hood
 
 * Removed unused items from all filter formlists
-* Re-sorted all filter formlists by reference count in descending order
+* Re-sorted all filter formlists by reference count in descending order using an improved recursive sorting algorithm
 * Implemented tiered filter (similar to normal filter but allows filters to be customized with global variables)
 * Moderate refactoring, simplified main loops, reduced nesting, and fixed some performance-related logic issues
 
