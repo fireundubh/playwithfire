@@ -30,23 +30,6 @@ Parameter | Required | Description
 
 If the `delta_manifest_id` argument is not omitted, Steam will download only the differences between the target manifest and delta manifest.
 
-## Optional
-
-### Change the download path
-
-You cannot change the path to which the depot downloads; however, you can "trick" Steam into downloading depots wherever you want using Junction Points.
-
-What are Junction Points? Junction Points are a type of symbolic link unique to the NTFS file system.
-
-If Steam was installed on your `C:` drive, and you wanted to download the depot to `D:`, you would do the following:
-
-1. Delete the `app_435150` folder, if any, in `C:\Program Files (x86)\Steam\steamapps\content`.
-2. Create a folder on `D:` named `app_435150`, such as `D:\app_435150`.
-3. In a cmd shell, type: `mklink /J "C:\Program Files (x86)\Steam\steamapps\content\app_435150" "D:\app_435150"`
-4. Then, run the `download_depot` command in the Steam Console.
-
-If you do not know how to open the cmd shell, press `Win+R`, type `cmd`, and press `Enter`.
-
 ## Reference
 
 ### App and Depots
