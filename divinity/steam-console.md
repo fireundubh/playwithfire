@@ -42,6 +42,8 @@ Depot ID | `717550` | Engine Data - This depot contains engine assets for the ed
 
 ### Depot: Content
 
+#### Release
+
 Manifest ID | Version | Date | Size
 --- | --- | --- | ---
 `167072590693741559` | `???` | August 31, 2018 – 01:29:08 UTC |
