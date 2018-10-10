@@ -10,6 +10,7 @@ Game | Contents
 [Elder Scrolls V: Skyrim](skyrim) | Nothing yet
 [Fallout 4](fallout4) | Nothing yet
 [Kingdom Come: Deliverance](kingdomcome) | Scripting and game data documentation
+[Pathfinder: Kingmaker](kingmaker) | Game data documentation
 [Pillars of Eternity II: Deadfire](deadfire) | Scripting and game data documentation
 
 ## Scripting
