@@ -12,7 +12,7 @@ Welcome to the *Pathfinder: Kingmaker* wiki at **#playwithfire**. This wiki was 
 
 Section | Description
 :--- | :---
-[Armor](kingmaker/armor) | A table of all equipment
+[Armor](kingmaker/armor) | A table of all armor
 [Equipment](kingmaker/equipment) | A table of all equipment
 [Keys](kingmaker/keys) | A table of all keys
 [Misc. Items](kingmaker/misc-items) | A table of all miscellaneous items
