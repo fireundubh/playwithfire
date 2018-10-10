@@ -1,4 +1,4 @@
-<!-- TITLE: Misc Items -->
+<!-- TITLE: Misc. Items -->
 
 [&lsaquo; Pathfinder: Kingmaker](/kingmaker)
 
