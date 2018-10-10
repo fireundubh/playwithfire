@@ -17,4 +17,5 @@ Section | Description
 [Misc. Items](kingmaker/misc-items) | A table of all miscellaneous items
 [Notes](kingmaker/notes) | A table of all notes
 [Shields](kingmaker/shields) | A table of all shields
+[Usable](kingmaker/usable) | A table of all usable items
 [Weapons](kingmaker/weapons) | A table of all weapons
