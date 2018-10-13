@@ -20,3 +20,7 @@ Section | Description
 [Shields](kingmaker/shields) | A table of all shields
 [Usable](kingmaker/usable) | A table of all usable items
 [Weapons](kingmaker/weapons) | A table of all weapons
+
+## Documentation
+
+* [Using Steam to Download Previous Versions](/kingmaker/steam-console)
