@@ -60,7 +60,7 @@ If you do not know how to open the cmd shell, press `Win+R`, type `cmd`, and pre
 ### App and Depots
 
 Type | Value | Description
---- | --- | ---
+:--- | :--- | :---
 App ID | `640820` | Pathfinder: Kingmaker
 Depot ID | `640821` | Pathfinder: Kingmaker Content
 
