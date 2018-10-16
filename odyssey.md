@@ -10,7 +10,7 @@ Welcome to the *Assassin's Creed: Odyssey* wiki at **#playwithfire**.
 ## Legendary Weapons
 
 Name | Type | Min. Level | DPS | Engravings
---- | --- | ---  | ---  | ---
+:--- | :--- | ---:  | ---:  | :---
 Xiphos of Peleus | Sword | 28 | 983 | +11% Assassin Damage<br>+12% Adrenaline per CRIT<br>+20% Damage with Rush Assassinate Ability
 Hammer of Jason | Heavy Blunt | 20 | 564 | +9% Warrior Damage<br>+6% Damage with Heavy Blunt Weapons<br>+20% Damage with Shield Break Ability
 Herakles' Mace | Heavy Blunt | 37 | 1567 | +13% Hunter Damage<br>+12% Adrenaline per Hit<br>+40% Damage with Bows when Above Target
@@ -26,7 +26,7 @@ Herakles' Bow | Bow | 46 | 1965 | +15% Warrior Damage<br>+10% Damage with Bow Ch
 ## Legendary Armor
 
 Name | Type | Min. Level | Armor | Engravings | Set Bonus
---- | --- | --- | ---  | --- | ---
+:--- | :--- | ---: | ---:  | :--- | :---
 Pilgrim's Hood | Head | 19 | 160 | +9% Assassin Damage<br>+6% Damage with Daggers | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
 Pilgrim's Gloves | Arms | 22 | 145 | +11% Assassin Damage<br>+9% Adrenaline per Hit | 
 Pilgrim's Garment | Torso | 36 | 599 | +13% Assassin Damage<br>+20% Adrenaline on Assassination Kill | 
