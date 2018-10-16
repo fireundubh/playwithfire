@@ -28,8 +28,8 @@ Herakles' Bow | Bow | 46 | 1965 | +15% Warrior Damage<br>+10% Damage with Bow Ch
 Name | Type | Min. Level | Armor | Engravings | Set Bonus
 :--- | :--- | ---: | ---:  | :--- | :---
 Pilgrim's Hood | Head | 19 | 160 | +9% Assassin Damage<br>+6% Damage with Daggers | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
-Pilgrim's Gloves | Arms | 22 | 145 | +11% Assassin Damage<br>+9% Adrenaline per Hit | 
-Pilgrim's Garment | Torso | 36 | 599 | +13% Assassin Damage<br>+20% Adrenaline on Assassination Kill | 
-Pilgrim's Belt | Waist | 13 | 113 | +9% Assassin Damage<br>+15% Adrenaline on Assassination Kill | 
-Pilgrim's Boots | Legs | 33 | 285 | +13% Assassin Damage<br>+16% Movement Speed while Crouching | 
+Pilgrim's Gloves | Arms | 22 | 145 | +11% Assassin Damage<br>+9% Adrenaline per Hit | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
+Pilgrim's Garment | Torso | 36 | 599 | +13% Assassin Damage<br>+20% Adrenaline on Assassination Kill | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
+Pilgrim's Belt | Waist | 13 | 113 | +9% Assassin Damage<br>+15% Adrenaline on Assassination Kill | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
+Pilgrim's Boots | Legs | 33 | 285 | +13% Assassin Damage<br>+16% Movement Speed while Crouching | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
 Agamemnon's Gauntlets | Arms | 16 | 95 | +9% Warrior Damage<br>+10% Elemental Buildup | Agamemnon Set: +50% Burning Rate 
