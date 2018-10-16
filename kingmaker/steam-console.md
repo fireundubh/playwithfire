@@ -66,8 +66,8 @@ Depot ID | `640821` | Pathfinder: Kingmaker Content
 
 ### Depot: _Pathfinder: Kingmaker Content_
 
-Manifest ID | Version | Date | Size
---- | --- | --- | ---
+Manifest ID | Version | Date | Size | Comments
+--- | --- | --- | --- | ---
 `3329346642708156469` | 1.0.9 | October 16, 2018 – 11:47:06 UTC |
 `7773343900112385919` | 1.0.8c | October 12, 2018 – 18:21:28 UTC | 
 `4551845841087663139` | 1.0.8b | October 11, 2018 – 15:07:55 UTC | 
@@ -83,7 +83,7 @@ Manifest ID | Version | Date | Size
 `2451367926564256244` | 1.0.2 | September 28, 2018 – 18:13:51 UTC | 
 `1412067188604596331` | 1.0.1 | September 27, 2018 – 16:48:23 UTC | 
 `336132831154623931` |  | September 25, 2018 – 14:20:24 UTC | 
-`6741447117850778077` |  | September 25, 2018 – 14:02:04 UTC |  21.413 GB
+`6741447117850778077` |  | September 25, 2018 – 14:02:04 UTC |  21.413 GB | Assets only, no binaries
 
 ## Other Depots and Manifests
 
