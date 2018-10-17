@@ -68,16 +68,16 @@ Depot ID | `640821` | Pathfinder: Kingmaker Content
 
 Manifest ID | Version | Date | Size (GB) | Comments
 :--- | :--- | :--- | ---: | :---
-`3329346642708156469` | 1.0.9 | October 16, 2018 – 11:47:06 UTC |
+`3329346642708156469` | 1.0.9 | October 16, 2018 – 11:47:06 UTC | 15.2 | Size delta
 `7773343900112385919` | 1.0.8c | October 12, 2018 – 18:21:28 UTC | 4.78 | Size delta
 `4551845841087663139` | 1.0.8b | October 11, 2018 – 15:07:55 UTC | 20.8 | Size delta
 `5750998838144035341` | 1.0.7 | October 9, 2018 – 13:38:33 UTC | 23.49 | Size delta
 `3625063316203614488` |  | October 8, 2018 – 19:33:21 UTC | 7.04 | Size delta with `946625482595150857`
 `403950949019027651` |  | October 7, 2018 – 14:22:42 UTC | 2.9 | Size delta, no binaries, audio only
 `946625482595150857` |  | October 7, 2018 – 13:17:17 UTC | 23.8 | Size delta
-`6336459653349909543` | 1.0.6 | October 5, 2018 – 15:50:10 UTC | |
+`6336459653349909543` | 1.0.6 | October 5, 2018 – 15:50:10 UTC | | Forgot to get size
 `7894022154904016667` | 1.0.5 | October 5, 2018 – 09:08:33 UTC | 15.5 | Size delta
-`4920380694923421717` |  | October 3, 2018 – 04:47:08 UTC | 
+`4920380694923421717` |  | October 3, 2018 – 04:47:08 UTC | | Forgot to get size
 `6358573070219561752` | 1.0.4 | October 2, 2018 – 16:30:02 UTC | 10.7 | Size delta
 `229482041491868730` | 1.0.3 | September 29, 2018 – 18:17:02 UTC | 9.81 | Size delta
 `2451367926564256244` | 1.0.2 | September 28, 2018 – 18:13:51 UTC | 10.7 | Size delta
