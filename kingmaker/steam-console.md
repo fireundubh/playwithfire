@@ -71,7 +71,7 @@ Manifest ID | Version | Date | Size (GB) | Comments
 `3329346642708156469` | 1.0.9 | October 16, 2018 – 11:47:06 UTC |
 `7773343900112385919` | 1.0.8c | October 12, 2018 – 18:21:28 UTC | 
 `4551845841087663139` | 1.0.8b | October 11, 2018 – 15:07:55 UTC | 
-`5750998838144035341` | 1.0.7 | October 9, 2018 – 13:38:33 UTC | 
+`5750998838144035341` | 1.0.7 | October 9, 2018 – 13:38:33 UTC | 23.49 | Size delta
 `3625063316203614488` |  | October 8, 2018 – 19:33:21 UTC | 7.04 | Size delta
 `403950949019027651` |  | October 7, 2018 – 14:22:42 UTC | 2.9 | Size delta, no binaries, audio only
 `946625482595150857` |  | October 7, 2018 – 13:17:17 UTC | 23.8 | Size delta
