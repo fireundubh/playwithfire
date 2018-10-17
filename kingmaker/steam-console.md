@@ -83,7 +83,7 @@ Manifest ID | Version | Date | Size (GB) | Comments
 `2451367926564256244` | 1.0.2 | September 28, 2018 – 18:13:51 UTC | 10.7 | Size delta
 `1412067188604596331` | 1.0.1 | September 27, 2018 – 16:48:23 UTC | 7.42 | Size delta
 `336132831154623931` |  | September 25, 2018 – 14:20:24 UTC | 5.49 | Size delta
-`6741447117850778077` |  | September 25, 2018 – 14:02:04 UTC |  21.4 | Assets only, no binaries
+`6741447117850778077` |  | September 25, 2018 – 14:02:04 UTC |  34.3 | Assets only, no binaries
 
 ## Other Depots and Manifests
 
