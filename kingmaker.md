@@ -23,4 +23,5 @@ Section | Description
 
 ## Documentation
 
-* [Using Steam to Download Previous Versions](/kingmaker/steam-console)
+* [Patch Notes with Assembly Changes](patch-notes)
+* [Using Steam to Download Previous Versions](steam-console)
