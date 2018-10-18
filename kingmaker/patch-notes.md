@@ -3,7 +3,9 @@
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
 # Patch Notes
-## 4137201467282432792
+## v1.0.10
+Manifest ID: `4137201467282432792`
+
 ### Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
@@ -156,7 +158,9 @@ Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/FactLogic | `CompanionImmort
 Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/FactLogic | `DropLootAndDestroyOnDeactivate.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/Visual/CharacterSystem | `Character.cs`
 
-## 3329346642708156469
+## v1.0.9
+Manifest ID: `3329346642708156469`
+
 ### Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
@@ -230,7 +234,9 @@ Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/Abilities/Blueprints | `Blue
 Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/FactLogic | `CompanionImmortality.cs`
 
 
-## 7773343900112385919
+## v1.0.8c
+Manifest ID: `7773343900112385919`
+
 ### Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
@@ -238,7 +244,9 @@ Modification | Ext. | Relative Directory | Name
 Modified | cs | Assembly-CSharp/Kingmaker/Designers/EventConditionActionSystem/Conditions | `UnitIsDead.cs`
 Added | cs | Assembly-CSharp/Kingmaker/Designers/EventConditionActionSystem/Conditions | `UnitIsNull.cs`
 
-## 4551845841087663139
+## v1.0.8b
+Manifest ID: `4551845841087663139`
+
 ### Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
@@ -291,7 +299,9 @@ Modified | cs | Assembly-CSharp/Kingmaker/Visual/CharacterSystem | `CharacterTex
 Modified | cs | Assembly-CSharp/Kingmaker/Visual/LocalMap | `LocalMapRenderer.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/Visual/Water | `PlanarReflectionAndRefraction.cs`
 
-## 5750998838144035341
+## v1.0.7
+Manifest ID: `5750998838144035341`
+
 ### Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
@@ -377,7 +387,9 @@ Modified | cs | Assembly-CSharp/Kingmaker/Designers/EventConditionActionSystem/E
 Modified | cs | Assembly-CSharp/Kingmaker/Designers/EventConditionActionSystem/Events | `UnitHealthTrigger.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/Items | `ItemEntityShield.cs`
 
-## 6336459653349909543
+## v1.0.6
+Manifest ID: `6336459653349909543`
+
 ### Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
@@ -423,7 +435,9 @@ Modified | cs | Assembly-CSharp/Kingmaker/UI/SettingsUI | `SettingsRoot.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/UI/Tooltip | `DescriptionBuilderTemplates.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/Utility | `TypeExtensions.cs`
 
-## 7894022154904016667
+## v1.0.5
+Manifest ID: `7894022154904016667`
+
 ### Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
@@ -505,7 +519,9 @@ Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/Mechanics/Components | `AddI
 Modified | cs | Assembly-CSharp/Kingmaker/Utility | `SystemUtil.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/View | `CameraRig.cs`
 
-## 6358573070219561752
+## v1.0.4
+Manifest ID: `6358573070219561752`
+
 ### Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
@@ -533,7 +549,9 @@ Modified | cs | Assembly-CSharp/Kingmaker/UI/Vendor | `FilterController.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/UI/Vendor | `SlotsGroup.cs`
 Modified | cs | Assembly-CSharp/UIExtension/Controllers | `VirtualList.cs`
 
-## 229482041491868730
+## v1.0.2
+Manifest ID: `229482041491868730`
+
 ### Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
@@ -578,7 +596,9 @@ Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/Abilities | `AbilityData.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/ActivatableAbilities | `BlueprintActivatableAbility.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/Class/LevelUp | `LevelUpController.cs`
 
-## 2451367926564256244
+## v1.0.2
+Manifest ID: `2451367926564256244`
+
 ### Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
@@ -614,7 +634,9 @@ Added | cs | Assembly-CSharp/Kingmaker/UnitLogic/Buffs | `RemoveBuffOnLoad.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/Buffs/Components | `AddEffectRegeneration.cs`
 Added | cs | Assembly-CSharp/Kingmaker/UnitLogic/FactLogic | `AddPostLoadActions.cs`
 
-## 1412067188604596331
+## v1.0.1
+Manifest ID: `1412067188604596331`
+
 ### Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
