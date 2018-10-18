@@ -4,7 +4,9 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 # Patch Notes
 ## v1.0.10
-Manifest ID: `4137201467282432792`
+
+- Manifest ID: `4137201467282432792`
+- [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1711824163719704513)
 
 ### Assembly Changes
 
@@ -159,7 +161,9 @@ Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/FactLogic | `DropLootAndDest
 Modified | cs | Assembly-CSharp/Kingmaker/Visual/CharacterSystem | `Character.cs`
 
 ## v1.0.9
-Manifest ID: `3329346642708156469`
+
+- Manifest ID: `3329346642708156469`
+- [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/2924417816931842509)
 
 ### Assembly Changes
 
@@ -235,7 +239,9 @@ Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/FactLogic | `CompanionImmort
 
 
 ## v1.0.8c
-Manifest ID: `7773343900112385919`
+
+- Manifest ID: `7773343900112385919`
+- [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/2924417816900833325)
 
 ### Assembly Changes
 
@@ -300,7 +306,9 @@ Modified | cs | Assembly-CSharp/Kingmaker/Visual/LocalMap | `LocalMapRenderer.cs
 Modified | cs | Assembly-CSharp/Kingmaker/Visual/Water | `PlanarReflectionAndRefraction.cs`
 
 ## v1.0.7
-Manifest ID: `5750998838144035341`
+
+- Manifest ID: `5750998838144035341`
+- [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1708445194439906203)
 
 ### Assembly Changes
 
@@ -388,7 +396,9 @@ Modified | cs | Assembly-CSharp/Kingmaker/Designers/EventConditionActionSystem/E
 Modified | cs | Assembly-CSharp/Kingmaker/Items | `ItemEntityShield.cs`
 
 ## v1.0.6
-Manifest ID: `6336459653349909543`
+
+- Manifest ID: `6336459653349909543`
+- [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1708445194413594388)
 
 ### Assembly Changes
 
@@ -436,7 +446,9 @@ Modified | cs | Assembly-CSharp/Kingmaker/UI/Tooltip | `DescriptionBuilderTempla
 Modified | cs | Assembly-CSharp/Kingmaker/Utility | `TypeExtensions.cs`
 
 ## v1.0.5
-Manifest ID: `7894022154904016667`
+
+- Manifest ID: `7894022154904016667`
+- [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1708445194411519344)
 
 ### Assembly Changes
 
@@ -520,7 +532,9 @@ Modified | cs | Assembly-CSharp/Kingmaker/Utility | `SystemUtil.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/View | `CameraRig.cs`
 
 ## v1.0.4
-Manifest ID: `6358573070219561752`
+
+- Manifest ID: `6358573070219561752`
+- [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/2940179248248985616)
 
 ### Assembly Changes
 
@@ -549,8 +563,10 @@ Modified | cs | Assembly-CSharp/Kingmaker/UI/Vendor | `FilterController.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/UI/Vendor | `SlotsGroup.cs`
 Modified | cs | Assembly-CSharp/UIExtension/Controllers | `VirtualList.cs`
 
-## v1.0.2
-Manifest ID: `229482041491868730`
+## v1.0.3
+
+- Manifest ID: `229482041491868730`
+- [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/2940179248226283738)
 
 ### Assembly Changes
 
@@ -597,7 +613,9 @@ Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/ActivatableAbilities | `Blue
 Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/Class/LevelUp | `LevelUpController.cs`
 
 ## v1.0.2
-Manifest ID: `2451367926564256244`
+
+- Manifest ID: `2451367926564256244`
+- [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/2940179248218810867)
 
 ### Assembly Changes
 
@@ -635,7 +653,9 @@ Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/Buffs/Components | `AddEffec
 Added | cs | Assembly-CSharp/Kingmaker/UnitLogic/FactLogic | `AddPostLoadActions.cs`
 
 ## v1.0.1
-Manifest ID: `1412067188604596331`
+
+- Manifest ID: `1412067188604596331`
+- [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1711822259759145662)
 
 ### Assembly Changes
 
