@@ -51,7 +51,7 @@ Hash ID | Name | Type | Min. Level | Armor | Engravings | Set Bonus
 00000175F0EF3873 | Arena Fighter's Armor | Torso | 50 | 1144 | +15% Warrior Damage<br>+10% Damage with Heavy Weapons | Arena Fighter's Set: 10% Health Restored with Overpower Abilities
 00000175F0EF3893 | Arena Fighter's Waistband | Waist | 50 | 1144 | +15% Warrior Damage<br>+20% Damage with Overpower Abilities | Arena Fighter's Set: 10% Health Restored with Overpower Abilities
 00000175F0EF38A3 | Pit Fighter's Boots | Legs | 50 | 629 | +15% Warrior Damage<br>+10% Damage with Spears and Staffs | Arena Fighter's Set: 10% Health Restored with Overpower Abilities
-0000018562B37DFE | Perseus Helmet | Head | +% Warrior Damage<br>+% Chance to Ignore Half Damage | +20% All Resistances
+0000018562B37DFE | Perseus Helmet | Head | ?? | ?? | +% Warrior Damage<br>+% Chance to Ignore Half Damage | +20% All Resistances
 00000175F0EF38B3 | Viper's Hood | Head | ?? | ?? | ??  | ??
 0000018562B344E1 | Bracers of Theseus | Arms | ?? | ?? | ?? | ??
 000001766330FC47 | Athenian War Hero Gauntlets | Arms | ?? | ?? | ?? | ??
