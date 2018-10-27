@@ -41,7 +41,7 @@ Hash ID | Name | Type | Min. Level | Armor | Engravings | Set Bonus
 0000018562B2CF76 | Pilgrim's Gloves | Arms | 22 | 145 | +11% Assassin Damage<br>+9% Adrenaline per Hit | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
 0000018562B2CF63 | Pilgrim's Garment | Torso | 36 | 599 | +13% Assassin Damage<br>+20% Adrenaline on Assassination Kill | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
 0000018562B2CF50 | Pilgrim's Belt | Waist | 13 | 113 | +9% Assassin Damage<br>+15% Adrenaline on Assassination Kill | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
- | Pilgrim's Boots | Legs | 33 | 285 | +13% Assassin Damage<br>+16% Movement Speed while Crouching | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
+0000018562B2CF3D | Pilgrim's Boots | Legs | 33 | 285 | +13% Assassin Damage<br>+16% Movement Speed while Crouching | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
 0000018562B2CF17 | Agamemnon's Gauntlets | Arms | 16 | 95 | +9% Warrior Damage<br>+10% Elemental Buildup | Agamemnon Set: +50% Burning Rate 
 0000018562B2CF2A | Agamemnon's Helmet | Head | ?? | ?? | Agamemnon Set: +50% Burning Rate 
 0000018562B2CF04 | Agamemnon's Body Armor | Torso | ?? | ?? | Agamemnon Set: +50% Burning Rate 
