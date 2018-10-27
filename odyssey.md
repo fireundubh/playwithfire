@@ -35,11 +35,33 @@ Hash ID | Name | Type | Min. Level | DPS | Engraving 1 | Engraving 2 | Engraving
 
 ## Legendary Armor
 
-Name | Type | Min. Level | Armor | Engravings | Set Bonus
-:--- | :--- | ---: | ---:  | :--- | :---
-Pilgrim's Hood | Head | 19 | 160 | +9% Assassin Damage<br>+6% Damage with Daggers | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
-Pilgrim's Gloves | Arms | 22 | 145 | +11% Assassin Damage<br>+9% Adrenaline per Hit | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
-Pilgrim's Garment | Torso | 36 | 599 | +13% Assassin Damage<br>+20% Adrenaline on Assassination Kill | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
-Pilgrim's Belt | Waist | 13 | 113 | +9% Assassin Damage<br>+15% Adrenaline on Assassination Kill | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
-Pilgrim's Boots | Legs | 33 | 285 | +13% Assassin Damage<br>+16% Movement Speed while Crouching | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
-Agamemnon's Gauntlets | Arms | 16 | 95 | +9% Warrior Damage<br>+10% Elemental Buildup | Agamemnon Set: +50% Burning Rate 
+Hash ID | Name | Type | Min. Level | Armor | Engravings | Set Bonus
+:--- | :--- | :--- | ---: | ---:  | :--- | :---
+0000018562B2CF89 | Pilgrim's Hood | Head | 19 | 160 | +9% Assassin Damage<br>+6% Damage with Daggers | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
+0000018562B2CF76 | Pilgrim's Gloves | Arms | 22 | 145 | +11% Assassin Damage<br>+9% Adrenaline per Hit | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
+0000018562B2CF63 | Pilgrim's Garment | Torso | 36 | 599 | +13% Assassin Damage<br>+20% Adrenaline on Assassination Kill | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
+0000018562B2CF50 | Pilgrim's Belt | Waist | 13 | 113 | +9% Assassin Damage<br>+15% Adrenaline on Assassination Kill | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
+ | Pilgrim's Boots | Legs | 33 | 285 | +13% Assassin Damage<br>+16% Movement Speed while Crouching | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
+0000018562B2CF17 | Agamemnon's Gauntlets | Arms | 16 | 95 | +9% Warrior Damage<br>+10% Elemental Buildup | Agamemnon Set: +50% Burning Rate 
+0000018562B2CF2A | Agamemnon's Helmet | Head | ?? | ?? | Agamemnon Set: +50% Burning Rate 
+0000018562B2CF04 | Agamemnon's Body Armor | Torso | ?? | ?? | Agamemnon Set: +50% Burning Rate 
+0000018562B2CEF1 | Agamemnon's Waistband | Waist | ?? | ?? | Agamemnon Set: +50% Burning Rate 
+00000175F0EF3863 | Arena Fighter's Helmet | Head | 50 | 800 | +15% Assassin Damage<br>+10% Damage with Swords and Daggers | Arena Fighter's Set: 10% Health Restored with Overpower Abilities
+00000175F0EF3883 | Arena Fighter's Gauntlets | Arms | 50 | 629 | +15% Warrior Damage<br>+20% Damage with Overpower Abilities | Arena Fighter's Set: 10% Health Restored with Overpower Abilities
+00000175F0EF3873 | Arena Fighter's Armor | Torso | 50 | 1144 | +15% Warrior Damage<br>+10% Damage with Heavy Weapons | Arena Fighter's Set: 10% Health Restored with Overpower Abilities
+00000175F0EF3893 | Arena Fighter's Waistband | Waist | 50 | 1144 | +15% Warrior Damage<br>+20% Damage with Overpower Abilities | Arena Fighter's Set: 10% Health Restored with Overpower Abilities
+00000175F0EF38A3 | Pit Fighter's Boots | Legs | 50 | 629 | +15% Warrior Damage<br>+10% Damage with Spears and Staffs | Arena Fighter's Set: 10% Health Restored with Overpower Abilities
+0000018562B37DFE | Perseus Helmet | Head | +% Warrior Damage<br>+% Chance to Ignore Half Damage | +20% All Resistances
+00000175F0EF38B3 | Viper's Hood | Head | ?? | ?? | ?? 
+0000018562B344E1 | Bracers of Theseus | Arms | ?? | ?? | ?? 
+000001766330FC47 | Athenian War Hero Gauntlets | Arms | ?? | ?? | ??
+00000175F0EF38D3 | Venom Gloves | Arms | ?? | ?? | ??
+00000176633CF822 | Pirate Gauntlets | Arms | ?? | ?? | ??
+0000018562B344CE | Jason's Golden Fleece | Torso | ?? | ?? | Greek Heroes Set: +20% All Resistances
+00000175F0EE9F33 | Armor of Achilles | Torso | ?? | ?? | Achilles Set: 2% Damage Dealt Restored as Health
+00000175F0EED1D9 | Waistband of Achilles | Waist | ?? | ?? | Achilles Set: 2% Damage Dealt Restored as Health
+00000175F0EF38C3 | Scaled Torso | Torso | ?? | ?? | Snake Set: +10% Intoxicated Damage and Weakening Effect
+0000018562B30A35 | Waistband of the Immortal | Waist | ?? | ?? | Immortal Set: 20% Health Restored on Death (2 Minutes Cooldown)
+0000018562B344BB | Hippolyta's Belt | Waist | ?? | ?? | Greek Heroes Set: +20% All Resistances
+00000175F0EF38E3 | Slithering Belt | Waist | ?? | ?? | Snake Set: +10% Intoxicated Damage and Weakening Effect
+0000018562B344A8 | Atalanta Sandals | Legs | ?? | ?? | Greek Heroes Set: +20% All Resistances
