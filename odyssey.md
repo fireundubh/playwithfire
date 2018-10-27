@@ -43,9 +43,9 @@ Hash ID | Name | Type | Min. Level | Armor | Engravings | Set Bonus
 0000018562B2CF50 | Pilgrim's Belt | Waist | 13 | 113 | +9% Assassin Damage<br>+15% Adrenaline on Assassination Kill | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
 0000018562B2CF3D | Pilgrim's Boots | Legs | 33 | 285 | +13% Assassin Damage<br>+16% Movement Speed while Crouching | Pilgrim Set: -40% Adrenaline Consumed by Shadow of Nyx Ability
 0000018562B2CF17 | Agamemnon's Gauntlets | Arms | 16 | 95 | +9% Warrior Damage<br>+10% Elemental Buildup | Agamemnon Set: +50% Burning Rate 
-0000018562B2CF2A | Agamemnon's Helmet | Head | ?? | ?? | Agamemnon Set: +50% Burning Rate 
-0000018562B2CF04 | Agamemnon's Body Armor | Torso | ?? | ?? | Agamemnon Set: +50% Burning Rate 
-0000018562B2CEF1 | Agamemnon's Waistband | Waist | ?? | ?? | Agamemnon Set: +50% Burning Rate 
+0000018562B2CF2A | Agamemnon's Helmet | Head | ?? | ?? | ?? | Agamemnon Set: +50% Burning Rate 
+0000018562B2CF04 | Agamemnon's Body Armor | Torso | ?? | ?? | ?? | Agamemnon Set: +50% Burning Rate 
+0000018562B2CEF1 | Agamemnon's Waistband | Waist | ?? | ?? | ?? | Agamemnon Set: +50% Burning Rate 
 00000175F0EF3863 | Arena Fighter's Helmet | Head | 50 | 800 | +15% Assassin Damage<br>+10% Damage with Swords and Daggers | Arena Fighter's Set: 10% Health Restored with Overpower Abilities
 00000175F0EF3883 | Arena Fighter's Gauntlets | Arms | 50 | 629 | +15% Warrior Damage<br>+20% Damage with Overpower Abilities | Arena Fighter's Set: 10% Health Restored with Overpower Abilities
 00000175F0EF3873 | Arena Fighter's Armor | Torso | 50 | 1144 | +15% Warrior Damage<br>+10% Damage with Heavy Weapons | Arena Fighter's Set: 10% Health Restored with Overpower Abilities
