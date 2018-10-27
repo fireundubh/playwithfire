@@ -52,16 +52,16 @@ Hash ID | Name | Type | Min. Level | Armor | Engravings | Set Bonus
 00000175F0EF3893 | Arena Fighter's Waistband | Waist | 50 | 1144 | +15% Warrior Damage<br>+20% Damage with Overpower Abilities | Arena Fighter's Set: 10% Health Restored with Overpower Abilities
 00000175F0EF38A3 | Pit Fighter's Boots | Legs | 50 | 629 | +15% Warrior Damage<br>+10% Damage with Spears and Staffs | Arena Fighter's Set: 10% Health Restored with Overpower Abilities
 0000018562B37DFE | Perseus Helmet | Head | +% Warrior Damage<br>+% Chance to Ignore Half Damage | +20% All Resistances
-00000175F0EF38B3 | Viper's Hood | Head | ?? | ?? | ?? 
-0000018562B344E1 | Bracers of Theseus | Arms | ?? | ?? | ?? 
-000001766330FC47 | Athenian War Hero Gauntlets | Arms | ?? | ?? | ??
-00000175F0EF38D3 | Venom Gloves | Arms | ?? | ?? | ??
-00000176633CF822 | Pirate Gauntlets | Arms | ?? | ?? | ??
-0000018562B344CE | Jason's Golden Fleece | Torso | ?? | ?? | Greek Heroes Set: +20% All Resistances
-00000175F0EE9F33 | Armor of Achilles | Torso | ?? | ?? | Achilles Set: 2% Damage Dealt Restored as Health
-00000175F0EED1D9 | Waistband of Achilles | Waist | ?? | ?? | Achilles Set: 2% Damage Dealt Restored as Health
-00000175F0EF38C3 | Scaled Torso | Torso | ?? | ?? | Snake Set: +10% Intoxicated Damage and Weakening Effect
-0000018562B30A35 | Waistband of the Immortal | Waist | ?? | ?? | Immortal Set: 20% Health Restored on Death (2 Minutes Cooldown)
-0000018562B344BB | Hippolyta's Belt | Waist | ?? | ?? | Greek Heroes Set: +20% All Resistances
-00000175F0EF38E3 | Slithering Belt | Waist | ?? | ?? | Snake Set: +10% Intoxicated Damage and Weakening Effect
-0000018562B344A8 | Atalanta Sandals | Legs | ?? | ?? | Greek Heroes Set: +20% All Resistances
+00000175F0EF38B3 | Viper's Hood | Head | ?? | ?? | ??  | ??
+0000018562B344E1 | Bracers of Theseus | Arms | ?? | ?? | ?? | ??
+000001766330FC47 | Athenian War Hero Gauntlets | Arms | ?? | ?? | ?? | ??
+00000175F0EF38D3 | Venom Gloves | Arms | ?? | ?? | ?? | ??
+00000176633CF822 | Pirate Gauntlets | Arms | ?? | ?? | ?? | ??
+0000018562B344CE | Jason's Golden Fleece | Torso | ?? | ?? | ?? | Greek Heroes Set: +20% All Resistances
+00000175F0EE9F33 | Armor of Achilles | Torso | ?? | ?? | ?? | Achilles Set: 2% Damage Dealt Restored as Health
+00000175F0EED1D9 | Waistband of Achilles | Waist | ?? | ?? | ?? | Achilles Set: 2% Damage Dealt Restored as Health
+00000175F0EF38C3 | Scaled Torso | Torso | ?? | ?? | ?? | Snake Set: +10% Intoxicated Damage and Weakening Effect
+0000018562B30A35 | Waistband of the Immortal | Waist | ?? | ?? | ?? | Immortal Set: 20% Health Restored on Death (2 Minutes Cooldown)
+0000018562B344BB | Hippolyta's Belt | Waist | ?? | ?? | ?? | Greek Heroes Set: +20% All Resistances
+00000175F0EF38E3 | Slithering Belt | Waist | ?? | ?? | ?? | Snake Set: +10% Intoxicated Damage and Weakening Effect
+0000018562B344A8 | Atalanta Sandals | Legs | ?? | ?? | ?? | Greek Heroes Set: +20% All Resistances
