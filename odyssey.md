@@ -46,17 +46,18 @@ Hash ID | Name | Type | Min. Level | Armor | Engravings | Set Bonus
 0000018562B2CF2A | Agamemnon's Helmet | Head | ?? | ?? | ?? | Agamemnon Set: +50% Burning Rate 
 0000018562B2CF04 | Agamemnon's Body Armor | Torso | ?? | ?? | ?? | Agamemnon Set: +50% Burning Rate 
 0000018562B2CEF1 | Agamemnon's Waistband | Waist | ?? | ?? | ?? | Agamemnon Set: +50% Burning Rate 
+0000018562B2CEDE | Boots of Agamemnon | Legs | ?? | ?? | ?? | Agamemnon Set: +50% Burning Rate 
 00000175F0EF3863 | Arena Fighter's Helmet | Head | 50 | 800 | +15% Assassin Damage<br>+10% Damage with Swords and Daggers | Arena Fighter's Set: 10% Health Restored with Overpower Abilities
 00000175F0EF3883 | Arena Fighter's Gauntlets | Arms | 50 | 629 | +15% Warrior Damage<br>+20% Damage with Overpower Abilities | Arena Fighter's Set: 10% Health Restored with Overpower Abilities
 00000175F0EF3873 | Arena Fighter's Armor | Torso | 50 | 1144 | +15% Warrior Damage<br>+10% Damage with Heavy Weapons | Arena Fighter's Set: 10% Health Restored with Overpower Abilities
 00000175F0EF3893 | Arena Fighter's Waistband | Waist | 50 | 1144 | +15% Warrior Damage<br>+20% Damage with Overpower Abilities | Arena Fighter's Set: 10% Health Restored with Overpower Abilities
 00000175F0EF38A3 | Pit Fighter's Boots | Legs | 50 | 629 | +15% Warrior Damage<br>+10% Damage with Spears and Staffs | Arena Fighter's Set: 10% Health Restored with Overpower Abilities
-0000018562B37DFE | Perseus Helmet | Head | ?? | ?? | +% Warrior Damage<br>+% Chance to Ignore Half Damage | +20% All Resistances
-00000175F0EF38B3 | Viper's Hood | Head | ?? | ?? | ??  | ??
-0000018562B344E1 | Bracers of Theseus | Arms | ?? | ?? | ?? | ??
-000001766330FC47 | Athenian War Hero Gauntlets | Arms | ?? | ?? | ?? | ??
-00000175F0EF38D3 | Venom Gloves | Arms | ?? | ?? | ?? | ??
-00000176633CF822 | Pirate Gauntlets | Arms | ?? | ?? | ?? | ??
+0000018562B37DFE | Perseus Helmet | Head | ?? | ?? | +% Warrior Damage<br>+% Chance to Ignore Half Damage | Greek Heroes Set: +20% All Resistances
+00000175F0EF38B3 | Viper's Hood | Head | ?? | ?? | ??  | Snake Set: +10% Intoxicated Damage and Weakening Effect
+0000018562B344E1 | Bracers of Theseus | Arms | ?? | ?? | ?? | Greek Heroes Set: +20% All Resistances
+000001766330FC47 | Athenian War Hero Gauntlets | Arms | ?? | ?? | ?? | Athenian War Hero Set: All Arrows Pierce Shields
+00000175F0EF38D3 | Venom Gloves | Arms | ?? | ?? | ?? | Snake Set: +10% Intoxicated Damage and Weakening Effect
+00000176633CF822 | Pirate Gauntlets | Arms | ?? | ?? | ?? | Pirate Set: +15% Damage with Assassin Abilities
 0000018562B344CE | Jason's Golden Fleece | Torso | ?? | ?? | ?? | Greek Heroes Set: +20% All Resistances
 00000175F0EE9F33 | Armor of Achilles | Torso | ?? | ?? | ?? | Achilles Set: 2% Damage Dealt Restored as Health
 00000175F0EED1D9 | Waistband of Achilles | Waist | ?? | ?? | ?? | Achilles Set: 2% Damage Dealt Restored as Health
@@ -65,3 +66,6 @@ Hash ID | Name | Type | Min. Level | Armor | Engravings | Set Bonus
 0000018562B344BB | Hippolyta's Belt | Waist | ?? | ?? | ?? | Greek Heroes Set: +20% All Resistances
 00000175F0EF38E3 | Slithering Belt | Waist | ?? | ?? | ?? | Snake Set: +10% Intoxicated Damage and Weakening Effect
 0000018562B344A8 | Atalanta Sandals | Legs | ?? | ?? | ?? | Greek Heroes Set: +20% All Resistances
+00000186B36B29DC | Pirate Treads | Legs | ?? | ?? | ?? | Pirate Set: +15% Damage with Assassin Abilities
+00000175F0EF6B79 | Noxious Boots | Legs | ?? | ?? | ?? | Snake Set: +10% Intoxicated Damage and Weakening Effect
+0000018562B30A22 | Boots of the Immortal | Legs | ?? | ?? | ?? | Immortal Set: 20% Health Restored on Death (2 Minutes Cooldown)
