@@ -32,7 +32,9 @@ Hash ID | Name | Type | Min. Level | DPS | Engraving 1 | Engraving 2 | Engraving
 
 ## Heavy Bladed
 
-None yet.
+Hash ID | Name | Type | Min. Level | DPS | Engraving 1 | Engraving 2 | Engraving 3
+:--- | :--- | :--- | ---:  | ---: | :--- | :--- | :---
+0000017D89732443 | Elysian Axe | Heavy Bladed | ?? | ?? | +% Hunter Damage | +% All Damage | +20% Damage with Rain of Destruction Ability
 
 ## Staffs
 
@@ -55,7 +57,7 @@ Hash ID | Name | Type | Min. Level | DPS | Engraving 1 | Engraving 2 | Engraving
 000001844B09F4D4 | Vine Bow | Bow | 7? | 140 | +7% Hunter Damage | +3% Damage with Bows on Distant Targets | +25% Hunter Damage but -15% Armor
 0000017D897226FE | Fanged Bow | Bow | 23 | 618 | +11% Assassin Damage | +12% Poison Damage | Basic Arrows become Poison Arrows
 0000017D89722682 | Eros' Bow | Bow | 35 | 1243 | +13% Hunter Damage | +15% Adrenaline per Hit | +50% Chance to not Consume Special Arrows
-0000017D897226A1 | Hades' Bow | Bow | ?? | ?? | ?? | ?? | ??
+0000017D897226A1 | Hades' Bow | Bow | ?? | ?? | +% Warrior Damage | +% Fire Damage| Basic Arrows become Fire Arrows
 0000017D89722663 | Artemis' Bow | Bow | ?? | ?? | ?? | ?? | ??
 0000017D89722644 | Achilles' Bow | Bow | ?? | ?? | ?? | ?? | ??
 0000017D897226C0 | Herakles' Bow | Bow | 46 | 1965 | +15% Warrior Damage | +10% Damage with Bow Charged Shot | +20% Damage with Bull Rush Ability
