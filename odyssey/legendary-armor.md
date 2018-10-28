@@ -11,8 +11,10 @@ Set Bonus: 2% Damage Dealt Restored as Health
 
 Hash ID | Name | Type | Min. Level | Armor | Engraving 1 | Engraving 2
 :--- | :--- | :--- | ---: | ---:  | :--- | :---
+00000175F0EE9F23 | Helm of Achilles | Head | ?? | ?? | +% Warrior Damage | +% CRIT Damage
 00000175F0EE9F33 | Armor of Achilles | Torso | ?? | ?? | ?? | ??
 00000175F0EED1D9 | Waistband of Achilles | Waist | ?? | ?? | ?? | ??
+00000175F0EED1E9 | Sandals of Achilles | Legs | ?? | ?? | +% Warrior Damage | +% All Damage
 
 ## Agamemnon's Set
 
@@ -44,6 +46,8 @@ Set Bonus: All Arrows Pierce Shields
 
 Hash ID | Name | Type | Min. Level | Armor | Engraving 1 | Engraving 2
 :--- | :--- | :--- | ---: | ---:  | :--- | :---
+000001766330FC27 | Athenian War Hero Helmet | Head | ?? | ?? | +% Hunter Damage | +% Damage on Spartan Soldiers
+000001766330FC37 | Athenian War Hero Armor | ?? | ?? | +% Hunter Damage | +% Damage with Bow Charged Shot
 000001766330FC47 | Athenian War Hero Gauntlets | Arms | ?? | ?? | ?? | ??
 
 ## Greek Heroes Set
@@ -99,3 +103,11 @@ Hash ID | Name | Type | Min. Level | Armor | Engraving 1 | Engraving 2
 00000175F0EF38D3 | Venom Gloves | Arms | ?? | ?? | ?? | ??
 00000175F0EF38E3 | Slithering Belt | Waist | ?? | ?? | ?? | ??
 00000175F0EF6B79 | Noxious Boots | Legs | ?? | ?? | ?? | ??
+
+## Spartan War Hero Set
+
+Set Bonus: +15% Damage with Warrior Abilities
+
+Hash ID | Name | Type | Min. Level | Armor | Engraving 1 | Engraving 2
+:--- | :--- | :--- | ---: | ---:  | :--- | :---
+0000018562B793FB | Spartan War Hero Helmet | Head | ?? | ?? | +% Warrior Damage  | +% Damage on Athenian Soldiers
