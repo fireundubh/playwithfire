@@ -79,6 +79,14 @@ Depot ID | `379433` | goldmaster_bin - This depot contains the game binaries. (M
 
 ### Depot: goldmaster
 
+#### Reference
+
+```
+download_depot 379430 379432 4726149695433587359 7992763947464641746
+```
+
+#### Table
+
 Manifest ID | Version | Date
 --- | --- | ---
 `4726149695433587359` | 1.7.1 | October 24, 2018 – 15:00:06 UTC
@@ -105,6 +113,14 @@ Manifest ID | Version | Date
 `1574197374724500814` | 1.1 | February 13, 2018 – 08:01:41 UTC
 
 ### Depot: goldmaster_bin
+
+#### Reference
+
+```
+download_depot 379430 379433 2399540122942266164 4111290527857171027
+```
+
+#### Table
 
 Manifest ID | Version | Date
 --- | --- | ---
