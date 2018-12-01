@@ -68,6 +68,9 @@ Depot ID | `640821` | Pathfinder: Kingmaker Content
 
 Manifest ID | Version | Date | Size (GB) | Comments
 :--- | :--- | :--- | ---: | :---
+`513119536492443724` | 1.1.1 Hotfix | November 29, 2018 – 10:28:54 UTC | 9.5 | Size delta
+`568166937022414569` | 1.1.1 Hotfix | November 23, 2018 – 20:59:52 UTC | | Size delta
+`6841280346056458271` | 1.1.1 Hotfix | November 23, 2018 – 12:33:13 UTC | | Size delta
 `8410446097109498345` | 1.1.1a | November 22, 2018 – 12:42:13 UTC | | Size delta
 `3237457528724341205` | 1.1.1 | November 16, 2018 – 23:57:42 UTC | 4.32 | Size delta
 `3970314610931200324` | 1.1.0 | November 16, 2018 – 08:01:20 UTC | 32.6 | Size delta
