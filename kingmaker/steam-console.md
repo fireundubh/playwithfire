@@ -66,7 +66,7 @@ Depot ID | `640821` | Pathfinder: Kingmaker Content
 
 ### Depot: _Pathfinder: Kingmaker Content_
 
-Manifest ID | Version | Date | Size (GB) | Comments
+Manifest ID | Version | Date | Size (GB) | Timezone
 :--- | :--- | :--- | ---: | :---
 `513119536492443724` | 1.1.2 | 2018-11-29 | 10:28:54 AM | UTC
 `568166937022414569` | 1.1.1 Hotfix | 2018-11-23 | 8:59:52 PM | UTC
