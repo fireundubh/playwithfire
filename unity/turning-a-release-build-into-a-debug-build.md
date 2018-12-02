@@ -88,6 +88,6 @@ Execute the following command:
 
 The MDB file be generated in the same folder as the target assembly DLL.
 
-### Step 7: Replace MonoBleedingEdge Binary
+### Step 7: Replace Mono Binary
 
-Finally, replace `mono-2.0-bdwgc.dll` in the game's MonoBleedingEdge folder with the debug version from the Unity Editor's MonoBleedingEdge folder.
+Finally, replace `mono-2.0-bdwgc.dll` in the game's `MonoBleedingEdge` folder with the debug version from the Unity Editor's `MonoBleedingEdge` folder.
