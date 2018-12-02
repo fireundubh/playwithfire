@@ -42,15 +42,14 @@ Save the module with the following MD Writer Options:
 Before you do anything, backup the game's player `.exe`, `UnityPlayer.dll`, and the `Managed` folder.
 
 1. Download and install the correct version of Unity from the [official Unity download archive](https://unity3d.com/get-unity/download/archive).
-2. Determine whether the game is 32-bit or 64-bit.
-3. In the Unity installation directory, go to the `Editor\Data\PlaybackEngines\windowsstandalonesupport\Variations` folder.
-4. Go to `win32_development_mono` or `win64_development_mono`.
-5. Delete the game's `.exe` and `UnityPlayer.dll`.
-6. Copy the debug `WindowsPlayer.exe` and `UnityPlayer.dll` to the game's root directory.
-7. Rename game's `WindowsPlayer.exe` appropriately.
-8. Copy the contents of `Data\Managed` to the game's respective folder, overwriting all files when prompted.
-9. Create a new plain text file in the game's Data folder named `boot.config`.
-10. Edit `boot.config`, add the line `player-connection-debug=1`, and save.
+2. In the Unity installation directory, go to the `Editor\Data\PlaybackEngines\windowsstandalonesupport\Variations` folder.
+3. Determine whether the game is 32-bit or 64-bit, and go to either `win32_development_mono` or `win64_development_mono`.
+4. In the game's root directory, delete the game's `.exe` and `UnityPlayer.dll`.
+5. Copy the debug `WindowsPlayer.exe` and `UnityPlayer.dll` to the game's root directory.
+6. Rename the game's `WindowsPlayer.exe` appropriately.
+7. Copy the contents of `Data\Managed` to the game's respective folder, overwriting all files when prompted.
+8. Create a new plain text file in the game's Data folder named `boot.config`.
+9. Edit `boot.config`, add the line `player-connection-debug=1`, and save.
 
 ### Step 3: Compile de4dot
 
