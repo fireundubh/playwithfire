@@ -65,7 +65,9 @@ We need to set up the assembly so that dotPeek can generate a new PDB file. (Cur
 **Note:** The line numbers in stack traces will be accurate to dotPeek's decompilation output because we're using dotPeek to generate the PDB.
 
 1. Run de4dot from the command prompt/shell to see the command line parser arguments.
-2. Execute the following command: `de4dot --dont-rename --keep-types --preserve-tokens --preserve-strings -fpdb <source_assembly_dll> -o <target_assembly_dll>`
+2. Execute the following command: `de4dot --dont-rename --keep-types --preserve-tokens --preserve-strings -fpdb <input_assembly_dll> -o <output_assembly_dll>`
+
+**Important:** The output assembly should have the same name as the input assembly.
 
 A dummy PDB will be produced in the output folder.
 
