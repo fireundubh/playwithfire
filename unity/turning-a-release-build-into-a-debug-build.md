@@ -47,7 +47,7 @@ Before you do anything, backup the game's player `.exe`, `UnityPlayer.dll`, and 
 4. In the game's root directory, delete the game's `.exe` and `UnityPlayer.dll`.
 5. Copy the debug `WindowsPlayer.exe` and `UnityPlayer.dll` to the game's root directory.
 6. Rename the game's new `WindowsPlayer.exe` appropriately.
-7. Copy the contents of `Data\Managed` to the game's respective folder, overwriting all files when prompted.
+7. From the folder selected in #3, copy the contents of `Data\Managed` to the game's respective folder, overwriting all files when prompted.
 8. Create a new plain text file in the game's Data folder named `boot.config`.
 9. Edit `boot.config`, add the line `player-connection-debug=1`, and save.
 
