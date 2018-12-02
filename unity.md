@@ -5,6 +5,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 # Unity Modding
 ## Tutorials
 
+* [Important files and folders](/unity/important-files-and-folders)
 * [Turning a release build into a debug build](/unity/turning-a-release-build-into-a-debug-build)
 
 ## Tools
