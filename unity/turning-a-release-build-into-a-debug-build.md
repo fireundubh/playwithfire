@@ -93,7 +93,7 @@ Execute the following command:
 "<unity_install_path_base>\Editor\Data\MonoBleedingEdge\bin\mono.exe" "<unity_install_path_base>\Editor\Data\MonoBleedingEdge\lib\mono\4.5\pdb2mdb.exe" "<target_assembly_dll>"
 ```
 
-The MDB file be generated in the same folder as the target assembly DLL.
+The MDB file will be generated in the same folder as the target assembly DLL.
 
 ### Step 7: Replace Mono Binary
 
