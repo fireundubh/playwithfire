@@ -26,14 +26,14 @@ To:
 [assembly: Debuggable(DebuggableAttribute.DebuggingModes.Default | DebuggableAttribute.DebuggingModes.DisableOptimizations | DebuggableAttribute.DebuggingModes.EnableEditAndContinue)]
 ```
 
+For more information, see [0xd4d's guide to Making an Image Easier to Debug](https://github.com/0xd4d/dnSpy/wiki/Making-an-Image-Easier-to-Debug).
+
 Save the module with the following MD Writer Options:
 
 * Check: Preserve All MD Tokens
 * Check: Preserve Heap Offsets (all)
 * Check: Create Heap Even If Empty (all)
 * Check: Misc Options (all except Keep Old MaxStack Value)
-
-Source: [https://github.com/0xd4d/dnSpy/wiki/Making-an-Image-Easier-to-Debug](https://github.com/0xd4d/dnSpy/wiki/Making-an-Image-Easier-to-Debug)
 
 ### Step 2: Set Up Debug Binaries
 
