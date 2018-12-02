@@ -78,6 +78,12 @@ A dummy PDB will be produced in the output folder.
 
 You may have to wait a while for dotPeek to generate the DecompilerCache and write the PDB file.
 
+**Note:** For reference, JetBrains stores the DecompilerCache at the following location:
+
+```
+C:\Users\<username>\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler
+```
+
 ### Step 6: Convert PDB to MDB
 
 Unity loads MDB files, not PDB files, so we need to convert our new PDB to MDB. Fortunately, we have all the tools already.
