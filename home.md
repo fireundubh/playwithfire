@@ -22,4 +22,6 @@ Engine | Contents
 
 ## Scripting
 
-* [Papyrus Anti-Patterns](papyrus-anti-patterns)
+Section | Description
+--- | ---
+[Papyrus Anti-Patterns](papyrus-anti-patterns) | Skyrim and Fallout 4 scripting anti-patterns/best practices
