@@ -5,7 +5,7 @@
 ## Games 
 
 Game | Contents
---- | ---
+:--- | :---
 [Assassin's Creed: Odyssey](odyssey) | Game data
 [Divinity: Original Sin 2](divinity) | Nothing yet
 [Elder Scrolls V: Skyrim](skyrim) | Nothing yet
@@ -17,11 +17,11 @@ Game | Contents
 ## Engines
 
 Engine | Contents
---- | ---
+:--- | :---
 [Unity](unity) |  Unity modding reference documentation and tutorials
 
 ## Scripting
 
 Section | Description
---- | ---
+:--- | :---
 [Papyrus Anti-Patterns](papyrus-anti-patterns) | Skyrim and Fallout 4 scripting anti-patterns/best practices
