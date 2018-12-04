@@ -4,7 +4,7 @@
 [![https://www.patreon.com/fireundubh](https://i.imgur.com/llPEyru.png)](https://www.patreon.com/fireundubh)
 
 # Fallout 4
-Welcome to the *Fallout 4* wiki at **#playwithfire**.n.
+Welcome to the *Fallout 4* wiki at **#playwithfire**.
 
 ## Mods
 
