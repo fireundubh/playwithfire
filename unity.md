@@ -10,7 +10,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 ## Games
 
 Name | Developer | Unity Version | .NET Compatibility
---- | --- | --- | ---
+:--- | :--- | :--- | :---
 Pathfinder: Kingmaker | Owlcat Games | 2018.1f0 | .NET 4 (Assembly-CSharp.dll)
 Pillars of Eternity | Obsidian Entertainment | 5.1 | .NET 3.5 (Assembly-CSharp.dll)
 Pillars of Eternity II: Deadfire | Obsidian Entertainment | 5.6.3 | .NET 3.5 (Assembly-CSharp.dll)
@@ -22,7 +22,7 @@ Tyranny | Obsidian Entertainment | 5.2 | .NET 3.5 (Assembly-CSharp.dll)
 Most of modding Unity games involves decompiling `Assembly-CSharp.dll` and patching in new code.
 
 Type | Name | Developer | Price | License | Download | Website
---- | --- | --- | --- | --- | --- | ---
+:--- | :--- | :--- | :--- | :--- | :--- | :---
 Decompiler/IL Editor | dnSpy | 0xd4d | Open source | GPL v3 | [https://ci.appveyor.com/project/0xd4d/dnspy/branch/master/artifacts](https://ci.appveyor.com/project/0xd4d/dnspy/branch/master/artifacts) | [GitHub](https://github.com/0xd4d/dnSpy)
 Decompiler | dotPeek | JetBrains | Free | Commercial | [https://www.jetbrains.com/decompiler/download/](https://www.jetbrains.com/decompiler/download/) | [Official Website](https://www.jetbrains.com/decompiler/)
 Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [https://ci.appveyor.com/project/0xd4d/de4dot/branch/master/artifacts](https://ci.appveyor.com/project/0xd4d/de4dot/branch/master/artifacts) | [GitHub](https://github.com/0xd4d/de4dot)
