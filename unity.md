@@ -11,7 +11,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 Name | Developer | Unity Version | .NET Compatibility
 :--- | :--- | :--- | :---
-Pathfinder: Kingmaker | Owlcat Games | 2018.1f0 | .NET 4 (Assembly-CSharp.dll)
+Pathfinder: Kingmaker | Owlcat Games | 2018.1f0 | .NET 4.x (Assembly-CSharp.dll)
 Pillars of Eternity | Obsidian Entertainment | 5.1 | .NET 3.5 (Assembly-CSharp.dll)
 Pillars of Eternity II: Deadfire | Obsidian Entertainment | 5.6.3 | .NET 3.5 (Assembly-CSharp.dll)
 Torment: Tides of Numenera |  inXile Entertainment | 5.4.1 | .NET 3.5 (Assembly-CSharp.dll)
