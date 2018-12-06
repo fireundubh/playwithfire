@@ -2,6 +2,12 @@
 <!-- SUBTITLE: Back home to where it all began... -->
 
 # Home
+## Engines
+
+Engine | Contents
+:--- | :---
+[Unity](unity) |  Unity modding reference documentation and tutorials
+
 ## Games 
 
 Game | Contents
@@ -15,14 +21,13 @@ Game | Contents
 [Pillars of Eternity II: Deadfire](deadfire) | Scripting and game data documentation
 [Torment: Tides of Numenera](torment) | Scripting and game data documentation
 
-## Engines
-
-Engine | Contents
-:--- | :---
-[Unity](unity) |  Unity modding reference documentation and tutorials
-
 ## Scripting
 
 Section | Description
 :--- | :---
 [Papyrus Anti-Patterns](papyrus-anti-patterns) | Skyrim and Fallout 4 scripting anti-patterns/best practices
+
+## Steam Console
+
+* [Using Steam to Download Previous Versions](steam-console)
+* [Game Manifest Version Tables](steam-console/tables)
