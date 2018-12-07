@@ -13,7 +13,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 Date | Manifest ID | Version | Patch Notes
 :--- | :--- | :--- | :---
 2018-12-05 15:37:26 UTC | `1112391099424458719` | 3.6.33.2684 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1710702701592286936)
-2018-11-21 18:24:38 UTC | `4762916935637632730` |
+2018-11-21 18:24:38 UTC | `4762916935637632730` | | [Something Something German](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1709575532580422516)
 2018-11-15 19:06:25 UTC | `4258198499269865028` | 3.6.32.4166 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/3463727052352493227)
 2018-11-07 17:27:50 UTC | `3080217226522803759` | 3.6.32.1810 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1717455564405725513)
 2018-10-17 16:10:26 UTC | `5423912583703951383` | 3.6.31.2130 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1700565164647606918)
