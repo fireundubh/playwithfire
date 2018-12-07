@@ -152,7 +152,12 @@ Date | Manifest ID | Version | Patch Notes
 2018-09-25 14:02:04 UTC | `6741447117850778077` |  | 
 
 ## Torment: Tides of Numenera
-### Release
+
+[SteamDB Manifests](https://steamdb.info/depot/272271/manifests/)
+
+### App ID: 272270
+
+#### Depot ID: 272271
 
 Date | Manifest ID | Version | Patch Notes
 :--- | :--- | :--- | :---
@@ -161,11 +166,6 @@ Date | Manifest ID | Version | Patch Notes
 2017-03-29 16:43:44 UTC | `1205731454159606030` |  | 
 2017-03-28 16:02:35 UTC | `6743520395024327643` | 1.0.2 | [Patch Notes](https://steamcommunity.com/app/272270/discussions/0/133260909499737939/)
 2017-02-28 06:56:37 UTC | `1931151691588868836` | Public Release | [Release Date Announcement](https://steamcommunity.com/gid/103582791441221464/announcements/detail/653417453752180573)
-
-### Early Access
-
-Date | Manifest ID | Version | Patch Notes
-:--- | :--- | :--- | :---
 2016-12-20 19:59:51 UTC | `741020259097035797` | 0.1.3 | [Early Access Patch Notes](https://www.kickstarter.com/projects/inxile/torment-tides-of-numenera/posts/1769123) (Tidal Surge Update)
 2016-06-09 19:59:12 UTC | `5920970359552251630` | 0.1.2 | [Early Access Patch Notes](https://steamcommunity.com/gid/103582791441221464/announcements/detail/916860825825059443)
 2016-02-04 18:01:29 UTC | `5163238004520983390` | 0.1.1 | [Early Access Patch Notes](https://steamcommunity.com/app/272270/discussions/0/405690850604539467/)
