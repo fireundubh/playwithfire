@@ -14,5 +14,5 @@ Manifest ID | Date | Version | Patch Notes
 1931151691588868836 | 2017-02-28 06:56:37 UTC | Public Release | [Release Date Announcement](https://steamcommunity.com/gid/103582791441221464/announcements/detail/653417453752180573)
 741020259097035797 | 2016-12-20 19:59:51 UTC |  |
 5920970359552251630 | 2016-06-09 19:59:12 UTC | 0.1.2 | [Early Access Patch Notes](https://steamcommunity.com/gid/103582791441221464/announcements/detail/916860825825059443)
-5163238004520983390 | 2016-02-04 18:01:29 UTC | Patch 1 | [Early Access Patch Notes](https://steamcommunity.com/gid/103582791441221464/announcements/detail/940493306352391994)
+5163238004520983390 | 2016-02-04 18:01:29 UTC | Patch 1 | [Early Access Patch Notes](https://steamcommunity.com/app/272270/discussions/0/405690850604539467/)
 804608384927260334 | 2016-01-24 12:07:40 UTC |  |
