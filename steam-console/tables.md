@@ -6,6 +6,8 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 ## Divinity: Original Sin 2
 
+### Release
+
 Date | Manifest ID | Version | Patch Notes
 :--- | :--- | :--- | :---
 2018-08-31 01:29:08 UTC | `167072590693741559` | 
@@ -39,6 +41,11 @@ Date | Manifest ID | Version | Patch Notes
 2017-09-15 18:01:35 UTC | `7634517375182509514` | 
 2017-09-14 20:50:37 UTC | `1428015599965561224` | 
 2017-09-14 14:53:11 UTC | `5753691202891746710` | 3.0.141.716 | Release Date
+
+### Early Access
+
+Date | Manifest ID | Version | Patch Notes
+:--- | :--- | :--- | :---
 2017-05-26 12:36:54 UTC | `2565278018179312552` | 3.0.77.309 | Last Early Access Update
 2017-05-24 14:56:27 UTC | `7787012528413011186` | 3.0.76.796
 2017-03-31 11:02:37 UTC | `5775428352633111097` | 3.0.52.425
