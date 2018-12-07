@@ -29,14 +29,14 @@ Date | Manifest ID | Version | Patch Notes
 2018-08-31 01:29:08 UTC | `167072590693741559` |  | [Definitive Edition Release Announcement](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1703938422704592613)
 2018-08-30 16:31:59 UTC | `1171886874743914236` |  | 
 2018-05-16 15:13:57 UTC | `244373317272729760` |  | 
-2018-05-16 07:34:06 UTC | `1389547995064105059` |  |
+2018-05-16 07:34:06 UTC | `1389547995064105059` | 3.0.226.993 | [Patch Notes](http://larian.com/forums/ubbthreads.php?ubb=showflat&Number=646015)
 2018-03-21 16:44:44 UTC | `191036283777788044` | 3.0.190.74 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1665643240467115002)
 2018-03-07 16:13:01 UTC | `5046830741005571502` | 3.0.180.158 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1665641971147084894)
 2018-02-12 15:16:22 UTC | `2256105192537027573` | 3.0.171.819 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1667891235053763056)
 2018-02-02 20:12:48 UTC | `267319309418886073` | 3.0.169.700 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1667890601393387176)
 2018-02-01 15:00:39 UTC | `3398161497796942030` | 3.0.168.526 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1667890601387608397)
 2018-01-18 16:52:15 UTC | `7007123960744699418` | 3.0.165.9 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1661133938524033223)
-2017-12-20 13:50:30 UTC | `5421202735820611391` |  |
+2017-12-20 13:50:30 UTC | `5421202735820611391` | 3.0.160.028 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1585695474107000418)
 2017-12-07 10:20:54 UTC | `4074285774433215355` | 3.0.159.021 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1480986148972496661)
 2017-12-05 15:25:55 UTC | `5893374657274645937` | 3.0.158.595 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1470852965979060335)
 2017-11-03 16:30:15 UTC | `203109788023908411` | 3.0.151.229 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1461842672750892180)
