@@ -56,7 +56,7 @@ Date | Manifest ID | Version | Patch Notes
 2017-09-17 18:52:00 UTC | `2864838041695293605` | 3.0.142.47 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/3008824797201850003)
 2017-09-15 18:01:35 UTC | `7634517375182509514` | Multiplayer Hotfix | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/3008824797193425715)
 2017-09-14 20:50:37 UTC | `1428015599965561224` |  | 
-2017-09-14 14:53:11 UTC | `5753691202891746710` | 3.0.141.716 | 
+2017-09-14 14:53:11 UTC | `5753691202891746710` | 3.0.141.716 | [Patch Notes, Kinda](https://steamcommunity.com/gid/103582791455585726/announcements/detail/3008824797193061835)
 2017-05-26 12:36:54 UTC | `2565278018179312552` | 3.0.77.309 | [Early Access Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1272676910066719884)
 2017-05-24 14:56:27 UTC | `7787012528413011186` | 3.0.76.796 | [Early Access Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1272676910059442240)
 2017-03-31 11:02:37 UTC | `5775428352633111097` | 3.0.52.425 | [Early Access Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/665811780572453478)
