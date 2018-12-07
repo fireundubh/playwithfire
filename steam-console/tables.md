@@ -3,16 +3,50 @@
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
 # Tables
+## Pathfinder: Kingmaker
+
+Date | Manifest ID | Version
+:--- | :--- | :---
+2018-11-29 10:28:54 UTC | `513119536492443724` | 1.1.2
+2018-11-23 20:59:52 UTC | `568166937022414569` | 1.1.1 Hotfix
+2018-11-23 12:33:13 UTC | `6841280346056458271` | 1.1.1 Hotfix
+2018-11-22 12:42:13 UTC | `8410446097109498345` | 1.1.1a
+2018-11-16 23:57:42 UTC | `3237457528724341205` | 1.1.1
+2018-11-16 08:01:20 UTC | `3970314610931200324` | 1.1.0
+2018-11-09 11:56:40 UTC | `3557071040295278012` | 1.0.16
+2018-11-01 09:51:03 UTC | `8850094342751214757` | 1.0.15
+2018-10-29 11:00:34 UTC | `6772569451919678332` | 1.0.14
+2018-10-25 10:31:50 UTC | `332037904899851076` | 1.0.13
+2018-10-24 10:31:45 UTC | `6319724708078102732` | 1.0.12
+2018-10-22 10:20:05 UTC | `6843022900013123261` | 1.0.11
+2018-10-18 09:55:03 UTC | `4137201467282432792` | 1.0.10
+2018-10-16 11:47:06 UTC | `3329346642708156469` | 1.0.9
+2018-10-12 18:21:28 UTC | `7773343900112385919` | 1.0.8c
+2018-10-11 15:07:55 UTC | `4551845841087663139` | 1.0.8b
+2018-10-09 13:38:33 UTC | `5750998838144035341` | 1.0.7
+2018-10-08 19:33:21 UTC | `3625063316203614488` | 
+2018-10-07 14:22:42 UTC | `403950949019027651` | 
+2018-10-07 13:17:17 UTC | `946625482595150857` | 
+2018-10-05 15:50:10 UTC | `6336459653349909543` | 1.0.6
+2018-10-05 09:08:33 UTC | `7894022154904016667` | 1.0.5
+2018-10-03 04:47:08 UTC | `4920380694923421717` | 
+2018-10-02 16:30:02 UTC | `6358573070219561752` | 1.0.4
+2018-09-29 18:17:02 UTC | `229482041491868730` | 1.0.3
+2018-09-28 18:13:51 UTC | `2451367926564256244` | 1.0.2
+2018-09-27 16:48:23 UTC | `1412067188604596331` | 1.0.1
+2018-09-25 14:20:24 UTC | `336132831154623931` | 
+2018-09-25 14:02:04 UTC | `6741447117850778077` | 
+
 ## Torment: Tides of Numenera
 
-Manifest ID | Date | Version | Patch Notes
+Date | Manifest ID | Version | Patch Notes
 :--- | :--- | :--- | :---
-165658095176276519 | 2017-07-14 15:54:30 UTC | |
-2749697460701415169 | 2017-05-16 16:21:12 UTC | 1.1.0 | [Patch Notes](https://steamcommunity.com/app/272270/discussions/0/1333474229086291586/) (Servant of the Tides Update)
-1205731454159606030 | 2017-03-29 16:43:44 UTC | | 
-6743520395024327643 | 2017-03-28 16:02:35 UTC | 1.0.2 | [Patch Notes](https://steamcommunity.com/app/272270/discussions/0/133260909499737939/)
-1931151691588868836 | 2017-02-28 06:56:37 UTC | Public Release | [Release Date Announcement](https://steamcommunity.com/gid/103582791441221464/announcements/detail/653417453752180573)
-741020259097035797 | 2016-12-20 19:59:51 UTC | 0.1.3 | [Early Access Patch Notes](https://www.kickstarter.com/projects/inxile/torment-tides-of-numenera/posts/1769123) (Tidal Surge Update)
-5920970359552251630 | 2016-06-09 19:59:12 UTC | 0.1.2 | [Early Access Patch Notes](https://steamcommunity.com/gid/103582791441221464/announcements/detail/916860825825059443)
-5163238004520983390 | 2016-02-04 18:01:29 UTC | 0.1.1 | [Early Access Patch Notes](https://steamcommunity.com/app/272270/discussions/0/405690850604539467/)
-804608384927260334 | 2016-01-24 12:07:40 UTC | 0.1.0 | [Early Access Announcement](https://www.kickstarter.com/projects/inxile/torment-tides-of-numenera/posts/1470873)
+2017-07-14 15:54:30 UTC | `165658095176276519` |  | 
+2017-05-16 16:21:12 UTC | `2749697460701415169` | 1.1.0 | [Patch Notes](https://steamcommunity.com/app/272270/discussions/0/1333474229086291586/) (Servant of the Tides Update)
+2017-03-29 16:43:44 UTC | `1205731454159606030` |  | 
+2017-03-28 16:02:35 UTC | `6743520395024327643` | 1.0.2 | [Patch Notes](https://steamcommunity.com/app/272270/discussions/0/133260909499737939/)
+2017-02-28 06:56:37 UTC | `1931151691588868836` | Public Release | [Release Date Announcement](https://steamcommunity.com/gid/103582791441221464/announcements/detail/653417453752180573)
+2016-12-20 19:59:51 UTC | `741020259097035797` | 0.1.3 | [Early Access Patch Notes](https://www.kickstarter.com/projects/inxile/torment-tides-of-numenera/posts/1769123) (Tidal Surge Update)
+2016-06-09 19:59:12 UTC | `5920970359552251630` | 0.1.2 | [Early Access Patch Notes](https://steamcommunity.com/gid/103582791441221464/announcements/detail/916860825825059443)
+2016-02-04 18:01:29 UTC | `5163238004520983390` | 0.1.1 | [Early Access Patch Notes](https://steamcommunity.com/app/272270/discussions/0/405690850604539467/)
+2016-01-24 12:07:40 UTC | `804608384927260334` | 0.1.0 | [Early Access Announcement](https://www.kickstarter.com/projects/inxile/torment-tides-of-numenera/posts/1470873)
