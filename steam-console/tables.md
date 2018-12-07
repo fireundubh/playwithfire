@@ -113,6 +113,10 @@ Date | Manifest ID | Version
 
 ## Pathfinder: Kingmaker
 
+### App ID: 640820
+
+#### [Depot ID: 640821](https://steamdb.info/depot/640821/manifests/)
+
 Date | Manifest ID | Version | Patch Notes
 :--- | :--- | :--- | :---
 2018-11-29 10:28:54 UTC | `513119536492443724` | 1.1.2 | 
