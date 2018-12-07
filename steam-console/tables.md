@@ -122,8 +122,8 @@ Date | Manifest ID | Version
 Date | Manifest ID | Version | Patch Notes
 :--- | :--- | :--- | :---
 2018-11-29 10:28:54 UTC | `513119536492443724` | 1.1.2 | [Patch Notes](https://steamcommunity.com/gid/103582791462317226/announcements/detail/1720835165967881502)
-2018-11-23 20:59:52 UTC | `568166937022414569` | 1.1.1 Hotfix | [Patch Notes]()
-2018-11-23 12:33:13 UTC | `6841280346056458271` | 1.1.1 Hotfix | [Patch Notes]()
+2018-11-23 20:59:52 UTC | `568166937022414569` | 1.1.1 Hotfix | 
+2018-11-23 12:33:13 UTC | `6841280346056458271` | 1.1.1 Hotfix | 
 2018-11-22 12:42:13 UTC | `8410446097109498345` | 1.1.1 Hotfix | [Patch Notes](https://steamcommunity.com/gid/103582791462317226/announcements/detail/1720834531648559361)
 2018-11-16 23:57:42 UTC | `3237457528724341205` | 1.1.1 |
 2018-11-16 08:01:20 UTC | `3970314610931200324` | 1.1.0 | [Patch Notes](https://steamcommunity.com/gid/103582791462317226/announcements/detail/3397298957523116218)
