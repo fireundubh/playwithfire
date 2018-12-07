@@ -8,7 +8,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 Manifest ID | Date | Version | Patch Notes
 :--- | :--- | :--- | :---
 165658095176276519 | 2017-07-14 15:54:30 UTC | |
-2749697460701415169 | 2017-05-16 16:21:12 UTC | 1.1.0 | [Patch Notes](https://steamcommunity.com/app/272270/discussions/0/1333474229086291586/)
+2749697460701415169 | 2017-05-16 16:21:12 UTC | 1.1.0 | [Patch Notes](https://steamcommunity.com/app/272270/discussions/0/1333474229086291586/) (Servant of the Tides Update)
 1205731454159606030 | 2017-03-29 16:43:44 UTC | | 
 6743520395024327643 | 2017-03-28 16:02:35 UTC | 1.0.2 | [Patch Notes](https://steamcommunity.com/app/272270/discussions/0/133260909499737939/)
 1931151691588868836 | 2017-02-28 06:56:37 UTC | Public Release | [Release Date Announcement](https://steamcommunity.com/gid/103582791441221464/announcements/detail/653417453752180573)
