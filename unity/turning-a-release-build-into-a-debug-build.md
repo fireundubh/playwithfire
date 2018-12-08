@@ -29,6 +29,12 @@ To:
 [assembly: Debuggable(DebuggableAttribute.DebuggingModes.Default | DebuggableAttribute.DebuggingModes.DisableOptimizations | DebuggableAttribute.DebuggingModes.EnableEditAndContinue)]
 ```
 
+These attributes may also work:
+
+```
+[assembly: Debuggable(DebuggableAttribute.DebuggingModes.Default | DebuggableAttribute.DebuggingModes.DisableOptimizations | DebuggableAttribute.DebuggingModes.EnableEditAndContinue | DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints)]
+```
+
 For more information, see [0xd4d's guide to Making an Image Easier to Debug](https://github.com/0xd4d/dnSpy/wiki/Making-an-Image-Easier-to-Debug).
 
 Save the module with the following MD Writer Options:
