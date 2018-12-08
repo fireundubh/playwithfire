@@ -3,12 +3,6 @@
 If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
 
 # Unity Modding
-## Tutorials
-
-Tutorial | Description
-:--- | :---
-[Turning a release build into a debug build](/unity/turning-a-release-build-into-a-debug-build) | ADVANCED. You do not need to do this unless you use debug logging and want Assembly-CSharp line numbers in call stacks.
-
 ## Games
 
 Name | Developer | Unity Version | .NET Compatibility
@@ -30,3 +24,10 @@ Decompiler | dotPeek | JetBrains | Free | Commercial | [https://www.jetbrains.co
 Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [https://ci.appveyor.com/project/0xd4d/de4dot/branch/master/artifacts](https://ci.appveyor.com/project/0xd4d/de4dot/branch/master/artifacts) | [GitHub](https://github.com/0xd4d/de4dot)
 Monkey Patcher | Harmony | pardeike | Open source | MIT | Compile from source code | [GitHub](https://github.com/pardeike/Harmony)
 Monkey Patcher | Patchwork | Greg Ros | Open source | MIT | Compile from source code | [GitHub](https://github.com/GregRos/Patchwork)
+
+## Tutorials
+
+Tutorial | Description
+:--- | :---
+[Turning a release build into a debug build](/unity/turning-a-release-build-into-a-debug-build) | ADVANCED. You do not need to do this unless you use debug logging and want Assembly-CSharp line numbers in call stacks.
+
