@@ -5,7 +5,9 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 # Unity Modding
 ## Tutorials
 
-* [Turning a release build into a debug build](/unity/turning-a-release-build-into-a-debug-build)
+Tutorial | Description
+:--- | :---
+[Turning a release build into a debug build](/unity/turning-a-release-build-into-a-debug-build) | ADVANCED. You do not need to do this unless you use debug logging and want Assembly-CSharp line numbers in call stacks.
 
 ## Games
 
