@@ -54,3 +54,7 @@ If Steam was installed on your `C:` drive, and you wanted to download the depot 
 4. Then, run the `download_depot` command in the Steam Console.
 
 If you do not know how to open the cmd shell, press `Win+R`, type `cmd`, and press `Enter`.
+
+## Depot Manifests
+
+See: [Steam Depot Manifest Tables](tables)
