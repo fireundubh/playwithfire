@@ -12,7 +12,7 @@ Welcome to the *Pathfinder: Kingmaker* wiki at **#playwithfire**. This wiki was 
 
 Name | Description
 :--- | :---
-[KingmakerMods.pw](https://www.nexusmods.com/pathfinderkingmaker/mods/32) | &bull; The first and largest all-in-one collection of 56 mods, cheats, and vanilla game fixes. Completely customizable. Includes an installer. Does not use the Unity Mod Manager or Kingmaker Mod Loader.
+[KingmakerMods.pw](https://www.nexusmods.com/pathfinderkingmaker/mods/32) | &bull; The first and largest all-in-one collection of 56 mods, cheats, and vanilla game fixes.<br>&bull; Completely customizable. Includes an installer.<br>&bull;Does not use the Unity Mod Manager or Kingmaker Mod Loader.
 [KingmakerMods.pw Source Code](https://github.com/fireundubh/KingmakerMods.pw) | Licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 ## Gameplay
