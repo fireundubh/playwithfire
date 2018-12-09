@@ -30,7 +30,7 @@ Monkey Patcher | Patchwork | Greg Ros | Open source | MIT | Compile from source 
 
 Name | Description | Developers
 :--- | :--- | :---
-[Asset Studio Pro](https://github.com/fireundubh/AssetStudio) | A fork of Asset Studio with better MonoBehaviour support | fireundubh, Jackal
+[Asset Studio Pro](https://github.com/fireundubh/AssetStudio) | A fork of Asset Studio with better MonoBehaviour support | &bull; fireundubh<br>&bull; Jackal
 [Asset Studio Pro Trello Board](https://trello.com/b/XKKryP88/asset-studio-pro) | Project goals and tasks | 
 
 ## Tutorials
