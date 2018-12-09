@@ -1,6 +1,9 @@
 <!-- TITLE: Home -->
 <!-- SUBTITLE: Back home to where it all began... -->
 
+If you want to see more resources like this:
+
+[![https://www.patreon.com/fireundubh](https://i.imgur.com/llPEyru.png)](https://www.patreon.com/fireundubh)
 # Home
 ## Engines
 
