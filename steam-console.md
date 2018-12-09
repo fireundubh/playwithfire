@@ -57,4 +57,4 @@ If you do not know how to open the cmd shell, press `Win+R`, type `cmd`, and pre
 
 ## Depot Manifests
 
-See: [Steam Depot Manifest Tables](tables)
+See: [Steam Depot Manifest Tables](/steam-console/tables)
