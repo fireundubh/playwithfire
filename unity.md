@@ -26,6 +26,13 @@ Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [https://ci.appveyor.com/
 Monkey Patcher | Harmony | pardeike | Open source | MIT | Compile from source code | [GitHub](https://github.com/pardeike/Harmony)
 Monkey Patcher | Patchwork | Greg Ros | Open source | MIT | Compile from source code | [GitHub](https://github.com/GregRos/Patchwork)
 
+### In development
+
+Name | Description | Developers
+:--- | :--- | :---
+[Asset Studio Pro](https://github.com/fireundubh/AssetStudio) | A fork of Asset Studio with better MonoBehaviour support | fireundubh, Jackal
+[Asset Studio Pro Trello Board](https://trello.com/b/XKKryP88/asset-studio-pro) | Project goals and tasks | 
+
 ## Tutorials
 
 Tutorial | Description
