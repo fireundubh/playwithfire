@@ -10,6 +10,8 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 #### Depot ID: 435151
 
+[SteamDB Manifests](https://steamdb.info/depot/435151/manifests/)
+
 Date | Manifest ID | Version | Patch Notes
 :--- | :--- | :--- | :---
 2018-12-05 15:37:26 UTC | `1112391099424458719` | 3.6.33.2684 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1710702701592286936)
@@ -69,6 +71,8 @@ Date | Manifest ID | Version | Patch Notes
 2016-09-15 17:11:33 UTC | `176056573245315941` | 2.0.164.992 |
 
 #### Depot ID: 717550
+
+[SteamDB Manifests](https://steamdb.info/depot/717550/manifests/)
 
 Date | Manifest ID | Version | Patch Notes
 :--- | :--- | :--- | :---
