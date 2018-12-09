@@ -30,4 +30,4 @@ Section | Description
 ## Steam Console
 
 * [Using Steam to Download Previous Versions](steam-console)
-* [Game Manifest Version Tables](steam-console/tables)
+* [Steam Depot Manifest Tables](steam-console/tables)
