@@ -32,3 +32,11 @@ Section | Description
 
 * [Patch Notes with Assembly Changes](kingmaker/patch-notes)
 * [Using Steam to Download Previous Versions](/steam-console)
+
+## Community
+
+[Join the _Pathfinder: Kingmaker_ Discord server](https://discord.gg/E5pe74u)
+
+## Source Code Repository
+
+A private Git repository of all versions of the decompiled source code for `Assembly-CSharp.dll` and `Assembly-CSharp-firstpass.dll` is available by invitation only.
