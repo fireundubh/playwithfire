@@ -97,7 +97,9 @@ Date | Manifest ID | Version | Patch Notes
 
 ## Kingdom Come: Deliverance
 
-### Depot: goldmaster
+### App ID: 379430
+
+#### Depot ID: 379432
 
 Date | Manifest ID | Version | Patch Notes
 :--- | :--- | :--- | :---
@@ -125,7 +127,7 @@ Date | Manifest ID | Version | Patch Notes
 2018-02-13 19:09:01 UTC | `7728356487649391633` | 1.2 | Chinese localization
 2018-02-13 08:01:41 UTC | `1574197374724500814` | 1.1 | 
 
-### Depot: goldmaster_bin
+#### Depot ID: 379433
 
 Date | Manifest ID | Version
 :--- | :--- | :---
