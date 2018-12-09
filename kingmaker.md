@@ -8,6 +8,12 @@ If you want to see more resources like this:
 # Home
 Welcome to the *Pathfinder: Kingmaker* wiki at **#playwithfire**. This wiki was created to provide modders with potentially useful technical information.
 
+## Mods
+
+Name | Description
+:--- | :---
+[KingmakerMods.pw](https://www.nexusmods.com/pathfinderkingmaker/mods/32) | The first and largest all-in-one collection of 56 mods, cheats, and vanilla game fixes. Completely customizable. Includes an installer. Does not use the Unity Mod Manager or Kingmaker Mod Loader.
+
 ## Gameplay
 
 Section | Description
