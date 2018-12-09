@@ -101,6 +101,8 @@ Date | Manifest ID | Version | Patch Notes
 
 #### Depot ID: 379432
 
+[SteamDB Manifests](https://steamdb.info/depot/379432/manifests/)
+
 Date | Manifest ID | Version | Patch Notes
 :--- | :--- | :--- | :---
 2018-11-21 14:57:20 UTC | `6574029890339916306` | 1.7.2 | 
@@ -128,6 +130,8 @@ Date | Manifest ID | Version | Patch Notes
 2018-02-13 08:01:41 UTC | `1574197374724500814` | 1.1 | 
 
 #### Depot ID: 379433
+
+[SteamDB Manifests](https://steamdb.info/depot/379433/manifests/)
 
 Date | Manifest ID | Version
 :--- | :--- | :---
