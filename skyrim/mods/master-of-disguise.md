@@ -13,7 +13,7 @@ If you want to see more resources like this, [become a Patreon supporter!](https
 
 ## Documentation
 
-[FULL DOCUMENTATION](http://fireundubh.github.io/skyrim/master_of_disguise_sse)
+[FULL DOCUMENTATION](/skyrim/master-of-disguise)
 
 
 ### Useful Console Commands
