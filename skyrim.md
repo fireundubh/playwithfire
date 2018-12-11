@@ -8,15 +8,13 @@ If you want to see more resources like this:
 # The Elder Scrolls V: Skyrim
 Welcome to the *The Elder Scrolls V: Skyrim* wiki at **#playwithfire**. This wiki was created to provide modders with potentially useful technical information.
 
-## Technical Reference
-
-### Mods
+## Mods
 
 Name | Description
 :--- | :---
 [Master of Disguise](skyrim/master-of-disguise) | Transforms faction armor into real disguises with an immersive and fully customizable detection system
 
-### Documentation
+## Documentation
 
 Section | Description
 --- | --- | ---
