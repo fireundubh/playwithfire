@@ -18,16 +18,6 @@ Name | Description
 
 ### Documentation
 
-Section | Description | Edit Status
+Section | Description
 --- | --- | ---
-[BSA Flags](skyrim/bsa-flags) | A complete list of which flags were used for the vanilla BSAs | **Completed**
-
-## Wiki: Edit Status Legend
-
-* **Completed**: The page provides as close to 100% coverage as possible.
-* *In progress*: The page is fundamentally complete, but may need additional work and testing.
-* Not started: The page does not exist yet.
-
-## Wiki: Reporting Issues
-
-Please use the [GitHub Issue Tracker](https://github.com/fireundubh/playwithfire/issues) to report issues.
+[BSA Flags](skyrim/bsa-flags) | A complete list of which flags were used for the vanilla BSAs
