@@ -113,6 +113,47 @@ public void SomeMethod()
 
 ## Advanced
 
+### Configuration
+
+Patch configuration can be achieved in a number of ways. You could create a GUI, for example.
+
+Personally, I prefer INI settings. On the patch side, I use static nested classes for each INI section.
+
+```csharp
+// PatchSettings.cs
+
+[NewType]
+public static class PatchSettings
+{
+	[NewType]
+	public static class Cheats
+	{
+		private const string SECTION = "Cheats";
+		
+		public static bool GodMode { get; set; }
+		
+		static Cheats() {
+			// UserConfig is a generic wrapper for the portable Mono-compatible INI File Parser library.
+			GodMode = UserConfig.Parser.TryGetBool(SECTION, "bMyCheat", false);
+		}
+	}
+}
+
+// SomeClass.cs/SomeMethod
+
+[ModifiesMember("SomeMethod")]
+public void mod_SomeMethod()
+{
+	if (PatchSettings.GodMode)
+	{
+		// your code
+		return;
+	}
+}
+```
+
+You can [download Ricardo Hernández's INI File Parser library from GitHub](https://github.com/rickyah/ini-parser) or NuGet.
+
 ### Duplicate Methods
 
 Duplicating the original method is always a good idea when you want to support configuration, or return the value of the original method.
