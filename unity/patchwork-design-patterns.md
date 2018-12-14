@@ -225,9 +225,9 @@ public void mod_SomeMethod()
 }
 ```
 
-### Throwing Impossible Exceptions
+### Throwing Unreachable Exceptions
 
-Impossible exceptions are exceptions that should never happen; they are useful for structuring code, returning from typed methods, and, in case they ever happen, tell you where something went really, really wrong.
+Unreachable exceptions are exceptions that should never happen; they are useful for structuring code, returning from typed methods, and, in case they ever happen, tell you where something went really, really wrong.
 
 #### Practical Example
 
