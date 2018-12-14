@@ -91,7 +91,7 @@ public bool PropertyName
 	{
 		return this._propertyName;
 	}
-	[NewMember
+	[NewMember]
 	private set
 	{
 		this._propertyName = value;
