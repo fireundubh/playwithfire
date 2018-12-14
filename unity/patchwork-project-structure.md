@@ -69,34 +69,23 @@ namespace AppInfoDLLProj
 Within `PatchAssemblyInfo.cs` should be the following code:
 
 ```csharp
+using System.IO;
+using System.Linq;
+using Patchwork;
+using Patchwork.AutoPatching;
+
+[assembly: PatchAssembly]
+
 namespace DeadfireMods
 {
 	[PatchInfo]
 	public class PatchAssemblyInfo : IPatchInfo
 	{
-		public string PatchVersion
-		{
-			get
-			{
-				return "1.0.0.000";
-			}
-		}
+		public string PatchVersion { get; } = "1.0.0.000";
 
-		public string Requirements
-		{
-			get
-			{
-				return "None";
-			}
-		}
+		public string Requirements { get; } = "None";
 
-		public string PatchName
-		{
-			get
-			{
-				return "DeadfireMods";
-			}
-		}
+		public string PatchName { get; } = "DeadfireMods";
 
 		public FileInfo GetTargetFile(AppInfo app)
 		{
