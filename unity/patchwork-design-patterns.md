@@ -11,7 +11,7 @@ If you want to see more resources like this:
 
 ### Classes/Types
 
-When you need to modify a class.
+When you need to modify a class:
 
 ```csharp
 [ModifiesType]
@@ -21,7 +21,7 @@ public class SomeClassMod : SomeClass
 }
 ```
 
-When you need to modify a static class.
+When you need to modify a static class:
 
 ```csharp
 [ModifiesType("Fully.Qualified.Path.To.SomeClass")]
@@ -33,7 +33,7 @@ public static class SomeClassMod
 
 ### Constructors
 
-When you need to modify the body of a constructor.
+When you need to modify the body of a constructor:
 
 ```csharp
 [MemberAlias(".ctor", typeof(object))]
@@ -58,7 +58,7 @@ Field initializers are not supported outside method bodies; therefore, you will 
 
 #### Aliases
 
-When you need to reference a private field.
+When you need to reference a private field:
 
 ```csharp
 [ModifiesMember("privateFieldName", ModificationScope.Nothing)]
@@ -69,7 +69,7 @@ Simply replace all references to the private field with `alias_privateFieldName`
 
 ### Properties
 
-When you need to modify the methods of a property.
+When you need to modify the methods of a property:
 
 ```csharp
 [NewMember]
@@ -92,7 +92,7 @@ public bool PropertyName
 
 ### Methods
 
-When you need to modify a method.
+When you need to modify a method:
 
 ```csharp
 [ModifiesMember("SomeMethod")]
