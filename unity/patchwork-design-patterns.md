@@ -83,7 +83,8 @@ public bool source_get_PropertyName()
 public bool PropertyName
 {
 	[ModifiesMember("get_PropertyName")]
-	get {
+	get
+	{
 		return this.source_get_PropertyName();
 	}
 }
