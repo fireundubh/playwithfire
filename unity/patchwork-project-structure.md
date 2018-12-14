@@ -22,7 +22,7 @@ The second or additional libraries are used by the launcher to patch `Assembly-C
 
 ### AppInfoFactory
 
-1. Create a new project named `AppInfoDLLProj`.
+1. Create a new class library project named `AppInfoDLLProj`.
 2. Add a new reference to `Patchwork.Attributes`. _Recommendation: Use the compiled DLL, not the project._
 3. Create a new class file named `AppInfoDLL.cs`.
 4. Inherit from `AppInfoFactory` and add the `[AppInfoFactory]` attribute to the class.
@@ -65,7 +65,7 @@ namespace AppInfoDLLProj
 
 ### PatchInfo
 
-1. Create a new project named whatever you want.
+1. Create a new class library project named whatever you want.
 2. Add a new reference to `Patchwork.Attributes`. _Recommendation: Use the compiled DLL, not the project._
 3. Create a new class named `PatchAssemblyInfo`.
 4. Inherit from `IPatchInfo` and add the assembly attribute `[assembly: PatchAssembly]`.
