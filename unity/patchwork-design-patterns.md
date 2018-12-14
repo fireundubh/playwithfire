@@ -162,13 +162,9 @@ You can [download Ricardo Hernández's INI File Parser library from GitHub](http
 Duplicating the original method is always a good idea when you want to support configuration, or return the value of the original method.
 
 ```csharp
-#region DUPLICATES
-
 [NewMember]
 [DuplicatesBody("SomeMethod")]
 public void source_SomeMethod() { }
-
-#endregion
 
 [ModifiesMember("SomeMethod")]
 public void mod_SomeMethod()
@@ -192,20 +188,14 @@ Impossible exceptions are exceptions that should never happen; they are useful f
 You want to duplicate a method that returns a value, but to compile, the method requires a return statement.
 
 ```csharp
-#region DUPLICATES
-
 [NewMember]
 [DuplicatesBody("SomeMethod")]
 public bool source_SomeMethod() { }
-
-#endregion
 ```
 
 Instead:
 
 ```csharp
-#region DUPLICATES
-
 [NewMember]
 [DuplicatesBody("SomeMethod")]
 public bool source_SomeMethod()
@@ -213,8 +203,6 @@ public bool source_SomeMethod()
 	// you should throw your own exception, but throwing NotImplementedException is fine, too.
 	throw new NotImplementedException("source_SomeMethod");
 }
-
-#endregion
 ```
 
 You could simply return an appropriate value assuming Patchwork will override the body, but in case something really does go horribly wrong, how will you know?
