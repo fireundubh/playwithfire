@@ -42,4 +42,4 @@ Tutorial | Description
 
 ## Notes
 
-* If you use Microsoft's [PEVerify Tool](https://docs.microsoft.com/en-us/dotnet/framework/tools/peverify-exe-peverify-tool) (e.g., Patchwork's Test Run), you may notice that an unmodded Unity game has IL errors in `Assembly-CSharp.dll`. This errors are likely caused by Unity either writing bad IL or performing IL optimizations. For example, `Torment: Tides of Numenera` has 150 IL errors in `Assembly-CSharp.dll`. Most IL errors can be monkey patched.
+* If you use Microsoft's [PEVerify Tool](https://docs.microsoft.com/en-us/dotnet/framework/tools/peverify-exe-peverify-tool) (e.g., Patchwork's Test Run), you may notice that an unmodded Unity game has IL errors in `Assembly-CSharp.dll`. These errors are likely caused by Unity either writing bad IL or, less likely, performing (probably unnecessary) IL optimizations. For example, `Torment: Tides of Numenera` has 150 IL errors in `Assembly-CSharp.dll`. Most IL errors can be monkey patched.
