@@ -245,7 +245,10 @@ You want to duplicate a method that returns a value, but to compile, the method 
 ```csharp
 [NewMember]
 [DuplicatesBody("SomeMethod")]
-public bool source_SomeMethod() { }
+public bool source_SomeMethod()
+{
+	// missing return statement
+}
 ```
 
 Instead:
