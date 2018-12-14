@@ -120,7 +120,8 @@ public void source_SomeMethod() { }
 [ModifiesMember("SomeMethod")]
 public void mod_SomeMethod()
 {
-	if (PatchSettings.DoSomethingElse.Enabled) {
+	if (PatchSettings.DoSomethingElse.Enabled)
+	{
 		// your code
 		return;
 	}
