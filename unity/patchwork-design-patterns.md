@@ -14,6 +14,18 @@ This "design patterns" reference is primarily aimed at how to use Patchwork's at
 
 ### Classes
 
+#### Creating Classes
+
+When you need to create a new class:
+
+```csharp
+[NewType]
+public class MyNewClass
+{
+	// your code
+}
+```
+
 #### Instanced Classes
 
 When you need to modify an instanced class:
