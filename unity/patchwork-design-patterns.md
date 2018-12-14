@@ -136,7 +136,7 @@ Impossible exceptions are exceptions that should never happen; they are useful f
 
 #### Practical Example
 
-You want to duplicate a method that returns a value, but this code will not compile.
+You want to duplicate a method that returns a value, but to compile, the method requires a return statement.
 
 ```csharp
 #region DUPLICATES
@@ -163,3 +163,5 @@ public bool source_SomeMethod()
 
 #endregion
 ```
+
+You could simply return an appropriate value assuming Patchwork will override the body, but in case something really does go horribly wrong, how will you know?
