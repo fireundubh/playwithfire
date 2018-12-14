@@ -8,6 +8,29 @@ If you want to see more resources like this:
 
 # Patchwork Design Patterns
 ## Basics
+
+### Classes/Types
+
+When you need to modify a class.
+
+```csharp
+[ModifiesType]
+public class SomeClassMod : SomeClass
+{
+	// class body
+}
+```
+
+When you need to modify a static class.
+
+```csharp
+[ModifiesType("Fully.Qualified.Path.To.SomeClass")]
+public static class SomeClassMod
+{
+	// class body
+}
+```
+
 ### Constructors
 
 When you need to modify the body of a constructor.
