@@ -117,6 +117,8 @@ public void SomeMethod()
 
 Patch configuration can be achieved in a number of ways. You could create a GUI, for example.
 
+#### INI File Parser
+
 Personally, I prefer INI settings. On the patch side, I use static nested classes for each INI section.
 
 ```csharp
