@@ -129,3 +129,37 @@ public void mod_SomeMethod()
 	return this.source_SomeMethod();
 }
 ```
+
+### Throwing Impossible Exceptions
+
+Impossible exceptions are exceptions that should never happen; they are useful for structuring code, returning from typed methods, and, in case they ever happen, tell you where something went really, really wrong.
+
+#### Practical Example
+
+You want to duplicate a method that returns a value, but this code will not compile.
+
+```csharp
+#region DUPLICATES
+
+[NewMember]
+[DuplicatesBody("SomeMethod")]
+public bool source_SomeMethod() { }
+
+#endregion
+```
+
+Instead:
+
+```csharp
+#region DUPLICATES
+
+[NewMember]
+[DuplicatesBody("SomeMethod")]
+public bool source_SomeMethod()
+{
+	// you should throw your own exception, but throwing NotImplementedException is fine, too.
+	throw new NotImplementedException("source_SomeMethod");
+}
+
+#endregion
+```
