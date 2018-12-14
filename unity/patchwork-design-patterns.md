@@ -159,7 +159,7 @@ public void SomeMethod()
 
 ## Advanced
 
-### Configuration
+### Adding Patch Settings
 
 Patch configuration can be achieved in a number of ways. You could create a GUI, for example.
 
@@ -203,7 +203,7 @@ public void mod_ApplyDamage()
 
 You can [download Ricardo Hernández's INI File Parser library from GitHub](https://github.com/rickyah/ini-parser) or NuGet.
 
-### Duplicate Methods
+### Duplicating Methods
 
 Duplicating the original method is always a good idea when you want to support configuration, or return the value of the original method.
 
