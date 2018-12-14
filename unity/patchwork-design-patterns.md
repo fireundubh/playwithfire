@@ -143,14 +143,15 @@ public static class PatchSettings
 
 // SomeClass.cs/SomeMethod
 
-[ModifiesMember("SomeMethod")]
-public void mod_SomeMethod()
+[ModifiesMember("ApplyDamage")]
+public void mod_ApplyDamage()
 {
-	if (PatchSettings.GodMode)
+	if (PatchSettings.Cheats.GodMode)
 	{
-		// your code
 		return;
 	}
+	
+	this.source_ApplyDamage();
 }
 ```
 
