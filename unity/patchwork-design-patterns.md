@@ -9,9 +9,11 @@ If you want to see more resources like this:
 # Patchwork Design Patterns
 ## Basics
 
-### Classes/Types
+### Classes
 
-When you need to modify a class:
+#### Instanced Classes
+
+When you need to modify an instanced class:
 
 ```csharp
 [ModifiesType]
@@ -20,6 +22,8 @@ public class SomeClassMod : SomeClass
 	// class body
 }
 ```
+
+#### Static Classes
 
 When you need to modify a static class:
 
@@ -30,6 +34,8 @@ public static class SomeClassMod
 	// class body
 }
 ```
+
+Static classes include `abstract` and `sealed` classes.
 
 ### Constructors
 
