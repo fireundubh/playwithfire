@@ -38,4 +38,5 @@ Tutorial | Description
 :--- | :---
 [Turning a release build into a debug build](/unity/turning-a-release-build-into-a-debug-build) | ADVANCED. You do not need to do this unless you use debug logging and want Assembly-CSharp line numbers in call stacks.
 [Patchwork Design Patterns](/unity/patchwork-design-patterns) | How to use Patchwork attributes for common problems
+[Patchwork Project Structure](/unity/patchwork-project-structure) | How to structure a Patchwork project
 
