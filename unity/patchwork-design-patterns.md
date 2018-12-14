@@ -141,7 +141,7 @@ public static class PatchSettings
 	}
 }
 
-// SomeClass.cs/SomeMethod
+// Player.cs/ApplyDamage
 
 [ModifiesMember("ApplyDamage")]
 public void mod_ApplyDamage()
