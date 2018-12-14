@@ -118,7 +118,7 @@ public void source_SomeMethod() { }
 #endregion
 
 [ModifiesMember("SomeMethod")]
-public void SomeMethod()
+public void mod_SomeMethod()
 {
 	if (PatchSettings.DoSomethingElse.Enabled) {
 		// your code
