@@ -108,12 +108,16 @@ When you need to modify the methods of a property:
 [DuplicatesBody("get_PropertyName")]
 public bool source_get_PropertyName()
 {
+	// ignored
 	return true;
 }
 
 [NewMember]
 [DuplicatesBody("set_PropertyName")]
-private void source_set_PropertyName(bool value) { }
+private void source_set_PropertyName(bool value)
+{
+	// ignored
+}
 
 [ModifiesMember("PropertyName")]
 public bool PropertyName
@@ -210,7 +214,10 @@ Duplicating the original method is always a good idea when you want to support c
 ```csharp
 [NewMember]
 [DuplicatesBody("SomeMethod")]
-public void source_SomeMethod() { }
+public void source_SomeMethod()
+{
+	// ignored
+}
 
 [ModifiesMember("SomeMethod")]
 public void mod_SomeMethod()
