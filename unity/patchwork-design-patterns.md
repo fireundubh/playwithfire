@@ -101,3 +101,30 @@ public void SomeMethod()
 	// your code
 }
 ```
+
+## Advanced
+
+### Duplicate Methods
+
+Duplicating the original method is always a good idea when you want to support configuration, or return the value of the original method.
+
+```csharp
+#region DUPLICATES
+
+[NewMember]
+[DuplicatesBody("SomeMethod")]
+public void source_SomeMethod() { }
+
+#endregion
+
+[ModifiesMember("SomeMethod")]
+public void SomeMethod()
+{
+	if (PatchSettings.DoSomethingElse.Enabled) {
+		// your code
+		return;
+	}
+	
+	return this.source_SomeMethod();
+}
+```
