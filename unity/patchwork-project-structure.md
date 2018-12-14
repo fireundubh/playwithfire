@@ -1,0 +1,60 @@
+<!-- TITLE: Patchwork Project Structure -->
+
+[&lsaquo; Unity Modding](/unity)
+
+If you want to see more resources like this:
+
+[![https://www.patreon.com/fireundubh](https://i.imgur.com/llPEyru.png)](https://www.patreon.com/fireundubh)
+
+# Patchwork Project Structure
+This reference is aimed at how to structure a basic Patchwork project.
+
+## Requirements
+
+Patchwork includes a generic launcher, which can be used for any Patchwork project. The launcher requires:
+
+* an `AppInfoFactory` library that describes your application; and
+* one or more `PatchInfo` libraries for your patches.
+
+## AppInfoFactory
+
+1. Create a new project named `AppInfoDLLProj`.
+2. Add a new reference to `Patchwork.Attributes`.
+3. Create a new class file named `AppInfoDLL.cs`.
+4. Inherit from `AppInfoFactory` and add the `[AppInfoFactory]` attribute to the class.
+
+Within `AppInfoDLL.cs` should be the following code:
+
+```csharp
+using System.Linq;
+using Patchwork.AutoPatching;
+using System.IO;
+
+namespace AppInfoDLLProj
+{
+	[AppInfoFactory]
+	public class AppInfoDLL : AppInfoFactory
+	{
+		public override AppInfo CreateInfo(DirectoryInfo folderInfo)
+		{
+			var appInfo = new AppInfo
+			{
+				AppName = "Pillars of Eternity II",
+				AppVersion = "1.0.0.0",
+				BaseDirectory = folderInfo
+			};
+
+			string appPath = Combine(appInfo.BaseDirectory.ToString(), "PillarsOfEternityII.exe");
+			appInfo.Executable = new FileInfo(appPath);
+
+			return appInfo;
+		}
+
+		public static string Combine(params string[] paths)
+		{
+			string current = paths.Aggregate(@"", Path.Combine);
+			return current;
+		}
+	}
+}
+```
