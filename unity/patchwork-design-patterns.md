@@ -7,6 +7,9 @@ If you want to see more resources like this:
 [![https://www.patreon.com/fireundubh](https://i.imgur.com/llPEyru.png)](https://www.patreon.com/fireundubh)
 
 # Patchwork Design Patterns
+
+This "design patterns" reference is primarily aimed at how to use Patchwork's attributes effectively.
+
 ## Basics
 
 ### Classes
@@ -19,7 +22,7 @@ When you need to modify an instanced class:
 [ModifiesType]
 public class SomeClassMod : SomeClass
 {
-	// class body
+	// your code
 }
 ```
 
@@ -31,7 +34,7 @@ When you need to modify a static class:
 [ModifiesType("Fully.Qualified.Path.To.SomeClass")]
 public static class SomeClassMod
 {
-	// class body
+	// your code
 }
 ```
 
@@ -49,8 +52,7 @@ private void object_ctor() { }
 public void CtorNew()
 {
 	this.object_ctor();
-	// duplicate any constructor code
-	// add your own code
+	// duplicate and modify original constructor code, if any
 }
 ```
 
