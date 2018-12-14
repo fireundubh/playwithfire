@@ -107,6 +107,6 @@ namespace DeadfireMods
 }
 ```
 
-## Next steps
+## Next Steps
 
 Structure and implement your patches as desired, adding more references as needed.
