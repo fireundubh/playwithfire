@@ -16,10 +16,10 @@ Patchwork includes a generic launcher, which can be used for any Patchwork proje
 * an `AppInfoFactory` library that describes your application; and
 * one or more `PatchInfo` libraries for your patches.
 
-## AppInfoFactory
+### AppInfoFactory
 
 1. Create a new project named `AppInfoDLLProj`.
-2. Add a new reference to `Patchwork.Attributes`.
+2. Add a new reference to `Patchwork.Attributes`. _Recommendation: Use the compiled DLL, not the project._
 3. Create a new class file named `AppInfoDLL.cs`.
 4. Inherit from `AppInfoFactory` and add the `[AppInfoFactory]` attribute to the class.
 
@@ -58,3 +58,66 @@ namespace AppInfoDLLProj
 	}
 }
 ```
+
+### PatchInfo
+
+1. Create a new project named whatever you want.
+2. Add a new reference to `Patchwork.Attributes`. _Recommendation: Use the compiled DLL, not the project._
+3. Create a new class named `PatchAssemblyInfo`.
+4. Inherit from `IPatchInfo` and add the assembly attribute `[assembly: PatchAssembly]`.
+
+Within `PatchAssemblyInfo.cs` should be the following code:
+
+```csharp
+namespace DeadfireMods
+{
+	[PatchInfo]
+	public class PatchAssemblyInfo : IPatchInfo
+	{
+		public string PatchVersion
+		{
+			get
+			{
+				return "1.0.0.000";
+			}
+		}
+
+		public string Requirements
+		{
+			get
+			{
+				return "None";
+			}
+		}
+
+		public string PatchName
+		{
+			get
+			{
+				return "DeadfireMods";
+			}
+		}
+
+		public FileInfo GetTargetFile(AppInfo app)
+		{
+			string file = Combine(app.BaseDirectory.FullName, "PillarsOfEternityII_Data", "Managed", "Assembly-CSharp.dll");
+			return new FileInfo(file);
+		}
+
+		public string CanPatch(AppInfo app)
+		{
+			return null;
+		}
+
+		public static string Combine(params string[] paths)
+		{
+			string current = paths.Aggregate(@"", Path.Combine);
+			return current;
+		}
+	}
+}
+```
+
+## Next steps
+
+Structure and implement your patches as desired, adding more references as needed.
