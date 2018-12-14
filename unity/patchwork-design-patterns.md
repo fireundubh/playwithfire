@@ -65,9 +65,35 @@ When you need to reference a private field:
 private bool alias_privateFieldName;
 ```
 
-Simply replace all references to the private field with `alias_privateFieldName`. Patchwork will take care of substitution.
+Sometimes source methods will have overly complex bodies, in which case you may need to copy the source body. However, the source body will typically reference a number of private fields, which are inaccessible outside the constructor. Fortunately, you can simply replace all occurrences of the original field name with `alias_privateFieldName`. Patchwork will take care of substitution.
 
 ### Properties
+
+#### Creating Properties
+
+When you need to create a property with a backing field:
+
+```csharp
+[NewMember]
+private bool _propertyName;
+
+[NewMember]
+public bool PropertyName
+{
+	[NewMember]
+	get
+	{
+		return this._propertyName;
+	}
+	[NewMember
+	private set
+	{
+		this._propertyName = value;
+	}
+}
+```
+
+#### Modifying Properties
 
 When you need to modify the methods of a property:
 
@@ -100,6 +126,20 @@ public bool PropertyName
 ```
 
 ### Methods
+
+#### Creating Methods
+
+When you need to create a method:
+
+```csharp
+[NewMember]
+public void NewMethod()
+{
+	// your code
+}
+```
+
+#### Modifying Methods
 
 When you need to modify a method:
 
