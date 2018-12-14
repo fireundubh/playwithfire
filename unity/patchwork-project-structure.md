@@ -16,6 +16,10 @@ Patchwork includes a generic launcher, which can be used for any Patchwork proje
 * an `AppInfoFactory` library that describes your application; and
 * one or more `PatchInfo` libraries for your patches.
 
+The first library is used to set up the launcher.
+
+The second or additional libraries are used by the launcher to patch `Assembly-CSharp.dll` in the game's `Managed` directory.
+
 ### AppInfoFactory
 
 1. Create a new project named `AppInfoDLLProj`.
