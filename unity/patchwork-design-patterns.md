@@ -227,7 +227,7 @@ public void mod_SomeMethod()
 
 ### Throwing Unreachable Exceptions
 
-Unreachable exceptions are exceptions that should never happen; they are useful for structuring code, returning from typed methods, and, in case they ever happen, tell you where something went really, really wrong.
+Unreachable exceptions are exceptions that should never happen; they are useful for structuring code, returning from typed methods, and, in case they ever happen, indicating where something went really, _really_ wrong.
 
 #### Practical Example
 
@@ -251,4 +251,4 @@ public bool source_SomeMethod()
 }
 ```
 
-You could simply return an appropriate value assuming Patchwork will override the body, but in case something really does go horribly wrong, how will you know?
+You could just return an appropriate value assuming Patchwork will override the body, but if something does go horribly wrong, how will you know?
