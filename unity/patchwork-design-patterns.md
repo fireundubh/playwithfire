@@ -79,6 +79,10 @@ public bool source_get_PropertyName()
 	return true;
 }
 
+[NewMember]
+[DuplicatesBody("set_PropertyName")]
+private void source_set_PropertyName(bool value) { }
+
 [ModifiesMember("PropertyName")]
 public bool PropertyName
 {
@@ -86,6 +90,11 @@ public bool PropertyName
 	get
 	{
 		return this.source_get_PropertyName();
+	}
+	[ModifiesMember("set_PropertyName")]
+	private set
+	{
+		this.source_set_PropertyName(value);
 	}
 }
 ```
@@ -126,7 +135,7 @@ public void mod_SomeMethod()
 		return;
 	}
 	
-	return this.source_SomeMethod();
+	this.source_SomeMethod();
 }
 ```
 
