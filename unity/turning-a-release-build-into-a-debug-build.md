@@ -91,7 +91,7 @@ You may have to wait a while for dotPeek to generate the DecompilerCache and wri
 **Note:** For reference, JetBrains stores the DecompilerCache at the following location:
 
 ```
-C:\Users\<username>\AppData\Local\JetBrains\Shared\vAny\DecompilerCache\decompiler
+%LOCALAPPDATA%\JetBrains\Shared\vAny\DecompilerCache\decompiler
 ```
 
 ### Step 6: Convert PDB to MDB
