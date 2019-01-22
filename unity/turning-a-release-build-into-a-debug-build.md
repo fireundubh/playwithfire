@@ -28,12 +28,6 @@ Using dnSpy, load the assembly and modify the assembly attributes from:
 To:
 
 ```
-[assembly: Debuggable(DebuggableAttribute.DebuggingModes.Default | DebuggableAttribute.DebuggingModes.DisableOptimizations | DebuggableAttribute.DebuggingModes.EnableEditAndContinue)]
-```
-
-These attributes may also work:
-
-```
 [assembly: Debuggable(DebuggableAttribute.DebuggingModes.Default | DebuggableAttribute.DebuggingModes.DisableOptimizations | DebuggableAttribute.DebuggingModes.EnableEditAndContinue | DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints)]
 ```
 
