@@ -171,6 +171,7 @@ Date | Manifest ID | Version
 
 Date | Manifest ID | Version | Patch Notes
 :--- | :--- | :--- | :---
+2019-01-24 11:26:36 UTC | `4411254825031827162` | 1.2.0 | 
 2018-12-27 07:03:10 UTC | `3303010467398921643` | 1.1.6 | [Patch Notes](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1720837068978609131)
 2018-12-21 11:27:26 UTC | `4184189768711525133` | 1.1.5 | 
 2018-12-19 09:46:13 UTC | `6220003383772342089` | 1.1.4 | 
