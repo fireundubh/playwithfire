@@ -18,13 +18,16 @@ Master of Disguise transforms faction armor into real disguises with an immersiv
 * [Featured by Kotaku](http://kotaku.com/skyrim-disguises-let-you-walk-around-doing-whatever-1681784966)
 * [Featured by MxR Mods](https://youtu.be/69e7xcYw-G4?t=2m48s) ([@2:48](https://youtu.be/69e7xcYw-G4?t=2m48s))
 * [Featured by Brodual](https://www.youtube.com/watch?v=ATGNFDgNT-A)
+* [Featured by Pandapa](https://www.youtube.com/watch?v=wwWXKB9rol4)
 * #1 in Stealth in the Skyrim G.E.M.S. Hall of Fame (pre-GitHub)
 * #1 in Stealth on the Skyrim Nexus (pre-GitHub)
+* 9.7/10 on the Steam Workshop (pre-GitHub)
 
 ## Requirements
 
 * Skyrim Special Edition
 * Unofficial Skyrim Special Edition Patch
+* SkyUI and SKSE (only for SkyUI MCM support)
 
 ## Design
 
@@ -64,7 +67,7 @@ If the player fails to lose their line of sight, the player and NPC will make di
 
 ### Rolling for Discovery
 
-The player's skill in Sneak or Illusion, behaviors, race, and disguise coverage are combined into a "identity score" that is rolled against a random number between 0 and 99\. If the identity score is greater than the random number, the player wins the discovery roll and the NPC will not become hostile.
+The player's skill in Sneak or Illusion, behaviors, race, and disguise coverage are combined into a "identity score" that is rolled against a random number between 0 and 99. If the identity score is greater than the random number, the player wins the discovery roll and the NPC will not become hostile.
 
 #### Racial Synergies
 
@@ -126,8 +129,6 @@ In addition, faction NPCs engaged in combat with other NPCs, except companions, 
 
 ### SkyUI Mod Configuration Menu
 
-_Only available in the non-SSE version of Skyrim._
-
 Using the new SkyUI Mod Configuration Menu, the player can adjust nearly every aspect of the discovery system from within the game. The disguise and discovery systems can be toggled independently as well.
 
 #### Example: Scoring Menu
@@ -175,63 +176,21 @@ When the player is discovered, or the disguise is no longer worn, the player's a
 
 #### Bandit Disguises
 
-_Toggle only available in the non-SSE version of Skyrim._
-
 The player can now wear a bandit disguise, comprised of Fur Armor, Fur Helmet, Fur Bracers, and Fur Shoes. Fur Boots and Fur Gauntlets, found on Stormcloaks, can also be substituted. All hold guards are hostile to bandits.
 
 This feature can be toggled from the SkyUI Mod Configuration Menu.
 
-##### Special Edition Notes
-
-In the SSE version, bandit disguises are enabled by default; however, this can be inconvenient due to generic equipment required.
-
-Bandit disguises can be disabled from the in-game console with this command:
-
-```
-AddFormToFormList 06027AA9 06FF021F [where "06" is the load order index of the ESP]
-```
-
-To re-enable bandit disguises:
-
-```
-RevertFormList 06027AA9 [where "06" is the load order index of the ESP]
-```
-
 #### Savior's Hide
-
-_Cheat toggle only available in the non-SSE version of Skyrim._
 
 Wearing the Savior's Hide, a gift from Hircine, will signal to Werewolves that the player is favored and the player will not be attacked by Werewolves.
 
 This feature can be toggled from the SkyUI Mod Configuration Menu.
 
-##### Special Edition Notes
-
-In the SSE version, the Savior's Hide will behave as described above, but this effect will always succeed vs. werewolves.
-
-Disable the "always succeed vs. werewolves" effect from the in-game console with this command:
-
-```
-set iDubhAlwaysSucceedWerewolves to 0
-```
-
 #### Daedric Weapons and Armor
-
-_Cheat toggle only available in the non-SSE version of Skyrim._
 
 According to the Vigil of Stendarr, "the Mercy of Stendarr does not extend to Daedra worshippers." When the player equips Daedric weapons or armor, Vigilants will attempt to drag the player into the light. In addition, Dremora will see the player as aligned with Mehrunes Dagon and will not attack.
 
 This feature can be toggled from the SkyUI Mod Configuration Menu.
-
-##### Special Edition Notes
-
-In the SSE version, Daedric Influence will behave as described above, but this effect will always succeed vs. dremora.
-
-Disable the "always succeed vs. dremora" effect from the in-game console with this command:
-
-```
-set iDubhAlwaysSucceedDremora to 0
-```
 
 ## Faction Relations Overhaul
 
