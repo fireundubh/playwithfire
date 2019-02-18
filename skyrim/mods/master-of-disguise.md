@@ -57,7 +57,7 @@ Do NOT post your log in the comments or your post will be deleted.
 
 ### How do formlists work? I want to add items to disguises.
 
-The non-SKSE version of Master of Disguise uses 1 disguise formlist, 1 disguise slots formlist, and 8 formlists per disguise slot. For example:
+The non-SKSE version of Master of Disguise uses 1 disguise formlist, 1 disguise slots formlist, and 8 formlists for each disguise slot. For example:
 
 Form List | Description
 --- | ---
@@ -72,4 +72,6 @@ Form List | Description
 `dubhDisguiseVampires_Slot_6_Shield` | Contains only items that are equipped in the Shield slot
 `dubhDisguiseVampires_Slot_7_Circlet` | Contains only items that are equipped in the Circlet slot
 
-You can check which slots in which an item equips by looking at the item's Biped Body Template first-person flags. For example, the Vampire Hood equips in the Hair and Circlet slots, so the Vampire Hood appears in the respective formlists. In the SKSE version for classic Skyrim, there's only a single formlist for each disguise, which doesn't really require any explanation.
+You can check which slots in which an item equips by looking at the item's Biped Body Template first-person flags. For example, the Vampire Hood equips in the Hair and Circlet slots, so the Vampire Hood appears in the respective formlists.
+
+In the SKSE version for classic Skyrim, there's only a single formlist for each disguise, which doesn't really require any explanation.
