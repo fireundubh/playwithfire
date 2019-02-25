@@ -17,7 +17,7 @@ Fallout 4 | **Auto Loot** | [Fallout 4 Nexus](https://www.nexusmods.com/fallout4
 Kingdom Come: Deliverance | **Lockpicking Overhaul** | [Kingdom Come Nexus](https://www.nexusmods.com/kingdomcomedeliverance/mods/3)
 Skyrim | **Master of Disguise** | [Skyrim Special Edition Nexus](https://www.nexusmods.com/skyrimspecialedition/mods/9959)| 
 
-I've contributed to xEdit and I build modding tools, too.
+I've also contributed to xEdit, and I build modding tools, too.
 
 ### What modding tools have you developed?
 
