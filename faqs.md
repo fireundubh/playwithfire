@@ -49,7 +49,7 @@ If I monetize my patches, translations, or videos, do I have to share revenue wi
 
 1. When I'm messaged feedback, I can address that feedback at my own pace.
 2. I'm responsible for many mods across many games. Each Posts tab constitutes a community. I have neither the time nor the inclination to moderate dozens of communities.
-3. I also shut off comments for the same reason [Popular Science shut off comments](https://www.popsci.com/science/article/2013-09/why-were-shutting-our-comments).
+3. I also shut off comments for the same reason that [Popular Science shut off comments](https://www.popsci.com/science/article/2013-09/why-were-shutting-our-comments).
 
 ### Why do you have Bugs disabled?
 
