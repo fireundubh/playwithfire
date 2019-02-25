@@ -75,7 +75,7 @@ The issue tracker provided by the Nexus is rather poorly designed and implemente
 
 ### Can I persuade you to enable the Posts and/or Bugs tabs on the Nexus?
 
-No.
+No, my workflow is not up for discussion.
 
 ### Where can I send feedback then?
 
