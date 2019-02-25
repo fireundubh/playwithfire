@@ -25,12 +25,12 @@ Here's a few.
 
 GitHub Repo | Purpose
 :--- | :---
+[kingdomcome-ksygen](https://github.com/fireundubh/kingdomcome-ksygen) | Kaitai Struct Definition Generator for Kingdom Come: Deliverance TBL Files
+[kingmakermods.pw](https://github.com/fireundubh/KingmakerMods.pw) | 50+ mods, cheats, and fixes for Pathfinder: Kingmaker (open source library)
 [lslib](https://github.com/Norbyte/lslib) | Developed the Divine CLI for Norbyte's LSLib
 [modsmith](https://github.com/fireundubh/modsmith) | Automatically packages Kingdom Come: Deliverance mods for distribution
 [papyrika](https://github.com/fireundubh/papyrika) | Fixes ScriptName declarations in Papyrus scripts to match file names
 [pyro](https://github.com/fireundubh/pyro) | Python CLI for the Papyrus Compiler with PPJ Support for TESV, SSE, and FO4
-[kingdomcome-ksygen](https://github.com/fireundubh/kingdomcome-ksygen) | Kaitai Struct Definition Generator for Kingdom Come: Deliverance TBL Files
-[kingmakermods.pw](https://github.com/fireundubh/KingmakerMods.pw) | 50+ mods, cheats, and fixes for Pathfinder: Kingmaker (open source library)
 [ultraedit-wordfiles](https://github.com/fireundubh/ultraedit-wordfiles) | UltraEdit wordfiles for Papyrus and xEdit syntax highlighting
 [xedit](https://github.com/TES5Edit/TES5Edit) | Added Fallout 4 support to xEdit months before the Creation Kit was released
 [xedit-scripts](https://github.com/fireundubh/xedit-scripts) | A select number of xEdit scripts from the hundreds I've written
