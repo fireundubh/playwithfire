@@ -47,7 +47,7 @@ GitHub Repo | Purpose
 
 Question | Answer
 :--- | :---
-Can I create patches for your mods? | Yes
+<font color="green">Can I create patches for your mods?</font> | Yes
 Can I create translations of your mods? | Yes
 Can I distribute your mods? | No
 Can I distribute your mods in a compilation? | No
