@@ -71,7 +71,7 @@ Question | Answer
 
 ### Why do you have the Bugs tab disabled on the Nexus?
 
-The issue tracker provided by the Nexus is rather poorly designed and implemented. [The Nexus doesn't even use their own tracker.](https://github.com/Nexus-Mods/web-issues/issues)
+The issue tracker provided by the Nexus is poorly designed and implemented. [The Nexus doesn't even use their own tracker.](https://github.com/Nexus-Mods/web-issues/issues)
 
 ### Can I persuade you to enable the Posts and/or Bugs tabs on the Nexus?
 
@@ -79,7 +79,7 @@ No, my workflow is not up for discussion.
 
 ### Where can I send feedback then?
 
-I accept feedback by private message on the Nexus, Reddit, and Discord. Patreon subscribers and PayPal donors may also send me feedback via email.
+I accept feedback by *private message* on the Nexus, Reddit, and Discord. Patreon subscribers and PayPal donors may also send me feedback via email.
 
 ## Reporting Issues
 
