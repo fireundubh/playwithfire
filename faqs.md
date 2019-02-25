@@ -75,4 +75,4 @@ The issue tracker provided by the Nexus is rather poorly designed and implemente
 
 ### Where can I send feedback?
 
-I accept feedback by private message on the Nexus, Reddit, and Discord. Patreon and PayPal contributors may also send me feedback via email.
+I accept feedback by private message on the Nexus, Reddit, and Discord. Patreon subscribers and PayPal donors may also send me feedback via email.
