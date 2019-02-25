@@ -10,12 +10,12 @@
 
 I've been creating mods for 23 years. I'm best known for the following mods:
 
-Game | Mod | Download
-:--- | :--- | :---
-Divinity: Original Sin 2 | **Let There Be Tooltips!** | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1506230499)
-Fallout 4 | **Auto Loot** | [Fallout 4 Nexus](https://www.nexusmods.com/fallout4/mods/27719)
-Kingdom Come: Deliverance | **Lockpicking Overhaul** | [Kingdom Come Nexus](https://www.nexusmods.com/kingdomcomedeliverance/mods/3)
-Skyrim | **Master of Disguise** | [Skyrim Special Edition Nexus](https://www.nexusmods.com/skyrimspecialedition/mods/9959)| 
+Game | Mod | Downloads/Subscribers | Endorsements/Positive Rating
+:--- | :--- | ---: | ---:
+Divinity: Original Sin 2 | [Let There Be Tooltips!](https://steamcommunity.com/sharedfiles/filedetails/?id=1506230499) | ~150.5K | 100%
+Fallout 4 | [Auto Loot](https://www.nexusmods.com/fallout4/mods/27719) | ~29.7K | ~1K
+Kingdom Come: Deliverance | [Lockpicking Overhaul](https://www.nexusmods.com/kingdomcomedeliverance/mods/3) | ~158K | ~1.7K
+Skyrim | [Master of Disguise SSE](https://www.nexusmods.com/skyrimspecialedition/mods/9959) | ~55K | ~1.27K
 
 I've also contributed to xEdit, and I build modding tools, too.
 
