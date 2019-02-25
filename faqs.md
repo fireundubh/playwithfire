@@ -83,7 +83,7 @@ I accept feedback by *private message* on the Nexus, Reddit, and Discord. Patreo
 
 ### You haven't responded to my message in 30 minutes! What gives?
 
-I try to respond to everyone, but I do receive a lot of messages. If you haven't heard from me in **1 week**, ping me.
+I try to respond to everyone, but I do receive a lot of messages. If you haven't heard from me in *1 week*, ping me.
 
 
 ## Reporting Issues
