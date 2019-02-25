@@ -76,3 +76,18 @@ The issue tracker provided by the Nexus is rather poorly designed and implemente
 ### Where can I send feedback?
 
 I accept feedback by private message on the Nexus, Reddit, and Discord. Patreon subscribers and PayPal donors may also send me feedback via email.
+
+## Reporting Issues
+
+### How do I report issues effectively?
+
+When sending me an issue by private message, follow these guidelines.
+
+Field | Guideline
+:--- | :---
+Subject | Prefix the subject line with the name of the game and the name of the mod.
+Body | Be specific, concise, and include only relevant information.<br><br>Use the following structure for reporting issues:<br><br>CONDITIONS<br>-	Platform<br>-	Memory usage<br>-	Network connectivity<br><br>STEPS TO REPRODUCE<br>1.	Do this.<br>2.	Then do this.<br><br>RESULT<br>This happened.<br><br>EXPECTED RESULT<br>This is what should have happened.<br><br>Always use headings when including two or more sections.
+Body: Conditions | The conditions describe the state of the operating environment at the time the issue occurred. Use only when needed.
+Body: Steps to Reproduce | The steps to reproduce describe the procedure by which any other user can experience the same issue.<br><br>Use only when reproducing the issue has either:<br>-	a frequency lower than 100%, or<br>-	when reproduction is sufficiently complex to warrant instructions.
+Body: Result | The result describes what actually happened.<br><br>This is the only section that is required.<br><br>Do not use a heading when reporting only the result.
+Body: Expected Result | The expected result describes what should have happened.<br><br>Use only when the expected result is not obvious.
