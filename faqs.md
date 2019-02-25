@@ -61,15 +61,15 @@ Question | Answer
 <font color="red">If I monetize my patches, translations, or videos, do I have to share revenue with you?</font> | <font color="red">No</font>
 
 
-## Nexus Community Features
+## Community
 
-### Why do you have Posts disabled?
+### Why do you have the Posts tab disabled on the Nexus?
 
 1. When I'm messaged feedback, I can address that feedback at my own pace.
 2. I'm responsible for many mods across many games. Each Posts tab constitutes a community. I have neither the time nor the inclination to moderate dozens of communities.
 3. I also shut off comments for the same reason that [Popular Science shut off comments](https://www.popsci.com/science/article/2013-09/why-were-shutting-our-comments).
 
-### Why do you have Bugs disabled?
+### Why do you have the Bugs tab disabled on the Nexus?
 
 The issue tracker provided by the Nexus is rather poorly designed and implemented. [The Nexus doesn't even use their own tracker.](https://github.com/Nexus-Mods/web-issues/issues)
 
