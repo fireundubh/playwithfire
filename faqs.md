@@ -71,7 +71,7 @@ Question | Answer
 
 ### Why do you have Bugs disabled?
 
-The issue tracker provided by the Nexus is rather poorly designed and implemented. [The Nexus doesn't even use their own tracker](https://github.com/Nexus-Mods/web-issues/issues).
+The issue tracker provided by the Nexus is rather poorly designed and implemented. [The Nexus doesn't even use their own tracker.](https://github.com/Nexus-Mods/web-issues/issues)
 
 ### Where can I send feedback?
 
