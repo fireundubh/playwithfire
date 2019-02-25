@@ -17,7 +17,7 @@ Game | Mod | Downloads/Subscribers (K) | Positive Ratings (K)
 *Skyrim Special Edition* | [Master of Disguise SSE](https://www.nexusmods.com/skyrimspecialedition/mods/9959) | 55 | 1.3
 *Fallout 4* | [Auto Loot](https://www.nexusmods.com/fallout4/mods/27719) | 30 | 1
 
-In addition, I contributed to xEdit, participated in the <pre>Bethesda.net</pre> and *Fallout 4* Creation Kit private betas, and I build modding tools.
+In addition, I contributed to xEdit, participated in the *Fallout 4* Creation Kit private beta, and I build modding tools.
 
 I was also invited to the Divinity Engine 2 private beta by Larian Studios, but I didn't see the invite until the toolkit was released. RIP.
 
