@@ -94,4 +94,4 @@ Always use headings when including two or more sections.
 
 -	Simple and easily reproduced issues may not require evidence (e.g., text issues.)
 -	When evidence may be needed, please use your judgement to provide the game version, the mod version, logs, screenshots, video, DirectX diagnostics, system information, etc.
--	When in doubt about what evidence would be useful toward tracking down and resolving a specific issue, ask me.
+-	When in doubt about what evidence would be useful for tracking down and resolving a specific issue, ask me.
