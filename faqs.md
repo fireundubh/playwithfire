@@ -81,7 +81,7 @@ No, my workflow is not up for discussion.
 
 Spamming me, brigading me, and downvoting my Reddit threads only reinforce my commitment to keeping these features disabled.
 
-#### But I'm your customer! Give me what I want.
+#### But I'm your customer! Give me what I want when I want.
 
 No, you're not. I have no obligations to you.
 
