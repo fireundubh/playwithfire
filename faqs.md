@@ -17,6 +17,8 @@ Fallout 4 | **Auto Loot** | [Fallout 4 Nexus](https://www.nexusmods.com/fallout4
 Kingdom Come: Deliverance | **Lockpicking Overhaul** | [Kingdom Come Nexus](https://www.nexusmods.com/kingdomcomedeliverance/mods/3)
 Skyrim | **Master of Disguise** | [Skyrim Special Edition Nexus](https://www.nexusmods.com/skyrimspecialedition/mods/9959)| 
 
+I've also contributed to xEdit and build modding tools, too.
+
 ### Where can I download your Fallout 4 mods?
 
 [GitHub](http://fireundubh.github.io/fallout4/) - until I find time to upload them to the Fallout 4 Nexus.
