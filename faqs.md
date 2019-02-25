@@ -47,17 +47,17 @@ GitHub Repo | Purpose
 
 Question | Answer
 :--- | :---
-<font color="green">Can I create patches for your mods?</font> | Yes
-Can I create translations of your mods? | Yes
+<font color="green">Can I create patches for your mods?</font> | <font color="green">Yes</font>
+<font color="green">Can I create translations of your mods?</font> | <font color="green">Yes</font>
 Can I distribute your mods? | No
 Can I distribute your mods in a compilation? | No
 Can I port your mods to consoles? | No
 Can I port your Skyrim LE mods to Skyrim SSE? | No
 Can I port your Skyrim SSE mods to Skyrim LE? | No
-Can I record videos of your mods for YouTube? | Yes
+<font color="green">Can I record videos of your mods for YouTube?</font> | <font color="green">Yes</font>
 Can I release personalized versions of your mods? | No
-Can I stream your mods on my Twitch, Twitter, or Facebook channels? | Yes
-Can I monetize my patches, translations, or videos? | Yes
+<font color="green">Can I stream your mods on my Twitch, Twitter, or Facebook channels?</font> | <font color="green">Yes</font>
+<font color="green">Can I monetize my patches, translations, or videos?</font> | <font color="green">Yes</font>
 If I monetize my patches, translations, or videos, do I have to share revenue with you? | No
 
 
