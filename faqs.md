@@ -89,3 +89,9 @@ Subject | Prefix the subject line with the name of the game and the name of the 
 Body | Be specific, concise, and include only relevant information.<br><br>Use the following structure for reporting issues:<br><br>SUMMARY<br>The summary quickly explains what does not happen.<br><br>CONDITIONS<br>The conditions describe the state of the operating environment at the time the issue occurred.<br><br>Use only when needed.<br><br>STEPS TO REPRODUCE<br>The steps to reproduce describe the procedure by which any other user can experience the same issue.<br><br>Use only when reproducing the issue has either:<br>-	a frequency lower than 100%, or<br>-	when reproduction is sufficiently complex to warrant instructions.<br><br>RESULT<br>The result describes what actually happened.<br><br>This is the only section that is required.<br><br>Do not use a heading when reporting only the result.<br><br>EXPECTED RESULT<br>The expected result describes what should have happened.<br><br>Use only when the expected result is not obvious.
 
 Always use headings when including two or more sections.
+
+### How do I provide evidence of issues?
+
+-	Simple and easily reproduced issues may not require evidence (e.g., text issues.)
+-	When evidence may be needed, please use your judgement to provide:<br>- Screenshots<br>- DirectX diagnostics, or system information<br>- Log files
+-	When in doubt about what evidence would be useful toward tracking down and resolving a specific issue, ask me.
