@@ -6,6 +6,25 @@
 # Frequently Asked Questions
 ## Modding
 
+### What mods have you created?
+
+I've been creating mods for 23 years. I'm best known for the following mods:
+
+Game | Mod | Download
+:--- | :--- | :---
+Divinity: Original Sin 2 | **Let There Be Tooltips!** | [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1506230499)
+Fallout 4 | **Auto Loot** | [Fallout 4 Nexus](https://www.nexusmods.com/fallout4/mods/27719)
+Kingdom Come: Deliverance | **Lockpicking Overhaul** | [Kingdom Come Nexus](https://www.nexusmods.com/kingdomcomedeliverance/mods/3)
+Skyrim | **Master of Disguise** | [Skyrim Special Edition Nexus](https://www.nexusmods.com/skyrimspecialedition/mods/9959)| 
+
+### Where can I download your Fallout 4 mods?
+
+[GitHub](http://fireundubh.github.io/fallout4/) - until I find time to upload them to the Skyrim Nexus.
+
+### Where can I download your Skyrim Legendary Edition mods?
+
+[GitHub](http://fireundubh.github.io/skyrim/) - until I find time to upload them to the Skyrim Nexus.
+
 ### Permissions
 
 Question | Answer
