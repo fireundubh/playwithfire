@@ -81,6 +81,10 @@ No, my workflow is not up for discussion.
 
 Spamming me, brigading me, and downvoting my Reddit threads only reinforce my commitment to keeping these features disabled.
 
+#### But I'm your customer! Give me what I want.
+
+No, you're not. I have no obligations to you.
+
 ### Where can I send feedback then?
 
 I accept feedback by *private message* on the Nexus, Reddit, and Discord. Patreon subscribers and PayPal donors may also send me feedback via email.
