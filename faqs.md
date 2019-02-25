@@ -56,11 +56,11 @@ Question | Answer
 <font color="red">Can I port your mods to consoles?</font> | <font color="red">No</font>
 <font color="red">Can I port your Skyrim LE mods to Skyrim SSE?</font> | <font color="red">No</font>
 <font color="red">Can I port your Skyrim SSE mods to Skyrim LE?</font> | <font color="red">No</font>
-<font color="green">Can I record videos of your mods for YouTube?</font> | <font color="green">Yes</font>
+<font color="green">Can I record videos of your mods for YouTube?</font> | <font color="green">Yes, but please link to my Patreon</font>
 <font color="red">Can I release personalized versions of your mods?</font> | <font color="red">No</font>
-<font color="green">Can I stream your mods on my Twitch, Twitter, or Facebook channels?</font> | <font color="green">Yes</font>
-<font color="green">Can I monetize my patches, translations, or videos of your mods?</font> | <font color="green">Yes</font>
-<font color="red">If I monetize my patches, translations, or videos, do I have to share revenue with you?</font> | <font color="red">No</font>
+<font color="green">Can I stream your mods on my Twitch, Twitter, or Facebook channels?</font> | <font color="green">Yes, but please link to my Patreon</font>
+<font color="green">Can I monetize my patches, translations, or videos of your mods?</font> | <font color="green">Yes, but please link to my Patreon</font>
+<font color="red">If I monetize my patches, translations, or videos, do I have to share revenue with you?</font> | <font color="red">No, but please link to my Patreon</font>
 
 
 ## Community
