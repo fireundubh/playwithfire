@@ -19,7 +19,7 @@ Game | Mod | Downloads/Subscribers (K) | Positive Ratings (K)
 
 In addition, I am a contributor to xEdit, was a *Fallout 4* Creation Kit private beta participant, and I build modding tools, too.
 
-I also received an invite to the Divinity Engine 2 beta for the Definitive Edition of *Divinity: Original Sin 2*, but I didn't see it until the toolkit was released. RIP.
+I also received an invite to the Divinity Engine 2 private beta, but I didn't see it until the toolkit was released. RIP.
 
 ### What modding tools have you developed?
 
