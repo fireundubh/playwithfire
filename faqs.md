@@ -77,7 +77,7 @@ The issue tracker provided by the Nexus is poorly designed and implemented. [The
 
 No, my workflow is not up for discussion.
 
-#### What if I spam you, brigade you, or downvote your Reddit threads?
+#### What if I spam you, brigade you, or downvote your Reddit threads? Will that convince you?
 
 Spamming me, brigading me, and downvoting my Reddit threads only reinforce my commitment to keeping these features disabled.
 
