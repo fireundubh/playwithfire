@@ -17,7 +17,9 @@ Divinity: Original Sin 2 | [Let There Be Tooltips!](https://steamcommunity.com/s
 Skyrim Special Edition | [Master of Disguise SSE](https://www.nexusmods.com/skyrimspecialedition/mods/9959) | 55 | 1.3
 Fallout 4 | [Auto Loot](https://www.nexusmods.com/fallout4/mods/27719) | 30 | 1
 
-I've also contributed to xEdit, and I build modding tools, too.
+In addition, I am a contributor to xEdit, was a Fallout 4 Creation Kit closed beta participant, and I build modding tools, too.
+
+I also received an invite to the Divinity Engine 2 beta for the Definitive Edition of Divinity: Original Sin 2, but I didn't see it until the toolkit was released. RIP.
 
 ### What modding tools have you developed?
 
