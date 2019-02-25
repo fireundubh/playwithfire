@@ -73,7 +73,7 @@ Question | Answer
 
 The issue tracker provided by the Nexus is rather poorly designed and implemented. [The Nexus doesn't even use their own tracker.](https://github.com/Nexus-Mods/web-issues/issues)
 
-### Can I persuade you to enable the Posts and/or Bugs tabs?
+### Can I persuade you to enable the Posts and/or Bugs tabs on the Nexus?
 
 No.
 
