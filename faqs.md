@@ -12,14 +12,14 @@ I've been creating mods for 23 years. I'm best known for the following mods:
 
 Game | Mod | Downloads/Subscribers (K) | Positive Ratings (K)
 :--- | :--- | ---: | ---:
-Kingdom Come: Deliverance | [Lockpicking Overhaul](https://www.nexusmods.com/kingdomcomedeliverance/mods/3) | 158 | 1.7
-Divinity: Original Sin 2 | [Let There Be Tooltips!](https://steamcommunity.com/sharedfiles/filedetails/?id=1506230499) | 151 | 1.1
-Skyrim Special Edition | [Master of Disguise SSE](https://www.nexusmods.com/skyrimspecialedition/mods/9959) | 55 | 1.3
-Fallout 4 | [Auto Loot](https://www.nexusmods.com/fallout4/mods/27719) | 30 | 1
+*Kingdom Come: Deliverance* | [Lockpicking Overhaul](https://www.nexusmods.com/kingdomcomedeliverance/mods/3) | 158 | 1.7
+*Divinity: Original Sin 2* | [Let There Be Tooltips!](https://steamcommunity.com/sharedfiles/filedetails/?id=1506230499) | 151 | 1.1
+*Skyrim Special Edition* | [Master of Disguise SSE](https://www.nexusmods.com/skyrimspecialedition/mods/9959) | 55 | 1.3
+*Fallout 4* | [Auto Loot](https://www.nexusmods.com/fallout4/mods/27719) | 30 | 1
 
-In addition, I am a contributor to xEdit, was a Fallout 4 Creation Kit private beta participant, and I build modding tools, too.
+In addition, I am a contributor to xEdit, was a *Fallout 4* Creation Kit private beta participant, and I build modding tools, too.
 
-I also received an invite to the Divinity Engine 2 beta for the Definitive Edition of Divinity: Original Sin 2, but I didn't see it until the toolkit was released. RIP.
+I also received an invite to the Divinity Engine 2 beta for the Definitive Edition of *Divinity: Original Sin 2*, but I didn't see it until the toolkit was released. RIP.
 
 ### What modding tools have you developed?
 
