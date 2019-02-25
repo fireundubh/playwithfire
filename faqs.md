@@ -73,7 +73,11 @@ Question | Answer
 
 The issue tracker provided by the Nexus is rather poorly designed and implemented. [The Nexus doesn't even use their own tracker.](https://github.com/Nexus-Mods/web-issues/issues)
 
-### Where can I send feedback?
+### Can I persuade you to enable the Posts and/or Bugs tabs?
+
+No.
+
+### Where can I send feedback then?
 
 I accept feedback by private message on the Nexus, Reddit, and Discord. Patreon subscribers and PayPal donors may also send me feedback via email.
 
