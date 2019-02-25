@@ -19,7 +19,7 @@ Skyrim | **Master of Disguise** | [Skyrim Special Edition Nexus](https://www.nex
 
 ### Where can I download your Fallout 4 mods?
 
-[GitHub](http://fireundubh.github.io/fallout4/) - until I find time to upload them to the Skyrim Nexus.
+[GitHub](http://fireundubh.github.io/fallout4/) - until I find time to upload them to the Fallout 4 Nexus.
 
 ### Where can I download your Skyrim Legendary Edition mods?
 
