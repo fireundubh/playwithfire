@@ -81,6 +81,11 @@ No, my workflow is not up for discussion.
 
 I accept feedback by *private message* on the Nexus, Reddit, and Discord. Patreon subscribers and PayPal donors may also send me feedback via email.
 
+### You haven't responded to my message in 30 minutes! What gives?
+
+I try to respond to everyone, but I do receive a lot of messages. If you haven't heard from me in **1 week**, ping me.
+
+
 ## Reporting Issues
 
 ### How do I report issues effectively?
