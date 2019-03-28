@@ -29,6 +29,7 @@ Game | Contents
 Section | Description
 :--- | :---
 [Papyrus Anti-Patterns](papyrus-anti-patterns) | Skyrim and Fallout 4 scripting anti-patterns/best practices
+[xEdit](xedit) | xEdit Scripts
 
 ## Steam Console
 
