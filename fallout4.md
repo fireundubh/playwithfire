@@ -1,8 +1,6 @@
 <!-- TITLE: Fallout 4 -->
 <!-- SUBTITLE: Fallout 4 -->
 
-[![https://www.patreon.com/fireundubh](https://i.imgur.com/llPEyru.png)](https://www.patreon.com/fireundubh)
-
 # Fallout 4
 Welcome to the *Fallout 4* wiki at **#playwithfire**.
 
