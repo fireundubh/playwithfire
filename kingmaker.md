@@ -1,10 +1,6 @@
 <!-- TITLE: Pathfinder: Kingmaker -->
 <!-- SUBTITLE: Pathfinder: Kingmaker -->
 
-If you want to see more resources like this:
-
-[![https://www.patreon.com/fireundubh](https://i.imgur.com/llPEyru.png)](https://www.patreon.com/fireundubh)
-
 # Home
 Welcome to the *Pathfinder: Kingmaker* wiki at **#playwithfire**. This wiki was created to provide modders with potentially useful technical information.
 
