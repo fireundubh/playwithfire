@@ -1,7 +1,6 @@
 <!-- TITLE: xEdit -->
 
-# xEdit
-## Scripts
+# Scripts
 
 Name | Hotkey | Has GUI | Purpose
 :--- | :--- | :--- | :---
