@@ -2,10 +2,6 @@
 
 [&lsaquo; Unity Modding](/unity)
 
-If you want to see more resources like this:
-
-[![https://www.patreon.com/fireundubh](https://i.imgur.com/llPEyru.png)](https://www.patreon.com/fireundubh)
-
 # Patchwork Project Structure
 This reference is aimed at how to structure a basic Patchwork project.
 
