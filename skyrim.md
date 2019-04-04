@@ -1,11 +1,7 @@
 <!-- TITLE: Skyrim -->
 <!-- SUBTITLE: The Elder Scrolls V: Skyrim -->
 
-If you want to see more resources like this:
-
-[![https://www.patreon.com/fireundubh](https://i.imgur.com/llPEyru.png)](https://www.patreon.com/fireundubh)
-
-# The Elder Scrolls V: Skyrim
+# Home
 Welcome to the *The Elder Scrolls V: Skyrim* wiki at **#playwithfire**.
 
 ## Mods
