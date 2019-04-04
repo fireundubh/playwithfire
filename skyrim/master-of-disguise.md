@@ -14,6 +14,8 @@ Master of Disguise transforms faction armor into real disguises with an immersiv
 
 You are the Master of Disguise. What will you do?
 
+<a class="youtube" href="https://www.youtube.com/watch?v=QZxRm1EcbQ4&t=8m11s"></a>
+
 ## Accolades
 
 * [Featured by GameSpot](http://www.gamespot.com/videos/top-5-skyrim-mods-of-the-week-become-the-master-of/2300-6423174/) ([@8:11](https://www.youtube.com/watch?v=QZxRm1EcbQ4&t=8m11s))
