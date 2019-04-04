@@ -2,10 +2,6 @@
 
 [&larr; Home](/)
 
-If you want to see more resources like this:
-
-[![https://www.patreon.com/fireundubh](https://i.imgur.com/llPEyru.png)](https://www.patreon.com/fireundubh)
-
 # Using Steam to Download Previous Versions
 ## Step by Step
 
