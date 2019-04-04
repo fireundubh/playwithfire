@@ -8,7 +8,9 @@
 
 Master of Disguise transforms faction armor into real disguises with an immersive and fully customizable detection system.
 
-Suit up as anyone, from a Dark Brotherhood assassin to a rough-and-tumble bandit. Find safety among new allies, or deceive and betray them. Wage war against new enemies, or fire the first shot.
+* Suit up as anyone, from a Dark Brotherhood assassin to a rough-and-tumble bandit.
+* Find safety among new allies, or deceive and betray them.
+* Wage war against new enemies, or fire the first shot.
 
 You are the Master of Disguise. What will you do?
 
