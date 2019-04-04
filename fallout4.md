@@ -1,7 +1,7 @@
 <!-- TITLE: Fallout 4 -->
 <!-- SUBTITLE: Fallout 4 -->
 
-# Fallout 4
+# Home
 Welcome to the *Fallout 4* wiki at **#playwithfire**.
 
 ## Mods
