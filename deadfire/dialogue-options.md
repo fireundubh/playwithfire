@@ -2,7 +2,7 @@
 # Dialogue Options Report
 The following tables were produced from the raw data in [this spreadsheet](https://docs.google.com/spreadsheets/d/1YtruDo0zpVQ3Z7fcdMH4JEo1R8aQSAH9G57BnQ-ekL0/).
 
-Please note that these tables were created by hand, so they will not be updated for each successive patch unless I get around to automating table generation. However, the raw data will be updated for each patch.
+Please note that these tables were created by hand, so they will not be updated for each successive patch unless I get around to automating table generation. However, the raw data will be updated.
 
 ## Attributes
 
