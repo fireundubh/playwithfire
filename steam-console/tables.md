@@ -11,7 +11,7 @@
 - [Depot ID: 435151 Manifests](https://steamdb.info/depot/435151/manifests/)
 - [Depot ID: 717550 Manifests](https://steamdb.info/depot/717550/manifests/)
 
-<a class="googlesheet" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRolEf_BuaA-YzMUJdvT-qSkjyd84c3I1vqBXLL4WuPEU1819-gNcvbhl0XmM5p1uyXAhQ5zary47Ie/pubhtml">Steam Depot Manifest Tables</a>
+<a class="googlesheet" href="https://docs.google.com/spreadsheets/d/1hwKIXnR06EEWjWgDfoArsngci2LbXxo0djXjIG7LKeo/edit?usp=sharing">Steam Depot Manifest Tables</a>
 
 ## Kingdom Come: Deliverance
 
