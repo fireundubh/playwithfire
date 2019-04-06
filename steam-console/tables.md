@@ -3,7 +3,6 @@
 # Tables
 
 ## Divinity: Original Sin 2
-
 ### App ID: 435150
 
 - [Depot ID: 435151 Manifests](https://steamdb.info/depot/435151/manifests/)
@@ -12,7 +11,6 @@
 <a class="googlesheet" href="https://docs.google.com/spreadsheets/d/1hwKIXnR06EEWjWgDfoArsngci2LbXxo0djXjIG7LKeo/edit?usp=sharing">Steam Depot Manifest Tables</a>
 
 ## Kingdom Come: Deliverance
-
 ### App ID: 379430
 
 - [Depot ID: 379432 Manifests](https://steamdb.info/depot/379432/manifests/)
@@ -21,7 +19,6 @@
 <a class="googlesheet" href="https://docs.google.com/spreadsheets/d/1gbt_i6_wG84SJdSAdc1NqwTC27Rmm4QbJBa4dM36FKg/edit?usp=sharing">Steam Depot Manifest Tables</a>
 
 ## Pathfinder: Kingmaker
-
 ### App ID: 640820
 
 [Depot ID: 640821 Manifests](https://steamdb.info/depot/640821/manifests/)
@@ -80,21 +77,8 @@ Date | Manifest ID | Version
 2016-10-27 23:53:24 UTC | `6158677302313085885` | 1.1?
 
 ## Torment: Tides of Numenera
-
-[SteamDB Manifests](https://steamdb.info/depot/272271/manifests/)
-
 ### App ID: 272270
 
-#### Depot ID: 272271
+[Depot ID: 272271 Manifests](https://steamdb.info/depot/272271/manifests/)
 
-Date | Manifest ID | Version | Patch Notes | Comments
-:--- | :--- | :--- | :--- | :---
-2017-07-14 15:54:30 UTC | `165658095176276519` |  | 
-2017-05-16 16:21:12 UTC | `2749697460701415169` | 1.1.0 | [Patch Notes](https://steamcommunity.com/app/272270/discussions/0/1333474229086291586/) (Servant of the Tides Update)
-2017-03-29 16:43:44 UTC | `1205731454159606030` |  | 
-2017-03-28 16:02:35 UTC | `6743520395024327643` | 1.0.2 | [Patch Notes](https://steamcommunity.com/app/272270/discussions/0/133260909499737939/)
-2017-02-28 06:56:37 UTC | `1931151691588868836` | Public Release | [Release Date Announcement](https://steamcommunity.com/gid/103582791441221464/announcements/detail/653417453752180573)
-2016-12-20 19:59:51 UTC | `741020259097035797` | 0.1.3 | [Early Access Patch Notes](https://www.kickstarter.com/projects/inxile/torment-tides-of-numenera/posts/1769123) (Tidal Surge Update) | Cannot export with dnSpy
-2016-06-09 19:59:12 UTC | `5920970359552251630` | 0.1.2 | [Early Access Patch Notes](https://steamcommunity.com/gid/103582791441221464/announcements/detail/916860825825059443)
-2016-02-04 18:01:29 UTC | `5163238004520983390` | 0.1.1 | [Early Access Patch Notes](https://steamcommunity.com/app/272270/discussions/0/405690850604539467/)
-2016-01-24 12:07:40 UTC | `804608384927260334` | 0.1.0 | [Early Access Announcement](https://www.kickstarter.com/projects/inxile/torment-tides-of-numenera/posts/1470873)
+<a class="googlesheet" href="https://docs.google.com/spreadsheets/d/1cRKZdmeSzHxuZ944xdGnD9Pj_9zAZMIkj5xy0E7rvfs/edit?usp=sharing">Steam Depot Manifest Tables</a>
