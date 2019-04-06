@@ -1,8 +1,13 @@
 <!-- TITLE: Deadfire Dialogue Options Report-->
 # Dialogue Options Report
-The following tables were produced from the raw data in [this spreadsheet](https://docs.google.com/spreadsheets/d/1YtruDo0zpVQ3Z7fcdMH4JEo1R8aQSAH9G57BnQ-ekL0/).
+Please note: These tables were created by hand, so they will not be updated for each patch unless I get around to automating table generation.
 
-Please note that these tables were created by hand, so they will not be updated for each successive patch unless I get around to automating table generation. However, the raw data will be updated.
+## Raw Data
+
+Last update: December 2, 2018
+
+- [Embedded Spreadsheet](raw-data)
+- [Google Sheet](https://docs.google.com/spreadsheets/d/1YtruDo0zpVQ3Z7fcdMH4JEo1R8aQSAH9G57BnQ-ekL0/).
 
 ## Attributes
 
