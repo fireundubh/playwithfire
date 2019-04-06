@@ -6,8 +6,6 @@
 
 ### App ID: 435150
 
-#### Depot Manifests
-
 - [Depot ID: 435151 Manifests](https://steamdb.info/depot/435151/manifests/)
 - [Depot ID: 717550 Manifests](https://steamdb.info/depot/717550/manifests/)
 
