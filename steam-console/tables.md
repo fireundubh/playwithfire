@@ -6,96 +6,12 @@
 
 ### App ID: 435150
 
-#### Depot ID: 435151
+#### Depot Manifests
 
-[SteamDB Manifests](https://steamdb.info/depot/435151/manifests/)
+- [Depot ID: 435151 Manifests](https://steamdb.info/depot/435151/manifests/)
+- [Depot ID: 717550 Manifests](https://steamdb.info/depot/717550/manifests/)
 
-Date | Manifest ID | Version | Patch Notes
-:--- | :--- | :--- | :---
-2018-12-05 15:37:26 UTC | `1112391099424458719` | 3.6.33.2684 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1710702701592286936)
-2018-11-21 18:24:38 UTC | `4762916935637632730` | | [Prison of Shadows GM Campaign Announcement](https://steamcommunity.com/games/435150/announcements/detail/1709575532580207570)
-2018-11-15 19:06:25 UTC | `4258198499269865028` | 3.6.32.4166 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/3463727052352493227)
-2018-11-07 17:27:50 UTC | `3080217226522803759` | 3.6.32.1810 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1717455564405725513)
-2018-10-17 16:10:26 UTC | `5423912583703951383` | 3.6.31.2130 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1700565164647606918)
-2018-10-15 23:25:04 UTC | `4613234505327310954` | 3.6.31.1571 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/2827590424611934959)
-2018-10-11 19:20:44 UTC | `7555787267087487153` |
-2018-10-11 17:43:49 UTC | `3956629155386659650` | 3.0.30.9667 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/2827590424582874493)
-2018-09-12 13:38:17 UTC | `4784487891893896533` | 3.6.29.3822 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1708443293166084587)
-2018-09-07 18:53:19 UTC | `6189764012793862100` | | 
-2018-09-05 16:49:20 UTC | `7440170597976039361` | 3.6.29.1090 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1700561357531043642)
-2018-09-04 16:27:55 UTC | `4704806653271687750` | | 
-2018-09-03 18:03:39 UTC | `7460046821056324032` | 3.6.29.390 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1703938422730093279)
-2018-08-31 20:21:48 UTC | `8528254944089150712` | 3.6.28.9969 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1703938422708170472)
-2018-08-31 01:29:08 UTC | `167072590693741559` |  | [Definitive Edition Release Announcement](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1703938422704592613)
-2018-08-30 16:31:59 UTC | `1171886874743914236` |  | 
-2018-05-16 15:13:57 UTC | `244373317272729760` |  | 
-2018-05-16 07:34:06 UTC | `1389547995064105059` | 3.0.226.993 | [Patch Notes](http://larian.com/forums/ubbthreads.php?ubb=showflat&Number=646015)
-2018-03-21 16:44:44 UTC | `191036283777788044` | 3.0.190.74 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1665643240467115002)
-2018-03-07 16:13:01 UTC | `5046830741005571502` | 3.0.180.158 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1665641971147084894)
-2018-02-12 15:16:22 UTC | `2256105192537027573` | 3.0.171.819 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1667891235053763056)
-2018-02-02 20:12:48 UTC | `267319309418886073` | 3.0.169.700 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1667890601393387176)
-2018-02-01 15:00:39 UTC | `3398161497796942030` | 3.0.168.526 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1667890601387608397)
-2018-01-18 16:52:15 UTC | `7007123960744699418` | 3.0.165.9 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1661133938524033223)
-2017-12-20 13:50:30 UTC | `5421202735820611391` | 3.0.160.028 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1585695474107000418)
-2017-12-07 10:20:54 UTC | `4074285774433215355` | 3.0.159.021 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1480986148972496661)
-2017-12-05 15:25:55 UTC | `5893374657274645937` | 3.0.158.595 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1470852965979060335)
-2017-11-03 16:30:15 UTC | `203109788023908411` | 3.0.151.229 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1461842672750892180)
-2017-10-31 14:44:38 UTC | `565713323437375164` | 3.0.150.954 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1461842519681058748)
-2017-10-27 18:00:13 UTC | `2101725439366670610` | 3.0.150.760 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1461842131337430727)
-2017-10-26 14:32:20 UTC | `8669483029989635186` | 3.0.150.188 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1461842131332478533)
-2017-10-09 16:01:36 UTC | `6763538787763586284` |  |
-2017-10-09 14:33:38 UTC | `6924015759185419165` | 3.0.146.969 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1470847602367333262)
-2017-10-07 18:30:11 UTC | `5032607589693146677` | 3.0.146.814 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1470847602359915253)
-2017-10-06 11:28:46 UTC | `3481662379655802339` | Patch 3 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1470847507677711328)
-2017-09-28 14:04:29 UTC | `6502635156278872050` | 3.0.143.909 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1501245999270934136)
-2017-09-21 22:48:24 UTC | `5346795891051093195` |  | 
-2017-09-21 20:04:11 UTC | `6094009947358344996` |  | 
-2017-09-21 16:42:18 UTC | `1713994409719494278` | 3.0.143.324 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1477601466705686918)
-2017-09-21 11:39:32 UTC | `7285063415068754865` | 3.0.143.148 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1477601466704282818)
-2017-09-18 19:16:12 UTC | `4915083391496169033` | 3.0.142.271 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/3008824797206125430)
-2017-09-17 18:52:00 UTC | `2864838041695293605` | 3.0.142.47 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/3008824797201850003)
-2017-09-15 18:01:35 UTC | `7634517375182509514` | Multiplayer Hotfix | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/3008824797193425715)
-2017-09-14 20:50:37 UTC | `1428015599965561224` |  | 
-2017-09-14 14:53:11 UTC | `5753691202891746710` | 3.0.141.716 | [Patch Notes, Kinda](https://steamcommunity.com/gid/103582791455585726/announcements/detail/3008824797193061835)
-2017-05-26 12:36:54 UTC | `2565278018179312552` | 3.0.77.309 | [Early Access Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1272676910066719884)
-2017-05-24 14:56:27 UTC | `7787012528413011186` | 3.0.76.796 | [Early Access Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1272676910059442240)
-2017-03-31 11:02:37 UTC | `5775428352633111097` | 3.0.52.425 | [Early Access Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/665811780572453478)
-2017-03-28 14:35:36 UTC | `7189509260682239857` | 3.0.50.423 | [Early Access Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/665811148016226647)
-2017-02-09 15:45:51 UTC | `7390093447938671847` | 3.0.33.118 | [Early Access Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/675940444925676748)
-2017-02-02 14:21:10 UTC | `8382597800282017479` | 3.0.31.292 | [Early Access Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/675939811040182918)
-2016-12-01 15:41:08 UTC | `5651734831006894397` | 3.0.15.252 | [Early Access Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/702955818181733086)
-2016-10-19 17:17:10 UTC | `313863331557428430` | 3.0.5.530 | [Early Access Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/975419669862811696)
-2016-09-16 12:28:04 UTC | `7010031956707004956` | 2.0.165.341 | [Early Access Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/974290780443000656)
-2016-09-15 17:11:33 UTC | `176056573245315941` | 2.0.164.992 |
-
-#### Depot ID: 717550
-
-[SteamDB Manifests](https://steamdb.info/depot/717550/manifests/)
-
-Date | Manifest ID | Version | Patch Notes
-:--- | :--- | :--- | :---
-2018-09-07 17:22:37 UTC | `520087469278554103` | |
-2018-08-30 16:31:59 UTC | `7772047827893852819` | |
-2018-03-08 14:29:13 UTC | `7466839091676760425` | |
-2018-03-08 14:14:06 UTC | `7544577621442755673` | |
-2018-03-08 13:12:20 UTC | `5202880602161263116` | |
-2018-03-07 17:26:15 UTC | `3395561388545509944` | |
-2018-03-07 16:13:01 UTC | `6770256216370021460` | |
-2018-02-08 11:22:23 UTC | `8803209585976818359` | |
-2018-02-07 17:27:26 UTC | `7809747267060749408` | |
-2018-02-05 09:53:30 UTC | `6770256216370021460` | |
-2018-02-02 20:12:48 UTC | `4839233388776593171` | |
-2018-02-01 22:24:13 UTC | `6770256216370021460` | |
-2018-01-02 15:54:46 UTC | `1967781939404098565` | |
-2018-01-02 10:08:24 UTC | `5456224448382505355` | |
-2017-12-20 13:50:30 UTC | `1454730437650601872` | |
-2017-12-12 14:24:58 UTC | `5456224448382505355` | 3.0.160.028 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1585695474107000418)
-2017-12-05 15:25:55 UTC | `1454730437650601872` | 3.0.158.595 | [Patch Notes](https://steamcommunity.com/gid/103582791455585726/announcements/detail/1470852965979060335)
-2017-11-10 14:43:59 UTC | `1989352761490222171` | |
-2017-11-10 14:27:59 UTC | `1293672696271220947` | |
-2017-10-26 14:32:20 UTC | `4947017044767767001` | |
-2017-10-10 13:18:55 UTC | `8019445069728899127` | |
-2017-09-15 18:01:35 UTC | `4839233388776593171` | |
+<a class="googlesheet" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRolEf_BuaA-YzMUJdvT-qSkjyd84c3I1vqBXLL4WuPEU1819-gNcvbhl0XmM5p1uyXAhQ5zary47Ie/pubhtml">Steam Depot Manifest Tables</a>
 
 ## Kingdom Come: Deliverance
 
