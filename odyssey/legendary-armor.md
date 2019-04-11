@@ -89,6 +89,9 @@ Hash ID | Name | Type | Min. Level | Armor | Engraving 1 | Engraving 2
 :--- | :--- | :--- | ---: | ---:  | :--- | :---
 00000176633CF822 | Pirate Gauntlets | Arms | ?? | ?? | ?? | ??
 00000186B36B29DC | Pirate Treads | Legs | ?? | ?? | ?? | ??
+00000176633CF812 | Pirate Torso | Torso | ?? | ?? | ?? | ??
+00000173D2759900 | Pirate Head | Head | ?? | ?? | ?? | ??
+00000186B36B2990 | Pirate Waist | Waist | ?? | ?? | ?? | ??
 
 ## Snake Set
 
