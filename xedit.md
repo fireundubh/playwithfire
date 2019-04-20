@@ -2,6 +2,8 @@
 
 # Scripts
 
+## General Purpose
+
 Name | Hotkey | Has GUI | Purpose
 :--- | :--- | :--- | :---
 [Search Elements by Path](https://gist.github.com/fireundubh/c2f8459d3516a08e79ea1049b76f8aa3) | Ctrl+F | Yes | Allows you to search in elements by path and returns a list of results
