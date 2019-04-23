@@ -12,6 +12,7 @@ Modsmith allows you to focus on projects, improves productivity, and reduces the
 - Generates zero-byte TBL files as needed for each XML table modified
 - Generates distribution-ready ZIP archives of mods,
 - Supports packaging arbitrary files that cannot be patched
+- Supports patching multiple languages simultaneously
 
 ## Using Modsmith
 
