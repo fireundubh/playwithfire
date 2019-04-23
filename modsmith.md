@@ -1,6 +1,6 @@
 <!-- TITLE: Modsmith -->
 
-# Modsmith
+# Documentation
 **Modsmith** is a build automation system for *Kingdom Come: Deliverance* mods.
 
 Modsmith allows you to focus on projects, improves productivity, and reduces the time and effort required to update mods after major game patches.
