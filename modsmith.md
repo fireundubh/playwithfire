@@ -7,6 +7,7 @@ Modsmith allows you to focus on projects, improves productivity, and reduces the
 
 ## Features
 
+- Isolates mod data and strings from game data and strings
 - Patches mod data into copies of the latest installed versions of vanilla XML tables
 - Patches localized strings into copies of the latest installed versions of vanilla XML localization
 - Generates zero-byte TBL files as needed for each XML table modified
