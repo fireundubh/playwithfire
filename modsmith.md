@@ -3,17 +3,28 @@
 # Documentation
 **Modsmith** is a build automation system for *Kingdom Come: Deliverance* mods.
 
-Modsmith allows you to focus on projects, improves productivity, and reduces the time and effort required to update mods after major game patches.
-
 ## Features
 
-- Isolates mod data and strings from game data and strings
+- Isolates mod data and strings from vanilla game data and strings
 - Patches mod data into copies of the latest installed versions of vanilla XML tables
 - Patches localized strings into copies of the latest installed versions of vanilla XML localization
 - Generates zero-byte TBL files as needed for each XML table modified
 - Generates distribution-ready ZIP archives of mods,
 - Supports packaging arbitrary files that cannot be patched
 - Supports patching multiple languages simultaneously
+
+### Benefits
+
+- Allows you to focus on just the changes you want to make
+- Improves productivity by eliminating noise in your files and encouraging an organized approach to modding
+- Reduces time and effort to update mods after game updates by always patching the latest installed XML files
+- Simplifies the work needed to create translations
+- Accelerates the process of packaging mods for distribution
+
+### Future Plans
+
+- Generate actual TBL files as needed for each XML table modified
+- Support patching non-table XML files
 
 ## Using Modsmith
 
