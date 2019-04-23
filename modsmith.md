@@ -5,8 +5,6 @@
 
 ## Benefits
 
-Modsmith:
-
 - Allows you to focus on just the changes you want to make
 - Improves productivity by eliminating noise in your files and encouraging an organized approach to modding
 - Reduces time and effort to update mods after game updates by always patching the latest installed XML files
