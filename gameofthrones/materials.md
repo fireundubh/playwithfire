@@ -43,3 +43,28 @@ Drunkard Wineskin | Crownlands Rioter | Builder Set
 Lead Dice | Crownlands Rioter | Builder Set
 White Candle | Crownlands Rioter | Builder Set
 Broken Hammer | Crownlands Rioter | Builder Set
+Maester Scroll | Oldtown Student | Maester Set
+Broken Quill | Oldtown Student | Maester Set
+Ink Bottle | Oldtown Student | Maester Set
+White Raven Wing | Oldtown Student | Maester Set
+Pottery Shard | Oldtown Student | Maester Set
+Shadowcat Hide | Events | Mountain Clan Set
+Metal Brazier | Events | Mountain Clan Set
+Animal Skin Drum | Events | Mountain Clan Set
+Bobcat Claw | Events | Mountain Clan Set
+Sewing Needle | Events | Mountain Clan Set
+Stag Horn | Riverlands Poacher | Huntsman Set
+Broken Hunting Bow | Riverlands Poacher | Huntsman Set
+Flint | Riverlands Poacher | Huntsman Set
+Scattered Arrow | Riverlands Poacher | Huntsman Set
+Campfire Firewood | Riverlands Poacher | Huntsman Set
+Stone Men Roll | Stone Way Claimant | Oath Set
+Red Soft Gold | Stone Way Claimant | Oath Set
+Broken-String Hyperbolic Bow | Stone Way Claimant | Oath Set
+Sand Snake Leather | Stone Way Claimant | Oath Set
+Polished Copper | Stone Way Claimant | Oath Set
+Arbor Gold Cup | Hedge Knight | Oath Set
+Gold Paint | Hedge Knight | Oath Set
+Green Velvet | Hedge Knight | Oath Set
+Rose Accessory | Hedge Knight | Oath Set
+Horseshoe | Hedge Knight | Oath Set
