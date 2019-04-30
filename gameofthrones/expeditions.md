@@ -1,6 +1,25 @@
 <!-- TITLE: Expeditions -->
 
 # Leaders
+Loot is randomly generated from the items below.
+
+## Components
+
+Leader | Items
+:--- | :---
+Black Ears | Beast Biter<br>Black Ears Chain<br>House Tanning<br>Mountain Clan Coat<br>House Blood
+Oldtown Student | Maester Scroll<br>Broken Quill<br>Ink Bottle<br>White Raven Wing<br>Pottery Shard
+
+## Diamond Progression
+
+Level | Qty
+:--- | :---
+1 | 100
+2 | 150
+3 | 200
+4 | 250
+5 | 300
+
 ## Speed Ups Progression
 
 Level | Items
