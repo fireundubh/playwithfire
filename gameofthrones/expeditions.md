@@ -1,6 +1,6 @@
 <!-- TITLE: Expeditions -->
 
-# Leaders
+# Loot
 Loot is randomly generated from the items below.
 
 ## Progression Loot
