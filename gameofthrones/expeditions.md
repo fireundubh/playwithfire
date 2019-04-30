@@ -4,7 +4,7 @@
 ## Speed Ups Progression
 
 Level | Items | Qty
---- | --- | ---
+:--- | :--- | :---
 1 | 10m Speed Up<br>10m Speed Up (Research)<br>10m Speed Up (Training) | 1
 2 | 60m Speed Up<br>60m Speed Up (Research)<br>60m Speed Up (Training) | 1
 3 | 8h Speed Up<br>8h Speed Up (Research)<br>8h Speed Up (Training) | 1
