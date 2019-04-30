@@ -17,8 +17,8 @@ Level | Qty
 1 | 100
 2 | 150
 3 | 200
-4 | 250
-5 | 300
+4 | 500
+5 | 500
 
 ## Speed Ups Progression
 
