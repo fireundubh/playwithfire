@@ -20,7 +20,7 @@
 # Champion Set
 ## Source: Gathering
 
-Item | Source
+Item | Gathering Site
 :--- | :---
 Jute | Grain
 Corundum | Iron
