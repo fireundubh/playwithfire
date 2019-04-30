@@ -20,6 +20,11 @@ Corsair Container | Narrow Sea Raider | Sunspear Set
 Homeward Copper Bell | Narrow Sea Raider | Sunspear Set
 Carved Blanket | Narrow Sea Raider | Sunspear Set
 Slave Shackles | Narrow Sea Raider | Sunspear Set
+Pentos Linen | Narrow Sea Raider | Sunspear Set
+Ancient Hull | Greenblood Warrior | Sunspear Set
+Oak Wine Cup | Greenblood Warrior | Sunspear Set
+Pole | Greenblood Warrior | Sunspear Set
+Pentos Linen | Greenblood Warrior | Sunspear Set
 Frost Page | Northern Rebel | Frost Set
 Forged Decree | Northern Rebel | Frost Set
 Footless Wine Cup | Northern Rebel | Frost Set
