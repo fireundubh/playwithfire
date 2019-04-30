@@ -1,6 +1,34 @@
 <!-- TITLE: Materials -->
 
-# Materials
+# Builder Set
+## Source: Crownlands Rioter
+
+* Broken Hammer
+* Craftsman Tool Bag
+* Drunkard Wineskin
+* Lead Dice
+* White Candle
+
+## Source: Westerlands Ore Thief
+
+* Beech Torch
+* Miner Sketch
+* Poplar Bark
+* Rift Pottery Bowl
+* Sheepskin Sleeping Mat
+
+
+# Champion Set
+# Frost Set
+# Glorious Set
+# Huntsman Set
+# Maester Set
+# Mountain Clan Set
+# Oath Set
+# Rebel's End Set
+# Storm's Rage Set
+# Sunspear Set
+
 Item | Source | Set
 :--- | :--- | :---
 Jute | Grain | Champion Set
