@@ -1,6 +1,19 @@
 <!-- TITLE: Expeditions -->
 
 # Leaders
+## Shared Inventory
+
+* Random Transfer
+* Precise Transfer
+* 8h Truce
+* 24h Truce
+* 8h Immediate Curfew
+* 24h Immediate Curfew
+* 8h Protection Order
+* 24h Protection Order
+* 100 VIP Points
+* 500 VIP Points
+
 ## Speed Ups Progression
 
 Level | Items | Qty
