@@ -23,7 +23,7 @@ Level | Items
 4 | 15h Speed Up<br>15h Speed Up (Research)<br>15h Speed Up (Training)
 5 | 24h Speed Up<br>24h Speed Up (Research)<br>24h Speed Up (Training)
 
-## Shared Inventory
+## Common Loot
 
 * Random Transfer
 * Precise Transfer
