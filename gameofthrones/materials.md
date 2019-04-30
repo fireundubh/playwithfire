@@ -18,7 +18,7 @@
 # Champion Set
 ## Source: Grain
 * Jute
-* 
+
 ## Source: Iron
 * Corundum
 
