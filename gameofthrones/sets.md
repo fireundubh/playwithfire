@@ -17,8 +17,16 @@
 * Rift Pottery Bowl
 * Sheepskin Sleeping Mat
 
-
 # Champion Set
+## Source: Gathering
+
+Item | Source
+:--- | :---
+Jute | Grain
+Corundum | Iron
+Cobblestone | Stone
+Poplar Branch | Wood
+
 # Frost Set
 # Glorious Set
 # Huntsman Set
