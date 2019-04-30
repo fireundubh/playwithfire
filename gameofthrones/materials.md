@@ -11,6 +11,11 @@ Ivory Gold-Plated Cup | Stormlands Insurgent | Storm's Rage Set
 Stormlands Drawing | Stormlands Insurgent | Storm's Rage Set
 Flagpole | Stormlands Insurgent | Storm's Rage Set
 Rider Saddle | Stormlands Insurgent | Storm's Rage Set
+Horseshoe Nail | Stormlands Insurgent | Storm's Rage Set
+Beast Biter | Black Ears | Storm's Rage Set
+Black Ears Chain | Black Ears | Storm's Rage Set
+Mountain Clan Coat | Black Ears | Storm's Rage Set
+House Blood | Black Ears | Storm's Rage Set
 Corsair Container | Narrow Sea Raider | Sunspear Set
 Homeward Copper Bell | Narrow Sea Raider | Sunspear Set
 Carved Blanket | Narrow Sea Raider | Sunspear Set
