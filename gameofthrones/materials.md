@@ -68,3 +68,8 @@ Gold Paint | Hedge Knight | Oath Set
 Green Velvet | Hedge Knight | Oath Set
 Rose Accessory | Hedge Knight | Oath Set
 Horseshoe | Hedge Knight | Oath Set
+Red Copper | Rebel Group | Rebel's End Set
+Thin Rope | Rebel Group | Rebel's End Set
+Iron Buckle | Rebel Group | Rebel's End Set
+Iron Ingot | Rebel Group | Rebel's End Set
+Blah | Rebel Group | Rebel's End Set
