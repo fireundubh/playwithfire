@@ -3,25 +3,15 @@
 # Leaders
 Loot is randomly generated from the items below.
 
-## Diamond Progression
+## Progression Loot
 
-Level | Qty
-:--- | :---
-1 | 100
-2 | 150
-3 | 200
-4 | 500
-5 | 500
-
-## Speed Ups Progression
-
-Level | Items
-:--- | :---
-1 | 10m Speed Up<br>10m Speed Up (Research)<br>10m Speed Up (Training)
-2 | 60m Speed Up<br>60m Speed Up (Research)<br>60m Speed Up (Training)
-3 | 8h Speed Up<br>8h Speed Up (Research)<br>8h Speed Up (Training)
-4 | 15h Speed Up<br>15h Speed Up (Research)<br>15h Speed Up (Training)
-5 | 24h Speed Up<br>24h Speed Up (Research)<br>24h Speed Up (Training)
+Level | Diamonds | Speed Ups
+:--- | :--- | :---
+1 | 100 | 10m Speed Up<br>10m Speed Up (Research)<br>10m Speed Up (Training)
+2 | 150 | 60m Speed Up<br>60m Speed Up (Research)<br>60m Speed Up (Training)
+3 | 200 | 8h Speed Up<br>8h Speed Up (Research)<br>8h Speed Up (Training)
+4 | 500 | 15h Speed Up<br>15h Speed Up (Research)<br>15h Speed Up (Training)
+5 | 500 | 24h Speed Up<br>24h Speed Up (Research)<br>24h Speed Up (Training)
 
 ## Common Loot
 
