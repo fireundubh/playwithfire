@@ -16,13 +16,17 @@
 * Sheepskin Sleeping Mat
 
 # Champion Set
-## Source: Gathering
-Item | Gathering Site
-:--- | :---
-Jute | Grain
-Corundum | Iron
-Cobblestone | Stone
-Poplar Branch | Wood
+## Source: Grain
+* Jute
+* 
+## Source: Iron
+* Corundum
+
+## Source: Stone
+* Cobblestone
+
+## Source: Wood
+* Poplar Branch
 
 # Frost Set
 ## Source: Northern Rebel
