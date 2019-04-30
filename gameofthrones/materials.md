@@ -1,5 +1,18 @@
 <!-- TITLE: Materials -->
 
+# Sources
+Set | Source
+:--- | :---
+Builder Set | Crownlands Rioter<br>Westerlands Ore Thief
+Champion Set | Grain<br>Iron<br>Stone<br>Wood
+Frost Set | Northern Rebel
+Glorious Set | Events
+Huntsman Set | Riverlands Poacher
+Maester Set | Oldtown Student
+Oath Set | Hedge Knight<br>Stone Way Claimant
+Rebel's End Set | Rebel Group
+Storm's Rage Set | Black Ears<br>Stormlands Insurgent
+Sunspear Set | Greenblood Warrior<br>Narrow Sea Raider
 # Builder Set
 ## Source: Crownlands Rioter
 * Broken Hammer
