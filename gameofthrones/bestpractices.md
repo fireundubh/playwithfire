@@ -1,6 +1,12 @@
 <!-- TITLE: Best Practices -->
 
 # Best Practices
+## Priorities
+
+1. Focus on research above everything else. In the early game when you have only the Infantry-Cavalry formation, research upgrades for infantry and cavalry. Infantry and Cavalry will take heavy losses otherwise.
+2. Build Hospitals to increase your wounded limit. Your wounded limit should be above or equal to your troop size to reduce troop deaths.
+3. Always be training troops and constructing fortifications.
+
 ## Commanders
 
 ### Recommended Configurations
