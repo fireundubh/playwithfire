@@ -6,7 +6,7 @@
 ### Recommended Configurations
 
 Tier | Frontline 1 | Frontline 2 | Frontline 3 | Backline 1 | Backline 2 | Backline 3
-:--- | :--- | :--- | :--- | :--- | :---
+:--- | :--- | :--- | :--- | :--- | :--- | :---
 1 | Kevin | Chris | Gorell | Theon | Soren | Sheila
 
 ## Economy
