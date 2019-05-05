@@ -36,7 +36,8 @@ Yes | 5 | Chris (free) | Kevin | Rob Stark (free) | Daenerys | Gorell (free) | A
 - Focus on training 60-80% Bowmen and 20% Spearmen. Bowmen and Spearmen are the most powerful combination in the game.
 - Focus on researching Tier 3 (Elite) troops. Start with Bowmen, then Spearmen, then Infantry, then Cavalry.
 - Do not research Tier 4 (Royal) until you have nothing else to research. Tier 4 takes a long, long time to research.
-- Research Spying 9 as soon as possible.
+- In the early game, research Spying 9 as soon as possible to improve your Scouting Reports.
+- Upgrade your Rookery to 17 as soon as possible to provide you with the most information about the battlefield and incoming attacks.
 
 ## Rallies/Raids
 
