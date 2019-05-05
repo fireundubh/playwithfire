@@ -8,6 +8,10 @@
 Requires Black Diamonds | Tier | Frontline 1 | Frontline 2 | Frontline 3 | Backline 1 | Backline 2 | Backline 3
 :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
 Yes | 1 | Kevin | Chris | Gorell | Theon | Soren | Sheila
+Yes | 2 | Kevin | Chris | Gorell | Arya | Melissandra | Soren
+Yes | 3 | Rob Stark | Chris | Kevin | Sheila | Melissandra | Arya
+Yes | 4 | Chris | Kevin | Gorell | Sansa Stark | Theon | Arya
+Yes | 5 | Chris | Kevin | Rob Stark | Daenerys | Gorell | Arya
 
 ## Economy
 
