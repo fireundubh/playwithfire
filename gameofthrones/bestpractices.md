@@ -33,8 +33,12 @@ Yes | 5 | Chris (free) | Kevin | Rob Stark (free) | Daenerys | Gorell (free) | A
 
 ## Military
 
-- Focus on training Bowmen and Spearmen. Bowmen and Spearmen are the most powerful combination in the game.
-- 
+- Focus on training 60-80% Bowmen and 20% Spearmen. Bowmen and Spearmen are the most powerful combination in the game.
+- Focus on researching Tier 3 (Elite) troops. Start with Bowmen, then Spearmen, then Infantry, then Cavalry.
+- Do not research Tier 4 (Royal) until you have nothing else to research. Tier 4 takes a long, long time to research.
 
 ## Rallies/Raids
 
+- Do not start or join rallies against Rebel Camps without scouting first.
+- Do not start or join rallies against Rebel Camps immediately before Castle Sieges. Your alliance needs you to be ready.
+- Always share Scouting Reports with your Alliance.
