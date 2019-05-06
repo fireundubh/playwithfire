@@ -42,7 +42,7 @@ Wood | 5,000 | Lumberyard
 Stone | 5,000 | Quarry
 Grain | 10,000 | Farm
 
-You can complete some number of these activities in parallel within minutes depending on your Castle level. 
+You can complete some number of these activities in parallel within minutes depending on your Castle level.
 
 ## Military
 
