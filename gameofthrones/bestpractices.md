@@ -31,6 +31,19 @@ Yes | 5 | Chris (free) | Kevin | Rob Stark (free) | Daenerys | Gorell (free) | A
 - Build Mints to generate Gold Dragons and increase training speed.
 - Build Mines to generate Iron. Iron resources are less abundant in the late game. 
 
+### Gathering
+
+Complete daily gathering activities by dispatching just enough Cavalry to collect the following:
+
+Resource | Qty | Source
+:--- | :--- | :---
+Gold Dragons | 2,000 | Mint
+Wood | 5,000 | Lumberyard
+Stone | 5,000 | Quarry
+Grain | 10,000 | Farm
+
+You can complete some number of these activities in parallel within minutes depending on your Castle level. 
+
 ## Military
 
 - Focus on training 60-80% Bowmen and 20% Spearmen. Bowmen and Spearmen are the most powerful combination in the game.
