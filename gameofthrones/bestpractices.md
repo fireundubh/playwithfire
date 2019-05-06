@@ -35,12 +35,12 @@ Yes | 5 | Chris (free) | Kevin | Rob Stark (free) | Daenerys | Gorell (free) | A
 
 Complete daily gathering activities by dispatching just enough Cavalry to collect the following:
 
-Resource | Qty | Source
-:--- | :--- | :---
-Gold Dragons | 2,000 | Mint
-Wood | 5,000 | Lumberyard
-Stone | 5,000 | Quarry
-Grain | 10,000 | Farm
+Resource | Qty | Source | Rewards
+:--- | :--- | :--- | :---
+Gold Dragons | 2,000 | Mint | 1x 10 mins Speed Up, 1x 5 mins Speed Up (Heal), points toward reward chest/wheel
+Wood | 5,000 | Lumberyard | 1x 10 mins Speed Up, 1x 5 mins Speed Up (Heal), points toward reward chest/wheel
+Stone | 5,000 | Quarry | 1x 10 mins Speed Up, 1x 5 mins Speed Up (Heal), points toward reward chest/wheel
+Grain | 10,000 | Farm | 1x 10 mins Speed Up, 1x 5 mins Speed Up (Heal), points toward reward chest/wheel
 
 You can complete some number of these activities in parallel within minutes depending on your Castle level.
 
