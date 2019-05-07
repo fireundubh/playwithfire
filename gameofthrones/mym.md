@@ -1,4 +1,4 @@
-<!-- TITLE: Mym -->
+<!-- TITLE: MYM -->
 
 # MeetYourMaker [MYM]
 ## Known Spies
