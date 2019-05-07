@@ -3,6 +3,8 @@
 # MeetYourMaker [MYM]
 ## Member List
 
+Last updated: 6 May 2019 @ 10:45 PM (UTC-8)
+
 Member | Rank | Comments
 :--- | :--- | :---
 Thrasherr | 5. Duke | 
