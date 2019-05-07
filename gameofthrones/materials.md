@@ -5,7 +5,7 @@ Set | Source
 :--- | :---
 Builder Set | Crownlands Rioter<br>Westerlands Ore Thief
 Champion Set | Grain<br>Iron<br>Stone<br>Wood
-Frost Set | Northern Rebel
+Frost Set | Bolton's Boy<br>Northern Rebel
 Glorious Set | Events
 Huntsman Set | Riverlands Poacher
 Maester Set | Oldtown Student
@@ -15,15 +15,6 @@ Storm's Rage Set | Black Ears<br>Stormlands Insurgent
 Sunspear Set | Greenblood Warrior<br>Narrow Sea Raider
 
 # Sets
-## Unsorted
-### Source: Bolton's Boy
-
-* Skinning Dagger
-* Marble Whale Oil Bowl
-* Broken Belt
-* Skinner Signet
-* Repairman Tool Bag
-
 ## Builder Set
 ### Source: Crownlands Rioter
 
@@ -51,6 +42,14 @@ Cobblestone | Stone
 Poplar Branch | Wood
 
 ## Frost Set
+### Source: Bolton's Boy
+
+* Skinning Dagger
+* Marble Whale Oil Bowl
+* Broken Belt
+* Skinner Signet
+* Repairman Tool Bag
+
 ### Source: Northern Rebel
 
 * Footless Wine Cup
