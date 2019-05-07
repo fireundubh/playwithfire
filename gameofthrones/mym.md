@@ -3,9 +3,7 @@
 # MeetYourMaker [MYM]
 ## Known Spies
 
-Member | Rank | Comments
-:--- | :--- | :---
-DIIRTY DAZ | | Joined pretending to be a former OTH member
+None so far.
 
 ## Member List
 
