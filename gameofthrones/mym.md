@@ -1,6 +1,12 @@
 <!-- TITLE: Mym -->
 
 # MeetYourMaker [MYM]
+## Known Spies
+
+Member | Rank | Comments
+:--- | :--- | :---
+DIIRTY DAZ | | Joined pretending to be a former OTH member
+
 ## Member List
 
 Last updated: 6 May 2019 @ 10:45 PM (UTC-8)
