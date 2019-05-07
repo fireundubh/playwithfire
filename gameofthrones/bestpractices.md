@@ -38,6 +38,7 @@ Complete daily gathering activities by dispatching just enough Cavalry to collec
 Resource | Qty | Source | Rewards
 :--- | :--- | :--- | :---
 Gold Dragons | 2,000 | Mint | 1x 10 mins Speed Up, 1x 5 mins Speed Up (Heal), points toward reward chest/wheel
+Iron | 5,000 | Mine | 1x 10 mins Speed Up, 1x 5 mins Speed Up (Heal), points toward reward chest/wheel
 Wood | 5,000 | Lumberyard | 1x 10 mins Speed Up, 1x 5 mins Speed Up (Heal), points toward reward chest/wheel
 Stone | 5,000 | Quarry | 1x 10 mins Speed Up, 1x 5 mins Speed Up (Heal), points toward reward chest/wheel
 Grain | 10,000 | Farm | 1x 10 mins Speed Up, 1x 5 mins Speed Up (Heal), points toward reward chest/wheel
