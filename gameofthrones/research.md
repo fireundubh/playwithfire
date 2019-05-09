@@ -5,7 +5,7 @@
 
 Level | Effect | Requirements | Grain | Wood | Stone | Iron | Gold Dragons
 :--- | :--- | :--- | :--- | ---: | ---: | ---: | ---:
-1 | +1% |
+1 | +1% Construction Speed |
 2 | +3% |
 3 | +6% |
 4 | +10% |
