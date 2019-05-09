@@ -3,7 +3,7 @@
 # Production
 ## Building Mastery
 
-Increases Construction Speed
+> Increases Construction Speed
 
 Level | Effect | Power | Requirements
 :--- | :--- | :--- | :--- | :---
