@@ -9,4 +9,5 @@
 
 * [Materials](gameofthrones/materials)
 * [Expeditions](gameofthrones/expeditions)
+* [Research](gameofthrones/research)
 
