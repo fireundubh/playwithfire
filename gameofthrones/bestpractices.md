@@ -58,3 +58,4 @@ You can complete some number of these activities in parallel within minutes depe
 - Do not start or join rallies against Rebel Camps without scouting first.
 - Do not start or join rallies against Rebel Camps immediately before Castle Sieges. Your alliance needs you to be ready.
 - Always share Scouting Reports with your Alliance.
+- Always manage your rallies by sending Tier 1 (Light) troops home, by sending distant armies home, and by sending any armies home when requested by their Lords.
