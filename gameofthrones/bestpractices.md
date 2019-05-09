@@ -9,7 +9,7 @@
 
 ## Alliance Gifts
 
-1. At VIP Level 8, you can quickly claim all alliance gifts.
+1. At VIP Level 8, you can quickly claim all alliance gifts. You should aim for VIP Level 9.
 2. Alternatively, you can use [X-Mouse Button Control](https://www.highrez.co.uk/downloads/xmousebuttoncontrol.htm) to [rebind a mouse button](https://i.imgur.com/hv5Cj2I.jpg) to rapidly accept and delete gifts.
 
 ## Alliance Shop / Diamond Shop
