@@ -7,6 +7,11 @@
 2. Build Hospitals to increase your wounded limit. Your wounded limit should be above or equal to your troop size to reduce troop deaths.
 3. Always be training troops and constructing fortifications.
 
+## Alliance Shop / Diamond Shop
+
+1. The only item worth buying in the Alliance Shop is the Talent Archive. The Talent Archive allows you to save and restore your talent configurations.
+2. You can buy Precise Transfer scrolls from the Diamond Shop for 1,500 Diamonds. You will need at least 3 scrolls for sieges.
+
 ## Commanders
 
 ### Recommended Configurations
