@@ -25,6 +25,13 @@ Yes | 5 | Chris (free) | Kevin | Rob Stark (free) | Daenerys | Gorell (free) | A
 2. Promote commanders to improve skills and increase commander power.
 3. Level up commanders to satisfy item requirements. Leveling has no other benefits.
 
+### Weirwood
+
+1. Blitzing battles allows you to collect items for upgrading and promoting commanders.
+2. To unlock battles for blitzes, you must get three stars on those battles, and to do that, you need to win the battle with all commanders alive.
+3. You will likely not be able to achieve three stars for the first time on some battles, but you can always go back and try again when your commanders are more powerful.
+4. When you are more powerful, try to get three stars on every battle in a chapter. This will unlock three reward chests for each chapter, which provide Diamonds and Spirits of Weirwood Tree.
+
 ## Economy
 
 - Build only one Farm, one Lumberyard, and one Quarry. Grain, Wood, and Stones are more than plentiful.
