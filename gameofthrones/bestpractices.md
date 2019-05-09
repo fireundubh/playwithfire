@@ -7,6 +7,11 @@
 2. Build Hospitals to increase your wounded limit. Your wounded limit should be above or equal to your troop size to reduce troop deaths.
 3. Always be training troops and constructing fortifications.
 
+## Alliance Gifts
+
+1. At VIP Level 8, you can quickly claim all alliance gifts.
+2. Alternatively, you can use [X-Mouse Button Control](https://www.highrez.co.uk/downloads/xmousebuttoncontrol.htm) to [rebind a mouse button](https://i.imgur.com/hv5Cj2I.jpg) to rapidly accept and delete gifts.
+
 ## Alliance Shop / Diamond Shop
 
 1. The only item worth buying in the Alliance Shop is the Talent Archive. The Talent Archive allows you to save and restore your talent configurations.
