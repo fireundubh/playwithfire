@@ -4,7 +4,7 @@
 ## Building Mastery
 
 Level | Effect | Requirements | Grain | Wood | Stone | Iron | Gold Dragons
-:--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
+:--- | :--- | :--- | :--- | ---: | ---: | ---: | ---:
 1 | +1% |
 2 | +3% |
 3 | +6% |
