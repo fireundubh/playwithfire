@@ -20,7 +20,7 @@ Level | Effect | Power | Requirements
 
 ## Storehouse Management
 
-Increases Resource Protected Limit
+> Increases Resource Protected Limit
 
 Level | Effect | Power | Requirements
 :--- | :--- | :--- | :--- | :---
@@ -37,7 +37,7 @@ Level | Effect | Power | Requirements
 
 ## Transport Upgrade
 
-Increases Carrying Capacity
+> Increases Carrying Capacity
 
 Level | Effect | Power | Requirements
 :--- | :--- | :--- | :--- | :---
