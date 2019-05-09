@@ -64,11 +64,19 @@ You can complete some number of these activities in parallel within minutes depe
 
 ## Military
 
+### Building, Research & Training
+
 - Focus on training 60-80% Bowmen and 20% Spearmen. Bowmen and Spearmen are the most powerful combination in the game.
 - Focus on researching Tier 3 (Elite) troops. Start with Bowmen, then Spearmen, then Infantry, then Cavalry.
 - Do not research Tier 4 (Royal) until you have nothing else to research. Tier 4 takes a long, long time to research.
 - In the early game, research Spying 9 as soon as possible to increase the amount of detail in your Scouting Reports.
 - Upgrade your Rookery to 17 as soon as possible to provide you with the most information about the battlefield and incoming attacks.
+
+### Castle Defense
+
+- Anti-infantry and anti-cavalry fortifications are powerful while everyone is locked into the Infantry-Cavalry formation.
+- Fortifications are only effective while your Wall durability is greater than zero.
+- For castle defense, focus on researching improvements to wall durability.
 
 ### Decoys
 
