@@ -69,7 +69,7 @@ You can complete some number of these activities in parallel within minutes depe
 
 You can rapidly attack enemy players with multiple deployments of 1 Cavalry unit. These decoys are useful for two reasons:
 
-- Cavalry units travel faster than other units, so they will reach the destination quickly.
+- Cavalry units travel faster than other units, so they will reach the destination quickly. Scouts are much faster but more expensive, and they cannot die.
 - Enemy players who have sheltered their troops are unlikely to recall their troops due to the constant attack pressure.
 - Enemy players who have not upgraded their Rookery cannot see the number of units in your deployments.
 - If the enemy player recalls their troops from the shelter, you will lose a single Cavalry unit and receive a notification your army was annihilated.
