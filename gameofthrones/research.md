@@ -3,15 +3,51 @@
 # Production
 ## Building Mastery
 
-Level | Effect | Requirements | Grain | Wood | Stone | Iron | Gold Dragons
-:--- | :--- | :--- | :--- | ---: | ---: | ---: | ---:
-1 | +1% Construction Speed |
-2 | +3% Construction Speed |
-3 | +6% Construction Speed |
-4 | +10% Construction Speed |
-5 | +15% Construction Speed |
-6 | +21% Construction Speed |
-7 | +28% Construction Speed<br>+43,608 Power | Tactical Planning I | 475.71K | 951.43K | 594.64K | 356.79K | 1.32M
-8 | +35% Construction Speed |
-9 | +42% Construction Speed |
-10 | +50% Construction Speed |
+Increases Construction Speed
+
+Level | Effect | Power | Requirements
+:--- | :--- | :--- | :--- | :---
+1 | +1% |
+2 | +3% |
+3 | +6% |
+4 | +10% |
+5 | +15% |
+6 | +21% |
+7 | +28% | +43,608 | Tactical Planning I 
+8 | +35% |
+9 | +42% |
+10 | +50% |
+
+## Storehouse Management
+
+Increases Resource Protected Limit
+
+Level | Effect | Power | Requirements
+:--- | :--- | :--- | :--- | :---
+1 | +1% |
+2 | +3% |
+3 | +6% |
+4 | +10% |
+5 | +15% |
+6 | +21% | +5,087 | Tactical Planning I
+7 | +28% |
+8 | +37% |
+9 | +48% |
+10 | +70% |
+
+## Transport Upgrade
+
+Increases Carrying Capacity
+
+Level | Effect | Power | Requirements
+:--- | :--- | :--- | :--- | :---
+1 | +1% |
+2 | +3% |
+3 | +6% |
+4 | +10% |
+5 | +15% |
+6 | +21% | +8,721 | Tactical Planning I
+7 | +28% |
+8 | +37% |
+9 | +48% |
+10 | +70% |
