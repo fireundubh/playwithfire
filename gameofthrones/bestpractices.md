@@ -62,8 +62,20 @@ You can complete some number of these activities in parallel within minutes depe
 - Focus on training 60-80% Bowmen and 20% Spearmen. Bowmen and Spearmen are the most powerful combination in the game.
 - Focus on researching Tier 3 (Elite) troops. Start with Bowmen, then Spearmen, then Infantry, then Cavalry.
 - Do not research Tier 4 (Royal) until you have nothing else to research. Tier 4 takes a long, long time to research.
-- In the early game, research Spying 9 as soon as possible to improve your Scouting Reports.
+- In the early game, research Spying 9 as soon as possible to increase the amount of detail in your Scouting Reports.
 - Upgrade your Rookery to 17 as soon as possible to provide you with the most information about the battlefield and incoming attacks.
+
+### Decoys
+
+You can rapidly attack enemy players with multiple deployments of 1 Cavalry unit. These decoys are useful for two reasons:
+
+- Cavalry units travel faster than other units, so they will reach the destination quickly.
+- Enemy players who have sheltered their troops are unlikely to recall their troops due to the constant attack pressure.
+- Enemy players who have not upgraded their Rookery cannot see the number of units in your deployments.
+- If the enemy player recalls their troops from the shelter, you will lose a single Cavalry unit and receive a notification your army was annihilated.
+- When the enemy player catches on to your ruse, you can surprise them with a full attack.
+
+You can also use decoys to bait enemy players into attacking you so that your allies can destroy their walls, capture their lord, and/or raid their resources.
 
 ## Rallies/Raids
 
