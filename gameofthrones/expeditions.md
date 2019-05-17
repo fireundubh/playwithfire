@@ -2,7 +2,7 @@
 
 # Expeditions
 
-Expeditions to attack rebel leaders rewards common loot, progression loot, and [set materials](/gameofthrones/materials).
+Expeditions to attack rebel leaders reward common loot, progression loot, and [set materials](/gameofthrones/materials).
 
 ## Rotation
 
