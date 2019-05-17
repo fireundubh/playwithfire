@@ -64,7 +64,6 @@ Grain | 10,000 | Farm | 1x 10 mins Speed Up, 1x 5 mins Speed Up (Heal), points t
 You can complete some number of these activities in parallel within minutes depending on your Castle level.
 
 ## Military
-
 ### Building, Research & Training
 
 - Focus on training 60-80% Bowmen and 20% Spearmen. Bowmen and Spearmen are the most powerful combination in the game.
@@ -90,6 +89,10 @@ You can rapidly attack enemy players with multiple deployments of 1 Cavalry unit
 - When the enemy player catches on to your ruse, you can surprise them with a full attack.
 
 You can also use decoys to bait enemy players into attacking you so that your allies can destroy their walls, capture their lord, and/or raid their resources.
+
+### Siege Positioning
+
+Do not teleport to Great City Special Area tiles unless you can afford to keep a significant army at your city. If you are attacked in a Great City Special Area and you are defeated, your city will be randomly teleported somewhere on the map and you will have to use another Precise Transfer to get back to the fight.
 
 ## Rallies/Raids
 
