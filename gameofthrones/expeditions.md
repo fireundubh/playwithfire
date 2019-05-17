@@ -1,6 +1,8 @@
 <!-- TITLE: Expeditions -->
 
-# Rotation
+# Expeditions
+
+## Rotation
 
 Day | Rebel Leader 1 | Rebel Leader 2
 :--- | :--- | :---
@@ -17,10 +19,10 @@ Day | Rebel Leader 1 | Rebel Leader 2
 11 | Westerlands Ore Thief | Narrow Sea Raider
 12 | Narrow Sea Raider | Northern Rebel
 
-# Loot
+## Loot
 Loot is randomly generated from the items below.
 
-## Common Loot
+### Common Loot
 
 * Random Transfer
 * Precise Transfer
@@ -33,7 +35,7 @@ Loot is randomly generated from the items below.
 * 100 VIP Points
 * 500 VIP Points
 
-## Progression Loot
+### Progression Loot
 
 Level | Diamonds | Speed Ups
 :--- | :--- | :---
