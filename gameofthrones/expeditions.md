@@ -2,22 +2,24 @@
 
 # Expeditions
 
+Expeditions to attack rebel leaders rewards common loot, progression loot, and [set materials](/gameofthrones/materials).
+
 ## Rotation
 
 Day | Rebel Leader 1 | Rebel Leader 2
 :--- | :--- | :---
-1 | Northern Rebel | Hedge Knight
-2 | Hedge Knight | Bolton’s Boy
-3 | Bolton’s Boy | Stormlands Insurgent
-4 | Stormlands Insurgent | Crownlands Rioter
-5 | Crownlands Rioter | Riverlands Poacher
-6 | Riverlands Poacher | Old Town Student
-7 | Old Town Student | Black Ears
-8 | Black Ears | Greenblood Warrior
-9 | Greenblood Warrior | Stoneway Claimant
-10 | Stoneway Claimant | Westerlands ore Thief
-11 | Westerlands Ore Thief | Narrow Sea Raider
-12 | Narrow Sea Raider | Northern Rebel
+1 | Northern Rebel (Frost Set) | Hedge Knight (Oath Set)
+2 | Hedge Knight (Oath Set) | Bolton's Boy (Frost Set)
+3 | Bolton’s Boy (Frost Set) | Stormlands Insurgent (Storm's Rage Set)
+4 | Stormlands Insurgent (Storm's Rage Set) | Crownlands Rioter (Builder Set)
+5 | Crownlands Rioter (Builder Set) | Riverlands Poacher (Huntsman Set)
+6 | Riverlands Poacher (Huntsman Set) | Old Town Student (Maester Set)
+7 | Old Town Student (Maester Set) | Black Ears (Storm's Rage Set)
+8 | Black Ears (Storm's Rage Set) | Greenblood Warrior (Sunspear Set)
+9 | Greenblood Warrior (Sunspear Set) | Stoneway Claimant (Oath Set)
+10 | Stoneway Claimant (Oath Set) | Westerlands Ore Thief (Builder Set)
+11 | Westerlands Ore Thief (Builder Set) | Narrow Sea Raider (Sunspear Set)
+12 | Narrow Sea Raider (Sunspear Set) | Northern Rebel (Frost Set)
 
 ## Loot
 Loot is randomly generated from the items below.
