@@ -13,6 +13,7 @@ Attribute | Meet Your Maker | 7 Deadly Sins
 **Alliance Leadership** | Strong; community-oriented; fun | Weak; abdicates responsibilities to "inner circle"; makes the game feel like a job you never wanted
 **Siege Leadership** | Collaborative; fun | Hierarchical, unable to adapt, and inexperienced
 **King's Landing** | Won handily; offers buffs to other alliances | Lost badly; never offered buffs to other alliances
+**Rallies** | Frequent; all Rebel Camp levels allowed; T2 and T3 allowed; will use Race Boots to make sure everyone can participate | Rare; T3 only; only Lv. 5 Rebel Camps; sending T1 or T2 troops will get you kicked
 **Discord** | Yes; not required for membership | Yes; absolutely required for membership
 
 ## Priorities
