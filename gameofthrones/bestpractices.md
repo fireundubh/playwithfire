@@ -9,7 +9,7 @@ Attribute | Meet Your Maker | 7 Deadly Sins
 ---: | :--- | :---
 **Culture** | Friendly, casual, and relaxed | Bureaucratic, cold, and paranoid about spies
 **Politics** | None | Only members of the "inner circle" matter; power trips; constant infighting; drama
-**Roleplay** | None | Encouraged; all leadership messages are written in Olde English
+**Roleplay** | None | Encouraged; all leadership messages are written in Olde English (translated from German)
 **Alliance Leadership** | Strong; community-oriented; fun | Weak; abdicates responsibilities to "inner circle"
 **Siege Leadership** | Collaborative; fun | Hierarchical, unable to adapt, and inexperienced
 **King's Landing** | Won handily; offers buffs to other alliances | Lost badly; never offered buffs to other alliances
