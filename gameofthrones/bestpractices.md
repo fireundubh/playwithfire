@@ -14,6 +14,7 @@ Attribute | Meet Your Maker | 7 Deadly Sins
 **Siege Leadership** | Collaborative; fun | Hierarchical, unable to adapt, and inexperienced
 **King's Landing** | Won handily; offers buffs to other alliances | Lost badly; never offered buffs to other alliances
 **Rallies** | <ul><li>Frequent<li>All Rebel Camp levels allowed<li>T2 and T3 allowed<li>Will use Race Boots to make sure everyone can participate</ul> | <ul><li>Rare<li>Only Lv. 5 Rebel Camps allowed<li>T3 only<li>Sending T1 or T2 troops will get you kicked</ul>
+**Attack Response** | Will immediately respond to attacks, including garrisoning and reinforcing | What attack response?
 **Captured Lords** | Will rescue captured lords | Does not bother, care, or try
 **Discord** | Yes, but not required for membership | <ul><li>Yes, but absolutely required for membership<li>Not "liking" announcements will get you kicked</ul>
 
