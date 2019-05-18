@@ -11,7 +11,7 @@ Attribute | Meet Your Maker | 7 Deadly Sins
 **Politics** | None | Only members of the "inner circle" matter; power trips; constant infighting; drama
 **Roleplay** | None | Encouraged; all leadership messages are written in Olde English
 **Alliance Leadership** | Strong; community-oriented | Weak; abdicates responsibilities to "inner circle"
-**Siege Leadership** | Collaborative | Hierarchical, nonadaptive
+**Siege Leadership** | Collaborative | Hierarchical, unable to adapt, and inexperienced
 **King's Landing** | Won handily; offers buffs to other alliances | Lost badly; never offered buffs to other alliances
 **Discord** | Yes; not required for membership | Yes; absolutely required for membership
 
