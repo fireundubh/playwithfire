@@ -1,6 +1,20 @@
 <!-- TITLE: Best Practices -->
 
 # Best Practices
+## Alliances
+
+If you're coming here from K17 and you're a member of 7 Deadly Sins, join Meet Your Maker! Here's how we're different:
+
+Attribute | Meet Your Maker | 7 Deadly Sins
+---: | :--- | :---
+**Culture** | Friendly, casual, and relaxed | Bureaucratic, cold, and paranoid about spies
+**Politics** | None | Only members of the "inner circle" matter; power trips; constant infighting; drama
+**King's Landing** | Won handily; offers buffs to other alliances | Lost badly; never offered buffs to other alliances
+**Roleplay** | None | Encouraged; all leadership messages are written in Olde English
+**Alliance Leadership** | Strong; community-oriented | Weak; abdicates responsibilities to "inner circle"
+**Siege Leadership** | Collaborative | Hierarchical, nonadaptive
+**Discord** | Yes; not required for membership | Yes; absolutely required for membership
+
 ## Priorities
 
 1. Focus on research above everything else. In the early game when you have only the Infantry-Cavalry formation, research upgrades for infantry and cavalry. Infantry and Cavalry will take heavy losses otherwise.
