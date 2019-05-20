@@ -1,23 +1,6 @@
 <!-- TITLE: Best Practices -->
 
 # Best Practices
-## Alliances
-
-If you're coming here from K17 and you're a member of 7 Deadly Sins, join Meet Your Maker! Here's how we're different:
-
-Attribute | Meet Your Maker | 7 Deadly Sins
----: | :--- | :---
-**Culture** | Friendly, casual, and relaxed | Bureaucratic, cold, and paranoid about spies
-**Politics** | None | Only members of the "inner circle" matter; power trips; constant infighting; drama
-**Roleplay** | None | Encouraged; all leadership messages are written in Olde English (translated from German)
-**Alliance Leadership** | Strong; community-oriented; fun | Weak; abdicates responsibilities to "inner circle"; makes the game feel like a job you never wanted
-**Siege Leadership** | Collaborative; fun | Hierarchical, unable to adapt, and inexperienced
-**King's Landing** | Won handily; offers buffs to other alliances | Lost badly; never offered buffs to other alliances
-**Rallies** | <ul><li>Frequent<li>All Rebel Camp levels allowed<li>T2 and T3 allowed<li>Will use Race Boots to make sure everyone can participate</ul> | <ul><li>Rare<li>Only Lv. 5 Rebel Camps allowed<li>T3 only<li>Sending T1 or T2 troops will get you kicked</ul>
-**Attack Response** | Will immediately respond to attacks, including garrisoning and reinforcing | None
-**Captured Lords** | Will rescue captured lords | Does not bother, care, or try
-**Discord** | Yes, but not required for membership | <ul><li>Yes, but absolutely required for membership<li>Not "liking" announcements will get you kicked</ul>
-
 ## Priorities
 
 1. Focus on research above everything else. In the early game when you have only the Infantry-Cavalry formation, research upgrades for infantry and cavalry. Infantry and Cavalry will take heavy losses otherwise.
