@@ -1,6 +1,6 @@
 <!-- TITLE: Thieves Guild -->
 
-# Thieves Guild
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Thieves Guild | 0 - Hair | Blackguard's Hood | 0402AD31
