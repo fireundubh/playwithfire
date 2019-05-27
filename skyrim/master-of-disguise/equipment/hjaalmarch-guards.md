@@ -1,6 +1,6 @@
 <!-- TITLE: Hjaalmarch Guards -->
 
-# Hjaalmarch Guards
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Guards - Hjaalmarch | 0 - Hair | Hjaalmarch Guard's Helmet | 0002161B
