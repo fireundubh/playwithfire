@@ -1,6 +1,6 @@
 <!-- TITLE: Solitude Guards -->
 
-# Solitude Guards
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Guards - Solitude | 0 - Hair | Solitude Guard's Helmet | 000C7F5C
