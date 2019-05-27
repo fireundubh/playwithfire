@@ -1,6 +1,6 @@
 <!-- TITLE: Companions -->
 
-# Companions
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Companions | 0 - Hair | Wolf Helmet | 0004C3D0
