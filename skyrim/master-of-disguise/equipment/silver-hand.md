@@ -1,6 +1,6 @@
 <!-- TITLE: Silver Hand -->
 
-# Silver Hand
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Silver Hand | 0 - Hair | Iron Helmet | 00012E4D
