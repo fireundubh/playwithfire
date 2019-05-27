@@ -145,6 +145,10 @@ Using the new SkyUI Mod Configuration Menu, the player can adjust nearly every a
 
 To wear most disguises, the player will need to equip faction armor in only the body slot. Some disguises have special base requirements. However, the disguise will be always more effective when complete.
 
+### Faction Equipment
+
+See: [Faction Equipment](/skyrim/master-of-disguise/equipment)
+
 ### Special Base Requirements
 
 * The player must wear the Ring of the Silver Hand to infiltrate the Silver Hand.
