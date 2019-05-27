@@ -1,6 +1,6 @@
 <!-- TITLE: Imperial Legion -->
 
-# Imperial Legion
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Imperial Legion | 0 - Hair | Imperial Helmet | 00013EDC
