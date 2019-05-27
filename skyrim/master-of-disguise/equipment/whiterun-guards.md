@@ -1,6 +1,6 @@
 <!-- TITLE: Whiterun Guards -->
 
-# Whiterun Guards
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Guards - Whiterun | 0 - Hair | Whiterun Guard's Helmet | 00021615
