@@ -1,6 +1,6 @@
 <!-- TITLE: Redoran Guards -->
 
-# Redoran Guards
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Guards - Redoran | 0 - Hair | Redoran Guard's Helmet | 06FF0105
