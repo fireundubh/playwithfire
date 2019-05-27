@@ -1,6 +1,6 @@
 <!-- TITLE: Morag Tong -->
 
-# Morag Tong
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Morag Tong | 0 - Hair | Morag Tong Hood | 040292AE
