@@ -1,6 +1,6 @@
 <!-- TITLE: Cultists -->
 
-# Cultists
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Cultists | 0 - Hair | Cultist Mask | 04037B88
