@@ -589,22 +589,6 @@ Vampires - Clan Volkihar | 5 - Feet | Vampire Boots | 0200B5DE
 Vampires - Clan Volkihar | 5 - Feet | Vampire Boots | 02019AE1
 Vampires - Clan Volkihar | 7 - Circlet | Vampire Hood | 02019ADE
 
-### Vigil of Stendarr
-
-Disguise | Slot | Item | Form ID
-:--- | :--- | :--- | :---
-Vigil of Stendarr | 0 - Hair | Novice Hood | 0010DD3A
-Vigil of Stendarr | 1 - Body | Novice Robes of Alteration | 0010D669
-Vigil of Stendarr | 1 - Body | Novice Robes of Restoration | 0010D66B
-Vigil of Stendarr | 2 - Hands | Steel Imperial Gauntlets | 000F6F23
-Vigil of Stendarr | 2 - Hands | Steel Nordic Gauntlets | 00013953
-Vigil of Stendarr | 2 - Hands | Steel Plate Gauntlets | 0001395D
-Vigil of Stendarr | 3 - Amulet | Vigilant's Amulet of Stendarr | 06FF0101
-Vigil of Stendarr | 5 - Feet | Steel Cuffed Boots | 00013951
-Vigil of Stendarr | 5 - Feet | Steel Plate Boots | 0001395B
-Vigil of Stendarr | 7 - Circlet | Novice Hood | 0010DD3A
-
-
 ## Special
 
 ### Daedric Influence
@@ -821,6 +805,21 @@ Silver Hand | 7 - Circlet | Iron Helmet | 00012E4D
 Silver Hand | 7 - Circlet | Steel Helmet | 00013954
 Silver Hand | 7 - Circlet | Steel Horned Helmet | 000F6F24
 Silver Hand | 7 - Circlet | Steel Plate Helmet | 0001395E
+
+### Vigil of Stendarr
+
+Disguise | Slot | Item | Form ID
+:--- | :--- | :--- | :---
+Vigil of Stendarr | 0 - Hair | Novice Hood | 0010DD3A
+Vigil of Stendarr | 1 - Body | Novice Robes of Alteration | 0010D669
+Vigil of Stendarr | 1 - Body | Novice Robes of Restoration | 0010D66B
+Vigil of Stendarr | 2 - Hands | Steel Imperial Gauntlets | 000F6F23
+Vigil of Stendarr | 2 - Hands | Steel Nordic Gauntlets | 00013953
+Vigil of Stendarr | 2 - Hands | Steel Plate Gauntlets | 0001395D
+Vigil of Stendarr | 3 - Amulet | Vigilant's Amulet of Stendarr | 06FF0101
+Vigil of Stendarr | 5 - Feet | Steel Cuffed Boots | 00013951
+Vigil of Stendarr | 5 - Feet | Steel Plate Boots | 0001395B
+Vigil of Stendarr | 7 - Circlet | Novice Hood | 0010DD3A
 
 ### Werewolves
 
