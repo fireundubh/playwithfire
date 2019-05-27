@@ -1,6 +1,8 @@
 <!-- TITLE: Faction Equipment -->
 
-# Faction Equipment
+# Equipment Details
+
+In the following pages, you'll find tables of supported faction equipment with item names, slots, and Form IDs.
 
 ## Skyrim
 
