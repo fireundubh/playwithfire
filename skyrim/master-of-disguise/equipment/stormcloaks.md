@@ -1,6 +1,6 @@
 <!-- TITLE: Stormcloaks -->
 
-# Stormcloaks
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Stormcloaks | 0 - Hair | Stormcloak Helmet | 000A6D79
