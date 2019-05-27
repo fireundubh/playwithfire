@@ -454,6 +454,21 @@ Vampires | 5 - Feet | Vampire Boots | 0200B5DE
 Vampires | 5 - Feet | Vampire Boots | 02019AE1
 Vampires | 7 - Circlet | Vampire Hood | 02019ADE
 
+## Vigil of Stendarr
+
+Disguise | Slot | Item | Form ID
+:--- | :--- | :--- | :---
+Vigil of Stendarr | 0 - Hair | Novice Hood | 0010DD3A
+Vigil of Stendarr | 1 - Body | Novice Robes of Alteration | 0010D669
+Vigil of Stendarr | 1 - Body | Novice Robes of Restoration | 0010D66B
+Vigil of Stendarr | 2 - Hands | Steel Imperial Gauntlets | 000F6F23
+Vigil of Stendarr | 2 - Hands | Steel Nordic Gauntlets | 00013953
+Vigil of Stendarr | 2 - Hands | Steel Plate Gauntlets | 0001395D
+Vigil of Stendarr | 3 - Amulet | Vigilant's Amulet of Stendarr | 06FF0101
+Vigil of Stendarr | 5 - Feet | Steel Cuffed Boots | 00013951
+Vigil of Stendarr | 5 - Feet | Steel Plate Boots | 0001395B
+Vigil of Stendarr | 7 - Circlet | Novice Hood | 0010DD3A
+
 # Dawnguard
 ## Dawnguard
 
@@ -592,7 +607,7 @@ Cultists | 7 - Circlet | Robes of Replenishing | 00109081
 Cultists | 7 - Circlet | Robes of Restoration | 00109065
 Cultists | 7 - Circlet | Robes of Resurgence | 00109080
 
-### Redoran Guards
+## Redoran Guards
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
@@ -604,9 +619,9 @@ Guards - Redoran | 5 - Feet | Bonemold Boots | 0401CD92
 Guards - Redoran | 6 - Shield | Redoran Guard's Shield | 06FF0106
 Guards - Redoran | 7 - Circlet | Redoran Guard's Helmet | 06FF0105
 
-## Special
+# Special Disguises
 
-### Daedric Influence
+## Daedric Influence
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
@@ -821,22 +836,7 @@ Silver Hand | 7 - Circlet | Steel Helmet | 00013954
 Silver Hand | 7 - Circlet | Steel Horned Helmet | 000F6F24
 Silver Hand | 7 - Circlet | Steel Plate Helmet | 0001395E
 
-### Vigil of Stendarr
-
-Disguise | Slot | Item | Form ID
-:--- | :--- | :--- | :---
-Vigil of Stendarr | 0 - Hair | Novice Hood | 0010DD3A
-Vigil of Stendarr | 1 - Body | Novice Robes of Alteration | 0010D669
-Vigil of Stendarr | 1 - Body | Novice Robes of Restoration | 0010D66B
-Vigil of Stendarr | 2 - Hands | Steel Imperial Gauntlets | 000F6F23
-Vigil of Stendarr | 2 - Hands | Steel Nordic Gauntlets | 00013953
-Vigil of Stendarr | 2 - Hands | Steel Plate Gauntlets | 0001395D
-Vigil of Stendarr | 3 - Amulet | Vigilant's Amulet of Stendarr | 06FF0101
-Vigil of Stendarr | 5 - Feet | Steel Cuffed Boots | 00013951
-Vigil of Stendarr | 5 - Feet | Steel Plate Boots | 0001395B
-Vigil of Stendarr | 7 - Circlet | Novice Hood | 0010DD3A
-
-### Werewolves
+## Werewolves
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
