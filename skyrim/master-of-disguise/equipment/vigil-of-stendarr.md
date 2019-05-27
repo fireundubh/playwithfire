@@ -1,6 +1,6 @@
 <!-- TITLE: Vigil of Stendarr -->
 
-# Vigil of Stendarr
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Vigil of Stendarr | 0 - Hair | Novice Hood | 0010DD3A
