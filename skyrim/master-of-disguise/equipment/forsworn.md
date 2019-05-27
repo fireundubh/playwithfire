@@ -1,6 +1,6 @@
 <!-- TITLE: Forsworn -->
 
-# Forsworn
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Forsworn | 0 - Hair | Forsworn Headdress | 000D8D52
