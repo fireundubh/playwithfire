@@ -1,6 +1,6 @@
 <!-- TITLE: Necromancers -->
 
-# Necromancers
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Necromancers | 0 - Hair | Hooded Black Mage Robes | 0010710C
