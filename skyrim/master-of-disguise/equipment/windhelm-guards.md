@@ -1,6 +1,6 @@
 <!-- TITLE: Windhelm Guards -->
 
-# Windhelm Guards
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Guards - Windhelm | 0 - Hair | Eastmarch Guard Helmet | 0010559D
