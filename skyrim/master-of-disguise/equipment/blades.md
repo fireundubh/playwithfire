@@ -1,6 +1,6 @@
 <!-- TITLE: Blades -->
 
-# Blades
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Blades | 0 - Hair | Blades Helmet | 0004B28F
