@@ -1,6 +1,6 @@
 <!-- TITLE: Dawnguard -->
 
-# Dawnguard
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Dawnguard | 0 - Hair | Dawnguard Full Helmet | 020050D0
