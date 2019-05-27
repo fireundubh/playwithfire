@@ -1,6 +1,6 @@
 <!-- TITLE: Daedric Influence -->
 
-# Daedric Influence
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Daedric Influence | 0 - Hair | Ancient Helmet of the Unburned | 000F494E
