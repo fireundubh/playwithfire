@@ -1,6 +1,6 @@
 <!-- TITLE: Vampires -->
 
-# Vampires
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Vampires | 0 - Hair | Vampire Hood | 02019ADE
