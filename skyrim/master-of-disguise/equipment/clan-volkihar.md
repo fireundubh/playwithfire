@@ -1,8 +1,6 @@
 <!-- TITLE: Clan Volkihar -->
 
-# Clan Volkihar
-## Vampires - Clan Volkihar
-
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Vampires - Clan Volkihar | 0 - Hair | Vampire Hood | 02019ADE
