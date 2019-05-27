@@ -1,6 +1,6 @@
 <!-- TITLE: Thalmor -->
 
-# Thalmor
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Thalmor | 0 - Hair | Hooded Thalmor Robes | 0010C698
