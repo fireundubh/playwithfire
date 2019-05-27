@@ -1,6 +1,6 @@
 <!-- TITLE: Pale Guards -->
 
-# Pale Guards
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Guards - Pale | 0 - Hair | Pale Guard's Helmet | 0002161F
