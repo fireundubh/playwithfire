@@ -1,6 +1,6 @@
 <!-- TITLE: Penitus Oculatus -->
 
-# Penitus Oculatus
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Penitus Oculatus | 0 - Hair | Penitus Oculatus Helmet | 000D3EAA
