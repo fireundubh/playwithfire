@@ -1,6 +1,6 @@
 <!-- TITLE: Riften Guards -->
 
-# Riften Guards
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Guards - Riften | 0 - Hair | Riften Guard's Helmet | 00021622
