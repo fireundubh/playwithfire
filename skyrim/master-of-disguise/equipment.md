@@ -14,6 +14,7 @@
 - [Morag Tong](/skyrim/master-of-disguise/equipment/morag-tong)
 - [Necromancers](/skyrim/master-of-disguise/equipment/necromancers)
 - [Penitus Oculatus](/skyrim/master-of-disguise/equipment/penitus-oculatus)
+- [Silver Hand](/skyrim/master-of-disguise/equipment/silver-hand)
 - [Stormcloaks](/skyrim/master-of-disguise/equipment/stormcloaks)
 - [Thalmor](/skyrim/master-of-disguise/equipment/thalmor)
 - [Thieves Guild](/skyrim/master-of-disguise/equipment/thieves-guild)
