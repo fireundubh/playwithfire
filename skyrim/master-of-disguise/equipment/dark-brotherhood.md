@@ -1,6 +1,6 @@
 <!-- TITLE: Dark Brotherhood -->
 
-# Dark Brotherhood
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Dark Brotherhood | 0 - Hair | Ancient Shrouded Cowl | 000E1F17
