@@ -1,6 +1,6 @@
 <!-- TITLE: Bandits -->
 
-# Bandits
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Bandits | 0 - Hair | Fur Helmet | 0006F39E
