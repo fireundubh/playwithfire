@@ -1,6 +1,6 @@
 <!-- TITLE: Alik'r Mercenaries -->
 
-# Alik'r Mercenaries
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Alik'r Mercenaries | 0 - Hair | Alik'r Hood | 0007BC1A
