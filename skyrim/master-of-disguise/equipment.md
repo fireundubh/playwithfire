@@ -1,6 +1,7 @@
-<!-- TITLE: Equipment -->
+<!-- TITLE: Faction Equipment -->
 
-# Alik'r Mercenaries
+# Faction Equipment
+## Alik'r Mercenaries
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
@@ -12,7 +13,7 @@ Alik'r Mercenaries | 5 - Feet | Redguard Boots | 0007BC15
 Alik'r Mercenaries | 7 - Circlet | Alik'r Hood | 0007BC1A
 Alik'r Mercenaries | 7 - Circlet | Redguard Hood | 000E0DD2
 
-# Bandits
+## Bandits
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
@@ -27,7 +28,7 @@ Bandits | 5 - Feet | Fur Boots | 000A6D7F
 Bandits | 5 - Feet | Fur Shoes | 0006F398
 Bandits | 7 - Circlet | Fur Helmet | 0006F39E
 
-# Blades
+## Blades
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
@@ -38,7 +39,7 @@ Blades | 5 - Feet | Blades Boots | 0004B288
 Blades | 6 - Shield | Blades Shield | 0004F912
 Blades | 7 - Circlet | Blades Helmet | 0004B28F
 
-# Companions
+## Companions
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
@@ -48,7 +49,7 @@ Companions | 2 - Hands | Wolf Gauntlets | 000CEE7E
 Companions | 5 - Feet | Wolf Boots | 000CEE7C
 Companions | 7 - Circlet | Wolf Helmet | 0004C3D0
 
-# Cultists
+## Cultists
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
@@ -149,7 +150,7 @@ Cultists | 7 - Circlet | Robes of Replenishing | 00109081
 Cultists | 7 - Circlet | Robes of Restoration | 00109065
 Cultists | 7 - Circlet | Robes of Resurgence | 00109080
 
-# Daedric Influence
+## Daedric Influence
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
@@ -320,7 +321,7 @@ Daedric Influence | 7 - Circlet | Volsung | 00061CAB
 Daedric Influence | 7 - Circlet | Wooden Mask | 00061CCA
 Daedric Influence | 7 - Circlet | Zahkriisos | 04024037
 
-# Dark Brotherhood
+## Dark Brotherhood
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
@@ -357,7 +358,7 @@ Dark Brotherhood | 7 - Circlet | Shrouded Cowl Maskless | 0005ABC4
 Dark Brotherhood | 7 - Circlet | Shrouded Hood | 000CF8A1
 Dark Brotherhood | 7 - Circlet | Worn Shrouded Cowl | 0010EB5D
 
-# Dawnguard
+## Dawnguard
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
@@ -377,7 +378,7 @@ Dawnguard | 6 - Shield | Dawnguard Shield | 020150B8
 Dawnguard | 7 - Circlet | Dawnguard Full Helmet | 020050D0
 Dawnguard | 7 - Circlet | Dawnguard Helmet | 0201989E
 
-# Forsworn
+## Forsworn
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
@@ -392,110 +393,7 @@ Forsworn | 5 - Feet | Forsworn Boots | 000D8D4E
 Forsworn | 7 - Circlet | Forsworn Headdress | 000D8D52
 Forsworn | 7 - Circlet | Helmet of the Old Gods | 000EAFD1
 
-# Falkreath Guards
-
-Disguise | Slot | Item | Form ID
-:--- | :--- | :--- | :---
-Guards - Falkreath | 0 - Hair | Falkreath Guard's Helmet | 00021619
-Guards - Falkreath | 1 - Body | Falkreath Guard's Armor | 0002151E
-Guards - Falkreath | 6 - Shield | Falkreath Guard's Shield | 000214ED
-Guards - Falkreath | 7 - Circlet | Falkreath Guard's Helmet | 00021619
-
-# Hjaalmarch Guards
-
-Disguise | Slot | Item | Form ID
-:--- | :--- | :--- | :---
-Guards - Hjaalmarch | 0 - Hair | Hjaalmarch Guard's Helmet | 0002161B
-Guards - Hjaalmarch | 1 - Body | Hjaalmarch Guard's Armor | 00021520
-Guards - Hjaalmarch | 6 - Shield | Hjaalmarch Guard's Shield | 000214EF
-Guards - Hjaalmarch | 7 - Circlet | Hjaalmarch Guard's Helmet | 0002161B
-
-# Markarth Guards
-
-Disguise | Slot | Item | Form ID
-:--- | :--- | :--- | :---
-Guards - Markarth | 0 - Hair | Markarth Guard's Helmet | 00021613
-Guards - Markarth | 1 - Body | Markarth Guard's Armor | 00021508
-Guards - Markarth | 6 - Shield | Markarth Guard's Shield | 000214DC
-Guards - Markarth | 7 - Circlet | Markarth Guard's Helmet | 00021613
-
-# Pale Guards
-
-Disguise | Slot | Item | Form ID
-:--- | :--- | :--- | :---
-Guards - Pale | 0 - Hair | Pale Guard's Helmet | 0002161F
-Guards - Pale | 1 - Body | Pale Guard's Armor | 00021525
-Guards - Pale | 6 - Shield | Pale Guard's Shield | 000214F7
-Guards - Pale | 7 - Circlet | Pale Guard's Helmet | 0002161F
-
-# Raven Rock Guards
-
-Disguise | Slot | Item | Form ID
-:--- | :--- | :--- | :---
-Guards - Raven Rock | 0 - Hair | Redoran Guard's Helmet | 06FF0105
-Guards - Raven Rock | 1 - Body | Redoran Guard's Armor | 06FF0103
-Guards - Raven Rock | 1 - Body | Redoran Guard's Pauldron Armor | 06FF0104
-Guards - Raven Rock | 2 - Hands | Bonemold Gauntlets | 0401CD94
-Guards - Raven Rock | 5 - Feet | Bonemold Boots | 0401CD92
-Guards - Raven Rock | 6 - Shield | Redoran Guard's Shield | 06FF0106
-Guards - Raven Rock | 7 - Circlet | Redoran Guard's Helmet | 06FF0105
-
-# Riften Guards
-
-Disguise | Slot | Item | Form ID
-:--- | :--- | :--- | :---
-Guards - Riften | 0 - Hair | Riften Guard's Helmet | 00021622
-Guards - Riften | 1 - Body | Riften Guard's Armor | 00021507
-Guards - Riften | 6 - Shield | Riften Guard's Shield | 000214BA
-Guards - Riften | 7 - Circlet | Riften Guard's Helmet | 00021622
-
-# Solitude Guards
-
-Disguise | Slot | Item | Form ID
-:--- | :--- | :--- | :---
-Guards - Solitude | 0 - Hair | Solitude Guard's Helmet | 000C7F5C
-Guards - Solitude | 1 - Body | Solitude Guard's Armor | 000C7F5B
-Guards - Solitude | 6 - Shield | Solitude Guard's Shield | 000214F4
-Guards - Solitude | 7 - Circlet | Solitude Guard's Helmet | 000C7F5C
-
-# Whiterun Guards
-
-Disguise | Slot | Item | Form ID
-:--- | :--- | :--- | :---
-Guards - Whiterun | 0 - Hair | Whiterun Guard's Helmet | 00021615
-Guards - Whiterun | 1 - Body | Whiterun Guard's Armor | 0002150D
-Guards - Whiterun | 6 - Shield | Whiterun Guard's Shield | 000214E0
-Guards - Whiterun | 7 - Circlet | Whiterun Guard's Helmet | 00021615
-
-# Windhelm Guards
-
-Disguise | Slot | Item | Form ID
-:--- | :--- | :--- | :---
-Guards - Windhelm | 0 - Hair | Eastmarch Guard Helmet | 0010559D
-Guards - Windhelm | 0 - Hair | Stormcloak Helmet | 000A6D79
-Guards - Windhelm | 0 - Hair | Stormcloak Officer Helmet | 00086985
-Guards - Windhelm | 1 - Body | Stormcloak Cuirass | 000A6D7B
-Guards - Windhelm | 1 - Body | Stormcloak Cuirass | 000AD5A0
-Guards - Windhelm | 1 - Body | Stormcloak Officer Armor | 0008697E
-Guards - Windhelm | 2 - Hands | Fur Gauntlets | 000A6D7D
-Guards - Windhelm | 2 - Hands | Stormcloak Officer Bracers | 00086983
-Guards - Windhelm | 5 - Feet | Fur Boots | 000A6D7F
-Guards - Windhelm | 5 - Feet | Stormcloak Officer Boots | 00086981
-Guards - Windhelm | 6 - Shield | Windhelm Guard's Shield | 000214EB
-Guards - Windhelm | 7 - Circlet | Eastmarch Guard Helmet | 0010559D
-Guards - Windhelm | 7 - Circlet | Stormcloak Helmet | 000A6D79
-Guards - Windhelm | 7 - Circlet | Stormcloak Officer Helmet | 00086985
-
-# Winterhold Guards
-
-Disguise | Slot | Item | Form ID
-:--- | :--- | :--- | :---
-Guards - Winterhold | 0 - Hair | Winterhold Guard's Helmet | 0002161D
-Guards - Winterhold | 1 - Body | Winterhold Guard's Armor | 00021522
-Guards - Winterhold | 6 - Shield | Winterhold Guard's Shield | 000214F1
-Guards - Winterhold | 7 - Circlet | Winterhold Guard's Helmet | 0002161D
-
-# Imperial Legion
+## Imperial Legion
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
@@ -725,7 +623,7 @@ Morag Tong | 2 - Hands | Morag Tong Bracers | 040292AD
 Morag Tong | 5 - Feet | Morag Tong Boots | 040292AB
 Morag Tong | 7 - Circlet | Morag Tong Hood | 040292AE
 
-# Necromancers
+## Necromancers
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
@@ -741,7 +639,7 @@ Necromancers | 5 - Feet | Necromancer Boots | 000C36E8
 Necromancers | 7 - Circlet | Hooded Black Mage Robes | 0010710C
 Necromancers | 7 - Circlet | Hooded Necromancer Robes | 0010710D
 
-# Penitus Oculatus
+## Penitus Oculatus
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
@@ -750,7 +648,7 @@ Penitus Oculatus | 1 - Body | Penitus Oculatus Armor | 000D3EA0
 Penitus Oculatus | 2 - Hands | Penitus Oculatus Bracers | 000D3EAB
 Penitus Oculatus | 5 - Feet | Penitus Oculatus Boots | 000D3EA7
 
-# Silver Hand
+## Silver Hand
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
@@ -794,7 +692,7 @@ Silver Hand | 7 - Circlet | Steel Helmet | 00013954
 Silver Hand | 7 - Circlet | Steel Horned Helmet | 000F6F24
 Silver Hand | 7 - Circlet | Steel Plate Helmet | 0001395E
 
-# Stormcloaks
+## Stormcloaks
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
@@ -810,7 +708,7 @@ Stormcloaks | 5 - Feet | Stormcloak Officer Boots | 00086981
 Stormcloaks | 7 - Circlet | Stormcloak Helmet | 000A6D79
 Stormcloaks | 7 - Circlet | Stormcloak Officer Helmet | 00086985
 
-# Thalmor
+## Thalmor
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
@@ -821,7 +719,7 @@ Thalmor | 2 - Hands | Thalmor Gloves | 00065BB3
 Thalmor | 5 - Feet | Thalmor Boots | 00065BAC
 Thalmor | 7 - Circlet | Hooded Thalmor Robes | 0010C698
 
-# Thieves Guild
+## Thieves Guild
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
@@ -846,7 +744,7 @@ Thieves Guild | 7 - Circlet | Guild Master's Hood | 000E35D9
 Thieves Guild | 7 - Circlet | Thieves Guild Hood | 000D3AC5
 Thieves Guild | 7 - Circlet | Thieves Guild Hood | 000D3ACE
 
-# Vampires
+## Vampires
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
@@ -892,7 +790,7 @@ Vampires | 5 - Feet | Vampire Boots | 0200B5DE
 Vampires | 5 - Feet | Vampire Boots | 02019AE1
 Vampires | 7 - Circlet | Vampire Hood | 02019ADE
 
-# Vampires - Clan Volkihar
+## Vampires - Clan Volkihar
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
@@ -906,7 +804,7 @@ Vampires - Clan Volkihar | 5 - Feet | Vampire Boots | 0200B5DE
 Vampires - Clan Volkihar | 5 - Feet | Vampire Boots | 02019AE1
 Vampires - Clan Volkihar | 7 - Circlet | Vampire Hood | 02019ADE
 
-# Vigil of Stendarr
+## Vigil of Stendarr
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
@@ -921,8 +819,114 @@ Vigil of Stendarr | 5 - Feet | Steel Cuffed Boots | 00013951
 Vigil of Stendarr | 5 - Feet | Steel Plate Boots | 0001395B
 Vigil of Stendarr | 7 - Circlet | Novice Hood | 0010DD3A
 
-# Werewolves
+## Werewolves
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Werewolves | 1 - Body | Savior's Hide | 0002AC61
+
+
+## Guards
+
+### Falkreath Guards
+
+Disguise | Slot | Item | Form ID
+:--- | :--- | :--- | :---
+Guards - Falkreath | 0 - Hair | Falkreath Guard's Helmet | 00021619
+Guards - Falkreath | 1 - Body | Falkreath Guard's Armor | 0002151E
+Guards - Falkreath | 6 - Shield | Falkreath Guard's Shield | 000214ED
+Guards - Falkreath | 7 - Circlet | Falkreath Guard's Helmet | 00021619
+
+### Hjaalmarch Guards
+
+Disguise | Slot | Item | Form ID
+:--- | :--- | :--- | :---
+Guards - Hjaalmarch | 0 - Hair | Hjaalmarch Guard's Helmet | 0002161B
+Guards - Hjaalmarch | 1 - Body | Hjaalmarch Guard's Armor | 00021520
+Guards - Hjaalmarch | 6 - Shield | Hjaalmarch Guard's Shield | 000214EF
+Guards - Hjaalmarch | 7 - Circlet | Hjaalmarch Guard's Helmet | 0002161B
+
+### Markarth Guards
+
+Disguise | Slot | Item | Form ID
+:--- | :--- | :--- | :---
+Guards - Markarth | 0 - Hair | Markarth Guard's Helmet | 00021613
+Guards - Markarth | 1 - Body | Markarth Guard's Armor | 00021508
+Guards - Markarth | 6 - Shield | Markarth Guard's Shield | 000214DC
+Guards - Markarth | 7 - Circlet | Markarth Guard's Helmet | 00021613
+
+### Pale Guards
+
+Disguise | Slot | Item | Form ID
+:--- | :--- | :--- | :---
+Guards - Pale | 0 - Hair | Pale Guard's Helmet | 0002161F
+Guards - Pale | 1 - Body | Pale Guard's Armor | 00021525
+Guards - Pale | 6 - Shield | Pale Guard's Shield | 000214F7
+Guards - Pale | 7 - Circlet | Pale Guard's Helmet | 0002161F
+
+### Raven Rock Guards
+
+Disguise | Slot | Item | Form ID
+:--- | :--- | :--- | :---
+Guards - Raven Rock | 0 - Hair | Redoran Guard's Helmet | 06FF0105
+Guards - Raven Rock | 1 - Body | Redoran Guard's Armor | 06FF0103
+Guards - Raven Rock | 1 - Body | Redoran Guard's Pauldron Armor | 06FF0104
+Guards - Raven Rock | 2 - Hands | Bonemold Gauntlets | 0401CD94
+Guards - Raven Rock | 5 - Feet | Bonemold Boots | 0401CD92
+Guards - Raven Rock | 6 - Shield | Redoran Guard's Shield | 06FF0106
+Guards - Raven Rock | 7 - Circlet | Redoran Guard's Helmet | 06FF0105
+
+### Riften Guards
+
+Disguise | Slot | Item | Form ID
+:--- | :--- | :--- | :---
+Guards - Riften | 0 - Hair | Riften Guard's Helmet | 00021622
+Guards - Riften | 1 - Body | Riften Guard's Armor | 00021507
+Guards - Riften | 6 - Shield | Riften Guard's Shield | 000214BA
+Guards - Riften | 7 - Circlet | Riften Guard's Helmet | 00021622
+
+### Solitude Guards
+
+Disguise | Slot | Item | Form ID
+:--- | :--- | :--- | :---
+Guards - Solitude | 0 - Hair | Solitude Guard's Helmet | 000C7F5C
+Guards - Solitude | 1 - Body | Solitude Guard's Armor | 000C7F5B
+Guards - Solitude | 6 - Shield | Solitude Guard's Shield | 000214F4
+Guards - Solitude | 7 - Circlet | Solitude Guard's Helmet | 000C7F5C
+
+### Whiterun Guards
+
+Disguise | Slot | Item | Form ID
+:--- | :--- | :--- | :---
+Guards - Whiterun | 0 - Hair | Whiterun Guard's Helmet | 00021615
+Guards - Whiterun | 1 - Body | Whiterun Guard's Armor | 0002150D
+Guards - Whiterun | 6 - Shield | Whiterun Guard's Shield | 000214E0
+Guards - Whiterun | 7 - Circlet | Whiterun Guard's Helmet | 00021615
+
+### Windhelm Guards
+
+Disguise | Slot | Item | Form ID
+:--- | :--- | :--- | :---
+Guards - Windhelm | 0 - Hair | Eastmarch Guard Helmet | 0010559D
+Guards - Windhelm | 0 - Hair | Stormcloak Helmet | 000A6D79
+Guards - Windhelm | 0 - Hair | Stormcloak Officer Helmet | 00086985
+Guards - Windhelm | 1 - Body | Stormcloak Cuirass | 000A6D7B
+Guards - Windhelm | 1 - Body | Stormcloak Cuirass | 000AD5A0
+Guards - Windhelm | 1 - Body | Stormcloak Officer Armor | 0008697E
+Guards - Windhelm | 2 - Hands | Fur Gauntlets | 000A6D7D
+Guards - Windhelm | 2 - Hands | Stormcloak Officer Bracers | 00086983
+Guards - Windhelm | 5 - Feet | Fur Boots | 000A6D7F
+Guards - Windhelm | 5 - Feet | Stormcloak Officer Boots | 00086981
+Guards - Windhelm | 6 - Shield | Windhelm Guard's Shield | 000214EB
+Guards - Windhelm | 7 - Circlet | Eastmarch Guard Helmet | 0010559D
+Guards - Windhelm | 7 - Circlet | Stormcloak Helmet | 000A6D79
+Guards - Windhelm | 7 - Circlet | Stormcloak Officer Helmet | 00086985
+
+### Winterhold Guards
+
+Disguise | Slot | Item | Form ID
+:--- | :--- | :--- | :---
+Guards - Winterhold | 0 - Hair | Winterhold Guard's Helmet | 0002161D
+Guards - Winterhold | 1 - Body | Winterhold Guard's Armor | 00021522
+Guards - Winterhold | 6 - Shield | Winterhold Guard's Shield | 000214F1
+Guards - Winterhold | 7 - Circlet | Winterhold Guard's Helmet | 0002161D
