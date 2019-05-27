@@ -1,6 +1,6 @@
 <!-- TITLE: Falkreath Guards -->
 
-# Falkreath Guards
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Guards - Falkreath | 0 - Hair | Falkreath Guard's Helmet | 00021619
