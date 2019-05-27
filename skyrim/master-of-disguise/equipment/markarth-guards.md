@@ -1,6 +1,6 @@
 <!-- TITLE: Markarth Guards -->
 
-# Markarth Guards
+# Table
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
 Guards - Markarth | 0 - Hair | Markarth Guard's Helmet | 00021613
