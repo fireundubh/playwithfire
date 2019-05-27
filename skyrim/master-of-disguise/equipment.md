@@ -762,7 +762,7 @@ Daedric Influence | 7 - Circlet | Volsung | 00061CAB
 Daedric Influence | 7 - Circlet | Wooden Mask | 00061CCA
 Daedric Influence | 7 - Circlet | Zahkriisos | 04024037
 
-## Silver Hand
+### Silver Hand
 
 Disguise | Slot | Item | Form ID
 :--- | :--- | :--- | :---
