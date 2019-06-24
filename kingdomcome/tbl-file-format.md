@@ -1,7 +1,5 @@
 <!-- TITLE: TBL File Format -->
 
-[&larr; Kingdom Come](/kingdomcome)
-
 # TBL File Format
 _This information was mirrored from the Nexus Wiki, contributed by Bodowens86, with some additions._
 
