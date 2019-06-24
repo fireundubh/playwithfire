@@ -1,7 +1,5 @@
 <!-- TITLE: TBL Files -->
 
-[&larr; Kingdom Come](/kingdomcome)
-
 # TBL Files
 
 ## Table
