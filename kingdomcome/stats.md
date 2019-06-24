@@ -1,9 +1,5 @@
 <!-- TITLE: Stats and Derived Stats -->
 
-[&larr; Kingdom Come](/kingdomcome)
-
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
-
 # Stats and Derived Stats
 Information about intermediate stats and base values were mirrored from the [Nexus Wiki](https://wiki.nexusmods.com/index.php/RPG_stats_in_KCD). Thanks to Warhorse developer Moggabor!
 
