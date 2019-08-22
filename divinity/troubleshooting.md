@@ -7,7 +7,7 @@ We'll use [Let There Be Tooltips - Definitive Edition](https://steamcommunity.co
 
 ![Screenshot](https://i.imgur.com/xhKj0Ts.jpg)
 
-If the mod does appear in the list:
+If the mod does appear in the list, Steam did not install the mod correctly. To work around this bug in the Steam client:
 
 1. Copy the PAK file from: `%PROGRAMFILES(X86)%\Steam\steamapps\workshop\content\435150\1506230499\LetThereBeTooltips_c03acb8a-03b9-4c79-84ff-3784e97774da.pak`.
 2. Paste the PAK file to: `%USERPROFILE%\Documents\Larian Studios\Divinity Original Sin 2 Definitive Edition\Mods`
