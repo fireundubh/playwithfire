@@ -6,6 +6,5 @@ Welcome to the *Divinity Series* wiki at **#playwithfire**. This wiki was create
 
 ## Divinity: Original Sin 2
 
-Name | Developer | Description
-:--- | :--- | :---
-[Steam Console](divinity/steam-console) | | Guide: Using Steam to download previous versions
+- [Divine CLI](/divinity/tools/divine)
+- [Troubleshooting Mods](/divinity/troubleshooting)
