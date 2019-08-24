@@ -8,7 +8,7 @@
 Short | Long | Allowed Values | Description
  :--- | :--- | :--- | :---
 `-s` | `--source` | `(absolute file/folder path)` | Set source file path or directory
-`-a` | `--action` | <ul><li>`create-package`<li>`list-package`<li>`extract-package` (default)<li>`convert-model`<li>`convert-resource`</ul><strong>Batch Operations</strong><ul><li>`extract-packages`<li>`convert-models`<li>`convert-resources`</ul> | Set action to execute
+`-a` | `--action` | <ul><li>`create-package`<li>`list-package`<li>`extract-package` (default)<li>`convert-model`<li>`convert-resource`</ul>Batch Operations:<ul><li>`extract-packages`<li>`convert-models`<li>`convert-resources`</ul> | Set action to execute
 
 ### Optional Arguments
 
