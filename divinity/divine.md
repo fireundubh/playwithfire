@@ -17,7 +17,6 @@ Short | Long | Allowed Values | Description
 `-l` | `--loglevel` | <ul><li>`off`<li>`fatal`<li>`error`<li>`warn`<li>`info` (default)<li>`debug`<li>`trace`<li>`all`</ul> | Set verbosity level of log output
 `-g` | `--game` | <ul><li>`dos`<li>`dosee`<li>`dos2` (default)<li>`dos2de`</ul> | Set target game when generating output
 `-d` | `--destination` | `(absolute file/folder path)` | Set destination file path or directory
-`-f` | `--packaged-path` | | File to extract from package
 `-i` | `--input-format` | <ul><li>`dae`<li>`gr2`<li>`lsv`<li>`pak`<li>`lsj`<li>`lsx`<li>`lsb`<li>`lsf`</ul> | Set input format for batch operations
 `-o` | `--output-format` | <ul><li>`dae`<li>`gr2`<li>`lsv`<li>`pak`<li>`lsj`<li>`lsx`<li>`lsb`<li>`lsf`</ul> | Set output format for batch operations
 `-p` | `--package-version` | <ul><li>`v7`<li>`v9`<li>`v10`<li>`v13` (default)</ul> | Set package version
