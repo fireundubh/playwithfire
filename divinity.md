@@ -6,5 +6,5 @@ Welcome to the *Divinity Series* wiki at **#playwithfire**. This wiki was create
 
 ## Divinity: Original Sin 2
 
-- [Divine CLI](/divinity/tools/divine)
+- [Divine CLI](/divinity/divine-cli)
 - [Troubleshooting Mods](/divinity/troubleshooting)
