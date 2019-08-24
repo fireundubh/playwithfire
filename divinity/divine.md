@@ -7,7 +7,7 @@
 
 Short | Long | Allowed Values | Description
  :--- | :--- | :--- | :---
-`-s` | `--source` | must be an absolute file/folder path | Set source file path or directory
+`-s` | `--source` | `(absolute file/folder path)` | Set source file path or directory
 `-a` | `--action` | <ul><li>`create-package`<li>`list-package`<li>`extract-single-file`<li>`extract-package` (default)<li>`extract-packages`<li>`convert-model`<li>`convert-models`<li>`convert-resource`<li>`convert-resources`</ul> | Set action to execute
 
 ### Optional Arguments
@@ -16,7 +16,7 @@ Short | Long | Allowed Values | Description
 :--- | :--- | :--- | :---
 `-l` | `--loglevel` | <ul><li>`off`<li>`fatal`<li>`error`<li>`warn`<li>`info` (default)<li>`debug`<li>`trace`<li>`all`</ul> | Set verbosity level of log output
 `-g` | `--game` | <ul><li>`dos`<li>`dosee`<li>`dos2` (default)<li>`dos2de`</ul> | Set target game when generating output
-`-d` | `--destination` | must be an absolute file/folder path | Set destination file path or directory
+`-d` | `--destination` | `(absolute file/folder path)` | Set destination file path or directory
 `-f` | `--packaged-path` | | File to extract from package
 `-i` | `--input-format` | <ul><li>`dae`<li>`gr2`<li>`lsv`<li>`pak`<li>`lsj`<li>`lsx`<li>`lsb`<li>`lsf`</ul> | Set input format for batch operations
 `-o` | `--output-format` | <ul><li>`dae`<li>`gr2`<li>`lsv`<li>`pak`<li>`lsj`<li>`lsx`<li>`lsb`<li>`lsf`</ul> | Set output format for batch operations
