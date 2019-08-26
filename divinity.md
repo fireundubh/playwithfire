@@ -6,5 +6,7 @@ Welcome to the *Divinity Series* wiki at **#playwithfire**. This wiki was create
 
 ## Divinity: Original Sin 2
 
-- [Divine CLI](/divinity/divine)
-- [Troubleshooting Mods](/divinity/troubleshooting)
+- Documentation: [Divine CLI](/divinity/divine)
+- Documentation: [Cleaning PAKs: Essential and Nonessential Files](/divinity/cleaning-paks)
+- Guide: [Reversing Mods to Projects](/divinity/reversing-mods)
+- FAQs: [Troubleshooting Mods](/divinity/troubleshooting)
