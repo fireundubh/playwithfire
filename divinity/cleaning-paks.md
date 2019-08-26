@@ -21,3 +21,4 @@ File | Extension | Description
 `story_header.div` | `.div` | intermediate product of compiler; used for syntax highlighting in the editor
 `goals.raw` | `.raw` | intermediate product of compiler
 
+**Note:** In earlier versions of The Divinity Engine 2, log files and crash dumps were included in PAKs but this does not appear to be the case anymore.
