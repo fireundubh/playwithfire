@@ -33,6 +33,8 @@ cd "%USERPROFILE%\Documents\Larian Studios\Divinity Original Sin 2 Definitive Ed
 divine -g dos2de -a extract-package -s "%CD%\NotMyMod_c6a7eddf-ce98-43dc-a823-7187697e61fe.pak" -d "%PROGRAMFILES(X86)%\Steam\steamapps\common\Divinity Original Sin 2\DefEd\Data"
 ```
 
+lslib also offers a GUI for the command-line-impaired, but I wrote the Divine CLI, so... ;)
+
 ### Step 3. Set up the project
 
 Create a folder named `Projects` in the `Data` directory.
