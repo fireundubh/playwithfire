@@ -11,16 +11,20 @@
 
 ## Instructions
 
-### Step 1. Download/Install
+### Step 1. Download and install
 
-Subscribe to the mod from the Steam Workshop. (Nexus mods require a slightly different process.)
+#### Steam Workshop Mods
 
-### Step 2. Extract the PAK
-
-Find the PAK file for that mod in:
+Subscribe to the mod from the Steam Workshop. The PAK will be downloaded to one of these folders:
 
 - `%USERPROFILE%\Documents\Larian Studios\Divinity Original Sin 2 Definitive Edition\Mods`
 - `%PROGRAMFILES(X86)%\Steam\steamapps\workshop\content\435150\`
+
+#### Nexus Mods
+
+Download the mod from the Nexus. Extract the PAK from the downloaded ZIP, RAR, or 7Z archive wherever you want.
+
+### Step 2. Extract the PAK
 
 Use the Divine CLI from [lslib](https://github.com/Norbyte/lslib/releases) to extract the PAK file using the following command:
 
@@ -29,7 +33,7 @@ cd "%USERPROFILE%\Documents\Larian Studios\Divinity Original Sin 2 Definitive Ed
 divine -g dos2de -a extract-package -s "%CD%\NotMyMod_c6a7eddf-ce98-43dc-a823-7187697e61fe.pak" -d "%PROGRAMFILES(X86)%\Steam\steamapps\common\Divinity Original Sin 2\DefEd\Data"
 ```
 
-### Step 3. Set Up the Project
+### Step 3. Set up the project
 
 Create a folder named `Projects` in the `Data` directory.
 
