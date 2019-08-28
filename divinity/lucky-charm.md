@@ -9,8 +9,8 @@
 
 ObjectCategory | Frequency | Common | Uncommon | Rare | Epic | Legendary | Divine | Unique
 :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | 
-T_ST_RandomLootSuper | 1 |
-NeoGoldReward_Medium | 1 |
+T_ST_RandomLootSuper | 1 (50%) |
+NeoGoldReward_Medium | 1 (50%) |
  
 ### Luck 2
 
@@ -18,10 +18,10 @@ NeoGoldReward_Medium | 1 |
 
 ObjectCategory | Frequency | Common | Uncommon | Rare | Epic | Legendary | Divine | Unique
 :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | 
-T_ST_WeaponMagic | 1 |
-T_ST_ArmorMagic | 1 |
-T_ST_RingAmuletBeltMagic | 1 |
-T_ST_RandomLootSuper | 3 |
+T_ST_WeaponMagic | 1 (25%) |
+T_ST_ArmorMagic | 1 (25%) |
+T_ST_RingAmuletBeltMagic | 1 (25%) |
+T_ST_RandomLootSuper | 3 (75%) |
 
 ### Luck 3
 
@@ -29,9 +29,9 @@ T_ST_RandomLootSuper | 3 |
 
 ObjectCategory | Frequency | Common | Uncommon | Rare | Epic | Legendary | Divine | Unique
 :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | 
-T_ST_WeaponMagic | 1 |
-T_ST_ArmorMagic | 1 |
-T_ST_RingAmuletBeltMagic | 1 |
+T_ST_WeaponMagic | 1 (33%) |
+T_ST_ArmorMagic | 1 (33%) |
+T_ST_RingAmuletBeltMagic | 1 (33%) |
 
 ### Luck 4
 
@@ -39,12 +39,12 @@ T_ST_RingAmuletBeltMagic | 1 |
 
 ObjectCategory | Frequency | Common | Uncommon | Rare | Epic | Legendary | Divine | Unique
 :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | 
-T_ST_WeaponRare | 1 |
-T_ST_ArmorRare | 1 |
-T_ST_RingAmuletBeltRare | 1 |
-T_ST_WeaponMagic | 1 |
-T_ST_ArmorMagic | 1 |
-T_ST_RingAmuletBeltMagic | 1 |
+T_ST_WeaponRare | 1 (16%) |
+T_ST_ArmorRare | 1 (16%) |
+T_ST_RingAmuletBeltRare | 1 (16%) |
+T_ST_WeaponMagic | 1 (16%) |
+T_ST_ArmorMagic | 1 (16%) |
+T_ST_RingAmuletBeltMagic | 1 (16%) |
 
 ### Luck 5-10
 
@@ -65,9 +65,9 @@ Luck | DropCount
 
 ObjectCategory | Frequency | Common | Uncommon | Rare | Epic | Legendary | Divine | Unique
 :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | 
-T_ST_WeaponLegendary | 1 |
-T_ST_ArmorLegendary | 1 |
-T_ST_RingAmuletBeltLegendary | 1 |
-T_ST_WeaponRare | 1 |
-T_ST_ArmorRare | 1 |
-T_ST_RingAmuletBeltRare | 1 |
+T_ST_WeaponLegendary | 1 (16%) |
+T_ST_ArmorLegendary | 1 (16%) |
+T_ST_RingAmuletBeltLegendary | 1 (16%) |
+T_ST_WeaponRare | 1 (16%) |
+T_ST_ArmorRare | 1 (16%) |
+T_ST_RingAmuletBeltRare | 1 (16%) |
