@@ -7,8 +7,8 @@
 
 19% chance at zero extra items. 1% chance at one additional item.
 
-ObjectCategory | Frequency | Common | Uncommon | Rare | Epic | Legendary | Divine | Unique
-:--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | 
+ObjectCategory | Frequency
+:--- | :---
 T_ST_RandomLootSuper | 1 (50%) |
 NeoGoldReward_Medium | 1 (50%) |
  
@@ -16,8 +16,8 @@ NeoGoldReward_Medium | 1 (50%) |
 
 19% chance at zero extra items. 1% chance at one additional item.
 
-ObjectCategory | Frequency | Common | Uncommon | Rare | Epic | Legendary | Divine | Unique
-:--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | 
+ObjectCategory | Frequency
+:--- | :---
 T_ST_WeaponMagic | 1 (25%) |
 T_ST_ArmorMagic | 1 (25%) |
 T_ST_RingAmuletBeltMagic | 1 (25%) |
@@ -27,8 +27,8 @@ T_ST_RandomLootSuper | 3 (75%) |
 
 19% chance at zero extra items. 1% chance at one additional item.
 
-ObjectCategory | Frequency | Common | Uncommon | Rare | Epic | Legendary | Divine | Unique
-:--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | 
+ObjectCategory | Frequency
+:--- | :---
 T_ST_WeaponMagic | 1 (33%) |
 T_ST_ArmorMagic | 1 (33%) |
 T_ST_RingAmuletBeltMagic | 1 (33%) |
@@ -37,8 +37,8 @@ T_ST_RingAmuletBeltMagic | 1 (33%) |
 
 19% chance at zero extra items. 1% chance at one additional item.
 
-ObjectCategory | Frequency | Common | Uncommon | Rare | Epic | Legendary | Divine | Unique
-:--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | 
+ObjectCategory | Frequency
+:--- | :---
 T_ST_WeaponRare | 1 (16%) |
 T_ST_ArmorRare | 1 (16%) |
 T_ST_RingAmuletBeltRare | 1 (16%) |
@@ -63,8 +63,8 @@ Luck | DropCount
 
 1% chance at one extra item from this table.
 
-ObjectCategory | Frequency | Common | Uncommon | Rare | Epic | Legendary | Divine | Unique
-:--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | 
+ObjectCategory | Frequency
+:--- | :---
 T_ST_WeaponLegendary | 1 (16%) |
 T_ST_ArmorLegendary | 1 (16%) |
 T_ST_RingAmuletBeltLegendary | 1 (16%) |
