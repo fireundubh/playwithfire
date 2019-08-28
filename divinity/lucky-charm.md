@@ -1,6 +1,10 @@
 <!-- TITLE: Lucky Charm -->
 
 # Lucky Charm
+## Divinity: Original Sin 1
+
+[How Lucky Charm Works](http://forums.larian.com/ubbthreads.php?ubb=showflat&Number=533648#Post533648)
+
 ## Divinity: Original Sin 2
 
 ### Luck 1
