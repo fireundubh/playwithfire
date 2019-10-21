@@ -1,4 +1,4 @@
 <!-- TITLE: The Outer Worlds -->
 
 # Timeline
-<a class="timeline_zoom2" href="https://docs.google.com/spreadsheets/d/19kHQ2bCZ4XQFx7o5UwcTk5kXTVgKdjTtKwf2OPz0qyU/edit?usp=sharing">Timeline</a>
+<a class="timeline_zoom2" href="https://docs.google.com/spreadsheets/d/1D9ceBPqyKK0GZ8ovUzdLhm4AM_67ZP-SiFRGvSLgzdk>Timeline</a>
