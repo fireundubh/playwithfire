@@ -12,5 +12,6 @@
 
 ## Resources
 
+* [SubInACL](https://www.microsoft.com/en-us/download/details.aspx?id=23510) - command line tool for changing security settings
 * [u4pak](https://github.com/panzi/u4pak) - requires unencrypted PAKs
 * [Reverse Engineering AES Keys From Unreal Engine 4 Projects](https://blog.jamie.holdings/2019/03/23/reverse-engineering-aes-keys-from-unreal-engine-4-projects/)
