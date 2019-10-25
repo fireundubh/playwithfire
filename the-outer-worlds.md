@@ -10,6 +10,16 @@
 * PAKs are compressed
 * `Exported` folder has JSON bundles similar to Pillars of Eternity 2
 
+## Paths
+
+### Game
+
+`X:\WindowsApps\PrivateDivision.TheOuterWorldsWindows10_1.0.369.0_x64__hv3d7yfbgr2rp`
+
+### INI Files
+
+`%LOCALAPPDATA%\Packages\PrivateDivision.TheOuterWorldsWindows10_hv3d7yfbgr2rp\LocalCache\Local\Indiana\Saved\Config\WindowsNoEditor`
+
 ## Resources
 
 * [SubInACL](https://www.microsoft.com/en-us/download/details.aspx?id=23510) - command line tool for changing security settings
