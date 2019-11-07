@@ -6,7 +6,8 @@
 Note: The `CrewMemberHasPersonality` function checks specific crew members for personalities, but crew member GUIDs are not exposed, so the totals below have been merged.
 
 Count | Personality
---- | ---
+---: | :---
+2 | Religious
 6 | Ascetic
 1 | Chatty
 4 | Drunkard
@@ -16,44 +17,49 @@ Count | Personality
 8 | Impulsive
 1 | Irreverent
 3 | Malicious
-8 | Religious
+7 | Religious
 5 | Rowdy
 
 ## IsCrewCount
 
-Count | Comparison | Crew Size
---- | --- | ---
-2 | EqualTo | 0
-5 | GreaterThan | 0
-1 | GreaterThan | 1
-6 | GreaterThan | 2
-1 | GreaterThanOrEqualTo | 5
+Count | Operator | Crew Count
+---: | :--- | :---
+2 | `==` | 0
+5 | `>` | 0
+1 | `>` | 1
+6 | `>` | 2
+1 | `>=` | 5
 
 ## IsCrewJobRanks
 
-Count | Job | Comparison | Amount
---- | --- | --- | ---
-2 | Cannoneer | GreaterThan | 1
-2 | Cannoneer | GreaterThan | 3
-1 | Cannoneer | GreaterThan | 4
-2 | Cannoneer | GreaterThanOrEqualTo | 4
-1 | Cannoneer | GreaterThanOrEqualTo | 5
-1 | Cannoneer | GreaterThanOrEqualTo | 8
-1 | Deckhand | GreaterThan | 4
-3 | Deckhand | GreaterThanOrEqualTo | 3
-2 | Deckhand | GreaterThanOrEqualTo | 10
-2 | Deckhand | GreaterThanOrEqualTo | 8
-1 | Deckhand | GreaterThanOrEqualTo | 12
-1 | Deckhand | GreaterThanOrEqualTo | 2
-1 | Deckhand | GreaterThanOrEqualTo | 4
-1 | Deckhand | GreaterThanOrEqualTo | 5
-1 | Deckhand | GreaterThanOrEqualTo | 6
-1 | Deckhand | LessThan | 3
-1 | Helmsman | GreaterThan | 1
-3 | Helmsman | GreaterThanOrEqualTo | 3
-2 | Helmsman | GreaterThanOrEqualTo | 2
-1 | Helmsman | GreaterThanOrEqualTo | 1
-1 | Helmsman | GreaterThanOrEqualTo | 4
-1 | Navigator | GreaterThanOrEqualTo | 1
-1 | Navigator | GreaterThanOrEqualTo | 2
-1 | Navigator | GreaterThanOrEqualTo | 3
+### IsCrewJobRanks
+
+Count | Job | Operator | Rank
+---: | :--- | :--- | :---
+1 | Boatswain | `>` | 1
+2 | Cannoneer | `>` | 1
+2 | Cannoneer | `>` | 3
+1 | Cannoneer | `>` | 4
+2 | Cannoneer | `>=` | 4
+1 | Cannoneer | `>=` | 5
+1 | Cannoneer | `>=` | 8
+1 | Cannoneer | `<` | 4
+1 | Cook | `>` | 1
+1 | Deckhand | `>` | 4
+2 | Deckhand | `>=` | 10
+1 | Deckhand | `>=` | 12
+1 | Deckhand | `>=` | 2
+3 | Deckhand | `>=` | 3
+1 | Deckhand | `>=` | 4
+1 | Deckhand | `>=` | 5
+1 | Deckhand | `>=` | 6
+2 | Deckhand | `>=` | 8
+1 | Deckhand | `<` | 3
+1 | Helmsman | `>` | 1
+1 | Helmsman | `>=` | 1
+2 | Helmsman | `>=` | 2
+3 | Helmsman | `>=` | 3
+1 | Helmsman | `>=` | 4
+1 | Navigator | `>=` | 1
+1 | Navigator | `>=` | 2
+1 | Navigator | `>=` | 3
