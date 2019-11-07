@@ -18,7 +18,7 @@ Count | Character | Culture
 
 ### Context Options
 
-Count | CCulture
+Count | Culture
 ---: | :---
 2 | Old Vailia
 2 | The Vailian Republics
