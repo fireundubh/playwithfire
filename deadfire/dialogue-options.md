@@ -2,13 +2,6 @@
 # Dialogue Options Report
 Please note: These tables were created by hand, so they will not be updated for each patch unless I get around to automating table generation.
 
-## Raw Data
-
-Last update: December 2, 2018
-
-- [Embedded Spreadsheet](/deadfire/dialogue-options/raw-data)
-- [Google Sheet](https://docs.google.com/spreadsheets/d/1YtruDo0zpVQ3Z7fcdMH4JEo1R8aQSAH9G57BnQ-ekL0/).
-
 ## Sections
 
 Section | Last Updated
