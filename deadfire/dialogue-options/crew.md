@@ -32,8 +32,6 @@ Count | Operator | Crew Count
 
 ## IsCrewJobRanks
 
-### IsCrewJobRanks
-
 Count | Job | Operator | Rank
 ---: | :--- | :--- | :---
 1 | Boatswain | `>` | 1
