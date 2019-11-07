@@ -3,24 +3,26 @@
 # Backgrounds
 ## IsBackground
 
-Count | Background
-:--- | :---
-21 | Aristocrat
-20 | Scientist
-19 | Mystic
-18 | Scholar
-17 | Mercenary
-14 | Philosopher
-12 | Merchant
-12 | Raider
-11 | Clergy
-10 | Explorer
-9 | Drifter
-9 | Slave
-8 | Dissident
-8 | Laborer
-7 | Hunter
-5 | Artist
-3 | Colonist
-2 | Soldier
-1 | Gentry
+### IsBackground
+
+Count | Character |  Background
+---: | :--- | :---
+22 | Watcher | Aristocrat
+6 | Watcher | Artist
+11 | Watcher | Clergy
+3 | Watcher | Colonist
+8 | Watcher | Dissident
+9 | Watcher | Drifter
+10 | Watcher | Explorer
+1 | Watcher | Gentry
+7 | Watcher | Hunter
+8 | Watcher | Laborer
+17 | Watcher | Mercenary
+12 | Watcher | Merchant
+19 | Watcher | Mystic
+14 | Watcher | Philosopher
+12 | Watcher | Raider
+18 | Watcher | Scholar
+20 | Watcher | Scientist
+9 | Watcher | Slave
+2 | Watcher | Soldier
