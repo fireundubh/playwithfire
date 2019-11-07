@@ -14,6 +14,6 @@ Section | Last Updated
 [Dispositions](/deadfire/dialogue-options/dispositions) | December 2, 2018
 [Genders](/deadfire/dialogue-options/genders) | December 2, 2018
 [Paladin Orders](/deadfire/dialogue-options/paladin-orders) | November 6, 2019
-[Races](/deadfire/dialogue-options/races) | December 2, 2018
+[Races](/deadfire/dialogue-options/races) | November 6, 2019
 [Reputations](/deadfire/dialogue-options/reputations) | December 2, 2018
 [Skills](/deadfire/dialogue-options/skills) | December 2, 2018
