@@ -27,15 +27,6 @@ Section | Last Updated
 [Reputations](/deadfire/dialogue-options/reputations) | December 2, 2018
 [Skills](/deadfire/dialogue-options/skills) | December 2, 2018
 
-## Gender
-
-### IsGender
-
-Count | Gender
---- | ---
-8 | Female
-4 | Male
-
 ## Paladin Orders
 
 ### IsPaladinOrder
