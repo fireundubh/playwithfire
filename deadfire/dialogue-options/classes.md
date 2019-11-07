@@ -3,42 +3,58 @@
 # Classes
 ## HasClass
 
-Count | Class | Character
-:--- | :--- | :---
-25 | Cipher | Watcher
-25 | Priest | Watcher
-24 | Druid | Watcher
-21 | Ranger | Watcher
-13 | Wizard | Watcher
-10 | Chanter | Watcher
-9 | Monk | Watcher
-7 | Paladin | Watcher
-5 | Rogue | Watcher
-3 | Barbarian | Watcher
-1	| Monk | Xoti
+Count | Character | Class
+---: | :--- | :---
+1 | Xoti | Monk
+3 | Watcher | Barbarian
+10 | Watcher | Chanter
+25 | Watcher | Cipher
+24 | Watcher | Druid
+9 | Watcher | Monk
+7 | Watcher | Paladin
+25 | Watcher | Priest
+21 | Watcher | Ranger
+5 | Watcher | Rogue
+14 | Watcher | Wizard
+
+### Context Options
+
+Count | Class
+---: | :---
+1 | Paladin
+1 | Priest
+2 | Barbarian
+2 | Druid
 
 ## HasSubclass
 
-Count | Subclass
-:--- | :---
-25 | Priest_Magran
-14 | Priest_Eothas
-13 | Ranger_GhostHeart
-12 | Priest_Berath
-9 | Paladin_GoldpactKnights
-7 | Priest_Wael
-6 | Priest_Skaen
-5 | Paladin_BleakWalkers
-4 | Paladin_TheShieldBearersOfStElcga
-4 | Rogue_Assassin
-3 | Paladin_KindWayfarers
-3 | Rogue_Trickster
-2 | Barbarian_CorpseEater
-1 | Chanter_Skald
-1 | Druid_Fury
-1 | Fighter_BlackJacket
-1 | Monk_Nalpazca
-1 | Paladin_TheSteelGarrote
-1 | Ranger_Stalker
-1 | Rogue_Streetfighter
-1 | Wizard_Enchanter
+Count | Character | Class | Subclass
+---: | :--- | :--- | :---
+2 | Watcher | Barbarian | Corpse Eater
+1 | Watcher | Chanter | Skald
+2 | Watcher | Druid | Fury
+1 | Watcher | Fighter | Black Jacket
+1 | Watcher | Monk | Nalpazca
+6 | Watcher | Paladin | Bleak Walkers
+9 | Watcher | Paladin | Goldpact Knights
+3 | Watcher | Paladin | Kind Wayfarers
+5 | Watcher | Paladin | The Shield Bearers of St. Elcga
+4 | Watcher | Paladin | The Steel Garrote
+15 | Watcher | Priest | Berath
+15 | Watcher | Priest | Eothas
+25 | Watcher | Priest | Magran
+6 | Watcher | Priest | Skaen
+7 | Watcher | Priest | Wael
+3 | Watcher | Priest | Woedica
+14 | Watcher | Ranger | Ghost Heart
+1 | Watcher | Ranger | Stalker
+6 | Watcher | Rogue | Assassin
+1 | Watcher | Rogue | Streetfighter
+3 | Watcher | Rogue | Trickster
+1 | Watcher | Wizard | Enchanter
+
+### Context Options
+
+Count | Class | Subclass
+---: | :--- | :---
+2 | Barbarian | Corpse Eater
