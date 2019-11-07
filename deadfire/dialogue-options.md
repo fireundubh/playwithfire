@@ -12,7 +12,7 @@ Section | Last Updated
 [Cultures](/deadfire/dialogue-options/cultures) | November 6, 2019
 [Deities](/deadfire/dialogue-options/deities) | November 6, 2019
 [Dispositions](/deadfire/dialogue-options/dispositions) | December 2, 2018
-[Genders](/deadfire/dialogue-options/genders) | December 2, 2018
+[Genders](/deadfire/dialogue-options/genders) | November 6, 2019
 [Paladin Orders](/deadfire/dialogue-options/paladin-orders) | November 6, 2019
 [Races](/deadfire/dialogue-options/races) | November 6, 2019
 [Reputations](/deadfire/dialogue-options/reputations) | December 2, 2018
