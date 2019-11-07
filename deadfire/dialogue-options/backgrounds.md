@@ -3,8 +3,6 @@
 # Backgrounds
 ## IsBackground
 
-### IsBackground
-
 Count | Character |  Background
 ---: | :--- | :---
 22 | Watcher | Aristocrat
