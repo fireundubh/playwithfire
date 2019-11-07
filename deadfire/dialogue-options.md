@@ -27,18 +27,6 @@ Section | Last Updated
 [Reputations](/deadfire/dialogue-options/reputations) | December 2, 2018
 [Skills](/deadfire/dialogue-options/skills) | December 2, 2018
 
-## Deities
-
-### IsDeity
-
-Count | Deity
---- | ---
-9 | Eothas
-5 | Magran
-4 | Skaen
-3 | Berath
-1 | Wael
-
 ## Disposition
 
 ### DispositionAddPoints
