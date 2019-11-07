@@ -3,10 +3,10 @@
 # Deities
 ## IsDeity
 
-Count | Deity
-:--- | :---
-9 | Eothas
-5 | Magran
-4 | Skaen
-3 | Berath
-1 | Wael
+Count | Character | Deity
+---: | :--- | :---
+3 | Watcher | Berath
+9 | Watcher | Eothas
+6 | Watcher | Magran
+4 | Watcher | Skaen
+1 | Watcher | Wael
