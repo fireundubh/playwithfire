@@ -10,7 +10,7 @@ Section | Last Updated
 [Companions](/deadfire/dialogue-options/companions) | December 2, 2018
 [Crew](/deadfire/dialogue-options/crew) | November 6, 2019
 [Cultures](/deadfire/dialogue-options/cultures) | November 6, 2019
-[Deities](/deadfire/dialogue-options/deities) | December 2, 2018
+[Deities](/deadfire/dialogue-options/deities) | November 6, 2019
 [Dispositions](/deadfire/dialogue-options/dispositions) | December 2, 2018
 [Genders](/deadfire/dialogue-options/genders) | December 2, 2018
 [Paladin Orders](/deadfire/dialogue-options/paladin-orders) | November 6, 2019
