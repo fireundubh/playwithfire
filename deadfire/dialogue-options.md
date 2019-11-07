@@ -1,7 +1,5 @@
 <!-- TITLE: Deadfire Dialogue Options Report-->
 # Dialogue Options Report
-Please note: These tables were created by hand, so they will not be updated for each patch unless I get around to automating table generation.
-
 ## Sections
 
 Section | Last Updated
