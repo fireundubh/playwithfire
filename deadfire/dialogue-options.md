@@ -5,7 +5,7 @@
 Section | Last Updated
 :--- | :---
 [Attributes](/deadfire/dialogue-options/attributes) | November 6, 2019
-[Backgrounds](/deadfire/dialogue-options/backgrounds) | December 2, 2018
+[Backgrounds](/deadfire/dialogue-options/backgrounds) | November 6, 2019
 [Classes](/deadfire/dialogue-options/classes) | December 2, 2018
 [Companions](/deadfire/dialogue-options/companions) | December 2, 2018
 [Crew](/deadfire/dialogue-options/crew) | December 2, 2018
