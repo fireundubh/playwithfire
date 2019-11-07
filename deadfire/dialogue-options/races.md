@@ -1,30 +1,44 @@
 <!-- TITLE: Races -->
 
 # Races
-### IsRace
+## IsRace
+
+Count | Character | Race
+---: | :--- | :---
+12 | Watcher | Aumaua
+19 | Watcher | Dwarf
+3 | Watcher | Elf
+49 | Watcher | Godlike
+2 | Watcher | Human
+35 | Watcher | Orlan
+
+### Context Options
 
 Count | Race
 ---: | :---
-44 | Godlike
-30 | Orlan
-17 | Dwarf
-10 | Aumaua
-3 | Elf
-2 | Human
+3 | Orlan
 
-### IsSubrace
+## IsSubrace
 
-Count | Subrace
----: | :---
-102 | Island_Aumaua
-31 | Fire_Godlike
-25 | Coastal_Aumaua
-25 | Death_Godlike
-11 | Moon_Godlike
-10 | Nature_Godlike
-9 | Boreal_Dwarf
-7 | Ocean_Human
-5 | Mountain_Dwarf
-5 | Snow_Elf
-2 | Meadow_Human
-1 | Wood_Elf
+Count | Character | Race | Subrace
+---: | :--- | :--- | :---
+28 | Watcher | Aumaua | Coastal Aumaua
+108 | Watcher | Aumaua | Island Aumaua
+10 | Watcher | Dwarf | Boreal Dwarf
+6 | Watcher | Dwarf | Mountain Dwarf
+6 | Watcher | Elf | Snow Elf
+1 | Watcher | Elf | Wood Elf
+31 | Watcher | Godlike | Death Godlike
+35 | Watcher | Godlike | Fire Godlike
+12 | Watcher | Godlike | Moon Godlike
+13 | Watcher | Godlike | Nature Godlike
+2 | Watcher | Human | Meadow Human
+8 | Watcher | Human | Ocean Human
+1 | Watcher | Orlan | Wild Orlan
+
+### Context Options
+
+Count | Race | Subrace
+---: | :--- | :---
+2 | Godlike | Death Godlike
+1 | Godlike | Moon Godlike
