@@ -18,7 +18,7 @@ Section | Last Updated
 [Classes](/deadfire/dialogue-options/classes) | December 2, 2018
 [Companions](/deadfire/dialogue-options/companions) | December 2, 2018
 [Crew](/deadfire/dialogue-options/crew) | December 2, 2018
-[Cultures](/deadfire/dialogue-options/culture) | December 2, 2018
+[Cultures](/deadfire/dialogue-options/cultures) | December 2, 2018
 [Deities](/deadfire/dialogue-options/deities) | December 2, 2018
 [Dispositions](/deadfire/dialogue-options/dispositions) | December 2, 2018
 [Genders](/deadfire/dialogue-options/genders) | December 2, 2018
