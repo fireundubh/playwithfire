@@ -3,7 +3,14 @@
 # Genders
 ## IsGender
 
+Count | Character | Gender
+---: | :--- | :---
+8 | Watcher | Female
+4 | Watcher | Male
+
+### Context Options
+
 Count | Gender
----: | :---
-8 | Female
-4 | Male
+---: |  :---
+33 | Female
+42 | Male
