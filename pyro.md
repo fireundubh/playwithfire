@@ -193,7 +193,7 @@ Short Argument | Long Argument |  Help
 
 Pyro is open source and licensed under the MIT License.
 
-BSArch is licensed under the MPL-2.0 license. The binary included in this repository and distributions of Pyro was compiled from the original unmodified source code available [here](https://github.com/ElminsterAU/xEdit/tree/master/Tools/BSArchive).
+BSArch is licensed under the MPL-2.0 license. The binary bundled with Pyro was compiled from the original unmodified source code available [here](https://github.com/ElminsterAU/xEdit/tree/master/Tools/BSArchive).
 
 
 ### Credits
