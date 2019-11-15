@@ -161,7 +161,7 @@ Simply add the `Anonymize` attribute to the `PapyrusProject` root element. Set t
 
 Python | Command
 :--- | :--
-CPython | `pip install pipenv`
+CPython | `pip install pipenv` or `python -m pip install pipenv`
 Anaconda | `conda install -c conda-forge pipenv`
 
 
