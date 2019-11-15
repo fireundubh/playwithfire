@@ -166,6 +166,11 @@ Simply add the `Anonymize` attribute to the `PapyrusProject` root element. Set t
 
 ## Contributing
 
+### Credits
+
+* fireundubh (lead developer)
+* rjstone (contributor)
+
 ### License
 
 Pyro is open source and licensed under the MIT License.
