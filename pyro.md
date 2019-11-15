@@ -155,19 +155,6 @@ Simply add the `Anonymize` attribute to the `PapyrusProject` root element. Set t
 
 ## Contributing
 
-### Credits
-
-* fireundubh (lead developer)
-* rjstone (contributor)
-
-
-### License
-
-Pyro is open source and licensed under the MIT License.
-
-BSArch is licensed under the MPL-2.0 license. The binary included in this repository and distributions of Pyro was compiled from the original unmodified source code available [here](https://github.com/ElminsterAU/xEdit/tree/master/Tools/BSArchive).
-
-
 ### Compiling
 
 First, install `pipenv`.
@@ -200,3 +187,16 @@ Short Argument | Long Argument |  Help
 `-p` | `--package-name` | Specifies package/executable name. Default: `pyro`.
 &mdash; | `--loose` | Skips ZIP generation. Useful for CI.
 &mdash; | `--mingw64` | Forces Nuitka to use mingw64. Not tested.
+
+
+### Licenses
+
+Pyro is open source and licensed under the MIT License.
+
+BSArch is licensed under the MPL-2.0 license. The binary included in this repository and distributions of Pyro was compiled from the original unmodified source code available [here](https://github.com/ElminsterAU/xEdit/tree/master/Tools/BSArchive).
+
+
+### Credits
+
+* fireundubh (lead developer)
+* rjstone (contributor)
