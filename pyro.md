@@ -27,6 +27,7 @@ Or build Pyro from source. Refer to the [Compiling](#compiling) section for deta
   - [Example PPJ Files](#example-ppj-files)
   - [IDE Integration](#ide-integration)
 - [Contributing](#contributing)
+  - [Credits](#credits) 
   - [License](#license)
   - [Compiling](#compiling)
 
