@@ -173,7 +173,7 @@ Anaconda | `conda install -c conda-forge pipenv` | &mdash;
 
 #### Run the Build Script
 
-The build process requires [Nuitka](https://nuitka.net/)  and the Visual Studio build tools. Nuitka was installed in the previous step.
+The build process requires [Nuitka](https://nuitka.net/)  and the [Visual Studio](https://visualstudio.microsoft.com/downloads/) build tools. Nuitka was installed in the previous step.
 
 Using the Developer Command Prompt for Visual Studio, change the CWD to the Pyro source folder and run:
 
