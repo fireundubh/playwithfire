@@ -159,10 +159,10 @@ Simply add the `Anonymize` attribute to the `PapyrusProject` root element. Set t
 
 #### Install Pipenv
 
-Python | Command
-:--- | :--
-CPython | `pip install pipenv` or `python -m pip install pipenv`
-Anaconda | `conda install -c conda-forge pipenv`
+Python | Command | Alternative Command
+:--- | :--- | :---
+CPython | `pip install pipenv` | `python -m pip install pipenv`
+Anaconda | `conda install -c conda-forge pipenv` | &mdash;
 
 
 #### Install Dependencies
