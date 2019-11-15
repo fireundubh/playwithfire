@@ -157,28 +157,32 @@ Simply add the `Anonymize` attribute to the `PapyrusProject` root element. Set t
 
 ### Compiling
 
-First, install `pipenv`.
+#### Install Pipenv
 
 Python | Command
 :--- | :--
 CPython | `pip install pipenv`
 Anaconda | `conda install -c conda-forge pipenv`
 
-Set up the pipenv environment:
 
-1. Change the current working directory to the Pyro source folder.
+#### Install Dependencies
+
+1. Change the current working directory (CWD) to the Pyro source folder.
 2. Run: `pipenv install`
 
-The build process uses [Nuitka](https://nuitka.net/) which will be installed in the project environment by pipenv. Nuitka will need **clang**, **mingw**, or **MSVC**. To use MSVC, you will need to use the Developer Command Prompt for a Nuitka-supported version of MSVC.
 
-Using the Developer Command Prompt, or any shell with access to development tools, run:
+#### Run the Build Script
 
-`pipenv run python build.py`
+The build process requires [Nuitka](https://nuitka.net/)  and the Visual Studio build tools. Nuitka was installed in the previous step.
 
-Executing this command will create a `pyro.dist` directory that contains the executable and required libraries and modules. A ZIP archive will be created in the `bin` folder.
+Using the Developer Command Prompt for Visual Studio, change the CWD to the Pyro source folder and run:
+
+`pipenv run python build.py` or `python build.py`
+
+Executing the build script will create a `pyro.dist` directory that contains the executable and required libraries and modules. A ZIP archive will be created in the `bin` folder.
 
 
-#### Build Script
+##### Build Script
 
 The build script has three arguments.
 
