@@ -2,11 +2,7 @@
 
 # Pyro
 
-Pyro is a semi-automated incremental build system for _Skyrim Classic_ (TESV), _Skyrim Special Edition_ (SSE), and _Fallout 4_ (FO4) projects. Pyro makes quick work of the process for creating new builds of mods for those games.
-
-Fundamentally, Pyro is a command-line interface (CLI) that parses customized Papyrus Project (PPJ) files into actionable data and passes that data to Bethesda Softworks' Papyrus Compiler and zilav's BSArch.
-
-Pyro automates most build tasks and can play a key role in an automated build and release pipeline. Pyro can also be integrated as an external tool within virtually any IDE, allowing modders to build their projects with a single hotkey.
+**Pyro** is a parallelized incremental build system for _Skyrim Classic_ (TESV), _Skyrim Special Edition_ (SSE), and _Fallout 4_ (FO4) projects. Pyro provides mod authors with an all-in-one tool for compiling Papyrus scripts, packaging BSA and BA2 archives, and preparing builds for distribution. Pyro can be integrated as an external tool into any IDE, allowing mod authors to "Instant Build" projects with a single hotkey.
 
 ## Binaries
 
@@ -16,6 +12,7 @@ Or build Pyro from source. Refer to the [Compiling](#compiling) section for deta
 
 ## Table of Contents
 
+- [Binaries](#binaries)
 - [Features](#features)
   - [Overview](#overview)
   - [Multiple Game Support](#multiple-game-support)
@@ -27,45 +24,40 @@ Or build Pyro from source. Refer to the [Compiling](#compiling) section for deta
   - [Example PPJ Files](#example-ppj-files)
   - [IDE Integration](#ide-integration)
 - [Contributing](#contributing)
-  - [Credits](#credits) 
-  - [License](#license)
   - [Compiling](#compiling)
+  - [Licenses](#licenses)
+  - [Credits](#credits) 
+
 
 
 ## Features
 
 ### Overview
 
-**Current Features**
-
-- Supports multiple games (TESV, SSE, FO4)
-- Supports Extended Papyrus Project XML (PPJ) documents
-- Incremental, parallelized PPJ builds
-- Automatically packages scripts _and_ non-script assets with BSArch
-- Anonymizes compiled scripts
-
-**Future Features**
-
-- Automatic generation of Extended PPJ files from folders and ZIP archives
-- Automatic generation of ZIP archives for distribution
-- Automatic parallelized generation of multiple BSA/BA2 archives
-- Support automated test assets
-- Support folder includes for automatically packaging non-script assets
-- Support YAML project files
+- Pyro brings [Papyrus Projects](https://www.creationkit.com/fallout4/index.php?title=Papyrus_Projects) to Skyrim and expands on the existing system for Fallout 4.
+- Pyro introduces the first incremental build system for Skyrim and Fallout 4 projects, significantly accelerating compilation, testing, and deployment.
+- Pyro parallelizes compilation, taking advantage of multi-core processors to compile multiple scripts simultaneously.
+- Pyro integrates with [BSArch](https://www.nexusmods.com/newvegas/mods/64745) to automatically package scripts and non-script assets into BSA and BA2 archives.
+- Pyro anonymizes compiled Papyrus scripts, removing identifying metadata added by the Papyrus Compiler.
 
 
 ### Multiple Game Support
 
-Pyro supports the TESV, SSE, and FO4 compilers.
+Pyro supports each version of the Papyrus Compiler for _Skyrim Classic_ (TESV), _Skyrim Special Edition_ (SSE), and _Fallout 4_ (FO4).
 
-When the game is switched, all paths are generated using the `Installed Path` key in the Windows Registry for the respective games.
+There are multiple ways to change the compiler version:
 
-You can also set a path explicitly with the `--game-path` argument if you are on a non-Windows platform.
+1. Use the `-g, --game-type` argument to specify one of these games: `fo4`, `sse`, or `tesv`.
+2. Use the `--game-path` argument to specify the path to where one of the above games is installed.
+3. Use the `--registry-path` argument to specify the value of the `Installed Path` key in the Windows Registry for the respective game.
+4. Add the `Game` attribute to the `<PapyrusProject>` element in your Papyrus Project file with one of these values: `fo4`, `sse`, or `tesv`.
 
 
 ### Extended PPJ Format
 
-The PPJ format was introduced with the FO4 version of the Papyrus Compiler, which was not backported to TESV and SSE. Pyro can parse all standard PPJ elements and attributes, in addition to several of its own, for TESV, SSE, and FO4 projects.
+The PPJ format was introduced with the Papyrus Compiler for *Fallout 4*, which was not backported to _Skyrim Classic_ and _Skyrim Special Edition_.
+
+Pyro can parse all standard PPJ elements and attributes, in addition to several of its own.
 
 
 #### Elements
@@ -83,26 +75,22 @@ Element | Support
 
 Element | Attribute | Data Type | Value
 :--- | :--- | :--- | :---
-PapyrusProject | Flags | String | file name with extension
-PapyrusProject | Game | String | game type: fo4, tesv, sse
-PapyrusProject | Output | String | absolute path to folder
-PapyrusProject | Optimize | Boolean | true or false
-PapyrusProject | Release | Boolean | true or false
-PapyrusProject | Final | Boolean | true or false
-PapyrusProject | Archive | String | absolute path to file name with extension
-PapyrusProject | CreateArchive | Boolean | true or false
-PapyrusProject | Anonymize | Boolean | true or false
-Folders | NoRecurse | Boolean | true or false
-Includes | Root | String | absolute path to folder
+`<PapyrusProject>` | `Flags` | String | file name with extension
+`<PapyrusProject>` | `Game` | String | game type: fo4, tesv, sse
+`<PapyrusProject>` | `Output` | String | absolute path to folder
+`<PapyrusProject>` | `Optimize` | Boolean | true or false
+`<PapyrusProject>` | `Release` | Boolean | true or false
+`<PapyrusProject>` | `Final` | Boolean | true or false
+`<PapyrusProject>` | `Archive` | String | absolute path to file name with extension
+`<PapyrusProject>` | `CreateArchive` | Boolean | true or false
+`<PapyrusProject>` | `Anonymize` | Boolean | true or false
+`<Folders>` | `NoRecurse` | Boolean | true or false
+`<Includes>` | `Root` | String | absolute path to folder
 
 
 ### Incremental Build with Parallelized Compilation
 
-Incremental build _vastly_ accelerates builds by compiling only scripts that need to be compiled.
-
-The incremental build system determines which PSC files to compile by comparing the last modified timestamp on PSC files with the compilation timestamps encoded in PEX files by the Papyrus Compiler.
-
-Pyro then builds commands to be passed to the Papyrus Compiler and spawn multiple instances of the Papyrus Compiler in parallel to further reduce build times.
+Incremental build _vastly_ accelerates builds by compiling only scripts that need to be compiled. The incremental build system determines which PSC files to compile by comparing the last modified timestamp on PSC files with the compilation timestamps encoded in PEX files by the Papyrus Compiler. Pyro then builds commands to be passed to the Papyrus Compiler and spawn multiple instances of the Papyrus Compiler in parallel to further reduce build times.
 
 
 #### Benchmarks
@@ -172,11 +160,13 @@ Simply add the `Anonymize` attribute to the `PapyrusProject` root element. Set t
 * fireundubh (lead developer)
 * rjstone (contributor)
 
+
 ### License
 
 Pyro is open source and licensed under the MIT License.
 
 BSArch is licensed under the MPL-2.0 license. The binary included in this repository and distributions of Pyro was compiled from the original unmodified source code available [here](https://github.com/ElminsterAU/xEdit/tree/master/Tools/BSArchive).
+
 
 ### Compiling
 
@@ -199,6 +189,7 @@ Using the Developer Command Prompt, or any shell with access to development tool
 `pipenv run python build.py`
 
 Executing this command will create a `pyro.dist` directory that contains the executable and required libraries and modules. A ZIP archive will be created in the `bin` folder.
+
 
 #### Build Script
 
