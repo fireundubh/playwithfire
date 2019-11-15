@@ -177,7 +177,9 @@ The build process requires [Nuitka](https://nuitka.net/)  and the [Visual Studio
 
 Using the Developer Command Prompt for Visual Studio, change the CWD to the Pyro source folder and run:
 
-`pipenv run python build.py` or `python build.py`
+Command | Alternative Command
+:--- | :---
+`python build.py` | `pipenv run python build.py`
 
 Executing the build script will create a `pyro.dist` directory that contains the executable and required libraries and modules. A ZIP archive will be created in the `bin` folder.
 
