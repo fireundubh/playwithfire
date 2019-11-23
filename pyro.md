@@ -72,7 +72,7 @@ The path to `bsarch.exe` should be automatically detected. If not, use the `--bs
 2. Add the `CreateArchive` attribute to the `PapyrusProject` node. Set the value to `True`.
 3. Compile as normal and the compiled scripts will be automatically packaged.
 
-**Note:** The `Archive` attribute supports both file and folder paths. For folder paths, the BSA/BA2 package will be named after the PPJ. For file paths with a `.bsa` or `.ba2` extension, the BSA/BA2 package will be named as given.
+**Note:** The `Archive` attribute supports both file and folder paths. For file paths with a `.bsa` or `.ba2` extension, the BSA/BA2 package will be named as given. For folder paths, the BSA/BA2 package will be named after the PPJ.
 
 #### Packaging other assets
 
