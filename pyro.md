@@ -72,8 +72,12 @@ Element | Attribute | Type | Value
 &nbsp; | `Final` | `bool` | `true|false` or `1|0` (FO4 only)
 &nbsp; | `CreateArchive` | `bool` | `true|false` or `1|0`
 &nbsp; | `Anonymize` | `bool` | `true|false` or `1|0`
+`Scripts` | | | 
+`Script` | | `str` | relative or absolute path to script to compile
 `Folders` | `NoRecurse` | `bool` | `true|false` or `1|0`
-`Includes` | `Root` | `str` | project-relative or absolute path to folder containing non-script files to include in BSA/BA2 file
+`Folder` | | `str` | relative or absolute path to folder containing scripts to compile
+`Includes` | `Root` | `str` | project-relative or absolute path to folder containing miscellaneous files to include in BSA/BA2 package
+`Include` | | `str` | `Root`-relative path to file to include in BSA/BA2 package
 
 ### Incremental Build with Parallelized Compilation
 
