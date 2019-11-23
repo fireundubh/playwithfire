@@ -58,27 +58,32 @@ However, there is no native PPJ compiler for TESV and SSE. Pyro fills that role.
 
 ### Automatic BSA/BA2 Packaging
 
-You can package scripts into BSA and BA2 archives with [BSArch](https://www.nexusmods.com/newvegas/mods/64745).
+You can package scripts into BSA and BA2 archives with [BSArch](https://www.nexusmods.com/newvegas/mods/64745), of which the latest version is included with Pyro.
 
-1. Copy `bsarch.exe` to the `pyro\tools` folder, if the file does not exist.
-2. The path to `bsarch.exe` should be automatically detected. If not, use the `--bsarch-path` argument to set the path.
-3. Add the `Archive` attribute to the `PapyrusProject` root element. Set the value to the absolute path to the destination BSA or BA2 archive.
-4. Add the `CreateArchive` attribute to the `PapyrusProject` root element. Set the value to `True`.
-5. Compile as normal and the compiled scripts will be automatically packaged.
+#### Installing BSArch
 
-To package arbitrary files, add the following block before the `</PapyrusProject>` end tag:
+If, for some reason, BSArch is not located in the `pyro\tools` folder, download BSArch from the above URL and extract the executable there.
+
+The path to `bsarch.exe` should be automatically detected. If not, use the `--bsarch-path` argument to set the path.
+
+#### Setting up projects for packaging
+
+1. Add the `Archive` attribute to the `PapyrusProject` node. Set the value to the relative or absolute path to the destination BSA or BA2 archive. You can use a folder path and the BSA/BA2 package will be named after the PPJ, but if you specify a file name with a `.bsa` or `.ba2` extension, the BSA/BA2 package will be named as given.
+2. Add the `CreateArchive` attribute to the `PapyrusProject` node. Set the value to `True`.
+3. Compile as normal and the compiled scripts will be automatically packaged.
+
+#### Packaging other assets
+
+To package arbitrary files, append the following block to the `PapyrusProject` tree:
 
 ```xml
-<Includes Root="{absolute path to includes root}">
+<Includes Root="{relative or absolute path to includes root}">
 	<Include>{relative path to file in includes root}</Include>
-	<Include>{...}</Include>
+	<Include NoRecurse="true">{relative path to folder in includes root}</Include>
 </Includes>
 ```
 
-Currently, folder includes are not supported.
-
-
-#### Notes
+#### Temporary files
 
 * A temporary folder will be created and deleted at a default temporary path or path specified by `--temp-path`.
 * The compiled scripts and any arbitrary includes to be packaged will be copied to the temporary folder.
