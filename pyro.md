@@ -60,11 +60,13 @@ However, there is no native PPJ compiler for TESV and SSE. Pyro fills that role.
 
 You can package scripts and other files into BSA and BA2 archives with [BSArch](https://www.nexusmods.com/newvegas/mods/64745), of which the latest unmodified version is included with Pyro under the MPL 2.0 license.
 
+
 #### Installing BSArch
 
 If, for some reason, BSArch is not located in the `pyro\tools` folder, download BSArch from the above URL and extract the executable there.
 
 The path to `bsarch.exe` should be automatically detected. If not, use the `--bsarch-path` argument to set the path.
+
 
 #### Setting up projects for packaging
 
@@ -72,7 +74,10 @@ The path to `bsarch.exe` should be automatically detected. If not, use the `--bs
 2. Add the `CreateArchive` attribute to the `PapyrusProject` node. Set the value to `True`.
 3. Compile as normal and the compiled scripts will be automatically packaged.
 
-**Note:** The `Archive` attribute supports both file and folder paths. For file paths with a `.bsa` or `.ba2` extension, the BSA/BA2 package will be named as given. For folder paths, the BSA/BA2 package will be named after the PPJ.
+**Note 1:** The `Archive` attribute supports both file and folder paths. For file paths with a `.bsa` or `.ba2` extension, the BSA/BA2 package will be named as given. For folder paths, the BSA/BA2 package will be named after the PPJ.
+
+**Note 2:** The `CreateArchive` attribute currently defaults to `True`, meaning Pyro will always try to create a package.
+
 
 #### Packaging other assets
 
@@ -85,20 +90,21 @@ To package arbitrary files, append the following block to the `PapyrusProject` t
 </Includes>
 ```
 
+
 #### Temporary files
 
-* A temporary folder will be created and deleted at a default temporary path or path specified by `--temp-path`.
-* The compiled scripts and any arbitrary includes to be packaged will be copied to the temporary folder.
-* The temporary folder will be removed if the procedure is successful.
+The packaging system uses a default temporary folder, or a folder specified by `--temp-path`, where compiled scripts and includes are copied. BSArch uses this path to build a BSA/BA2 package.
 
 
 ### Script Anonymization
 
-When a script is compiled, your system username and computer name are embedded in the binary header. This information can be revealed with a hex editor or decompiler. If your username is your real name, or you are concerned about targeted attacks using your system login, leaving this information intact can present security and/or privacy risks.
+When the Papyrus Compiler compiles a script is compiled, your system username and computer name are embedded in the header. This data can be easily retrieved using a hex editor or a Papyrus decompiler, such as Champollion. The sharing of this data could put at risk your security or privacy. Pyro replaces those strings in compiled scripts with random letters, effectively anonymizing compiled scripts.
 
-Pyro replaces those strings in compiled scripts with random letters, effectively anonymizing compiled scripts.
+#### Setting up projects for anonymization
 
-Simply add the `Anonymize` attribute to the `PapyrusProject` root element. Set the value to `True`.
+Simply add the `Anonymize` attribute to the `PapyrusProject` node and set the value to `True`.
+
+**Note:** The `Anonymize` attribute currently defaults to `True`, meaning Pyro will always anonymize compiled scripts.
 
 
 ## Resources
