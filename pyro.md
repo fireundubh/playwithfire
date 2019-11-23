@@ -104,8 +104,8 @@ You can package scripts into BSA and BA2 archives with [BSArch](https://www.nexu
 To package arbitrary files, add the following block before the `</PapyrusProject>` end tag:
 
 ```xml
-<Includes Root="{absolute path to project root}">
-	<Include>{relative path to file in project root}</Include>
+<Includes Root="{absolute path to includes root}">
+	<Include>{relative path to file in includes root}</Include>
 	<Include>{...}</Include>
 </Includes>
 ```
@@ -181,9 +181,8 @@ The build script has three arguments.
 
 Short Argument | Long Argument |  Help
 :--- | :--- | :---
-`-p` | `--package-name` | Specifies package/executable name. Default: `pyro`.
-&mdash; | `--loose` | Skips ZIP generation. Useful for CI.
-&mdash; | `--mingw64` | Forces Nuitka to use mingw64. Not tested.
+&mdash; | `--no-zip` | Skips ZIP generation. Useful for CI.
+&mdash; | `--vcvars64-path` | Path to Visual Studio Developer Command Prompt (x64)
 
 
 ### Licenses
@@ -197,3 +196,4 @@ BSArch is licensed under the MPL-2.0 license. The binary bundled with Pyro was c
 
 * fireundubh (lead developer)
 * rjstone (contributor)
+* xnyo (contributor)
