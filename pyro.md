@@ -6,7 +6,9 @@
 
 ## Binaries
 
-Latest build: [![](https://github.com/fireundubh/pyro/workflows/GitHub%20CI/badge.svg)](https://github.com/fireundubh/pyro/actions)
+Latest build from master branch:
+
+[![](https://github.com/fireundubh/pyro/workflows/GitHub%20CI/badge.svg)](https://github.com/fireundubh/pyro/actions)
 
 Or build Pyro from source. Refer to the [Compiling](#compiling) section for details.
 
@@ -189,7 +191,7 @@ Short Argument | Long Argument |  Help
 
 Pyro is open source and licensed under the MIT License.
 
-BSArch is licensed under the MPL-2.0 license. The binary bundled with Pyro was compiled from the original unmodified source code available [here](https://github.com/ElminsterAU/xEdit/tree/master/Tools/BSArchive).
+BSArch is licensed under the MPL 2.0 license. The binary bundled with Pyro was compiled from the original unmodified source code available [here](https://github.com/ElminsterAU/xEdit/tree/master/Tools/BSArchive).
 
 
 ### Credits
