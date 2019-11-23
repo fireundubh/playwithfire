@@ -55,31 +55,14 @@ There are multiple ways to change the compiler version:
 4. Add the `Game` attribute to the `<PapyrusProject>` element in your Papyrus Project file with one of these values: `fo4`, `sse`, or `tesv`.
 
 
-### Extended PPJ Format
+### Extended Papyrus Project Format
 
-The PPJ format was introduced with the Papyrus Compiler for *Fallout 4*, which was not backported to _Skyrim Classic_ and _Skyrim Special Edition_.
+Bethesda Softworks introduced the Papyrus Project (PPJ) format with the Papyrus Compiler for *Fallout 4*. The compilers for _Skyrim Classic_ and _Skyrim Special Edition_ do not support the format.
 
-Pyro can parse all standard PPJ elements and attributes, in addition to several of its own.
+Pyro supports all core PPJ elements and attributes. The PPJ format has also been extended to support features unique to Pyro.
 
-#### Supported Elements and Attributes
+For details, refer to Pyro's [PapyrusProject XML Schema Definition](https://github.com/fireundubh/pyro/blob/master/pyro/PapyrusProject.xsd).
 
-Element | Attribute | Type | Value
-:--- | :--- | :--- | :---
-`PapyrusProject` | `xmlns` | `str` | program-relative path to XML Schema Document (XSD)
-&nbsp; | `Game` | `str` | case-insensitive choices: `sse`, `tesv`, `fo4`
-&nbsp; | `Output` | `str` | relative or absolute path to compilation output folder
-&nbsp; | `Archive` | `str` | relative or absolute path to output BSA/BA2 file or folder
-&nbsp; | `Optimize` | `bool` | `true|false` or `1|0`
-&nbsp; | `Release` | `bool` | `true|false` or `1|0` (FO4 only)
-&nbsp; | `Final` | `bool` | `true|false` or `1|0` (FO4 only)
-&nbsp; | `CreateArchive` | `bool` | `true|false` or `1|0`
-&nbsp; | `Anonymize` | `bool` | `true|false` or `1|0`
-`Scripts` | | | 
-`Script` | | `str` | relative or absolute path to script to compile
-`Folders` | `NoRecurse` | `bool` | `true|false` or `1|0`
-`Folder` | | `str` | relative or absolute path to folder containing scripts to compile
-`Includes` | `Root` | `str` | project-relative or absolute path to folder containing miscellaneous files to include in BSA/BA2 package
-`Include` | | `str` | `Root`-relative path to file to include in BSA/BA2 package
 
 ### Incremental Build with Parallelized Compilation
 
