@@ -59,7 +59,7 @@ Node | Attribute | Type | Default Value
 `PapyrusProject` | `CreateArchive` | `bool` | `true`
 `PapyrusProject` | `Anonymize` | `bool` | `true`
 `Folder` | `NoRecurse` | `bool` | `false`
-`Includes` | `Root` | `str` | `{program_path}`
+`Includes` | `Root` | `str` | `{program_path}\`
 `Include` | `NoRecurse` | `bool` | `false`
 
 
