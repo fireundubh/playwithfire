@@ -68,9 +68,11 @@ The path to `bsarch.exe` should be automatically detected. If not, use the `--bs
 
 #### Setting up projects for packaging
 
-1. Add the `Archive` attribute to the `PapyrusProject` node. Set the value to the relative or absolute path to the destination BSA/BA2 archive. You can use a folder path and the BSA/BA2 package will be named after the PPJ, but if you specify a file name with a `.bsa` or `.ba2` extension, the BSA/BA2 package will be named as given.
+1. Add the `Archive` attribute to the `PapyrusProject` node. Set the value to the relative or absolute path to the destination BSA/BA2 archive.
 2. Add the `CreateArchive` attribute to the `PapyrusProject` node. Set the value to `True`.
 3. Compile as normal and the compiled scripts will be automatically packaged.
+
+**Note:** The `Archive` attribute supports both file and folder paths. For folder paths, the BSA/BA2 package will be named after the PPJ. For file paths with a `.bsa` or `.ba2` extension, the BSA/BA2 package will be named as given.
 
 #### Packaging other assets
 
