@@ -43,6 +43,25 @@ Pyro supports all PPJ elements and attributes used by the Papyrus Compiler. The 
 
 **Note:** The `Asm` attribute of the `PapyrusProject` node is ignored by Pyro. The Papyrus Compiler uses this attribute to call the Papyrus Assembler but generating assembly files for Papyrus scripts is out-of-scope for Pyro.
 
+#### Attribute Defaults
+
+All attributes are optional, if the default values are desired.
+
+Node | Attribute | Type | Default Value
+:--- | :--- | :--- | :---
+`PapyrusProject` | `Game` | `str` | (determined programmatically)
+`PapyrusProject` | `Output` | `str` | `{program_path}\out`
+`PapyrusProject` | `Archive` | `str` | `{program_path}\dist`
+`PapyrusProject` | `Flags` | `str` | (determined programmatically from game path)
+`PapyrusProject` | `Optimize` | `bool` | `false`
+`PapyrusProject` | `Release` (FO4 only) | `bool` | `false`
+`PapyrusProject` | `Final` (FO4 only) | `bool` | `false`
+`PapyrusProject` | `CreateArchive` | `bool` | `true`
+`PapyrusProject` | `Anonymize` | `bool` | `true`
+`Folder` | `NoRecurse` | `bool` | `false`
+`Includes` | `Root` | `str` | `{program_path}`
+`Include` | `NoRecurse` | `bool` | `false`
+
 
 ### Incremental Build with Parallelized Compilation
 
