@@ -31,7 +31,7 @@ There are multiple ways to change the compiler version:
 
 1. Use the `-g, --game-type` argument to specify one of these games: `fo4`, `sse`, or `tesv`.
 2. Use the `--game-path` argument to specify the path to where one of the above games is installed.
-3. Use the `--registry-path` argument to specify the value of the `Installed Path` key in the Windows Registry for the respective game.
+3. Use the `--registry-path` argument to specify the path to the `Installed Path` key in the Windows Registry for the respective game.
 4. Add the `Game` attribute to the `<PapyrusProject>` element in your Papyrus Project file with one of these values: `fo4`, `sse`, or `tesv`.
 
 
