@@ -59,34 +59,21 @@ The PPJ format was introduced with the Papyrus Compiler for *Fallout 4*, which w
 
 Pyro can parse all standard PPJ elements and attributes, in addition to several of its own.
 
+#### Supported Elements and Attributes
 
-#### Elements
-
-Element | Support
-:--- | :---
-`<PapyrusProject>` | This element and its `Flags`, `Output`, `Optimize`, `Release` (FO4 only), and `Final` (FO4 only) attributes are supported. The new `Archive`, `CreateArchive`, and `Anonymize` attributes are also required.
-`<Imports>` | This element and its children `<Import>` contain absolute paths to a game's base scripts, a mod's user scripts, and third-party SDK scripts.
-`<Scripts>` | This element and its children `<Script>` contain absolute or relative paths to a mod's user scripts.
-`<Folders>` | This element and its children `<Folder>` contain absolute or relative paths to folders containing a mod's user scripts. The parent element's `NoRecurse` attribute is also supported.
-`<Includes>` | This new element and its children `<Include>` contain relative paths to arbitrary files to be packaged in the mod's BSA or BA2 archive. The parent element has a `Root` attribute that contains the absolute path to the root of the relative Include paths.
-
-
-#### Attributes
-
-Element | Attribute | Data Type | Value
+Element | Attribute | Type | Value
 :--- | :--- | :--- | :---
-`<PapyrusProject>` | `Flags` | String | file name with extension
-`<PapyrusProject>` | `Game` | String | game type: fo4, tesv, sse
-`<PapyrusProject>` | `Output` | String | absolute path to folder
-`<PapyrusProject>` | `Optimize` | Boolean | true or false
-`<PapyrusProject>` | `Release` | Boolean | true or false
-`<PapyrusProject>` | `Final` | Boolean | true or false
-`<PapyrusProject>` | `Archive` | String | absolute path to file name with extension
-`<PapyrusProject>` | `CreateArchive` | Boolean | true or false
-`<PapyrusProject>` | `Anonymize` | Boolean | true or false
-`<Folders>` | `NoRecurse` | Boolean | true or false
-`<Includes>` | `Root` | String | absolute path to folder
-
+`PapyrusProject` | `xmlns` | `str` | program-relative path to XML Schema Document (XSD)
+&nbsp; | `Optimize` | `bool` | `true|false` or `1|0`
+&nbsp; | `Release` | `bool` | `true|false` or `1|0` (FO4 only)
+&nbsp; | `Final` | `bool` | `true|false` or `1|0` (FO4 only)
+&nbsp; | `CreateArchive` | `bool` | `true|false` or `1|0`
+&nbsp; | `Anonymize` | `bool` | `true|false` or `1|0`
+&nbsp; | `Game` | `str` | case-insensitive choices: `sse`, `tesv`, `fo4`
+&nbsp; | `Output` | `str` | relative or absolute path to compilation output folder
+&nbsp; | `Archive` | `str` | relative or absolute path to output BSA/BA2 file or folder
+`Folders` | `NoRecurse` | `bool` | `true|false` or `1|0`
+`Includes` | `Root` | `str` | project-relative or absolute path to folder containing non-script files to include in BSA/BA2 file
 
 ### Incremental Build with Parallelized Compilation
 
