@@ -12,26 +12,6 @@ Latest build from master branch:
 
 Or build Pyro from source. Refer to the [Compiling](#compiling) section for details.
 
-## Table of Contents
-
-- [Binaries](#binaries)
-- [Features](#features)
-  - [Overview](#overview)
-  - [Multiple Game Support](#multiple-game-support)
-  - [Extended PPJ Format](#extended-ppj-format)
-  - [Incremental Build with Parallelized Compilation](#incremental-build-with-parallelized-compilation)
-  - [Automatic BSA/BA2 Packaging](#automatic-bsaba2-packaging)
-  - [Script Anonymization](#script-anonymization)
-- [Resources](#resources)
-  - [Example PPJ Files](#example-ppj-files)
-  - [IDE Integration](#ide-integration)
-- [Contributing](#contributing)
-  - [Compiling](#compiling)
-  - [Licenses](#licenses)
-  - [Credits](#credits) 
-
-
-
 ## Features
 
 ### Overview
