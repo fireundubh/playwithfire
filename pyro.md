@@ -41,7 +41,7 @@ Bethesda Game Studios introduced the Papyrus Project (PPJ) format with the Papyr
 
 Pyro supports all core PPJ elements and attributes. The PPJ format has also been extended to support features unique to Pyro.
 
-For details, refer to Pyro's [PapyrusProject XML Schema Definition](https://github.com/fireundubh/pyro/blob/master/pyro/PapyrusProject.xsd).
+For details, refer to Pyro's [Papyrus Project XML Schema Definition](https://github.com/fireundubh/pyro/blob/master/pyro/PapyrusProject.xsd).
 
 
 ### Incremental Build with Parallelized Compilation
