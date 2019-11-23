@@ -58,7 +58,7 @@ However, there is no native PPJ compiler for TESV and SSE. Pyro fills that role.
 
 ### Automatic BSA/BA2 Packaging
 
-You can package scripts into BSA and BA2 archives with [BSArch](https://www.nexusmods.com/newvegas/mods/64745), of which the latest version is included with Pyro under the MPL 2.0 license.
+You can package scripts into BSA and BA2 archives with [BSArch](https://www.nexusmods.com/newvegas/mods/64745), of which the latest unmodified version is included with Pyro under the MPL 2.0 license.
 
 #### Installing BSArch
 
