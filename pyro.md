@@ -64,14 +64,14 @@ Pyro can parse all standard PPJ elements and attributes, in addition to several 
 Element | Attribute | Type | Value
 :--- | :--- | :--- | :---
 `PapyrusProject` | `xmlns` | `str` | program-relative path to XML Schema Document (XSD)
+&nbsp; | `Game` | `str` | case-insensitive choices: `sse`, `tesv`, `fo4`
+&nbsp; | `Output` | `str` | relative or absolute path to compilation output folder
+&nbsp; | `Archive` | `str` | relative or absolute path to output BSA/BA2 file or folder
 &nbsp; | `Optimize` | `bool` | `true|false` or `1|0`
 &nbsp; | `Release` | `bool` | `true|false` or `1|0` (FO4 only)
 &nbsp; | `Final` | `bool` | `true|false` or `1|0` (FO4 only)
 &nbsp; | `CreateArchive` | `bool` | `true|false` or `1|0`
 &nbsp; | `Anonymize` | `bool` | `true|false` or `1|0`
-&nbsp; | `Game` | `str` | case-insensitive choices: `sse`, `tesv`, `fo4`
-&nbsp; | `Output` | `str` | relative or absolute path to compilation output folder
-&nbsp; | `Archive` | `str` | relative or absolute path to output BSA/BA2 file or folder
 `Folders` | `NoRecurse` | `bool` | `true|false` or `1|0`
 `Includes` | `Root` | `str` | project-relative or absolute path to folder containing non-script files to include in BSA/BA2 file
 
