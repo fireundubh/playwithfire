@@ -37,7 +37,7 @@ There are multiple ways to change the compiler version:
 
 ### Extended Papyrus Project Format
 
-Bethesda Softworks introduced the Papyrus Project (PPJ) format with the Papyrus Compiler for *Fallout 4*. The compilers for _Skyrim Classic_ and _Skyrim Special Edition_ do not support the format.
+Bethesda Game Studios introduced the Papyrus Project (PPJ) format with the Papyrus Compiler for *Fallout 4*. The compilers for _Skyrim Classic_ and _Skyrim Special Edition_ do not support the format.
 
 Pyro supports all core PPJ elements and attributes. The PPJ format has also been extended to support features unique to Pyro.
 
