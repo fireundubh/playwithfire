@@ -19,8 +19,10 @@ Or build Pyro from source. Refer to the [Compiling](#compiling) section for deta
 - Pyro brings [Papyrus Projects](https://www.creationkit.com/fallout4/index.php?title=Papyrus_Projects) to Skyrim and expands on the existing system for Fallout 4.
 - Pyro introduces the first incremental build system for Skyrim and Fallout 4 projects, significantly accelerating compilation, testing, and deployment.
 - Pyro parallelizes compilation, taking advantage of multi-core processors to compile multiple scripts simultaneously.
-- Pyro integrates with [BSArch](https://www.nexusmods.com/newvegas/mods/64745) to automatically package scripts and non-script assets into BSA and BA2 archives.
-- Pyro anonymizes compiled Papyrus scripts, removing identifying metadata added by the Papyrus Compiler.
+- Pyro can anonymize compiled Papyrus scripts, removing identifying metadata added by the Papyrus Compiler.
+- Pyro can automatically create multiple BSA and BA2 packages using [BSArch](https://www.nexusmods.com/newvegas/mods/64745).
+- Pyro can automatically create a ZIP archive of user-defined files.
+- Pyro supports variable substitution in Papyrus Projects.
 
 
 ### Multiple Game Support
@@ -94,55 +96,98 @@ The native PPJ compiler for FO4 is on average 70 ms faster per script. Tested wi
 However, there is no native PPJ compiler for TESV and SSE. Pyro fills that role.
 
 
-### Automatic BSA/BA2 Packaging
+### Script Anonymization
+
+When the Papyrus Compiler compiles a script is compiled, your system username and computer name are embedded in the header. This data can be easily retrieved using a hex editor or a Papyrus decompiler, such as Champollion. The sharing of this data could put at risk your security or privacy. Pyro replaces those strings in compiled scripts with random letters, effectively anonymizing compiled scripts.
+
+Simply add the `Anonymize` attribute to the `PapyrusProject` node and set the value to `True`.
+
+
+### BSA/BA2 Packaging
 
 You can package scripts and other files into BSA and BA2 archives with [BSArch](https://www.nexusmods.com/newvegas/mods/64745), of which the latest unmodified version is included with Pyro under the MPL 2.0 license.
 
+To install BSArch:
 
-#### Installing BSArch
+1. If, for some reason, BSArch is not located in the `pyro\tools` folder, download BSArch from the above URL and extract the executable there.
+2. The path to `bsarch.exe` should be automatically detected. If not, use the `--bsarch-path` argument to set the path.
 
-If, for some reason, BSArch is not located in the `pyro\tools` folder, download BSArch from the above URL and extract the executable there.
+To configure packages:
 
-The path to `bsarch.exe` should be automatically detected. If not, use the `--bsarch-path` argument to set the path.
-
-
-#### Setting up projects for packaging
-
-1. Add the `Archive` attribute to the `PapyrusProject` node. Set the value to the relative or absolute path to the destination BSA/BA2 archive.
-2. Add the `CreateArchive` attribute to the `PapyrusProject` node. Set the value to `True`.
-3. Compile as normal and the compiled scripts will be automatically packaged.
-
-**Note 1:** The `Archive` attribute supports both file and folder paths. For file paths with a `.bsa` or `.ba2` extension, the BSA/BA2 package will be named as given. For folder paths, the BSA/BA2 package will be named after the PPJ.
-
-**Note 2:** The `CreateArchive` attribute currently defaults to `True`, meaning Pyro will always try to create a package.
-
-
-#### Packaging other assets
-
-To package arbitrary files, append the following block to the `PapyrusProject` tree:
+1. Add the `Package` attribute to the `PapyrusProject` node. Set the value to `true`.
+2. Add a `Packages` node block, defining as many `Package` nodes as needed. See below:
 
 ```xml
-<Includes Root="{relative or absolute path to includes root}">
-	<Include>{relative path to file in includes root}</Include>
-	<Include NoRecurse="true">{relative path to folder in includes root}</Include>
-</Includes>
+<Packages Output="{relative or absolute path to output folder where BSA/BA2 packages will be written}">
+  <Package Name="{file name}" RootDir="{required - relative or absolute path to folder containing files or folders to include}">
+    <Include>{relative or absolute path to file or folder in RootDir, or simple glob pattern}</Include>
+    <Include NoRecurse="true">scripts</Include>
+    <Include NoRecurse="false">**/*.txt</Include>
+  </Package>
+  <Package Name="{file name}" RootDir="{required - relative or absolute path to folder containing includes}">
+    <Include NoRecurse="false">**/*.dds</Include>
+  </Package>
+</Packages>
 ```
-
 
 #### Temporary files
 
 The packaging system uses a default temporary folder, or a folder specified by `--temp-path`, where compiled scripts and includes are copied. BSArch uses this path to build a BSA/BA2 package.
 
 
-### Script Anonymization
+### Zipping
 
-When the Papyrus Compiler compiles a script is compiled, your system username and computer name are embedded in the header. This data can be easily retrieved using a hex editor or a Papyrus decompiler, such as Champollion. The sharing of this data could put at risk your security or privacy. Pyro replaces those strings in compiled scripts with random letters, effectively anonymizing compiled scripts.
+Pyro can create a ZIP archive containing any files defined in the `ZipFile` node block.
 
-#### Setting up projects for anonymization
+To configure the ZIP archive:
 
-Simply add the `Anonymize` attribute to the `PapyrusProject` node and set the value to `True`.
+1. Add the `Zip` attribute to the `PapyrusProject` node. Set the value to `true`.
+2. Add a `ZipFile` node block, defining as many `Include` nodes as needed. See below:
 
-**Note:** The `Anonymize` attribute currently defaults to `True`, meaning Pyro will always anonymize compiled scripts.
+```xml
+<ZipFile
+  Name="{file name}"
+  RootDir="{required - relative or absolute path to folder containing files or folders to include}"
+  Output="{relative or absolute path to output folder where ZIP file will be written}"
+  Compression="{choices: 'store' or 'deflate' compression}">
+  <Include>{relative or absolute path to file or folder in RootDir, or simple glob pattern}</Include>
+  <Include>MyProject.esp</Include>
+  <Include NoRecurse="true">*.bsa</Include>
+</ZipFile>
+```
+
+
+### Variable Substitution
+
+Pyro can substitute variables with defined values in PPJ paths and string attributes.
+
+To configure variables:
+
+1. Add a `Variables` node block.
+2. Add as many `Variable` nodes to that block as needed.
+
+For example:
+
+```xml
+<Variables>
+  <Variable Name="namespace" Value="Master of Disguise"/>
+  <Variable Name="modname" Value="Master of Disguise - Special Edition"/>
+  <Variable Name="myproject" Value="E:\projects\skyrim\Master of Disguise - Special Edition"/>
+</Variables>
+```
+
+Variables are prefixed with the `@` symbol. The `Name` and `Value` attributes are required.
+
+You can then replace values throughout the project file with variable names:
+
+```xml
+<ZipFile Name="@modname" RootDir="@myproject" Output="@myproject" Compression="deflate">
+  <Include>@myproject\@modname.esp</Include>
+  <Include NoRecurse="true">*.bsa</Include>
+</ZipFile>
+```
+
+Pyro will expand those variables when the project is loaded.
 
 
 ## Resources
