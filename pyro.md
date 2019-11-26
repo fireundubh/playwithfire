@@ -43,7 +43,9 @@ Pyro supports all PPJ elements and attributes used by the Papyrus Compiler. The 
 
 **Note:** The `Asm` attribute of the `PapyrusProject` node is ignored by Pyro. The Papyrus Compiler uses this attribute to call the Papyrus Assembler but generating assembly files for Papyrus scripts is out-of-scope for Pyro.
 
-#### PapyrusProject Attribute Defaults
+#### Attribute Defaults
+
+##### PapyrusProject
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
@@ -56,13 +58,13 @@ Node | Attribute | Type | Default Value
 `PapyrusProject` | `Anonymize` | `bool` | `false`
 `PapyrusProject` | `Package` | `bool` | `false`
 
-#### Folder Attribute Defaults
+##### Folder
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
 `Folder` | `NoRecurse` | `bool` | `false`
 
-#### Packages Attribute Defaults
+##### Packages
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
@@ -71,7 +73,7 @@ Node | Attribute | Type | Default Value
 `Package` | `RootDir` | `str` | Path to the project folder 
 `Include` | `NoRecurse`  | `bool` | `false`
 
-#### ZipFile Attribute Defaults
+##### ZipFile
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
