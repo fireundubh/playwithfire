@@ -227,7 +227,7 @@ Pyro will expand those variables when the project is loaded.
                                    P  Y  R  O                                   
 ----------------------------------------------------- github.com/fireundubh/pyro
 
-usage: pyro.exe [-i] [--no-incremental-build] [--no-parallel]
+usage: pyro.exe    [-i] [--no-incremental-build] [--no-parallel]
                    [--worker-limit] [--compiler-path] [--flags-path]
                    [--output-path] [-g {tesv,sse,fo4}]
                    [--game-path  | --registry-path ] [--bsarch-path]
