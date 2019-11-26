@@ -12,7 +12,7 @@
   - [Extended PPJ Format](#extended-papyrus-project-format)
   - [Incremental Build with Parallelized Compilation](#incremental-build-with-parallelized-compilation)
   - [Script Anonymization](#script-anonymization)
-  - [BSA/BA2 Packaging](#bsaba2-packaging)
+  - [BSA/BA2 Packaging](#bsa-ba2-packaging)
   - [Zipping](#zipping)
   - [Variable Substitution](#variable-substitution)
 - [Resources](#resources)
