@@ -111,10 +111,14 @@ Simply add the `Anonymize` attribute to the `PapyrusProject` node and set the va
 
 You can package scripts and other files into BSA and BA2 archives with [BSArch](https://www.nexusmods.com/newvegas/mods/64745), of which the latest unmodified version is included with Pyro under the MPL 2.0 license.
 
+#### Installing BSArch
+
 To install BSArch:
 
 1. If, for some reason, BSArch is not located in the `pyro\tools` folder, download BSArch from the above URL and extract the executable there.
 2. The path to `bsarch.exe` should be automatically detected. If not, use the `--bsarch-path` argument to set the path.
+
+#### Configuring Packages
 
 To configure packages:
 
@@ -143,6 +147,8 @@ The packaging system uses a default temporary folder, or a folder specified by `
 
 Pyro can create a ZIP archive containing any files defined in the `ZipFile` node block.
 
+#### Configuring ZipFile
+
 To configure the ZIP archive:
 
 1. Add the `Zip` attribute to the `PapyrusProject` node. Set the value to `true`.
@@ -164,6 +170,8 @@ To configure the ZIP archive:
 ### Variable Substitution
 
 Pyro can substitute variables with defined values in PPJ paths and string attributes.
+
+#### Configuring Variables
 
 To configure variables:
 
