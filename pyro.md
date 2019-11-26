@@ -220,6 +220,65 @@ You can then replace values throughout the project file with variable names:
 Pyro will expand those variables when the project is loaded.
 
 
+## Command Line Arguments
+
+```
+--------------------------------------------------------------------------------
+                                   P  Y  R  O                                   
+----------------------------------------------------- github.com/fireundubh/pyro
+
+usage: pyro.exe [-i] [--no-incremental-build] [--no-parallel]
+                   [--worker-limit] [--compiler-path] [--flags-path]
+                   [--output-path] [-g {tesv,sse,fo4}]
+                   [--game-path  | --registry-path ] [--bsarch-path]
+                   [--package-path] [--temp-path]
+                   [--zip-compression {deflate,store}] [--zip-output-path]
+                   [--log-path] [--help]
+
+required arguments:
+  -i, --input-path        relative or absolute path to ppj file
+                          (if relative, must be relative to current working directory)
+
+build arguments:
+  --no-incremental-build  do not build incrementally
+  --no-parallel           do not parallelize compilation
+  --worker-limit          max workers for parallel compilation
+                          (usually set automatically to processor count)
+
+compiler arguments:
+  --compiler-path         relative or absolute path to PapyrusCompiler.exe
+                          (if relative, must be relative to current working directory)
+  --flags-path            relative or absolute path to Papyrus Flags file
+                          (if relative, must be relative to project)
+  --output-path           relative or absolute path to output folder
+                          (if relative, must be relative to project)
+
+game arguments:
+  -g, --game-type         set game type (choices: fo4, tesv, sse)
+  --game-path             relative or absolute path to game install directory
+                          (if relative, must be relative to current working directory)
+  --registry-path         path to Installed Path key in Windows Registry
+
+bsarch arguments:
+  --bsarch-path           relative or absolute path to bsarch.exe
+                          (if relative, must be relative to current working directory)
+  --package-path          relative or absolute path to bsa/ba2 output folder
+                          (if relative, must be relative to project)
+  --temp-path             relative or absolute path to temp folder
+                          (if relative, must be relative to current working directory)
+
+zip arguments:
+  --zip-compression       set compression method (choices: store, deflate)
+  --zip-output-path       relative or absolute path to zip output folder
+                          (if relative, must be relative to project)
+
+program arguments:
+  --log-path              relative or absolute path to log folder
+                          (if relative, must be relative to current working directory)
+  --help                  show help and exit
+```
+
+
 ## Resources
 
 ### Example PPJ Files
