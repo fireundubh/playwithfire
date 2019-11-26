@@ -15,6 +15,7 @@
   - [Packaging](#packaging)
   - [Zipping](#zipping)
   - [Variables](#variables)
+- [Command Line Arguments](#command-line-arguments)
 - [Resources](#resources)
   - [Example PPJ Files](#example-ppj-files)
   - [IDE Integration](#ide-integration)
