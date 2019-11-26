@@ -11,10 +11,10 @@
   - [Multiple Game Support](#multiple-game-support)
   - [Extended PPJ Format](#extended-papyrus-project-format)
   - [Incremental Build with Parallelized Compilation](#incremental-build-with-parallelized-compilation)
-  - [Script Anonymization](#script-anonymization)
-  - [BSA/BA2 Packaging](#bsa-ba2-packaging)
+  - [Anonymization](#anonymization)
+  - [Packaging](#packaging)
   - [Zipping](#zipping)
-  - [Variable Substitution](#variable-substitution)
+  - [Variables](#variables)
 - [Resources](#resources)
   - [Example PPJ Files](#example-ppj-files)
   - [IDE Integration](#ide-integration)
@@ -118,14 +118,14 @@ The native PPJ compiler for FO4 is on average 70 ms faster per script. Tested wi
 However, there is no native PPJ compiler for TESV and SSE. Pyro fills that role.
 
 
-### Script Anonymization
+### Anonymization
 
 When the Papyrus Compiler compiles a script is compiled, your system username and computer name are embedded in the header. This data can be easily retrieved using a hex editor or a Papyrus decompiler, such as Champollion. The sharing of this data could put at risk your security or privacy. Pyro replaces those strings in compiled scripts with random letters, effectively anonymizing compiled scripts.
 
 Simply add the `Anonymize` attribute to the `PapyrusProject` node and set the value to `True`.
 
 
-### BSA/BA2 Packaging
+### Packaging
 
 You can package scripts and other files into BSA and BA2 archives with [BSArch](https://www.nexusmods.com/newvegas/mods/64745), of which the latest unmodified version is included with Pyro under the MPL 2.0 license.
 
@@ -185,7 +185,7 @@ To configure the ZIP archive:
 ```
 
 
-### Variable Substitution
+### Variables
 
 Pyro can substitute variables with defined values in PPJ paths and string attributes.
 
