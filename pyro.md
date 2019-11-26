@@ -10,7 +10,11 @@ Latest build from master branch:
 
 [![](https://github.com/fireundubh/pyro/workflows/GitHub%20CI/badge.svg)](https://github.com/fireundubh/pyro/actions)
 
-Or build Pyro from source. Refer to the [Compiling](#compiling) section for details.
+Latest pre-release binaries:
+
+[GitHub Releases](https://github.com/fireundubh/pyro/releases)
+
+Or build Pyro from the source code. Refer to the [Compiling](#compiling) section for details.
 
 ## Features
 
