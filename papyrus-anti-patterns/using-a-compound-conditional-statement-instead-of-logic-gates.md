@@ -1,7 +1,5 @@
 <!-- TITLE: Using compound conditional statements instead of logic gates -->
 
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
-
 # Using a compound conditional statement instead of logic gates
 ## Anti-pattern
 
