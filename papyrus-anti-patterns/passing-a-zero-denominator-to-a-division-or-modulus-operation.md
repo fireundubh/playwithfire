@@ -1,7 +1,5 @@
 <!-- TITLE: Passing a zero denominator to a division or modulus operation -->
 
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
-
 # Passing a zero denominator to a division or modulus operation
 ## Anti-pattern
 
