@@ -31,7 +31,7 @@ While (i < DynamicArray.Length)
 EndWhile
 ```
 
-Assume there are 20 items in the outer array and 20 items in each formlist:
+Assume there are 20 items in `DynamicArray` and 20 items in each `kFormList`:
 
 - If the inner loop condition is met on the first iteration, these nested loops would iterate 40 times.
 - If the inner loop condition is never met, these nested loops would iterate 420 times.
