@@ -31,7 +31,10 @@ While (i < DynamicArray.Length)
 EndWhile
 ```
 
-If there were 20 items in the outer array, and 20 items in each formlist, these nested loops together would require 400 iterations to fully complete, assuming the inner loop condition is never met.
+Assume there are 20 items in the outer array and 20 items in each formlist:
+
+- If the inner loop condition is met on the first iteration, these nested loops would iterate 40 times.
+- If the inner loop condition is never met, these nested loops would iterate 420 times.
 
 How many iterations would be needed to complete three, or four, or five nested loops?
 
