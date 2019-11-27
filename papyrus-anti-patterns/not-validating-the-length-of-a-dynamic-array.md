@@ -1,7 +1,5 @@
 <!-- TITLE: Not validating the length of a dynamic array -->
 
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
-
 # Not validating the length of a dynamic array
 ## Anti-pattern
 
