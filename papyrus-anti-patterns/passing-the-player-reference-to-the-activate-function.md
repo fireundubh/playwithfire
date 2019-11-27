@@ -1,7 +1,5 @@
 <!-- TITLE: Passing the player reference to the Activate function -->
 
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
-
 # Passing the player reference to the Activate function
 ## Anti-pattern
 
