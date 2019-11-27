@@ -1,7 +1,5 @@
 <!-- TITLE: Not returning a value on all code paths -->
 
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
-
 # Not returning a value on all code paths
 
 ## Anti-pattern
