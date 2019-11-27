@@ -17,8 +17,7 @@
   - [Variables](#variables)
 - [Command Line Arguments](#command-line-arguments)
 - [Resources](#resources)
-  - [Example PPJ Files](#example-ppj-files)
-  - [IDE Integration](#ide-integration)
+  - [Example PPJs](#example-ppjs)
 - [Contributing](#contributing)
   - [License](#license)
   - [Compiling](#compiling)
@@ -282,17 +281,10 @@ program arguments:
 
 ## Resources
 
-### Example PPJ Files
+### Example PPJs
 
-* [Auto Loot.ppj](https://gist.github.com/fireundubh/7eecf97135b8da74e59133842f0b60f9)
-* [Better Favor Jobs SSE.ppj](https://gist.github.com/fireundubh/398a28227d220f0b45cbdb5fa618b75c)
-* [Master of Disguise SSE.ppj](https://gist.github.com/fireundubh/cb3094ed851f74326090a681a78d5c5e)
-
-
-### IDE Integration
-
-* [PyCharm](https://i.imgur.com/dxk5ZfL.jpg)
-* [UltraEdit](https://gist.github.com/fireundubh/cca1f4132ca4b000f094294f3f036fa0)
+* [Auto Loot.ppj](https://gist.github.com/fireundubh/7eecf97135b8da74e59133842f0b60f9) (Fallout 4)
+* [Master of Disguise SSE.ppj](https://gist.github.com/fireundubh/cb3094ed851f74326090a681a78d5c5e) (Skyrim Special Edition)
 
 
 ## Contributing
