@@ -1,7 +1,5 @@
 <!-- TITLE: Not using a break condition in a loop -->
 
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
-
 # Not using a break condition in a loop
 ## Anti-pattern
 
