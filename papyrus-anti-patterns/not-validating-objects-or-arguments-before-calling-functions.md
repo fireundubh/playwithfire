@@ -1,7 +1,5 @@
 <!-- TITLE: Not validating objects or arguments before calling functions -->
 
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
-
 # Not validating objects or arguments before calling functions
 ## Anti-pattern
 
