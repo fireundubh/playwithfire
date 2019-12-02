@@ -1,9 +1,5 @@
 <!-- TITLE: Auto Loot -->
 
-If you want to see more free, well-documented mods with detailed patch notes, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
-
-[![https://www.patreon.com/fireundubh](https://i.imgur.com/llPEyru.png)](https://www.patreon.com/fireundubh)
-
 # Version History
 
 ## Quick Links
