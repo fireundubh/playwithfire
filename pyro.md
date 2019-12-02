@@ -17,7 +17,7 @@
   - [Variables](#variables)
 - [Command Line Arguments](#command-line-arguments)
 - [Resources](#resources)
-  - [Example PPJs](#example-ppjs)
+  - [Example PPJs](#example-pp-js)
 - [Contributing](#contributing)
   - [License](#license)
   - [Compiling](#compiling)
