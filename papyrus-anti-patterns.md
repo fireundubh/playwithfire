@@ -17,7 +17,7 @@ This working document aims to present all the ways modders write "bad Papyrus" a
 
 ## Maintainability
 
-- [Not removing unused code](papyrus-anti-patterns/not-removing-unused-code) (no page yet)
+- [Not removing unused code](papyrus-anti-patterns/not-removing-unused-code)
 - [Using a compound conditional statement instead of logic gates](papyrus-anti-patterns/using-a-compound-conditional-statement-instead-of-logic-gates)
 - [Using a single letter to name your variables](papyrus-anti-patterns/using-a-single-letter-to-name-your-variables)
 - [Using a variable to store a property value used once](papyrus-anti-patterns/using-a-variable-to-store-a-property-value-used-once)
