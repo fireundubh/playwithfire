@@ -124,7 +124,7 @@ However, there is no native PPJ compiler for TESV and SSE. Pyro fills that role.
 
 ### Anonymization
 
-When the Papyrus Compiler compiles a script, your system username and computer name are embedded in the header. This data can be retrieved using a hex editor or a Papyrus decompiler, such as Champollion. This data could put at risk your security or privacy. Pyro replaces those strings in compiled scripts with random letters, effectively anonymizing compiled scripts.
+When the Papyrus Compiler compiles a script, your system username and computer name are embedded in the header. This data can be retrieved using a hex editor or a Papyrus decompiler, such as Champollion. This data could put at risk your security or privacy. Pyro replaces those strings in compiled scripts with random letters.
 
 Simply add the `Anonymize` attribute to the `PapyrusProject` node and set the value to `True`.
 
