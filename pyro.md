@@ -112,7 +112,7 @@ Node | Attribute | Type | Default Value
 
 ### Incremental Build with Parallelized Compilation
 
-Incremental build _vastly_ accelerates builds by compiling only scripts that need to be compiled. The incremental build system determines which PSC files to compile by comparing the last modified timestamp on PSC files with the compilation timestamps embedded in PEX files. Pyro then builds commands to be passed to compiler and spawns multiple workers in parallel to further reduce build times.
+Incremental build _vastly_ accelerates builds by compiling only scripts that *need* to be compiled. Pyro determines which PSC files to compile by comparing the last modified timestamp on PSC files with the compilation timestamps embedded in PEX files. Pyro then builds commands to be passed to compiler and spawns multiple workers in parallel to further reduce build times.
 
 
 #### Benchmarks
