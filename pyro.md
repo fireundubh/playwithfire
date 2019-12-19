@@ -42,8 +42,8 @@ Or build Pyro from the source code. Refer to the [Compiling](#compiling) section
 
 ### Overview
 
-- Pyro brings [Papyrus Projects](https://www.creationkit.com/fallout4/index.php?title=Papyrus_Projects) to Skyrim and expands on the existing system for Fallout 4.
-- Pyro introduces the first incremental build system for Skyrim and Fallout 4 projects, significantly accelerating compilation, testing, and deployment.
+- Pyro brings the [Papyrus Project (PPJ) format](https://www.creationkit.com/fallout4/index.php?title=Papyrus_Projects) to TESV and SSE and expands on the format for FO4.
+- Pyro introduces the first incremental build system for TESV, SSE, and FO4 projects, significantly accelerating compilation, testing, and deployment.
 - Pyro parallelizes compilation, taking advantage of multi-core processors to compile multiple scripts simultaneously.
 - Pyro can anonymize compiled Papyrus scripts, removing identifying metadata added by the Papyrus Compiler.
 - Pyro can automatically create multiple BSA and BA2 packages using [BSArch](https://www.nexusmods.com/newvegas/mods/64745).
@@ -65,9 +65,9 @@ There are multiple ways to change the compiler version:
 
 ### Extended Papyrus Project Format
 
-Bethesda Game Studios introduced the Papyrus Project (PPJ) format with the Papyrus Compiler for *Fallout 4*. The compilers for _Skyrim Classic_ and _Skyrim Special Edition_ do not support the format.
+Bethesda Game Studios introduced the PPJ format with the Papyrus Compiler for FO4. The TESV and SSE compilers do not support the format.
 
-Pyro supports all PPJ elements and attributes used by the Papyrus Compiler. The PPJ format has also been extended to support features unique to Pyro. For details, refer to Pyro's [Papyrus Project XML Schema Definition](https://github.com/fireundubh/pyro/blob/master/pyro/PapyrusProject.xsd).
+Pyro supports all standard PPJ elements and attributes used by the Papyrus Compiler. The PPJ format has also been extended to support features unique to Pyro. For details, refer to Pyro's [Papyrus Project XML Schema Definition](https://github.com/fireundubh/pyro/blob/master/pyro/PapyrusProject.xsd).
 
 **Note:** The `Asm` attribute of the `PapyrusProject` node is ignored by Pyro. The Papyrus Compiler uses this attribute to call the Papyrus Assembler but generating assembly files for Papyrus scripts is out-of-scope for Pyro.
 
