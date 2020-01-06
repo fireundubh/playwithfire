@@ -43,8 +43,6 @@ If the player fails to lose their line of sight, the player and NPC will make di
 
 #### NPC Perception Model
 
-![](https://camo.githubusercontent.com/4f00f190d61d56a14b822ebb11f3b8ee8927d257/687474703a2f2f6f6935392e74696e797069632e636f6d2f326e31653569672e6a7067)
-
 ##### Field of View Segmentation
 
 * CLEAR: -15° to 15°
