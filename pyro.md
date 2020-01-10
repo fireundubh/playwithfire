@@ -45,10 +45,11 @@ Or build Pyro from the source code. Refer to the [Compiling](#compiling) section
 - Pyro brings the [Papyrus Project (PPJ) format](https://www.creationkit.com/fallout4/index.php?title=Papyrus_Projects) to TESV and SSE and expands on the format for FO4.
 - Pyro introduces the first incremental build system for TESV, SSE, and FO4 projects, significantly accelerating compilation, testing, and deployment.
 - Pyro parallelizes compilation, taking advantage of multi-core processors to compile multiple scripts simultaneously.
-- Pyro can anonymize compiled Papyrus scripts, removing identifying metadata added by the Papyrus Compiler.
+- Pyro can anonymize compiled Papyrus scripts, removing identifying metadata embedded by the Papyrus Compiler.
 - Pyro can automatically create multiple BSA and BA2 packages using [BSArch](https://www.nexusmods.com/newvegas/mods/64745).
 - Pyro can automatically create a ZIP archive of user-defined files.
 - Pyro supports variable substitution in Papyrus Projects.
+- Pyro supports importing scripts from GitHub repositories.
 
 
 ### Multiple Game Support
@@ -215,6 +216,34 @@ You can then replace values throughout the project file with variable names:
 ```
 
 Pyro will expand those variables when the project is loaded.
+
+
+### Remote Imports
+
+Pyro can import scripts from GitHub repositories.
+
+#### Configuring remotes
+
+When a GitHub URL is used as an `Import` path, Pyro will download the respective files and use the download location as the import path.
+
+For example:
+
+```xml
+<Imports>
+  <!-- Pyro will accept a GitHub page address. -->
+  <Import>https://github.com/fireundubh/skyui/tree/master/dist/Data/Scripts/Source</Import>
+  <!-- Pyro will also accept a GitHub API address. -->
+  <Import>https://api.github.com/repos/fireundubh/skyui/contents/dist/Data/Scripts/Source?ref=master</Import>
+</Imports>
+```
+
+To import from GitHub repositories, the following arguments have been added:
+
+Argument | Required | Description | Type | Default Value
+:--- | :--- | :--- | :--- | :---
+`--access-token` | `true` (when using remotes) | [your personal access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)<br>(must have `public_repo` access scope) | `str` | 
+`--force-overwrite` | `false` | download remote files and overwrite existing files<br>(default: skip download when remote folder exists) | `bool` | `false`
+`--remote-temp-path` | `false` | relative or absolute path to temp folder for remote files<br>(if relative, must be relative to project) | `str` | `{program_path}\remote`
 
 
 ## Command Line Arguments
