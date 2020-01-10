@@ -19,6 +19,7 @@ Pyro can be integrated as an external tool into any IDE, allowing mod authors to
   - [Packaging](#packaging)
   - [Zipping](#zipping)
   - [Variables](#variables)
+  - [Remote Imports](#remote-imports)
 - [Command Line Arguments](#command-line-arguments)
 - [Resources](#resources)
   - [Example PPJs](#example-pp-js)
