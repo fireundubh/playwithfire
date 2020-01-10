@@ -112,19 +112,12 @@ Node | Attribute | Type | Default Value
 
 ### Incremental Build with Parallelized Compilation
 
-Incremental build _vastly_ accelerates builds by compiling only scripts that *need* to be compiled. Pyro determines which PSC files to compile by comparing the last modified timestamp on PSC files with the compilation timestamps embedded in PEX files. Pyro then spawns multiple workers (compiler instances) in parallel to further reduce build times.
-
-
-#### Benchmarks
-
-The native PPJ compiler for FO4 is on average 70 ms faster per script. Tested with i5-3570k @ 3.4 GHz and 6 scripts.
-
-However, there is no native PPJ compiler for TESV and SSE. Pyro fills that role.
+Incremental build _vastly_ accelerates builds by compiling only scripts that *need* to be compiled. Pyro determines which PSC files to compile by comparing the last modified timestamp on PSC files with the compilation timestamps embedded in PEX files. Pyro then spawns multiple workers (compiler instances) in parallel to further reduce build times. Each instance of the compiler will be executed with "below normal" priority, allowing you to continue working without the Papyrus Compiler significantly impacting the performance of your system.
 
 
 ### Anonymization
 
-When the Papyrus Compiler compiles a script, your system username and computer name are embedded in the header. This data can be retrieved using a hex editor or a Papyrus decompiler, such as Champollion. This data could put at risk your security or privacy. Pyro replaces those strings in compiled scripts with random letters.
+When the Papyrus Compiler compiles a script, your system username, your computer name's on your local network, and the full path to the source script are embedded in the header. This data can be retrieved using a hex editor or a Papyrus decompiler, such as Champollion. This data could put at risk your security or privacy. Pyro replaces those strings in compiled scripts with random letters.
 
 Simply add the `Anonymize` attribute to the `PapyrusProject` node and set the value to `True`.
 
@@ -228,22 +221,23 @@ Pyro will expand those variables when the project is loaded.
 
 ```
 --------------------------------------------------------------------------------
-                                   P  Y  R  O                                   
+                                   P  Y  R  O
 ----------------------------------------------------- github.com/fireundubh/pyro
 
-usage: pyro.exe    [-i] [--no-incremental-build] [--no-parallel]
-                   [--worker-limit] [--compiler-path] [--flags-path]
-                   [--output-path] [-g {tesv,sse,fo4}]
-                   [--game-path  | --registry-path ] [--bsarch-path]
-                   [--package-path] [--temp-path]
-                   [--zip-compression {deflate,store}] [--zip-output-path]
-                   [--log-path] [--help]
+usage: pyro [-i] [--ignore-errors] [--no-incremental-build] [--no-parallel]
+            [--worker-limit] [--compiler-path] [--flags-path] [--output-path]
+            [-g {tesv,fo4,sse}] [--game-path  | --registry-path ]
+            [--bsarch-path] [--package-path] [--temp-path]
+            [--zip-compression {store,deflate}] [--zip-output-path]
+            [--access-token] [--force-overwrite] [--remote-temp-path]
+            [--resolve-ppj] [--log-path] [--help]
 
 required arguments:
-  -i, --input-path        relative or absolute path to ppj file
+  -i, --input-path        relative or absolute path to file
                           (if relative, must be relative to current working directory)
 
 build arguments:
+  --ignore-errors         ignore compiler errors during build
   --no-incremental-build  do not build incrementally
   --no-parallel           do not parallelize compilation
   --worker-limit          max workers for parallel compilation
@@ -276,9 +270,20 @@ zip arguments:
   --zip-output-path       relative or absolute path to zip output folder
                           (if relative, must be relative to project)
 
-program arguments:
+remote arguments:
+  --access-token          personal access token
+                          (must have public_repo access scope)
+  --force-overwrite       download remote files and overwrite existing files
+                          (default: skip download when remote folder exists)
+  --remote-temp-path      relative or absolute path to temp folder for remote files
+                          (if relative, must be relative to project)
+
+debugging arguments:
+  --resolve-ppj           resolve variables and paths in ppj file
   --log-path              relative or absolute path to log folder
                           (if relative, must be relative to current working directory)
+
+program arguments:
   --help                  show help and exit
 ```
 
