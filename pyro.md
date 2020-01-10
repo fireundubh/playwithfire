@@ -238,7 +238,7 @@ For example:
 </Imports>
 ```
 
-To import from GitHub repositories, the following arguments have been added:
+To import from GitHub repositories, the `--access-token` argument must be provided. The following arguments support remotes.
 
 Argument | Required | Description | Type | Default Value
 :--- | :--- | :--- | :--- | :---
