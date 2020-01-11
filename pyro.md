@@ -19,7 +19,7 @@ Pyro can be integrated as an external tool into any IDE, allowing mod authors to
   - [Packaging](#packaging)
   - [Zipping](#zipping)
   - [Variables](#variables)
-  - [Remote Imports](#remote-imports)
+  - [Remotes](#remotes)
 - [Command Line Arguments](#command-line-arguments)
 - [Resources](#resources)
   - [Example PPJs](#example-pp-js)
@@ -50,7 +50,7 @@ Or build Pyro from the source code. Refer to the [Compiling](#compiling) section
 - Pyro can automatically create multiple BSA and BA2 packages using [BSArch](https://www.nexusmods.com/newvegas/mods/64745).
 - Pyro can automatically create a ZIP archive of user-defined files.
 - Pyro supports variable substitution in Papyrus Projects.
-- Pyro supports importing scripts from GitHub repositories.
+- Pyro supports importing and compiling from GitHub repositories.
 
 
 ### Multiple Game Support
