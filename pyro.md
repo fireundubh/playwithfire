@@ -187,7 +187,7 @@ Pyro will expand those variables when the project is loaded.
 
 Pyro can import and download scripts from GitHub repositories.
 
-#### Importing scripts from remotes
+#### Importing scripts
 
 When a GitHub URL is used as an `Import` path, Pyro will download the respective files and use the download location as the import path.
 
@@ -202,7 +202,7 @@ For example:
 </Imports>
 ```
 
-#### Compiling scripts from remotes
+#### Compiling scripts
 
 When a GitHub URL is used as an `Folder` path, Pyro will download the respective files and use the download location as the folder path.
 
@@ -217,7 +217,7 @@ For example:
 </Folders>
 ```
 
-#### Configuring remote support
+#### Configuring remotes
 
 To use GitHub repositories, the `--access-token` argument must be provided. The following arguments support remotes.
 
