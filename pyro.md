@@ -65,7 +65,7 @@ There are multiple ways to change the compiler version:
 4. Add the `Game` attribute to the `<PapyrusProject>` element in your Papyrus Project file with one of these values: `fo4`, `sse`, or `tesv`.
 
 
-### Extended Papyrus Project Format
+### Extended Papyrus Project Schema
 
 Bethesda Game Studios introduced the PPJ format with the Papyrus Compiler for FO4. The TESV and SSE compilers do not support the format.
 
@@ -73,43 +73,7 @@ Pyro supports all standard PPJ elements and attributes used by the Papyrus Compi
 
 **Note:** The `Asm` attribute of the `PapyrusProject` node is ignored by Pyro. The Papyrus Compiler uses this attribute to call the Papyrus Assembler but generating assembly files for Papyrus scripts is out-of-scope for Pyro.
 
-#### PapyrusProject Defaults
-
-Node | Attribute | Type | Default Value
-:--- | :--- | :--- | :---
-`PapyrusProject` | `Game` | `str` | (determined programmatically)
-`PapyrusProject` | `Output` | `str` | Path to the `pyro\out` folder
-`PapyrusProject` | `Flags` | `str` | (determined programmatically from game path)
-`PapyrusProject` | `Optimize` | `bool` | `false`
-`PapyrusProject` | `Release` (FO4 only) | `bool` | `false`
-`PapyrusProject` | `Final` (FO4 only) | `bool` | `false`
-`PapyrusProject` | `Anonymize` | `bool` | `false`
-`PapyrusProject` | `Package` | `bool` | `false`
-
-#### Folder Defaults
-
-Node | Attribute | Type | Default Value
-:--- | :--- | :--- | :---
-`Folder` | `NoRecurse` | `bool` | `false`
-
-#### Packages Defaults
-
-Node | Attribute | Type | Default Value
-:--- | :--- | :--- | :---
-`Packages` | `Output` | `str` | Path to the `pyro\dist` folder
-`Package` | `Name` | `str` | If the attribute is omitted:<ul><li>the package file will be named after the project,<li>the extension will be appropriate to the game, and<li>subsequent package names will be suffixed with `(1)`, `(2)`, and so on.</ul>
-`Package` | `RootDir` | `str` | Path to the project folder 
-`Include` | `NoRecurse`  | `bool` | `false`
-
-#### ZipFile Defaults
-
-Node | Attribute | Type | Default Value
-:--- | :--- | :--- | :---
-`ZipFile` | `Name` | `str` | If the attribute is omitted, the ZIP file will be named after the project.
-`ZipFile` | `RootDir` | `str` | Path to the project folder
-`ZipFile` | `Output` | `str` | Path to the `pyro\dist` folder
-`ZipFile` | `Compression` | `str` | `deflate`
-`Include` | `NoRecurse` | `bool` | `false`
+Refer to the [Papyrus Project Schema](/pyro/schema) page for default attribute values.
 
 
 ### Incremental Build with Parallelized Compilation
