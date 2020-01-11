@@ -13,7 +13,7 @@ Pyro can be integrated as an external tool into any IDE, allowing mod authors to
 - [Features](#features)
   - [Overview](#overview)
   - [Multiple Game Support](#multiple-game-support)
-  - [Extended PPJ Format](#extended-papyrus-project-format)
+  - [Extended Schema](#extended-schema)
   - [Incremental Build with Parallelized Compilation](#incremental-build-with-parallelized-compilation)
   - [Anonymization](#anonymization)
   - [Packaging](#packaging)
@@ -65,7 +65,7 @@ There are multiple ways to change the compiler version:
 4. Add the `Game` attribute to the `<PapyrusProject>` element in your Papyrus Project file with one of these values: `fo4`, `sse`, or `tesv`.
 
 
-### Extended Papyrus Project Schema
+### Extended Schema
 
 Bethesda Game Studios introduced the PPJ format with the Papyrus Compiler for FO4. The TESV and SSE compilers do not support the format.
 
