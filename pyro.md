@@ -212,11 +212,14 @@ For example:
 ```xml
 <Folders>
   <!-- Pyro will accept a GitHub page address. -->
-  <Folder>https://github.com/fireundubh/skyui/tree/master/dist/Data/Scripts/Source</Import>
+  <Folder NoRecurse="false">https://github.com/chesko256/Campfire/tree/master_fo4/Scripts/Source</Folder>
   <!-- Pyro will also accept a GitHub API address. -->
-  <Folder>https://api.github.com/repos/fireundubh/skyui/contents/dist/Data/Scripts/Source?ref=master</Import>
+  <Folder NoRecurse="false">https://api.github.com/repos/chesko256/Campfire/contents/Scripts/Source?ref=master_fo4</Folder>
 </Folders>
 ```
+
+If the `NoRecurse` attribute is set to `true`, all remote files will still be downloaded but only scripts in the initial folder will be compiled.
+
 
 #### Configuring remotes
 
