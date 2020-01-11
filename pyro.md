@@ -18,8 +18,8 @@ Pyro can be integrated as an external tool into any IDE, allowing mod authors to
   - [Anonymization](#anonymization)
   - [Packaging](#packaging)
   - [Zipping](#zipping)
-  - [Variables](#variables)
   - [Remotes](#remotes)
+  - [Variables](#variables)
 - [Command Line Arguments](#command-line-arguments)
 - [Resources](#resources)
   - [Example PPJs](#example-pp-js)
@@ -151,39 +151,6 @@ To configure the ZIP archive:
 ```
 
 
-### Variables
-
-Pyro can substitute variables with defined values in PPJ paths and string attributes.
-
-To configure variables:
-
-1. Add a `Variables` node block.
-2. Add as many `Variable` nodes to that block as needed.
-
-For example:
-
-```xml
-<Variables>
-  <Variable Name="namespace" Value="Master of Disguise"/>
-  <Variable Name="modname" Value="Master of Disguise - Special Edition"/>
-  <Variable Name="myproject" Value="E:\projects\skyrim\Master of Disguise - Special Edition"/>
-</Variables>
-```
-
-Variables are prefixed with the `@` symbol. The `Name` and `Value` attributes are required.
-
-You can then replace values throughout the project file with variable names:
-
-```xml
-<ZipFile Name="@modname" RootDir="@myproject" Output="@myproject" Compression="deflate">
-  <Include>@myproject\@modname.esp</Include>
-  <Include NoRecurse="true">*.bsa</Include>
-</ZipFile>
-```
-
-Pyro will expand those variables when the project is loaded.
-
-
 ### Remotes
 
 Pyro can import and download scripts from GitHub repositories.
@@ -230,6 +197,41 @@ Argument | Required | Description | Type | Default Value
 `--access-token` | `true` (when using remotes) | [your personal access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)<br>(must have `public_repo` access scope) | `str` | 
 `--force-overwrite` | `false` | download remote files and overwrite existing files<br>(default: skip download when remote folder exists) | `bool` | `false`
 `--remote-temp-path` | `false` | relative or absolute path to temp folder for remote files<br>(if relative, must be relative to project) | `str` | `{program_path}\remote`
+
+
+### Variables
+
+Pyro can substitute variables with defined values in PPJ paths and string attributes.
+
+To configure variables:
+
+1. Add a `Variables` node block.
+2. Add as many `Variable` nodes to that block as needed.
+
+For example:
+
+```xml
+<Variables>
+  <Variable Name="namespace" Value="Master of Disguise"/>
+  <Variable Name="modname" Value="Master of Disguise - Special Edition"/>
+  <Variable Name="myproject" Value="E:\projects\skyrim\Master of Disguise - Special Edition"/>
+</Variables>
+```
+
+Variables are prefixed with the `@` symbol. The `Name` and `Value` attributes are required.
+
+You can then replace values throughout the project file with variable names:
+
+```xml
+<ZipFile Name="@modname" RootDir="@myproject" Output="@myproject" Compression="deflate">
+  <Include>@myproject\@modname.esp</Include>
+  <Include NoRecurse="true">*.bsa</Include>
+</ZipFile>
+```
+
+Pyro will expand those variables when the project is loaded.
+
+In addition, regardless of whether a `Variables` node group is defined, environment variables (e.g., `%APPDATA%`) and user variables (`~user`) will also be parsed.
 
 
 ## Command Line Arguments
