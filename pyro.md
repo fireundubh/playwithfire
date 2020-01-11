@@ -24,7 +24,7 @@ Pyro can be integrated as an external tool into any IDE, allowing mod authors to
 - [Resources](#resources)
   - [Example PPJs](#example-pp-js)
 - [Contributing](#contributing)
-  - [License](#license)
+  - [Licenses](#licenses)
   - [Compiling](#compiling)
 
 ## Binaries
