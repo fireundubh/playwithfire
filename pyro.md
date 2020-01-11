@@ -219,11 +219,11 @@ You can then replace values throughout the project file with variable names:
 Pyro will expand those variables when the project is loaded.
 
 
-### Remote Imports
+### Remotes
 
-Pyro can import scripts from GitHub repositories.
+Pyro can import and download scripts from GitHub repositories.
 
-#### Configuring remotes
+#### Importing scripts from remotes
 
 When a GitHub URL is used as an `Import` path, Pyro will download the respective files and use the download location as the import path.
 
@@ -238,7 +238,24 @@ For example:
 </Imports>
 ```
 
-To import from GitHub repositories, the `--access-token` argument must be provided. The following arguments support remotes.
+#### Compiling scripts from remotes
+
+When a GitHub URL is used as an `Folder` path, Pyro will download the respective files and use the download location as the folder path.
+
+For example:
+
+```xml
+<Folders>
+  <!-- Pyro will accept a GitHub page address. -->
+  <Folder>https://github.com/fireundubh/skyui/tree/master/dist/Data/Scripts/Source</Import>
+  <!-- Pyro will also accept a GitHub API address. -->
+  <Folder>https://api.github.com/repos/fireundubh/skyui/contents/dist/Data/Scripts/Source?ref=master</Import>
+</Folders>
+```
+
+#### Configuring remote support
+
+To use GitHub repositories, the `--access-token` argument must be provided. The following arguments support remotes.
 
 Argument | Required | Description | Type | Default Value
 :--- | :--- | :--- | :--- | :---
