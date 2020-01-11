@@ -78,7 +78,9 @@ Refer to the [Papyrus Project Schema](/pyro/schema) page for default attribute v
 
 ### Incremental Build with Parallelized Compilation
 
-Incremental build _vastly_ accelerates builds by compiling only scripts that *need* to be compiled. Pyro determines which PSC files to compile by comparing the last modified timestamp on PSC files with the compilation timestamps embedded in PEX files. Pyro then spawns multiple workers (compiler instances) in parallel to further reduce build times. Each instance of the compiler will be executed with "below normal" priority, allowing you to continue working without the Papyrus Compiler significantly impacting the performance of your system.
+Incremental build _vastly_ accelerates builds by compiling only scripts that *need* to be compiled. Pyro determines which PSC files to compile by comparing the last modified timestamp on PSC files with the compilation timestamps embedded in PEX files. Pyro then spawns multiple workers (compiler instances) in parallel to further reduce build times.
+
+Each instance of the compiler will be executed with "below normal" priority, allowing you to continue working without the Papyrus Compiler significantly impacting the performance of your system.
 
 
 ### Anonymization
@@ -128,8 +130,6 @@ The packaging system uses a default temporary folder, or a folder specified by `
 
 Pyro can create a ZIP archive containing any files defined in the `ZipFile` node block.
 
-#### Configuring ZipFile
-
 To configure the ZIP archive:
 
 1. Add the `Zip` attribute to the `PapyrusProject` node. Set the value to `true`.
@@ -151,8 +151,6 @@ To configure the ZIP archive:
 ### Variables
 
 Pyro can substitute variables with defined values in PPJ paths and string attributes.
-
-#### Configuring Variables
 
 To configure variables:
 
