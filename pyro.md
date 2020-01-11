@@ -231,7 +231,7 @@ You can then replace values throughout the project file with variable names:
 
 Pyro will expand those variables when the project is loaded.
 
-In addition, regardless of whether a `Variables` node group is defined, environment variables (e.g., `%APPDATA%`) and user variables (`~user`) will also be parsed.
+In addition, regardless of whether a `Variables` node group is defined, environment variables (e.g., `%APPDATA%`) and user variables (`~user`) will also be expanded.
 
 
 ## Command Line Arguments
