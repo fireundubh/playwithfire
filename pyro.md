@@ -153,7 +153,7 @@ To configure the ZIP archive:
 
 ### Remotes
 
-Pyro can import and download scripts from GitHub repositories.
+Pyro can import and download scripts from GitHub and public Bitbucket Cloud repositories.
 
 #### Importing scripts
 
