@@ -49,7 +49,7 @@ Or build Pyro from the source code. Refer to the [Compiling](#compiling) section
 - Pyro anonymizes compiled Papyrus scripts, removing identifying metadata embedded by the Papyrus Compiler.
 - Pyro automatically creates multiple BSA and BA2 packages using [BSArch](https://www.nexusmods.com/newvegas/mods/64745).
 - Pyro automatically creates a ZIP archive of a customizable collection of files.
-- Pyro supports importing and compiling from GitHub repositories.
+- Pyro supports importing and compiling from GitHub repositories and public Bitbucket Cloud repositories.
 - Pyro supports variable substitution in Papyrus Projects, including environment and user variables.
 
 
@@ -157,7 +157,7 @@ Pyro can import and download scripts from GitHub repositories.
 
 #### Importing scripts
 
-When a GitHub URL is used as an `Import` path, Pyro will download the respective files and use the download location as the import path.
+When a GitHub or public Bitbucket Cloud URL is used as an `Import` path, Pyro will download the respective files and use the download location as the import path.
 
 For example:
 
@@ -172,7 +172,7 @@ For example:
 
 #### Compiling scripts
 
-When a GitHub URL is used as an `Folder` path, Pyro will download the respective files and use the download location as the folder path.
+When a GitHub or public Bitbucket Cloud URL is used as an `Folder` path, Pyro will download the respective files and use the download location as the folder path.
 
 For example:
 
@@ -190,13 +190,17 @@ If the `NoRecurse` attribute is set to `true`, all remote files will still be do
 
 #### Configuring remotes
 
-To use GitHub repositories, the `--access-token` argument must be provided. The following arguments support remotes.
+The following arguments support remotes:
 
 Argument | Required | Description | Type | Default Value
 :--- | :--- | :--- | :--- | :---
-`--access-token` | `true` (when using remotes) | [your personal access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)<br>(must have `public_repo` access scope) | `str` | 
+`--access-token` | `true`<br>(when using GitHub remotes) | [your personal access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)<br>(must have `public_repo` access scope) | `str` | 
 `--force-overwrite` | `false` | download remote files and overwrite existing files<br>(default: skip download when remote folder exists) | `bool` | `false`
 `--remote-temp-path` | `false` | relative or absolute path to temp folder for remote files<br>(if relative, must be relative to project) | `str` | `{program_path}\remote`
+
+Public Bitbucket Cloud repositories do not require an access token.
+
+To use GitHub repositories, the `--access-token` argument must be provided. 
 
 
 ### Variables
