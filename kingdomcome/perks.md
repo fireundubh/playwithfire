@@ -1,7 +1,10 @@
-<!-- TITLE: Perks -->
-
-# Perks
-## Table
+---
+title: Perks
+description: 
+published: true
+date: 2020-01-19T16:50:04.235Z
+tags: 
+---
 
 **Note:** This table shows only perks that can be acquired through the UI.
 
