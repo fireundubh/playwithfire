@@ -2,7 +2,7 @@
 title: Master of Disguise
 description: 
 published: true
-date: 2020-01-19T14:23:24.450Z
+date: 2020-01-19T14:31:45.910Z
 tags: 
 ---
 
@@ -45,10 +45,10 @@ If the player fails to lose their line of sight, the player and NPC will make di
 
 ## Field of View Segmentation
 
-* CLEAR: -15° to 15°
-* DISTORTED: -30° to -15° and 15° to 30°
-* PERIPHERAL: -60° to -30° and 30° to 60°
-* HOSTILE: Region meant to indicate the natural state of the actor. (Ignore.)
+Clear | Distorted | Peripheral
+:--- | :--- | :---
+-15° to 15° | -30° to -15° and 15° to 30° | -60° to -30° and 30° to 60°
+
 
 ## Line of Sight Ranges
 
