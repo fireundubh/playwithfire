@@ -1,9 +1,12 @@
-<!-- TITLE: Using Steam to Download Previous Versions -->
+---
+title: Using Steam to Download Previous Versions
+description: 
+published: true
+date: 2020-01-19T15:23:08.374Z
+tags: 
+---
 
-[&larr; Home](/)
-
-# Using Steam to Download Previous Versions
-## Step by Step
+# Step by Step
 
 1. With Steam running, press `Win+R` and enter this URL: `steam://nav/console` ([link](steam://nav/console)).
 2. Enter the following command: `download_depot <app_id> <depot_id> <manifest_id>` (refer to the Reference tables below)
@@ -13,7 +16,7 @@ The depot will likely download to: `C:\Program Files (x86)\Steam\steamapps\conte
 
 Once downloaded, you can move the depot anywhere.
 
-## Syntax
+# Syntax
 
 ```
 download_depot <app_id> <depot_id> <manifest_id> [<delta_manifest_id>]
@@ -28,7 +31,7 @@ Parameter | Required | Description
 
 If the `delta_manifest_id` argument is not omitted, Steam will download only the differences between the target manifest and delta manifest.
 
-### Example
+## Example
 
 Download the game content:
 
@@ -36,9 +39,9 @@ Download the game content:
 download_depot 640820 640821 6741447117850778077
 ```
 
-## Optional
+# Optional
 
-### Change the download path
+## Change the download path
 
 You cannot change the path to which the depot downloads; however, you can "trick" Steam into downloading depots wherever you want using Junction Points.
 
@@ -53,6 +56,6 @@ If Steam was installed on your `C:` drive, and you wanted to download the depot 
 
 If you do not know how to open the cmd shell, press `Win+R`, type `cmd`, and press `Enter`.
 
-## Depot Manifests
+# Depot Manifests
 
 See: [Steam Depot Manifest Tables](/steam-console/tables)
