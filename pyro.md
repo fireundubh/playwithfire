@@ -1,6 +1,10 @@
-<!-- TITLE: Pyro -->
-
-# Pyro
+---
+title: Pyro
+description: 
+published: true
+date: 2020-01-19T15:07:56.057Z
+tags: 
+---
 
 **Pyro** is a parallelized incremental build system for _Skyrim Classic_ (TESV), _Skyrim Special Edition_ (SSE), and _Fallout 4_ (FO4) projects.
 
@@ -8,26 +12,7 @@ Pyro provides mod authors with an all-in-one tool for compiling Papyrus scripts,
 
 Pyro can be integrated as an external tool into any IDE, allowing mod authors to "Instant Build" projects with a single hotkey.
 
-## Contents
-
-- [Features](#features)
-  - [Overview](#overview)
-  - [Multiple Game Support](#multiple-game-support)
-  - [Extended Schema](#extended-schema)
-  - [Incremental Build with Parallelized Compilation](#incremental-build-with-parallelized-compilation)
-  - [Anonymization](#anonymization)
-  - [Packaging](#packaging)
-  - [Zipping](#zipping)
-  - [Remotes](#remotes)
-  - [Variables](#variables)
-- [Command Line Arguments](#command-line-arguments)
-- [Resources](#resources)
-  - [Example PPJs](#example-pp-js)
-- [Contributing](#contributing)
-  - [Licenses](#licenses)
-  - [Compiling](#compiling)
-
-## Binaries
+# Binaries
 
 Latest build from master branch:
 
@@ -39,9 +24,9 @@ Latest pre-release binaries:
 
 Or build Pyro from the source code. Refer to the [Compiling](#compiling) section for details.
 
-## Features
+# Features
 
-### Overview
+## Overview
 
 - Pyro brings the [Papyrus Projects (PPJ)](https://www.creationkit.com/fallout4/index.php?title=Papyrus_Projects) system to TESV and SSE and extends the schema for FO4.
 - Pyro introduces the first incremental build system for TESV, SSE, and FO4 projects, significantly accelerating compilation, testing, and deployment.
@@ -54,7 +39,7 @@ Or build Pyro from the source code. Refer to the [Compiling](#compiling) section
 
 
 
-### Multiple Game Support
+## Multiple Game Support
 
 Pyro supports each version of the Papyrus Compiler for _Skyrim Classic_ (TESV), _Skyrim Special Edition_ (SSE), and _Fallout 4_ (FO4).
 
@@ -66,7 +51,7 @@ There are multiple ways to change the compiler version:
 4. Add the `Game` attribute to the `<PapyrusProject>` element in your Papyrus Project file with one of these values: `fo4`, `sse`, or `tesv`.
 
 
-### Extended Schema
+## Extended Schema
 
 > Refer to the [Papyrus Project Schema](/pyro/schema) page for default attribute values.
 
@@ -79,32 +64,32 @@ Pyro supports all standard PPJ elements and attributes used by the Papyrus Compi
 **Note:** The `Asm` attribute of the `PapyrusProject` node is ignored by Pyro. The Papyrus Compiler uses this attribute to call the Papyrus Assembler but generating assembly files for Papyrus scripts is out-of-scope for Pyro.
 
 
-### Incremental Build with Parallelized Compilation
+## Incremental Build with Parallelized Compilation
 
 Incremental build _vastly_ accelerates builds by compiling only scripts that *need* to be compiled. Pyro determines which PSC files to compile by comparing the last modified timestamp on PSC files with the compilation timestamps embedded in PEX files. Pyro then spawns multiple workers (compiler instances) in parallel to further reduce build times.
 
 Each instance of the compiler will be executed with "below normal" priority, allowing you to continue working without the Papyrus Compiler significantly impacting the performance of your system.
 
 
-### Anonymization
+## Anonymization
 
 When the Papyrus Compiler compiles a script, your system username, your computer name's on your local network, and the full path to the source script are embedded in the header. This data can be retrieved using a hex editor or a Papyrus decompiler, such as Champollion. This data could put at risk your security or privacy. Pyro replaces those strings in compiled scripts with random letters.
 
 Simply add the `Anonymize` attribute to the `PapyrusProject` node and set the value to `True`.
 
 
-### Packaging
+## Packaging
 
 You can package scripts and other files into BSA and BA2 archives with [BSArch](https://www.nexusmods.com/newvegas/mods/64745), of which the latest unmodified version is included with Pyro under the MPL 2.0 license.
 
-#### Installing BSArch
+### Installing BSArch
 
 To install BSArch:
 
 1. If, for some reason, BSArch is not located in the `pyro\tools` folder, download BSArch from the above URL and extract the executable there.
 2. The path to `bsarch.exe` should be automatically detected. If not, use the `--bsarch-path` argument to set the path.
 
-#### Configuring Packages
+### Configuring Packages
 
 To configure packages:
 
@@ -124,12 +109,12 @@ To configure packages:
 </Packages>
 ```
 
-#### Temporary files
+### Temporary files
 
 The packaging system uses a default temporary folder, or a folder specified by `--temp-path`, where compiled scripts and includes are copied. BSArch uses this path to build a BSA/BA2 package.
 
 
-### Zipping
+## Zipping
 
 Pyro can create a ZIP archive containing any files defined in the `ZipFile` node block.
 
@@ -151,11 +136,11 @@ To configure the ZIP archive:
 ```
 
 
-### Remotes
+## Remotes
 
 Pyro can import and download scripts from GitHub and public Bitbucket Cloud repositories.
 
-#### Importing scripts
+### Importing scripts
 
 When a GitHub or public Bitbucket Cloud URL is used as an `Import` path, Pyro will download the respective files and use the download location as the import path.
 
@@ -170,7 +155,7 @@ For example:
 </Imports>
 ```
 
-#### Compiling scripts
+### Compiling scripts
 
 When a GitHub or public Bitbucket Cloud URL is used as an `Folder` path, Pyro will download the respective files and use the download location as the folder path.
 
@@ -188,7 +173,7 @@ For example:
 If the `NoRecurse` attribute is set to `true`, all remote files will still be downloaded but only scripts in the initial folder will be compiled.
 
 
-#### Configuring remotes
+### Configuring remotes
 
 The following arguments support remotes:
 
@@ -203,7 +188,7 @@ Public Bitbucket Cloud repositories do not require an access token.
 To use GitHub repositories, the `--access-token` argument must be provided. 
 
 
-### Variables
+## Variables
 
 Pyro can substitute variables with defined values in PPJ paths and string attributes.
 
@@ -238,7 +223,7 @@ Pyro will expand those variables when the project is loaded.
 In addition, regardless of whether a `Variables` node group is defined, environment variables (e.g., `%APPDATA%`) and user variables (`~user`) will also be expanded.
 
 
-## Command Line Arguments
+# Command Line Arguments
 
 ```
 --------------------------------------------------------------------------------
@@ -309,19 +294,19 @@ program arguments:
 ```
 
 
-## Resources
+# Resources
 
-### Example PPJs
+## Example PPJs
 
 * [Auto Loot.ppj](https://gist.github.com/fireundubh/7eecf97135b8da74e59133842f0b60f9) (Fallout 4)
 * [Master of Disguise SSE.ppj](https://gist.github.com/fireundubh/cb3094ed851f74326090a681a78d5c5e) (Skyrim Special Edition)
 
 
-## Contributing
+# Contributing
 
-### Compiling
+## Compiling
 
-#### Install Pipenv
+### Install Pipenv
 
 Python | Command | Alternative Command
 :--- | :--- | :---
@@ -329,13 +314,13 @@ CPython | `pip install pipenv` | `python -m pip install pipenv`
 Anaconda | `conda install -c conda-forge pipenv` | &mdash;
 
 
-#### Install Dependencies
+### Install Dependencies
 
 1. Change the current working directory (CWD) to the Pyro source folder.
 2. Run: `pipenv install`
 
 
-#### Run the Build Script
+### Run the Build Script
 
 The build process requires [Nuitka](https://nuitka.net/)  and the [Visual Studio](https://visualstudio.microsoft.com/downloads/) build tools. Nuitka was installed in the previous step.
 
@@ -348,7 +333,7 @@ Command | Alternative Command
 Executing the build script will create a `pyro.dist` directory that contains the executable and required libraries and modules. A ZIP archive will be created in the `bin` folder.
 
 
-##### Build Script
+#### Build Script
 
 The build script has three arguments.
 
@@ -358,14 +343,14 @@ Short Argument | Long Argument |  Help
 &mdash; | `--vcvars64-path` | Path to Visual Studio Developer Command Prompt (x64)
 
 
-### Licenses
+# Licenses
 
 Pyro is open source and licensed under the MIT License.
 
 BSArch is licensed under the MPL 2.0 license. The binary bundled with Pyro was compiled from the original unmodified source code available [here](https://github.com/ElminsterAU/xEdit/tree/master/Tools/BSArchive).
 
 
-### Credits
+# Credits
 
 * fireundubh (lead developer)
 * rjstone (contributor)
