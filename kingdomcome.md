@@ -2,16 +2,23 @@
 title: Kingdom Come
 description: Kingdom Come: Deliverance
 published: true
-date: 2020-01-19T16:46:47.021Z
+date: 2020-01-19T16:48:33.324Z
 tags: 
 ---
 
-# Home
-Welcome to the *Kingdom Come: Deliverance* wiki at **#playwithfire**. This wiki was created to provide modders with potentially useful technical information.
+# Gameplay
 
-## Documentation
+Section | Description
+:--- | :---
+[Consumables](/kingdomcome/consumables) | A database of all consumables, including locations
+[Equipment](/kingdomcome/equipment) | A database of all equipment, including locations
+[Herbs](/kingdomcome/herbs) | A table of all herbs, including used recipes and locations
+[Misc. Items](/kingdomcome/misc-items) | A table of all miscellaneous items, including locations
+[Quests](/kingdomcome/quests) | A database of all quests, including flowgraphs (i.e., objectives)
+[Recipes](/kingdomcome/recipes) | A table of all recipes, including locations
+[Best Equipment](/kingdomcome/best-equipment) | A database of best-in-slot armor and weapons, including locations
 
-### Data
+# Data
 
 Section | Description
 :--- | :---
@@ -23,34 +30,16 @@ Section | Description
 [Soul Abilities](/kingdomcome/soul-abilities) | A complete table of soul abilities
 [Stats and Derived Stats](/kingdomcome/stats) | Full and abbreviated stat and derived stat name mappings
 
-### Scripting
+# Scripting
 
 Section | Description
 :--- | :---
 [Lua Classes](/kingdomcome/classes) | Lua-exposed C++ classes
 [Lua Functions](/kingdomcome/functions) | Lua-implemented functions in every script
 
-### Technical
+# Technical
 
 Section | Description
 :--- | :---
 [TBL Files](/kingdomcome/tbl-files) | TBL file details
 [TBL File Format](/kingdomcome/tbl-file-format) | TBL file format specification
-
-### Miscellaneous
-
-- Table: [1.4 Changed Files](https://gist.github.com/fireundubh/fdc526f7941c87707ecd21febe55dc6a)
-- Table: [1.4.1 Changed Files](https://gist.github.com/fireundubh/148a840352cada34d49e7c4f3e2013f2)
-- Table: [1.4.2 Changed Files](https://gist.github.com/fireundubh/9b5f78f0667f76c195925958e6ac858f)
-
-## Gameplay
-
-Section | Description
-:--- | :---
-[Consumables](/kingdomcome/consumables) | A database of all consumables, including locations
-[Equipment](/kingdomcome/equipment) | A database of all equipment, including locations
-[Herbs](/kingdomcome/herbs) | A table of all herbs, including used recipes and locations
-[Misc. Items](/kingdomcome/misc-items) | A table of all miscellaneous items, including locations
-[Quests](/kingdomcome/quests) | A database of all quests, including flowgraphs (i.e., objectives)
-[Recipes](/kingdomcome/recipes) | A table of all recipes, including locations
-[Best Equipment](/kingdomcome/best-equipment) | A database of best-in-slot armor and weapons, including locations
