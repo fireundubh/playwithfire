@@ -1,7 +1,10 @@
-<!-- TITLE: Known Formulas -->
-
-# Known Formulas
-## Table
+---
+title: Known Formulas
+description: 
+published: true
+date: 2020-01-19T16:49:30.597Z
+tags: 
+---
 
 Category| Description | Formula
 --- | --- | ---
@@ -16,6 +19,4 @@ Well Worn Perk | Weight reduced by Well Worn perk | `equippedWeight = standardWe
 
 For the default values of RPG parameters, refer to the [RPG Parameters](https://wiki.fireundubh.com/kingdomcome/rpg-parameters) page.
 
-### Notes
-
-`surface.movementSpeedMult` is defined in `gamedata.pak\Libs\MaterialEffects\SurfaceTypes.xml`.
+**Note:** `surface.movementSpeedMult` is defined in `gamedata.pak\Libs\MaterialEffects\SurfaceTypes.xml`.
