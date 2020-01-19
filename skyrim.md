@@ -2,17 +2,9 @@
 title: Skyrim
 description: The Elder Scrolls V: Skyrim
 published: true
-date: 2020-01-19T16:44:44.996Z
+date: 2020-01-19T16:45:06.723Z
 tags: 
 ---
-
-# Mods
-
-Name | Description
-:--- | :---
-[Master of Disguise](/skyrim/master-of-disguise) | Transforms faction armor into real disguises with an immersive and fully customizable detection system
-
-# Documentation
 
 Section | Description
 --- | --- | ---
