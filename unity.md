@@ -1,7 +1,12 @@
-<!-- TITLE: Unity -->
+---
+title: Unity
+description: 
+published: true
+date: 2020-01-19T15:20:41.208Z
+tags: 
+---
 
-# Unity Modding
-## Games
+# Games
 
 Name | Developer | Unity Version | .NET Compatibility
 :--- | :--- | :--- | :---
@@ -11,7 +16,7 @@ Pillars of Eternity II: Deadfire | Obsidian Entertainment | 5.6.3 | .NET 3.5 (As
 Torment: Tides of Numenera |  inXile Entertainment | 5.4.1 | .NET 3.5 (Assembly-CSharp.dll)
 Tyranny | Obsidian Entertainment | 5.2 ([Documentation](https://docs.unity3d.com/520/Documentation/Manual/index.html)) | .NET 3.5 (Assembly-CSharp.dll)
 
-## Tools
+# Tools
 
 Most of modding Unity games involves decompiling `Assembly-CSharp.dll` and patching in new code.
 
@@ -23,13 +28,13 @@ Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [https://ci.appveyor.com/
 Monkey Patcher | Harmony | pardeike | Open source | MIT | Compile from source code | [GitHub](https://github.com/pardeike/Harmony)
 Monkey Patcher | Patchwork | Greg Ros | Open source | MIT | Compile from source code | [GitHub](https://github.com/GregRos/Patchwork)
 
-### In development
+## In development
 
 Name | Description | Developers
 :--- | :--- | :---
 [Asset Studio Pro](https://github.com/fireundubh/AssetStudio) | A fork of Asset Studio with better MonoBehaviour support<br>([Project goals and tasks](https://trello.com/b/XKKryP88/asset-studio-pro)) | &bull; fireundubh<br>&bull; Jackal
 
-## References
+# References
 
 Tutorial | Description
 :--- | :---
@@ -37,6 +42,6 @@ Tutorial | Description
 [Patchwork Project Structure](/unity/patchwork-project-structure) | How to structure a Patchwork project
 [Turning a release build into a debug build](/unity/turning-a-release-build-into-a-debug-build) | ADVANCED. You do not need to do this unless you use debug logging and want Assembly-CSharp line numbers in call stacks.
 
-## Notes
+# Notes
 
 * If you use Microsoft's [PEVerify Tool](https://docs.microsoft.com/en-us/dotnet/framework/tools/peverify-exe-peverify-tool) (e.g., Patchwork's Test Run), you may notice that an unmodded Unity game has IL errors in `Assembly-CSharp.dll`. These errors are likely caused by Unity either writing bad IL or, less likely, performing (probably unnecessary) IL optimizations. For example, the latest version of _Torment: Tides of Numenera_ has 150 IL errors in `Assembly-CSharp.dll`. Most IL errors can be monkey patched.
