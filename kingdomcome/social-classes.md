@@ -1,7 +1,12 @@
-<!-- TITLE: Social Classes -->
+---
+title: Social Classes
+description: 
+published: true
+date: 2020-01-19T17:08:03.423Z
+tags: 
+---
 
-# Social Classes
-## Highborn
+# Highborn
 
 * **Total social classes:** 9
 * **Total souls:** 421
@@ -115,7 +120,7 @@ Wolflin of Kamberg | Nobleman | Wolflin soldiers | Neuhof
 Wolfram Pruda | Townsman | Rattay Citizens | Rattay
 Zora | Merchant | Neuhof villagers | Neuhof
 
-## Lowborn
+# Lowborn
 
 * **Total social classes:** 43
 * **Total souls:** 3059
