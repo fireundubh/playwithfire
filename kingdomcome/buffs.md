@@ -1,9 +1,12 @@
-<!-- TITLE: Buffs -->
+---
+title: Buffs
+description: 
+published: true
+date: 2020-01-19T16:47:36.619Z
+tags: 
+---
 
-# Buffs
-## Table
-
-### Common
+# Common
 
 Implementation | Description | Governing RPG Parameters | Version Added
 --- | --- | --- | ---
@@ -15,7 +18,7 @@ Implementation | Description | Governing RPG Parameters | Version Added
 `Cpp:WorldTimeFading` | Effect applies for a duration in world time and dissipates |  | Release
 `Cpp:WorldTimeTimed` | Effect applies for a duration in world time |  | Release
 
-### Location
+# Location
 
 Implementation | Description | Governing RPG Parameters | Version Added
 --- | --- | --- | ---
@@ -23,7 +26,7 @@ Implementation | Description | Governing RPG Parameters | Version Added
 `Cpp:ForestLocation` | Effect applies when in a forest |  | Release
 `Cpp:SettlementLocation` | Effect applies when within a settlement |  | Release
 
-### Mannequin
+# Mannequin
 
 Implementation | Description | Governing RPG Parameters | Version Added
 --- | --- | --- | ---
@@ -35,7 +38,7 @@ Implementation | Description | Governing RPG Parameters | Version Added
 `Cpp:Sick` | Adds `Sick` tag for animations |  | Release
 `Cpp:StomachPain` | Adds `Shitty` tag for animations |  | Release
 
-### Context
+# Context
 
 Implementation | Description | Governing RPG Parameters | Version Added
 --- | --- | --- | ---
@@ -57,7 +60,7 @@ Implementation | Description | Governing RPG Parameters | Version Added
 `Cpp:VersusWoman` | Effect applies when attacking women |  | Release
 `Cpp:VersusWomanDialogSkillCheck` | Effect applies when interacting with women |  | Release
 
-### Two State
+# Two State
 
 Implementation | Description | Governing RPG Parameters | Version Added
 --- | --- | --- | ---
@@ -77,7 +80,7 @@ Implementation | Description | Governing RPG Parameters | Version Added
 `Cpp:WithoutPlatingArmor` | Effect applies when not wearing heavy armor |  | Release
 `Cpp:WithPlatingArmor` | Effect applies when wearing heavy armor |  | Release
 
-### Specialized
+# Specialized
 
 Implementation | Description | Governing RPG Parameters | Version Added
 --- | --- | --- | ---
@@ -97,7 +100,7 @@ Implementation | Description | Governing RPG Parameters | Version Added
 `Cpp:TipplerPotion` | Effect applies for a duration in world time and removes other buffs when applied |  | Release
 `Cpp:WeaponHealthIntensity` | Effect magnitude derived from item durability |  | Release
 
-### System
+# System
 
 Per Moggabor, these buff implementations are not recommended for use in mods, so they are not detailed here.
 
@@ -138,7 +141,7 @@ Implementation | Description | Governing RPG Parameters | Version Added
 `Cpp:WellWorn` | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | Release
 `Script:BasicBuff` | Not recommended for use in mods. See [Nexus Wiki](https://wiki.nexusmods.com/index.php/Buffs_in_KCD) for details. |  | Release
 
-### Undocumented
+# Undocumented
 
 Implementation | Description | Governing RPG Parameters | Version Added
 --- | --- | --- | ---
@@ -154,7 +157,7 @@ Implementation | Description | Governing RPG Parameters | Version Added
 `Cpp:TwoStateLocationMonitorBuffBase` |  |  | Release
 `Cpp:UniversalHealth` |  |  | Release
 
-## Credits
+# Credits
 
 * Warhorse developer **Moggabor** for categories, descriptions, and *future* patch data
 * Undocumented implementations were found via disassembly
