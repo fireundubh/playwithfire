@@ -1,16 +1,21 @@
-<!-- TITLE: RPG Parameters -->
+---
+title: RPG Parameters
+description: 
+published: true
+date: 2020-01-19T16:58:07.295Z
+tags: 
+---
 
-# RPG Parameters
 **Data Quality Note:** The following descriptions were dumped directly from the game. The parameter names are correct, but the descriptions contain typos and misspellings. They will be cleaned up later.
 
-## Legend
+# Legend
 
 * <font color="green">Green</font>: The parameter value was increased.
 * <font color="red">Red</font>: The parameter value was decreased.
 * <font color="blue">Blue</font>: The parameter was added.
 * <strike>Strikethrough</strike>: The parameter was removed, or the current value is empty and nonzero.
 
-## Table: Changes at a Glance
+# At a Glance
 
 Parameter | v1.1&ndash;1.2.5 | v1.3&ndash;1.3.4 | v1.4&ndash;1.4.2 | Description
 :--- | ---: | ---: | ---: | :---
@@ -47,7 +52,7 @@ StarvationPlayerEffectMinMin | 60.000000000 | 60.000000000 | <font color="green"
 UnarmedHitArmorDamageCoef | nil | <font color="blue">0.250000000</font> | 0.250000000 | relative to armed combat
 
 
-## Table: All Parameters
+# All Parameters
 
 Parameter | v1.1&ndash;1.2.5 | v1.3&ndash;1.3.4 | v1.4&ndash;1.4.2 | Description
 :--- | ---: | ---: | ---: | :---
