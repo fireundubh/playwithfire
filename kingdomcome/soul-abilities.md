@@ -1,7 +1,10 @@
-<!-- TITLE: Soul Abilities -->
-
-# Soul Abilities
-## Table
+---
+title: Soul Abilities
+description: 
+published: true
+date: 2020-01-19T17:08:30.684Z
+tags: 
+---
 
 Soul Ability ID | Soul Ability | Associated Perk UUID
 ---: | :--- | :---
