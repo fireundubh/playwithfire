@@ -1,9 +1,14 @@
-<!-- TITLE: Stats and Derived Stats -->
+---
+title: Stats and Derived Stats
+description: 
+published: true
+date: 2020-01-19T17:09:07.084Z
+tags: 
+---
 
-# Stats and Derived Stats
 Information about intermediate stats and base values were mirrored from the [Nexus Wiki](https://wiki.nexusmods.com/index.php/RPG_stats_in_KCD). Thanks to Warhorse developer Moggabor!
 
-## Active Stats
+# Active Stats
 
 Abbr | Example | Description
 :--- | :--- | :---
@@ -14,7 +19,7 @@ Abbr | Example | Description
 `karma` | | Modifies the player's current Karma?
 `alcoholism` | | Modifies the player's current Drunkenness?
 
-## Base Stats
+# Base Stats
 
 Abbr | Name | Description
 :--- | :--- | :---
@@ -29,7 +34,7 @@ Abbr | Name | Description
 `vis` | Vision | Modifies the Vision stat
 `vit` | Vitality | Modifies the Vitality stat
 
-## Derived Stats
+# Derived Stats
 
 > These stats are derived from other stats, states, skills, params, items, or table values. Some derived stats have constant base values. The purpose of these is to be modified by buffs.
 
@@ -138,7 +143,7 @@ Abbr | Name | Description | Base Value
 `wud` | WeaponUsageDamageMod | | `lerp(1, MaxFencingWeaponUsageMod, Fencing / SkillCap)`
 `xpm` | XPMultiplier | Modifies the amount of experience gained | `soul.xp_multiplier`
 
-### Morale Base Value
+## Morale Base Value
 
 The base value formula is quite long, so I've placed the formula here:
 
@@ -147,7 +152,7 @@ clamp(((Courage / StatCap) * SoulCourageMoraleWeight + clamp(soul_class.soul_cla
 				/ (SoulCourageMoraleWeight + ClassCourageMoraleWeight + OverallArmorDefenseMoraleWeight + OverallWeaponAttackMoraleWeight) * (HealthToMoraleMinCoef + (1 - HealthToMoraleMinCoef) * (Health / HealthFull) ), 0, 1)
 ```
 
-## Intermediate Stats
+# Intermediate Stats
 
 > These are exposed intermediate results from various RPG equations, which can be modified by buffs.
 
@@ -188,7 +193,7 @@ Abbr | Name | Example | Description
 `wac` | WeaponAttackCost | `wac*0.7` | Weapon attack stamina cost
 `wat` | WeaponAttack | `wat*1.2` | Weapon attack damage
 
-## Skill Stats
+# Skill Stats
 
 Abbr | Internal Name | Description | Comments
 :--- | :--- | :--- | :---
@@ -224,14 +229,14 @@ Abbr | Internal Name | Description | Comments
 `weaponsmithing` | `WeaponSmithing` | Modifies the player's Weaponsmithing skill level | Not implemented
 `shoemaking` | `Shoemaking` | Modifies the player's Shoemaking skill level | Not implemented
 
-## Limit Stats
+# Limit Stats
 
 Abbr | Description
 :--- | :---
 `LimitRun` | Used without expression
 `LimitSprint` | Used without expression
 
-## Other Stats
+# Other Stats
 
 **Note:** Some of this data probably doesn't belong on this page.
 
@@ -260,7 +265,7 @@ Name | Description
 `HasLimitedRunByItem` |
 `HasLimitedSprintByItem` |
 
-## Unknown Stats
+# Unknown Stats
 
 Abbr | Internal Name | Example | Description
 :--- | :--- | :--- | :---
