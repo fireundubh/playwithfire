@@ -2,7 +2,7 @@
 title: Master of Disguise
 description: 
 published: true
-date: 2020-01-20T14:39:57.044Z
+date: 2020-01-20T14:41:31.143Z
 tags: 
 ---
 
@@ -176,8 +176,6 @@ When the player is discovered, or the disguise is no longer worn, the player's a
 
 **Known Exploit:** The player can continually re-equip the guard disguise to continually conceal the active bounty, and effectively commit most crimes without penalties while in disguise. However, the tracked bounty will continue to increase, so at some point, the player will have to address the enlarged active bounty.
 
-## Other Faction Equipment
-
 ### Bandit Disguises
 
 The player can wear a bandit disguise comprised of:
@@ -197,7 +195,7 @@ Vampire disguises can be worn at any time, but using the Mod Configuration Menu,
 
 If that option is enabled, vampire disguises cannot be used during the day and will deactivate after night passes.
 
-### Savior's Hide
+### Werewolf Disguises
 
 Wearing the Savior's Hide, a gift from Hircine, will signal to Werewolves that the player is favored and the player will not be attacked by Werewolves.
 
