@@ -1,8 +1,12 @@
-<!-- TITLE: Not returning a value on all code paths -->
+---
+title: Not returning a value on all code paths
+description: 
+published: true
+date: 2020-01-20T12:06:45.615Z
+tags: 
+---
 
-# Not returning a value on all code paths
-
-## Anti-pattern
+# Anti-pattern
 
 The author of the code below returns a value on two code paths, but the functon has three code paths.
 
@@ -20,7 +24,7 @@ Papyrus raises a warning without an accompanying error:
 
 > warning: Assigning `None` to an non-object variable named "`::temp21`"
 
-## Best practice
+# Best practice
 
 Ensure that all code paths return a value. The above code could be written like so:
 
