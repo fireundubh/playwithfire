@@ -2,26 +2,28 @@
 title: Patch Notes
 description: 
 published: true
-date: 2020-01-20T11:13:49.698Z
+date: 2020-01-20T11:15:31.660Z
 tags: 
 ---
 
-Version | Manifest ID | Patch Notes
+# Patch Details
+
+Version | Manifest ID | Patch Details
 :--- | :--- | :--
-`1.0.10` | `4137201467282432792` | [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1711824163719704513)
-`1.0.9` | `3329346642708156469` | [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/2924417816931842509)
-`1.0.8c` | `7773343900112385919` | [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/2924417816900833325)
-`1.0.8b` | `4551845841087663139` | 
-`1.0.7` | `5750998838144035341` | [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1708445194439906203)
+`1.0.10` | `4137201467282432792` | [External Link](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1711824163719704513)
+`1.0.9` | `3329346642708156469` | [External Link](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/2924417816931842509)
+`1.0.8c` | `7773343900112385919` | [External Link](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/2924417816900833325)
+`1.0.8b` | `4551845841087663139` | &nbsp;
+`1.0.7` | `5750998838144035341` | [External Link](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1708445194439906203)
 &nbsp; | `3625063316203614488` | [Assembly Changes](#3625063316203614488)
 &nbsp; | `946625482595150857` | [Assembly Changes](#946625482595150857)
-`1.0.6` | `6336459653349909543` | [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1708445194413594388)
-`1.0.5` | `7894022154904016667` | [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1708445194411519344)
+`1.0.6` | `6336459653349909543` | [External Link](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1708445194413594388)
+`1.0.5` | `7894022154904016667` | [External Link](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1708445194411519344)
 &nbsp; | `4920380694923421717` | [Assembly Changes](#4920380694923421717)
-`1.0.4` | `6358573070219561752` | [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/2940179248248985616)
-`1.0.3` | `229482041491868730` | [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/2940179248226283738)
-`1.0.2` | `2451367926564256244` | [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/2940179248218810867)
-`1.0.1` | `1412067188604596331` | [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1711822259759145662)
+`1.0.4` | `6358573070219561752` | [External Link](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/2940179248248985616)
+`1.0.3` | `229482041491868730` | [External Link](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/2940179248226283738)
+`1.0.2` | `2451367926564256244` | [External Link](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/2940179248218810867)
+`1.0.1` | `1412067188604596331` | [External Link](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1711822259759145662)
 
 # Assembly Changes
 
