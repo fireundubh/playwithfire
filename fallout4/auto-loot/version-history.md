@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-01-20T14:16:45.338Z
+date: 2020-01-20T14:20:44.383Z
 tags: 
 ---
 
@@ -12,29 +12,17 @@ This update has not been released.
 
 ## New Features
 
-### Currency Filter
+- [X] **Currency Filter:** The Currency Filter will loot the following items: Bottlecaps, Pre-War Money, Caps Stashes, Bobby Pins and Bobby Pin Boxes, Bottlecaps via Bottlecap Mines, and Bottlecaps via Fortune Finder IV.
 
-The Currency Filter will loot the following items: Bottlecaps, Pre-War Money, Caps Stashes, Bobby Pins and Bobby Pin Boxes, Bottlecaps via Bottlecap Mines, and Bottlecaps via Fortune Finder IV.
+- [X] **Ammo Filter Support for Fusion Cores:** The Ammo Filter will loot all Fusion Cores, excluding fusion cores installed in power generators. Auto Loot will not loot fusion cores installed in power generators because removing them via Auto Loot would not trigger the generator shutdown event.
 
-### Ammo Filter Support for Fusion Cores
+- [X] **Weapons Filter Customization:** The Weapons Filter has been upgraded to the newly created tiered filter system. You can configure the Weapons Filter to loot only Big Guns, Energy Weapons, Explosives, Melee Weapons, Small Guns, Traps, Unarmed Weapons. The filter is configured to loot all weapons by default.
 
-The Ammo Filter will loot all Fusion Cores, excluding fusion cores installed in power generators. Auto Loot will not loot fusion cores installed in power generators because removing them via Auto Loot would not trigger the generator shutdown event.
+- [X] **Valuables Filter Customization:** The Valuables Filter has also been upgraded to the tiered filter system. You can configure the Valuables Filter to loot only junk with Common, Uncommon, or Rare components. The filter is configured to loot only junk with Rare components by default. Additionally, you can also configure the Valuables Filter to loot Component Scrap, such as the miscellaneous component items you can pick up and component shipments. This extra option was added primarily for players of certain workshop mods.
 
-### Weapons Filter Customization
+- [X] **Take Any Filter Mode Support for the Components Filter:** You can now use the Take Any Filter Mode with the Components Filter, allowing you to loot junk with specific components from bodies and/or containers when the Bodies Filter and/or Containers Filter are also enabled.
 
-The Weapons Filter has been upgraded to the newly created tiered filter system. You can configure the Weapons Filter to loot only Big Guns, Energy Weapons, Explosives, Melee Weapons, Small Guns, Traps, Unarmed Weapons. The filter is configured to loot all weapons by default.
-
-### Valuables Filter Customization
-
-The Valuables Filter has also been upgraded to the tiered filter system. You can configure the Valuables Filter to loot only junk with Common, Uncommon, or Rare components. The filter is configured to loot only junk with Rare components by default. Additionally, you can also configure the Valuables Filter to loot Component Scrap, such as the miscellaneous component items you can pick up and component shipments. This extra option was added primarily for players of certain workshop mods.
-
-### Take Any Filter Mode Support for the Components Filter
-
-You can now use the Take Any Filter Mode with the Components Filter, allowing you to loot junk with specific components from bodies and/or containers when the Bodies Filter and/or Containers Filter are also enabled.
-
-### Dynamic Ash and Goo Pile Prevention
-
-Ash and Goo Piles are activators with hardcoded behaviors; they are neither bodies nor containers. Papyrus offers no support for manipulating these activators and therefore they cannot be supported by Auto Loot. You can manually loot Ash and Goo Piles, or you can use a new feature that prevents Ash and Goo Piles from being created. This new feature dynamically adds the `NoDisintegrate` keyword to NPCs in the loaded area in a radius of 4096 units.
+- [X] **Dynamic Ash and Goo Pile Prevention:** Ash and Goo Piles are activators with hardcoded behaviors; they are neither bodies nor containers. Papyrus offers no support for manipulating these activators and therefore they cannot be supported by Auto Loot. You can manually loot Ash and Goo Piles, or you can use a new feature that prevents Ash and Goo Piles from being created. This new feature dynamically adds the `NoDisintegrate` keyword to NPCs in the loaded area in a radius of 4096 units.
 
 In order to use this feature, enter the following command at the MAIN MENU: 
 
@@ -58,36 +46,36 @@ You can also toggle the global variable directly in the plugin using xEdit.
 
 v1.2 streamlines the holotape menu by making the following changes:
 
-* Destination>Rules: Changed "send to player" to "send to player enabled"
-* Destination>Rules: Changed "send to workshop" to "send to workshop enabled"
-* Advanced Settings>Filter Mode: Changed "take all" to "take all enabled"
-* Advanced Settings>Filter Mode: Changed "take any" to "take any enabled" 
-* Moved the Components, Valuables, and Junk filters into a separate submenu
-* Merged the alphabetized Destination submenus into a single menu per filter (slower to display, easier to maintain, and you can see all workshops at once)
-* Removed intermediate submenus (e.g., All Filters vs. Specific Filters)
-* Removed the Delay Between Iterations submenus from the Debug Menu
-* Renamed the Advanced submenu to Advanced Settings
-* Renamed the debug-only Advanced submenu to Debug Menu
+- [X] Destination>Rules: Changed "send to player" to "send to player enabled"
+- [X] Destination>Rules: Changed "send to workshop" to "send to workshop enabled"
+- [X] Advanced Settings>Filter Mode: Changed "take all" to "take all enabled"
+- [X] Advanced Settings>Filter Mode: Changed "take any" to "take any enabled" 
+- [X] Moved the Components, Valuables, and Junk filters into a separate submenu
+- [X] Merged the alphabetized Destination submenus into a single menu per filter (slower to display, easier to maintain, and you can see all workshops at once)
+- [X] Removed intermediate submenus (e.g., All Filters vs. Specific Filters)
+- [X] Removed the Delay Between Iterations submenus from the Debug Menu
+- [X] Renamed the Advanced submenu to Advanced Settings
+- [X] Renamed the debug-only Advanced submenu to Debug Menu
 
 ## Fixed Issues
 
-* Fixed an issue where Automatron armor was not supported by the Armor Filter
-* Fixed an issue where an item in a restricted location could be looted, even with Loot Settlements disabled, if the player was outside that location but the item was in the loaded area
-* Fixed an issue where dynamic arrays used by Bodies Filter could overpopulate in object-heavy areas
-* Fixed an issue where dynamic arrays used by Bodies Filter could overpopulate during optimization
+- [X] Fixed an issue where Automatron armor was not supported by the Armor Filter
+- [X] Fixed an issue where an item in a restricted location could be looted, even with Loot Settlements disabled, if the player was outside that location but the item was in the loaded area
+- [X] Fixed an issue where dynamic arrays used by Bodies Filter could overpopulate in object-heavy areas
+- [X] Fixed an issue where dynamic arrays used by Bodies Filter could overpopulate during optimization
 
 ## Optimization / Under the Hood
 
-* Removed unused items from all filter formlists
-* Re-sorted all filter formlists by reference count in descending order using an improved recursive sorting algorithm
-* Implemented tiered filter (similar to normal filter but allows filters to be customized with global variables)
-* Moderate refactoring, simplified main loops, reduced nesting, and fixed some performance-related logic issues
+- [X] Removed unused items from all filter formlists
+- [X] Re-sorted all filter formlists by reference count in descending order using an improved recursive sorting algorithm
+- [X] Implemented tiered filter (similar to normal filter but allows filters to be customized with global variables)
+- [X] Moderate refactoring, simplified main loops, reduced nesting, and fixed some performance-related logic issues
 
 ## Not Yet Implemented
 
-[] Added filter-independent toggles for looting while in combat
-[] Added filter-independent toggles for looting while sneaking
-[] Added filter-independent toggles for looting legendary armor and weapons
+- [ ] Added filter-independent toggles for looting while in combat
+- [ ] Added filter-independent toggles for looting while sneaking
+- [ ] Added filter-independent toggles for looting legendary armor and weapons
 
 # Version 1.1.4.2 - Hotfix
 
