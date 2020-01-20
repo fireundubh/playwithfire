@@ -2,7 +2,7 @@
 title: Auto Loot
 description: 
 published: true
-date: 2020-01-20T14:35:00.284Z
+date: 2020-01-20T14:35:35.399Z
 tags: 
 ---
 
@@ -11,8 +11,8 @@ tags:
 With Auto Loot, you can:
 
 - Automatically loot Ammo, Armor, Bodies, Components, Containers, Drinks, Flora, Food, Junk, Keys, Magazines, Medicine, Valuables (junk with rare components), and Weapons. 
-- You can automatically send that loot to any settlement, your inventory, or mix and match.
-- Plus, you can configure all aspects of Auto Loot while in the game using a Pip-Boy holotape.
+- Automatically send loot to any settlement, your inventory, or mix and match.
+- Configure all aspects of Auto Loot while in the game using a Pip-Boy holotape.
 
 Originally released on January 9, 2016. Updated since.
 
