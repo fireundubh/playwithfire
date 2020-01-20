@@ -2,7 +2,7 @@
 title: Master of Disguise
 description: 
 published: true
-date: 2020-01-19T14:31:45.910Z
+date: 2020-01-20T14:39:57.044Z
 tags: 
 ---
 
@@ -75,43 +75,43 @@ Skyrim factions respond differently to the Man, Mer, and Beast races. Master of 
 
 Race | Faction | Modifier
 :--- | :--- | :---
-Imperial | Blades | Bonus
+All | Daedra | Penalty
+Altmer | Bandits | Penalty
+Altmer | Stormcloaks | Penalty
+Altmer | Thalmor | Bonus
+Altmer | Windhelm Guard | Penalty
+Argonian | Thieves Guild | Bonus
+Bosmer | Thalmor | Bonus
+Breton | Forsworn | Bonus
+Breton | Markarth Guard | Penalty
 Dunmer | Cultists | Bonus
+Dunmer | Morag Tong | Bonus
+Dunmer | Redoran Guard | Bonus
+Imperial | Blades | Bonus
+Imperial | Imperial Legion | Bonus
+Imperial | Penitus Oculatus | Bonus
+Imperial | Solitude Guard | Bonus
+Imperial | Stormcloaks | Penalty
+Khajiit | Thieves Guild | Bonus
 Nord | Cultists | Bonus
+Nord | Markarth Guard | Bonus
+Nord | Solitude Guard | Penalty
+Nord | Stormcloaks | Bonus
+Nord | Windhelm Guard | Bonus
+Orc | Imperial Legion | Bonus
+Orc | Penitus Oculatus | Bonus
+Orc | Solitude Guard | Bonus
+Redguard | Alik'r Mercenaries | Bonus
+Vampire | Clan Volkihar | Bonus
 Vampire | Dark Brotherhood | Bonus
 Vampire | Dawnguard | Penalty
-Breton | Forsworn | Bonus
-All Others | Forsworn | Penalty
-Imperial | Imperial Legion | Bonus
-Orc | Imperial Legion | Bonus
-Dunmer | Morag Tong | Bonus
-Imperial | Penitus Oculatus | Bonus
-Orc | Penitus Oculatus | Bonus
-Nord | Stormcloaks | Bonus
-Altmer | Stormcloaks | Penalty
-Imperial | Stormcloaks | Penalty
-Altmer | Thalmor | Bonus
-Bosmer | Thalmor | Bonus
-All Others | Thalmor | Penalty
-Argonian | Thieves Guild | Bonus
-Khajiit | Thieves Guild | Bonus
-Vampire | Vigil of Stendarr | Penalty
-Vampire | Clan Volkihar | Bonus
 Vampire | Necromancers | Bonus
 Vampire | Vampires | Bonus
-Nord | Markarth Guard | Bonus
-Breton | Markarth Guard | Penalty
-Dunmer | Redoran Guard | Bonus
-Imperial | Solitude Guard | Bonus
-Orc | Solitude Guard | Bonus
-Nord | Solitude Guard | Penalty
-Nord | Windhelm Guard | Bonus
-Altmer | Windhelm Guard | Penalty
-All | Daedra | Penalty
-Redguard | Alik'r Mercenaries | Bonus
+Vampire | Vigil of Stendarr | Penalty
 All Others | Alik'r Mercenaries | Penalty
-Altmer | Bandits | Penalty
 All Others | Bandits | Bonus
+All Others | Forsworn | Penalty
+All Others | Thalmor | Penalty
 
 ## Leaving Witnesses
 
@@ -180,9 +180,22 @@ When the player is discovered, or the disguise is no longer worn, the player's a
 
 ### Bandit Disguises
 
-The player can now wear a bandit disguise, comprised of Fur Armor, Fur Helmet, Fur Bracers, and Fur Shoes. Fur Boots and Fur Gauntlets, found on Stormcloaks, can also be substituted. All hold guards are hostile to bandits.
+The player can wear a bandit disguise comprised of:
+
+- Fur Armor
+- Fur Helmet
+- Fur Bracers, or Fur Gauntlets (found on Stormcloaks)
+- Fur Shoes, or Fur Boots (found on Stormcloaks)
+
+All hold guards are hostile to bandits.
 
 This feature can be toggled from the SkyUI Mod Configuration Menu.
+
+### Vampire Disguises
+
+Vampire disguises can be worn at any time, but using the Mod Configuration Menu, you can configure vampire disguises to obey the day/night cycle.
+
+If that option is enabled, vampire disguises cannot be used during the day and will deactivate after night passes.
 
 ### Savior's Hide
 
