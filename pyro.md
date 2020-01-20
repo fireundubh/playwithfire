@@ -2,7 +2,7 @@
 title: Pyro
 description: 
 published: true
-date: 2020-01-19T15:07:56.057Z
+date: 2020-01-20T10:53:33.322Z
 tags: 
 ---
 
@@ -333,7 +333,7 @@ Command | Alternative Command
 Executing the build script will create a `pyro.dist` directory that contains the executable and required libraries and modules. A ZIP archive will be created in the `bin` folder.
 
 
-#### Build Script
+### Optional Build Script Arguments
 
 The build script has three arguments.
 
