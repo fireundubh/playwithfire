@@ -1,9 +1,12 @@
-<!-- TITLE: Using multiple code paths in boolean functions -->
+---
+title: Using multiple code paths in boolean functions
+description: 
+published: true
+date: 2020-01-20T12:20:50.027Z
+tags: 
+---
 
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
-
-# Using multiple code paths in boolean functions
-## Anti-pattern
+# Anti-pattern
 
 The author of the code below explicitly returns `True` and `False` in separate code paths for a boolean function.
 
@@ -17,7 +20,7 @@ Bool Function IsItemAvailable(ObjectReference akItem)
 EndFunction
 ```
 
-## Best practice
+# Best practice
 
 To avoid debugging multiple code paths, simplify the function.
 
