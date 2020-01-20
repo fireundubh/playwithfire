@@ -1,7 +1,12 @@
-<!-- TITLE: Not validating objects or arguments before calling functions -->
+---
+title: Not validating objects or arguments before calling functions
+description: 
+published: true
+date: 2020-01-20T12:08:49.018Z
+tags: 
+---
 
-# Not validating objects or arguments before calling functions
-## Anti-pattern
+# Anti-pattern
 
 The author of the code below calls a function without checking whether the arguments are correct.
 
@@ -21,7 +26,7 @@ If an object or argument becomes `None` prior to the function call, Papyrus will
 
 > error: Cannot call `Activate()` on a `None` object, aborting function call
 
-## Best practice
+# Best practice
 
 Check the variable or variables for `None` before the function call.
 
