@@ -2,7 +2,7 @@
 title: Modsmith
 description: 
 published: true
-date: 2020-01-19T15:14:08.365Z
+date: 2020-01-20T13:03:15.164Z
 tags: 
 ---
 
@@ -35,7 +35,10 @@ tags:
 
 1. To use Modsmith, you will need to structure your mod project similar to the example below:
 
-![Project Structure](https://i.imgur.com/K0BSRuX.jpg)
+Folder Path | Files
+:--- | :---
+`Data\Libs\Tables\rpg` | `buff.xml`<br>`perk.xml`<br>`perk2perk_exclusivity.xml`<br>`perk_buff.xml`<br>`perk_buff_override.xml`
+`Localization\english_xml` | `text_ui_soul.xml`
 
 2. Inside the project folder (e.g., `E:\projects\kingdomcome\More Perks`), there should be a Data folder and/or a Localization folder. Modsmith also supports Data-only mods and Localization-only mods (e.g., translations.)
 3. The `mod.manifest` file should be placed in the project root directory.
