@@ -1,8 +1,12 @@
-<!-- TITLE: xEdit -->
+---
+title: xEdit
+description: 
+published: true
+date: 2020-01-20T12:22:51.605Z
+tags: 
+---
 
-# Scripts
-
-## General Purpose
+# General Purpose
 
 Name | Hotkey | Has GUI | Purpose
 :--- | :--- | :--- | :---
