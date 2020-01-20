@@ -1,19 +1,24 @@
-<!-- TITLE: Passing the player reference to the Activate function -->
+---
+title: Passing the player reference to the Activate function
+description: 
+published: true
+date: 2020-01-20T12:22:23.338Z
+tags: 
+---
 
-# Passing the player reference to the Activate function
-## Anti-pattern
+# Anti-pattern
 
 The author of the code below passes the player reference to the `Activate` function to loot an item to the player's inventory.
 
 ```
-If kItem != None
+If kItem
 	kItem.Activate(Game.GetPlayer())
 EndIf
 ```
 
 There is a game engine issue where if the player reference is passed as the activator to the `Activate` function, the game may crash or freeze for some players, especially if this function is executed rapidly and frequently.
 
-## Best practice
+# Best practice
 
 1. Create an off-stage dummy cell with a dummy NPC.
 2. Pass the dummy NPC as the activator to the `Activate` function.
