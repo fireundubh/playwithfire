@@ -2,7 +2,7 @@
 title: Using nested loops
 description: 
 published: true
-date: 2020-01-20T12:21:34.887Z
+date: 2020-01-20T12:21:56.164Z
 tags: 
 ---
 
@@ -13,7 +13,7 @@ The author of the code below uses an outer loop and an inner loop to iterate ove
 ```
 Int i = 0
 
-While (i < DynamicArray.Length)
+While i < DynamicArray.Length
 	FormList kFormList = DynamicArray[i] as FormList
 	
 	Int j = 0
