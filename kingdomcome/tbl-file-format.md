@@ -1,9 +1,14 @@
-<!-- TITLE: TBL File Format -->
+---
+title: TBL File Format
+description: 
+published: true
+date: 2020-01-20T07:28:23.829Z
+tags: 
+---
 
-# TBL File Format
 _This information was mirrored from the Nexus Wiki, contributed by Bodowens86, with some additions._
 
-## Top-Level File Format
+# Top-Level File Format
 
 Offset | Name | Type
 --- | --- | ---
@@ -13,7 +18,7 @@ Offset | Name | Type
 
 Line size can be calculated as `(file size - header size - string data size) / line count`.
 
-## Header Format
+# Header Format
 
 Offset | Name | Type
 --- | --- | --- | --- | ---
@@ -38,7 +43,7 @@ Layout Hash | 32-bit FNV-1a | `0x811c9dc5`
 
 _Additional hash information and pseudocode provided by moggabor and Bodowens86._
 
-### Hash Generation Pseudocode
+## Hash Generation Pseudocode
 
 This pseudocode describes how the descriptors and layout hashes are generated.
 
@@ -73,7 +78,7 @@ if lineSize % maxColumnAlignment:
 layoutHash = crc32(lineSize, layoutHash)
 ```
 
-## Data Types
+# Data Types
 
 Type ID | Name | Bit Width | Width in Bytes | XML Type Name
 --- | --- | --- | --- | ---
@@ -91,7 +96,7 @@ Type ID | Name | Bit Width | Width in Bytes | XML Type Name
 
 _Type IDs provided by moggabor._
 
-### Notes
+## Notes
 
 * Strings are stored as 32-bit signed integers pointing into the string table.
 * Most tables do not use any padding. Whether table uses or doesn't use padding is hard-coded in KCD source. KCD data can only tell you that there is some padding somewhere, but not where. To see whether table uses padding, compare table description in XML file with line size in TBL file.
