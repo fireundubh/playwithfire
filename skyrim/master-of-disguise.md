@@ -2,7 +2,7 @@
 title: Master of Disguise
 description: 
 published: true
-date: 2020-01-20T14:41:31.143Z
+date: 2020-01-20T14:43:39.623Z
 tags: 
 ---
 
@@ -162,6 +162,27 @@ When the player wears a disguise that shares components with another, the first 
 
 _Only disguises with special base requirements are affected by the priority rule._
 
+# Unique Disguise Behaviors
+
+## Bandit Disguises
+
+The player can wear a bandit disguise comprised of:
+
+- Fur Armor
+- Fur Helmet
+- Fur Bracers, or Fur Gauntlets (found on Stormcloaks)
+- Fur Shoes, or Fur Boots (found on Stormcloaks)
+
+All hold guards are hostile to bandits.
+
+This feature can be toggled from the SkyUI Mod Configuration Menu.
+
+## Daedric Weapons and Armor
+
+According to the Vigil of Stendarr, "the Mercy of Stendarr does not extend to Daedra worshippers." When the player equips Daedric weapons or armor, Vigilants will attempt to drag the player into the light. In addition, Dremora will see the player as aligned with Mehrunes Dagon and will not attack.
+
+This feature can be toggled from the SkyUI Mod Configuration Menu.
+
 ## Guard Disguises
 
 _Currently not available in any version._
@@ -176,34 +197,15 @@ When the player is discovered, or the disguise is no longer worn, the player's a
 
 **Known Exploit:** The player can continually re-equip the guard disguise to continually conceal the active bounty, and effectively commit most crimes without penalties while in disguise. However, the tracked bounty will continue to increase, so at some point, the player will have to address the enlarged active bounty.
 
-### Bandit Disguises
-
-The player can wear a bandit disguise comprised of:
-
-- Fur Armor
-- Fur Helmet
-- Fur Bracers, or Fur Gauntlets (found on Stormcloaks)
-- Fur Shoes, or Fur Boots (found on Stormcloaks)
-
-All hold guards are hostile to bandits.
-
-This feature can be toggled from the SkyUI Mod Configuration Menu.
-
-### Vampire Disguises
+## Vampire Disguises
 
 Vampire disguises can be worn at any time, but using the Mod Configuration Menu, you can configure vampire disguises to obey the day/night cycle.
 
 If that option is enabled, vampire disguises cannot be used during the day and will deactivate after night passes.
 
-### Werewolf Disguises
+## Werewolf Disguises
 
 Wearing the Savior's Hide, a gift from Hircine, will signal to Werewolves that the player is favored and the player will not be attacked by Werewolves.
-
-This feature can be toggled from the SkyUI Mod Configuration Menu.
-
-### Daedric Weapons and Armor
-
-According to the Vigil of Stendarr, "the Mercy of Stendarr does not extend to Daedra worshippers." When the player equips Daedric weapons or armor, Vigilants will attempt to drag the player into the light. In addition, Dremora will see the player as aligned with Mehrunes Dagon and will not attack.
 
 This feature can be toggled from the SkyUI Mod Configuration Menu.
 
