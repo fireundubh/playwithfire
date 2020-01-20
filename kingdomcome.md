@@ -2,7 +2,7 @@
 title: Kingdom Come
 description: Kingdom Come: Deliverance
 published: true
-date: 2020-01-19T16:48:33.324Z
+date: 2020-01-20T11:00:10.867Z
 tags: 
 ---
 
@@ -41,5 +41,4 @@ Section | Description
 
 Section | Description
 :--- | :---
-[TBL Files](/kingdomcome/tbl-files) | TBL file details
 [TBL File Format](/kingdomcome/tbl-file-format) | TBL file format specification
