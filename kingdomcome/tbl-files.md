@@ -1,8 +1,10 @@
-<!-- TITLE: TBL Files -->
-
-# TBL Files
-
-## Table
+---
+title: TBL Files
+description: 
+published: true
+date: 2020-01-20T07:14:29.364Z
+tags: 
+---
 
 The following data was last updated using game version 1.4.2.
 
@@ -365,5 +367,3 @@ Table | Format<br>Ver. | Descriptors<br>Hash | Layout<br>Hash | Table<br>Ver. | 
 `ui\ui_local_maps.tbl` | `3` | `0xfe3a965b` | `0x517296c5` | `1` | `13` | `108` | `13` | `1280` | `88` | `73` | `1144` | `True` | `True` | `ui_local_map_id` (uuid; 16 bytes)<br>`ui_local_map_name` (text; 4 bytes)<br>`position_x` (real; 4 bytes)<br>`position_y` (real; 4 bytes)<br>`width` (real; 4 bytes)<br>`height` (real; 4 bytes)<br>`focus1_x` (real; 4 bytes)<br>`focus1_y` (real; 4 bytes)<br>`focus2_x` (real; 4 bytes)<br>`focus2_y` (real; 4 bytes)<br>`major_axis` (real; 4 bytes)<br>`location_id` (uuid; 16 bytes)<br>`enabled_by_default` (boolean; 1 bytes)
 `ui\ui_map_label.tbl` | `3` | `0x4db006a` | `0x6daa4a21` | `1` | `14` | `236` | `14` | `936` | `48` | `44` | `672` | `True` | `True` | `ui_map_label_id` (uuid; 16 bytes)<br>`location_id` (uuid; 16 bytes)<br>`position_x` (real; 4 bytes)<br>`position_y` (real; 4 bytes)<br>`ui_name` (text; 4 bytes)
 `ui\video_language2audio_track.tbl` | `3` | `0x2f7d9cea` | `0x1ecad205` | `1` | `22` | `0` | `0` | `292` | `12` | `12` | `264` | `False` | `False` | `language_id` (integer; 4 bytes)<br>`audio_track_id` (integer; 4 bytes)<br>`subtitles_track_id` (integer; 4 bytes)
-
-
