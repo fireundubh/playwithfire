@@ -2,7 +2,7 @@
 title: Divine CLI
 description: 
 published: true
-date: 2020-01-20T10:19:23.497Z
+date: 2020-01-20T10:23:59.590Z
 tags: 
 ---
 
@@ -11,7 +11,7 @@ tags:
 Short | Long | Allowed Values | Description
  :--- | :--- | :--- | :---
 `-s` | `--source` | `(absolute file/folder path)` | Set source file path or directory
-`-a` | `--action` | <ul><li>`create-package`<li>`list-package`<li>`extract-package` (default)<li>`convert-model`<li>`convert-resource`</ul>Batch Actions:<ul><li>`extract-packages`<li>`convert-models`<li>`convert-resources`</ul> | Set action to execute
+`-a` | `--action` | <ul><li>`create-package`<li>`list-package`<li>`extract-package` (default)<li>`convert-model`<li>`convert-resource`</ul><br />Batch Actions:<ul><li>`extract-packages`<li>`convert-models`<li>`convert-resources`</ul> | Set action to execute
 
 # Optional Arguments
 
