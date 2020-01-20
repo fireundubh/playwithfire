@@ -2,10 +2,29 @@
 title: Auto Loot
 description: 
 published: true
-date: 2020-01-19T14:25:56.843Z
+date: 2020-01-20T14:35:00.284Z
 tags: 
 ---
 
+**Auto Loot** is the first and most configurable auto loot, auto harvest, and auto steal mod for Fallout 4.
+
+With Auto Loot, you can:
+
+- Automatically loot Ammo, Armor, Bodies, Components, Containers, Drinks, Flora, Food, Junk, Keys, Magazines, Medicine, Valuables (junk with rare components), and Weapons. 
+- You can automatically send that loot to any settlement, your inventory, or mix and match.
+- Plus, you can configure all aspects of Auto Loot while in the game using a Pip-Boy holotape.
+
+Originally released on January 9, 2016. Updated since.
+
+# Requirements
+
+- Automatron DLC
+- Far Harbor DLC
+- Nuka World DLC
+
+In addition, all Papyrus INI settings must be set to the defaults. These settings should never be changed.
+
+# Links
 
 * [Version History](/fallout4/auto-loot/version-history)
 * [Documentation](/fallout4/auto-loot/documentation)
