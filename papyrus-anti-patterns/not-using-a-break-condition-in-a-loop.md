@@ -1,7 +1,12 @@
-<!-- TITLE: Not using a break condition in a loop -->
+---
+title: Not using a break condition in a loop
+description: 
+published: true
+date: 2020-01-20T12:07:08.263Z
+tags: 
+---
 
-# Not using a break condition in a loop
-## Anti-pattern
+# Anti-pattern
 
 The author of the code below uses a loop to iterate through an array unconditionally. The loop completes after reaching the last item in the array.
 
@@ -17,7 +22,7 @@ While (i < NativeArray.Length)
 EndWhile
 ```
 
-## Best practice
+# Best practice
 
 Loops should be able to terminate prematurely when a condition arises where exiting is the only safe action.
 
