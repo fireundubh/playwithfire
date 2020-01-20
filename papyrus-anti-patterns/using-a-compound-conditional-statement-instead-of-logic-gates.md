@@ -1,7 +1,12 @@
-<!-- TITLE: Using compound conditional statements instead of logic gates -->
+---
+title: Using compound conditional statements instead of logic gates
+description: 
+published: true
+date: 2020-01-20T12:17:08.396Z
+tags: 
+---
 
-# Using a compound conditional statement instead of logic gates
-## Anti-pattern
+# Anti-pattern
 
 The author of the code below constructed a compound conditional statement to control the flow of this function.
 
@@ -15,7 +20,7 @@ Bool Function IsItemDeletedDisabledOrDestroyed(ObjectReference akItem)
 EndFunction
 ```
 
-## Best practice
+# Best practice
 
 To improve maintainability, use logic gates instead of compound conditional statements.
 
