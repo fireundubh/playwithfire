@@ -1,12 +1,17 @@
-<!-- TITLE: Patch Notes -->
+---
+title: Patch Notes
+description: 
+published: true
+date: 2020-01-20T11:03:05.961Z
+tags: 
+---
 
-# Patch Notes
-## v1.0.10
+# v1.0.10
 
 - Manifest ID: `4137201467282432792`
 - [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1711824163719704513)
 
-### Assembly Changes
+## Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
 :--- | :--- | :--- | :---
@@ -158,12 +163,12 @@ Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/FactLogic | `CompanionImmort
 Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/FactLogic | `DropLootAndDestroyOnDeactivate.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/Visual/CharacterSystem | `Character.cs`
 
-## v1.0.9
+# v1.0.9
 
 - Manifest ID: `3329346642708156469`
 - [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/2924417816931842509)
 
-### Assembly Changes
+## Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
 :--- | :--- | :--- | :---
@@ -236,22 +241,22 @@ Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/Abilities/Blueprints | `Blue
 Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/FactLogic | `CompanionImmortality.cs`
 
 
-## v1.0.8c
+# v1.0.8c
 
 - Manifest ID: `7773343900112385919`
 - [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/2924417816900833325)
 
-### Assembly Changes
+## Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
 :--- | :--- | :--- | :---
 Modified | cs | Assembly-CSharp/Kingmaker/Designers/EventConditionActionSystem/Conditions | `UnitIsDead.cs`
 Added | cs | Assembly-CSharp/Kingmaker/Designers/EventConditionActionSystem/Conditions | `UnitIsNull.cs`
 
-## v1.0.8b
+# v1.0.8b
 Manifest ID: `4551845841087663139`
 
-### Assembly Changes
+## Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
 :--- | :--- | :--- | :---
@@ -303,12 +308,12 @@ Modified | cs | Assembly-CSharp/Kingmaker/Visual/CharacterSystem | `CharacterTex
 Modified | cs | Assembly-CSharp/Kingmaker/Visual/LocalMap | `LocalMapRenderer.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/Visual/Water | `PlanarReflectionAndRefraction.cs`
 
-## v1.0.7
+# v1.0.7
 
 - Manifest ID: `5750998838144035341`
 - [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1708445194439906203)
 
-### Assembly Changes
+## Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
 :--- | :--- | :--- | :---
@@ -353,8 +358,8 @@ Added | cs | Assembly-CSharp/Kingmaker/UI/MainMenuUI | `MainMenuVersion.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/ActivatableAbilities | `ActivatableAbilityResourceLogic.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/View/MapObjects | `LootComponent.cs`
 
-## 3625063316203614488
-### Assembly Changes
+# 3625063316203614488
+## Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
 :--- | :--- | :--- | :---
@@ -393,12 +398,12 @@ Modified | cs | Assembly-CSharp/Kingmaker/Designers/EventConditionActionSystem/E
 Modified | cs | Assembly-CSharp/Kingmaker/Designers/EventConditionActionSystem/Events | `UnitHealthTrigger.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/Items | `ItemEntityShield.cs`
 
-## v1.0.6
+# v1.0.6
 
 - Manifest ID: `6336459653349909543`
 - [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1708445194413594388)
 
-### Assembly Changes
+## Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
 :--- | :--- | :--- | :---
@@ -443,12 +448,12 @@ Modified | cs | Assembly-CSharp/Kingmaker/UI/SettingsUI | `SettingsRoot.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/UI/Tooltip | `DescriptionBuilderTemplates.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/Utility | `TypeExtensions.cs`
 
-## v1.0.5
+# v1.0.5
 
 - Manifest ID: `7894022154904016667`
 - [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1708445194411519344)
 
-### Assembly Changes
+## Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
 :--- | :--- | :--- | :---
@@ -497,8 +502,8 @@ Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/Buffs | `BuffCollection.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/FactLogic | `IncreaseResourceAmount.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/Visual/Particles | `SnapToLocator.cs`
 
-## 4920380694923421717
-### Assembly Changes
+# 4920380694923421717
+## Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
 :--- | :--- | :--- | :---
@@ -529,12 +534,12 @@ Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/Mechanics/Components | `AddI
 Modified | cs | Assembly-CSharp/Kingmaker/Utility | `SystemUtil.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/View | `CameraRig.cs`
 
-## v1.0.4
+# v1.0.4
 
 - Manifest ID: `6358573070219561752`
 - [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/2940179248248985616)
 
-### Assembly Changes
+## Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
 :--- | :--- | :--- | :---
@@ -610,12 +615,12 @@ Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/Abilities | `AbilityData.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/ActivatableAbilities | `BlueprintActivatableAbility.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/Class/LevelUp | `LevelUpController.cs`
 
-## v1.0.2
+# v1.0.2
 
 - Manifest ID: `2451367926564256244`
 - [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/2940179248218810867)
 
-### Assembly Changes
+## Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
 :--- | :--- | :--- | :---
@@ -650,12 +655,12 @@ Added | cs | Assembly-CSharp/Kingmaker/UnitLogic/Buffs | `RemoveBuffOnLoad.cs`
 Modified | cs | Assembly-CSharp/Kingmaker/UnitLogic/Buffs/Components | `AddEffectRegeneration.cs`
 Added | cs | Assembly-CSharp/Kingmaker/UnitLogic/FactLogic | `AddPostLoadActions.cs`
 
-## v1.0.1
+# v1.0.1
 
 - Manifest ID: `1412067188604596331`
 - [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1711822259759145662)
 
-### Assembly Changes
+## Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
 :--- | :--- | :--- | :---
