@@ -1,7 +1,12 @@
-<!-- TITLE: Passing a zero denominator to a division or modulus operation -->
+---
+title: Passing a zero denominator to a division or modulus operation
+description: 
+published: true
+date: 2020-01-20T12:15:49.575Z
+tags: 
+---
 
-# Passing a zero denominator to a division or modulus operation
-## Anti-pattern
+# Anti-pattern
 
 The author of the code below attempts to divide a value by an actor value without checking whether the actor value is zero.
 
@@ -9,7 +14,7 @@ The author of the code below attempts to divide a value by an actor value withou
 Actor Property PlayerRef Auto
 
 Bool Function CanUnlock()
-	Float fRatio = 100.0 / PlayerRef.GetActorValue("Lockpicking") as Float
+	Float fRatio = 100.0 / PlayerRef.GetActorValue("Lockpicking")
 
 	If fRatio > 5.0
 		Return True
@@ -23,7 +28,7 @@ Since an actor value (the denominator) can be zero, this function call may fail 
 
 > error: Cannot divide by zero
 
-## Best practice
+# Best practice
 
 Check whether the denominator is zero and set the denominator to an acceptable nonzero value before executing a division or modulus operation.
 
@@ -31,7 +36,7 @@ Check whether the denominator is zero and set the denominator to an acceptable n
 Actor Property PlayerRef Auto
 
 Bool Function CanUnlock()
-	Float fSkill = PlayerRef.GetActorValue("Lockpicking") as Float
+	Float fSkill = PlayerRef.GetActorValue("Lockpicking")
 	
 	If fSkill == 0.0
 		fSkill = 1.0
@@ -39,6 +44,6 @@ Bool Function CanUnlock()
 	
 	Float fRatio = 100.0 / fSkill
 
-	Return (fRatio > 5.0)
+	Return fRatio > 5.0
 EndIf
 ```
