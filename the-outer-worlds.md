@@ -1,26 +1,29 @@
-<!-- TITLE: The Outer Worlds -->
+---
+title: The Outer Worlds
+description: 
+published: true
+date: 2020-01-20T11:21:29.990Z
+tags: 
+---
 
-# The Outer Worlds
-[Looking for the timeline? Click here.](/the-outer-worlds/timeline)
-
-## Early Modding Notes
+# Early Modding Notes
 
 * Windows Store version requires changing the security settings of the WindowsApps folder
 * `IndianaWindowsStore-Win64-Shipping.exe` indicates Unreal Engine version is 4.21.2.0
 * PAKs are compressed
 * `Exported` folder has JSON bundles similar to Pillars of Eternity 2
 
-## Paths
+# Paths
 
-### Game
+## Game
 
 `X:\WindowsApps\PrivateDivision.TheOuterWorldsWindows10_1.0.369.0_x64__hv3d7yfbgr2rp`
 
-### INI Files
+## INI Files
 
 `%LOCALAPPDATA%\Packages\PrivateDivision.TheOuterWorldsWindows10_hv3d7yfbgr2rp\LocalCache\Local\Indiana\Saved\Config\WindowsNoEditor`
 
-## Resources
+# Resources
 
 * [SubInACL](https://www.microsoft.com/en-us/download/details.aspx?id=23510) - command line tool for changing security settings
 * [u4pak](https://github.com/panzi/u4pak) - requires unencrypted PAKs
