@@ -1,18 +1,20 @@
-<!-- TITLE: Deadfire -->
-<!-- SUBTITLE: Pillars of Eternity II: Deadfire -->
+---
+title: Deadfire
+description: Pillars of Eternity II: Deadfire
+published: true
+date: 2020-01-20T11:21:58.104Z
+tags: 
+---
 
-# Home
-Welcome to the *Pillars of Eternity II: Deadfire* wiki at **#playwithfire**. This wiki was created to provide modders with potentially useful technical information.
-
-## Scripting Reference
+# Scripting Reference
 
 Section | Description
 --- | ---
-[Conditionals](deadfire/conditionals) | Conditional Scripts
+[Conditionals](/deadfire/conditionals) | Conditional Scripts
 
-## Reports
+# Reports
 
 Section | Description
 :--- | :---
-[Dialogue Options Report](deadfire/dialogue-options) | A statistical report of dialogue checks
+[Dialogue Options Report](/deadfire/dialogue-options) | A statistical report of dialogue checks
 
