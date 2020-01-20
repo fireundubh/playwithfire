@@ -2,13 +2,11 @@
 title: Version History
 description: 
 published: true
-date: 2020-01-20T14:23:01.187Z
+date: 2020-01-20T14:23:27.962Z
 tags: 
 ---
 
-# Version 1.2 - Major Update
-
-This update has not been released.
+# Version 1.2 - Major Update (Unreleased)
 
 ## New Features
 
