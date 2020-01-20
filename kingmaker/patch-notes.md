@@ -2,7 +2,7 @@
 title: Patch Notes
 description: 
 published: true
-date: 2020-01-20T11:05:26.622Z
+date: 2020-01-20T11:05:58.123Z
 tags: 
 ---
 
@@ -31,6 +31,7 @@ tags:
 - [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1708445194439906203)
 
 # 3625063316203614488
+
 ## Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
@@ -42,8 +43,9 @@ Modified | cs | Assembly-CSharp/Kingmaker/EntitySystem/Persistence/Versioning | 
 Added | cs | Assembly-CSharp/Kingmaker/EntitySystem/Persistence/Versioning/Upgraders | `EnchantmentFeaturesForFixing.cs`
 Added | cs | Assembly-CSharp/Kingmaker/EntitySystem/Persistence/Versioning/Upgraders | `PF40261_FixDuplicateEnchantments.cs`
 
-## 946625482595150857
-### Assembly Changes
+# 946625482595150857
+
+## Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
 :--- | :--- | :--- | :---
@@ -81,6 +83,7 @@ Modified | cs | Assembly-CSharp/Kingmaker/Items | `ItemEntityShield.cs`
 - [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/1708445194411519344)
 
 # 4920380694923421717
+
 ## Assembly Changes
 
 Modification | Ext. | Relative Directory | Name
