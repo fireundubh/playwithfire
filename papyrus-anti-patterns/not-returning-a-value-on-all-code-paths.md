@@ -2,7 +2,7 @@
 title: Not returning a value on all code paths
 description: 
 published: true
-date: 2020-01-20T12:06:45.615Z
+date: 2020-01-20T14:07:48.353Z
 tags: 
 ---
 
@@ -10,7 +10,7 @@ tags:
 
 The author of the code below returns a value on two code paths, but the functon has three code paths.
 
-```
+```papyrus
 Bool Function IsItemAvailable(ObjectReference akItem)
 	If akItem.Is3DLoaded() && !akItem.IsDisabled() && !akItem.IsDeleted() && !akItem.IsDestroyed() && !akItem.IsActivationBlocked()
 		Return True
@@ -28,7 +28,7 @@ Papyrus raises a warning without an accompanying error:
 
 Ensure that all code paths return a value. The above code could be written like so:
 
-```
+```papyrus
 Bool Function IsItemAvailable(ObjectReference akItem)
 	If akItem.Is3DLoaded() && !akItem.IsDisabled() && !akItem.IsDeleted() && !akItem.IsDestroyed() && !akItem.IsActivationBlocked()
 		Return True
