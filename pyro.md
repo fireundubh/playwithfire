@@ -2,7 +2,7 @@
 title: Pyro
 description: 
 published: true
-date: 2020-01-20T10:53:33.322Z
+date: 2020-01-20T10:59:08.964Z
 tags: 
 ---
 
@@ -355,3 +355,4 @@ BSArch is licensed under the MPL 2.0 license. The binary bundled with Pyro was c
 * fireundubh (lead developer)
 * rjstone (contributor)
 * xnyo (contributor)
+* Scrivener07 (tester)
