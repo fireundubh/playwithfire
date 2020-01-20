@@ -1,7 +1,12 @@
-<!-- TITLE: Using nested loops -->
+---
+title: Using nested loops
+description: 
+published: true
+date: 2020-01-20T12:21:34.887Z
+tags: 
+---
 
-# Using nested loops
-## Anti-pattern
+# Anti-pattern
 
 The author of the code below uses an outer loop and an inner loop to iterate over and process data in a list. In this example, the inner loop will execute on each item in the outer array.
 
@@ -38,7 +43,7 @@ Assume there are 20 items in `DynamicArray` and 20 items in each `kFormList`:
 
 How many iterations would be needed to complete three, or four, or five nested loops?
 
-## Best practice
+# Best practice
 
 Consider whether you need to access every value in each loop. If nested loops are the correct solution, look closer at where you can optimize.
 
@@ -53,7 +58,7 @@ Bool bBreak = False
 
 While (i < DynamicArray.Length) && !bBreak
 	If !bBreak
-		ObjectReference kItem = DynamicArray[i] as ObjectReference
+		ObjectReference kItem = DynamicArray[i]
 	
 		If MyFormList1.HasForm(kItem)
 			; do stuff
