@@ -2,7 +2,7 @@
 title: Master of Disguise
 description: 
 published: true
-date: 2020-01-20T14:43:39.623Z
+date: 2020-01-20T14:45:22.255Z
 tags: 
 ---
 
@@ -179,13 +179,17 @@ This feature can be toggled from the SkyUI Mod Configuration Menu.
 
 ## Daedric Weapons and Armor
 
-According to the Vigil of Stendarr, "the Mercy of Stendarr does not extend to Daedra worshippers." When the player equips Daedric weapons or armor, Vigilants will attempt to drag the player into the light. In addition, Dremora will see the player as aligned with Mehrunes Dagon and will not attack.
+> This feature can be toggled from the SkyUI Mod Configuration Menu.
 
-This feature can be toggled from the SkyUI Mod Configuration Menu.
+> "The Mercy of Stendarr does not extend to Daedra worshippers." — The Vigil of Stendarr
+
+When the player equips Daedric weapons or armor, Vigilants will attempt to drag the player into the light.
+
+In addition, Dremora will see the player as aligned with Mehrunes Dagon and will not attack.
 
 ## Guard Disguises
 
-_Currently not available in any version._
+> Currently not available in any version.
 
 When the player equips a guard disguise, the player's bounty is concealed in the respective hold. For example, wearing the Windhelm Guard disguise will conceal the player's bounty in Eastmarch but not The Reach.
 
@@ -199,15 +203,17 @@ When the player is discovered, or the disguise is no longer worn, the player's a
 
 ## Vampire Disguises
 
+> This feature can be toggled from the SkyUI Mod Configuration Menu.
+
 Vampire disguises can be worn at any time, but using the Mod Configuration Menu, you can configure vampire disguises to obey the day/night cycle.
 
 If that option is enabled, vampire disguises cannot be used during the day and will deactivate after night passes.
 
 ## Werewolf Disguises
 
-Wearing the Savior's Hide, a gift from Hircine, will signal to Werewolves that the player is favored and the player will not be attacked by Werewolves.
+> This feature can be toggled from the SkyUI Mod Configuration Menu.
 
-This feature can be toggled from the SkyUI Mod Configuration Menu.
+Wearing the Savior's Hide, a gift from Hircine, will signal to Werewolves that the player is favored and the player will not be attacked by Werewolves.
 
 # Faction Relations Overhaul
 
