@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-01-20T14:22:05.550Z
+date: 2020-01-20T14:23:01.187Z
 tags: 
 ---
 
@@ -12,12 +12,12 @@ This update has not been released.
 
 ## New Features
 
-* [X] **Currency Filter:** The Currency Filter will loot the following items: Bottlecaps, Pre-War Money, Caps Stashes, Bobby Pins and Bobby Pin Boxes, Bottlecaps via Bottlecap Mines, and Bottlecaps via Fortune Finder IV.
-* [X] **Ammo Filter Support for Fusion Cores:** The Ammo Filter will loot all Fusion Cores, excluding fusion cores installed in power generators. Auto Loot will not loot fusion cores installed in power generators because removing them via Auto Loot would not trigger the generator shutdown event.
-* [X] **Weapons Filter Customization:** The Weapons Filter has been upgraded to the newly created tiered filter system. You can configure the Weapons Filter to loot only Big Guns, Energy Weapons, Explosives, Melee Weapons, Small Guns, Traps, Unarmed Weapons. The filter is configured to loot all weapons by default.
-* [X] **Valuables Filter Customization:** The Valuables Filter has also been upgraded to the tiered filter system. You can configure the Valuables Filter to loot only junk with Common, Uncommon, or Rare components. The filter is configured to loot only junk with Rare components by default. Additionally, you can also configure the Valuables Filter to loot Component Scrap, such as the miscellaneous component items you can pick up and component shipments. This extra option was added primarily for players of certain workshop mods.
-* [X] **Take Any Filter Mode Support for the Components Filter:** You can now use the Take Any Filter Mode with the Components Filter, allowing you to loot junk with specific components from bodies and/or containers when the Bodies Filter and/or Containers Filter are also enabled.
-* [X] **Dynamic Ash and Goo Pile Prevention:** Ash and Goo Piles are activators with hardcoded behaviors; they are neither bodies nor containers. Papyrus offers no support for manipulating these activators and therefore they cannot be supported by Auto Loot. You can manually loot Ash and Goo Piles, or you can use a new feature that prevents Ash and Goo Piles from being created. This new feature dynamically adds the `NoDisintegrate` keyword to NPCs in the loaded area in a radius of 4096 units.
+- **Currency Filter:** The Currency Filter will loot the following items: Bottlecaps, Pre-War Money, Caps Stashes, Bobby Pins and Bobby Pin Boxes, Bottlecaps via Bottlecap Mines, and Bottlecaps via Fortune Finder IV.
+- **Ammo Filter Support for Fusion Cores:** The Ammo Filter will loot all Fusion Cores, excluding fusion cores installed in power generators. Auto Loot will not loot fusion cores installed in power generators because removing them via Auto Loot would not trigger the generator shutdown event.
+- **Weapons Filter Customization:** The Weapons Filter has been upgraded to the newly created tiered filter system. You can configure the Weapons Filter to loot only Big Guns, Energy Weapons, Explosives, Melee Weapons, Small Guns, Traps, Unarmed Weapons. The filter is configured to loot all weapons by default.
+- **Valuables Filter Customization:** The Valuables Filter has also been upgraded to the tiered filter system. You can configure the Valuables Filter to loot only junk with Common, Uncommon, or Rare components. The filter is configured to loot only junk with Rare components by default. Additionally, you can also configure the Valuables Filter to loot Component Scrap, such as the miscellaneous component items you can pick up and component shipments. This extra option was added primarily for players of certain workshop mods.
+- **Take Any Filter Mode Support for the Components Filter:** You can now use the Take Any Filter Mode with the Components Filter, allowing you to loot junk with specific components from bodies and/or containers when the Bodies Filter and/or Containers Filter are also enabled.
+- **Dynamic Ash and Goo Pile Prevention:** Ash and Goo Piles are activators with hardcoded behaviors; they are neither bodies nor containers. Papyrus offers no support for manipulating these activators and therefore they cannot be supported by Auto Loot. You can manually loot Ash and Goo Piles, or you can use a new feature that prevents Ash and Goo Piles from being created. This new feature dynamically adds the `NoDisintegrate` keyword to NPCs in the loaded area in a radius of 4096 units.
 
 In order to use this feature, enter the following command at the MAIN MENU: 
 
