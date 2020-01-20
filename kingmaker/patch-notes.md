@@ -2,7 +2,7 @@
 title: Patch Notes
 description: 
 published: true
-date: 2020-01-20T11:05:58.123Z
+date: 2020-01-20T11:06:17.839Z
 tags: 
 ---
 
@@ -120,7 +120,7 @@ Modified | cs | Assembly-CSharp/Kingmaker/View | `CameraRig.cs`
 - Manifest ID: `6358573070219561752`
 - [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/2940179248248985616)
 
-## v1.0.3
+# v1.0.3
 
 - Manifest ID: `229482041491868730`
 - [Patch Details](https://steamcommunity.com/games/Pathfinder_Kingmaker/announcements/detail/2940179248226283738)
