@@ -2,7 +2,7 @@
 title: Master of Disguise
 description: 
 published: true
-date: 2020-01-20T18:12:14.849Z
+date: 2020-01-28T11:22:34.281Z
 tags: 
 ---
 
@@ -265,14 +265,21 @@ Redoran Guard | Redoran Guard | Bandits<br>Forsworn | &nbsp;
 
 # Compatibility
 
-* Compatible with all mods except those offering similar features
-* Compatible with armor replacers and retextures
-* Compatible with custom races but custom races will not have racial modifiers
-* Compatible with Requiem 1.7.3, 1.8, 1.9, and beyond with patches
-* Not compatible with Skyrim Redone (SkyRe) due to similar features
-* Not compatible with PerMa due to similar features
-* Mods adding new faction armor will require patches to add disguise support
-* Mods changing any faction may require patches to address compatibility issues
+## Guidelines
+
+* Hard incompatibility with mods that alter faction relationships
+* Hard incompatibility with mods that add or remove the player from base factions
+* Hard incompatibility with mods that offer similar features
+* *New* faction equipment added by mods cannot be used as disguise equipment without patches.
+* Custom races will not have any racial bonuses or penalties when your dice roll is calculated.
+
+## Incompatible Mods
+
+Version | Mod | Reason
+:--- | :--- | :---
+LE | Armor Disguises | Breaks the game by adding and removing the player from base factions
+LE | Skyrim Redone (SkyRe) | Similar features but less featureful
+LE | PerMa | Similar features but less featureful
 
 # Uninstalling
 
