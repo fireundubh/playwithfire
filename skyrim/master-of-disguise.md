@@ -2,13 +2,15 @@
 title: Master of Disguise
 description: 
 published: true
-date: 2020-01-28T11:22:34.281Z
+date: 2020-01-30T00:08:42.621Z
 tags: 
 ---
 
 # Overview
 
-Master of Disguise transforms faction armor into real disguises with an immersive and fully customizable detection system.
+> [Version History](/skyrim/master-of-disguise/version-history)
+
+**Master of Disguise** transforms faction armor into real disguises with an immersive and fully customizable detection system.
 
 * Suit up as anyone, from a Dark Brotherhood assassin to a rough-and-tumble bandit.
 * Find safety among new allies, or deceive and betray them.
