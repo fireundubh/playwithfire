@@ -2,13 +2,13 @@
 title: Master of Disguise
 description: 
 published: true
-date: 2020-01-30T00:08:42.621Z
+date: 2020-01-30T00:09:10.598Z
 tags: 
 ---
 
 # Overview
 
-> [Version History](/skyrim/master-of-disguise/version-history)
+> [Version History (SSE)](/skyrim/master-of-disguise/version-history)
 
 **Master of Disguise** transforms faction armor into real disguises with an immersive and fully customizable detection system.
 
