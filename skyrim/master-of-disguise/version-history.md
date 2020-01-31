@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-01-31T00:34:20.853Z
+date: 2020-01-31T00:36:40.574Z
 tags: 
 ---
 
@@ -13,7 +13,7 @@ Minimum game version required: Skyrim Special Edition v1.5.39.0
 ## Major Changes
 
 - Significantly reduced time to activate disguises when changing equipment
-- Implemented faction relationships updater, which runs once when starting a new game or loading a save
+- Updated critical faction relationships programmatically when starting a new game or loading a save
 - Removed faction relationships overhaul, eliminating any need for the Joinable Factions Patch
 - Disabled Bandit Disguise by default
 - Disabled Vampire Disguise day/night restrictions by default
