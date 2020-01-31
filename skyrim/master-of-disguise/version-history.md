@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-01-30T16:41:27.390Z
+date: 2020-01-31T00:34:20.853Z
 tags: 
 ---
 
@@ -13,13 +13,15 @@ Minimum game version required: Skyrim Special Edition v1.5.39.0
 ## Major Changes
 
 - Significantly reduced time to activate disguises when changing equipment
-- Faction relationships updated programmatically when starting a new game or loading a save (potentially fixes issues where faction relationships are baked into saves, preventing faction changes from taking effect)
+- Implemented faction relationships updater, which runs once when starting a new game or loading a save
+- Removed faction relationships overhaul, eliminating any need for the Joinable Factions Patch
 - Disabled Bandit Disguise by default
 - Disabled Vampire Disguise day/night restrictions by default
 - Added developer message to tutorial message chain
 
 ## Fixes
 
+- Fixed issue where faction relationships could not be changed by plugin if they were baked into saves
 - Fixed issue where some default values were incorrect which trivialized avoiding discovery
 - Fixed issue where equipping disguises before tutorial chain completed could repeat tutorial messages
 - Fixed issue where delay between dice roll attempts was set too low by default
@@ -27,6 +29,7 @@ Minimum game version required: Skyrim Special Edition v1.5.39.0
 - Fixed issue where Bandit Disguise essential slot could not be configured from SkyUI menu
 - Fixed issue where Daedric Influence was activated only when Daedric headwear was equipped
 - Fixed various issues where SkyUI menu help descriptions were inaccurate or outdated
+- Fixed various issues with states and persistent reference locks
 
 ## Debugging
 
