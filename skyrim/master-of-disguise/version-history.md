@@ -2,13 +2,15 @@
 title: Version History
 description: 
 published: true
-date: 2020-01-31T01:29:53.456Z
+date: 2020-01-31T01:31:52.923Z
 tags: 
 ---
 
 # Version 1.4 (Unreleased)
 
-Minimum game version required: Skyrim Special Edition v1.5.39.0
+**Minimum game version required:** Skyrim Special Edition v1.5.39.0
+
+**No longer required:** Unofficial Skyrim Special Edition Patch
 
 ## Major Changes
 
