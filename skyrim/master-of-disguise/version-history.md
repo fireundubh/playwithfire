@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-01-31T00:36:40.574Z
+date: 2020-01-31T01:29:53.456Z
 tags: 
 ---
 
@@ -28,6 +28,7 @@ Minimum game version required: Skyrim Special Edition v1.5.39.0
 - Fixed issue where disguises sharing items were not activated correctly (e.g., Bandit, Silver Hand, Stormcloaks)
 - Fixed issue where Bandit Disguise essential slot could not be configured from SkyUI menu
 - Fixed issue where Daedric Influence was activated only when Daedric headwear was equipped
+- Fixed issue where script performance would suffer during combat with effects that trigger multiple OnHit events
 - Fixed various issues where SkyUI menu help descriptions were inaccurate or outdated
 - Fixed various issues with states and persistent reference locks
 
