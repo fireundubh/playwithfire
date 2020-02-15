@@ -2,7 +2,7 @@
 title: xEdit Scripting FAQs
 description: 
 published: true
-date: 2020-02-15T03:09:58.064Z
+date: 2020-02-15T03:10:41.393Z
 tags: 
 ---
 
@@ -12,15 +12,15 @@ tags:
 function Process(e: IInterface): Integer;
 var
 	propertyName: IInterface;
-	Properties: IInterface;
+	ScriptProperties: IInterface;
 	i: Integer;
 begin
-	Properties := ElementByPath(e, 'VMAD\Scripts\Script\Properties');
+	ScriptProperties := ElementByPath(e, 'VMAD\Scripts\Script\Properties');
   
-	for i := 0 to Pred(ElementCount(Properties)) do
+	for i := 0 to Pred(ElementCount(ScriptProperties)) do
 	begin
-		{Option A} propertyName := ElementByName(ElementByIndex(Properties, i), 'propertyName');
-		{Option B} propertyName := ElementByPath(Properties, '[' + i + ']\propertyName');
+		{Option A} propertyName := ElementByName(ElementByIndex(ScriptProperties, i), 'propertyName');
+		{Option B} propertyName := ElementByPath(ScriptProperties, '[' + i + ']\propertyName');
 	end;
 end;
 ```
