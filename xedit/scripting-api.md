@@ -1,8 +1,8 @@
 ---
-title: xEdit Scripting API FAQs
+title: xEdit Scripting API
 description: 
 published: true
-date: 2020-02-15T06:43:21.095Z
+date: 2020-02-15T06:44:10.698Z
 tags: 
 ---
 
