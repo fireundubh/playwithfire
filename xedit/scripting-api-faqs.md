@@ -2,11 +2,11 @@
 title: xEdit Scripting API FAQs
 description: 
 published: true
-date: 2020-02-15T06:31:25.632Z
+date: 2020-02-15T06:43:21.095Z
 tags: 
 ---
 
-# xEdit Solutions
+# Common Problems
 
 ## Access member of element in array of elements
 
