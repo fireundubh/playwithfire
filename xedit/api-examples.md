@@ -2,7 +2,7 @@
 title: xEdit Scripting FAQs
 description: 
 published: true
-date: 2020-02-15T03:11:46.264Z
+date: 2020-02-15T03:12:09.269Z
 tags: 
 ---
 
@@ -13,14 +13,14 @@ function Process(e: IInterface): Integer;
 var
 	propertyName: IInterface;
 	ScriptProperties: IInterface;
-  VMAD: IInterface;
+	VMAD: IInterface;
 	i: Integer;
 begin
 	VMAD := ElementBySignature(e, 'VMAD');
 	if not Assigned(VMAD) then
 		Exit;
 
-	ScriptProperties := ElementByPath(e, 'VMAD\Scripts\Script\Properties');
+	ScriptProperties := ElementByPath(VMAD, 'Scripts\Script\Properties');
   
 	for i := 0 to Pred(ElementCount(ScriptProperties)) do
 	begin
