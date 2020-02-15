@@ -2,13 +2,11 @@
 title: xEdit Scripting FAQs
 description: 
 published: true
-date: 2020-02-15T03:09:06.592Z
+date: 2020-02-15T03:09:58.064Z
 tags: 
 ---
 
-# xEdit API Examples
-
-## Access member of element in array of elements
+# Access member of element in array of elements
 
 ```pascal
 function Process(e: IInterface): Integer;
@@ -27,7 +25,7 @@ begin
 end;
 ```
 
-## Iterate over array of elements
+# Iterate over array of elements
 
 ```pascal
 function Process(e: IInterface): Integer;
@@ -49,7 +47,7 @@ begin
 end;
 ```
 
-## Iterate over Referenced By records
+# Iterate over Referenced By records
 
 ```pascal
 function Process(e: IInterface): Integer;
@@ -65,7 +63,7 @@ begin
 end;
 ```
 
-## Get the record assigned to an element
+# Get record assigned to element
 
 ```pascal
 function Process(e: IInterface): Integer;
