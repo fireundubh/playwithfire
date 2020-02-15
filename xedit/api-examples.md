@@ -1,8 +1,8 @@
 ---
-title: xEdit Scripting FAQs
+title: xEdit API Examples
 description: 
 published: true
-date: 2020-02-15T03:12:09.269Z
+date: 2020-02-15T03:15:19.488Z
 tags: 
 ---
 
