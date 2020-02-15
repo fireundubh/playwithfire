@@ -2,7 +2,7 @@
 title: xEdit API Examples
 description: 
 published: true
-date: 2020-02-15T03:15:19.488Z
+date: 2020-02-15T03:18:30.283Z
 tags: 
 ---
 
@@ -39,7 +39,7 @@ var
 	FormIDs: IInterface;
 	i: Integer;
 begin
-	if not (Signature(e) = 'FLST') then
+	if Signature(e) <> 'FLST' then
 		Exit;
     
 	FormIDs := ElementByName(e, 'FormIDs');
@@ -76,7 +76,7 @@ var
 	LinkedRef: IInterface;
 	RNAM: IInterface;
 begin
-	if not (Signature(e) = 'ARMO') then
+	if Signature(e) <> 'ARMO' then
 		Exit;
 
 	RNAM := ElementBySignature(e, 'RNAM');
