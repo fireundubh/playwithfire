@@ -2,7 +2,7 @@
 title: xEdit Scripting FAQs
 description: 
 published: true
-date: 2020-02-15T03:07:17.314Z
+date: 2020-02-15T03:09:06.592Z
 tags: 
 ---
 
@@ -20,10 +20,10 @@ begin
 	Properties := ElementByPath(e, 'VMAD\Scripts\Script\Properties');
   
 	for i := 0 to Pred(ElementCount(Properties)) do
-  begin
-  	{Option A} propertyName := ElementByName(ElementByIndex(Properties, i), 'propertyName');
-    {Option B} propertyName := ElementByPath(Properties, '[' + i + ']\propertyName');
-  end;
+	begin
+		{Option A} propertyName := ElementByName(ElementByIndex(Properties, i), 'propertyName');
+		{Option B} propertyName := ElementByPath(Properties, '[' + i + ']\propertyName');
+	end;
 end;
 ```
 
@@ -37,15 +37,15 @@ var
 	i: Integer;
 begin
 	if not (Signature(e) = 'FLST') then
-  	Exit;
+		Exit;
     
 	FormIDs := ElementByName(e, 'FormIDs');
   
 	for i := 0 to Pred(ElementCount(FormIDs)) do
-  begin
-  	LNAM := ElementByIndex(FormIDs, i);
-    // do something with LNAM
-  end;
+	begin
+		LNAM := ElementByIndex(FormIDs, i);
+		// do something with LNAM
+	end;
 end;
 ```
 
@@ -58,10 +58,10 @@ var
 	i: Integer;
 begin
 	for i := 0 to Pred(ReferencedByCount(e)) do
-  begin
-  	ByRef := ReferencedByIndex(e, i);
-    // do something with ByRef
-  end;
+	begin
+		ByRef := ReferencedByIndex(e, i);
+		// do something with ByRef
+	end;
 end;
 ```
 
@@ -71,14 +71,14 @@ end;
 function Process(e: IInterface): Integer;
 var
 	LinkedRef: IInterface;
-  RNAM: IInterface;
+	RNAM: IInterface;
 begin
 	if not (Signature(e) = 'ARMO') then
-  	Exit;
+		Exit;
 
 	RNAM := ElementBySignature(e, 'RNAM');
-  LinkedRef := LinksTo(RNAM);
+	LinkedRef := LinksTo(RNAM);
   
-  // do something with LinkedRef
+	// do something with LinkedRef
 end;
 ```
