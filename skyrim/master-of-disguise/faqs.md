@@ -2,11 +2,12 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2020-02-17T01:00:37.128Z
+date: 2020-02-17T01:05:25.584Z
 tags: 
 ---
 
 # Logging
+
 ## Where can I find the logs?
 
 You have to enable Papyrus logging in `Skyrim.ini` before you enable disguise/faction/detection system logging.
@@ -30,7 +31,7 @@ Disable Papyrus logging after retrieving the necessary information. The Papyrus 
 
 Use [Hastebin](https://hastebin.com/), [Pastebin](https://pastebin.com/), or [GitHub Gists](https://gist.github.com/) to post your log.
 
-Do NOT post your log in the comments or your post will be deleted.
+You can also upload your log in the `#masterofdisguise` channel on [my Discord server](https://discord.fireundubh.com). Please do not post only the log; include a description of the issue.
 
 
 # Extending Disguises
