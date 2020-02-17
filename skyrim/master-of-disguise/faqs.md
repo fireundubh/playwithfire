@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2020-02-17T00:59:12.460Z
+date: 2020-02-17T00:59:55.543Z
 tags: 
 ---
 
@@ -32,7 +32,7 @@ Use [Hastebin](https://hastebin.com/), [Pastebin](https://pastebin.com/), or [Gi
 Do NOT post your log in the comments or your post will be deleted.
 
 
-# How do formlists work? I want to add items to disguises.
+# Extending Disguises
 
 ## Components
 
