@@ -1,14 +1,12 @@
 ---
-title: Master of Disguise
+title: Frequently Asked Questions
 description: 
 published: true
-date: 2020-02-17T00:46:52.899Z
+date: 2020-02-17T00:59:12.460Z
 tags: 
 ---
 
-# Frequently Asked Questions
-
-## Where can I find the logs?
+# Where can I find the logs?
 
 You have to enable Papyrus logging in `Skyrim.ini` before you enable disguise/faction/detection system logging.
 
@@ -27,19 +25,29 @@ Papyrus logs are stored at:
 Disable Papyrus logging after retrieving the necessary information. The Papyrus logger CANNOT help you solve crashes, which are not caused by scripts, and may, in fact, cause instability and other performance issues. Only enable the Papyrus logger when you need to debug scripts.
 
 
-## Where can I post my Papyrus log?
+# Where can I post my Papyrus log?
 
 Use [Hastebin](https://hastebin.com/), [Pastebin](https://pastebin.com/), or [GitHub Gists](https://gist.github.com/) to post your log.
 
 Do NOT post your log in the comments or your post will be deleted.
 
 
-## How do formlists work? I want to add items to disguises.
+# How do formlists work? I want to add items to disguises.
 
-The non-SKSE version of Master of Disguise uses 1 disguise formlist, 1 disguise slots formlist, and 8 formlists for each disguise slot. For example:
+## Components
 
-Form List | Description
---- | ---
+For each disguise in the SSE version of Master of Disguise, there is:
+
+- 1 disguise formlist
+- 1 disguise slots formlist, and
+- 8 formlists for each disguise slot.
+
+Every formlist is used, so if you are adding items, you need to add items to every formlist as appropriate.
+
+### Example
+
+FormList | Description
+:--- | :---
 `dubhDisguiseVampires` | Contains all items in the slot formlists
 `dubhDisguiseVampires_Slots` | Contains all slot formlists
 `dubhDisguiseVampires_Slot_0_Hair` | Contains only items that are equipped in the Hair slot
@@ -51,6 +59,12 @@ Form List | Description
 `dubhDisguiseVampires_Slot_6_Shield` | Contains only items that are equipped in the Shield slot
 `dubhDisguiseVampires_Slot_7_Circlet` | Contains only items that are equipped in the Circlet slot
 
-You can check which slots in which an item equips by looking at the item's Biped Body Template first-person flags. For example, the Vampire Hood equips in the Hair and Circlet slots, so the Vampire Hood appears in the respective formlists.
+## Slots
 
-In the SKSE version for classic Skyrim, there's only a single formlist for each disguise, which doesn't really require any explanation.
+Each slot formlist corresponds to the Biped Body Template First Person Flags on ARMO records. For example, the Vampire Hood has the Hair and Circlet flags, which means the item equips in the Hair and Circlet slots. Consequently, the Vampire Hood is a member of both `0_Hair` and `7_Circlet` formlists.
+
+![xEdit Screenshot](https://i.imgur.com/aNJaKBr.jpg)
+
+## Classic Notes
+
+In the Classic or Legendary version of Master of Disguise, each disguise is comprised of only a single formlist.
