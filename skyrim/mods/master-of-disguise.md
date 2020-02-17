@@ -2,20 +2,9 @@
 title: Master of Disguise
 description: 
 published: true
-date: 2020-02-17T00:46:10.771Z
+date: 2020-02-17T00:46:52.899Z
 tags: 
 ---
-
-# Useful Console Commands
-
-Command | Default Value | Description
---- | --- | ---
-`set iDubhScriptDebugDisguise to [0, 1]` | `0` | Toggles disguise system logging
-`set iDubhScriptDebugEnemy to [0, 1]` | `0` | Toggles faction enemy system logging
-`set iDubhScriptDebugMonitor to [0, 1]` | `0` | Toggles detection system logging
-`set iDubhAlwaysSucceedDremora to [0, 1]` | `1` | Toggles whether Daedric disguises always succeed vs. Dremora
-`set iDubhAlwaysSucceedWerewolves to [0, 1]` | `1` | Toggles whether the Savior's Hide always succeeds vs. Werewolves
-`AddFormToFormlist xxFF0320 xx027AA9` | | Disables bandit disguises (xx is the load order of Master of Disguise in hex)
 
 # Frequently Asked Questions
 
