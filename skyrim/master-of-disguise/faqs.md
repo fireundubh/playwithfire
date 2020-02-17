@@ -2,11 +2,12 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2020-02-17T00:59:55.543Z
+date: 2020-02-17T01:00:37.128Z
 tags: 
 ---
 
-# Where can I find the logs?
+# Logging
+## Where can I find the logs?
 
 You have to enable Papyrus logging in `Skyrim.ini` before you enable disguise/faction/detection system logging.
 
@@ -25,7 +26,7 @@ Papyrus logs are stored at:
 Disable Papyrus logging after retrieving the necessary information. The Papyrus logger CANNOT help you solve crashes, which are not caused by scripts, and may, in fact, cause instability and other performance issues. Only enable the Papyrus logger when you need to debug scripts.
 
 
-# Where can I post my Papyrus log?
+## Where can I post my Papyrus log?
 
 Use [Hastebin](https://hastebin.com/), [Pastebin](https://pastebin.com/), or [GitHub Gists](https://gist.github.com/) to post your log.
 
