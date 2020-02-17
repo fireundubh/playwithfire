@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2020-02-17T01:05:25.584Z
+date: 2020-02-17T01:27:14.917Z
 tags: 
 ---
 
@@ -46,6 +46,8 @@ For each disguise in the SSE version of Master of Disguise, there is:
 
 Every formlist is used, so if you are adding items, you need to add items to every formlist as appropriate.
 
+> **Note:** In the Classic or Legendary version of Master of Disguise, each disguise is comprised of only a single formlist.
+
 ### Example
 
 FormList | Description
@@ -66,7 +68,3 @@ FormList | Description
 Each slot formlist corresponds to the Biped Body Template First Person Flags on ARMO records. For example, the Vampire Hood has the Hair and Circlet flags, which means the item equips in the Hair and Circlet slots. Consequently, the Vampire Hood is a member of both `0_Hair` and `7_Circlet` formlists.
 
 ![xEdit Screenshot](https://i.imgur.com/aNJaKBr.jpg)
-
-## Classic Notes
-
-In the Classic or Legendary version of Master of Disguise, each disguise is comprised of only a single formlist.
