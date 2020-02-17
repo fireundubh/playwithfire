@@ -1,22 +1,12 @@
-<!-- TITLE: Master of Disguise -->
+---
+title: Master of Disguise
+description: 
+published: true
+date: 2020-02-17T00:46:10.771Z
+tags: 
+---
 
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
-
-# Master of Disguise
-## Version History
-
-### Version 1.2
-
-- Fixed the issue preventing the detection system from working
-- Disabled debug logging because some people still believe the Papyrus log helps solve crashes
-- Cleaned up unused code
-
-## Documentation
-
-[FULL DOCUMENTATION](/skyrim/master-of-disguise)
-
-
-### Useful Console Commands
+# Useful Console Commands
 
 Command | Default Value | Description
 --- | --- | ---
@@ -27,9 +17,9 @@ Command | Default Value | Description
 `set iDubhAlwaysSucceedWerewolves to [0, 1]` | `1` | Toggles whether the Savior's Hide always succeeds vs. Werewolves
 `AddFormToFormlist xxFF0320 xx027AA9` | | Disables bandit disguises (xx is the load order of Master of Disguise in hex)
 
-## Frequently Asked Questions
+# Frequently Asked Questions
 
-### Where can I find the logs?
+## Where can I find the logs?
 
 You have to enable Papyrus logging in `Skyrim.ini` before you enable disguise/faction/detection system logging.
 
@@ -48,14 +38,14 @@ Papyrus logs are stored at:
 Disable Papyrus logging after retrieving the necessary information. The Papyrus logger CANNOT help you solve crashes, which are not caused by scripts, and may, in fact, cause instability and other performance issues. Only enable the Papyrus logger when you need to debug scripts.
 
 
-### Where can I post my Papyrus log?
+## Where can I post my Papyrus log?
 
 Use [Hastebin](https://hastebin.com/), [Pastebin](https://pastebin.com/), or [GitHub Gists](https://gist.github.com/) to post your log.
 
 Do NOT post your log in the comments or your post will be deleted.
 
 
-### How do formlists work? I want to add items to disguises.
+## How do formlists work? I want to add items to disguises.
 
 The non-SKSE version of Master of Disguise uses 1 disguise formlist, 1 disguise slots formlist, and 8 formlists for each disguise slot. For example:
 
