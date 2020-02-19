@@ -1,13 +1,12 @@
-<!-- TITLE: More Perks -->
+---
+title: More Perks
+description: 
+published: true
+date: 2020-02-19T12:04:34.173Z
+tags: 
+---
 
-[&larr; Kingdom Come](/kingdomcome)
-
-If you want to see more mods and resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
-
-# More Perks
-[Download](https://www.nexusmods.com/kingdomcomedeliverance/mods/92) — Nexus Mods
-
-## Installation
+# Installation
 
 1. Download the file.
 2. Navigate to wherever you installed Kingdom Come: Deliverance.
@@ -15,9 +14,9 @@ If you want to see more mods and resources like this, [become a Patreon supporte
 4. Extract the contents of the ZIP file into your Mods folder (e.g., `KingdomComeDeliverance\Mods\More Perks`.)
 5. Play the game.
 
-## Stat Perks
+# Stat Perks
 
-### Strength
+## Strength
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 ---: | :--- | :--- | :--- | :---
@@ -27,7 +26,7 @@ Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 12 | Heavy Swing II | You deal 40% more damage but your attacks cost 20% more Stamina. | Heavy Swing I | Fast Striker
 16 | Heavy Swing III | You deal 60% more damage but your attacks cost 30% more Stamina. | Heavy Swing II | Fast Striker
 
-### Agility
+## Agility
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 ---: | :--- | :--- | :--- | :---
@@ -36,7 +35,7 @@ Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 8  | Featherweight II | You suffer 50% less damage from falling. | Featherweight I |
 16 | Featherweight III | You suffer 75% less damege from falling. | Featherweight II |
 
-### Vitality
+## Vitality
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 ---: | :--- | :--- | :--- | :---
@@ -47,48 +46,48 @@ Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 12 | Thickblooded II | You bleed three times slower. | Thickblooded I |
 
 
-### Speech
+## Speech
 
 More Perks introduces four specialization paths for Speech practitioners: Bard, Knight, Rogue, and Thug. Each path is mutually exclusive.
 
-#### **Bard Path**
+### **Bard Path**
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 ---: | :--- | :--- | :--- | :---
 8 | Highborn II: Bard | You gain +3 Charisma when talking to nobles and wealthy people. | Highborn | Knight Errant
 12 | Highborn III: Mummer | You know well the art of the disguise. You're 10% less likely to be seen by those who you'd rather not see you. | Bard | Infamous
 
-#### **Knight Path**
+### **Knight Path**
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 ---: | :--- | :--- | :--- | :---
 8 | Highborn II: Knight Errant | You're more threatening when interacting with nobles and wealthy people. | Highborn | Bard
 12 | Highborn III: Perfect Knight | When you perform good deeds, your reputation rises 20% faster. | Knight Errant | Infamous
 
-#### **Rogue Path**
+### **Rogue Path**
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 ---: | :--- | :--- | :--- | :---
 8 | Lowborn II: Rogue | You gain +3 Charisma when talking to commoners. | Lowborn | Ruffian
 12 | Lowborn III: Charlatan | When you perform dastardly deeds, your reputation falls 20% slower. | Rogue | Local Hero
 
-#### **Thug Path**
+### **Thug Path**
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 ---: | :--- | :--- | :--- | :---
 8 | Lowborn II: Thug | You're more threatening when interacting with commoners. | Lowborn | Rogue
 12 | Lowborn III: Guildsman | You're a made guy. You recover from jail time 20% faster than your more fragile peers. | Thug | Local Hero
 
-## Skill Perks
+# Skill Perks
 
-### Alchemy
+## Alchemy
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 ---: | :--- | :--- | :--- | :---
 10 | Venomous Blade II | Poison applied to weapons last 50% longer. | Venomous Blade I |
 15 | Witcher II | Your witcher senses have evolved. When night falls, you see better in dark places. | Witcher I |
 
-### Lockpicking
+## Lockpicking
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 ---: | :--- | :--- | :--- | :---
@@ -96,37 +95,37 @@ Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 16 | Expert Thief | You unlock Hard locks automatically. | Adept Thief | 
 20 | Master Thief | You unlock Very Hard locks automatically. | Master Thief | 
 
-### Pickpocketing
+## Pickpocketing
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 ---: | :--- | :--- | :--- | :---
 6  | Secret Pockets II | When looting corpses, you have a greater chance of finding more groschen. | Secret Pockets I |
 10 | Secret Pockets III | When looting corpses, you have an excellent chance of finding more groschen. | Secret Pockets II |
 
-### Reading
+## Reading
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 ---: | :--- | :--- | :--- | :---
 7 | Anatomist | You've learned enough about wild animals to deal 10% more damage to them. | |
 7 | Tactician | A keen student of warfare, your attacks deal 10% more damage against soldiers. | |
 
-### Stealth
+## Stealth
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 ---: | :--- | :--- | :--- | :---
 12 | Slim Fit II | Lowers the noise of armour and other equipment by 30%. | Slim Fit I |
 16 | Slim Fit III | Lowers the noise of armour and other equipment by 40%. | Slim Fit II |
 
-## Combat Perks
+# Combat Perks
 
-### Defence
+## Defence
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 ---: | :--- | :--- | :--- | :---
 8  | Firm Grip II | Blocking your strikes cost an opponent 20% more Stamina. | Firm Grip I |
 12 | Firm Grip III | Blocking your strikes cost an opponent 25% more Stamina. | Firm Grip II |
 
-### Warfare
+## Warfare
 
 Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 ---: | :--- | :--- | :--- | :---
@@ -134,7 +133,7 @@ Level | Perk Name | Perk Description | Requires Perks | Incompatible Perks
 16 | Bloodletter III | You gain a 25% greater chance of drawing blood in combat. | Bloodletter II |
 16 | Bloody Mess | Each blow in an uninterrupted chain increases your attack speed and bloodiness by 20%. Any interruption cancels the bonus. | |
 
-## Rebalanced Perks
+# Rebalanced Perks
 
 Perk Category | Perk Name | Difference
 :--- | :--- | :---
@@ -144,7 +143,7 @@ Strength | Heavy Swing | Incompatible with Fast Striker
 Agility | Fast Striker | Incompatible with Heavy Swing
 Warfare | Bloodletter I | Reduced chance to draw blood from 30% to 15%
 
-## Fixed Perks
+# Fixed Perks
 
 Perk Category | Perk Name | Difference
 :--- | :--- | :---
@@ -154,14 +153,14 @@ Agility | Fast Striker I | The description states: "Your attacks will demand 30%
 Defence | Golem | The description states that "your armour is a third more frightening than usual." The effect was increased from 30% to 33.333333%.
 Misc. | Cuman Killer | The description states this perk increases damage against Cumans by 200%. In game version 1.3, the damage bonus was reduced from 200% to 20%. The description was updated to reflect this change.
 
-## Compatibility
+# Compatibility
 
 - Conflicts with any mod that changes `buff.xml`, `perk.xml`, `perk_buff.xml`, `perk_buff_override.xml`, or `perk2perk_exclusivity.xml`
 - Conflicts with any mod that changes English localization for `text_ui_soul.xml`
 
-## Patch Notes
+# Patch Notes
 
-### Version 1.4.3
+## Version 1.4.3
 
 - Added a Level 16 Warfare perk, Bloody Mess, that increases attack speed and bloodiness by 20% with each uninterrupted strike for 8 seconds
 - Burgher perk now increases the moving speed multiplier from 1.1 (+10%) to 1.2 (+20%) and no longer adds 1 Charisma (for consistency with Savage)
@@ -172,11 +171,11 @@ Misc. | Cuman Killer | The description states this perk increases damage against
 
 Cloak and Dagger, and Mummer, were nerfed because reducing Visibility by 10 (or 20 with both perks) made Henry invisible.
 
-### Version 1.4.2
+## Version 1.4.2
 
 - Updated for compatibility with game version 1.4.1
 
-### Version 1.4.1
+## Version 1.4.1
 
 - Fixed an issue introduced in game version 1.3+ where Heavy Swing I reduced +% damage from 20% to 3%
 - Fixed an issue where the Fast Striker series did not reduce attack stamina costs in line with game version 1.3+
@@ -186,7 +185,7 @@ Cloak and Dagger, and Mummer, were nerfed because reducing Visibility by 10 (or 
 - Adjusted the descriptions for the Infamous, Savage, Knight Errant, and Thug perks accordingly
 - Fixed an issue introduced in game version 1.3 where the Cuman Killer description did not reflect the change to damage against Cumans
 
-### Version 1.4
+## Version 1.4
 
 - All Main Level perks that increased base stats now boost derived stats to improve the usefulness of these perks at higher levels
 - Main Level perk Brute now increases damage by 10% and reduces Charisma by 2
@@ -210,19 +209,19 @@ Cloak and Dagger, and Mummer, were nerfed because reducing Visibility by 10 (or 
 - Renamed the Bandit perk to Thug
 - Cleaned up most strings for English localization
 
-### Version 1.3.1.1
+## Version 1.3.1.1
 
 - Fixed an issue where the Heavy Swing and Fast Striker perks were not mutually exclusive
 - Fixed an issue where the Heavy Swing and Featherweight perks were mutually exclusive
 
-### Version 1.3.1
+## Version 1.3.1
 
 - Fixed an issue where the Firm Hand perks did not have the correct parents
 - Fixed an issue where the Slim Fit perks did not have the correct parents
 - Fixed an issue where the Secret Pockets perks did not have the correct parents
 - Fixed an issue where the Bloodletter perks did not have the correct parents
 
-### Version 1.3
+## Version 1.3
 
 - Added a Level 7 Reading perk, Anatomist, that increases damage against wild animals by 10%
 - Added a Level 7 Reading perk, Tactician, that increases damage against soldiers by 10%
@@ -236,7 +235,7 @@ Cloak and Dagger, and Mummer, were nerfed because reducing Visibility by 10 (or 
 - Fixed an issue introduced in game version 1.0+ where the Golem perk did not increase ArmorRating by 1/3
 - Restored zero-byte TBL files until Warhorse eliminates the need for them
 
-### Version 1.2
+## Version 1.2
 
 - All unchanged perks, buffs, and strings were updated for game version v1.3+ using my Modsmith framework
 - Repackaged mod for game version v1.3+ using my Modsmith framework
@@ -249,16 +248,16 @@ Cloak and Dagger, and Mummer, were nerfed because reducing Visibility by 10 (or 
 - Renamed the Ruffian perk to Bandit
 - Renamed the vanilla Master Thief perk to Adept Thief
 
-### Version 1.1.1
+## Version 1.1.1
 
 - Fixed several issues where formulas were incorrect, providing slightly more or less advantages than intended
 - Fixed an issue where the formula changes to the Scout II and Scout III perks were incorrect
 
-### Version 1.1
+## Version 1.1
 
 - Removed the Racehorse II and Racehorse III perks because they do not work for some reason
 - Reverted the change to the Leg Day perk, reducing Strength XP gain per herb picked from +5 to +1
 
-### Version 1.0
+## Version 1.0
 
 - Initial release
