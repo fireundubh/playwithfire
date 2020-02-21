@@ -2,7 +2,7 @@
 title: Home
 description: Back home to where it all began...
 published: true
-date: 2020-01-19T14:17:00.591Z
+date: 2020-02-21T04:07:34.057Z
 tags: 
 ---
 
@@ -12,8 +12,9 @@ Welcome to **#playwithfire**, a wiki that's all about creating aftermarket game 
 
 I'm **fireundubh** (a Gaelic phrase pronounced *feer-uhn-do͞o*) but most people just call me 🔥. I make stuff.
 
-# News
+# Site News
 
+- **20 Feb 2020:** Updated Wiki.js to 2.1.113
 - **19 Jan 2020:** Updated Wiki.js to 2.0.12. It's going to take some time to make pages look nice again.
 
 # Browsing
