@@ -2,7 +2,7 @@
 title: Bash Tags Reference
 description: 
 published: true
-date: 2020-02-21T02:37:56.381Z
+date: 2020-02-21T02:43:10.559Z
 tags: 
 ---
 
@@ -288,7 +288,20 @@ FO3, FNV | CNAM | Impact Dataset
 
 ## Creatures.Type
 
-Modifies the type of creatures. | The following (CREA) Creature subrecords: (DATA) Stats: Type: Animal Mutated Animal Mutated Insect Abomination Super Mutant Feral Ghoul Robot Giant Oblivion, Fallout 3 & Fallout: New Vegas only. |
+> **Supported Games:** FO3, FNV
+
+Modifies the type of creatures.
+
+The following (CREA) Creature subrecords:
+
+- `DATA\Type\Animal`
+- `DATA\Type\Mutated Animal`
+- `DATA\Type\Mutated Insect`
+- `DATA\Type\Abomination`
+- `DATA\Type\Super Mutant`
+- `DATA\Type\Feral Ghoul`
+- `DATA\Type\Robot`
+- `DATA\Type\Giant`
 
 ## Deflst
 
