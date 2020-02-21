@@ -2,7 +2,7 @@
 title: Bash Tags Reference
 description: 
 published: true
-date: 2020-02-21T02:08:16.541Z
+date: 2020-02-21T02:37:56.381Z
 tags: 
 ---
 
@@ -125,75 +125,166 @@ TES4 | CREA | Creature
 
 ## Actors.SpellsForceAdd
 
-Modifies the Spells (also called Actor Effects) list of actors. This tag forces the addition of spells even if they are removed by other plugins tagged with Actors.Spells. | Addition of (SPLO) spells to the Spells subrecord in the following record types: (CREA) Creature — Oblivion, Fallout 3 & Fallout: New Vegas only (NPC_) Non-Player Character Not available for Fallout 4. |
+> **Supported Games:** FO3, FNV, TES4
+
+Modifies the Spells (also called Actor Effects) list of actors. This tag forces the addition of spells even if they are removed by other plugins tagged with Actors.Spells.
+
+Addition of (SPLO) spells to the Spells subrecord in the following record types:
+
+Game | Signature | Name
+:--- | :--- | :---
+FO3, FNV | NPC_ | Non-Player Character
+TES4 | CREA | Creature
 
 ## Actors.Stats
 
-Modifies actor stats (e.g. health, skills, stamina, etc.). | See the game-specific sections below for record types: See the Oblivion Actors.Stats section for more information. See the Fallout 3 Actors.Stats section for more information. See the Fallout: New Vegas Actors.Stats section for more information. See the Skyrim, Enderal: Forgotten Stories & Skyrim: Special Edition Actors.Stats section for more information. Not available for Fallout 4. |
+> **Supported Games:** FO3, FNV, TES4, TES5, Enderal, SSE
+
+Modifies actor stats (e.g. health, skills, stamina, etc.).
 
 ## C.Acoustic
 
-Modifies cell Acoustic Space. | The Acoustic Space (XCAS) subrecord in Cell (CELL) records. Not available for Oblivion & Fallout 4. |
+> **Supported Games:** All games except TES4 and FO4
+
+Modifies cell Acoustic Space. The Acoustic Space (XCAS) subrecord in Cell (CELL) records.
 
 ## C.Climate
 
-Modifies cell climates. | The following subrecords: Oblivion, Fallout 3 & Fallout: New Vegas only. (XCCM) Climate (DATA - flags) Behave Like Exterior Skyrim, Enderal: Forgotten Stories & Skyrim: Special Edition only. (XCCM) Sky/Weather from Region (DATA - flags) Show Sky Not available for Fallout 4. |
+> **Supported Games:** FO3, FNV, TES4, TE5, Enderal, SSE
+
+Modifies cell climates.
+
+Game | Signature | Name
+:--- | :--- | :---
+FO3, FNV, TES4 | XCCM | Climate
+FO3, FNV, TES4 | DATA | Behave Like Exterior
+TES5, Enderal, SSE | XCCM | Sky/Weather from Region
+TES5, Enderal, SSE | DATA | Show Sky
 
 ## C.Encounter
 
-Modifies cell Encounter Zone. | The Encounter Zone (XEZN) subrecord in Cell (CELL) records. Not available for Oblivion & Fallout 4. |
+> **Supported Games:** All games except TES4 and FO4
+
+Modifies cell Encounter Zone. The Encounter Zone (XEZN) subrecord in Cell (CELL) records.
 
 ## C.ForceHideLand
 
-Modifies cell Force Hide Land flags. | The Force Hide Land flags field in the Grid (XCLC) subrecord in Cell (CELL) records. Not available for Oblivion & Fallout 4. |
+> **Supported Games:** All games except TES4 and FO4
+
+Modifies cell Force Hide Land flags. The Force Hide Land flags field in the Grid (XCLC) subrecord in Cell (CELL) records.
 
 ## C.ImageSpace
 
-Modifies cell ImageSpace. | The Image Space (XCIM) subrecord in Cell (CELL) records. Not available for Oblivion & Fallout 4. |
+> **Supported Games:** All games except TES4 and FO4
+
+Modifies cell ImageSpace. The Image Space (XCIM) subrecord in Cell (CELL) records.
 
 ## C.Light
 
-Modifies cell lighting or fog. | The following subrecords: All but Fallout 4: (XCLL) Lighting Ambient Color Directional Color Fog Color Fog Near Fog Far Fog Clip Dist Fog Power — Not available for Oblivion. Directional Rotation XY Directional Rotation Z Directional Fade (LTMP) Light Template — Not available for Oblivion Fallout 3 & Fallout: New Vegas only: (LNAM) Light Template Inherits Skyrim, Enderal: Forgotten Stories and Skyrim: Special Edition only: (XCLL) Lighting Ambient Colors Ambient Colors Directional Ambient Colors Specular Ambient Colors Scale Fog Color Far Fog Max Light Fade Begin Light Fade End Inherits Not available for Fallout 4. |
+> **Supported Games:** All games except FO4
+
+Modifies cell lighting or fog.
+
+Game | Signature | Name | Subrecords
+:--- | :--- | :--- | :---
+All | XCLL | Lighting | Ambient Color<br>Directional Color<br>Fog Color<br>Fog Near<br>Fog Clip Dist<br>Directional Rotation XY<br>Directional Rotation Z<br>Directional Fade
+All except TES4 | XCLL | Lighting | Fog Power
+All except TES4 | LTMP | Light Template | 
+FO3, FNV | LNAM | Light Template Inherits |
+TES5, Enderal, SSE | XCLL | Lighting | Ambient Colors<br>Ambient Colors Directional<br>Ambient Colors Specular<br>Ambient Colors Scale<br>Fog Color Far<br>Fog Max<br>Light Fade Begin<br>Light Fade End<br>Inherits
 
 ## C.LockList
 
-Modifies cell lock list. | The lock list (XILL) subrecord in cell (CELL) records. Available for Skyrim, Enderal: Forgotten Stories and Skyrim: Special Edition only. |
+> **Supported Games:** TES5, Enderal, SSE
+
+Modifies cell lock list. The lock list (XILL) subrecord in cell (CELL) records.
 
 ## C.Location
 
-Modifies cell Location. | The Location (XLCN) subrecord in Cell (CELL) records. Available for Skyrim, Enderal: Forgotten Stories and Skyrim: Special Edition only. |
+> **Supported Games:** TES5, Enderal, SSE
+
+Modifies cell Location. The Location (XLCN) subrecord in Cell (CELL) records.
 
 ## C.Music
 
-Modifies cell music type. | The following subrecords: (XCMT) Music — Oblivion only. (XCMO) Music — All but Oblivion & Fallout 4. Not available for Fallout 4. |
+> **Supported Games:** FO3, FNV, TES4, TES5, Enderal, SSE
+
+Modifies cell music type. 
+
+Game | Signature | Name
+:--- | :--- | :---
+TES4 | `XCMT` | Music
+All except TES4 | `XCMO` | Music
 
 ## C.Name
 
-Modifies cell names. | The (FULL) - Name subrecord in Cell (CELL) records. Not available for Fallout 4. |
+> **Supported Games:** All except FO4
+
+Modifies cell names. The (FULL) - Name subrecord in Cell (CELL) records.
 
 ## C.Owner
 
-Modifies Cell Ownership. | The following Cell (CELL) subrecords: Ownership (XOWN) Owner (XRNK) Rank (XGLB) Global variable — Oblivion only. (DATA - flags) Public Place Not available for Fallout 4. |
+> **Supported Games:** All except FO4
+
+Modifies Cell Ownership. The following Cell (CELL) subrecords:
+
+Game | Element | Subrecords
+:--- | :--- | :---
+All | `Ownership` | `Ownership\XOWN` - Owner<br>`Ownership\XRNK` - Rank
+TES4 | `Ownership` | `XGLB` - Global Variable
+All | `DATA` - Public Place |
 
 ## C.RecordFlags
 
-Modifies the off-limits or dangerous flags. | Any Cell (CELL) record flags not covered by the other Cell-related Bash Tags. Not available for Fallout 4. |
+> **Supported Games:** All except FO4
+
+Modifies the off-limits or dangerous flags. Any Cell (CELL) record flags not covered by the other Cell-related Bash Tags.
 
 ## C.Regions
 
-Modifies the Cells Region subrecord. | Any (XCLR) subrecord of the Cell (CELL) record. Not available for Fallout 4. |
+> **Supported Games:** All except FO4
+
+Modifies the Cells Region subrecord. Any (XCLR) subrecord of the Cell (CELL) record.
 
 ## C.SkyLighting
 
-Modifies Use Sky Lighting cell flag. | (DATA - Flags) Use Sky Lighting Available for Skyrim, Enderal: Forgotten Stories and Skyrim: Special Edition only. |
+> **Supported Games:** TES5, Enderal, SSE
+
+Modifies Use Sky Lighting cell flag.
+
+Game | Signature | Paths
+:--- | :--- | :---
+TES5, Enderal, SSE | `CELL` | `DATA\Use Sky Lighting Available`
 
 ## C.Water
 
-Modifies cell water type or level. | The following Cell (CELL) subrecords: (XCWT) Water (XCLW) Water Height (DATA - flags) Has Water (XNAM) Water Noise Texture — Not available for Oblivion. (XWEN) Water Environment Map — Skyrim, Enderal: Forgotten Stories and Skyrim: Special Edition only. Not available for Fallout 4. |
+> **Supported Games:** All except FO4
+
+Modifies cell water type or level.
+
+The following Cell (CELL) subrecords:
+
+Game | Signature | Name
+:--- | :--- | :---
+All supported | XCWT | Water
+All supported | XCLW | Water Height
+All supported | DATA | Has Water
+All except TES4 | XNAM | Water Noise Texture
+TES5, Enderal, SSE | XWEN | Water Environment Map
 
 ## Creatures.Blood
 
-Modifies the creature blood subrecords. | The following (CREA) Creature subrecord(s): (NAM0) Blood Spray — Oblivion only. (NAM1) Blood Decal — Oblivion only. (CNAM) Impact Dataset — Fallout 3 & Fallout: New Vegas only. Oblivion, Fallout 3 & Fallout: New Vegas only. |
+> **Supported Games:** FO3, FNV, TES4
+
+Modifies the creature blood subrecords.
+
+The following (CREA) Creature subrecord(s):
+
+Game | Signature | Name
+:--- | :--- | :---
+TES4 | NAM0 | Blood Spray
+TES4 | NAM1 | Blood Decal
+FO3, FNV | CNAM | Impact Dataset
 
 ## Creatures.Type
 
