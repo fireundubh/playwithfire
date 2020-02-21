@@ -2,7 +2,7 @@
 title: Bash Tags Reference
 description: 
 published: true
-date: 2020-02-21T02:43:10.559Z
+date: 2020-02-21T02:50:51.625Z
 tags: 
 ---
 
@@ -294,14 +294,9 @@ Modifies the type of creatures.
 
 The following (CREA) Creature subrecords:
 
-- `DATA\Type\Animal`
-- `DATA\Type\Mutated Animal`
-- `DATA\Type\Mutated Insect`
-- `DATA\Type\Abomination`
-- `DATA\Type\Super Mutant`
-- `DATA\Type\Feral Ghoul`
-- `DATA\Type\Robot`
-- `DATA\Type\Giant`
+Game | Signature | Paths
+:--- | :--- | :---
+FO3, FNV | DATA | Type\Animal<br>Type\Mutated Animal<br>Type\Mutated Insect<br>Type\Abomination<br>Type\Super Mutant<br>Type\Feral Ghoul<br>Type\Robot<br>Type\Giant
 
 ## Deflst
 
