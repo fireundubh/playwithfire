@@ -2,7 +2,7 @@
 title: Bash Tags Reference
 description: 
 published: true
-date: 2020-02-21T03:28:49.629Z
+date: 2020-02-21T03:29:57.786Z
 tags: 
 ---
 
@@ -216,7 +216,7 @@ Game | Element | Name
 TES4 | XCMT | Music
 All except TES4 | XCMO | Music
 
-## C.Name
+## C&#46;Name
 
 > **Supported Games:** All except FO4
 
