@@ -2,7 +2,7 @@
 title: Bash Tags Reference
 description: 
 published: true
-date: 2020-02-21T02:50:51.625Z
+date: 2020-02-21T03:28:49.629Z
 tags: 
 ---
 
@@ -154,7 +154,7 @@ Modifies cell Acoustic Space. The Acoustic Space (XCAS) subrecord in Cell (CELL)
 
 Modifies cell climates.
 
-Game | Signature | Name
+Game | Element | Name
 :--- | :--- | :---
 FO3, FNV, TES4 | XCCM | Climate
 FO3, FNV, TES4 | DATA | Behave Like Exterior
@@ -185,7 +185,7 @@ Modifies cell ImageSpace. The Image Space (XCIM) subrecord in Cell (CELL) record
 
 Modifies cell lighting or fog.
 
-Game | Signature | Name | Subrecords
+Game | Element | Name | Subrecords
 :--- | :--- | :--- | :---
 All | XCLL | Lighting | Ambient Color<br>Directional Color<br>Fog Color<br>Fog Near<br>Fog Clip Dist<br>Directional Rotation XY<br>Directional Rotation Z<br>Directional Fade
 All except TES4 | XCLL | Lighting | Fog Power
@@ -211,10 +211,10 @@ Modifies cell Location. The Location (XLCN) subrecord in Cell (CELL) records.
 
 Modifies cell music type. 
 
-Game | Signature | Name
+Game | Element | Name
 :--- | :--- | :---
-TES4 | `XCMT` | Music
-All except TES4 | `XCMO` | Music
+TES4 | XCMT | Music
+All except TES4 | XCMO | Music
 
 ## C.Name
 
@@ -230,9 +230,9 @@ Modifies Cell Ownership. The following Cell (CELL) subrecords:
 
 Game | Element | Subrecords
 :--- | :--- | :---
-All | `Ownership` | `Ownership\XOWN` - Owner<br>`Ownership\XRNK` - Rank
-TES4 | `Ownership` | `XGLB` - Global Variable
-All | `DATA` - Public Place |
+All | Ownership | XOWN<br>XRNK
+TES4 | Ownership | XGLB
+All | DATA |
 
 ## C.RecordFlags
 
@@ -252,9 +252,9 @@ Modifies the Cells Region subrecord. Any (XCLR) subrecord of the Cell (CELL) rec
 
 Modifies Use Sky Lighting cell flag.
 
-Game | Signature | Paths
+Game | Element | Paths
 :--- | :--- | :---
-TES5, Enderal, SSE | `CELL` | `DATA\Use Sky Lighting Available`
+TES5, Enderal, SSE | CELL | DATA\Use Sky Lighting Available
 
 ## C.Water
 
@@ -264,7 +264,7 @@ Modifies cell water type or level.
 
 The following Cell (CELL) subrecords:
 
-Game | Signature | Name
+Game | Element | Name
 :--- | :--- | :---
 All supported | XCWT | Water
 All supported | XCLW | Water Height
@@ -280,7 +280,7 @@ Modifies the creature blood subrecords.
 
 The following (CREA) Creature subrecord(s):
 
-Game | Signature | Name
+Game | Element | Name
 :--- | :--- | :---
 TES4 | NAM0 | Blood Spray
 TES4 | NAM1 | Blood Decal
@@ -294,33 +294,69 @@ Modifies the type of creatures.
 
 The following (CREA) Creature subrecords:
 
-Game | Signature | Paths
+Game | Element | Paths
 :--- | :--- | :---
 FO3, FNV | DATA | Type\Animal<br>Type\Mutated Animal<br>Type\Mutated Insect<br>Type\Abomination<br>Type\Super Mutant<br>Type\Feral Ghoul<br>Type\Robot<br>Type\Giant
 
 ## Deflst
 
-Removes entries from the FormID List (FLST) record. | Removal of FormID from (FLST) FormID List record: FormIDs (LNAM) FormID Fallout 3 & Fallout: New Vegas only. |
+> **Supported Games:** FO3, FNV
+
+Removes entries from the FormID List (FLST) record. 
+
+Game | Element | Paths
+:--- | :--- | :---
+FO3, FNV | FormIDs | LNAM
 
 ## Delev
 
-Deletes entries from Leveled Lists. | Removal of a (LVLO) Level List Entry from the following record types: (LVLC) Leveled Creature — Oblivion, Fallout 3 & Fallout: New Vegas only. (LVLI) Leveled Item (LVLN) Leveled NPC — Not available for Oblivion. (LVSP) Leveled SPELL — Oblivion, Skyrim, Enderal: Forgotten Stories & Skyrim: Special Edition only. |
+> **Supported Games:** FO3, FNV, TES4, TES5, Enderal, SSE
+
+Deletes entries from Leveled Lists. Removal of a (LVLO) Level List Entry from the following record types:
+
+Game | Signature | Name
+:--- | :--- | :---
+FO3, FNV, TES4 | LVLC | Leveled Creature
+All | LVLI | Leveled Item
+All except TES4 | LVLN | Leveled NPC
+TES4, TES5, Enderal, SSE | LVSP | Leveled Spell
 
 ## Destructible
 
-Modifies destructible records. | See the game-specific sections below for record types: See the Fallout 3 Destructible section for more information. See the Fallout: New Vegas Destructible section for more information. See the Skyrim, Enderal: Forgotten Stories & Skyrim: Special Edition Destructible section for more information. Not available for Fallout 4. |
+> **Supported Games:** FO3, FNV, TES5, Enderal, SSE
+
+Modifies destructible records.
 
 ## Factions
 
-Changes Creature or Non-Player Character factions. | Addition or removal of a faction, or change of faction rank in Non-Player Character (NPC_) or Creature (CREA) records. Factions (SNAM) Faction (SNAM) Faction - Rank Oblivion, Fallout 3 & Fallout: New Vegas only. |
+> **Supported Games:** FO3, FNV, TES4
+
+Changes Creature or Non-Player Character factions.
+
+Game | Element | Paths
+:--- | :--- | :---
+FO3, FNV, TES4 | Factions | SNAM\Faction
+FO3, FNV, TES4 | Factions | SNAM\Faction Rank
 
 ## Graphics
 
-Is a graphics replacer. | See the game-specific sections below for record types: See the Oblivion Graphics section for more information. See the Fallout 3 Graphics section for more information. See the Fallout: New Vegas Graphics section for more information. See the Skyrim, Enderal: Forgotten Stories & Skyrim: Special Edition Graphics section for more information. Not available for Fallout 4. |
+> **Supported Games:** FO3, FNV, TES4, TES5, Enderal, SSE
+
+Is a graphics replacer.
 
 ## Invent
 
-Changes inventories. | Addition, removal or change in count/number of an item in records: (CONT) Container (CREA) Creature — Oblivion, Fallout 3 & Fallout: New Vegas only. (NPC_) Non-Player Character Not available for Fallout 4. |
+> **Supported Games:** All except FO4
+
+Changes inventories.
+
+Game | Signature | Name
+:--- | :--- | :---
+All | CONT | Container
+FO3, FNV, TES4 | CREA | Creature
+All | NPC_ | Non-Player Character
+
+# TODO: Needs to be Formatted
 
 ## Keywords
 
