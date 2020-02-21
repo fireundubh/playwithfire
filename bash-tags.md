@@ -2,7 +2,7 @@
 title: Bash Tags Reference
 description: 
 published: true
-date: 2020-02-21T03:29:57.786Z
+date: 2020-02-21T04:24:15.072Z
 tags: 
 ---
 
@@ -356,64 +356,144 @@ All | CONT | Container
 FO3, FNV, TES4 | CREA | Creature
 All | NPC_ | Non-Player Character
 
-# TODO: Needs to be Formatted
-
 ## Keywords
 
-Modifies the lists of keywords attached to things. | Addition or removal of keywords (KWDA / KSIZ subrecord combo) for the following record types: (ACTI) Activator (ALCH) Ingestible (AMMO) Ammunition (ARMO) Armor (BOOK) Book (FLOR) Flora (FURN) Furniture (INGR) Ingredient (KEYM) Key (LCTN) Location (MGEF) Magic Effect (MISC) Misc. Item (NPC_) Non Player Character (SCRL) Scroll (SLGM) Soul Gem (SPEL) Spell (TACT) Talking Activator (WEAP) Weapon Skyrim, Enderal: Forgotten Stories & Skyrim: Special Edition only. |
+> **Supported Games:** TES5, Enderal, SSE
+
+Modifies the lists of keywords attached to things. | Addition or removal of keywords (KWDA / KSIZ subrecord combo) for the following record types:
+
+Game | Signature | Name
+:--- | :--- | :---
+TES5, Enderal, SSE | ACTI | Activator
+TES5, Enderal, SSE | ALCH | Ingestible
+TES5, Enderal, SSE | AMMO | Ammunition
+TES5, Enderal, SSE | ARMO | Armor
+TES5, Enderal, SSE | BOOK | Book
+TES5, Enderal, SSE | FLOR | Flora
+TES5, Enderal, SSE | FURN | Furniture
+TES5, Enderal, SSE | INGR | Ingredient
+TES5, Enderal, SSE | KEYM | Key
+TES5, Enderal, SSE | LCTN | Location
+TES5, Enderal, SSE | MGEF | Magic Effect
+TES5, Enderal, SSE | MISC | Misc. Item
+TES5, Enderal, SSE | NPC_ | Non Player Character
+TES5, Enderal, SSE | SCRL | Scroll
+TES5, Enderal, SSE | SLGM | Soul Gem
+TES5, Enderal, SSE | SPEL | Spell
+TES5, Enderal, SSE | TACT | Talking Activator
+TES5, Enderal, SSE | WEAP | Weapon
 
 ## Names
 
-Changes the names of things. | See the game-specific sections below for record types: See the Oblivion Names section for more information. See the Fallout 3 Names section for more information. See the Fallout: New Vegas Names section for more information. See the Skyrim, Enderal: Forgotten Stories & Skyrim: Special Edition Names section for more information. Not available for Fallout 4. |
+> **Supported Games:** FO3, FNV, TES4, TES5, Enderal, SSE
+
+Changes the names of things. 
 
 ## NPC.Class
 
-Changes the classes of NPCs. | The (CNAM) Class subrecord of (NPC_) Non-Player Character records. Not available for Fallout 4. |
+> **Supported Games:** All except FO4
+
+Changes the classes of NPCs. The (CNAM) Class subrecord of (NPC_) Non-Player Character records.
 
 ## Npc.EyesOnly
 
-Modifies Non-Player Character eyes. | The Eyes (ENAM) subrecord of Non-Player Character (NPC_) records. Oblivion, Fallout 3 & Fallout: New Vegas only. |
+> **Supported Games:** FO3, FNV, TES4
+
+Modifies Non-Player Character eyes. The Eyes (ENAM) subrecord of Non-Player Character (NPC_) records. 
 
 ## Npc.HairOnly
 
-Modifies Non-Player Character hair. | The Hair (HNAM) subrecord of Non-Player Character (NPC_) records. Oblivion, Fallout 3 & Fallout: New Vegas only. |
+> **Supported Games:** FO3, FNV, TES4
+
+Modifies Non-Player Character hair. The Hair (HNAM) subrecord of Non-Player Character (NPC_) records.
 
 ## NPC.Race
 
-Changes the races of NPCs. | The (RNAM) Race subrecord of (NPC_) Non-Player Character records. Not available for Fallout 4. |
+> **Supported Games:** All except FO4
+
+Changes the races of NPCs. The (RNAM) Race subrecord of (NPC_) Non-Player Character records.
 
 ## NpcFaces
 
-Modifies Non-Player Character faces. | The following Non-Player Character (NPC_) subrecords: FaceGen Data (FGGS) FaceGen Geometry-Symmetric (FGGA) FaceGen Geometry-Asymmetric (FGTS) FaceGen Texture-Symmetry (ENAM) Eyes (HNAM) Hair (LNAM) Hair Length (HCLR) Hair Color Oblivion, Fallout 3 & Fallout: New Vegas only. |
+> **Supported Games:** FO3, FNV, TES4
+
+Modifies Non-Player Character faces. The following Non-Player Character (NPC_) subrecords:
+
+Element | Paths
+:--- | :---
+FaceGen Data | FGGS - FaceGen Geometry-Symmetric<br>FGGA - FaceGen Geometry-Asymmetric<br>FGTS - FaceGen Texture-Symmetry
+ENAM - Eyes | 
+HNAM - Hair |
+LNAM - Hair Length |
+HCLR - Hair Color |
 
 ## NpcFacesForceFullImport
 
-Modifies Non-Player Character faces, and you wish to import the unmodified subrecords as well as the modified subrecords. | The following Non-Player Character (NPC_) subrecords: FaceGen Data (FGGS) FaceGen Geometry-Symmetric (FGGA) FaceGen Geometry-Asymmetric (FGTS) FaceGen Texture-Symmetry (ENAM) Eyes (HNAM) Hair (LNAM) Hair Length (HCLR) Hair Color Oblivion, Fallout 3 & Fallout: New Vegas only. |
+> **Supported Games:** FO3, FNV, TES4
+
+Modifies Non-Player Character faces, and you wish to import the unmodified subrecords as well as the modified subrecords. 
+
+The following Non-Player Character (NPC_) subrecords:
+
+Element | Paths
+:--- | :---
+FaceGen Data | FGGS - FaceGen Geometry-Symmetric<br>FGGA - FaceGen Geometry-Asymmetric<br>FGTS - FaceGen Texture-Symmetry
+ENAM - Eyes | 
+HNAM - Hair |
+LNAM - Hair Length |
+HCLR - Hair Color |
 
 ## ObjectBounds
 
-Changes the object bounds of things. | See the game-specific sections below for record types: See the Fallout 3 ObjectBounds section for more information. See the Fallout: New Vegas ObjectBounds section for more information. See the Skyrim, Enderal: Forgotten Stories & Skyrim: Special Edition ObjectBounds section for more information. See the Fallout 4 ObjectBounds section for more information. Not available for Oblivion. |
+> **Supported Games:** FO3, FNV, TES5, Enderal, SSE
+
+Changes the object bounds of things.
 
 ## Relev
 
-Re-levels leveled list entries. | Changes to the Level or Count of a (LVLO) leveled list entry in: (LVLC) Leveled Creature — Oblivion, Fallout 3 & Fallout: New Vegas only. (LVLI) Leveled Item (LVLN) Leveled NPC — Not available for Oblivion. (LVSP) Leveled SPELL — Oblivion, Skyrim, Enderal: Forgotten Stories & Skyrim: Special Edition only. |
+> **Supported Games:** FO3, FNV, TES4, TES5, Enderal, SSE
+
+Re-levels leveled list entries. Changes to the Level or Count of a (LVLO) leveled list entry in:
+
+Game | Signature | Name
+:--- | :--- | :---
+FO3, FNV, TES4 | LVLC | Leveled Creature
+All | LVLI | Leveled Item
+All except TES4 | LVLN | Leveled NPC
+TES4, TES5, Enderal, SSE | LVSP | Leveled Spell
 
 ## Scripts
 
-Modifies scripts attached to various things. | See the game-specific sections below for record types: See the Oblivion Scripts section for more information. See the Fallout 3 Scripts section for more information. See the Fallout: New Vegas Scripts section for more information. Oblivion, Fallout 3 & Fallout: New Vegas only. |
+> **Supported Games:** FO3, FNV, TES4
+
+Modifies scripts attached to various things.
 
 ## Sound
 
-Replaces sounds. | See the game-specific sections below for record types: See the Oblivion Sound section for more information. See the Fallout 3 Sound section for more information. See the Fallout: New Vegas Sound section for more information. See the Skyrim, Enderal: Forgotten Stories & Skyrim: Special Edition Sound section for more information. Not available for Fallout 4. |
+> **Supported Games:** FO3, FNV, TES4, TES5, Enderal, SSE
+
+Replaces sounds.
 
 ## SpellStats
 
-Modifies spell stats. | The following Spell (SPEL) subrecords: All but Fallout 4: (EDID) Editor ID (FULL) Name (SPIT) Cost (SPIT) Spell Type Oblivion, Fallout 3 & Fallout: New Vegas only: (SPIT) Level Skyrim, Enderal: Forgotten Stories and Skyrim: Special Edition only: (SPIT) Cast Duration (SPIT) Cast Type (SPIT) Charge Time (SPIT) Half-Cost Perk (SPIT) Range (SPIT) Target Type Not available for Fallout 4. |
+Modifies spell stats. | The following Spell (SPEL) subrecords:
+
+Game | Element | Paths
+:--- | :--- | :---
+All except FO4 | EDID - Editor ID | 
+All except FO4 | FULL - Name | 
+All except FO4 | SPIT | Cost<br>Spell Type 
+FO3, FNV, TES4 | SPIT | Level
+TES5, Enderal, SSE | SPIT | Cast Duration<br>Cast Type<br>Charge Time<br>Half-Cost Perk<br>Range<br>Target Type
 
 ## Stats
 
-Modifies the stats (e.g. weight, value, etc.) of items and other objects. | See the game-specific sections below for record types: See the Oblivion Stats section for more information. See the Fallout 3 Stats section for more information. See the Fallout: New Vegas Stats section for more information. See the Skyrim, Enderal: Forgotten Stories & Skyrim: Special Edition Stats section for more information. Not available for Fallout 4. |
+> **Supported Games:** FO3, FNV, TES4, TES5, Enderal, SSE
+
+Modifies the stats (e.g. weight, value, etc.) of items and other objects.
 
 ## Text
 
-Modifies long-form text (e.g. the text in a book, or descriptions of armor, spells, weapons, etc.) of things. | See the game-specific sections below for record types: See the Oblivion Text section for more information. See the Fallout 3 Text section for more information. See the Fallout: New Vegas Text section for more information. See the Skyrim, Enderal: Forgotten Stories & Skyrim: Special Edition Text section for more information. Not Available for Fallout 4. |
+> **Supported Games:** FO3, FNV, TES4, TES5, Enderal, SSE
+
+Modifies long-form text (e.g. the text in a book, or descriptions of armor, spells, weapons, etc.) of things.
