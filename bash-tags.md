@@ -2,7 +2,7 @@
 title: Bash Tags Reference
 description: 
 published: true
-date: 2020-02-21T04:24:15.072Z
+date: 2020-02-22T01:11:01.585Z
 tags: 
 ---
 
@@ -20,23 +20,16 @@ tags:
 
 # Common Bash Tags
 
-## Actors.ACBS
+**Note:** TES5 includes Enderal.
 
-> **Supported Games:** FO3, FNV, TES4, TES5, Enderal, SSE
-
-Modifies the (ACBS) Configuration subrecord of actors.
-
-## Actors.AIData
-
-> **Supported Games:** FO3, FNV, TES4, TES5, Enderal, SSE
-
-Modifies the (AIDT) AI Data subrecord of actors.
+Tag | Description | Supported Games
+:--- | :--- | :---
+Actors.ACBS | Modifies the (ACBS) Configuration subrecord of actors. | FO3, FNV, TES4, TES5, SSE
+Actors.AIData | Modifies the (AIDT) AI Data subrecord of actors. | FO3, FNV, TES4, TES5, SSE
+[Actors.AIPackages](#Actors.AIPackages) | Modifies AI packages lists of actors. | FO3, FNV, TES4
+[Actors.AIPackagesForceAdd](#Actors.AIPackagesForceAdd) | Adds to actor package lists. This tag forces the addition of packages even if they are removed by later-loading plugins tagged with Actors.AIPackages. | FO3, FNV, TES4
 
 ## Actors.AIPackages
-
-> **Supported Games:** FO3, FNV, TES4
-
-Modifies AI packages lists of actors.
 
 Addition or removal of an (PKID) AI Package in the AI Packages subrecord in the following record types:
 
@@ -46,10 +39,6 @@ FO3, FNV | NPC_ | Non-Player Character
 TES4 | CREA | Creature
 
 ## Actors.AIPackagesForceAdd
-
-> **Supported Games:** FO3, FNV, TES4
-
-Adds to actor package lists. This tag forces the addition of packages even if they are removed by later-loading plugins tagged with Actors.AIPackages.
 
 Addition of an (PKID) AI Package in the AI Packages subrecord in the following record types:
 
