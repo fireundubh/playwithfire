@@ -2,7 +2,7 @@
 title: Bash Tags Reference
 description: 
 published: true
-date: 2020-02-22T01:11:01.585Z
+date: 2020-02-22T01:27:20.666Z
 tags: 
 ---
 
@@ -24,10 +24,22 @@ tags:
 
 Tag | Description | Supported Games
 :--- | :--- | :---
-Actors.ACBS | Modifies the (ACBS) Configuration subrecord of actors. | FO3, FNV, TES4, TES5, SSE
-Actors.AIData | Modifies the (AIDT) AI Data subrecord of actors. | FO3, FNV, TES4, TES5, SSE
-[Actors.AIPackages](#Actors.AIPackages) | Modifies AI packages lists of actors. | FO3, FNV, TES4
-[Actors.AIPackagesForceAdd](#Actors.AIPackagesForceAdd) | Adds to actor package lists. This tag forces the addition of packages even if they are removed by later-loading plugins tagged with Actors.AIPackages. | FO3, FNV, TES4
+Actors.ACBS | Modifies ACBS subrecord of actors | FO3, FNV, TES4, TES5, SSE
+Actors.AIData | Modifies AIDT subrecord of actors | FO3, FNV, TES4, TES5, SSE
+[Actors.AIPackages](#Actors.AIPackages) | Modifies AI packages lists of actors | FO3, FNV, TES4
+[Actors.AIPackagesForceAdd](#Actors.AIPackagesForceAdd) | Like Actors.AIPackages, but also forces addition of packages even if removed by similarly tagged plugins | FO3, FNV, TES4
+[Actors.Anims](#Actors.Anims) | Modifies actor special animations lists | FO3, FNV, TES4
+[Actors.CombatStyle](#Actors.CombatStyle) | Modifies the assigned combat styles of actors | FO3, FNV, TES4
+[Actors.DeathItem](#Actors.DeathItem) | Modifies actor death items | FO3, FNV, TES4
+[Actors.Skeleton](#Actors.Skeleton) | Modifies actor skeletons | FO3, FNV, TES4
+[Actors.Spells](#Actors.Spells) | Modifies the Spells\Actor Effects list of actors | FO3, FNV, TES4
+[Actors.SpellsForceAdd](#Actors.SpellsForceAdd) | Like Actors.Spells, but also forces addition of spells even if removed by similarly tagged plugins | FO3, FNV, TES4
+Actors.Stats | Modifies actor stats (e.g. health, skills, stamina, etc.) | FO3, FNV, TES4, TES5, SSE
+C.Acoustic | Modifies XCAS subrecord in CELL records | FO3, FNV, TES5, SSE
+[C.Climate](#C.Climate) | Modifies cell climates | FO3, FNV, TES4, TE5, SSE
+C.Encounter | Modifies XEZN subrecord in CELL records | FO3, FNV, TES5, SSE
+C.ForceHideLand | Modifies Force Hide Land flags in XCLC subrecord in CELL records | FO3, FNV, TES5, SSE
+C.ImageSpace | Modifies XCIM subrecord in CELL records | FO3, FNV, TES5, SSE
 
 ## Actors.AIPackages
 
@@ -49,10 +61,6 @@ TES4 | CREA | Creature
 
 ## Actors.Anims
 
-> **Supported Games:** FO3, FNV, TES4
-
-Modifies actor special animations lists.
-
 Modification of the (KFFZ) Animations subrecord in the following record types: 
 
 Game | Signature | Name
@@ -61,10 +69,6 @@ FO3, FNV | NPC_ | Non-Player Character
 TES4 | CREA | Creature
 
 ## Actors.CombatStyle
-
-> **Supported Games:** FO3, FNV, TES4
-
-Modifies the assigned combat styles of actors.
 
 Modification of the (ZNAM) Combat Style subrecord in the following record types:
 
@@ -75,9 +79,7 @@ TES4 | CREA | Creature
 
 ## Actors.DeathItem
 
-> **Supported Games:** FO3, FNV, TES4
-
-Modifies actor death items. Modification of the (INAM) Death Item subrecord in the following record types:
+Modification of the (INAM) Death Item subrecord in the following record types:
 
 Game | Signature | Name
 :--- | :--- | :---
@@ -86,9 +88,7 @@ TES4 | CREA | Creature
 
 ## Actors.Skeleton
 
-> **Supported Games:** FO3, FNV, TES4
-
-Modifies actor skeletons.
+Modification of the MODL, MODB, and MODL subrecords in NPC_ and CREA records.
 
 Game | Signature | Subrecord | Name
 :--- | :--- | :--- | :---
@@ -101,10 +101,6 @@ TES4 | CREA | MODL | Texture File Hashes
 
 ## Actors.Spells
 
-> **Supported Games:** FO3, FNV, TES4
-
-Modifies the Spells (also called Actor Effects) list of actors.
-
 Addition, modification or removal of spells to the (SPLO) Spells subrecord in the following record types:
 
 Game | Signature | Name
@@ -114,10 +110,6 @@ TES4 | CREA | Creature
 
 ## Actors.SpellsForceAdd
 
-> **Supported Games:** FO3, FNV, TES4
-
-Modifies the Spells (also called Actor Effects) list of actors. This tag forces the addition of spells even if they are removed by other plugins tagged with Actors.Spells.
-
 Addition of (SPLO) spells to the Spells subrecord in the following record types:
 
 Game | Signature | Name
@@ -125,23 +117,7 @@ Game | Signature | Name
 FO3, FNV | NPC_ | Non-Player Character
 TES4 | CREA | Creature
 
-## Actors.Stats
-
-> **Supported Games:** FO3, FNV, TES4, TES5, Enderal, SSE
-
-Modifies actor stats (e.g. health, skills, stamina, etc.).
-
-## C.Acoustic
-
-> **Supported Games:** All games except TES4 and FO4
-
-Modifies cell Acoustic Space. The Acoustic Space (XCAS) subrecord in Cell (CELL) records.
-
 ## C.Climate
-
-> **Supported Games:** FO3, FNV, TES4, TE5, Enderal, SSE
-
-Modifies cell climates.
 
 Game | Element | Name
 :--- | :--- | :---
@@ -149,24 +125,6 @@ FO3, FNV, TES4 | XCCM | Climate
 FO3, FNV, TES4 | DATA | Behave Like Exterior
 TES5, Enderal, SSE | XCCM | Sky/Weather from Region
 TES5, Enderal, SSE | DATA | Show Sky
-
-## C.Encounter
-
-> **Supported Games:** All games except TES4 and FO4
-
-Modifies cell Encounter Zone. The Encounter Zone (XEZN) subrecord in Cell (CELL) records.
-
-## C.ForceHideLand
-
-> **Supported Games:** All games except TES4 and FO4
-
-Modifies cell Force Hide Land flags. The Force Hide Land flags field in the Grid (XCLC) subrecord in Cell (CELL) records.
-
-## C.ImageSpace
-
-> **Supported Games:** All games except TES4 and FO4
-
-Modifies cell ImageSpace. The Image Space (XCIM) subrecord in Cell (CELL) records.
 
 ## C.Light
 
