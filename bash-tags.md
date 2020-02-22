@@ -2,7 +2,7 @@
 title: Bash Tags Reference
 description: 
 published: true
-date: 2020-02-22T01:27:20.666Z
+date: 2020-02-22T01:44:39.719Z
 tags: 
 ---
 
