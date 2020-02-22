@@ -2,7 +2,7 @@
 title: Bash Tags Reference
 description: 
 published: true
-date: 2020-02-22T01:44:39.719Z
+date: 2020-02-22T01:46:07.109Z
 tags: 
 ---
 
@@ -26,17 +26,17 @@ Tag | Description | Supported Games
 :--- | :--- | :---
 Actors.ACBS | Modifies ACBS subrecord of actors | FO3, FNV, TES4, TES5, SSE
 Actors.AIData | Modifies AIDT subrecord of actors | FO3, FNV, TES4, TES5, SSE
-[Actors.AIPackages](#Actors.AIPackages) | Modifies AI packages lists of actors | FO3, FNV, TES4
-[Actors.AIPackagesForceAdd](#Actors.AIPackagesForceAdd) | Like Actors.AIPackages, but also forces addition of packages even if removed by similarly tagged plugins | FO3, FNV, TES4
-[Actors.Anims](#Actors.Anims) | Modifies actor special animations lists | FO3, FNV, TES4
-[Actors.CombatStyle](#Actors.CombatStyle) | Modifies the assigned combat styles of actors | FO3, FNV, TES4
-[Actors.DeathItem](#Actors.DeathItem) | Modifies actor death items | FO3, FNV, TES4
-[Actors.Skeleton](#Actors.Skeleton) | Modifies actor skeletons | FO3, FNV, TES4
-[Actors.Spells](#Actors.Spells) | Modifies the Spells\Actor Effects list of actors | FO3, FNV, TES4
-[Actors.SpellsForceAdd](#Actors.SpellsForceAdd) | Like Actors.Spells, but also forces addition of spells even if removed by similarly tagged plugins | FO3, FNV, TES4
+[Actors.AIPackages](#ActorsAIPackages) | Modifies AI packages lists of actors | FO3, FNV, TES4
+[Actors.AIPackagesForceAdd](#ActorsAIPackagesForceAdd) | Like Actors.AIPackages, but also forces addition of packages even if removed by similarly tagged plugins | FO3, FNV, TES4
+[Actors.Anims](#ActorsAnims) | Modifies actor special animations lists | FO3, FNV, TES4
+[Actors.CombatStyle](#ActorsCombatStyle) | Modifies the assigned combat styles of actors | FO3, FNV, TES4
+[Actors.DeathItem](#ActorsDeathItem) | Modifies actor death items | FO3, FNV, TES4
+[Actors.Skeleton](#ActorsSkeleton) | Modifies actor skeletons | FO3, FNV, TES4
+[Actors.Spells](#ActorsSpells) | Modifies the Spells\Actor Effects list of actors | FO3, FNV, TES4
+[Actors.SpellsForceAdd](#ActorsSpellsForceAdd) | Like Actors.Spells, but also forces addition of spells even if removed by similarly tagged plugins | FO3, FNV, TES4
 Actors.Stats | Modifies actor stats (e.g. health, skills, stamina, etc.) | FO3, FNV, TES4, TES5, SSE
 C.Acoustic | Modifies XCAS subrecord in CELL records | FO3, FNV, TES5, SSE
-[C.Climate](#C.Climate) | Modifies cell climates | FO3, FNV, TES4, TE5, SSE
+[C.Climate](#CClimate) | Modifies cell climates | FO3, FNV, TES4, TE5, SSE
 C.Encounter | Modifies XEZN subrecord in CELL records | FO3, FNV, TES5, SSE
 C.ForceHideLand | Modifies Force Hide Land flags in XCLC subrecord in CELL records | FO3, FNV, TES5, SSE
 C.ImageSpace | Modifies XCIM subrecord in CELL records | FO3, FNV, TES5, SSE
