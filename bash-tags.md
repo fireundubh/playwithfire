@@ -2,7 +2,7 @@
 title: Bash Tags Reference
 description: 
 published: true
-date: 2020-02-22T01:46:07.109Z
+date: 2020-02-22T01:47:02.365Z
 tags: 
 ---
 
@@ -26,7 +26,7 @@ Tag | Description | Supported Games
 :--- | :--- | :---
 Actors.ACBS | Modifies ACBS subrecord of actors | FO3, FNV, TES4, TES5, SSE
 Actors.AIData | Modifies AIDT subrecord of actors | FO3, FNV, TES4, TES5, SSE
-[Actors.AIPackages](#ActorsAIPackages) | Modifies AI packages lists of actors | FO3, FNV, TES4
+[Actors.AIPackages](#actorsaipackages) | Modifies AI packages lists of actors | FO3, FNV, TES4
 [Actors.AIPackagesForceAdd](#ActorsAIPackagesForceAdd) | Like Actors.AIPackages, but also forces addition of packages even if removed by similarly tagged plugins | FO3, FNV, TES4
 [Actors.Anims](#ActorsAnims) | Modifies actor special animations lists | FO3, FNV, TES4
 [Actors.CombatStyle](#ActorsCombatStyle) | Modifies the assigned combat styles of actors | FO3, FNV, TES4
