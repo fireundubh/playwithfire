@@ -2,7 +2,7 @@
 title: xEdit Scripting API
 description: 
 published: true
-date: 2020-02-25T08:50:19.249Z
+date: 2020-02-25T08:51:32.661Z
 tags: 
 ---
 
@@ -102,7 +102,7 @@ AddMessage(IntToStr(iNumber));
 // printing floats
 AddMessage(FloatToStr(fNumber));
 
-// printing Form IDs as hexadecimal strings
+// printing Form IDs (cardinals/unsigned integers) as hexadecimal strings
 AddMessage(IntToHex(GetLoadOrderFormID(e), 8));
 ```
 
