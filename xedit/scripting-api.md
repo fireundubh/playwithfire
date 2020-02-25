@@ -2,7 +2,7 @@
 title: xEdit Scripting API
 description: 
 published: true
-date: 2020-02-25T08:47:40.297Z
+date: 2020-02-25T08:49:20.427Z
 tags: 
 ---
 
@@ -110,7 +110,7 @@ AddMessage(IntToHex(GetLoadOrderFormID(e), 8));
 
 External Link | Description
 :--- | :---
-[API Function Reference](https://tes5edit.github.io/docs/12-Scripting-Functions.html) | Functions and procedures unique to xEdit
+[API Function Reference](https://tes5edit.github.io/docs/13-Scripting-Functions.html) | Functions and procedures unique to xEdit
 [Delphi Language Guide](http://docwiki.embarcadero.com/RADStudio/Rio/en/Delphi_Language_Guide_Index) | Official guide to the Delphi language, including syntax 
 [Delphi Basics](http://www.delphibasics.co.uk/index.html) | Examples of how to use Delphi functions and procedures
 
