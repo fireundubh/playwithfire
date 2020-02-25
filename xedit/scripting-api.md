@@ -2,7 +2,7 @@
 title: xEdit Scripting API
 description: 
 published: true
-date: 2020-02-15T06:44:10.698Z
+date: 2020-02-25T08:47:40.297Z
 tags: 
 ---
 
@@ -13,10 +13,10 @@ tags:
 ```pascal
 function Process(e: IInterface): Integer;
 var
-	propertyName: IInterface;
-	ScriptProperties: IInterface;
-	VMAD: IInterface;
-	i: Integer;
+	PropertyName     : IInterface;
+	ScriptProperties : IInterface;
+	VMAD             : IInterface;
+	i                : Integer;
 begin
 	VMAD := ElementBySignature(e, 'VMAD');
 	if not Assigned(VMAD) then
@@ -26,8 +26,11 @@ begin
   
 	for i := 0 to Pred(ElementCount(ScriptProperties)) do
 	begin
-		{Option A} propertyName := ElementByName(ElementByIndex(ScriptProperties, i), 'propertyName');
-		{Option B} propertyName := ElementByPath(ScriptProperties, '[' + i + ']\propertyName');
+		// old style
+    PropertyName := ElementByName(ElementByIndex(ScriptProperties, i), 'propertyName');
+    
+    // new style
+		PropertyName := ElementByPath(ScriptProperties, '[' + IntToStr(i) + ']\propertyName');
 	end;
 end;
 ```
@@ -37,9 +40,9 @@ end;
 ```pascal
 function Process(e: IInterface): Integer;
 var
-	LNAM: IInterface;
-	FormIDs: IInterface;
-	i: Integer;
+	LNAM    : IInterface;
+	FormIDs : IInterface;
+	i       : Integer;
 begin
 	if Signature(e) <> 'FLST' then
 		Exit;
@@ -59,8 +62,8 @@ end;
 ```pascal
 function Process(e: IInterface): Integer;
 var
-	ByRef: IInterface;
-	i: Integer;
+	ByRef : IInterface;
+	i     : Integer;
 begin
 	for i := 0 to Pred(ReferencedByCount(e)) do
 	begin
@@ -75,8 +78,8 @@ end;
 ```pascal
 function Process(e: IInterface): Integer;
 var
-	LinkedRef: IInterface;
-	RNAM: IInterface;
+	LinkedRef : IInterface;
+	RNAM      : IInterface;
 begin
 	if Signature(e) <> 'ARMO' then
 		Exit;
@@ -86,6 +89,21 @@ begin
   
 	// do something with LinkedRef
 end;
+```
+
+## Printing messages with non-string data types
+
+Non-string types must be converted to strings first.
+
+```pascal
+// printing integers
+AddMessage(IntToStr(iNumber));
+
+// printing floats
+AddMessage(FloatToStr(fNumber));
+
+// printing Form IDs as hexadecimal strings
+AddMessage(IntToHex(GetLoadOrderFormID(e), 8));
 ```
 
 # Scripting Resources
