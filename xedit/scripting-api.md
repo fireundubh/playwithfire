@@ -2,7 +2,7 @@
 title: xEdit Scripting API
 description: 
 published: true
-date: 2020-02-25T08:51:32.661Z
+date: 2020-02-25T08:52:11.876Z
 tags: 
 ---
 
@@ -91,7 +91,7 @@ begin
 end;
 ```
 
-## Printing messages with non-string data types
+## Print message with non-string data types
 
 Non-string types must be converted to strings first.
 
