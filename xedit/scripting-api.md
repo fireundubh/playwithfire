@@ -2,7 +2,7 @@
 title: xEdit Scripting API
 description: 
 published: true
-date: 2020-02-25T08:49:20.427Z
+date: 2020-02-25T08:50:19.249Z
 tags: 
 ---
 
@@ -27,9 +27,9 @@ begin
 	for i := 0 to Pred(ElementCount(ScriptProperties)) do
 	begin
 		// old style
-    PropertyName := ElementByName(ElementByIndex(ScriptProperties, i), 'propertyName');
+		PropertyName := ElementByName(ElementByIndex(ScriptProperties, i), 'propertyName');
     
-    // new style
+		// new style
 		PropertyName := ElementByPath(ScriptProperties, '[' + IntToStr(i) + ']\propertyName');
 	end;
 end;
