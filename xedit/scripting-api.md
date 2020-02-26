@@ -2,7 +2,7 @@
 title: xEdit Scripting API
 description: 
 published: true
-date: 2020-02-26T08:16:37.485Z
+date: 2020-02-26T08:18:17.626Z
 tags: 
 ---
 
@@ -49,57 +49,29 @@ end;
 ## Iterate over array of elements
 
 ```pascal
-function Process(e: IInterface): Integer;
-var
-	LNAM    : IInterface;
-	FormIDs : IInterface;
-	i       : Integer;
+for i := 0 to Pred(ElementCount(FormIDs)) do
 begin
-	if Signature(e) <> 'FLST' then
-		Exit;
-    
-	FormIDs := ElementByName(e, 'FormIDs');
-  
-	for i := 0 to Pred(ElementCount(FormIDs)) do
-	begin
-		LNAM := ElementByIndex(FormIDs, i);
-		// do something with LNAM
-	end;
+	LNAM := ElementByIndex(FormIDs, i);
+	// do something with LNAM
 end;
 ```
 
 ## Iterate over Referenced By records
 
 ```pascal
-function Process(e: IInterface): Integer;
-var
-	ByRef : IInterface;
-	i     : Integer;
+for i := 0 to Pred(ReferencedByCount(e)) do
 begin
-	for i := 0 to Pred(ReferencedByCount(e)) do
-	begin
-		ByRef := ReferencedByIndex(e, i);
-		// do something with ByRef
-	end;
+	ByRef := ReferencedByIndex(e, i);
+	// do something with ByRef
 end;
 ```
 
 ## Get record assigned to element
 
 ```pascal
-function Process(e: IInterface): Integer;
-var
-	LinkedRef : IInterface;
-	RNAM      : IInterface;
-begin
-	if Signature(e) <> 'ARMO' then
-		Exit;
-
-	RNAM := ElementBySignature(e, 'RNAM');
-	LinkedRef := LinksTo(RNAM);
-  
-	// do something with LinkedRef
-end;
+RNAM := ElementBySignature(e, 'RNAM');
+LinkedRef := LinksTo(RNAM);
+// do something with LinkedRef
 ```
 
 ## Print message with non-string data type
