@@ -2,17 +2,19 @@
 title: xEdit Scripting API
 description: 
 published: true
-date: 2020-02-26T08:43:06.441Z
+date: 2020-02-26T08:43:49.729Z
 tags: 
 ---
 
-Currently, xEdit supports only the "Old API." The "New API" is not yet available, but at some point, the Old API will be replaced. Implementations of the following solutions are provided using both APIs to demonstrate how scripts will need to be updated.
+At some point, the Current API will be replaced.
+
+Implementations of the following solutions are provided using both APIs to demonstrate how scripts will need to change.
 
 # Common Problems
 
 ## Access member of element in array of elements
 
-### Old API
+### Current API
 
 ```pascal
 var
@@ -40,7 +42,7 @@ end;
 
 ## Iterate over array of elements
 
-### Old API
+### Current API
 
 ```pascal
 var
@@ -68,7 +70,7 @@ end;
 
 ## Iterate over Referenced By records
 
-### Old API
+### Current API
 
 ```pascal
 var
@@ -95,7 +97,7 @@ end;
 
 ## Get record assigned to element
 
-### Old API
+### Current API
 
 ```pascal
 var
