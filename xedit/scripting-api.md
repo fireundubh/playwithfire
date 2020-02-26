@@ -2,7 +2,7 @@
 title: xEdit Scripting API
 description: 
 published: true
-date: 2020-02-26T08:50:14.588Z
+date: 2020-02-26T08:50:48.683Z
 tags: 
 ---
 
@@ -35,7 +35,7 @@ end;
 ### New API
 
 ```pascal
-var ScriptProperties := ElementByPath(e, 'VMAD\Scripts\[0]\Properties');
+var ScriptProperties := e.ElementByPath['VMAD\Scripts\[0]\Properties'];
 
 for var i := 0 to Pred(ScriptProperties.ElementCount) do
 begin
