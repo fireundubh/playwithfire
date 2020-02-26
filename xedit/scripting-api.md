@@ -2,7 +2,7 @@
 title: xEdit Scripting API
 description: 
 published: true
-date: 2020-02-26T08:43:49.729Z
+date: 2020-02-26T08:50:14.588Z
 tags: 
 ---
 
@@ -22,6 +22,8 @@ var
 	PropertyName : IInterface;
 	i : Integer;
 begin
+	ScriptProperties := ElementByPath(e, 'VMAD\Scripts\[0]\Properties');
+
   for i := 0 to Pred(ElementCount(ScriptProperties)) do
   begin
     PropertyName := ElementByPath(ScriptProperties, '[' + IntToStr(i) + ']\propertyName');  // returns object of type IwbElement
@@ -33,6 +35,8 @@ end;
 ### New API
 
 ```pascal
+var ScriptProperties := ElementByPath(e, 'VMAD\Scripts\[0]\Properties');
+
 for var i := 0 to Pred(ScriptProperties.ElementCount) do
 begin
 	var PropertyName := ScriptProperties.ElementByPath['[' + IntToStr(i) + ']\propertyName'];  // returns object of type IwbElement
@@ -50,6 +54,8 @@ var
 	LNAM : IInterface;
 	i : Integer;
 begin
+	FormIDs := ElementByName(e, 'FormIDs');
+
   for i := 0 to Pred(ElementCount(FormIDs)) do
   begin
     LNAM := ElementByIndex(FormIDs, i);  // returns object of type IwbElement
@@ -61,10 +67,14 @@ end;
 ### New API
 
 ```pascal
-for var i := 0 to Pred(FormIDs.ElementCount) do
 begin
-	var LNAM := FormIDs.Elements[i];  // returns object of type IwbElement
-	// do something with LNAM
+  var FormIDs := e.ElementByName['FormIDs'];
+
+  for var i := 0 to Pred(FormIDs.ElementCount) do
+  begin
+    var LNAM := FormIDs.Elements[i];  // returns object of type IwbElement
+    // do something with LNAM
+  end;
 end;
 ```
 
@@ -88,10 +98,12 @@ end;
 ### New API
 
 ```pascal
-for var i := 0 to Pred(e.ReferencedByCount) do
 begin
-	var ByRef := e.ReferencedBy[i];  // returns object of type IwbMainRecord
-	// do something with ByRef
+  for var i := 0 to Pred(e.ReferencedByCount) do
+  begin
+    var ByRef := e.ReferencedBy[i];  // returns object of type IwbMainRecord
+    // do something with ByRef
+  end;
 end;
 ```
 
@@ -113,9 +125,11 @@ end;
 ### New API
 
 ```pascal
-var RNAM := e.ElementBySignature['RNAM'];
-var LinkedRef := RNAM.LinksTo;  // returns object of type IwbMainRecord
-// do something with LinkedRef
+begin
+  var RNAM := e.ElementBySignature['RNAM'];
+  var LinkedRef := RNAM.LinksTo;  // returns object of type IwbMainRecord
+  // do something with LinkedRef
+end;
 ```
 
 ## Print message with non-string data type
