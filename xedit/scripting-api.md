@@ -2,7 +2,7 @@
 title: xEdit Scripting API
 description: 
 published: true
-date: 2020-02-25T08:52:16.962Z
+date: 2020-02-26T08:16:37.485Z
 tags: 
 ---
 
@@ -10,28 +10,39 @@ tags:
 
 ## Access member of element in array of elements
 
+### Option 1
 ```pascal
-function Process(e: IInterface): Integer;
-var
-	PropertyName     : IInterface;
-	ScriptProperties : IInterface;
-	VMAD             : IInterface;
-	i                : Integer;
+for i := 0 to Pred(ElementCount(ScriptProperties)) do
 begin
-	VMAD := ElementBySignature(e, 'VMAD');
-	if not Assigned(VMAD) then
-		Exit;
+	kPropertyName := ElementByName(ElementByIndex(ScriptProperties, i), 'propertyName');
+  // do something with kPropertyName
+end;
+```
 
-	ScriptProperties := ElementByPath(VMAD, 'Scripts\Script\Properties');
-  
-	for i := 0 to Pred(ElementCount(ScriptProperties)) do
-	begin
-		// old style
-		PropertyName := ElementByName(ElementByIndex(ScriptProperties, i), 'propertyName');
-    
-		// new style
-		PropertyName := ElementByPath(ScriptProperties, '[' + IntToStr(i) + ']\propertyName');
-	end;
+### Option 2
+```pascal
+for i := 0 to Pred(ElementCount(ScriptProperties)) do
+begin
+	kPropertyName := ElementByPath(ScriptProperties, '[' + IntToStr(i) + ']\propertyName');
+  // do something with kPropertyName
+end;
+```
+
+### Option 3
+```pascal
+for i := 0 to Pred(ElementCount(ScriptProperties)) do
+begin
+	kPropertyName := GetElementEditValues(ElementByIndex(ScriptProperties, i), 'propertyName');
+  // do something with kPropertyName
+end;
+```
+
+### Option 4
+```pascal
+for i := 0 to Pred(ElementCount(ScriptProperties)) do
+begin
+	sPropertyName := GetElementEditValues(ScriptProperties, '[' + IntToStr(i) + ']\propertyName');
+  // do something with sPropertyName
 end;
 ```
 
