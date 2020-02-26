@@ -2,7 +2,7 @@
 title: xEdit Scripting API
 description: 
 published: true
-date: 2020-02-26T08:21:27.160Z
+date: 2020-02-26T08:23:46.941Z
 tags: 
 ---
 
@@ -10,16 +10,9 @@ tags:
 
 ## Access member of element in array of elements
 
-### Option 1
-```pascal
-for i := 0 to Pred(ElementCount(ScriptProperties)) do
-begin
-  kPropertyName := ElementByName(ElementByIndex(ScriptProperties, i), 'propertyName');  // returns object of type IwbElement
-  // do something with kPropertyName
-end;
-```
+There are multiple ways to do this. Here are the two cleanest options:
 
-### Option 2
+### Accessing member as IwbElement
 ```pascal
 for i := 0 to Pred(ElementCount(ScriptProperties)) do
 begin
@@ -28,16 +21,7 @@ begin
 end;
 ```
 
-### Option 3
-```pascal
-for i := 0 to Pred(ElementCount(ScriptProperties)) do
-begin
-	kPropertyName := GetElementEditValues(ElementByIndex(ScriptProperties, i), 'propertyName');  // returns object of type String
-  // do something with kPropertyName
-end;
-```
-
-### Option 4
+### Accessing member as String
 ```pascal
 for i := 0 to Pred(ElementCount(ScriptProperties)) do
 begin
