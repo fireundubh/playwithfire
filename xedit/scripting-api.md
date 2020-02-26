@@ -2,7 +2,7 @@
 title: xEdit Scripting API
 description: 
 published: true
-date: 2020-02-26T08:18:17.626Z
+date: 2020-02-26T08:18:37.213Z
 tags: 
 ---
 
@@ -14,7 +14,7 @@ tags:
 ```pascal
 for i := 0 to Pred(ElementCount(ScriptProperties)) do
 begin
-	kPropertyName := ElementByName(ElementByIndex(ScriptProperties, i), 'propertyName');
+  kPropertyName := ElementByName(ElementByIndex(ScriptProperties, i), 'propertyName');
   // do something with kPropertyName
 end;
 ```
