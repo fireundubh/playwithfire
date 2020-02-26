@@ -2,7 +2,7 @@
 title: xEdit Scripting API
 description: 
 published: true
-date: 2020-02-26T08:19:11.212Z
+date: 2020-02-26T08:21:27.160Z
 tags: 
 ---
 
@@ -14,7 +14,7 @@ tags:
 ```pascal
 for i := 0 to Pred(ElementCount(ScriptProperties)) do
 begin
-  kPropertyName := ElementByName(ElementByIndex(ScriptProperties, i), 'propertyName');
+  kPropertyName := ElementByName(ElementByIndex(ScriptProperties, i), 'propertyName');  // returns object of type IwbElement
   // do something with kPropertyName
 end;
 ```
@@ -23,7 +23,7 @@ end;
 ```pascal
 for i := 0 to Pred(ElementCount(ScriptProperties)) do
 begin
-	kPropertyName := ElementByPath(ScriptProperties, '[' + IntToStr(i) + ']\propertyName');
+	kPropertyName := ElementByPath(ScriptProperties, '[' + IntToStr(i) + ']\propertyName');  // returns object of type IwbElement
   // do something with kPropertyName
 end;
 ```
@@ -32,7 +32,7 @@ end;
 ```pascal
 for i := 0 to Pred(ElementCount(ScriptProperties)) do
 begin
-	kPropertyName := GetElementEditValues(ElementByIndex(ScriptProperties, i), 'propertyName');
+	kPropertyName := GetElementEditValues(ElementByIndex(ScriptProperties, i), 'propertyName');  // returns object of type String
   // do something with kPropertyName
 end;
 ```
@@ -41,7 +41,7 @@ end;
 ```pascal
 for i := 0 to Pred(ElementCount(ScriptProperties)) do
 begin
-	sPropertyName := GetElementEditValues(ScriptProperties, '[' + IntToStr(i) + ']\propertyName');
+	sPropertyName := GetElementEditValues(ScriptProperties, '[' + IntToStr(i) + ']\propertyName');  // returns object of type String
   // do something with sPropertyName
 end;
 ```
@@ -51,7 +51,7 @@ end;
 ```pascal
 for i := 0 to Pred(ElementCount(FormIDs)) do
 begin
-	LNAM := ElementByIndex(FormIDs, i);
+	LNAM := ElementByIndex(FormIDs, i);  // returns object of type IwbElement
 	// do something with LNAM
 end;
 ```
@@ -61,7 +61,7 @@ end;
 ```pascal
 for i := 0 to Pred(ReferencedByCount(e)) do
 begin
-	ByRef := ReferencedByIndex(e, i);
+	ByRef := ReferencedByIndex(e, i);  // returns object of type IwbMainRecord
 	// do something with ByRef
 end;
 ```
@@ -70,7 +70,7 @@ end;
 
 ```pascal
 RNAM := ElementBySignature(e, 'RNAM');
-LinkedRef := LinksTo(RNAM);
+LinkedRef := LinksTo(RNAM);  // returns object of type IwbMainRecord
 // do something with LinkedRef
 ```
 
