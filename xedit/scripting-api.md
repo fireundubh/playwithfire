@@ -2,7 +2,7 @@
 title: xEdit Scripting API
 description: 
 published: true
-date: 2020-02-26T08:18:37.213Z
+date: 2020-02-26T08:19:11.212Z
 tags: 
 ---
 
