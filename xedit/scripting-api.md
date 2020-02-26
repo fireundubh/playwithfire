@@ -2,59 +2,117 @@
 title: xEdit Scripting API
 description: 
 published: true
-date: 2020-02-26T08:23:46.941Z
+date: 2020-02-26T08:43:06.441Z
 tags: 
 ---
+
+Currently, xEdit supports only the "Old API." The "New API" is not yet available, but at some point, the Old API will be replaced. Implementations of the following solutions are provided using both APIs to demonstrate how scripts will need to be updated.
 
 # Common Problems
 
 ## Access member of element in array of elements
 
-There are multiple ways to do this. Here are the two cleanest options:
+### Old API
 
-### Accessing member as IwbElement
 ```pascal
-for i := 0 to Pred(ElementCount(ScriptProperties)) do
+var
+	ScriptProperties : IInterface;
+	PropertyName : IInterface;
+	i : Integer;
 begin
-	kPropertyName := ElementByPath(ScriptProperties, '[' + IntToStr(i) + ']\propertyName');  // returns object of type IwbElement
-  // do something with kPropertyName
+  for i := 0 to Pred(ElementCount(ScriptProperties)) do
+  begin
+    PropertyName := ElementByPath(ScriptProperties, '[' + IntToStr(i) + ']\propertyName');  // returns object of type IwbElement
+    // do something with kPropertyName
+  end;
 end;
 ```
 
-### Accessing member as String
+### New API
+
 ```pascal
-for i := 0 to Pred(ElementCount(ScriptProperties)) do
+for var i := 0 to Pred(ScriptProperties.ElementCount) do
 begin
-	sPropertyName := GetElementEditValues(ScriptProperties, '[' + IntToStr(i) + ']\propertyName');  // returns object of type String
-  // do something with sPropertyName
+	var PropertyName := ScriptProperties.ElementByPath['[' + IntToStr(i) + ']\propertyName'];  // returns object of type IwbElement
+  // do something with PropertyName
 end;
 ```
 
 ## Iterate over array of elements
 
+### Old API
+
 ```pascal
-for i := 0 to Pred(ElementCount(FormIDs)) do
+var
+	FormIDs : IInterface;
+	LNAM : IInterface;
+	i : Integer;
 begin
-	LNAM := ElementByIndex(FormIDs, i);  // returns object of type IwbElement
+  for i := 0 to Pred(ElementCount(FormIDs)) do
+  begin
+    LNAM := ElementByIndex(FormIDs, i);  // returns object of type IwbElement
+    // do something with LNAM
+  end;
+end;
+```
+
+### New API
+
+```pascal
+for var i := 0 to Pred(FormIDs.ElementCount) do
+begin
+	var LNAM := FormIDs.Elements[i];  // returns object of type IwbElement
 	// do something with LNAM
 end;
 ```
 
 ## Iterate over Referenced By records
 
+### Old API
+
 ```pascal
-for i := 0 to Pred(ReferencedByCount(e)) do
+var
+	ByRef : IInterface;
+	i : Integer;
 begin
-	ByRef := ReferencedByIndex(e, i);  // returns object of type IwbMainRecord
+  for i := 0 to Pred(ReferencedByCount(e)) do
+  begin
+    ByRef := ReferencedByIndex(e, i);  // returns object of type IwbMainRecord
+    // do something with ByRef
+  end;
+end;
+```
+
+### New API
+
+```pascal
+for var i := 0 to Pred(e.ReferencedByCount) do
+begin
+	var ByRef := e.ReferencedBy[i];  // returns object of type IwbMainRecord
 	// do something with ByRef
 end;
 ```
 
 ## Get record assigned to element
 
+### Old API
+
 ```pascal
-RNAM := ElementBySignature(e, 'RNAM');
-LinkedRef := LinksTo(RNAM);  // returns object of type IwbMainRecord
+var
+	RNAM : IInterface;
+	LinkedRef : IInterface;
+begin
+  RNAM := ElementBySignature(e, 'RNAM');
+  LinkedRef := LinksTo(RNAM);  // returns object of type IwbMainRecord
+  // do something with LinkedRef
+end;
+```
+
+### New API
+
+```pascal
+var RNAM := e.ElementBySignature['RNAM'];
+var LinkedRef := RNAM.LinksTo;  // returns object of type IwbMainRecord
 // do something with LinkedRef
 ```
 
