@@ -2,13 +2,15 @@
 title: RPG Parameters
 description: 
 published: true
-date: 2020-02-27T07:04:32.542Z
+date: 2020-02-27T07:06:26.765Z
 tags: 
 ---
 
-# Kingdom Come v1.9.5
+Updated for Kingdom Come v1.9.5
 
-## Parameter Defaults - A
+# Parameter Defaults
+
+## A
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -81,7 +83,7 @@ Parameter Name | Default Value | Description
 `AverageArmorDefenseWeight` | `0.5` | 
 `AvidReaderReadingSpeed` | `0.35` | 
 
-## Parameter Defaults - B
+## B
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -111,7 +113,7 @@ Parameter Name | Default Value | Description
 `BowPowerToChargeDuration` | `0.1` | 
 `BundleAlchemistPerkAdd` | `1` | 
 
-## Parameter Defaults - C
+## C
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -203,7 +205,7 @@ Parameter Name | Default Value | Description
 `CorpseDisappearanceTimeUndiscovered` | `25` | 
 `CorpseDisapperanceMinDistanceFromPlayer` | `100` | 
 
-## Parameter Defaults - D
+## D
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -248,7 +250,7 @@ Parameter Name | Default Value | Description
 `DuringFaderHysteresis` | `1` | 
 `DuskTime` | `21` | 
 
-## Parameter Defaults - E
+## E
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -263,7 +265,7 @@ Parameter Name | Default Value | Description
 `ExhaustionSpeed` | `0.000578704` | 
 `ExtremeExhaustionFaintAveragePeriod` | `300` | 
 
-## Parameter Defaults - F
+## F
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -295,7 +297,7 @@ Parameter Name | Default Value | Description
 `FullClothDirtyingOnFullSpeed` | `4000` | 
 `FullClothDirtyingOnZeroSpeed` | `1` | 
 
-## Parameter Defaults - G
+## G
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -303,7 +305,7 @@ Parameter Name | Default Value | Description
 `GoodWeaponAttack` | `3.5` | 
 `GoodWeaponDefense` | `4.5` | 
 
-## Parameter Defaults - H
+## H
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -348,7 +350,7 @@ Parameter Name | Default Value | Description
 `HunterXPKill` | `15` | 
 `HunterXPLoot` | `10` | 
 
-## Parameter Defaults - I
+## I
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -378,7 +380,7 @@ Parameter Name | Default Value | Description
 `ItemOwnerNeverFadesToSuspiciency` | `10` | 
 `ItemOwnerRelationshipToSuspiciencyMin` | `0.1` | 
 
-## Parameter Defaults - J
+## J
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -386,7 +388,7 @@ Parameter Name | Default Value | Description
 `JailRecoveryDebuffMaxHours` | `240` | 
 `JumpCostBase` | `6` | 
 
-## Parameter Defaults - L
+## L
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -415,7 +417,7 @@ Parameter Name | Default Value | Description
 `LockPickingTurnBackMulCoef` | `5` | 
 `LowHealthThreshold` | `40` | 
 
-## Parameter Defaults - M
+## M
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -475,7 +477,7 @@ Parameter Name | Default Value | Description
 `MoraleDecisionReliability` | `0.15` | 
 `MoraleForCombat` | `0.2` | 
 
-## Parameter Defaults - N
+## N
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -484,7 +486,7 @@ Parameter Name | Default Value | Description
 `NonSkillBookXP` | `30` | 
 `NPCRepWeight` | `5` | 
 
-## Parameter Defaults - O
+## O
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -495,7 +497,7 @@ Parameter Name | Default Value | Description
 `OversleepnessEmptyTime` | `12` | 
 `OversleepnessFillTime` | `12` | 
 
-## Parameter Defaults - P
+## P
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -562,13 +564,13 @@ Parameter Name | Default Value | Description
 `PoorWeaponDefense` | `1` | 
 `ProjectileMaxBreakProb` | `0.7` | 
 
-## Parameter Defaults - Q
+## Q
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
 `QuestMoneyRewardScaleConstant` | `1.2` | 
 
-## Parameter Defaults - R
+## R
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -611,7 +613,7 @@ Parameter Name | Default Value | Description
 `RiderSkillToHorsePullDown` | `0.5` | 
 `RiderThreatToHorseMorale` | `0.1` | 
 
-## Parameter Defaults - S
+## S
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -720,7 +722,7 @@ Parameter Name | Default Value | Description
 `SurfaceToArmorLoadALWCoef` | `1` | 
 `SurfaceToArmorLoadTWCoef` | `0.15` | 
 
-## Parameter Defaults - T
+## T
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -730,7 +732,7 @@ Parameter Name | Default Value | Description
 `TreasureItemPrice` | `1000` | 
 `TrueRelationDistThresholdRel` | `0.333333` | 
 
-## Parameter Defaults - U
+## U
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -740,7 +742,7 @@ Parameter Name | Default Value | Description
 `UnconsciousDepthFadeoutSpeedBase` | `1` | 
 `UnconsciousTimeWhenTimeIsNotRunning` | `8` | 
 
-## Parameter Defaults - V
+## V
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -750,7 +752,7 @@ Parameter Name | Default Value | Description
 `VitalityXPLevelBase` | `20` | 
 `VitalityXPLevelDiff` | `30` | 
 
-## Parameter Defaults - W
+## W
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -758,7 +760,7 @@ Parameter Name | Default Value | Description
 `WeaponDefenseToAttackingWeaponStatus` | `0.01` | 
 `WeaponStatusToAttackCoef` | `0.5` | 
 
-## Parameters Removed Since Previous Versions
+# Parameters Removed Since Previous Versions
 
 These parameters have `nil` default values, which may suggest they are no longer valid parameters.
 
