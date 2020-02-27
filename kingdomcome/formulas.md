@@ -2,7 +2,7 @@
 title: Known Formulas
 description: 
 published: true
-date: 2020-02-27T08:18:19.365Z
+date: 2020-02-27T08:36:11.913Z
 tags: 
 ---
 
@@ -10,28 +10,30 @@ For the default values of RPG parameters, refer to the [RPG Parameters](https://
 
 # Gameplay
 
-## Amount of dirty add
-
-```lua
-dirtAdded = DerivStat_ClothDirtyingSpeedKm * distanceTraveled / 1000
-```
-
 ## Speed of dirt accumulation
 
+This is the formula for the derived stat `DerivStat_ClothDirtyingSpeedKm`.
+
 ```lua
-DerivStat_ClothDirtyingSpeedKm =
-	1000 / lerp(RPG.FullClothDirtyingOnZeroSpeed, RPG.FullClothDirtyingOnFullSpeed, surface.movementSpeedMult)
+return 1000 / lerp(RPG.FullClothDirtyingOnZeroSpeed, RPG.FullClothDirtyingOnFullSpeed, surface.movementSpeedMult)
 ```
 
 **Note:** `surface.movementSpeedMult` is defined in `gamedata.pak\Libs\MaterialEffects\SurfaceTypes.xml`.
 
+## Amount of dirt to accumulate
+
+```lua
+return DerivStat_ClothDirtyingSpeedKm * distanceTraveled / 1000
+```
+
 ## Perk points per stat/skill
 
 ```lua
-perkPointCount = min(
-	(perkCount <= RPG.MinPerkPoints ? perkCount : perkCount - RPG.MinLeftoverPerks),
-  RPG.MaxPerkPoints
-)
+if perkCount <= RPG.MinPerkPoints then
+	return min(perkCount, RPG.MaxPerkPoints)
+end
+
+return min(perkCount - RPG.MinLeftoverPerks, RPG.MaxPerkPoints)
 ```
 
 # Herbalism
@@ -39,36 +41,60 @@ perkPointCount = min(
 ## Amount of collected herbs
 
 ```lua
-numOfHerbs = RPG.HerbGatherSkillToCount * sqrt(skillLevel)
+return RPG.HerbGatherSkillToCount * sqrt(skillLevel)
 ```
 
 ## Radius of herb collection
 
 ```lua
-radius = RPG.HerbGatherSkillToRadius * skillLevel
+return RPG.HerbGatherSkillToRadius * skillLevel
 ```
 
 # Lockpicking
 
 ## Lockpicking tolerance
 
+Tolerance is unrelated to minigame difficulty. If `computedTolerance > appropriateTolerance`, the lock is considered too hard to pick and the minigame will not start. Since 2018, the game displays a "too hard to pick" notification when this condition is `true`.
+
 ```lua
-computedTolerance = 
-	RPG.LockPickingToleranceMCoef
-	- (RPG.LockPickingToleranceNCoef * difficultyModifier) 
-	- ((RPG.LockPickingToleranceACoef * e) ^ (-RPG.LockPickingToleranceKCoef * skill))
+M = RPG.LockPickingToleranceMCoef
+N = RPG.LockPickingToleranceNCoef
+A = RPG.LockPickingToleranceACoef
+K = RPG.LockPickingToleranceKCoef
+
+computedTolerance = M - N * difficultyModifier - A * e ^ (-K * skill)
+
+-- clamp computed tolerance between 0 and 1
+if computedTolerance < 0 then
+	return 0
+end
+
+if computedTolerance > 1 then
+	return 1
+end
+
+return computedTolerance
 ```
+
+**Note:** The computed tolerance is clamped between 0 and 1.
 
 ## XP reward for picking locks
 
 ```lua
-XP = RPG.LockPickingSuccessXPMulCoef * (lockDifficulty + 1) / (RPG.LockPickingSuccessXPDivCoef * skillLevel + 1)
+XPMulCoef = RPG.LockPickingSuccessXPMulCoef
+XPDivCoef = RPG.LockPickingSuccessXPDivCoef
+
+return XPMulCoef * (lockDifficulty + 1) / (XPDivCoef * skillLevel + 1)
 ```
 
 ## Stealth XP reward for picking locks
 
 ```lua
-XP = bWasLockPicked ? RPG.LockPickingStealthXP : nil
+if bWasLockedPicked then
+	return RPG.LockPickingStealthXP
+end
+
+return nil
 ```
 
 # Well Worn Perk
@@ -76,5 +102,5 @@ XP = bWasLockPicked ? RPG.LockPickingStealthXP : nil
 ## Equipment weight after reduction
 
 ```lua
-equippedWeight = standardWeight * (1.0 - RPG.EquippedWeightSubWithWellWornPerk)
+return standardWeight * (1.0 - RPG.EquippedWeightSubWithWellWornPerk)
 ```
