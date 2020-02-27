@@ -2,7 +2,7 @@
 title: Known Formulas
 description: 
 published: true
-date: 2020-02-27T08:15:24.294Z
+date: 2020-02-27T08:17:12.090Z
 tags: 
 ---
 
@@ -10,13 +10,13 @@ For the default values of RPG parameters, refer to the [RPG Parameters](https://
 
 # Gameplay
 
-## Dirt Added
+## Amount of dirty add
 
 ```lua
 dirtAdded = DerivStat_ClothDirtyingSpeedKm * distanceTraveled / 1000
 ```
 
-## Cloth Dirtying Speed
+## Speed of dirt accumulation
 
 ```lua
 DerivStat_ClothDirtyingSpeedKm =
@@ -25,7 +25,7 @@ DerivStat_ClothDirtyingSpeedKm =
 
 **Note:** `surface.movementSpeedMult` is defined in `gamedata.pak\Libs\MaterialEffects\SurfaceTypes.xml`.
 
-## Perk Points per Stat/Skill
+## Perk points per stat/skill
 
 ```lua
 perkPointCount = min(
@@ -36,13 +36,13 @@ perkPointCount = min(
 
 # Herbalism
 
-## Number of Collected Herbs
+## Amount of collected herbs
 
 ```lua
 numOfHerbs = RPG.HerbGatherSkillToCount * sqrt(skillLevel)
 ```
 
-## Radius of Herb Collection
+## Radius of herb collection
 
 ```lua
 radius = RPG.HerbGatherSkillToRadius * skillLevel
@@ -50,7 +50,7 @@ radius = RPG.HerbGatherSkillToRadius * skillLevel
 
 # Lockpicking
 
-## Lockpicking Tolerance
+## Lockpicking tolerance
 
 ```lua
 computedTolerance = 
@@ -59,13 +59,13 @@ computedTolerance =
 	- ((LockPickingToleranceACoef * e) ^ (-LockPickingToleranceKCoef * skill))
 ```
 
-## XP Reward for Picking Locks
+## XP reward for picking locks
 
 ```lua
 XP = RPG.LockPickingSuccessXPMulCoef * (lockDifficulty + 1) / (RPG.LockPickingSuccessXPDivCoef * skillLevel + 1)
 ```
 
-## Stealth XP Reward for Picking Locks
+## Stealth XP reward for picking locks
 
 ```lua
 XP = bWasLockPicked ? RPG.LockPickingStealthXP : nil
@@ -73,7 +73,7 @@ XP = bWasLockPicked ? RPG.LockPickingStealthXP : nil
 
 # Well Worn Perk
 
-## Weight Reduction
+## Equipment weight after reduction
 
 ```lua
 equippedWeight = standardWeight * (1.0 - RPG.EquippedWeightSubWithWellWornPerk)
