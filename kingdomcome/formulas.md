@@ -2,7 +2,7 @@
 title: Known Formulas
 description: 
 published: true
-date: 2020-02-27T08:37:46.683Z
+date: 2020-02-27T08:40:35.413Z
 tags: 
 ---
 
@@ -36,7 +36,7 @@ end
 return min(perkCount - RPG.MinLeftoverPerks, RPG.MaxPerkPoints)
 ```
 
-# Herbalism
+# Herbalism Skill
 
 ## Amount of collected herbs
 
@@ -50,7 +50,7 @@ return RPG.HerbGatherSkillToCount * sqrt(skillLevel)
 return RPG.HerbGatherSkillToRadius * skillLevel
 ```
 
-# Lockpicking
+# Lockpicking Skill
 
 ## Lockpicking tolerance
 
