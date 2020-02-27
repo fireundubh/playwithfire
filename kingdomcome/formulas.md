@@ -2,12 +2,13 @@
 title: Known Formulas
 description: 
 published: true
-date: 2020-01-19T16:49:30.597Z
+date: 2020-02-27T07:46:20.416Z
 tags: 
 ---
 
 Category| Description | Formula
 --- | --- | ---
+Gameplay | MNAK coefficient | `M - N * difficultyModifier - A * e ^ (-K * skill)`
 Gameplay | Dirt added | `dirtAdded = DerivStat_ClothDirtyingSpeedKm * distanceTraveled / 1000`
 Gameplay | DerivStat_ClothDirtyingSpeedKm | `DerivStat_ClothDirtyingSpeedKm = 1000 / lerp(FullClothDirtyingOnZeroSpeed, FullClothDirtyingOnFullSpeed, surface.movementSpeedMult)`
 Gameplay | Perk points per stat/skill | `perkPointCount = min((perkCount <= RPG.MinPerkPoints ? perkCount : perkCount - RPG.MinLeftoverPerks), RPG.MaxPerkPoints)`
