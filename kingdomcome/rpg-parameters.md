@@ -2,11 +2,13 @@
 title: RPG Parameters
 description: 
 published: true
-date: 2020-02-27T06:54:10.118Z
+date: 2020-02-27T06:59:13.270Z
 tags: 
 ---
 
 # Kingdom Come v1.9.5
+
+## Parameter Defaults
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -42,7 +44,6 @@ AlcoholismDuration | 500000 |
 AlcoholismMaxSkillLevelThreshold | 1000 | 
 AlcoholismRemoveSpeed | 0.001 | 
 AlcoholismThreshold | 700 | 
-AlcoholismTickInterval | nil | 
 AlcoholMaxAGIEffect | 2 | 
 AlcoholMaxCHAEffect | 2 | 
 AlcoholMaxCONEffect | 3 | 
@@ -57,7 +58,6 @@ AlcoholPerkCorrectResistanceModif | 0.5 |
 AlcoholPerkDrunkHangoverDurationMod | 2 | 
 AlcoholPerkDrunkMoodRangeMod | 2 | 
 AlcoholPerkLooseTongueSpcCha | 1 | 
-AlcoholPerkLooseTongueSpcChaModif | nil | 
 AlcoholPerkTrueSlavHangoverDurationMod | 0.5 | 
 AlcoholPerkTrueSlavMaxAlcoholMod | 0.5 | 
 AlcoholPerkWrongResistanceModif | 2 | 
@@ -112,7 +112,6 @@ CarriedBodyWeightCoef | 0.25 |
 CarriedCarriedWeightCoef | 0.5 | 
 CharismaDiffToSkillCheckResult | 0.3 | 
 CharismaMulOnExtremeExhaustion | 0.75 | 
-CharismaMulOnExtremeExhaustionInterpolation | nil | 
 ClassCourageMoraleWeight | 0 | 
 ClinchBackOffDmgRWeight | 0.05 | 
 ClinchBackOffSkillWeight | 0.1 | 
@@ -203,7 +202,6 @@ DefaultStateDeltaSpeed | 1 |
 DefaultVisVolume | 0.03 | 
 DefaultWorldTimeRatio | 15 | 
 DigestionSpeed | 0.000578704 | 
-DistanceCheckInterval | nil | 
 DmgRToHealthCoefA | 3 | 
 DmgRToHealthCoefB | 1.6 | 
 DogCommandMoraleThreshold | 0.15 | 
@@ -266,7 +264,6 @@ FoodPoisoningThreshold | 0.0005 |
 FoodPreserverDecayModif | 0.5 | 
 FoodPreserverHealthIncreaseAmount | 0.5 | 
 FoodSaltOrSmokePerkDecayModif | 0.75 | 
-FoodTickInterval | nil | 
 FoodWitcherPerkNutritionModif | 0.7 | 
 ForcedFireAimSpreadMalus | 7 | 
 FromBehindAngle | 2.35619 | 
@@ -317,9 +314,7 @@ HunterXPKill | 15 |
 HunterXPLoot | 10 | 
 ImmortalHealthMin | 1 | 
 ImprovedSleepMultiplier | 2 | 
-ImprovedSleepMultiplierSurvival | nil | 
 InactiveTimeToDestroyOversleep | 8 | 
-InactiveTimeToDestroyOversleepCreated | nil | 
 IndulgenceBasePrice | 200 | 
 IndulgenceMinCumulativeReputationImprovement | 0.5 | 
 InfoTextNotificationCooldown | 30 | 
@@ -505,8 +500,6 @@ RangedWpnPowerConstA | 1.85 |
 RangedWpnPwrToSpeed | 1 | 
 RangedWpnSelfHarmCoef | 15 | 
 RangedWpnSpeedToAttack | 0.012 | 
-ReadingRestEffectiveness | nil | 
-ReadingRestUpperLimit | nil | 
 ReadingXpPerHour | 20 | 
 RecognitionSpeedNotVisible | -0.5 | 
 RecognitionTimeDistanceGain | 0.1 | 
@@ -645,16 +638,13 @@ ThreatenStrenghtWeight | 0.5 |
 ThunderstormBuffRainIntensity | 0.3 | 
 TimeBasedAchievementTRCompliantProlongation | 1 | 
 TreasureItemPrice | 1000 | 
-TreasureItemPricee | nil | 
 TrueRelationDistThresholdRel | 0.333333 | 
-UnarmedAttackBase | nil | 
 UnarmedAttackReqStrBase | 2 | 
 UnarmedBlockDefense | 3 | 
 UnarmedHitArmorDamageCoef | 0.25 | 
 UnconsciousDepthFadeoutSpeedBase | 1 | 
 UnconsciousTimeWhenTimeIsNotRunning | 8 | 
 VigourFull | 100 | 
-VigourTickInterval | nil | 
 VisionToViewRadius | 2 | 
 VitalityToUnconsciousDepthFadeoutSpeed | 1 | 
 VitalityXPLevelBase | 20 | 
@@ -662,3 +652,20 @@ VitalityXPLevelDiff | 30 |
 WeakBlockStamCoef | 2 | 
 WeaponDefenseToAttackingWeaponStatus | 0.01 | 
 WeaponStatusToAttackCoef | 0.5 | 
+
+## Parameters Removed Since Previous Versions
+
+These parameters have `nil` default values, which may suggest they are no longer valid parameters.
+
+- `AlcoholismTickInterval`
+- `AlcoholPerkLooseTongueSpcChaModif`
+- `CharismaMulOnExtremeExhaustionInterpolation`
+- `DistanceCheckInterval`
+- `FoodTickInterval`
+- `ImprovedSleepMultiplierSurvival`
+- `InactiveTimeToDestroyOversleepCreated`
+- `ReadingRestEffectiveness`
+- `ReadingRestUpperLimit`
+- `TreasureItemPricee`
+- `UnarmedAttackBase`
+- `VigourTickInterval`
