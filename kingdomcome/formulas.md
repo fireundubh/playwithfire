@@ -2,7 +2,7 @@
 title: Known Formulas
 description: 
 published: true
-date: 2020-02-27T08:17:12.090Z
+date: 2020-02-27T08:17:43.089Z
 tags: 
 ---
 
@@ -54,9 +54,9 @@ radius = RPG.HerbGatherSkillToRadius * skillLevel
 
 ```lua
 computedTolerance = 
-	LockPickingToleranceMCoef
-	- (LockPickingToleranceNCoef * difficultyModifier) 
-	- ((LockPickingToleranceACoef * e) ^ (-LockPickingToleranceKCoef * skill))
+	RPG.LockPickingToleranceMCoef
+	- (RPG.LockPickingToleranceNCoef * difficultyModifier) 
+	- ((RPG.LockPickingToleranceACoef * e) ^ (-RPG.LockPickingToleranceKCoef * skill))
 ```
 
 ## XP reward for picking locks
