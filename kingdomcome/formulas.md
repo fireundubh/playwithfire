@@ -2,7 +2,7 @@
 title: Known Formulas
 description: 
 published: true
-date: 2020-02-27T08:17:43.089Z
+date: 2020-02-27T08:18:19.365Z
 tags: 
 ---
 
@@ -20,7 +20,7 @@ dirtAdded = DerivStat_ClothDirtyingSpeedKm * distanceTraveled / 1000
 
 ```lua
 DerivStat_ClothDirtyingSpeedKm =
-	1000 / lerp(FullClothDirtyingOnZeroSpeed, FullClothDirtyingOnFullSpeed, surface.movementSpeedMult)
+	1000 / lerp(RPG.FullClothDirtyingOnZeroSpeed, RPG.FullClothDirtyingOnFullSpeed, surface.movementSpeedMult)
 ```
 
 **Note:** `surface.movementSpeedMult` is defined in `gamedata.pak\Libs\MaterialEffects\SurfaceTypes.xml`.
