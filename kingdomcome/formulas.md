@@ -2,7 +2,7 @@
 title: Known Formulas
 description: 
 published: true
-date: 2020-02-27T08:36:11.913Z
+date: 2020-02-27T08:37:46.683Z
 tags: 
 ---
 
@@ -54,7 +54,7 @@ return RPG.HerbGatherSkillToRadius * skillLevel
 
 ## Lockpicking tolerance
 
-Tolerance is unrelated to minigame difficulty. If `computedTolerance > appropriateTolerance`, the lock is considered too hard to pick and the minigame will not start. Since 2018, the game displays a "too hard to pick" notification when this condition is `true`.
+Tolerance is unrelated to minigame difficulty. If `computedTolerance > appropriateTolerance`, the lock is considered too hard to pick and the minigame will not start. Since 2018, the game displays a "too hard to pick" notification when this condition is `true`. If the values of `RPG.LockPickingAppropriateTolerance` and/or `RPG.ControllerLockPickingAppropriateTolerance` are negative, this condition will always be `false`, allowing the player to start the minigame for locks beyond the player's skill level.
 
 ```lua
 M = RPG.LockPickingToleranceMCoef
