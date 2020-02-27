@@ -2,13 +2,13 @@
 title: RPG Parameters
 description: 
 published: true
-date: 2020-02-27T07:01:01.571Z
+date: 2020-02-27T07:04:32.542Z
 tags: 
 ---
 
 # Kingdom Come v1.9.5
 
-## Parameter Defaults
+## Parameter Defaults - A
 
 Parameter Name | Default Value | Description 
 :--- | :--- | :---
@@ -80,6 +80,11 @@ Parameter Name | Default Value | Description
 `AttStrengthToHorsePullDown` | `0.5` | 
 `AverageArmorDefenseWeight` | `0.5` | 
 `AvidReaderReadingSpeed` | `0.35` | 
+
+## Parameter Defaults - B
+
+Parameter Name | Default Value | Description 
+:--- | :--- | :---
 `BadassnessDiffToSkillCheckResult` | `2` | 
 `BarterAngrynessCoefWeightA` | `1` | 
 `BarterAngrynessCoefWeightB` | `0.7` | 
@@ -105,6 +110,11 @@ Parameter Name | Default Value | Description
 `BowChargeDurationMin` | `1.35` | 
 `BowPowerToChargeDuration` | `0.1` | 
 `BundleAlchemistPerkAdd` | `1` | 
+
+## Parameter Defaults - C
+
+Parameter Name | Default Value | Description 
+:--- | :--- | :---
 `CaffeineFromFoodCoef` | `2` | 
 `CaffeineFullThreshold` | `0.9` | 
 `CarriedBodyMaxStamConsumption` | `10` | 
@@ -192,6 +202,11 @@ Parameter Name | Default Value | Description
 `CorpseDisappearanceTimeDiscovered` | `5` | 
 `CorpseDisappearanceTimeUndiscovered` | `25` | 
 `CorpseDisapperanceMinDistanceFromPlayer` | `100` | 
+
+## Parameter Defaults - D
+
+Parameter Name | Default Value | Description 
+:--- | :--- | :---
 `DamageToArmorStatus` | `1` | 
 `DamageToArmorStatusHigherLayers` | `2` | 
 `DamageToArmorStatusLowerLayers` | `0.5` | 
@@ -232,6 +247,11 @@ Parameter Name | Default Value | Description
 `DogTargetSearchRadiusMin` | `15` | 
 `DuringFaderHysteresis` | `1` | 
 `DuskTime` | `21` | 
+
+## Parameter Defaults - E
+
+Parameter Name | Default Value | Description 
+:--- | :--- | :---
 `EncumberanceForSecondaryModifiers` | `0.5` | 
 `EncumberedToSpeedSurfaceCoef` | `0.3` | 
 `EquippedWeightSubWithWellWornPerk` | `0.333333` | 
@@ -242,6 +262,11 @@ Parameter Name | Default Value | Description
 `ExhaustedThreshold` | `50` | 
 `ExhaustionSpeed` | `0.000578704` | 
 `ExtremeExhaustionFaintAveragePeriod` | `300` | 
+
+## Parameter Defaults - F
+
+Parameter Name | Default Value | Description 
+:--- | :--- | :---
 `FactionAngrinessDecayBase` | `2` | 
 `FactionAngrinessDecayExp` | `2` | 
 `FactionAngrinessDecayMod` | `2e-05` | 
@@ -269,9 +294,19 @@ Parameter Name | Default Value | Description
 `FromBehindAngle` | `2.35619` | 
 `FullClothDirtyingOnFullSpeed` | `4000` | 
 `FullClothDirtyingOnZeroSpeed` | `1` | 
+
+## Parameter Defaults - G
+
+Parameter Name | Default Value | Description 
+:--- | :--- | :---
 `GoodArmorDefense` | `2` | 
 `GoodWeaponAttack` | `3.5` | 
 `GoodWeaponDefense` | `4.5` | 
+
+## Parameter Defaults - H
+
+Parameter Name | Default Value | Description 
+:--- | :--- | :---
 `HarmlessFallHeight` | `1` | 
 `HeadHitKnockOutBaseProbability` | `0` | 
 `HealthDamageToInjury` | `0.03` | 
@@ -312,6 +347,11 @@ Parameter Name | Default Value | Description
 `HunterLootAmountAddCoef` | `0.3` | 
 `HunterXPKill` | `15` | 
 `HunterXPLoot` | `10` | 
+
+## Parameter Defaults - I
+
+Parameter Name | Default Value | Description 
+:--- | :--- | :---
 `ImmortalHealthMin` | `1` | 
 `ImprovedSleepMultiplier` | `2` | 
 `InactiveTimeToDestroyOversleep` | `8` | 
@@ -337,9 +377,19 @@ Parameter Name | Default Value | Description
 `ItemOwnerIsShopkeeperToSuspiciency` | `8` | 
 `ItemOwnerNeverFadesToSuspiciency` | `10` | 
 `ItemOwnerRelationshipToSuspiciencyMin` | `0.1` | 
+
+## Parameter Defaults - J
+
+Parameter Name | Default Value | Description 
+:--- | :--- | :---
 `JailRecoveryDebuffDurationMultiplier` | `0.2` | 
 `JailRecoveryDebuffMaxHours` | `240` | 
 `JumpCostBase` | `6` | 
+
+## Parameter Defaults - L
+
+Parameter Name | Default Value | Description 
+:--- | :--- | :---
 `LethalDmgR` | `10` | 
 `LocalHeroInfamousReputationThreshold` | `0.7` | 
 `LocationReputationHatedThreshold` | `0.2` | 
@@ -364,6 +414,11 @@ Parameter Name | Default Value | Description
 `LockPickingTurnBackDivCoef` | `0.1` | 
 `LockPickingTurnBackMulCoef` | `5` | 
 `LowHealthThreshold` | `40` | 
+
+## Parameter Defaults - M
+
+Parameter Name | Default Value | Description 
+:--- | :--- | :---
 `MatPierceableMaxArmor` | `10` | 
 `MatPierceableMin` | `6` | 
 `MaxAggregatedItemAmountPerPotion` | `5` | 
@@ -419,16 +474,31 @@ Parameter Name | Default Value | Description
 `MoraleContextFadingSpeed` | `0.05` | 
 `MoraleDecisionReliability` | `0.15` | 
 `MoraleForCombat` | `0.2` | 
+
+## Parameter Defaults - N
+
+Parameter Name | Default Value | Description 
+:--- | :--- | :---
 `NightCoefToNoise` | `0.2` | 
 `NightCoefToVis` | `-0.5` | 
 `NonSkillBookXP` | `30` | 
 `NPCRepWeight` | `5` | 
+
+## Parameter Defaults - O
+
+Parameter Name | Default Value | Description 
+:--- | :--- | :---
 `OverallArmorDefenseMoraleWeight` | `3` | 
 `OverallWeaponAttackMoraleWeight` | `3` | 
 `OverreadnessEmptyTime` | `16` | 
 `OverreadnessFillTime` | `8` | 
 `OversleepnessEmptyTime` | `12` | 
 `OversleepnessFillTime` | `12` | 
+
+## Parameter Defaults - P
+
+Parameter Name | Default Value | Description 
+:--- | :--- | :---
 `PerceivedSuperfactionImportanceThresholdRel` | `0.333333` | 
 `PerceptionBaseCha` | `10` | 
 `PerceptionMaxFov` | `180` | 
@@ -491,7 +561,17 @@ Parameter Name | Default Value | Description
 `PickpocketingXP` | `15` | 
 `PoorWeaponDefense` | `1` | 
 `ProjectileMaxBreakProb` | `0.7` | 
+
+## Parameter Defaults - Q
+
+Parameter Name | Default Value | Description 
+:--- | :--- | :---
 `QuestMoneyRewardScaleConstant` | `1.2` | 
+
+## Parameter Defaults - R
+
+Parameter Name | Default Value | Description 
+:--- | :--- | :---
 `RangedWpnCosThetaToAttackMin` | `0.7` | 
 `RangedWpnMinPowerCoef` | `0.1` | 
 `RangedWpnMinStrCoef` | `0.5` | 
@@ -530,6 +610,11 @@ Parameter Name | Default Value | Description
 `RiderHorseStaminaCoef` | `0.25` | 
 `RiderSkillToHorsePullDown` | `0.5` | 
 `RiderThreatToHorseMorale` | `0.1` | 
+
+## Parameter Defaults - S
+
+Parameter Name | Default Value | Description 
+:--- | :--- | :---
 `SecondaryStatXPRatio` | `0.5` | 
 `SharpeningFullNegativeHealthXP` | `20` | 
 `SharpeningFullPositiveHealthXP` | `100` | 
@@ -634,21 +719,41 @@ Parameter Name | Default Value | Description
 `SuperWeaponDefense` | `20` | 
 `SurfaceToArmorLoadALWCoef` | `1` | 
 `SurfaceToArmorLoadTWCoef` | `0.15` | 
+
+## Parameter Defaults - T
+
+Parameter Name | Default Value | Description 
+:--- | :--- | :---
 `ThreatenStrenghtWeight` | `0.5` | 
 `ThunderstormBuffRainIntensity` | `0.3` | 
 `TimeBasedAchievementTRCompliantProlongation` | `1` | 
 `TreasureItemPrice` | `1000` | 
 `TrueRelationDistThresholdRel` | `0.333333` | 
+
+## Parameter Defaults - U
+
+Parameter Name | Default Value | Description 
+:--- | :--- | :---
 `UnarmedAttackReqStrBase` | `2` | 
 `UnarmedBlockDefense` | `3` | 
 `UnarmedHitArmorDamageCoef` | `0.25` | 
 `UnconsciousDepthFadeoutSpeedBase` | `1` | 
 `UnconsciousTimeWhenTimeIsNotRunning` | `8` | 
+
+## Parameter Defaults - V
+
+Parameter Name | Default Value | Description 
+:--- | :--- | :---
 `VigourFull` | `100` | 
 `VisionToViewRadius` | `2` | 
 `VitalityToUnconsciousDepthFadeoutSpeed` | `1` | 
 `VitalityXPLevelBase` | `20` | 
 `VitalityXPLevelDiff` | `30` | 
+
+## Parameter Defaults - W
+
+Parameter Name | Default Value | Description 
+:--- | :--- | :---
 `WeakBlockStamCoef` | `2` | 
 `WeaponDefenseToAttackingWeaponStatus` | `0.01` | 
 `WeaponStatusToAttackCoef` | `0.5` | 
