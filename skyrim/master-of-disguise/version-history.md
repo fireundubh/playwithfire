@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-03-03T23:54:18.153Z
+date: 2020-03-03T23:54:39.531Z
 tags: 
 ---
 
@@ -12,9 +12,9 @@ tags:
 
 After this list of unimplemented changes is complete, they will be recorded properly and the next version will be released.
 
-- [ ] When the player equips or unequips a disguise, the player should be prompted instead of notified. We want to avoid players being confused about when they're disguised; notifications may not call enough attention to themselves.
-- [ ] The player should be able to choose whether to see notifications or prompts, but prompts will be the new default.
-- [ ] The player should be prompted when the initial faction relationships update has started and when that update has completed. We want to signal to the player when the disguise mechanic is ready. Currently, the update is silent, and if the player tries to use disguises during the update process, factions may not be updated and disguises will not behave as expected.
+- When the player equips or unequips a disguise, the player should be prompted instead of notified. We want to avoid players being confused about when they're disguised; notifications may not call enough attention to themselves.
+- The player should be able to choose whether to see notifications or prompts, but prompts will be the new default.
+- The player should be prompted when the initial faction relationships update has started and when that update has completed. We want to signal to the player when the disguise mechanic is ready. Currently, the update is silent, and if the player tries to use disguises during the update process, factions may not be updated and disguises will not behave as expected.
 
 ## Requirements Changes
 
