@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-01-31T01:33:29.539Z
+date: 2020-03-03T22:12:56.163Z
 tags: 
 ---
 
@@ -24,6 +24,9 @@ tags:
 
 ## Fixes
 
+- Fixed issue where hair and circlet scores could be counted incorrectly
+- Fixed issue where more than one disguise could be enabled at a time
+- Fixed issue where equipping/unequipping disguises while in combat could produce out-of-sync behavior
 - Fixed issue where faction relationships could not be changed by plugin if they were baked into saves
 - Fixed issue where some default values were incorrect which trivialized avoiding discovery
 - Fixed issue where equipping disguises before tutorial chain completed could repeat tutorial messages
