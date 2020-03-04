@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-03-04T04:56:18.623Z
+date: 2020-03-04T04:56:42.099Z
 tags: 
 ---
 
@@ -16,7 +16,7 @@ tags:
 ## Major Changes
 
 - When changing disguises, those disguises will activate in significantly less time than previous versions.
-- When starting a new game or loading a save, faction relationships will automatically update. The "faction relationships overhaul," which had no effect for the vast majority of players but caused Civil War issues for some has been removed.
+- When starting a new game or loading a save, faction relationships will automatically update. The "faction relationships overhaul," which caused Civil War issues for some players, has been removed.
 - By default, changing disguises will show faction notifications as message boxes. The display mode can be toggled in Advanced settings.
 - By default, the Bandit disguise is disabled. The disguise can be toggled in Crime settings.
 - By default, the Vampire disguise day/night restrictions are disabled. This feature can be toggled in Discovery settings.
