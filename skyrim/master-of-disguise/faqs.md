@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2020-03-04T07:15:24.366Z
+date: 2020-03-04T07:16:57.388Z
 tags: 
 ---
 
@@ -27,9 +27,9 @@ Papyrus logging must be enabled at the INI level for log messages to be saved to
 
 I recommend disabling Papyrus logging at the INI level after retrieving the necessary information.
 
-The Papyrus logger CANNOT help you solve crashes. When the game crashes, the logger crashes, too. The Papyrus log is not a crash dump and the game does not produce crash dumps.
+The Papyrus logger CANNOT help you solve crashes. When the game crashes, the logger crashes, too.
 
-Also, the logger may be detrimental to the stability and performance of the game. Enable the Papyrus logger only when you need to debug scripts or produce logs that can help mod authors investigate issues.
+Most experienced mod authors recommend that you disable logging when it is not needed because the logger can be detrimental to the stability and performance of the game. Enable the Papyrus logger only when you need to debug scripts or produce logs that can help mod authors investigate issues.
 
 
 ## Where can I find the logs?
