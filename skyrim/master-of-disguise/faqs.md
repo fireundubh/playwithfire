@@ -2,15 +2,15 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2020-02-17T01:27:14.917Z
+date: 2020-03-04T07:12:41.764Z
 tags: 
 ---
 
 # Logging
 
-## Where can I find the logs?
+## How do I enable Papyrus logging?
 
-You have to enable Papyrus logging in `Skyrim.ini` before you enable disguise/faction/detection system logging.
+In `Skyrim.ini`, add or change this section match the following block:
 
 ```
 [Papyrus]
@@ -20,18 +20,32 @@ bEnableTrace=1
 bLoadDebugInformation=1
 ```
 
+Papyrus logging must be enabled at the INI level for log messages to be saved to disk.
+
+- If logging is not enabled at the INI level, you will not be able to view or share your logs.
+- If logging is disabled in the MCM menu, the mod will not produce any log messages.
+
+I recommend disabling Papyrus logging at the INI level after retrieving the necessary information.
+
+The Papyrus logger CANNOT help you solve crashes, which are not caused by scripts, and may, in fact, cause instability and other performance issues. Enable the Papyrus logger only when you need to debug scripts or produce logs that can help mod authors investigate issues.
+
+
+## Where can I find the logs?
+
 Papyrus logs are stored at:
 
-`%USERPROFILE%\Documents\My Games\Skyrim Special Edition\Logs\Script\Papyrus.0.log`
-
-Disable Papyrus logging after retrieving the necessary information. The Papyrus logger CANNOT help you solve crashes, which are not caused by scripts, and may, in fact, cause instability and other performance issues. Only enable the Papyrus logger when you need to debug scripts.
+```
+%USERPROFILE%\Documents\My Games\Skyrim Special Edition\Logs\Script\Papyrus.0.log
+```
 
 
 ## Where can I post my Papyrus log?
 
 Use [Hastebin](https://hastebin.com/), [Pastebin](https://pastebin.com/), or [GitHub Gists](https://gist.github.com/) to post your log.
 
-You can also upload your log in the `#masterofdisguise` channel on [my Discord server](https://discord.fireundubh.com). Please do not post only the log; include a description of the issue.
+You can upload your log in the `#masterofdisguise` channel on [my Discord server](https://discord.fireundubh.com). Please do not post only the log. To the best of your ability, explain the issue and articulate the behavior you expected.
+
+The log alone will not help me investigate and resolve your issue.
 
 
 # Extending Disguises
@@ -48,6 +62,7 @@ Every formlist is used, so if you are adding items, you need to add items to eve
 
 > **Note:** In the Classic or Legendary version of Master of Disguise, each disguise is comprised of only a single formlist.
 
+
 ### Example
 
 FormList | Description
@@ -62,6 +77,7 @@ FormList | Description
 `dubhDisguiseVampires_Slot_5_Feet` | Contains only items that are equipped in the Feet slot
 `dubhDisguiseVampires_Slot_6_Shield` | Contains only items that are equipped in the Shield slot
 `dubhDisguiseVampires_Slot_7_Circlet` | Contains only items that are equipped in the Circlet slot
+
 
 ## Slots
 
