@@ -2,9 +2,11 @@
 title: Master of Disguise
 description: 
 published: true
-date: 2020-03-04T06:57:55.337Z
+date: 2020-03-04T06:58:20.921Z
 tags: 
 ---
+
+> **More Information:** [Version History (SSE)](/en/skyrim/master-of-disguise/version-history) | [Frequently Asked Questions](/en/skyrim/master-of-disguise/faqs)
 
 # Overview
 
@@ -15,8 +17,6 @@ tags:
 * Wage war against new enemies, or fire the first shot.
 
 You are the Master of Disguise. What will you do?
-
-> **More Information:** [Version History (SSE)](/en/skyrim/master-of-disguise/version-history) | [Frequently Asked Questions](/en/skyrim/master-of-disguise/faqs)
 
 
 # Accolades
