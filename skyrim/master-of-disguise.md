@@ -2,7 +2,7 @@
 title: Master of Disguise
 description: 
 published: true
-date: 2020-03-04T06:15:51.974Z
+date: 2020-03-04T06:57:55.337Z
 tags: 
 ---
 
@@ -16,7 +16,7 @@ tags:
 
 You are the Master of Disguise. What will you do?
 
-> **More Information:** [Version History (SSE)](/skyrim/master-of-disguise/version-history) | [Frequently Asked Questions](/skyrim/master-of-disguise/faqs)
+> **More Information:** [Version History (SSE)](/en/skyrim/master-of-disguise/version-history) | [Frequently Asked Questions](/en/skyrim/master-of-disguise/faqs)
 
 
 # Accolades
