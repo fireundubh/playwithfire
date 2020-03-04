@@ -2,9 +2,17 @@
 title: Version History
 description: 
 published: true
-date: 2020-03-04T04:57:02.449Z
+date: 2020-03-04T23:07:55.154Z
 tags: 
 ---
+
+# Version 1.4.1
+
+- A setting has been added to the Advanced menu that allows you to disable automatic faction updates (i.e., Factions Update Auto Run.) After updating once, you can toggle this setting, save, and when loading that save, you will not see the update message box again.
+
+**Important:** If you later install mods that change faction relationships, or if faction NPCs are ignoring your disguise, you should re-enable this setting, save, and reload that save to update faction relations again.
+
+- Your Speech(craft) skill is now considered when calculating your skill score and its weight on the effectiveness of your disguise.
 
 # Version 1.4
 
