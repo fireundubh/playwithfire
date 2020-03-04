@@ -2,19 +2,11 @@
 title: Version History
 description: 
 published: true
-date: 2020-03-03T23:54:39.531Z
+date: 2020-03-04T04:56:18.623Z
 tags: 
 ---
 
-# Version 1.4 (Unreleased)
-
-## TODO
-
-After this list of unimplemented changes is complete, they will be recorded properly and the next version will be released.
-
-- When the player equips or unequips a disguise, the player should be prompted instead of notified. We want to avoid players being confused about when they're disguised; notifications may not call enough attention to themselves.
-- The player should be able to choose whether to see notifications or prompts, but prompts will be the new default.
-- The player should be prompted when the initial faction relationships update has started and when that update has completed. We want to signal to the player when the disguise mechanic is ready. Currently, the update is silent, and if the player tries to use disguises during the update process, factions may not be updated and disguises will not behave as expected.
+# Version 1.4
 
 ## Requirements Changes
 
@@ -23,12 +15,11 @@ After this list of unimplemented changes is complete, they will be recorded prop
 
 ## Major Changes
 
-- Significantly reduced time to activate disguises when changing equipment
-- Updated critical faction relationships programmatically when starting a new game or loading a save
-- Removed faction relationships overhaul, eliminating any need for the Joinable Factions Patch
-- Disabled Bandit Disguise by default
-- Disabled Vampire Disguise day/night restrictions by default
-- Added developer message to tutorial message chain
+- When changing disguises, those disguises will activate in significantly less time than previous versions.
+- When starting a new game or loading a save, faction relationships will automatically update. The "faction relationships overhaul," which had no effect for the vast majority of players but caused Civil War issues for some has been removed.
+- By default, changing disguises will show faction notifications as message boxes. The display mode can be toggled in Advanced settings.
+- By default, the Bandit disguise is disabled. The disguise can be toggled in Crime settings.
+- By default, the Vampire disguise day/night restrictions are disabled. This feature can be toggled in Discovery settings.
 
 ## Fixes
 
