@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2020-03-04T07:16:57.388Z
+date: 2020-03-04T07:18:07.937Z
 tags: 
 ---
 
@@ -29,7 +29,9 @@ I recommend disabling Papyrus logging at the INI level after retrieving the nece
 
 The Papyrus logger CANNOT help you solve crashes. When the game crashes, the logger crashes, too.
 
-Most experienced mod authors recommend that you disable logging when it is not needed because the logger can be detrimental to the stability and performance of the game. Enable the Papyrus logger only when you need to debug scripts or produce logs that can help mod authors investigate issues.
+Most experienced mod authors recommend that you disable logging when it is not needed because the logger can be detrimental to the stability and performance of the game. In fact, SmkViper — the creator of Papyrus at Bethesda Softworks — added a similar warning to the top of all Papyrus logs produced by Fallout 4.
+
+Enable the Papyrus logger only when you need to debug scripts or produce logs that can help mod authors investigate issues.
 
 
 ## Where can I find the logs?
