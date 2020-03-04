@@ -2,7 +2,7 @@
 title: Master of Disguise
 description: 
 published: true
-date: 2020-03-04T06:06:57.906Z
+date: 2020-03-04T06:12:27.496Z
 tags: 
 ---
 
@@ -31,8 +31,7 @@ You are the Master of Disguise. What will you do?
 
 # Requirements
 
-* Skyrim Special Edition
-* Unofficial Skyrim Special Edition Patch
+* Skyrim Special Edition v1.5.39
 * SkyUI and SKSE (only for SkyUI MCM support)
 
 # Avoiding Detection
@@ -168,6 +167,10 @@ _Only disguises with special base requirements are affected by the priority rule
 
 ## Bandit Disguises
 
+> This feature can be toggled from the SkyUI Mod Configuration Menu.
+
+> The slot checked when determining whether to activate this disguise can be changed in the Crime menu.
+
 The player can wear a bandit disguise comprised of:
 
 - Fur Armor
@@ -177,13 +180,11 @@ The player can wear a bandit disguise comprised of:
 
 All hold guards are hostile to bandits.
 
-This feature can be toggled from the SkyUI Mod Configuration Menu.
-
 ## Daedric Weapons and Armor
 
 > This feature can be toggled from the SkyUI Mod Configuration Menu.
 
-> "The Mercy of Stendarr does not extend to Daedra worshippers." — The Vigil of Stendarr
+"The Mercy of Stendarr does not extend to Daedra worshippers." — The Vigil of Stendarr
 
 When the player equips Daedric weapons or armor, Vigilants will attempt to drag the player into the light.
 
