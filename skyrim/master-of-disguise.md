@@ -2,7 +2,7 @@
 title: Master of Disguise
 description: 
 published: true
-date: 2020-03-04T06:12:27.496Z
+date: 2020-03-04T06:15:51.974Z
 tags: 
 ---
 
@@ -18,6 +18,7 @@ You are the Master of Disguise. What will you do?
 
 > **More Information:** [Version History (SSE)](/skyrim/master-of-disguise/version-history) | [Frequently Asked Questions](/skyrim/master-of-disguise/faqs)
 
+
 # Accolades
 
 * [Featured by GameSpot](http://www.gamespot.com/videos/top-5-skyrim-mods-of-the-week-become-the-master-of/2300-6423174/) ([@8:11](https://www.youtube.com/watch?v=QZxRm1EcbQ4&t=8m11s))
@@ -29,10 +30,12 @@ You are the Master of Disguise. What will you do?
 * #1 in Stealth on the Skyrim Nexus (pre-GitHub)
 * 9.7/10 on the Steam Workshop (pre-GitHub)
 
+
 # Requirements
 
 * Skyrim Special Edition v1.5.39
 * SkyUI and SKSE (only for SkyUI MCM support)
+
 
 # Avoiding Detection
 
@@ -65,6 +68,7 @@ Clear | Distorted | Peripheral
 * Originally, there were more penalties, as indicated in the graphic, but the gain did not justify the complexity.
 * Skill formula: `((fBestSkillContribMax x fSneakOrIllusionSkill) / 100.0) x fSkillPenalty`
 * Default Value: `fBestSkillContribMax = 50.0`
+
 
 # Rolling for Discovery
 
@@ -128,6 +132,7 @@ Disguises not only deceive members of the factions to whom the disguise belongs 
 
 In addition, faction NPCs engaged in combat with other NPCs, except companions, will not roll for discovery.
 
+
 # SkyUI Mod Configuration Menu
 
 Using the new SkyUI Mod Configuration Menu, the player can adjust nearly every aspect of the discovery system from within the game. The disguise and discovery systems can be toggled independently as well.
@@ -139,6 +144,7 @@ Using the new SkyUI Mod Configuration Menu, the player can adjust nearly every a
 ## Example: Crime Menu
 
 ![Crime Menu](https://camo.githubusercontent.com/b7fba3732f972e4e251858e4972cedf36d2673e5/687474703a2f2f692e696d6775722e636f6d2f4469537471424e2e6a7067)
+
 
 # How to Wear a Disguise
 
@@ -218,11 +224,11 @@ If that option is enabled, vampire disguises cannot be used during the day and w
 
 Wearing the Savior's Hide, a gift from Hircine, will signal to Werewolves that the player is favored and the player will not be attacked by Werewolves.
 
+
 # Compatibility
 
 ## Guidelines
 
-* Hard incompatibility with mods that alter faction relationships
 * Hard incompatibility with mods that add or remove the player from base factions
 * Hard incompatibility with mods that offer similar features
 * *New* faction equipment added by mods cannot be used as disguise equipment without patches.
@@ -235,6 +241,7 @@ Version | Mod | Reason
 LE | Armor Disguises | Breaks the game by adding and removing the player from base factions
 LE | Skyrim Redone (SkyRe) | Similar features but less featureful
 LE | PerMa | Similar features but less featureful
+
 
 # Uninstalling
 
