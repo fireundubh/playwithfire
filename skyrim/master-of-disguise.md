@@ -2,7 +2,7 @@
 title: Master of Disguise
 description: 
 published: true
-date: 2020-03-05T11:23:04.484Z
+date: 2020-03-05T11:48:10.949Z
 tags: 
 ---
 
@@ -165,9 +165,8 @@ _Items that satisfy these requirements can be found on members of the above fact
 
 ## Priority Rule
 
-When the player wears a disguise that shares components with another, the first disguise activated will remain activated but additional disguises will not. For example, the player cannot be favored by Hircine (friendly with werewolves) and a member of the Silver Hand by equipping the Savior's Hide and Ring of the Silver Hand.
+Only the first disguise equipped will be activated. You will need to unequip that disguise to switch to another.
 
-_Only disguises with special base requirements are affected by the priority rule._
 
 # Unique Disguise Behaviors
 
