@@ -2,7 +2,7 @@
 title: Master of Disguise
 description: 
 published: true
-date: 2020-03-05T11:48:10.949Z
+date: 2020-03-05T11:50:51.716Z
 tags: 
 ---
 
@@ -148,20 +148,16 @@ Using the new SkyUI Mod Configuration Menu, the player can adjust nearly every a
 
 # How to Wear a Disguise
 
-To wear most disguises, the player will need to equip faction armor in only the body slot. Some disguises have special base requirements. However, the disguise will be always more effective when complete.
+To wear most disguises, the player will need to equip faction armor in only the body slot. Some disguises have special requirements. However, the disguise will be always more effective when complete.
 
-## Faction Equipment
+## Special Requirements
 
-See: [Faction Equipment](/skyrim/master-of-disguise/equipment)
-
-## Special Base Requirements
+> **Tip:** Items that satisfy these requirements can be found on the respective faction members.
 
 * The player must wear the Ring of the Silver Hand to infiltrate the Silver Hand.
 * The player must wear the Vigilant's Amulet of Stendarr to infiltrate the Vigil of Stendarr.
 * The player must equip the Eastmarch Guard's Shield to infiltrate the Windhelm Guard. The Windhelm Guard wear regular Stormcloak uniforms and have only this shield to separate them.
 * Dragonborn: The player must wear the Cultist Mask to infiltrate Miraak's Cultists.
-
-_Items that satisfy these requirements can be found on members of the above factions._
 
 ## Priority Rule
 
