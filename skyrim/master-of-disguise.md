@@ -2,7 +2,7 @@
 title: Master of Disguise
 description: 
 published: true
-date: 2020-03-04T06:58:20.921Z
+date: 2020-03-05T11:23:04.484Z
 tags: 
 ---
 
@@ -66,13 +66,13 @@ Clear | Distorted | Peripheral
 * When rolling for discovery, the player's skill contribution to the dice roll is multiplied by a skill penalty determined by where the player was suspected in the cone of vision.
 * For example, if the player's adjusted skill score was 50, that score would be multiplied by 0.75, 0.8, or 0.85, so the effective skill score would be respectively 37.5, 40, or 42.5.
 * Originally, there were more penalties, as indicated in the graphic, but the gain did not justify the complexity.
-* Skill formula: `((fBestSkillContribMax x fSneakOrIllusionSkill) / 100.0) x fSkillPenalty`
+* Skill formula: `((fBestSkillContribMax x fSneakOrIllusionOrSpeechSkill) / 100.0) x fSkillPenalty`
 * Default Value: `fBestSkillContribMax = 50.0`
 
 
 # Rolling for Discovery
 
-The player's skill in Sneak or Illusion, behaviors, race, and disguise coverage are combined into a "identity score" that is rolled against a random number between 0 and 99. If the identity score is greater than the random number, the player wins the discovery roll and the NPC will not become hostile.
+The player's skill in Sneak, Illusion, or Speech, behaviors, race, and disguise coverage are combined into a "identity score" that is rolled against a random number between 0 and 99. If the identity score is greater than the random number, the player wins the discovery roll and the NPC will not become hostile.
 
 ## Racial Synergies
 
