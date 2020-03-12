@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2020-03-04T07:18:07.937Z
+date: 2020-03-12T04:40:18.991Z
 tags: 
 ---
 
@@ -10,7 +10,7 @@ tags:
 
 ## How do I enable Papyrus logging?
 
-In `Skyrim.ini`, add or change this section match the following block:
+In `Skyrim.ini`, add or change this section to match the following block:
 
 ```
 [Papyrus]
