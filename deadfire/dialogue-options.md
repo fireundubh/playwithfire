@@ -1,4 +1,11 @@
-<!-- TITLE: Deadfire Dialogue Options Report-->
+---
+title: Deadfire Dialogue Options Report
+description: 
+published: true
+date: 2020-03-16T00:59:04.122Z
+tags: 
+---
+
 # Dialogue Options Report
 ## Sections
 
