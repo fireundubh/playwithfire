@@ -2,9 +2,23 @@
 title: Version History
 description: 
 published: true
-date: 2020-03-04T23:08:47.772Z
+date: 2020-03-19T02:42:57.542Z
 tags: 
 ---
+
+# Version 1.4.2
+
+- You can disable automatic faction updates directly from the "Master of Disguise is ready" message box by clicking "Confirm and Disable Auto Update."
+
+> **Important:** As in v1.4.1, if you later install mods that change faction relationships, or if faction NPCs are ignoring your disguise, you should re-enable this setting, save, and reload that save to update faction relations again. This is your responsibility.
+
+- You can toggle whether guards are hostile to the player while in the Dark Brotherhood disguise using the "Guards vs. Dark Brotherhood Disguise" option.
+- You can toggle whether guards are hostile to the player while in the Thieves Guild disguise using the "Guards vs. Thieves Guild Disguise" option.
+- The "Guards vs. Dark Brotherhood" toggle menu label and help text were clarified. It is now named "Guards vs. Dark Brotherhood NPCs." The help text now indicates the player will be affected if the player has joined the Dark Brotherhood.
+- The "Guards vs. Thieves Guild" toggle menu label and help text were clarified. It is now named "Guards vs. Thieves Guild NPCs."  The help text now indicates the player will be affected if the player has joined the Thieves Guild.
+- The Bandit Disguise settings were moved to under the new Banditry heading on the Crime page.
+- The "Factions Update Auto Run" menu label on the Advanced page was renamed "Auto Update Factions."
+- The currently disabled crime tracker was moved to its own page.
 
 # Version 1.4.1
 
