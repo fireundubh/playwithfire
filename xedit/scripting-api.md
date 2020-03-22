@@ -2,9 +2,19 @@
 title: xEdit Scripting API
 description: 
 published: true
-date: 2020-03-22T21:53:54.726Z
+date: 2020-03-22T21:54:56.368Z
 tags: 
 ---
+
+# Scripting Resources
+
+External Link | Description
+:--- | :---
+[API Function Reference](https://tes5edit.github.io/docs/13-Scripting-Functions.html) | Functions and procedures unique to xEdit
+[Delphi Language Guide](http://docwiki.embarcadero.com/RADStudio/Rio/en/Delphi_Language_Guide_Index) | Official guide to the Delphi language, including syntax 
+[Delphi Basics](http://www.delphibasics.co.uk/index.html) | Examples of how to use Delphi functions and procedures
+
+*Note: The xEdit script interpreter uses a subset of Delphi. There are language features that cannot be used in scripts.*
 
 # Common Problems
 
@@ -171,13 +181,3 @@ AddMessage(FloatToStr(fNumber));
 // printing Form IDs (cardinals/unsigned integers) as hexadecimal strings
 AddMessage(IntToHex(GetLoadOrderFormID(e), 8));
 ```
-
-# Scripting Resources
-
-External Link | Description
-:--- | :---
-[API Function Reference](https://tes5edit.github.io/docs/13-Scripting-Functions.html) | Functions and procedures unique to xEdit
-[Delphi Language Guide](http://docwiki.embarcadero.com/RADStudio/Rio/en/Delphi_Language_Guide_Index) | Official guide to the Delphi language, including syntax 
-[Delphi Basics](http://www.delphibasics.co.uk/index.html) | Examples of how to use Delphi functions and procedures
-
-*Note: The xEdit script interpreter uses a subset of Delphi. There are language features that cannot be used in scripts.*
