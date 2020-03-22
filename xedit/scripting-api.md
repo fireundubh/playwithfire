@@ -2,19 +2,13 @@
 title: xEdit Scripting API
 description: 
 published: true
-date: 2020-02-26T08:50:48.683Z
+date: 2020-03-22T21:23:21.365Z
 tags: 
 ---
-
-At some point, the Current API will be replaced.
-
-Implementations of the following solutions are provided using both APIs to demonstrate how scripts will need to change.
 
 # Common Problems
 
 ## Access member of element in array of elements
-
-### Current API
 
 ```pascal
 var
@@ -32,21 +26,8 @@ begin
 end;
 ```
 
-### New API
-
-```pascal
-var ScriptProperties := e.ElementByPath['VMAD\Scripts\[0]\Properties'];
-
-for var i := 0 to Pred(ScriptProperties.ElementCount) do
-begin
-	var PropertyName := ScriptProperties.ElementByPath['[' + IntToStr(i) + ']\propertyName'];  // returns object of type IwbElement
-  // do something with PropertyName
-end;
-```
 
 ## Iterate over array of elements
-
-### Current API
 
 ```pascal
 var
@@ -64,23 +45,8 @@ begin
 end;
 ```
 
-### New API
-
-```pascal
-begin
-  var FormIDs := e.ElementByName['FormIDs'];
-
-  for var i := 0 to Pred(FormIDs.ElementCount) do
-  begin
-    var LNAM := FormIDs.Elements[i];  // returns object of type IwbElement
-    // do something with LNAM
-  end;
-end;
-```
 
 ## Iterate over Referenced By records
-
-### Current API
 
 ```pascal
 var
@@ -95,21 +61,8 @@ begin
 end;
 ```
 
-### New API
-
-```pascal
-begin
-  for var i := 0 to Pred(e.ReferencedByCount) do
-  begin
-    var ByRef := e.ReferencedBy[i];  // returns object of type IwbMainRecord
-    // do something with ByRef
-  end;
-end;
-```
 
 ## Get record assigned to element
-
-### Current API
 
 ```pascal
 var
@@ -122,15 +75,6 @@ begin
 end;
 ```
 
-### New API
-
-```pascal
-begin
-  var RNAM := e.ElementBySignature['RNAM'];
-  var LinkedRef := RNAM.LinksTo;  // returns object of type IwbMainRecord
-  // do something with LinkedRef
-end;
-```
 
 ## Print message with non-string data type
 
