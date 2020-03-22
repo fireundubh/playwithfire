@@ -2,7 +2,7 @@
 title: xEdit Scripting API
 description: 
 published: true
-date: 2020-03-22T21:54:56.368Z
+date: 2020-03-22T21:55:39.410Z
 tags: 
 ---
 
@@ -145,7 +145,7 @@ end;
 ```
 
 
-## Get record assigned to element
+## Get Main Record assigned to Subrecord
 
 ```pascal
 function Process(e: IInterface): Integer;
