@@ -2,7 +2,7 @@
 title: xEdit Scripting API
 description: 
 published: true
-date: 2020-03-22T21:23:21.365Z
+date: 2020-03-22T21:53:54.726Z
 tags: 
 ---
 
@@ -20,8 +20,9 @@ begin
 
   for i := 0 to Pred(ElementCount(ScriptProperties)) do
   begin
-    PropertyName := ElementByPath(ScriptProperties, '[' + IntToStr(i) + ']\propertyName');  // returns object of type IwbElement
-    // do something with kPropertyName
+    PropertyName := ElementByPath(ScriptProperties, '[' + IntToStr(i) + ']\propertyName');
+    
+    // do something with PropertyName
   end;
 end;
 ```
@@ -32,16 +33,86 @@ end;
 ```pascal
 var
 	FormIDs : IInterface;
-	LNAM : IInterface;
-	i : Integer;
+	LNAM    : IInterface;
+	i       : Integer;
 begin
 	FormIDs := ElementByName(e, 'FormIDs');
 
   for i := 0 to Pred(ElementCount(FormIDs)) do
   begin
-    LNAM := ElementByIndex(FormIDs, i);  // returns object of type IwbElement
+    LNAM := ElementByIndex(FormIDs, i);
+    
     // do something with LNAM
   end;
+end;
+```
+
+
+## Iterate over Main Records
+
+### Without user interaction
+
+This approach does not require the user to select any records.
+
+```pascal
+function Initialize: Integer;
+var
+	SourceFile : IwbFile;
+  MainRecord : IInterface;
+  i          : Integer;
+begin
+	SourceFile := FileByName('Skyrim.esm');  // FileByName natively available in only dev-4.1.4, use FileByIndex
+    
+  // this is a very inefficient approach if you want to process only records with a specific signature 
+	for i := 0 to Pred(RecordCount(SourceFile)) do
+  begin
+  	MainRecord := RecordByIndex(SourceFile, i);
+    
+    if Signature(MainRecord) <> 'ARMO' then
+    	Continue;
+      
+    // do something with MainRecord
+  end;
+end;
+```
+
+Alternatively:
+
+```pascal
+function Initialize: Integer;
+var
+	SourceFile  : IwbFile;
+  GroupRecord : IwbGroupRecord;
+  MainRecord  : IInterface;
+  i           : Integer;
+begin
+	SourceFile := FileByName('Skyrim.esm');  // FileByName natively available in only dev-4.1.4, use FileByIndex
+    
+  // this is a more efficient approach when you want to process only records with a specific signature
+  GroupRecord := GroupBySignature(SourceFile, 'ARMO');
+  if not Assigned(GroupRecord) then
+  	Exit;
+  
+	for i := 0 to Pred(ElementCount(GroupRecord)) do
+  begin
+  	MainRecord := ElementByIndex(GroupRecord, i);
+    
+    // do something with MainRecord
+  end;
+end;
+```
+
+### With user interaction
+
+This approach requires the user to select one or more records to process.
+
+```pascal
+function Process(e: IInterface): Integer;
+begin
+	if Signature(e) <> 'ARMO' then
+  	Exit;
+    
+  // do something with ARMO records in selection
 end;
 ```
 
@@ -49,14 +120,16 @@ end;
 ## Iterate over Referenced By records
 
 ```pascal
+function Process(e: IInterface): Integer;
 var
-	ByRef : IInterface;
-	i : Integer;
-begin
+	MainRecord : IInterface;
+	i          : Integer;
+begin  
   for i := 0 to Pred(ReferencedByCount(e)) do
   begin
-    ByRef := ReferencedByIndex(e, i);  // returns object of type IwbMainRecord
-    // do something with ByRef
+    MainRecord := ReferencedByIndex(e, i);
+    
+    // do something with MainRecord
   end;
 end;
 ```
@@ -65,12 +138,20 @@ end;
 ## Get record assigned to element
 
 ```pascal
+function Process(e: IInterface): Integer;
 var
-	RNAM : IInterface;
+	RNAM      : IInterface;
 	LinkedRef : IInterface;
 begin
+	if Signature(e) <> 'ARMO' then
+  	Exit;
+
   RNAM := ElementBySignature(e, 'RNAM');
-  LinkedRef := LinksTo(RNAM);  // returns object of type IwbMainRecord
+  if not Assigned(RNAM) then
+  	Exit;
+    
+  LinkedRef := LinksTo(RNAM);
+  
   // do something with LinkedRef
 end;
 ```
