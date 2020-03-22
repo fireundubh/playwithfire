@@ -2,7 +2,7 @@
 title: xEdit Scripting API
 description: 
 published: true
-date: 2020-03-22T21:55:39.410Z
+date: 2020-03-22T21:56:28.957Z
 tags: 
 ---
 
@@ -18,7 +18,7 @@ External Link | Description
 
 # Common Problems
 
-## Access member of element in array of elements
+## Access member of element in array
 
 ```pascal
 var
