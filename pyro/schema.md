@@ -2,7 +2,7 @@
 title: Papyrus Project Schema
 description: 
 published: true
-date: 2020-04-04T18:38:03.237Z
+date: 2020-04-04T18:41:57.367Z
 tags: 
 ---
 
@@ -52,6 +52,38 @@ Node | Attribute | Type | Default Value | Required
 	<Variable Name="namespace" Value="AutoLoot"/>
 	<Variable Name="modpath" Value="E:\repos\mods\fallout4\@modname"/>
 </Variables>
+```
+
+## Imports
+
+The `Imports` parent node contains `Import` child nodes. None of these nodes have attributes.
+
+### Example
+
+```xml
+<Imports>
+	<Import>@modpath\scripts\Source\User</Import>
+	<Import>E:\SteamLibrary\Fallout 4\Data\Scripts\Source\Base</Import>
+</Imports>
+```
+
+## Scripts
+
+The `Scripts` parent node contains `Script` child nodes. None of these nodes have attributes.
+
+### Example
+
+```xml
+<Scripts>
+	<Script>@namespace\dubhAutoLootDummyScript.psc</Script>
+	<Script>@namespace\dubhAutoLootEffectBodiesScript.psc</Script>
+	<Script>@namespace\dubhAutoLootEffectComponentsScript.psc</Script>
+	<Script>@namespace\dubhAutoLootEffectContainersScript.psc</Script>
+	<Script>@namespace\dubhAutoLootEffectScript.psc</Script>
+	<Script>@namespace\dubhAutoLootEffectTieredScript.psc</Script>
+	<Script>@namespace\dubhAutoLootQuestScript.psc</Script>
+	<Script>@namespace\dubhAutoLootNoDisintegrateScript.psc</Script>
+</Scripts>
 ```
 
 ## Folders
