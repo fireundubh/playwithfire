@@ -2,7 +2,7 @@
 title: Pyro
 description: 
 published: true
-date: 2020-05-11T17:17:35.979Z
+date: 2020-05-11T22:43:43.879Z
 tags: 
 ---
 
@@ -233,19 +233,21 @@ In addition, regardless of whether a `Variables` node group is defined, environm
 
 ```
 --------------------------------------------------------------------------------
-                                   P  Y  R  O
+                                   P  Y  R  O                                   
 ----------------------------------------------------- github.com/fireundubh/pyro
 
-usage: pyro [-i] [--ignore-errors] [--no-incremental-build] [--no-parallel]
-            [--worker-limit] [--compiler-path] [--flags-path] [--output-path]
-            [-g {tesv,fo4,sse}] [--game-path  | --registry-path ]
-            [--bsarch-path] [--package-path] [--temp-path]
-            [--zip-compression {store,deflate}] [--zip-output-path]
-            [--access-token] [--force-overwrite] [--remote-temp-path]
-            [--resolve-ppj] [--log-path] [--help]
+usage: pyro.exe [--ignore-errors] [--no-incremental-build] [--no-parallel]
+                [--worker-limit] [--compiler-path] [--flags-path]
+                [--output-path] [-g {fo4,tesv,sse}]
+                [--game-path  | --registry-path ] [--bsarch-path]
+                [--package-path] [--temp-path]
+                [--zip-compression {store,deflate}] [--zip-output-path]
+                [--access-token] [--force-overwrite] [--remote-temp-path]
+                [--resolve-ppj] [--log-path] [--help]
+                [input_path]
 
 required arguments:
-  -i, --input-path        relative or absolute path to file
+  input_path              relative or absolute path to file
                           (if relative, must be relative to current working directory)
 
 build arguments:
@@ -283,7 +285,7 @@ zip arguments:
                           (if relative, must be relative to project)
 
 remote arguments:
-  --access-token          personal access token
+  --access-token          access token for GitHub remotes
                           (must have public_repo access scope)
   --force-overwrite       download remote files and overwrite existing files
                           (default: skip download when remote folder exists)
