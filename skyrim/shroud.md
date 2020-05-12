@@ -2,13 +2,13 @@
 title: Shroud's Mod List
 description: 
 published: true
-date: 2020-05-12T05:55:32.163Z
+date: 2020-05-12T05:58:26.063Z
 tags: 
 ---
 
 # Mod Organizer 2 Profile
 
-**Note:** This profile was set up by Shavaxi for Shroud.
+**Note:** This profile was set up by Shivaxi for Shroud.
 
 0. DLC: HearthFires
 1. DLC: Dragonborn
