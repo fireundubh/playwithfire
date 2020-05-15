@@ -2,7 +2,7 @@
 title: Pyro
 description: 
 published: true
-date: 2020-05-15T20:58:58.330Z
+date: 2020-05-15T20:59:24.524Z
 tags: 
 ---
 
@@ -238,7 +238,7 @@ In addition, regardless of whether a `Variables` node group is defined, environm
 
 usage: pyro.exe [--ignore-errors] [--no-incremental-build] [--no-parallel]
                 [--worker-limit] [--compiler-path] [--flags-path]
-                [--output-path] [-g {fo4,tesv,sse}]
+                [--output-path] [-g {fo4,tes5,sse}]
                 [--game-path  | --registry-path ] [--bsarch-path]
                 [--package-path] [--temp-path]
                 [--zip-compression {store,deflate}] [--zip-output-path]
