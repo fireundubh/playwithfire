@@ -2,7 +2,7 @@
 title: Pyro
 description: 
 published: true
-date: 2020-05-15T20:59:24.524Z
+date: 2020-05-17T10:37:09.950Z
 tags: 
 ---
 
@@ -20,7 +20,11 @@ Latest build from master branch:
 
 Latest pre-release binaries:
 
-[GitHub Releases](https://github.com/fireundubh/pyro/releases)
+Source | Comments
+:--- | :---
+[GitHub Releases](https://github.com/fireundubh/pyro/releases) | Always up-to-date; builds intended for most users.
+[GitHub CI](https://github.com/fireundubh/pyro/actions) | Bleeding edge; builds intended for testing; not for most users.
+[SSE Nexus](https://www.nexusmods.com/skyrimspecialedition/mods/35860) | Mirror for GitHub Releases; may lag behind.
 
 Or build Pyro from the source code. Refer to the [Compiling](#compiling) section for details.
 
