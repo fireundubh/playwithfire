@@ -2,7 +2,7 @@
 title: Pyro
 description: 
 published: true
-date: 2020-05-17T10:37:50.846Z
+date: 2020-05-19T22:30:11.211Z
 tags: 
 ---
 
@@ -43,7 +43,7 @@ Or build Pyro from the source code. Refer to the [Compiling](#compiling) section
 - Pyro parallelizes compilation, taking advantage of multi-core processors to compile multiple scripts simultaneously.
 - Pyro anonymizes compiled Papyrus scripts, removing identifying metadata embedded by the Papyrus Compiler.
 - Pyro automatically creates multiple BSA and BA2 packages using [BSArch](https://www.nexusmods.com/newvegas/mods/64745).
-- Pyro automatically creates a ZIP archive of a customizable collection of files.
+- Pyro automatically creates ZIP archives of customizable collections of files.
 - Pyro supports importing and compiling from GitHub repositories and public Bitbucket Cloud repositories.
 - Pyro supports variable substitution in Papyrus Projects, including environment and user variables.
 
@@ -126,23 +126,27 @@ The packaging system uses a default temporary folder, or a folder specified by `
 
 ## Zipping
 
-Pyro can create a ZIP archive containing any files defined in the `ZipFile` node block.
+Pyro can create ZIP archives containing any files defined in the `ZipFile` node block.
 
 To configure the ZIP archive:
 
 1. Add the `Zip` attribute to the `PapyrusProject` node. Set the value to `true`.
-2. Add a `ZipFile` node block, defining as many `Include` nodes as needed. See below:
+2. Add a `ZipFiles` node.
+3. Add `ZipFile` child nodes to `ZipFiles`, defining `Include` nodes for each `ZipFile`.
+
+See below:
 
 ```xml
-<ZipFile
-  Name="{file name}"
-  RootDir="{required - relative or absolute path to folder containing files or folders to include}"
-  Output="{relative or absolute path to output folder where ZIP file will be written}"
-  Compression="{choices: 'store' or 'deflate' compression}">
-  <Include>{relative or absolute path to file or folder in RootDir, or simple glob pattern}</Include>
-  <Include>MyProject.esp</Include>
-  <Include NoRecurse="true">*.bsa</Include>
-</ZipFile>
+<ZipFiles Output="{relative or absolute path to output folder where ZIP files will be written}">
+  <ZipFile
+    Name="{file name}"
+    RootDir="{required - relative or absolute path to folder containing files or folders to include}"
+    Compression="{choices: 'store' or 'deflate' compression}">
+    <Include>{relative or absolute path to file or folder in RootDir, or simple glob pattern}</Include>
+    <Include>MyProject.esp</Include>
+    <Include NoRecurse="true">*.bsa</Include>
+  </ZipFile>
+</ZipFiles>
 ```
 
 
@@ -222,10 +226,12 @@ Variables are prefixed with the `@` symbol. The `Name` and `Value` attributes ar
 You can then replace values throughout the project file with variable names:
 
 ```xml
-<ZipFile Name="@modname" RootDir="@myproject" Output="@myproject" Compression="deflate">
-  <Include>@myproject\@modname.esp</Include>
-  <Include NoRecurse="true">*.bsa</Include>
-</ZipFile>
+<ZipFiles Output="@myproject">
+  <ZipFile Name="@modname" RootDir="@myproject" Compression="deflate">
+    <Include>@myproject\@modname.esp</Include>
+    <Include NoRecurse="true">*.bsa</Include>
+  </ZipFile>
+<ZipFiles>
 ```
 
 Pyro will expand those variables when the project is loaded.
