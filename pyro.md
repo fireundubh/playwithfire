@@ -2,7 +2,7 @@
 title: Pyro
 description: 
 published: true
-date: 2020-05-20T04:35:17.308Z
+date: 2020-05-20T04:35:59.512Z
 tags: 
 ---
 
@@ -12,9 +12,11 @@ Pyro provides mod authors with an all-in-one tool for compiling Papyrus scripts,
 
 Pyro can be integrated as an external tool into any IDE, allowing mod authors to "Instant Build" projects with a single hotkey.
 
-# Binaries
+# What's New?
 
-> [Release Notes](/pyro/release-notes) (mirrors GitHub Releases notes)
+See: [Release Notes](/pyro/release-notes)
+
+# Binaries
 
 Latest build from master branch:
 
