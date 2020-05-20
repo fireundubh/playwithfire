@@ -2,13 +2,13 @@
 title: Papyrus Project Schema
 description: 
 published: true
-date: 2020-04-04T18:41:57.367Z
+date: 2020-05-20T04:49:42.818Z
 tags: 
 ---
 
-# Attribute Defaults
+# PapyrusProject
 
-## PapyrusProject
+> **XPath:** `//PapyrusProject`
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
@@ -21,7 +21,7 @@ Node | Attribute | Type | Default Value
 `PapyrusProject` | `Anonymize` | `bool` | `false`
 `PapyrusProject` | `Package` | `bool` | `false`
 
-### Example
+## Example
 
 ```xml
 <PapyrusProject
@@ -37,14 +37,16 @@ Node | Attribute | Type | Default Value
 </PapyrusProject>
 ```
 
-## Variables
+# Variables/Variable
+
+> **XPath:** `//Variables/Variable`
 
 Node | Attribute | Type | Default Value | Required 
 :--- | :--- | :--- | :--- | :---
 `Variable` | `Name` | `string` | `''` | `True`
 `Variable` | `Value` | `string` | `''` | `True`
 
-### Example
+## Example
 
 ```xml
 <Variables>
@@ -54,11 +56,13 @@ Node | Attribute | Type | Default Value | Required
 </Variables>
 ```
 
-## Imports
+# Imports/Import
+
+> **XPath:** `//Imports/Import`
 
 The `Imports` parent node contains `Import` child nodes. None of these nodes have attributes.
 
-### Example
+## Example
 
 ```xml
 <Imports>
@@ -67,11 +71,13 @@ The `Imports` parent node contains `Import` child nodes. None of these nodes hav
 </Imports>
 ```
 
-## Scripts
+# Scripts/Script
+
+> **XPath:** `//Scripts/Script`
 
 The `Scripts` parent node contains `Script` child nodes. None of these nodes have attributes.
 
-### Example
+## Example
 
 ```xml
 <Scripts>
@@ -86,13 +92,15 @@ The `Scripts` parent node contains `Script` child nodes. None of these nodes hav
 </Scripts>
 ```
 
-## Folders
+# Folders/Folder
+
+> **XPath:** `//Folders/Folder`
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :--- 
 `Folder` | `NoRecurse` | `bool` | `false`
 
-### Example
+## Example
 
 ```xml
 	<Folders>
@@ -100,16 +108,27 @@ Node | Attribute | Type | Default Value
 	</Folders>
 ```
 
-## Packages
+# Packages
+
+> **XPath:** `//Packages`
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
 `Packages` | `Output` | `str` | Path to the `pyro\dist` folder
+
+
+# Packages/Package
+
+> **XPath:** `//Packages/Package`
+
+Node | Attribute | Type | Default Value
+:--- | :--- | :--- | :---
 `Package` | `Name` | `str` | If the attribute is omitted:<ul><li>the package file will be named after the project,<li>the extension will be appropriate to the game, and<li>subsequent package names will be suffixed with `(1)`, `(2)`, and so on.</ul>
 `Package` | `RootDir` | `str` | Path to the project folder 
 `Include` | `NoRecurse`  | `bool` | `false`
 
-### Example
+
+## Example
 
 ```xml
 <Packages Output="@modpath">
@@ -119,17 +138,28 @@ Node | Attribute | Type | Default Value
 </Packages>
 ```
 
-## ZipFile
+# ZipFiles
+
+> **XPath:** `//ZipFiles`
+
+Node | Attribute | Type | Default Value
+:--- | :--- | :--- | :---
+`ZipFiles` | `Output` | `str` | Path to the `pyro\dist` folder
+
+
+## ZipFiles/ZipFile
+
+> **XPath:** `//ZipFiles/ZipFile`
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
 `ZipFile` | `Name` | `str` | If the attribute is omitted, the ZIP file will be named after the project.
 `ZipFile` | `RootDir` | `str` | Path to the project folder
-`ZipFile` | `Output` | `str` | Path to the `pyro\dist` folder
 `ZipFile` | `Compression` | `str` | `deflate`
 `Include` | `NoRecurse` | `bool` | `false`
 
-### Example
+
+## Example
 
 ```xml
 <ZipFile Name="@modname" RootDir="@modpath" Output="@modpath" Compression="deflate">
