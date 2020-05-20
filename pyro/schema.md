@@ -2,13 +2,15 @@
 title: Papyrus Project Schema
 description: 
 published: true
-date: 2020-05-20T04:52:34.781Z
+date: 2020-05-20T04:56:09.040Z
 tags: 
 ---
 
 # PapyrusProject
 
 > **XPath:** `//PapyrusProject`
+
+The `PapyrusProject` node is the root node from which all other nodes descend.
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
