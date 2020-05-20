@@ -2,7 +2,7 @@
 title: Papyrus Project Schema
 description: 
 published: true
-date: 2020-05-20T04:50:48.840Z
+date: 2020-05-20T04:52:34.781Z
 tags: 
 ---
 
@@ -125,6 +125,14 @@ Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
 `Package` | `Name` | `str` | If the attribute is omitted:<ul><li>the package file will be named after the project,<li>the extension will be appropriate to the game, and<li>subsequent package names will be suffixed with `(1)`, `(2)`, and so on.</ul>
 `Package` | `RootDir` | `str` | Path to the project folder 
+
+
+## Packages/Package/Include
+
+> **XPath:** `//Packages/Package/Include`
+
+Node | Attribute | Type | Default Value
+:--- | :--- | :--- | :---
 `Include` | `NoRecurse`  | `bool` | `false`
 
 
@@ -156,6 +164,14 @@ Node | Attribute | Type | Default Value
 `ZipFile` | `Name` | `str` | If the attribute is omitted, the ZIP file will be named after the project.
 `ZipFile` | `RootDir` | `str` | Path to the project folder
 `ZipFile` | `Compression` | `str` | `deflate`
+
+
+## ZipFiles/ZipFile/Include
+
+> **XPath:** `//ZipFiles/ZipFile/Include`
+
+Node | Attribute | Type | Default Value
+:--- | :--- | :--- | :---
 `Include` | `NoRecurse` | `bool` | `false`
 
 
