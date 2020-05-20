@@ -2,7 +2,7 @@
 title: Papyrus Project Schema
 description: 
 published: true
-date: 2020-05-20T04:49:42.818Z
+date: 2020-05-20T04:50:15.131Z
 tags: 
 ---
 
@@ -117,7 +117,7 @@ Node | Attribute | Type | Default Value
 `Packages` | `Output` | `str` | Path to the `pyro\dist` folder
 
 
-# Packages/Package
+## Packages/Package
 
 > **XPath:** `//Packages/Package`
 
