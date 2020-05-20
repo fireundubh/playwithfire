@@ -2,7 +2,7 @@
 title: Papyrus Project Schema
 description: 
 published: true
-date: 2020-05-20T04:50:15.131Z
+date: 2020-05-20T04:50:48.840Z
 tags: 
 ---
 
@@ -162,8 +162,10 @@ Node | Attribute | Type | Default Value
 ## Example
 
 ```xml
-<ZipFile Name="@modname" RootDir="@modpath" Output="@modpath" Compression="deflate">
-	<Include>@modpath\Auto Loot.esp</Include>
-	<Include>@modpath\Auto Loot - Main.ba2</Include>
-</ZipFile>
+<ZipFiles Output="@modpath">
+  <ZipFile Name="@modname" RootDir="@modpath" Compression="deflate">
+    <Include>@modpath\Auto Loot.esp</Include>
+    <Include>@modpath\Auto Loot - Main.ba2</Include>
+  </ZipFile>
+</ZipFiles>
 ```
