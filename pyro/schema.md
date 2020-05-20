@@ -2,9 +2,11 @@
 title: Papyrus Project Schema
 description: 
 published: true
-date: 2020-05-20T04:56:09.040Z
+date: 2020-05-20T04:58:22.501Z
 tags: 
 ---
+
+This reference documents the attribute defaults in the Pyro Project Schema.
 
 # PapyrusProject
 
