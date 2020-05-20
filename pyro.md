@@ -2,7 +2,7 @@
 title: Pyro
 description: 
 published: true
-date: 2020-05-20T04:35:59.512Z
+date: 2020-05-20T05:01:00.442Z
 tags: 
 ---
 
@@ -67,9 +67,9 @@ There are multiple ways to change the compiler version:
 
 ## Extended Schema
 
-> Refer to the [Papyrus Project Schema](/pyro/schema) page for default attribute values.
+> Refer to the [Pyro Project Schema](/pyro/schema) page for default attribute values.
 
-> Refer to the [Papyrus Project XML Schema Definition](https://github.com/fireundubh/pyro/blob/master/pyro/PapyrusProject.xsd) for document structure, type constraints, and other rules.
+> Refer to the [Pyro Project XML Schema Definition](https://github.com/fireundubh/pyro/blob/master/pyro/PapyrusProject.xsd) for document structure, type constraints, and other rules.
 
 Bethesda Game Studios introduced the PPJ schema with the Papyrus Compiler for FO4. The TES5 and SSE compilers do not support the schema.
 
