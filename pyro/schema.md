@@ -1,8 +1,8 @@
 ---
-title: Papyrus Project Schema
+title: Pyro Project Schema
 description: 
 published: true
-date: 2020-05-20T04:58:22.501Z
+date: 2020-05-20T05:00:23.918Z
 tags: 
 ---
 
