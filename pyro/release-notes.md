@@ -2,7 +2,7 @@
 title: Release Notes
 description: 
 published: true
-date: 2020-05-20T04:28:08.747Z
+date: 2020-05-20T04:30:13.590Z
 tags: 
 ---
 
@@ -72,7 +72,7 @@ Pyro now supports building multiple ZIP archives from a single PPJ. **This is a 
 
 # 1578820587
 
-## New Features
+## Major Changes
 
 - Implemented public Bitbucket Cloud remote support (no access token required) *\[Note: This change does not include support for private Bitbucket Cloud repositories or Bitbucket Server repositories.]*
 
@@ -129,7 +129,7 @@ Pyro now supports building multiple ZIP archives from a single PPJ. **This is a 
 
 # 1578640616
 
-## New Features
+## Major Changes
 
 ### Dumping PEX headers
 
@@ -161,9 +161,8 @@ Argument | Required | Type | Description | Default Value
 `--force-overwrite` | `false` | `bool` | download remote files and overwrite existing files<br>(default: skip download when remote folder exists) | `false`
 `--remote-temp-path` | `false` | `str` | relative or absolute path to temp folder for remote files<br>(if relative, must be relative to project) | `{program_path}\remote`
 
-## Miscellaneous
+## Enhancements
 
-- Updated Nuitka to 0.6.6
 - Limited priority of parallel processes to "below normal"
 - Implemented anonymization of script paths in compiled script headers
 - Added compilation statistics to build output (e.g., # of scripts, # of successes, # of failures, time per script, total time)
@@ -186,6 +185,7 @@ Argument | Required | Type | Description | Default Value
 - Fixed issue where duplicate package names were not properly changed
 - Fixed issue where scripts that import other scripts would fail to compile if imported scripts were not first compiled
 - Fixed issue where unnecessary import paths were passed to compiler which could produce strange errors
+- Updated Nuitka to 0.6.6
 
 
 # 1575000759
