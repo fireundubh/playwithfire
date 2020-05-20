@@ -2,9 +2,11 @@
 title: Release Notes
 description: 
 published: true
-date: 2020-05-20T04:30:13.590Z
+date: 2020-05-20T04:37:48.582Z
 tags: 
 ---
+
+> **Note:** Pre-release version names are Unix timestamps.
 
 # 1589924890
 
