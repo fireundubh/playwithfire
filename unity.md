@@ -2,7 +2,7 @@
 title: Unity
 description: 
 published: true
-date: 2020-05-25T21:39:20.403Z
+date: 2020-05-25T21:41:53.176Z
 tags: 
 ---
 
@@ -28,6 +28,7 @@ Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [Appveyor](https://ci.app
 Monkey Patcher | Harmony | pardeike | Open source | MIT | &rarr; | [GitHub](https://github.com/pardeike/Harmony)
 Monkey Patcher | Patchwork | Greg Ros | Open source | MIT | &rarr; | [GitHub](https://github.com/GregRos/Patchwork)
 Monkey Patcher | MonoMod | 0x0ade | Open source | MIT | &rarr; | [GitHub](https://github.com/MonoMod/MonoMod)
+AssetBundle Extractor | Asset Studio | Perfare | Open source | MIT | &rarr; | [GitHub](https://github.com/Perfare/AssetStudio)
 AssetBundle Extractor | uTinyRipper | mafaca | Free |  | &rarr; | [GitHub](https://github.com/mafaca/UtinyRipper)
 AssetBundle Extractor | uTinyRipperExporter CLI | spacehamster | Open source | MIT | &rarr; | [GitHub](https://github.com/spacehamster/UtinyRipperExporter)
 AssetBundle Extractor | Unity Assets Bundle Extractor (UABE) | DerPopo | Free | Closed | &rarr; | [7 Days To Die Forum](https://community.7daystodie.com/topic/1871-unity-assets-bundle-extractor/)
