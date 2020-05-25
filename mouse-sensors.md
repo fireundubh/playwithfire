@@ -2,7 +2,7 @@
 title: Mouse Sensors
 description: 
 published: true
-date: 2020-05-25T12:16:18.995Z
+date: 2020-05-25T12:22:57.325Z
 tags: 
 ---
 
@@ -18,10 +18,9 @@ PMW3310DH-AWQT | 130 | 30 | 5,000 | 6,500 | Corsair M45<br>FinalMouse 2015<br>Fi
 PAW3327DB-TWQU | 220 | 30 | 6,200 | Self-adjusting | Redragon M909<br>Redragon M908
 PAW3317DL-THST | 65 | 30 | 3,600 | 3,200 | Redragon M601<br>Redragon M601-3
 
-
-
 # Sources
 
-- https://on-winning.com/flawless-sensor-mouse-list-perfect/
-- https://www.pixart.com/products-comparison/7/Optical_Mouse_Sensor
-- https://www.epsglobal.com/products/semiconductors/sensing-and-haptics/optical-navigation
+- [Flawless Sensor Mouse List](https://on-winning.com/flawless-sensor-mouse-list-perfect/) (technical data)
+- [Pixart Optical Mouse Sensors](https://www.pixart.com/products-comparison/7/Optical_Mouse_Sensor) (sensor technical data)
+- [EPS Global Optical Navigation](https://www.epsglobal.com/products/semiconductors/sensing-and-haptics/optical-navigation) (database)
+- [Redragon EU](http://redragonzone.eu/product-category/mouse/) (provides sensor names for some mice)
