@@ -2,7 +2,7 @@
 title: Unity
 description: 
 published: true
-date: 2020-05-25T21:52:29.337Z
+date: 2020-05-25T21:56:20.033Z
 tags: 
 ---
 
@@ -20,13 +20,14 @@ Tyranny | Obsidian Entertainment | 5.2 ([Documentation](https://docs.unity3d.com
 
 Most of modding Unity games involves decompiling `Assembly-CSharp.dll` and patching in new code.
 
-## General Reversing
+## Reversing
 
 Type | Name | Developer | Price | License | Download | Website
 :--- | :--- | :--- | :--- | :--- | :--- | :---
 Decompiler/IL Editor | dnSpy | 0xd4d | Open source | GPL v3 | [Appveyor](https://ci.appveyor.com/project/0xd4d/dnspy/branch/master/artifacts) | [GitHub](https://github.com/0xd4d/dnSpy)
-Decompiler | dotPeek | JetBrains | Free | Commercial | [JetBrains](https://www.jetbrains.com/decompiler/download/) | [Official Website](https://www.jetbrains.com/decompiler/)
+Decompiler | dotPeek | JetBrains | Free | Commercial | &rarr; | [JetBrains](https://www.jetbrains.com/decompiler/)
 Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [Appveyor](https://ci.appveyor.com/project/0xd4d/de4dot/branch/master/artifacts) | [GitHub](https://github.com/0xd4d/de4dot)
+Type Safety Evaluator | PEVerify | Microsoft | Free | Proprietary | &rarr; | [Microsoft](https://docs.microsoft.com/en-us/dotnet/framework/tools/peverify-exe-peverify-tool)
 
 ## Patching
 
