@@ -2,7 +2,7 @@
 title: Unity
 description: 
 published: true
-date: 2020-01-19T15:20:41.208Z
+date: 2020-05-25T21:24:09.946Z
 tags: 
 ---
 
@@ -28,11 +28,6 @@ Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [https://ci.appveyor.com/
 Monkey Patcher | Harmony | pardeike | Open source | MIT | Compile from source code | [GitHub](https://github.com/pardeike/Harmony)
 Monkey Patcher | Patchwork | Greg Ros | Open source | MIT | Compile from source code | [GitHub](https://github.com/GregRos/Patchwork)
 
-## In development
-
-Name | Description | Developers
-:--- | :--- | :---
-[Asset Studio Pro](https://github.com/fireundubh/AssetStudio) | A fork of Asset Studio with better MonoBehaviour support<br>([Project goals and tasks](https://trello.com/b/XKKryP88/asset-studio-pro)) | &bull; fireundubh<br>&bull; Jackal
 
 # References
 
@@ -41,6 +36,7 @@ Tutorial | Description
 [Patchwork Design Patterns](/unity/patchwork-design-patterns) | How to use Patchwork attributes for common problems
 [Patchwork Project Structure](/unity/patchwork-project-structure) | How to structure a Patchwork project
 [Turning a release build into a debug build](/unity/turning-a-release-build-into-a-debug-build) | ADVANCED. You do not need to do this unless you use debug logging and want Assembly-CSharp line numbers in call stacks.
+
 
 # Notes
 
