@@ -2,7 +2,7 @@
 title: Unity
 description: 
 published: true
-date: 2020-05-25T21:50:38.476Z
+date: 2020-05-25T21:52:29.337Z
 tags: 
 ---
 
@@ -20,20 +20,33 @@ Tyranny | Obsidian Entertainment | 5.2 ([Documentation](https://docs.unity3d.com
 
 Most of modding Unity games involves decompiling `Assembly-CSharp.dll` and patching in new code.
 
+## General Reversing
+
 Type | Name | Developer | Price | License | Download | Website
 :--- | :--- | :--- | :--- | :--- | :--- | :---
 Decompiler/IL Editor | dnSpy | 0xd4d | Open source | GPL v3 | [Appveyor](https://ci.appveyor.com/project/0xd4d/dnspy/branch/master/artifacts) | [GitHub](https://github.com/0xd4d/dnSpy)
 Decompiler | dotPeek | JetBrains | Free | Commercial | [JetBrains](https://www.jetbrains.com/decompiler/download/) | [Official Website](https://www.jetbrains.com/decompiler/)
 Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [Appveyor](https://ci.appveyor.com/project/0xd4d/de4dot/branch/master/artifacts) | [GitHub](https://github.com/0xd4d/de4dot)
+
+## Patching
+
+Type | Name | Developer | Price | License | Download | Website
+:--- | :--- | :--- | :--- | :--- | :--- | :---
 Patcher | Patchwork | Greg Ros | Open source | MIT | &rarr; | [GitHub](https://github.com/GregRos/Patchwork)
 Patcher (Injection) | Harmony | pardeike | Open source | MIT | &rarr; | [GitHub](https://github.com/pardeike/Harmony)
 Patcher (Injection) | BepInEx (based on Harmony) | bbepis | Open Source | MIT | &rarr; | [GitHub](https://github.com/BepInEx/BepInEx)
 Patcher (Injection) | MonoMod (based on Harmony) | 0x0ade | Open source | MIT | &rarr; | [GitHub](https://github.com/MonoMod/MonoMod)
+Injector | Unity Doorstop | denikson | Open source | CC0-1.0 | &rarr; | [GitHub](https://github.com/NeighTools/UnityDoorstop)
+
+## Asset Unbundling
+
+Type | Name | Developer | Price | License | Download | Website
+:--- | :--- | :--- | :--- | :--- | :--- | :---
 AssetBundle Extractor | Asset Studio | Perfare | Open source | MIT | &rarr; | [GitHub](https://github.com/Perfare/AssetStudio)
 AssetBundle Extractor | uTinyRipper | mafaca | Free |  | &rarr; | [GitHub](https://github.com/mafaca/UtinyRipper)
 AssetBundle Extractor | uTinyRipperExporter CLI | spacehamster | Open source | MIT | &rarr; | [GitHub](https://github.com/spacehamster/UtinyRipperExporter)
 AssetBundle Extractor | Unity Assets Bundle Extractor (UABE) | DerPopo | Free | Closed | &rarr; | [7 Days To Die Forum](https://community.7daystodie.com/topic/1871-unity-assets-bundle-extractor/)
-Injector | Unity Doorstop | denikson | Open source | CC0-1.0 | &rarr; | [GitHub](https://github.com/NeighTools/UnityDoorstop)
+
 
 ## Untested
 
