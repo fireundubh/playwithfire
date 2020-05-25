@@ -2,7 +2,7 @@
 title: Unity
 description: 
 published: true
-date: 2020-05-25T21:41:53.176Z
+date: 2020-05-25T21:43:50.490Z
 tags: 
 ---
 
@@ -32,6 +32,7 @@ AssetBundle Extractor | Asset Studio | Perfare | Open source | MIT | &rarr; | [G
 AssetBundle Extractor | uTinyRipper | mafaca | Free |  | &rarr; | [GitHub](https://github.com/mafaca/UtinyRipper)
 AssetBundle Extractor | uTinyRipperExporter CLI | spacehamster | Open source | MIT | &rarr; | [GitHub](https://github.com/spacehamster/UtinyRipperExporter)
 AssetBundle Extractor | Unity Assets Bundle Extractor (UABE) | DerPopo | Free | Closed | &rarr; | [7 Days To Die Forum](https://community.7daystodie.com/topic/1871-unity-assets-bundle-extractor/)
+Modding Framework | BepInEx | bbepis | Open Source | MIT | &rarr; | [GitHub](https://github.com/BepInEx/BepInEx)
 
 ## Untested
 
