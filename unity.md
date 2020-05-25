@@ -2,7 +2,7 @@
 title: Unity
 description: 
 published: true
-date: 2020-05-25T21:24:09.946Z
+date: 2020-05-25T21:27:58.977Z
 tags: 
 ---
 
@@ -27,6 +27,10 @@ Decompiler | dotPeek | JetBrains | Free | Commercial | [https://www.jetbrains.co
 Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [https://ci.appveyor.com/project/0xd4d/de4dot/branch/master/artifacts](https://ci.appveyor.com/project/0xd4d/de4dot/branch/master/artifacts) | [GitHub](https://github.com/0xd4d/de4dot)
 Monkey Patcher | Harmony | pardeike | Open source | MIT | Compile from source code | [GitHub](https://github.com/pardeike/Harmony)
 Monkey Patcher | Patchwork | Greg Ros | Open source | MIT | Compile from source code | [GitHub](https://github.com/GregRos/Patchwork)
+
+## Untested
+
+DevX has a number of [extremely expensive tools](https://devxdevelopment.com/) for reverse engineering Unity games. While some of these tools could be useful to more advanced modders, in most cases, you don't need them.
 
 
 # References
