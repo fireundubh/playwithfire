@@ -2,7 +2,7 @@
 title: Unity
 description: 
 published: true
-date: 2020-05-25T21:56:20.033Z
+date: 2020-05-25T21:58:35.714Z
 tags: 
 ---
 
@@ -11,9 +11,9 @@ tags:
 Name | Developer | Unity Version | .NET Compatibility
 :--- | :--- | :--- | :---
 Pathfinder: Kingmaker | Owlcat Games | 2018.1f0 ([Documentation](https://docs.unity3d.com/2018.1/Documentation/Manual/index.html)) | .NET 4.x (Assembly-CSharp.dll)
-Pillars of Eternity | Obsidian Entertainment | 5.1 | .NET 3.5 (Assembly-CSharp.dll)
-Pillars of Eternity II: Deadfire | Obsidian Entertainment | 5.6.3 | .NET 3.5 (Assembly-CSharp.dll)
-Torment: Tides of Numenera |  inXile Entertainment | 5.4.1 | .NET 3.5 (Assembly-CSharp.dll)
+Pillars of Eternity | Obsidian Entertainment | 5.1 ([Documentation](https://docs.unity3d.com/510/Documentation/Manual/index.html)) | .NET 3.5 (Assembly-CSharp.dll)
+Pillars of Eternity II: Deadfire | Obsidian Entertainment | 5.6.3 ([Documentation](https://docs.unity3d.com/560/Documentation/Manual/index.html)) | .NET 3.5 (Assembly-CSharp.dll)
+Torment: Tides of Numenera |  inXile Entertainment | 5.4.1 ([Documentation](https://docs.unity3d.com/540/Documentation/Manual/index.html)) | .NET 3.5 (Assembly-CSharp.dll)
 Tyranny | Obsidian Entertainment | 5.2 ([Documentation](https://docs.unity3d.com/520/Documentation/Manual/index.html)) | .NET 3.5 (Assembly-CSharp.dll)
 
 # Tools
