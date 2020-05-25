@@ -2,7 +2,7 @@
 title: Unity
 description: 
 published: true
-date: 2020-05-25T21:27:58.977Z
+date: 2020-05-25T21:39:20.403Z
 tags: 
 ---
 
@@ -22,11 +22,15 @@ Most of modding Unity games involves decompiling `Assembly-CSharp.dll` and patch
 
 Type | Name | Developer | Price | License | Download | Website
 :--- | :--- | :--- | :--- | :--- | :--- | :---
-Decompiler/IL Editor | dnSpy | 0xd4d | Open source | GPL v3 | [https://ci.appveyor.com/project/0xd4d/dnspy/branch/master/artifacts](https://ci.appveyor.com/project/0xd4d/dnspy/branch/master/artifacts) | [GitHub](https://github.com/0xd4d/dnSpy)
-Decompiler | dotPeek | JetBrains | Free | Commercial | [https://www.jetbrains.com/decompiler/download/](https://www.jetbrains.com/decompiler/download/) | [Official Website](https://www.jetbrains.com/decompiler/)
-Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [https://ci.appveyor.com/project/0xd4d/de4dot/branch/master/artifacts](https://ci.appveyor.com/project/0xd4d/de4dot/branch/master/artifacts) | [GitHub](https://github.com/0xd4d/de4dot)
-Monkey Patcher | Harmony | pardeike | Open source | MIT | Compile from source code | [GitHub](https://github.com/pardeike/Harmony)
-Monkey Patcher | Patchwork | Greg Ros | Open source | MIT | Compile from source code | [GitHub](https://github.com/GregRos/Patchwork)
+Decompiler/IL Editor | dnSpy | 0xd4d | Open source | GPL v3 | [Appveyor](https://ci.appveyor.com/project/0xd4d/dnspy/branch/master/artifacts) | [GitHub](https://github.com/0xd4d/dnSpy)
+Decompiler | dotPeek | JetBrains | Free | Commercial | [JetBrains](https://www.jetbrains.com/decompiler/download/) | [Official Website](https://www.jetbrains.com/decompiler/)
+Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [Appveyor](https://ci.appveyor.com/project/0xd4d/de4dot/branch/master/artifacts) | [GitHub](https://github.com/0xd4d/de4dot)
+Monkey Patcher | Harmony | pardeike | Open source | MIT | &rarr; | [GitHub](https://github.com/pardeike/Harmony)
+Monkey Patcher | Patchwork | Greg Ros | Open source | MIT | &rarr; | [GitHub](https://github.com/GregRos/Patchwork)
+Monkey Patcher | MonoMod | 0x0ade | Open source | MIT | &rarr; | [GitHub](https://github.com/MonoMod/MonoMod)
+AssetBundle Extractor | uTinyRipper | mafaca | Free |  | &rarr; | [GitHub](https://github.com/mafaca/UtinyRipper)
+AssetBundle Extractor | uTinyRipperExporter CLI | spacehamster | Open source | MIT | &rarr; | [GitHub](https://github.com/spacehamster/UtinyRipperExporter)
+AssetBundle Extractor | Unity Assets Bundle Extractor (UABE) | DerPopo | Free | Closed | &rarr; | [7 Days To Die Forum](https://community.7daystodie.com/topic/1871-unity-assets-bundle-extractor/)
 
 ## Untested
 
