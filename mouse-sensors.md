@@ -2,7 +2,7 @@
 title: Mouse Sensors
 description: 
 published: true
-date: 2020-05-25T12:22:57.325Z
+date: 2020-05-25T12:25:06.929Z
 tags: 
 ---
 
@@ -20,6 +20,7 @@ PAW3317DL-THST | 65 | 30 | 3,600 | 3,200 | Redragon M601<br>Redragon M601-3
 
 # Sources
 
+- [Mouse Guide](https://sensor.fyi/mice/) (technical data)
 - [Flawless Sensor Mouse List](https://on-winning.com/flawless-sensor-mouse-list-perfect/) (technical data)
 - [Pixart Optical Mouse Sensors](https://www.pixart.com/products-comparison/7/Optical_Mouse_Sensor) (sensor technical data)
 - [EPS Global Optical Navigation](https://www.epsglobal.com/products/semiconductors/sensing-and-haptics/optical-navigation) (database)
