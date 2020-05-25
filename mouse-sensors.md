@@ -2,14 +2,15 @@
 title: Mouse Sensors
 description: 
 published: true
-date: 2020-05-25T12:25:06.929Z
+date: 2020-05-25T12:41:15.432Z
 tags: 
 ---
 
 # Pixart
 
-Part No.|Tracking Speed (ips) | Acceleration (g) | Resolution (cpi) | Frame Rate (fps) | Mice
+Part No. | Tracking Speed (ips) | Acceleration (g) | Resolution (cpi) | Frame Rate (fps) | Mice
 :--- | ---: | ---: | ---: | ---: | :---
+PMW3390??-???? | 450 | 50 | 16,000 | | Razer Basilisk (refresh)<br>Razer DeathAdder Elite (refresh)<br>Razer Mamba Elite<br>Razer Lancehead (refresh)<br>Razer Mamba Wireless<br>Razer Viper
 PMW3389DM-T3QU | 400 | 50 | 16,000 | 12,000 | Dream Machines DM1 FPS<br>Dream Machines DM1 Pro<br>Microsoft Intellimouse Pro<br>Razer Basilisk<br>Razer DeathAdder Elite<br>Razer Lancehead TE
 PMW3366??-???? | 300 | 40 | 12,000 | | Logitech G Pro (Wired)<br>Logitech G903<br>Logitech G900<br>Logitech G703<br>Logitech G502<br>Logitech G403<br>Logitech G303
 PMW3360DM-T2QU | 250 | 50 | 12,000 | 12,000 | Cooler Master MasterMouse Pro L<br>Corsair M65 Pro<br>Fnatic Flick 2<br>FinalMouse Scream One<br>FinalMouse Ultralight Pro<br>SteelSeries Rival 700<br>Zowie EC1-B<br>Zowie EC2-B<br>Zowie S2 Divina
