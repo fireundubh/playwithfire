@@ -2,7 +2,7 @@
 title: Pyro Workflows
 description: 
 published: true
-date: 2020-06-01T11:41:55.907Z
+date: 2020-06-01T11:42:47.547Z
 tags: 
 ---
 
