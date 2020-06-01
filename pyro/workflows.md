@@ -2,7 +2,7 @@
 title: Pyro Workflows
 description: 
 published: true
-date: 2020-06-01T11:58:48.397Z
+date: 2020-06-01T11:59:34.698Z
 tags: 
 ---
 
@@ -41,7 +41,7 @@ This workflow is entirely theoretical and has not been tested.
 ID | Requirement | Notes
 :--- | :--- | :--- 
 `VirtualMachine` | Windows Server 2019 | `PapyrusCompiler.exe` is a .NET application and requires a window, so `wine` or `mono` on a Linux server would have trouble running this process.
-`FileServer` | HTTPS or SFTP Server | The `Papyrus Compiler` and the `Data\Scripts\Source` folders and their contents would need to be hosted on a file server. They can be zipped and extracted by the build script.<br><br>Ideally, Bethesda Softworks would create GitHub repositories for these files; otherwise, the file server should be secured so as to avoid publicly distributing Bethesda's assets.<br><br>In addition, to protect server credentials, the project's repo would need to be private.
+`FileServer` | HTTPS or SFTP Server | The `Papyrus Compiler` and the `Data\Scripts\Source` folders and their contents would need to be hosted on a file server. They can be hosted in ZIP files and later extracted by the build script.<br><br>Ideally, Bethesda Softworks would create GitHub repositories for these files; otherwise, the file server should be secured so as to avoid publicly distributing Bethesda's assets.<br><br>In addition, to protect server credentials, the project's repo would need to be private.
 
 ## Workflow Diagram 
 
