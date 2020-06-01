@@ -2,7 +2,7 @@
 title: Pyro Workflows
 description: 
 published: true
-date: 2020-06-01T20:01:14.443Z
+date: 2020-06-01T20:02:12.852Z
 tags: 
 ---
 
@@ -82,7 +82,7 @@ stateDiagram
 ID | Requirement | Notes
 :--- | :--- | :--- 
 `PapyrusLinter` | Linting | A lexer/parser for Papyrus would allow Pyro to offer code analysis, syntax checking, code clone cleanup, and refactoring assistance. Alternatively, the Papyrus Compiler can be patched to output the AST, and Pyro can use that AST directly.
-`xEditTestAutomation` | Plugin verification | An xEdit-based CLI would enable Pyro to verify that paths to BSA/BA2 assets are correct, verify that script properties are filled and used, and execute other user-defined verification tests.
+`xEditTestAutomation` | Plugin verification | An xEdit-based CLI would enable Pyro to verify that paths to BSA/BA2 assets in records are correct, verify that script properties are filled and used, and execute other user-defined verification tests.
 
 ## Workflow Diagram 
 
