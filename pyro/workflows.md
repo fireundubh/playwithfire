@@ -2,13 +2,17 @@
 title: Pyro Workflows
 description: 
 published: true
-date: 2020-06-01T12:02:34.445Z
+date: 2020-06-01T12:05:02.881Z
 tags: 
 ---
 
 # Local Build
 
-In the local build workflow, you drag-and-drop the PPJ onto the Pyro executable, pass the path to the PPJ to Pyro using the command line, or run Pyro directly from PyCharm. Simple!
+In the local build workflow, you have various ways of building projects. You can:
+
+- drag-and-drop the PPJ onto the Pyro executable;
+- pass the path to the PPJ to Pyro using the command line; or
+- run Pyro directly from PyCharm or a pipenv.
 
 ## Requirements
 
