@@ -2,7 +2,7 @@
 title: Pyro Workflows
 description: 
 published: true
-date: 2020-06-01T11:59:34.698Z
+date: 2020-06-01T12:00:23.256Z
 tags: 
 ---
 
@@ -62,4 +62,7 @@ stateDiagram
   PapyrusAssembler --> zipfile
   BSArch --> zipfile
   zipfile --> Artifacts
+  Artifacts --> Testing
+  Artifacts --> Releases
+  Artifacts --> NexusMods
 ```
