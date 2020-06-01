@@ -2,7 +2,7 @@
 title: Pyro Workflows
 description: 
 published: true
-date: 2020-06-01T12:00:23.256Z
+date: 2020-06-01T12:02:01.419Z
 tags: 
 ---
 
@@ -47,6 +47,7 @@ ID | Requirement | Notes
 
 ```mermaid
 stateDiagram
+  [*] --> GitHub
 	GitHub --> PullRequest
 	PullRequest --> CodeReview
 	CodeReview --> PullRequest
@@ -63,6 +64,7 @@ stateDiagram
   BSArch --> zipfile
   zipfile --> Artifacts
   Artifacts --> Testing
+  Testing --> [*]
   Artifacts --> Releases
   Artifacts --> NexusMods
 ```
