@@ -2,11 +2,39 @@
 title: Pyro Workflows
 description: 
 published: true
-date: 2020-06-01T11:46:50.016Z
+date: 2020-06-01T11:58:48.397Z
 tags: 
 ---
 
+# Local Build
+
+In the local build workflow, you drag-and-drop the PPJ onto the Pyro executable, pass the path to the PPJ to Pyro using the command line, or run Pyro directly from PyCharm. Simple!
+
+## Requirements
+
+ID | Requirement | Notes
+:--- | :--- | :--- 
+`Pyro` | Pyro | Latest binaries, or cloned repo
+`PapyrusCompiler` | Installed Game | TESV, SSE, and FO4 all have a `Papyrus Compiler` folder that contains the necessary binaries. You will also need the `Data\Scripts\Source` folder and its contents, so you will need to install the Creation Kit for each game.
+`PapyrusAssembler` | Installed Game | Same as above.
+`NexusMods` | NexusMods Account | You need a NexusMods account to upload files.
+
+## Workflow Diagram
+
+```mermaid
+stateDiagram
+	PapyrusProject --> Pyro
+	Pyro --> PapyrusCompiler
+  PapyrusCompiler --> PapyrusAssembler
+  Pyro --> BSArch
+  PapyrusAssembler --> zipfile
+  BSArch --> zipfile
+  zipfile --> NexusMods
+```
+
 # GitHub Actions
+
+This workflow is entirely theoretical and has not been tested.
 
 ## Requirements
 
@@ -25,7 +53,9 @@ stateDiagram
 	CodeReview --> Actions
   Actions --> VirtualMachine
   FileServer --> VirtualMachine
-  VirtualMachine --> Pyro
+  Python --> VirtualMachine
+  VirtualMachine --> PapyrusProject
+  PapyrusProject --> Pyro
 	Pyro --> PapyrusCompiler
   PapyrusCompiler --> PapyrusAssembler
   Pyro --> BSArch
