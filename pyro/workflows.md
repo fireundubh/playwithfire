@@ -2,7 +2,7 @@
 title: Pyro Workflows
 description: 
 published: true
-date: 2020-06-01T12:02:01.419Z
+date: 2020-06-01T12:02:34.445Z
 tags: 
 ---
 
@@ -23,6 +23,7 @@ ID | Requirement | Notes
 
 ```mermaid
 stateDiagram
+  [*] --> PapyrusProject
 	PapyrusProject --> Pyro
 	Pyro --> PapyrusCompiler
   PapyrusCompiler --> PapyrusAssembler
