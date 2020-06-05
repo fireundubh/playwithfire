@@ -2,7 +2,7 @@
 title: Continuous Integration with Test Automation
 description: 
 published: true
-date: 2020-06-05T10:25:54.565Z
+date: 2020-06-05T10:37:06.972Z
 tags: 
 ---
 
@@ -25,24 +25,23 @@ stateDiagram
 	GitHub --> PullRequest
 	PullRequest --> CodeReview
 	CodeReview --> PullRequest
-	CodeReview --> Actions
+	CodeReview --> Actions: PR Approved
   Actions --> VirtualMachine
   FileServer --> VirtualMachine
   Python --> VirtualMachine
   VirtualMachine --> PapyrusProject
   PapyrusProject --> Pyro
   Pyro --> PapyrusLinter
-  PapyrusLinter --> [*]
-	PapyrusLinter --> PapyrusCompiler
+  PapyrusLinter --> [*]: Tests Failed
+	PapyrusLinter --> PapyrusCompiler: Tests Passed
   PapyrusCompiler --> PapyrusAssembler
   Pyro --> BSArch
   PapyrusAssembler --> zipfile
   BSArch --> zipfile
   zipfile --> Artifacts
   Artifacts --> TestRunner
-  TestRunner --> [*]
-  TestRunner --> Testing
+  TestRunner --> Releases: Tests Passed
+  TestRunner --> Testing: Tests Failed
   Testing --> [*]
-  Artifacts --> Releases
   Releases --> NexusMods
 ```
