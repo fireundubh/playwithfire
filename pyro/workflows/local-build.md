@@ -2,7 +2,7 @@
 title: Local Build
 description: 
 published: true
-date: 2020-06-05T10:21:32.430Z
+date: 2020-06-05T10:44:35.706Z
 tags: 
 ---
 
@@ -34,6 +34,7 @@ stateDiagram
   Pyro --> BSArch
   PapyrusAssembler --> zipfile
   BSArch --> zipfile
-  zipfile --> NexusMods
-  NexusMods --> [*]
+  zipfile --> Testing
+  Testing --> [*]: Tests Failed
+  Testing --> NexusMods: Tests Passed
 ```
