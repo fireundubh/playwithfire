@@ -2,7 +2,7 @@
 title: Continuous Integration with Test Automation
 description: 
 published: true
-date: 2020-06-05T10:37:06.972Z
+date: 2020-06-05T10:39:06.360Z
 tags: 
 ---
 
@@ -43,5 +43,5 @@ stateDiagram
   TestRunner --> Releases: Tests Passed
   TestRunner --> Testing: Tests Failed
   Testing --> [*]
-  Releases --> NexusMods
+  Releases --> NexusMods: Release Approved
 ```
