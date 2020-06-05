@@ -2,7 +2,7 @@
 title: Continuous Integration
 description: 
 published: true
-date: 2020-06-05T10:23:28.482Z
+date: 2020-06-05T10:41:51.887Z
 tags: 
 ---
 
@@ -25,7 +25,7 @@ stateDiagram
 	GitHub --> PullRequest
 	PullRequest --> CodeReview
 	CodeReview --> PullRequest
-	CodeReview --> Actions
+	CodeReview --> Actions: PR Approved
   Actions --> VirtualMachine
   FileServer --> VirtualMachine
   Python --> VirtualMachine
@@ -38,7 +38,7 @@ stateDiagram
   BSArch --> zipfile
   zipfile --> Artifacts
   Artifacts --> Testing
-  Testing --> [*]
-  Artifacts --> Releases
-  Artifacts --> NexusMods
+  Testing --> [*]: Tests Failed
+  Testing --> Releases: Tests Passed
+  Releases --> NexusMods: Release Approved
 ```
