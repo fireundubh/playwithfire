@@ -2,7 +2,7 @@
 title: Master of Disguise
 description: 
 published: true
-date: 2020-07-10T14:15:41.257Z
+date: 2020-07-10T14:23:08.019Z
 tags: 
 editor: markdown
 ---
@@ -155,6 +155,7 @@ To wear most disguises, the player will need to equip faction armor in only the 
 ## Special Requirements
 
 > **Tip:** Items that satisfy these requirements can be found on the respective faction members.
+{.is-info}
 
 * The player must wear the Ring of the Silver Hand to infiltrate the Silver Hand.
 * The player must wear the Vigilant's Amulet of Stendarr to infiltrate the Vigil of Stendarr.
