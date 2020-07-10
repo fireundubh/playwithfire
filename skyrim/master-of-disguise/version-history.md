@@ -2,9 +2,35 @@
 title: Version History
 description: 
 published: true
-date: 2020-03-19T02:42:57.542Z
+date: 2020-07-10T14:07:14.785Z
 tags: 
+editor: markdown
 ---
+
+# Version 1.5.0 (in development)
+
+## SKSE
+
+> **Important:** Master of Disguise SSE v1.5 requires SKSE. SSE v1.5.39.0 is no longer the required minimum game version. Individual slot formlists are no longer required for extension patches.
+
+## Major Changes
+
+### Rules
+
+- Only one disguise can be active at any time
+- Restored Field of View penalties (clear, distorted, peripheral)
+- Field of View and Line of Sight penalties affect NPC dice roll, instead of player skill weight
+- MCM: Added Line of Sight penalties (mid, far)
+- MCM: Renamed Field of View and Line of Sight headings accordingly
+
+### Performance
+
+- Increased rate at which disguises are detected when equipped and unequipped
+- Increased rate at which equipment weight on discovery roll is calculated
+
+## Fixes
+
+- Fixed issue where some disguises could not deactivate
 
 # Version 1.4.2
 
