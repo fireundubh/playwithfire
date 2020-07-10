@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-07-10T14:07:14.785Z
+date: 2020-07-10T14:10:37.283Z
 tags: 
 editor: markdown
 ---
@@ -27,6 +27,8 @@ editor: markdown
 
 - Increased rate at which disguises are detected when equipped and unequipped
 - Increased rate at which equipment weight on discovery roll is calculated
+- Increased rate at which race weight on discovery roll is calculated
+- Increased rate at which damage sources are checked against excluded damage sources formlist
 
 ## Fixes
 
