@@ -2,16 +2,20 @@
 title: Version History
 description: 
 published: true
-date: 2020-07-10T14:10:37.283Z
+date: 2020-07-10T14:17:59.733Z
 tags: 
 editor: markdown
 ---
 
 # Version 1.5.0 (in development)
 
-## SKSE
+## Requirements Changes
 
-> **Important:** Master of Disguise SSE v1.5 requires SKSE. SSE v1.5.39.0 is no longer the required minimum game version. Individual slot formlists are no longer required for extension patches.
+Master of Disguise SSE v1.5 requires SKSE.
+
+> &bull; Skyrim Special Edition v1.5.39.0 is no longer the required minimum game version.
+> &bull; Individual slot formlists are no longer required for extension patches.
+{.is-warning}
 
 ## Major Changes
 
@@ -38,7 +42,8 @@ editor: markdown
 
 - You can disable automatic faction updates directly from the "Master of Disguise is ready" message box by clicking "Confirm and Disable Auto Update."
 
-> **Important:** As in v1.4.1, if you later install mods that change faction relationships, or if faction NPCs are ignoring your disguise, you should re-enable this setting, save, and reload that save to update faction relations again. This is your responsibility.
+> As in v1.4.1, if you later install mods that change faction relationships, or if faction NPCs are ignoring your disguise, you should re-enable this setting, save, and reload that save to update faction relations again. This is your responsibility.
+{.is-warning}
 
 - You can toggle whether guards are hostile to the player while in the Dark Brotherhood disguise using the "Guards vs. Dark Brotherhood Disguise" option.
 - You can toggle whether guards are hostile to the player while in the Thieves Guild disguise using the "Guards vs. Thieves Guild Disguise" option.
@@ -52,7 +57,8 @@ editor: markdown
 
 - A setting has been added to the Advanced menu that allows you to disable automatic faction updates (i.e., Factions Update Auto Run.) After updating once, you can toggle this setting, save, and when loading that save, you will not see the update message box again.
 
-> **Important:** If you later install mods that change faction relationships, or if faction NPCs are ignoring your disguise, you should re-enable this setting, save, and reload that save to update faction relations again. This is your responsibility.
+> If you later install mods that change faction relationships, or if faction NPCs are ignoring your disguise, you should re-enable this setting, save, and reload that save to update faction relations again. This is your responsibility.
+{.is-warning}
 
 - Your Speech(craft) skill is now considered when calculating your skill score and its weight on the effectiveness of your disguise.
 
