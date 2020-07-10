@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-07-10T14:17:59.733Z
+date: 2020-07-10T14:26:09.993Z
 tags: 
 editor: markdown
 ---
@@ -33,6 +33,10 @@ Master of Disguise SSE v1.5 requires SKSE.
 - Increased rate at which equipment weight on discovery roll is calculated
 - Increased rate at which race weight on discovery roll is calculated
 - Increased rate at which damage sources are checked against excluded damage sources formlist
+
+### Localization
+
+- Added localization support (`.STRINGS`, `.DLSTRINGS`, `.ILSTRINGS`)
 
 ## Fixes
 
