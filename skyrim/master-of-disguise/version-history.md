@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-07-10T14:26:09.993Z
+date: 2020-07-11T06:49:02.311Z
 tags: 
 editor: markdown
 ---
@@ -41,6 +41,7 @@ Master of Disguise SSE v1.5 requires SKSE.
 ## Fixes
 
 - Fixed issue where some disguises could not deactivate
+- Fixed issue where the Bandit and Silver Hand disguises were not mutually exclusive
 
 # Version 1.4.2
 
