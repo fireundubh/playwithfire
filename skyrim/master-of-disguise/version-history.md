@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-07-11T06:49:02.311Z
+date: 2020-07-12T08:57:23.945Z
 tags: 
 editor: markdown
 ---
@@ -18,6 +18,17 @@ Master of Disguise SSE v1.5 requires SKSE.
 {.is-warning}
 
 ## Major Changes
+
+### Initialization
+
+> In v1.4, Master of Disguise removed direct faction edits and introduced a faction relations updater to set up disguises at runtime, in exchange for greater intermod compatibility. This was achieved by programmatically modifying faction relations.
+> 
+> Unfortunately, nearly 500 calls to the `SetAlly` and `SetEnemy` functions were required, and that many calls carried a significant initialization time penalty.
+{.is-info}
+
+In v1.5, the time to complete updating faction relations has been significantly reduced. Instead of updating *all* factions at once, only faction relations relevant to a disguise will be updated when that disguise is equipped. This update will occur only once per disguise in a playthrough.
+
+To be clear, the faction relations updater has not been removed but now only updates faction relations for intermod compatibility. Furthermore, because there are few such relations that need to be updated at this stage, players will no longer be prompted.
 
 ### Rules
 
