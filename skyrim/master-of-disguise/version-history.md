@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-07-12T09:55:07.867Z
+date: 2020-07-15T15:46:28.406Z
 tags: 
 editor: markdown
 ---
@@ -46,6 +46,14 @@ To be clear, the faction relations updater has not been removed but now only upd
 ### Localization
 
 - Added localization support (`.STRINGS`, `.DLSTRINGS`, `.ILSTRINGS`)
+
+### Guard Disguises
+
+> These features may not release with v1.5 depending on whether they work.
+{.is-warning}
+
+- Guard disguises can be used to escape jail without penalties
+- Guard disguises can be used to conceal crimes in their associated holds
 
 ## Fixes
 
