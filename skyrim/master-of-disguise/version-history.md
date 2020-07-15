@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-07-15T15:46:28.406Z
+date: 2020-07-15T15:48:13.379Z
 tags: 
 editor: markdown
 ---
@@ -49,11 +49,11 @@ To be clear, the faction relations updater has not been removed but now only upd
 
 ### Guard Disguises
 
-> These features may not release with v1.5 depending on whether they work.
+> These features may not release with v1.5 depending on whether they work. (Check marks indicate whether the feature has been implemented.)
 {.is-warning}
 
-- Guard disguises can be used to escape jail without penalties
-- Guard disguises can be used to conceal crimes in their associated holds
+- [X] Guard disguises can be used to escape jail without penalties
+- [ ] Guard disguises can be used to conceal crimes in their associated holds
 
 ## Fixes
 
