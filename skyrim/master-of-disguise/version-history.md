@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-07-15T15:48:13.379Z
+date: 2020-07-19T13:36:11.246Z
 tags: 
 editor: markdown
 ---
@@ -16,6 +16,8 @@ Master of Disguise SSE v1.5 requires SKSE.
 > &bull; Skyrim Special Edition v1.5.39.0 is no longer the required minimum game version.
 > &bull; Individual slot formlists are no longer required for extension patches.
 {.is-warning}
+
+In addition, an **experimental** version of Master of Disguise SSE v1.5 will require a custom "SKSE" (CommonLibSSE) plugin that vastly improves performance across the board.
 
 ## Major Changes
 
