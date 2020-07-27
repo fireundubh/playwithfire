@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-07-27T23:59:08.652Z
+date: 2020-07-27T23:59:48.881Z
 tags: 
 editor: markdown
 ---
@@ -19,11 +19,17 @@ Master of Disguise SSE v1.5 requires SKSE, as well as the TurtleClub and Mathf p
 
 ### SKSE Plugin: TurtleClub
 
-TurtleClub is an SKSE plugin that performs heavy lifting for Master of Disguise's computationally expensive features. Plugin to be available when Master of Disguise SSE v1.5 is released.
+> Plugin to be available when Master of Disguise SSE v1.5 is released.
+{.is-info}
+
+TurtleClub is an SKSE plugin that performs heavy lifting for Master of Disguise's computationally expensive features.
 
 ### SKSE Plugin: Mathf
 
-Mathf is an SKSE plugin that performs many convenient math operations (e.g., min, max, clamp.) Plugin to be available when Master of Disguise SSE v1.5 is released.
+> Plugin to be available when Master of Disguise SSE v1.5 is released.
+{.is-info}
+
+Mathf is an SKSE plugin that performs many convenient math operations (e.g., min, max, clamp.)
 
 ## Major Changes
 
