@@ -2,22 +2,28 @@
 title: Version History
 description: 
 published: true
-date: 2020-07-19T13:36:11.246Z
+date: 2020-07-27T23:59:08.652Z
 tags: 
 editor: markdown
 ---
 
 # Version 1.5.0 (in development)
 
-## Requirements Changes
+## Requirements
 
-Master of Disguise SSE v1.5 requires SKSE.
+Master of Disguise SSE v1.5 requires SKSE, as well as the TurtleClub and Mathf plugins.
 
 > &bull; Skyrim Special Edition v1.5.39.0 is no longer the required minimum game version.
 > &bull; Individual slot formlists are no longer required for extension patches.
 {.is-warning}
 
-In addition, an **experimental** version of Master of Disguise SSE v1.5 will require a custom "SKSE" (CommonLibSSE) plugin that vastly improves performance across the board.
+### SKSE Plugin: TurtleClub
+
+TurtleClub is an SKSE plugin that performs heavy lifting for Master of Disguise's computationally expensive features. Plugin to be available when Master of Disguise SSE v1.5 is released.
+
+### SKSE Plugin: Mathf
+
+Mathf is an SKSE plugin that performs many convenient math operations (e.g., min, max, clamp.) Plugin to be available when Master of Disguise SSE v1.5 is released.
 
 ## Major Changes
 
@@ -30,20 +36,31 @@ In v1.5, the time to complete updating faction relations has been significantly 
 
 To be clear, the faction relations updater has not been removed but now only updates faction relations for intermod compatibility. Furthermore, because there are few such relations that need to be updated at this stage, players will no longer be prompted.
 
+
+### Balance
+
+Significantly rebalanced difficulty by adjusting LOS and FOV penalties to NPC dice roll. If the player rolls a perfect score against the NPC (e.g., full disguise, max skill, race bonus, ideal conditions), the player will have an 94% average chance to escape discovery.
+
+Player Score | Avg. Success Chance | Dice Rolls
+:--- | :--- | :---
+0.00 | 0% chance to escape discovery | 1,000,000
+0.25 | ~33% | 1,000,000
+0.50 | ~66% | 1,000,000
+0.75 | ~83% | 1,000,000
+1.00 | ~94% | 1,000,000
+
+
 ### Rules
 
-- Only one disguise can be active at any time
 - Restored Field of View penalties (clear, distorted, peripheral)
 - Field of View and Line of Sight penalties affect NPC dice roll, instead of player skill weight
 - MCM: Added Line of Sight penalties (mid, far)
 - MCM: Renamed Field of View and Line of Sight headings accordingly
+- Several disguises can be equipped if each disguise has a different essential slot
 
 ### Performance
 
-- Increased rate at which disguises are detected when equipped and unequipped
-- Increased rate at which equipment weight on discovery roll is calculated
-- Increased rate at which race weight on discovery roll is calculated
-- Increased rate at which damage sources are checked against excluded damage sources formlist
+- Significantly improved performance and responsiveness across the board
 
 ### Localization
 
