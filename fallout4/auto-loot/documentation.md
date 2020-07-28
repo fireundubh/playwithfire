@@ -2,7 +2,7 @@
 title: Auto Loot Documentation
 description: 
 published: true
-date: 2020-07-28T16:18:52.815Z
+date: 2020-07-28T16:24:20.889Z
 tags: 
 editor: markdown
 ---
@@ -23,9 +23,9 @@ Main Menu | From the **Main Menu**, you can pause/resume enabled filters. You ca
 Radius | From the **Radius** menu, you can set a global radius for All filters, or you can define the radius for each filter.
 Filters | From the Filters menu, you can enable and disable filters for all supported item types.
 Destinations | From the **Rules>Destinations** submenu, you can define the **rules** for all or individual filters. If a filter is set to loot to a workshop, from the **Rules>Filters** submenu, you can select which workshop.
-Ownership | From this menu, you can toggle crime-related settings:<br><br>&bull; Auto Lockpick<br>&bull; Auto Steal<br>&bull; Auto Steal Reaction
+Ownership | From this menu, you can toggle crime-related settings:<br><br>&bull; **Auto Lockpick**: Auto Loot can automatically pick locks, yielding XP and loot from locked containers.<br>&bull; **Auto Steal**: Auto Loot can steal owned loot.<br>&bull; **Auto Steal Reaction**: Auto Loot can steal owned loot without triggering combat.
 Advanced | From this menu, you can toggle miscellaneous settings:<br><br>&bull; Filter Mode<br>&bull; Loot Notifications<br>&bull; Loot Settlements<br>&bull; Loot Only Actors Killed by Player<br>&bull; Removed Bodies on Loot
-Debug | From this menu, you can access debug options:<br><br>&bull; Retrieve lost items if they exist
+Debug | From this menu, you can access debug options:<br><br>&bull; **Retrieve lost items if they exist**: Auto Loot sends items to off-stage dummy actors who then send their items to a destination. If loot appears to be missing, there is a remote, nearly impossible chance that those items are "backed up" on those off-stage dummy actors. Triggering this option will force them to send their items to the configured destination.
 
 
 # Pause/Resume
