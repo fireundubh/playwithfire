@@ -2,22 +2,30 @@
 title: Auto Loot Documentation
 description: 
 published: true
-date: 2020-07-28T16:07:03.590Z
+date: 2020-07-28T16:18:52.815Z
 tags: 
 editor: markdown
 ---
 
 # Holotape Menu Guide
 
+## Glossary
+
+- **Destination**: A container where items will be stored; can be either the player or a workshop
+- **Filter**: A collection of items categorized by type
+- **Radius**: Area around the player to be searched, measured in Bethesda units. 128 units is the height of a normal humanoid actor whereas 4096 is the length of a cell.
+
+## Menu Descriptions
+
 Menu Name | Description
 :--- | :---
 Main Menu | From the **Main Menu**, you can pause/resume enabled filters. You can also find your way to the Radius, Filters, Destinations, Ownership, Advanced Settings, and Debug Menu submenus.
-Radius | A **radius** is the area around the player that Auto Loot will search for items. From the **Radius** menu, you can set a single radius for All filters, or you can define the radius for each filter.
-Filters | A **filter** loots specific types of items. From the Filters menu, you can enable and disable filters for all supported item types.
-Destinations | A **destination** is where looted items will be stored. A destination can be either the player or a workshop.<br><br>From the **Rules>Destinations** submenu, you can define the **rules** for all or individual filters.<br><br>If a filter is set to loot to a workshop, from the **Rules>Filters** submenu, you can select which workshop.
+Radius | From the **Radius** menu, you can set a global radius for All filters, or you can define the radius for each filter.
+Filters | From the Filters menu, you can enable and disable filters for all supported item types.
+Destinations | From the **Rules>Destinations** submenu, you can define the **rules** for all or individual filters. If a filter is set to loot to a workshop, from the **Rules>Filters** submenu, you can select which workshop.
 Ownership | From this menu, you can toggle crime-related settings:<br><br>&bull; Auto Lockpick<br>&bull; Auto Steal<br>&bull; Auto Steal Reaction
-Advanced Settings | From this menu, you can toggle miscellaneous settings:<br><br>&bull; Filter Mode<br>&bull; Loot Notifications<br>&bull; Loot Settlements<br>&bull; Loot Only Actors Killed by Player<br>&bull; Removed Bodies on Loot
-Debug Menu | From this menu, you can access debug options:<br><br>&bull; Retrieve lost items if they exist
+Advanced | From this menu, you can toggle miscellaneous settings:<br><br>&bull; Filter Mode<br>&bull; Loot Notifications<br>&bull; Loot Settlements<br>&bull; Loot Only Actors Killed by Player<br>&bull; Removed Bodies on Loot
+Debug | From this menu, you can access debug options:<br><br>&bull; Retrieve lost items if they exist
 
 
 # Pause/Resume
