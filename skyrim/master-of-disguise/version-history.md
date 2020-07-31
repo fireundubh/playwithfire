@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-07-27T23:59:48.881Z
+date: 2020-07-31T21:04:11.373Z
 tags: 
 editor: markdown
 ---
@@ -17,6 +17,9 @@ Master of Disguise SSE v1.5 requires SKSE, as well as the TurtleClub and Mathf p
 > &bull; Individual slot formlists are no longer required for extension patches.
 {.is-warning}
 
+Any extension patches created by third parties will need to be updated.
+
+
 ### SKSE Plugin: TurtleClub
 
 > Plugin to be available when Master of Disguise SSE v1.5 is released.
@@ -24,12 +27,15 @@ Master of Disguise SSE v1.5 requires SKSE, as well as the TurtleClub and Mathf p
 
 TurtleClub is an SKSE plugin that performs heavy lifting for Master of Disguise's computationally expensive features.
 
+
 ### SKSE Plugin: Mathf
 
 > Plugin to be available when Master of Disguise SSE v1.5 is released.
+> **Source Code:** [https://github.com/fireundubh/Mathf](https://github.com/fireundubh/Mathf)
 {.is-info}
 
 Mathf is an SKSE plugin that performs many convenient math operations (e.g., min, max, clamp.)
+
 
 ## Major Changes
 
@@ -45,7 +51,7 @@ To be clear, the faction relations updater has not been removed but now only upd
 
 ### Balance
 
-Significantly rebalanced difficulty by adjusting LOS and FOV penalties to NPC dice roll. If the player rolls a perfect score against the NPC (e.g., full disguise, max skill, race bonus, ideal conditions), the player will have an 94% average chance to escape discovery.
+- Significantly rebalanced difficulty by adjusting LOS and FOV penalties to NPC dice roll. If the player rolls a perfect score against the NPC &mdash; a perfect score is only achievable with a full disguise, max skill, race bonus, and ideal conditions &mdash; the player will have an 94% average success chance.
 
 Player Score | Avg. Success Chance | Dice Rolls
 :--- | :--- | :---
@@ -58,21 +64,19 @@ Player Score | Avg. Success Chance | Dice Rolls
 
 ### Rules
 
+- Several disguises can be equipped if each disguise has a different essential slot
 - Restored Field of View penalties (clear, distorted, peripheral)
 - Field of View and Line of Sight penalties affect NPC dice roll, instead of player skill weight
 - MCM: Added Line of Sight penalties (mid, far)
 - MCM: Renamed Field of View and Line of Sight headings accordingly
-- Several disguises can be equipped if each disguise has a different essential slot
 
-### Performance
 
-- Significantly improved performance and responsiveness across the board
+#### Thieves Guild Disguise
 
-### Localization
+- While your nonviolent bounty is less than the threshold (1000), guards (who would otherwise be hostile) will not immediately become hostile; instead, your nonviolent bounty will increase by 10% when you lose the dice roll. Once you pass the threshold, they will become violent.
 
-- Added localization support (`.STRINGS`, `.DLSTRINGS`, `.ILSTRINGS`)
 
-### Guard Disguises
+#### Guard Disguises
 
 > These features may not release with v1.5 depending on whether they work. (Check marks indicate whether the feature has been implemented.)
 {.is-warning}
@@ -80,10 +84,14 @@ Player Score | Avg. Success Chance | Dice Rolls
 - [X] Guard disguises can be used to escape jail without penalties
 - [ ] Guard disguises can be used to conceal crimes in their associated holds
 
-## Fixes
 
+### Fixes/Performance
+
+- Significantly improved performance and responsiveness across the board
+- Added localization support (`.STRINGS`, `.DLSTRINGS`, `.ILSTRINGS`)
 - Fixed issue where some disguises could not deactivate
 - Fixed issue where the Bandit and Silver Hand disguises were not mutually exclusive
+
 
 # Version 1.4.2
 
@@ -100,6 +108,7 @@ Player Score | Avg. Success Chance | Dice Rolls
 - The "Factions Update Auto Run" menu label on the Advanced page was renamed "Auto Update Factions."
 - The currently disabled crime tracker was moved to its own page.
 
+
 # Version 1.4.1
 
 - A setting has been added to the Advanced menu that allows you to disable automatic faction updates (i.e., Factions Update Auto Run.) After updating once, you can toggle this setting, save, and when loading that save, you will not see the update message box again.
@@ -108,6 +117,7 @@ Player Score | Avg. Success Chance | Dice Rolls
 {.is-warning}
 
 - Your Speech(craft) skill is now considered when calculating your skill score and its weight on the effectiveness of your disguise.
+
 
 # Version 1.4
 
