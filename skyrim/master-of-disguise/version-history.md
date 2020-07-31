@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-07-31T21:04:11.373Z
+date: 2020-07-31T21:05:07.196Z
 tags: 
 editor: markdown
 ---
@@ -51,7 +51,7 @@ To be clear, the faction relations updater has not been removed but now only upd
 
 ### Balance
 
-- Significantly rebalanced difficulty by adjusting LOS and FOV penalties to NPC dice roll. If the player rolls a perfect score against the NPC &mdash; a perfect score is only achievable with a full disguise, max skill, race bonus, and ideal conditions &mdash; the player will have an 94% average success chance.
+- Rebalanced difficulty by adjusting LOS and FOV penalties to NPC dice roll. If the player rolls a perfect score against the NPC &mdash; a perfect score is only achievable with a full disguise, max skill, race bonus, and ideal conditions &mdash; the player will have an 94% average success chance.
 
 Player Score | Avg. Success Chance | Dice Rolls
 :--- | :--- | :---
@@ -87,7 +87,7 @@ Player Score | Avg. Success Chance | Dice Rolls
 
 ### Fixes/Performance
 
-- Significantly improved performance and responsiveness across the board
+- Significantly improved performance and responsiveness to player actions
 - Added localization support (`.STRINGS`, `.DLSTRINGS`, `.ILSTRINGS`)
 - Fixed issue where some disguises could not deactivate
 - Fixed issue where the Bandit and Silver Hand disguises were not mutually exclusive
