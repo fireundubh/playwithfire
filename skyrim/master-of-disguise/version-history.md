@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-08-02T22:09:05.540Z
+date: 2020-08-02T22:17:22.190Z
 tags: 
 editor: markdown
 ---
@@ -79,6 +79,11 @@ Player Score | Avg. Success Chance | Dice Rolls
 - Fixed issue where some disguises could not deactivate
 - Fixed issue where the Bandit and Silver Hand disguises were not mutually exclusive
 
+
+## Known Issues
+
+- **Intended.** When items belonging to mutually exclusive disguises are equipped, only the first equipped item will trigger a disguise update.
+- **Intended.** When that item is unequipped, the other item will not trigger a disguise update. You will need to re-equip the other item to activate that disguise.
 
 # Version 1.4.2
 
