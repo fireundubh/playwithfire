@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-07-31T21:05:07.196Z
+date: 2020-08-02T16:22:56.225Z
 tags: 
 editor: markdown
 ---
@@ -74,15 +74,6 @@ Player Score | Avg. Success Chance | Dice Rolls
 #### Thieves Guild Disguise
 
 - While your nonviolent bounty is less than the threshold (1000), guards (who would otherwise be hostile) will not immediately become hostile; instead, your nonviolent bounty will increase by 10% when you lose the dice roll. Once you pass the threshold, they will become violent.
-
-
-#### Guard Disguises
-
-> These features may not release with v1.5 depending on whether they work. (Check marks indicate whether the feature has been implemented.)
-{.is-warning}
-
-- [X] Guard disguises can be used to escape jail without penalties
-- [ ] Guard disguises can be used to conceal crimes in their associated holds
 
 
 ### Fixes/Performance
