@@ -2,14 +2,14 @@
 title: Version History
 description: 
 published: true
-date: 2020-08-02T22:02:03.101Z
+date: 2020-08-02T22:04:40.136Z
 tags: 
 editor: markdown
 ---
 
 # Version 1.5.0 (in development)
 
-## Requirements
+## Requirements Changes
 
 Master of Disguise SSE v1.5 requires SKSE, as well as the TurtleClub and Mathf plugins.
 
@@ -71,7 +71,7 @@ Player Score | Avg. Success Chance | Dice Rolls
 - MCM: Renamed Field of View and Line of Sight headings accordingly
 
 
-### Disguise Changes
+### Disguises
 
 - **Daedra Worshipper:** Removed Ancient Nord, Draugr, and Dragon Priest items
 - **Thieves Guild:** While your nonviolent bounty is less than the threshold (1000), guards (who would otherwise be hostile) will not immediately become hostile; instead, your nonviolent bounty will increase by 10% when you lose the dice roll. Once you pass the threshold, they will become violent.
