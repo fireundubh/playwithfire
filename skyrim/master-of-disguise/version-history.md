@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-08-02T22:04:40.136Z
+date: 2020-08-02T22:09:05.540Z
 tags: 
 editor: markdown
 ---
@@ -41,17 +41,14 @@ Mathf is an SKSE plugin that performs many convenient math operations (e.g., min
 
 ### Initialization
 
-> In v1.4, Master of Disguise removed direct faction edits and introduced a faction relations updater to set up disguises at runtime, in exchange for greater intermod compatibility. Unfortunately, nearly 500 calls to the `SetAlly` and `SetEnemy` functions were required, and that many calls carried a significant initialization time penalty.
-{.is-info}
-
-In v1.5, the time to complete updating faction relations has been significantly reduced. Instead of updating *all* factions at once, only faction relations relevant to a disguise will be updated when that disguise is equipped. This update will occur only once per disguise in a playthrough.
-
-To be clear, the faction relations updater has not been removed but now only updates faction relations for intermod compatibility. Furthermore, because there are few such relations that need to be updated at this stage, players will no longer be prompted.
+- Significantly improved time to initialize by updating faction relations on demand
+- Removed faction relations update prompt
+- Removed option to disable updating faction relations
 
 
 ### Balance
 
-- Rebalanced difficulty by adjusting LOS and FOV penalties to NPC dice roll. If the player rolls a perfect score against the NPC &mdash; a perfect score is only achievable with a full disguise, max skill, race bonus, and ideal conditions &mdash; the player will have an 94% average success chance.
+Rebalanced difficulty by adjusting LOS and FOV penalties to NPC dice roll. (If the player rolls a perfect score against the NPC &mdash; a perfect score is only achievable with a full disguise, max skill, race bonus, and ideal conditions &mdash; the player will have an 94% average success chance.)
 
 Player Score | Avg. Success Chance | Dice Rolls
 :--- | :--- | :---
@@ -64,11 +61,9 @@ Player Score | Avg. Success Chance | Dice Rolls
 
 ### Rules
 
-- Several disguises can be equipped if each disguise has a different essential slot
+- Several disguises can be equipped when each disguise has a different essential slot
 - Restored Field of View penalties (clear, distorted, peripheral)
 - Field of View and Line of Sight penalties affect NPC dice roll, instead of player skill weight
-- MCM: Added Line of Sight penalties (mid, far)
-- MCM: Renamed Field of View and Line of Sight headings accordingly
 
 
 ### Disguises
