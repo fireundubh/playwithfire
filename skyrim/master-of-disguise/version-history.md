@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-08-02T16:22:56.225Z
+date: 2020-08-02T22:02:03.101Z
 tags: 
 editor: markdown
 ---
@@ -71,9 +71,10 @@ Player Score | Avg. Success Chance | Dice Rolls
 - MCM: Renamed Field of View and Line of Sight headings accordingly
 
 
-#### Thieves Guild Disguise
+### Disguise Changes
 
-- While your nonviolent bounty is less than the threshold (1000), guards (who would otherwise be hostile) will not immediately become hostile; instead, your nonviolent bounty will increase by 10% when you lose the dice roll. Once you pass the threshold, they will become violent.
+- **Daedra Worshipper:** Removed Ancient Nord, Draugr, and Dragon Priest items
+- **Thieves Guild:** While your nonviolent bounty is less than the threshold (1000), guards (who would otherwise be hostile) will not immediately become hostile; instead, your nonviolent bounty will increase by 10% when you lose the dice roll. Once you pass the threshold, they will become violent.
 
 
 ### Fixes/Performance
