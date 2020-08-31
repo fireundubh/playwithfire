@@ -2,14 +2,14 @@
 title: Version History
 description: 
 published: true
-date: 2020-08-31T22:55:07.204Z
+date: 2020-08-31T22:57:08.787Z
 tags: 
 editor: markdown
 ---
 
 # Version 1.5.1 (Hotfix)
 
-- Fixed issue where SKSE plugins Mathf and TurtleClub were compiled in debug mode, which requires Visual Studio to be installed (oops!)
+- Fixed issue where SKSE plugins Mathf and TurtleClub were compiled in debug mode, which requires Visual Studio to be installed (resolves "dependency DLL could not be found" errors)
 - Fixed issue where welcome/tutorial messages were shown for every disguise item if the player equipped several disguise items at once
 
 
