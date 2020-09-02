@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-08-31T22:57:08.787Z
+date: 2020-09-02T04:14:37.546Z
 tags: 
 editor: markdown
 ---
@@ -28,7 +28,7 @@ Any extension patches created by third parties will need to be updated.
 
 ### SKSE Plugin: TurtleClub
 
-> Plugin will be available sometime after Master of Disguise SSE v1.5 is released.
+> **Source Code:** [https://github.com/fireundubh/TurtleClub](https://github.com/fireundubh/TurtleClub)
 {.is-info}
 
 TurtleClub is an SKSE plugin that performs heavy lifting for Master of Disguise's computationally expensive features.
