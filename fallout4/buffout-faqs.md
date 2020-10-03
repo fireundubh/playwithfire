@@ -2,7 +2,7 @@
 title: Buffout 4 FAQs
 description: 
 published: true
-date: 2020-10-03T06:01:45.058Z
+date: 2020-10-03T06:02:57.129Z
 tags: 
 editor: markdown
 ---
@@ -34,11 +34,11 @@ If the game crashed and no crash log was generated, Buffout could not capture th
 
 You need a background in programming, debugging, and reverse engineering (RE). Specifically, you need to know assembly, C types, and be familiar with the stack concept. You must also have the tools and skills to load the executable; identify the involved subroutines, logic, and parameters; and statically analyze the stack trace to make your best guess at the error.
 
-There are no easy answers and therefore no easy explanations. There are many gotchas and exceptional cases that require hands-on investigation to rule out. Buffout's crash logs are not intended for most users; they are specifically for Ryan and anyone else in the RE community. 
+There are no easy answers and thus no easy explanations. There are many gotchas and exceptional cases that require hands-on investigation to rule out. Buffout's crash logs are not intended for most users; they are specifically for Ryan and anyone else in the RE community. 
 
 ## Should I post my crash log? My game is heavily modded.
 
-Yes. Always post your *entire* crash log. Please use spoiler tags or Pastebin.
+Yes. Always post your *entire* crash log. Please use spoiler tags or [Pastebin](https://pastebin.com).
 
 # Common Issues
 
