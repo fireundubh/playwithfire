@@ -2,7 +2,7 @@
 title: Buffout 4 FAQs
 description: 
 published: true
-date: 2020-10-03T06:03:20.456Z
+date: 2020-10-03T06:03:40.463Z
 tags: 
 editor: markdown
 ---
@@ -17,7 +17,7 @@ Buffout "fixes engine bugs and adds a crash logger to the game." [Here's a list 
 
 ## Who created Buffout?
 
-Buffout was created by Fudgyduff a.k.a. Ryan. It is [available on the Nexus](https://www.nexusmods.com/fallout4/mods/47359).
+Buffout was created by Fudgyduff a.k.a. Ryan. It is [available on the Nexus.](https://www.nexusmods.com/fallout4/mods/47359)
 
 ## Where do I find the crash logs?
 
