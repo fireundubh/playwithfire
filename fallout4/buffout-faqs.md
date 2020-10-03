@@ -2,7 +2,7 @@
 title: Buffout 4 FAQs
 description: 
 published: true
-date: 2020-10-03T06:17:30.422Z
+date: 2020-10-03T16:55:28.268Z
 tags: 
 editor: markdown
 ---
@@ -60,4 +60,4 @@ bNVFlexDrawDebris=0
 
 The `nvwgf2umx.dll` assembly belongs to the NVIDIA driver package. Most likely, you recently updated your video drivers. The `445` drivers appear to be the source of crashes in many games.
 
-Downgrade to the `441` series. You can find links to many older NVIDIA drivers [here.](https://github.com/keylase/nvidia-patch/tree/master/win)
+Downgrade to a pre-`445` series. You can find links to many older NVIDIA drivers [here.](https://github.com/keylase/nvidia-patch/tree/master/win)
