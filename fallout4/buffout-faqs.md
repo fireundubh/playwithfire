@@ -2,12 +2,22 @@
 title: Buffout 4 FAQs
 description: 
 published: true
-date: 2020-10-03T05:50:57.305Z
+date: 2020-10-03T06:01:45.058Z
 tags: 
 editor: markdown
 ---
 
+
+
 # Questions
+
+## What does Buffout do?
+
+Buffout "fixes engine bugs and adds a crash logger to the game." [Here's a list of fixes.](https://github.com/Ryan-rsm-McKenzie/Buffout4/blob/master/Buffout4.toml)
+
+## Who created Buffout?
+
+Buffout was created by Fudgyduff a.k.a. Ryan. It is [available on the Nexus](https://www.nexusmods.com/fallout4/mods/47359).
 
 ## Where do I find the crash logs?
 
