@@ -2,7 +2,7 @@
 title: Buffout 4 FAQs
 description: 
 published: true
-date: 2020-10-03T06:08:07.565Z
+date: 2020-10-03T06:11:50.630Z
 tags: 
 editor: markdown
 ---
@@ -53,7 +53,8 @@ bNVFlexInstanceDebris=0
 bNVFlexDrawDebris=0
 ```
 
-**Note:** In some cases, crashes not logged by Buffout can be traced to not having FleX disabled.
+> Some crashes not logged by Buffout can be traced to not having FleX disabled.
+{.is-info}
 
 ## nvwgf2umx.dll crashes
 
