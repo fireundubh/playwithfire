@@ -2,12 +2,10 @@
 title: Buffout 4 FAQs
 description: 
 published: true
-date: 2020-10-03T06:05:18.496Z
+date: 2020-10-03T06:08:07.565Z
 tags: 
 editor: markdown
 ---
-
-
 
 # Questions
 
@@ -21,11 +19,11 @@ Buffout was created by Fudgyduff a.k.a. Ryan. It is [available on the Nexus.](ht
 
 ## Where do I find the crash logs?
 
-In the `%USERPROFILE%\Documents\My Games\Fallout4\F4SE` folder, you should find `.log` files with the prefix `crash`.
+In `%USERPROFILE%\Documents\My Games\Fallout4\F4SE`, you should find `crash`-prefixed `.log` files.
 
 ## The game crashed, but I don't have any crash logs.
 
-If the game crashed and no crash log was generated, Buffout could not capture the exception - for a variety of reasons. There are two relatively easy things you can try:
+If the game crashed and no crash log was generated, Buffout could not capture the exception for any number of reasons. There are two relatively easy things you can try instead:
 
 1. Check the System log in the Windows Event Viewer for Error and Critical events whose timestamps coincide with the time the game crashed. If you have such events, these events may provide clues for further investigation.
 2. For more technical users, install [DebugDiag](https://www.microsoft.com/en-us/download/details.aspx?id=58210) from Microsoft. Create a crash rule for the `Fallout4.exe` process that logs the stack trace, activate the crash rule, and run the game until you crash. This will produce a detailed log that can be analyzed in DebugDiag and shared.
@@ -34,7 +32,7 @@ If the game crashed and no crash log was generated, Buffout could not capture th
 
 You need a background in programming, debugging, and reverse engineering (RE). Specifically, you need to know assembly, C types, and be familiar with the stack concept. You must also have the tools and skills to load the executable; identify the involved subroutines, logic, and parameters; and statically analyze the stack trace to make your best guess at the error.
 
-There are no easy answers and thus no easy explanations. There are many gotchas and exceptional cases that require hands-on investigation to rule out. Buffout's crash logs are not intended for most users; they are specifically for Ryan and anyone else in the RE community. 
+There are no easy answers and no easy explanations. There are many gotchas and exceptional cases that require a technical investigator to rule out. Buffout's crash logs are not intended for most users; they are specifically for Ryan and anyone else in the RE community. 
 
 ## Should I post my crash log? My game is heavily modded.
 
