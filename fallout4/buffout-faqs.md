@@ -2,7 +2,7 @@
 title: Buffout 4 FAQs
 description: 
 published: true
-date: 2020-10-03T06:02:57.129Z
+date: 2020-10-03T06:03:20.456Z
 tags: 
 editor: markdown
 ---
@@ -21,7 +21,7 @@ Buffout was created by Fudgyduff a.k.a. Ryan. It is [available on the Nexus](htt
 
 ## Where do I find the crash logs?
 
-In the `%USERPROFILE%\Documents\My Games\Fallout4\F4SE` folder, you should find `.log` files with the prefix `crash`. Those are the crash logs.
+In the `%USERPROFILE%\Documents\My Games\Fallout4\F4SE` folder, you should find `.log` files with the prefix `crash`.
 
 ## The game crashed, but I don't have any crash logs.
 
