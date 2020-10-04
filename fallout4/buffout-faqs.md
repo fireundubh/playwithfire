@@ -2,9 +2,10 @@
 title: Buffout 4 FAQs
 description: 
 published: true
-date: 2020-10-03T16:55:28.268Z
+date: 2020-10-04T11:25:56.907Z
 tags: 
 editor: markdown
+dateCreated: 2020-10-03T05:50:57.305Z
 ---
 
 # Questions
@@ -40,7 +41,7 @@ Yes. Always post your *entire* crash log. Please use spoiler tags or [Pastebin](
 
 # Common Issues
 
-## flexRelease_x64.dll crashes
+## flexRelease_x64.dll
 
 Fallout 4 implements a defunct version of [NVIDIA FleX](https://developer.nvidia.com/flex) for weapon debris and other particle effects.
 
@@ -56,8 +57,36 @@ bNVFlexDrawDebris=0
 > Some crashes not logged by Buffout can be traced to not having FleX disabled.
 {.is-info}
 
-## nvwgf2umx.dll crashes
+## nvwgf2umx.dll
 
 The `nvwgf2umx.dll` assembly belongs to the NVIDIA driver package. Most likely, you recently updated your video drivers. The `445` drivers appear to be the source of crashes in many games.
+
+These crashes usually have a probable call stack where `nvwgf2umx.dll` occupies the most recent 20 frames:
+
+```
+PROBABLE CALL STACK:
+	[ 0] 0x7FFE8A8A8682 nvwgf2umx.dll+0628682  // NVIDIA
+	[ 1] 0x7FFE8A8AA487 nvwgf2umx.dll+062A487  // NVIDIA
+	[ 2] 0x7FFE8A8AF786 nvwgf2umx.dll+062F786  // NVIDIA
+	[ 3] 0x7FFE8A8B2804 nvwgf2umx.dll+0632804  // NVIDIA
+	[ 4] 0x7FFE8A8B2C1A nvwgf2umx.dll+0632C1A  // NVIDIA
+	[ 5] 0x7FFE8A8B311D nvwgf2umx.dll+063311D  // NVIDIA
+	[ 6] 0x7FFE8A97D1C7 nvwgf2umx.dll+06FD1C7  // NVIDIA
+	[ 7] 0x7FFE8A7B3F73 nvwgf2umx.dll+0533F73  // NVIDIA
+	[ 8] 0x7FFE8A7B43BF nvwgf2umx.dll+05343BF  // NVIDIA
+	[ 9] 0x7FFE8A766EEF nvwgf2umx.dll+04E6EEF  // NVIDIA
+	[10] 0x7FFE8A7490FA nvwgf2umx.dll+04C90FA  // NVIDIA
+	[11] 0x7FFE8A2B7612 nvwgf2umx.dll+0037612  // NVIDIA
+	[12] 0x7FFE8A6367F0 nvwgf2umx.dll+03B67F0  // NVIDIA
+	[13] 0x7FFE8A3D4B2D nvwgf2umx.dll+0154B2D  // NVIDIA
+	[14] 0x7FFE8A38C139 nvwgf2umx.dll+010C139  // NVIDIA
+	[15] 0x7FFE8A2FB42D nvwgf2umx.dll+007B42D  // NVIDIA
+	[16] 0x7FFE8A615474 nvwgf2umx.dll+0395474  // NVIDIA
+	[17] 0x7FFE8A615242 nvwgf2umx.dll+0395242  // NVIDIA
+	[18] 0x7FFE8A712D47 nvwgf2umx.dll+0492D47  // NVIDIA
+	[19] 0x7FFE8B39FF1C nvwgf2umx.dll+111FF1C  // NVIDIA
+	[20] 0x7FFEC66A7BD4  KERNEL32.DLL+0017BD4  // Windows
+	[21] 0x7FFEC83ACE51     ntdll.dll+006CE51  // Windows
+```
 
 Downgrade to a pre-`445` series. You can find links to many older NVIDIA drivers [here.](https://github.com/keylase/nvidia-patch/tree/master/win)
