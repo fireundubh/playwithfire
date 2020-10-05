@@ -2,7 +2,7 @@
 title: Buffout 4 FAQs
 description: 
 published: true
-date: 2020-10-05T00:53:35.408Z
+date: 2020-10-05T01:14:30.379Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-03T05:50:57.305Z
@@ -20,13 +20,13 @@ Buffout was created by Fudgyduff a.k.a. Ryan. It is [available on the Nexus.](ht
 
 ## What is required to install Buffout?
 
-- [F4SE](https://f4se.silverlock.org)<br>Extract contents of `f4se_0_06_21` folder to folder containing `Fallout4.exe`
+- [F4SE](https://f4se.silverlock.org)<br>Extract contents of the `f4se_0_06_21` folder to the folder containing `Fallout4.exe`
 - [Address Library](https://www.nexusmods.com/fallout4/mods/47327)<br>Extract contents to `Fallout 4\Data` folder
-- [xSE PluginPreloader F4](https://www.nexusmods.com/fallout4/mods/33946)<br>Extract `IpHlpAPI.dll` and `xSE PluginPreloader.xml` to folder containing `Fallout4.exe`
+- [xSE PluginPreloader F4](https://www.nexusmods.com/fallout4/mods/33946)<br>Extract `IpHlpAPI.dll` and `xSE PluginPreloader.xml` to the folder containing `Fallout4.exe`
 
 ### Redistributables
 
-- [Intel TBB Redistributable](https://www.nexusmods.com/fallout4/mods/47359?tab=files)<br>Extract `tbbmalloc.dll` to folder containing `Fallout4.exe`
+- [Intel TBB Redistributable](https://www.nexusmods.com/fallout4/mods/47359?tab=files)<br>Extract `tbbmalloc.dll` to the folder containing `Fallout4.exe`
 - [Microsoft Visual C++ Redistributable for Visual Studio 2019](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)<br>Run `vc_redist.x64.exe`
 
 
