@@ -2,7 +2,7 @@
 title: Buffout 4 FAQs
 description: 
 published: true
-date: 2020-10-05T02:17:54.084Z
+date: 2020-10-05T02:19:26.078Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-03T05:50:57.305Z
@@ -56,7 +56,7 @@ Yes. Always post your *entire* crash log. Please use spoiler tags or [Pastebin](
 
 ## d3d11.dll
 
-Some `d3d11.dll` crashes are *definitely* attributable to ENBSeries. For example:
+Some `d3d11.dll` crashes are attributable to ENBSeries with a high degree of confidence. For example:
 
 ```
 PROBABLE CALL STACK:
