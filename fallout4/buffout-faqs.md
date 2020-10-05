@@ -2,7 +2,7 @@
 title: Buffout 4 FAQs
 description: 
 published: true
-date: 2020-10-05T02:13:03.063Z
+date: 2020-10-05T02:13:50.255Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-03T05:50:57.305Z
@@ -62,9 +62,7 @@ PROBABLE CALL STACK:
 	[0] 0x7FFE12EE8CB0 d3d11.dll+0128CB0
 ```
 
-The original `d3d11.dll` assembly has a max length of `1FAE0`. In the above case, the offset `+0128CB0` is greater than this length, clearly indicating a modified assembly.
-
-Report these issues to the developer of ENBSeries.
+The original `d3d11.dll` assembly has a max length of `1FAE0`. In the above case, the offset `+0128CB0` is greater than this length, clearly indicating a modified assembly. Report these issues to the developer of ENBSeries.
 
 
 ## flexRelease_x64.dll
