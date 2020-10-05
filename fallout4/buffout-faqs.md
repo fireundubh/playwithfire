@@ -2,7 +2,7 @@
 title: Buffout 4 FAQs
 description: 
 published: true
-date: 2020-10-05T02:12:29.277Z
+date: 2020-10-05T02:13:03.063Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-03T05:50:57.305Z
@@ -85,9 +85,7 @@ bNVFlexDrawDebris=0
 
 ## nvwgf2umx.dll
 
-The `nvwgf2umx.dll` assembly belongs to the NVIDIA driver package. Most likely, you recently updated your video drivers.
-
-The `445` drivers appear to be the source of crashes in many games.
+The `nvwgf2umx.dll` assembly belongs to the NVIDIA driver package. Most likely, you recently updated your video drivers, and unfortunately, the `445` driver series appears to cause crashes in many games.
 
 These crashes usually have a probable call stack where `nvwgf2umx.dll` occupies the most recent 20 frames. For example:
 
