@@ -2,7 +2,7 @@
 title: Buffout 4 FAQs
 description: 
 published: true
-date: 2020-10-05T02:58:47.563Z
+date: 2020-10-05T06:44:09.420Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-03T05:50:57.305Z
@@ -87,14 +87,16 @@ Or:
 
 ## d3d11.dll
 
-Some `d3d11.dll` crashes are attributable to ENBSeries with a high degree of confidence. For example:
+ENBSeries, Load Accelerator, and other mods are distributed with modified versions of `d3d11.dll`. Some `d3d11.dll` crashes are attributable to these mods, and those crashes need to be fixed by the respective developers.
+
+For example, in this probable call stack, we see that, in the most recent and only frame, the faulting module is `d3d11.dll` (imagebase: `0x180000000`) at offset `+0128CB0` (address: `0x180128CB0`).
 
 ```
 PROBABLE CALL STACK:
 	[0] 0x7FFE12EE8CB0 d3d11.dll+0128CB0
 ```
 
-The original `d3d11.dll` assembly has a max length of `1FAE0`. In the above case, the offset `+0128CB0` is greater than this length, clearly indicating a modified assembly. Report these issues to the developer of ENBSeries.
+The original assembly exits at `+1FAE0`, leaving us with an address space extending from `0x180001000` to `0x18001FAE0`. Our probable call stack above points to an address far beyond the module's exit point, which indicates we're dealing with a different &mdash; and likely modified &mdash; version of `d3d11.dll`.
 
 
 ## flexRelease_x64.dll
