@@ -2,7 +2,7 @@
 title: Buffout 4 FAQs
 description: 
 published: true
-date: 2020-10-05T06:48:08.271Z
+date: 2020-10-05T06:48:42.229Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-03T05:50:57.305Z
@@ -96,7 +96,7 @@ PROBABLE CALL STACK:
 	[0] 0x7FFE12EE8CB0 d3d11.dll+0128CB0
 ```
 
-The original assembly exits at `+1FAE0`, leaving us with an address space extending from `0x180001000` to `0x18001FAE0`. Our probable call stack above points to an address far beyond the module's exit point, which indicates we're dealing with a different &mdash; and likely modified &mdash; version of `d3d11.dll`.
+The original assembly exits at `+1FAE0`, leaving us with an address space extending from `0x180001000` to `0x18001FAE0`. Our probable call stack above points to an address far beyond the module's exit point, which indicates we're dealing with a modified assembly.
 
 If you see `d3d11.dll` in your probable call stack, amend your crash report to point out whether you have ENBSeries, Load Accelerator, or another mod that uses a modified version of `d3d11.dll`.
 
