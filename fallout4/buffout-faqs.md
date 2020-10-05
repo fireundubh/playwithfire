@@ -2,7 +2,7 @@
 title: Buffout 4 FAQs
 description: 
 published: true
-date: 2020-10-05T08:29:10.109Z
+date: 2020-10-05T08:32:54.340Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-03T05:50:57.305Z
@@ -87,7 +87,7 @@ Or:
 
 ## d3d11.dll
 
-ENBSeries, Load Accelerator, and other mods are distributed with modified versions of `d3d11.dll`. Some `d3d11.dll` crashes are attributable to these mods, which should be fixed by their developers.
+ENBSeries, Load Accelerator, and some other mods are distributed with modified versions of `d3d11.dll`. Some `d3d11.dll` crashes are attributable to these mods, which should be fixed by their developers.
 
 For example, in the most recent and only frame of this probable call stack, we see the faulting module is `d3d11.dll` (imagebase: `0x180000000`) at offset `+0128CB0` (address: `0x180128CB0`).
 
@@ -96,7 +96,7 @@ PROBABLE CALL STACK:
 	[0] 0x7FFE12EE8CB0 d3d11.dll+0128CB0
 ```
 
-The original assembly exits at `+1FAE0`, leaving us with an address space extending from `0x180001000` to `0x18001FAE0`. Our probable call stack above points to an address far beyond the module's exit point, which indicates we're dealing with a modified assembly.
+The original assembly exits at `+1FAE0`, leaving us with an address space extending from `0x180001000` to `0x18001FAE0`. Our probable call stack above points to an address far outside the module's address space, which indicates we're dealing with a modified assembly.
 
 If you see `d3d11.dll` in your probable call stack, amend your crash report to point out whether you have ENBSeries, Load Accelerator, or another mod that uses a modified version of `d3d11.dll`.
 
