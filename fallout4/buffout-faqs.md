@@ -2,7 +2,7 @@
 title: Buffout 4 FAQs
 description: 
 published: true
-date: 2020-10-05T01:14:30.379Z
+date: 2020-10-05T02:09:25.896Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-03T05:50:57.305Z
@@ -52,6 +52,20 @@ There are no easy answers and no easy explanations. There are many gotchas and e
 Yes. Always post your *entire* crash log. Please use spoiler tags or [Pastebin](https://pastebin.com).
 
 # Common Issues
+
+## d3d11.dll
+
+Some `d3d11.dll` crashes are *definitely* attributable to ENBSeries. For example:
+
+```
+PROBABLE CALL STACK:
+	[0] 0x7FFE12EE8CB0 d3d11.dll+0128CB0
+```
+
+The original `d3d11.dll` assembly has a max length of `1FAE0`. In the above case, the offset `+0128CB0` is greater than this length, clearly indicating a modified assembly.
+
+Report these issues to the developer of ENBSeries.
+
 
 ## flexRelease_x64.dll
 
