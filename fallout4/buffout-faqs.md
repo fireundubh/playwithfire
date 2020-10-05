@@ -2,7 +2,7 @@
 title: Buffout 4 FAQs
 description: 
 published: true
-date: 2020-10-05T08:33:44.730Z
+date: 2020-10-05T10:41:17.561Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-03T05:50:57.305Z
@@ -100,7 +100,7 @@ The original assembly exits at `+1FAE0`, leaving us with an address space extend
 
 If you see `d3d11.dll` in your probable call stack, amend your crash report to point out whether you have ENBSeries, Load Accelerator, or another mod that uses a modified version of `d3d11.dll`.
 
-> Load Accelerator users should be using [High FPS Physics Fix](https://www.nexusmods.com/fallout4/mods/44798), which avoids modifying `d3d11.dll`.
+> Load Accelerator users should switch to [High FPS Physics Fix](https://www.nexusmods.com/fallout4/mods/44798), which avoids modifying `d3d11.dll`.
 {.is-info}
 
 
