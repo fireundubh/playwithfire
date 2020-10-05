@@ -2,54 +2,57 @@
 title: Buffout 4 FAQs
 description: 
 published: true
-date: 2020-10-05T02:14:55.376Z
+date: 2020-10-05T02:17:54.084Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-03T05:50:57.305Z
 ---
 
-# What does Buffout do?
+# Basics
+
+## Purpose
 
 Buffout "fixes engine bugs and adds a crash logger to the game." [Here's a list of fixes.](https://github.com/Ryan-rsm-McKenzie/Buffout4/blob/master/Buffout4.toml)
 
-# Who created Buffout?
+## About the Developer
 
 Buffout was created by Fudgyduff a.k.a. Ryan. It is [available on the Nexus.](https://www.nexusmods.com/fallout4/mods/47359)
 
-# What is required to install Buffout?
+## Requirements
 
 - [F4SE](https://f4se.silverlock.org)<br>Extract contents of the `f4se_0_06_21` folder to the folder containing `Fallout4.exe`
 - [Address Library](https://www.nexusmods.com/fallout4/mods/47327)<br>Extract contents to `Fallout 4\Data` folder
 - [xSE PluginPreloader F4](https://www.nexusmods.com/fallout4/mods/33946)<br>Extract `IpHlpAPI.dll` and `xSE PluginPreloader.xml` to the folder containing `Fallout4.exe`
 
-## Redistributables
+### Redistributables
 
 - [Intel TBB Redistributable](https://www.nexusmods.com/fallout4/mods/47359?tab=files)<br>Extract `tbbmalloc.dll` to the folder containing `Fallout4.exe`
 - [Microsoft Visual C++ Redistributable for Visual Studio 2019](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)<br>Run `vc_redist.x64.exe`
 
+# Questions
 
-# Where do I find the crash logs?
+## Where do I find the crash logs?
 
 In `%USERPROFILE%\Documents\My Games\Fallout4\F4SE`, you should find `crash`-prefixed `.log` files.
 
-# The game crashed, but I don't have any crash logs.
+## The game crashed, but I don't have any crash logs.
 
 If the game crashed and no crash log was generated, Buffout could not capture the exception for any number of reasons. There are two relatively easy things you can try instead:
 
 1. Check the System log in the Windows Event Viewer for Error and Critical events whose timestamps coincide with the time the game crashed. If you have such events, these events may provide clues for further investigation.
 2. For more technical users, install [DebugDiag](https://www.microsoft.com/en-us/download/details.aspx?id=58210) from Microsoft. Create a crash rule for the `Fallout4.exe` process that logs the stack trace, activate the crash rule, and run the game until you crash. This will produce a detailed log that can be analyzed in DebugDiag and shared.
 
-# How do I read crash logs?
+## How do I read crash logs?
 
 You need a background in programming, debugging, and reverse engineering (RE). Specifically, you need to know assembly, C types, and be familiar with the stack concept. You must also have the tools and skills to load the executable; identify the involved subroutines, logic, and parameters; and statically analyze the stack trace to make your best guess at the error.
 
 There are no easy answers and no easy explanations. There are many gotchas and exceptional cases that require a technical investigator to rule out. Buffout's crash logs are not intended for most users; they are specifically for Ryan and anyone else in the RE community. 
 
-# Should I post my crash log? My game is heavily modded.
+## Should I post my crash log? My game is heavily modded.
 
 Yes. Always post your *entire* crash log. Please use spoiler tags or [Pastebin](https://pastebin.com).
 
-# What are some common third-party issues?
+# Common Issues
 
 ## d3d11.dll
 
