@@ -2,7 +2,7 @@
 title: Buffout 4 FAQs
 description: 
 published: true
-date: 2020-10-05T02:56:58.050Z
+date: 2020-10-05T02:58:47.563Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-03T05:50:57.305Z
@@ -62,7 +62,10 @@ This error typically indicates that `tbbmalloc.dll` was not installed or not ins
 
 Verify that your preloader config specifies the correct load method.
 
-In `xSE PluginPreloader.xml`, change the load method to `OnThreadAttach` or `ImportAddressHook`. Mod Organizer 2 users should change the load method to `OnThreadAttach`.
+In `xSE PluginPreloader.xml`, change the load method to `OnThreadAttach` or `ImportAddressHook`.
+
+> Mod Organizer 2 users should change the load method to `OnThreadAttach`.
+{.is-info}
 
 To change the load method, edit the `Name` attribute value in the XML file, like so:
 
