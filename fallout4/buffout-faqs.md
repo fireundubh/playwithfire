@@ -2,7 +2,7 @@
 title: Buffout 4 FAQs
 description: 
 published: true
-date: 2020-10-05T02:19:26.078Z
+date: 2020-10-05T02:55:37.265Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-03T05:50:57.305Z
@@ -52,7 +52,35 @@ There are no easy answers and no easy explanations. There are many gotchas and e
 
 Yes. Always post your *entire* crash log. Please use spoiler tags or [Pastebin](https://pastebin.com).
 
-# Common Issues
+# Configuration Issues
+
+## Couldn't load plugin, or Error 126
+
+This error typically indicates that `tbbmalloc.dll` was not installed or not installed to the correct location. Ensure `tbbmalloc.dll` is present in the folder containing `Fallout4.exe`.
+
+## F4SE failed to inject the DLL
+
+Verify that your preloader config specifies the correct load method.
+
+In `xSE PluginPreloader.xml`, change the load method to `OnThreadAttach` or `ImportAddressHook`, if the default does not work. MO2 users: Use `OnThreadAttach`.
+
+To change the load method, edit the `Name` attribute value in the XML file, like so:
+
+```xml
+<LoadMethod Name="OnProcessAttach">
+...
+</LoadMethod>
+```
+
+Or:
+
+```xml
+<LoadMethod Name="OnThreadAttach">
+...
+</LoadMethod>
+```
+
+# Upstream Issues
 
 ## d3d11.dll
 
