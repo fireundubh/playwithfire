@@ -2,7 +2,7 @@
 title: Buffout 4 FAQs
 description: 
 published: true
-date: 2020-10-05T06:44:09.420Z
+date: 2020-10-05T06:44:48.263Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-03T05:50:57.305Z
@@ -87,7 +87,7 @@ Or:
 
 ## d3d11.dll
 
-ENBSeries, Load Accelerator, and other mods are distributed with modified versions of `d3d11.dll`. Some `d3d11.dll` crashes are attributable to these mods, and those crashes need to be fixed by the respective developers.
+ENBSeries, Load Accelerator, and other mods are distributed with modified versions of `d3d11.dll`. Some `d3d11.dll` crashes are attributable to these mods, which should be fixed by their developers.
 
 For example, in this probable call stack, we see that, in the most recent and only frame, the faulting module is `d3d11.dll` (imagebase: `0x180000000`) at offset `+0128CB0` (address: `0x180128CB0`).
 
