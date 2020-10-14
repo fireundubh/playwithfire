@@ -2,7 +2,7 @@
 title: Baldur's Gate 3
 description: Modding Reference
 published: true
-date: 2020-10-14T22:29:35.002Z
+date: 2020-10-14T22:32:07.425Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-14T19:02:29.017Z
@@ -40,7 +40,7 @@ Path | Description
 
 5. Use [Agent Ransack](https://www.mythicsoft.com/agentransack/) to search these folders for files that contain data you want to modify. When you find those files, copy them to your Project Dir, creating intermediate folders as needed.
 
-> When creating intermediate folders, treat your Project Dir as akin to the game's `Data` folder 
+> When creating intermediate folders, treat your Project Dir as akin to the game's `Data` folder. For example, `MyMod\Stats` would be correct, not `MyMod\Public\Shared\Stats`.
 {.is-info}
 
 6. Modify those files as desired.
