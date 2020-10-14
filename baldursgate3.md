@@ -2,11 +2,17 @@
 title: Baldur's Gate 3
 description: Modding Reference
 published: true
-date: 2020-10-14T19:07:28.448Z
+date: 2020-10-14T19:16:36.093Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-14T19:02:29.017Z
 ---
+
+# Required Tools
+
+- [Norbyte's lslib](https://github.com/Norbyte/lslib/releases) (minimum version: 1.15.1)
+- a text editor of your choice
+
 
 # Important Paths
 
@@ -19,7 +25,8 @@ Path | Description
 `Mods` | Install mods by copying their PAK files here.
 `PlayerProfiles\YOUR_PLAYER_NAME` | Find `modsettings.lsx` here.
 
-# meta.lsx
+
+# Creating Mod Metadata
 
 Divinity Engine mods require a `meta.lsx` (XML) file that describes the mod. We're going to customize an existing `meta.lsx` file from the campaign to manufacture our own.
 
@@ -47,13 +54,25 @@ Attribute Name | Attribute Description
 `Version` | A version number for this module (optional)
 
 
-# modsettings.lsx
+# Packaging Mods
+
+To create a PAK file for a mod:
+
+1. Create a folder for that mod. In the screenshot below, I used `MyMod` for clarity's sake.
+2. Place the `meta.lsx` file in that folder.
+3. Use lslib's ConverterApp to create a package.
+
+![ConverterApp: Create Package](https://i.imgur.com/yisfaAN.jpg)
+
+
+# Installing Mods
 
 Manually installing a mod is a 3-step process:
 
 1. Copy the PAK file to the appropriate location. (See: [Important Paths](#important-paths))
 2. Add the mod to your player profile's `modsettings.lsx` file.
 3. Set `modsettings.lsx` to read only.
+
 
 ## Important Nodes
 
