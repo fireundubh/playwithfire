@@ -2,7 +2,7 @@
 title: Baldur's Gate 3
 description: Modding Reference
 published: true
-date: 2020-10-14T19:02:29.017Z
+date: 2020-10-14T19:07:08.807Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-14T19:02:29.017Z
@@ -51,13 +51,17 @@ Attribute Name | Attribute Description
 
 # modsettings.lsx
 
-First of all, remember: `modsettings.lsx` will need to be set to read only after you've made changes. Otheriwse, the game will overwrite this file.
+Manually installing a mod is a 3-step process:
+
+1. Copy the PAK file to the appropriate location. (See: [Important Paths](#important-paths))
+2. Add the mod to your player profile's `modsettings.lsx` file.
+3. Set `modsettings.lsx` to read only.
 
 ## Important Nodes
 
 ### ModOrder
 
-If you need to reorder mods for whatever reason, you can populate this node like so:
+If you need to change the load order of your mods, you can populate this node like so:
 
 ```xml
 <node id="ModOrder">
@@ -75,7 +79,7 @@ If you need to reorder mods for whatever reason, you can populate this node like
 
 To enable a module, append a node to the `Mods` node's `children` element.
 
-Each module node should look like:
+Each new module node should look like:
 
 ```xml
 <node id="ModuleShortDesc">
