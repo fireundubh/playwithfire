@@ -2,7 +2,7 @@
 title: Baldur's Gate 3
 description: Modding Reference
 published: true
-date: 2020-10-14T22:21:04.579Z
+date: 2020-10-14T22:29:35.002Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-14T19:02:29.017Z
@@ -39,6 +39,10 @@ Path | Description
 {.is-info}
 
 5. Use [Agent Ransack](https://www.mythicsoft.com/agentransack/) to search these folders for files that contain data you want to modify. When you find those files, copy them to your Project Dir, creating intermediate folders as needed.
+
+> When creating intermediate folders, treat your Project Dir as akin to the game's `Data` folder 
+{.is-info}
+
 6. Modify those files as desired.
 7. Create metadata (`meta.lsx`) for your project in the Project Dir.
 8. Use lslib's ConverterApp to create a PAK from your Project Dir.
