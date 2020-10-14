@@ -2,7 +2,7 @@
 title: Baldur's Gate 3
 description: Modding Reference
 published: true
-date: 2020-10-14T19:07:08.807Z
+date: 2020-10-14T19:07:28.448Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-14T19:02:29.017Z
@@ -31,9 +31,7 @@ Divinity Engine mods require a `meta.lsx` (XML) file that describes the mod. We'
 
 ### Dependencies
 
-The campaign module is named `Gustav`. If you will be modifying anything that is specifically in the Gustav module, you will need to add Gustav as a dependency.
-
-Likewise, if you will be modifying anything that is specifically in any other module, except `Shared`, you will need to add that module as a dependency, too.
+The campaign module is named `Gustav`. If you will be modifying anything that is specifically in the Gustav module, you will need to add Gustav as a dependency. Likewise, if you will be modifying anything that is specifically in any other module, except `Shared`, you will need to add that module as a dependency, too.
 
 ### ModuleInfo
 
