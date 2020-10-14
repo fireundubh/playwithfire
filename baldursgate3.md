@@ -2,19 +2,21 @@
 title: Baldur's Gate 3
 description: Modding Reference
 published: true
-date: 2020-10-14T19:16:36.093Z
+date: 2020-10-14T21:58:49.958Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-14T19:02:29.017Z
 ---
 
-# Required Tools
+# Basic Information
+
+## Required Tools
 
 - [Norbyte's lslib](https://github.com/Norbyte/lslib/releases) (minimum version: 1.15.1)
 - a text editor of your choice
 
 
-# Important Paths
+## Important Paths
 
 The following paths are relative to:
 
