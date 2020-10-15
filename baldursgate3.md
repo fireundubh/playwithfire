@@ -2,13 +2,20 @@
 title: Baldur's Gate 3
 description: Modding Reference
 published: true
-date: 2020-10-14T22:32:46.440Z
+date: 2020-10-15T00:13:04.939Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-14T19:02:29.017Z
 ---
 
-# Basic Information
+# Guides
+
+- [Creating mods](/baldursgate3/creating-mods) &mdash; READ THIS FIRST!
+- [Creating metadata](/baldursgate3/creating-metadata)
+- [Packaging mods](/baldursgate3/packaging-mods)
+- [Installing mods](/baldursgate3/installing-mods)
+
+# More Information
 
 ## Required Tools
 
@@ -28,113 +35,4 @@ Path | Description
 `PlayerProfiles\YOUR_PLAYER_NAME` | Find `modsettings.lsx` here.
 
 
-## How to Make a Mod
 
-1. Create a folder outside the game directory. We'll call this our Workspace Root.
-2. Create a folder in the Workspace Root named after your mod. This is your Project Dir.
-3. Extract `Gustav.pak` into `Gustav_Data` in your Workspace Root. 
-4. Extract `Shared.pak` into `Shared_Data` in your Workspace Root.
-
-> These destination folder names remind us these folders contain files from the Gustav and Shared modules, and these folders are akin to the game's `Data` folder.
-{.is-info}
-
-5. Use [Agent Ransack](https://www.mythicsoft.com/agentransack/) to search these folders for files that contain data you want to modify. When you find those files, copy them to your Project Dir, creating intermediate folders as needed.
-
-> When creating intermediate folders, treat your Project Dir as akin to the game's `Data` folder. For example, `ProjectDir\Stats` would be correct, not `ProjectDir\Public\Shared\Stats`.
-{.is-info}
-
-6. Modify those files as desired.
-7. Create metadata (`meta.lsx`) for your project in the Project Dir.
-8. Use lslib's ConverterApp to create a PAK from your Project Dir.
-9. Enable your mod in `modsettings.lsx`.
-
-
-# Creating Mod Metadata
-
-Divinity Engine mods require a `meta.lsx` (XML) file that describes the mod. We're going to customize an existing `meta.lsx` file from the campaign to manufacture our own.
-
-> **Review:** [meta.lsx Template](https://gist.github.com/fireundubh/b60baced4adf7a3070f466536aeeb7ec)
-{.is-info}
-
-
-## Important Nodes
-
-### Dependencies
-
-The campaign module is named `Gustav`. If you will be modifying anything that is specifically in the Gustav module, you will need to add Gustav as a dependency. Likewise, if you will be modifying anything that is specifically in any other module, except `Shared`, you will need to add that module as a dependency, too.
-
-### ModuleInfo
-
-We care about six attributes:
-
-Attribute Name | Attribute Description
-:--- | :---
-`Author` | The name of the module's author
-`Description` | A brief description of the module. In the release version of the game, this description would appear in the in-game mod manager.
-`Folder` | The name of the module's PAK file (without the file extension)
-`Name` | The name of the module's PAK file (without the file extension)
-`UUID` | A universally unique identifier for this module - [generate a new one!](https://www.uuidgenerator.net)
-`Version` | A version number for this module (optional)
-
-
-# Packaging Mods
-
-To create a PAK file for a mod:
-
-1. Create a folder for that mod. In the screenshot below, I used `MyMod` for clarity's sake.
-2. Place the `meta.lsx` file in that folder.
-3. Use lslib's ConverterApp to create a package.
-
-![ConverterApp: Create Package](https://i.imgur.com/yisfaAN.jpg)
-
-
-# Installing Mods
-
-Manually installing a mod is a 3-step process:
-
-1. Copy the PAK file to the appropriate location. (See: [Important Paths](#important-paths))
-2. Add the mod to your player profile's `modsettings.lsx` file.
-3. Set `modsettings.lsx` to read only.
-
-
-## Important Nodes
-
-### ModOrder
-
-If you need to change the load order of your mods, you can populate this node like so:
-
-```xml
-<node id="ModOrder">
-  <children>
-    <node id="Module">
-      <attribute id="UUID" value="991c9c7a-fb80-40cb-8f0d-b92d4e80e9b1" type="22" />
-    </node>
-    <!-- additional Module nodes -->
-  </children>
-</node>
-```
-
-
-### Mods
-
-To enable a module, append a node to the `Mods` node's `children` element.
-
-Each new module node should look like:
-
-```xml
-<node id="ModuleShortDesc">
-  <!-- Change the value to the module's Folder attribute from meta.lsx -->
-  <attribute id="Folder" type="LSWString" value="Gustav"/> 
- 
-	<attribute id="MD5" type="LSString" value=""/> <!-- leave blank -->
-  
-	<!-- Change the value to the module's Name attribute from meta.lsx -->
-  <attribute id="Name" type="FixedString" value="Gustav"/> 
-  
-	<!-- Change the value to the module's UUID attribute from meta.lsx -->
-  <attribute id="UUID" type="FixedString" value="991c9c7a-fb80-40cb-8f0d-b92d4e80e9b1"/>
-  
-  <!-- Change the value to the module's Version attribute from meta.lsx -->
-	<attribute id="Version" type="int32" value="268435456"/>
-</node>
-```
