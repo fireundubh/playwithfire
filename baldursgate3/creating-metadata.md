@@ -2,7 +2,7 @@
 title: Creating Metadata
 description: A quick look at mod metadata
 published: true
-date: 2020-10-15T00:15:01.345Z
+date: 2020-10-15T00:15:50.031Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-15T00:04:21.671Z
@@ -29,7 +29,7 @@ Attribute Name | Attribute Description
 `UUID` | A universally unique identifier for this module - [generate a new one!](https://www.uuidgenerator.net)
 `Version` | A version number for this module (optional)
 
-# Template
+# Example
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
