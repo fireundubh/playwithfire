@@ -2,7 +2,7 @@
 title: Pyro
 description: 
 published: true
-date: 2020-10-28T07:02:48.568Z
+date: 2020-10-28T07:04:00.081Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:04:59.413Z
@@ -80,7 +80,7 @@ Pyro supports all standard PPJ elements and attributes used by the Papyrus Compi
 **Note:** The `Asm` attribute of the `PapyrusProject` node is ignored by Pyro. The Papyrus Compiler uses this attribute to call the Papyrus Assembler but generating assembly files for Papyrus scripts is out-of-scope for Pyro.
 
 
-## Incremental Build with Parallelized Compilation
+## Incremental Build
 
 Incremental build _vastly_ accelerates builds by compiling only scripts that *need* to be compiled. Pyro determines which PSC files to compile by comparing the last modified timestamp on PSC files with the compilation timestamps embedded in PEX files. Pyro then spawns multiple workers (compiler instances) in parallel to further reduce build times.
 
