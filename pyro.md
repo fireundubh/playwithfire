@@ -2,7 +2,7 @@
 title: Pyro
 description: 
 published: true
-date: 2020-10-28T07:01:47.602Z
+date: 2020-10-28T07:02:48.568Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:04:59.413Z
@@ -247,7 +247,9 @@ In addition, regardless of whether a `Variables` node group is defined, environm
 
 ## Build Events
 
-Pyro supports pre-build events and post-build events. Build events are sequences of shell commands that execute before and after the project builds. 
+Build events are sequences of shell commands that execute before and after the project builds.
+
+Pyro supports pre-build events and post-build events.
 
 
 ### Options
@@ -257,6 +259,7 @@ The `PreBuildEvent` and `PostBuildEvent` elements have the following attributes:
 - A `Description` attribute can be used to clarify each event to the user. This description will also be logged in the build output.
 - A `UseInBuild` attribute can be used to toggle whether the event is used.
 
+The `Command` element does not have any attributes.
 
 ### Timing
 
