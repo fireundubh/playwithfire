@@ -2,8 +2,10 @@
 title: Pyro
 description: 
 published: true
-date: 2020-05-20T05:01:00.442Z
+date: 2020-10-28T07:01:47.602Z
 tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:04:59.413Z
 ---
 
 **Pyro** is a parallelized incremental build system for _Skyrim Classic_ (TES5), _Skyrim Special Edition_ (SSE), and _Fallout 4_ (FO4) projects.
@@ -241,6 +243,42 @@ You can then replace values throughout the project file with variable names:
 Pyro will expand those variables when the project is loaded.
 
 In addition, regardless of whether a `Variables` node group is defined, environment variables (e.g., `%APPDATA%`) and user variables (`~user`) will also be expanded.
+
+
+## Build Events
+
+Pyro supports pre-build events and post-build events. Build events are sequences of shell commands that execute before and after the project builds. 
+
+
+### Options
+
+The `PreBuildEvent` and `PostBuildEvent` elements have the following attributes:
+
+- A `Description` attribute can be used to clarify each event to the user. This description will also be logged in the build output.
+- A `UseInBuild` attribute can be used to toggle whether the event is used.
+
+
+### Timing
+
+Event | Runs When
+:--- | :---
+PRE | Immediately prior to compilation
+POST | Immediately after build success
+
+
+### Examples
+
+```xml
+<PreBuildEvent Description="Pre-Build Event Example" UseInBuild="true">
+  <Command>echo Hi! I'm a pre-build command!</Command>
+</PreBuildEvent>
+```
+
+```xml
+<PostBuildEvent Description="Post-Build Event Example" UseInBuild="true">
+  <Command>echo Hi! I'm a post-build command!</Command>
+</PostBuildEvent >
+```
 
 
 # Command Line Arguments
