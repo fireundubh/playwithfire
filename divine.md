@@ -2,11 +2,89 @@
 title: Divine CLI
 description: 
 published: true
-date: 2020-10-30T23:20:37.974Z
+date: 2020-10-30T23:41:37.166Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:05:28.715Z
 ---
+
+# Usage
+
+> All paths should be absolute (full) paths.
+{.is-warning}
+
+
+## Create Package
+
+```
+divine -g {game} -s {path to folder} -d {path to output file} -a create-package
+```
+
+## List Package
+
+```
+divine -g {game} -s {path to PAK} -a list-package
+```
+
+## Conversion
+
+### Convert Model
+
+```
+divine -g {game} -s {path to file} -d {path to output file} -a convert-model -e {values}
+```
+
+#### Batch Action: Convert Models
+
+```
+divine -g {game} -s {path to folder} -d {path to output folder} -a convert-models -e {values} -i {format} -o {format}
+```
+
+### Convert Resource
+
+```
+divine -g {game} -s {path to file} -d {path to output file} -a convert-resource
+```
+
+#### Batch Action: Convert Resources
+
+```
+divine -g {game} -s {path to folder} -d {path to output folder} -a convert-resources -i {format} -o {format}
+```
+
+## Extraction
+
+### Extract Single File
+
+```
+divine -g {game} -s {path to PAK} -d {file name or path in PAK} -a extract-single-file
+```
+
+### Extract Package (default)
+
+Extract contents of PAK to "destination path":
+```
+divine -g {game} -s {path to PAK} -d {path to folder}
+```
+
+Extract contents of PAK to "destination path\package name":
+```
+divine -g {game} -s {path to PAK} -d {path to folder} --use-package-name
+```
+
+## Extract Packages
+
+Extract contents of all PAKs to "destination path":
+```
+divine -g {game} -s {path to folder} -d {path to folder} -a extract-packages
+```
+
+Extract contents of all PAKs to "destination path\package name":
+```
+divine -g {game} -s {path to folder} -d {path to folder} -a extract-packages --use-package-name
+```
+
+
 
 # Arguments
 
