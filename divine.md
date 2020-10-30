@@ -2,13 +2,13 @@
 title: Divine CLI
 description: 
 published: true
-date: 2020-10-30T23:43:19.456Z
+date: 2020-10-30T23:43:55.070Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:05:28.715Z
 ---
 
-# Usage
+# Basic Usage
 
 > All paths should be absolute (full) paths.
 {.is-warning}
