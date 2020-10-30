@@ -2,7 +2,7 @@
 title: Divine CLI
 description: 
 published: true
-date: 2020-10-30T23:41:37.166Z
+date: 2020-10-30T23:42:13.095Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:05:28.715Z
@@ -72,7 +72,7 @@ Extract contents of PAK to "destination path\package name":
 divine -g {game} -s {path to PAK} -d {path to folder} --use-package-name
 ```
 
-## Extract Packages
+### Extract Packages
 
 Extract contents of all PAKs to "destination path":
 ```
