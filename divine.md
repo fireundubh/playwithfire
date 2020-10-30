@@ -2,7 +2,7 @@
 title: Divine CLI
 description: 
 published: true
-date: 2020-10-30T23:42:13.095Z
+date: 2020-10-30T23:43:19.456Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:05:28.715Z
@@ -13,18 +13,6 @@ dateCreated: 2020-01-19T11:05:28.715Z
 > All paths should be absolute (full) paths.
 {.is-warning}
 
-
-## Create Package
-
-```
-divine -g {game} -s {path to folder} -d {path to output file} -a create-package
-```
-
-## List Package
-
-```
-divine -g {game} -s {path to PAK} -a list-package
-```
 
 ## Conversion
 
@@ -52,7 +40,20 @@ divine -g {game} -s {path to file} -d {path to output file} -a convert-resource
 divine -g {game} -s {path to folder} -d {path to output folder} -a convert-resources -i {format} -o {format}
 ```
 
-## Extraction
+
+## Packages
+
+### Create Package
+
+```
+divine -g {game} -s {path to folder} -d {path to output file} -a create-package
+```
+
+### List Package
+
+```
+divine -g {game} -s {path to PAK} -a list-package
+```
 
 ### Extract Single File
 
