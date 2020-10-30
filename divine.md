@@ -2,7 +2,7 @@
 title: Divine CLI
 description: 
 published: true
-date: 2020-10-30T23:12:37.437Z
+date: 2020-10-30T23:17:56.107Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:05:28.715Z
@@ -12,7 +12,7 @@ dateCreated: 2020-01-19T11:05:28.715Z
 
 Short | Long | Allowed Values | Description
  :--- | :--- | :--- | :---
- `-g` | `--game` | <ul><li>`bg3`</li><li>`dos`<li>`dosee`<li>`dos2` (default)<li>`dos2de`</ul> | Set target game when generating output
+`-g` | `--game` | <ul><li>`bg3`</li><li>`dos`<li>`dosee`<li>`dos2`<li>`dos2de`</ul> | Set target game when generating output
 `-s` | `--source` | `(absolute file/folder path)` | Set source file path or directory
 `-a` | `--action` | <ul><li>`create-package`<li>`list-package`<li>`extract-package` (default)<li>`convert-model`<li>`convert-resource`<li>`extract-packages`<li>`convert-models`<li>`convert-resources`</ul> | Set action to execute
 
@@ -22,6 +22,7 @@ Short | Long | Allowed Values | Description
 :--- | :--- | :--- | :---
 `-l` | `--loglevel` | <ul><li>`off`<li>`fatal`<li>`error`<li>`warn`<li>`info` (default)<li>`debug`<li>`trace`<li>`all`</ul> | Set verbosity level of log output
 `-d` | `--destination` | `(absolute file/folder path)` | Set destination file path or directory
+`-f` | `--packaged-path` | `(relative file path)` | File to extract from package
 `-i` | `--input-format` | <ul><li>`dae`<li>`gr2`<li>`lsv`<li>`pak`<li>`lsj`<li>`lsx`<li>`lsb`<li>`lsf`</ul> | Set input format for batch actions
 `-o` | `--output-format` | <ul><li>`dae`<li>`gr2`<li>`lsv`<li>`pak`<li>`lsj`<li>`lsx`<li>`lsb`<li>`lsf`</ul> | Set output format for batch actions
 `-c` | `--compression-method` | <ul><li>`zlib`<li>`zlibfast`<li>`lz4`<li>`lz4hc` (default)<li>`none`</ul> | Set compression method
