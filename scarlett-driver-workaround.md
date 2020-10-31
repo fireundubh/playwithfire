@@ -2,7 +2,7 @@
 title: How to Fix Scarlett 6i6 2nd Gen Crackling, Popping, Clicking, or Skipping During Playback
 description: 
 published: true
-date: 2020-10-31T05:54:01.760Z
+date: 2020-10-31T05:55:10.163Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-31T05:54:01.760Z
@@ -18,7 +18,7 @@ If you have Focusrite Control 2.3.4 or 2.4.x installed, you may experience crack
 
 Here's how to solve this problem on Windows 10.
 
-> **BEFORE YOU DO ANYTHING:** Open Focusrite Control and ensure you've set up the device the way you want (e.g., bitrate, routing.) If you follow these instructions, you will not be able to change these settings later unless you revert this whole process and go back to the broken driver.
+> **BEFORE YOU DO ANYTHING:** Open Focusrite Control and ensure you've set up the device the way you want (e.g., bitrate, routing.) If you follow these instructions, you will not be able to change these settings later unless you revert to the broken driver.
 {.is-warning}
 
 Let's get started.
