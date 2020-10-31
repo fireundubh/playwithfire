@@ -2,7 +2,7 @@
 title: About Me
 description: 
 published: true
-date: 2020-10-31T06:25:07.306Z
+date: 2020-10-31T06:27:58.548Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-31T06:12:28.976Z
@@ -14,7 +14,9 @@ I'm **fireundubh**, but people just call me fire.
 
 I have been a mod author since 1995. My mods are consistently top ranked, and my work has been featured on GameSpot, Kotaku, and various YouTube channels where whose videos have received 1.5M+ views. I also develop tools for other mod authors in Python, C#, C++, and Delphi.
 
-In the real world, I'm a producer in the game industry with 20 years of experience, from testing to executive management. More than playing games, I enjoy figuring out how they work, how to take them apart, and how to put them back together again better than before.
+In the real world, I'm a technical producer with 20 years of experience in the game industry, from testing to marketing. I've worked on games for PC, Mac, Linux, and PlayStation devices.
+
+More than playing games, I enjoy figuring out how they work, how to take them apart, and how to put them back together again better than before.
 
 All mods I create are released free of charge and sometimes the tools I make are open sourced.
 
