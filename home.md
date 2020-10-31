@@ -2,8 +2,10 @@
 title: Home
 description: Back home to where it all began...
 published: true
-date: 2020-06-01T10:55:20.342Z
+date: 2020-10-31T06:41:45.721Z
 tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:04:41.509Z
 ---
 
 # Welcome
@@ -21,9 +23,3 @@ At the top of the page, you can find things with the search box.
 # Contributing
 
 You can submit a pull request to the [playwithfire repository](https://github.com/fireundubh/playwithfire) on GitHub.
-
-
-# More Resources
-
-* [Using Steam to Download Previous Versions](steam-console)
-* [Steam Depot Manifest Tables](steam-console/tables)
