@@ -2,7 +2,7 @@
 title: Release Notes
 description: 
 published: true
-date: 2020-11-05T00:57:36.585Z
+date: 2020-11-05T00:59:51.118Z
 tags: 
 editor: markdown
 dateCreated: 2020-05-20T04:28:08.747Z
@@ -14,9 +14,7 @@ dateCreated: 2020-05-20T04:28:08.747Z
 
 ## Hotfix
 
-> An upstream issue with Nuitka 0.6.9.x causes Pyro to hang when executing workers. Each worker is actually crashing with an access violation.
-> 
-> Recompiling Pyro through Nuitka 0.6.8.4 circumvents the issue.
+> An upstream issue with Nuitka 0.6.9.x causes Pyro to hang when executing workers. Each worker is actually crashing with an access violation. Recompiling Pyro through Nuitka 0.6.8.4 circumvents the issue. ([Nuitka Issue 867](https://github.com/Nuitka/Nuitka/issues/867))
 {.is-info}
 
 
