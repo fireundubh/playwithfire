@@ -2,11 +2,99 @@
 title: Release Notes
 description: 
 published: true
-date: 2020-05-20T04:37:48.582Z
+date: 2020-11-05T00:57:36.585Z
 tags: 
+editor: markdown
+dateCreated: 2020-05-20T04:28:08.747Z
 ---
 
 > **Note:** Pre-release version names are Unix timestamps.
+
+# 1603689187
+
+## Hotfix
+
+> An upstream issue with Nuitka 0.6.9.x causes Pyro to hang when executing workers. Each worker is actually crashing with an access violation.
+> 
+> Recompiling Pyro through Nuitka 0.6.8.4 circumvents the issue.
+{.is-info}
+
+
+## Fixes
+
+- Fixed issue where `--game-type` argument value was not passed forward
+- Fixed issue where `--zip-compression` argument was not handled
+- Fixed issue where `--game-type` and `--zip-compression` argument values could be not lowercase
+- Fixed issue where "game type detected from registry path" warning could print in error
+- Fixed issue where "game type detected from registry path" warning could throw KeyError
+
+
+# 1602008042
+
+## Hotfix
+
+> In Skyrim Special Edition, an issue was recently discovered where packages containing textures can crash the game if they have the Embed File Names flag. To work around this issue, for SSE projects, Pyro will now detect whether packages will contain textures, and if so, pass an argument to BSArch to prevent this flag from being added to the package.
+{.is-info}
+
+
+# 1601138736
+
+## Major Changes
+
+### Pre- and Post-Build Events
+
+`PreBuildEvent` and `PostBuildEvent` elements have been added to the PyroProject XSD. These parent elements contain `Command` children.
+
+#### Options
+
+- A `Description` attribute can be used to clarify each event. This description will be printed in the build output.
+- A `UseInBuild` attribute can be used to toggle whether the event is used.
+
+#### Timing
+
+Event | Runs When
+:--- | :---
+PRE | Immediately prior to compilation
+POST | Immediately after build success
+
+#### Examples
+
+```xml
+<PreBuildEvent Description="Pre-Build Event Example" UseInBuild="true">
+  <Command>echo Hi! I'm a pre-build command!</Command>
+</PreBuildEvent>
+```
+
+```xml
+<PostBuildEvent Description="Post-Build Event Example" UseInBuild="true">
+  <Command>echo Hi! I'm a post-build command!</Command>
+</PostBuildEvent >
+```
+
+## Fixes
+
+- Fixed issue where implicit import paths could be duplicated in merged output
+- Fixed issue where Fallout 4 namespaces could not be resolved in some cases
+- Fixed issue where Fallout 4 game type could not be determined from registry path
+- Fixed issue where excessive whitespace could interfere with build event commands
+- Removed JSON-based state logging (TODO: better logging)
+
+
+# 1597538917
+
+## Fixes
+
+- Fixed issue where implicit import discovery failed quietly when imports were on different drives
+- Fixed issue where environment variables were unusable due to character restriction in `<Variable>` element values
+- Fixed issue where only some environment variable formats were supported in `<Variable>` element values
+- Fixed issue where registry paths could fail to resolve for Fallout games
+- Fixed issue where average compilation time dividend was switched around
+
+## Performance
+
+- Increased long path comparison speed with high-efficiency string comparators
+- Improved maintainability of PapyrusProject XML Schema Definition (XSD)
+
 
 # 1589924890
 
