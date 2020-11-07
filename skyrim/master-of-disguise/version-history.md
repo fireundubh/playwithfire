@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-11-07T23:27:40.078Z
+date: 2020-11-07T23:28:15.236Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-30T00:07:12.312Z
@@ -10,7 +10,7 @@ dateCreated: 2020-01-30T00:07:12.312Z
 
 # Version 1.5.2 (Hotfix)
 
-- Fixed issue where disguises were not properly removed before, and restored after, combat which caused normally hostile NPCs to stay nonhostile
+- Fixed issue where disguises were not removed before, and restored after, combat which caused normally hostile NPCs to stay nonhostile
 
 
 # Version 1.5.1 (Hotfix)
