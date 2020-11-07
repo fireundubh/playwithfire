@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-11-07T22:46:23.713Z
+date: 2020-11-07T22:47:01.544Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-30T00:07:12.312Z
@@ -10,7 +10,8 @@ dateCreated: 2020-01-30T00:07:12.312Z
 
 # Version 1.5.2 (Hotfix)
 
-- Fixed issue where disguises were not properly removed and restored before and after combat
+- Fixed issue where disguises were not properly removed before combat
+- Fixed issue where disguises were not properly restored after combat
 
 
 # Version 1.5.1 (Hotfix)
