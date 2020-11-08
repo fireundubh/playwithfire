@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2020-11-08T22:59:15.616Z
+date: 2020-11-08T23:00:46.819Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:11:18.083Z
@@ -61,8 +61,8 @@ The log alone will not help me investigate and resolve your issue.
 - There is a single formlist for every disguise.
 - Each formlist contains all possible items that comprise each disguise.
 - Every item must have the appropriate Biped Body Template First Person Flags.
-- No disguise with the same essential slot should share the same item.
 - Only items in the following slots are evaluated: Hair, Body, Hands, Amulet, Ring, Feet, Shield, and Circlet.
+- Disguises with the same essential slot should never share the same item in that slot.
 
 
 ## Slots
