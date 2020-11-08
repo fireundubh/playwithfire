@@ -2,8 +2,10 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2020-03-12T04:40:18.991Z
+date: 2020-11-08T22:59:15.616Z
 tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:11:18.083Z
 ---
 
 # Logging
@@ -54,37 +56,34 @@ The log alone will not help me investigate and resolve your issue.
 
 # Extending Disguises
 
-## Components
+## Rules
 
-For each disguise in the SSE version of Master of Disguise, there is:
-
-- 1 disguise formlist
-- 1 disguise slots formlist, and
-- 8 formlists for each disguise slot.
-
-Every formlist is used, so if you are adding items, you need to add items to every formlist as appropriate.
-
-> **Note:** In the Classic or Legendary version of Master of Disguise, each disguise is comprised of only a single formlist.
-
-
-### Example
-
-FormList | Description
-:--- | :---
-`dubhDisguiseVampires` | Contains all items in the slot formlists
-`dubhDisguiseVampires_Slots` | Contains all slot formlists
-`dubhDisguiseVampires_Slot_0_Hair` | Contains only items that are equipped in the Hair slot
-`dubhDisguiseVampires_Slot_1_Body` | Contains only items that are equipped in the Body slot
-`dubhDisguiseVampires_Slot_2_Hands` | Contains only items that are equipped in the Hands slot
-`dubhDisguiseVampires_Slot_3_Amulet` | Contains only items that are equipped in the Amulet slot
-`dubhDisguiseVampires_Slot_4_Ring` | Contains only items that are equipped in the Ring slot
-`dubhDisguiseVampires_Slot_5_Feet` | Contains only items that are equipped in the Feet slot
-`dubhDisguiseVampires_Slot_6_Shield` | Contains only items that are equipped in the Shield slot
-`dubhDisguiseVampires_Slot_7_Circlet` | Contains only items that are equipped in the Circlet slot
+- There is a single formlist for every disguise.
+- Each formlist contains all possible items that comprise each disguise.
+- Every item must have the appropriate Biped Body Template First Person Flags.
+- No disguise with the same essential slot should share the same item.
+- Only items in the following slots are evaluated: Hair, Body, Hands, Amulet, Ring, Feet, Shield, and Circlet.
 
 
 ## Slots
 
-Each slot formlist corresponds to the Biped Body Template First Person Flags on ARMO records. For example, the Vampire Hood has the Hair and Circlet flags, which means the item equips in the Hair and Circlet slots. Consequently, the Vampire Hood is a member of both `0_Hair` and `7_Circlet` formlists.
+### Essential Slots
 
-![xEdit Screenshot](https://i.imgur.com/aNJaKBr.jpg)
+Index | Slot | Name | Disguise
+:--- | :--- | :--- | :---
+0 | 31 | Hair | 
+1 | 32 | Body | All Disguises Except...
+2 | 33 | Hands | 
+3 | 35 | Amulet | Vigil of Stendarr
+4 | 36 | Ring | Silver Hand
+5 | 37 | Feet | 
+6 | 39 | Shield | Windhelm Guard
+7 | 42 | Circlet | Cultists
+
+
+### Special Disguises
+
+Disguise | Slot Requirement
+:--- | :---
+Daedric Influence | Any Slot
+Bandit Disguise | Configurable
