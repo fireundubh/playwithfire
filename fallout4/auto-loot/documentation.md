@@ -2,9 +2,10 @@
 title: Auto Loot Documentation
 description: 
 published: true
-date: 2020-07-28T16:30:01.692Z
+date: 2020-11-08T23:19:22.240Z
 tags: 
 editor: markdown
+dateCreated: 2020-01-19T11:11:25.812Z
 ---
 
 # Holotape Menu Guide
@@ -59,7 +60,7 @@ You can use a mod like [FO4 Hotkeys](https://www.nexusmods.com/fallout4/mods/116
 The Radius submenu allows you to set a loot radius for either all filters or specific filters.
 
 Radius | Description
---- | ---
+:--- | :---
 8192 units | A radius the size of two cells around the player
 4096 units | A radius the size of one cell around the player
 2048 units | A radius the size of a half-cell around the player
@@ -78,7 +79,7 @@ Radius | Description
 The Filters submenu allows you to toggle which filters are enabled. Think of filters as shopping lists.
 
 Filter | Description | Exclusions
---- | --- | ---
+:--- | :--- | :---
 Ammo | Rounds, shells, cells, harpoons, cannonballs, cells, syringes, and so on | Fusion Cores
 Armor | Clothing, headwear, and facewear, excluding power armor for obvious reasons | 
 Bodies | Bodies are looted based on whether they are dead, have items, and are associated with an actor type keyword.  |  Some bodies may look like bodies but are actually activators; these are not lootable.
