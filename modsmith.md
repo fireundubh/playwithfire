@@ -2,8 +2,10 @@
 title: Modsmith
 description: 
 published: true
-date: 2020-01-20T13:03:15.164Z
+date: 2020-11-08T23:18:04.223Z
 tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:04:49.216Z
 ---
 
 **Modsmith** is a build automation system for *Kingdom Come: Deliverance* mods.
@@ -60,7 +62,7 @@ Change the value of `Path` to wherever you installed *Kingdom Come: Deliverance*
 ## Arguments
 
 Argument | Required | Description
---- | --- | ---
+:--- | :--- | :---
 `-p` | Yes | Absolute path to your project root directory (e.g., `E:\projects\kingdomcome\More Perks`)
 `-d` | Variable | File name and extension of your data PAK file (e.g., `More Perks.pak`.) Localization-only mods (e.g. translations) do not require this argument, but data mods do.
 `-r` | Yes | File name and extension of your redistributable ZIP file (e.g., `More Perks.zip`)
