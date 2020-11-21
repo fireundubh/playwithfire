@@ -2,7 +2,7 @@
 title: Auto Loot Documentation
 description: 
 published: true
-date: 2020-11-08T23:19:22.240Z
+date: 2020-11-21T15:47:16.873Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:11:25.812Z
@@ -22,7 +22,7 @@ Menu Name | Description
 :--- | :---
 Main Menu | From the **Main Menu**, you can pause/resume enabled filters. You can also find your way to the Radius, Filters, Destinations, Ownership, Advanced Settings, and Debug Menu submenus.
 Radius | From the **Radius** menu, you can set a global radius for All filters, or you can define the radius for each filter.
-Filters | From the Filters menu, you can enable and disable filters for all supported item types.
+Filters | From the **Filters** menu, you can enable and disable filters for all supported item types.
 Destinations | From the **Rules>Destinations** submenu, you can define the **rules** for all or individual filters. If a filter is set to loot to a workshop, from the **Rules>Filters** submenu, you can select which workshop.
 Ownership | From this menu, you can toggle crime-related settings:<br><br>&bull; **Auto Lockpick**: Auto Loot can automatically pick locks, yielding XP and loot from locked containers.<br>&bull; **Auto Steal**: Auto Loot can steal owned loot.<br>&bull; **Auto Steal Reaction**: Auto Loot can steal owned loot without triggering combat.
 Advanced | From this menu, you can toggle miscellaneous settings:<br><br>&bull; **Filter Mode**: Can be set to Take All (fast) or Take Any (slow, but precise)<br>&bull; **Loot Notifications**: Can be shown or hidden<br>&bull; **Loot Settlements**: Can be ignored or not; useful for building or tearing down settlements<br>&bull; **Loot Only Actors Killed by Player**: Can loot kills by player or anyone<br>&bull; **Remove Bodies on Loot**: Can disable bodies to declutter the wasteland
