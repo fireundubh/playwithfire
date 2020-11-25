@@ -2,8 +2,10 @@
 title: Version History
 description: 
 published: true
-date: 2020-01-20T14:29:00.633Z
+date: 2020-11-25T03:04:39.973Z
 tags: 
+editor: markdown
+dateCreated: 2020-01-19T12:31:53.635Z
 ---
 
 # Version 1.2 - Major Update (Unreleased)
@@ -52,10 +54,14 @@ v1.2 streamlines the holotape menu by making the following changes:
 
 ## Fixed Issues
 
-- [X] Fixed an issue where Automatron armor was not supported by the Armor Filter
-- [X] Fixed an issue where an item in a restricted location could be looted, even with Loot Settlements disabled, if the player was outside that location but the item was in the loaded area
-- [X] Fixed an issue where dynamic arrays used by Bodies Filter could overpopulate in object-heavy areas
-- [X] Fixed an issue where dynamic arrays used by Bodies Filter could overpopulate during optimization
+- [X] Fixed issue where Far Harbor drinks were not supported by the Drinks filter (241120)
+- [X] Fixed issue where Far Harbor flora was not supported by the Flora filter (241120)
+- [X] Fixed issue where Far Harbor food was not supported by the Food filter (241120)
+- [X] Fixed issue where Nuka World flora was not supported by the Flora filter (241120)
+- [X] Fixed issue where Automatron armor was not supported by the Armor filter
+- [X] Fixed issue where items in restricted locations could be looted, even with Loot Settlements disabled, if the player was outside that location but the item was in the loaded area
+- [X] Fixed issue where dynamic arrays used by Bodies Filter could overpopulate in object-heavy areas
+- [X] Fixed issue where dynamic arrays used by Bodies Filter could overpopulate during optimization
 
 ## Optimization / Under the Hood
 
