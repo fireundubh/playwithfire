@@ -2,13 +2,17 @@
 title: Version History
 description: 
 published: true
-date: 2020-11-25T03:09:17.622Z
+date: 2020-11-25T03:15:36.301Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T12:31:53.635Z
 ---
 
-# Version 1.2.1 (Unreleased)
+# Version 1.2.1 - Hotfix
+
+> Available for testing since 24 November 2020 exclusively in [#auto-loot](https://discord.fireundubh.com/)
+{.is-info}
+
 
 ## Fixed Issues
 
@@ -17,7 +21,10 @@ dateCreated: 2020-01-19T12:31:53.635Z
 - [X] Fixed issue where Far Harbor food was not supported by the Food filter
 - [X] Fixed issue where Nuka World flora was not supported by the Flora filter
 
-# Version 1.2 - Major Update (Unreleased)
+# Version 1.2 - Major Update
+
+> Available for testing since 29 January 2020 exclusively in [#auto-loot](https://discord.fireundubh.com/)
+{.is-info}
 
 ## New Features
 
