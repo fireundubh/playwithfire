@@ -2,8 +2,10 @@
 title: Not returning a value on all code paths
 description: 
 published: true
-date: 2020-01-20T14:07:48.353Z
+date: 2020-11-29T10:59:17.604Z
 tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:07:22.950Z
 ---
 
 # Anti-pattern
@@ -11,12 +13,10 @@ tags:
 The author of the code below returns a value on two code paths, but the functon has three code paths.
 
 ```papyrus
-Bool Function IsItemAvailable(ObjectReference akItem)
-	If akItem.Is3DLoaded() && !akItem.IsDisabled() && !akItem.IsDeleted() && !akItem.IsDestroyed() && !akItem.IsActivationBlocked()
-		Return True
-	Else
-		Return False
-	EndIf
+Bool Function IsRefNotLoaded(ObjectReference akRef)
+	If akRef.Is3DLoaded()
+  	Return False
+  EndIf
 EndFunction
 ```
 
@@ -26,14 +26,22 @@ Papyrus raises a warning without an accompanying error:
 
 # Best practice
 
-Ensure that all code paths return a value. The above code could be written like so:
+Ensure all code paths return a value. The above code could be written like so:
 
 ```papyrus
-Bool Function IsItemAvailable(ObjectReference akItem)
-	If akItem.Is3DLoaded() && !akItem.IsDisabled() && !akItem.IsDeleted() && !akItem.IsDestroyed() && !akItem.IsActivationBlocked()
-		Return True
-	EndIf
-	
-	Return False
+Bool Function IsRefNotLoaded(ObjectReference akRef)
+	If akRef.Is3DLoaded()
+  	Return False
+  EndIf
+  
+  Return True
+EndFunction
+```
+
+We can also condense the function body to a single line:
+
+```papyrus
+Bool Function IsRefNotLoaded(ObjectReference akRef)
+	Return !akRef.Is3DLoaded()
 EndFunction
 ```
