@@ -2,7 +2,7 @@
 title: About Me
 description: 
 published: true
-date: 2020-10-31T06:30:46.598Z
+date: 2020-12-02T10:57:09.996Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-31T06:12:28.976Z
@@ -26,7 +26,7 @@ All mods I create are released free of charge and sometimes the tools I make are
 
 ## Selected mods
 
-- [Master of Disguise](https://www.nexusmods.com/skyrimspecialedition/mods/9959), the titular mod in GameSpot's [Top 5 Skyrim Mods of the Week](https://youtu.be/QZxRm1EcbQ4?t=8m14s). Featured by [MxR Mods](https://www.youtube.com/watch?v=69e7xcYw-G4) and [Brodual](https://www.youtube.com/embed/ATGNFDgNT-A). #1 in Stealth on the Nexus.
+- [Master of Disguise](https://www.nexusmods.com/skyrimspecialedition/mods/9959), the titular mod in GameSpot's [Top 5 Mods of the Week](https://youtu.be/QZxRm1EcbQ4?t=8m14s). Featured by [MxR Mods](https://www.youtube.com/watch?v=69e7xcYw-G4) and [Brodual](https://www.youtube.com/embed/ATGNFDgNT-A). #1 in Stealth on the Nexus. ["One of our favorites of all time." - Brodual (2020)](https://www.youtube.com/watch?v=mSKtezWD8w4&t=7m01s)
 - [Auto Loot](https://www.nexusmods.com/fallout4/mods/27719), a feature-packed area loot mechanic for *Fallout 4*, including auto loot, auto harvest, and auto steal systems. Recommended by Gambit77, creator of Armorsmith Extended.
 - [Let There Be Tooltips!](https://steamcommunity.com/sharedfiles/filedetails/?id=1506230499), hailed by Kotaku as [one of the best mods](https://steamed.kotaku.com/the-best-mods-for-divinity-original-sin-2-1822247638) for *Divinity: Original Sin 2*, adds tooltips to 500+ objects. #3 Most Subscribed. Top 10 with 99% Positive rating.
 - [Lockpicking Overhaul](https://www.nexusmods.com/kingdomcomedeliverance/mods/3) for *Kingdom Come: Deliverance* allows you to fairly avoid the minigame. #1 in Gameplay on the Nexus. Featured by [Kotaku](https://kotaku.com/the-best-kingdom-come-deliverance-mods-1823789025), [US Gamer](https://www.usgamer.net/articles/lockpicking-mod-for-kingdom-come-deliverance-soothes-angry-players), [Twinfinite](http://twinfinite.net/2018/02/kingdom-come-deliverance-best-mods/2/), [SegmentNext](https://segmentnext.com/2018/02/20/best-kingdom-come-deliverance-mods/), [Game Watcher](https://www.gamewatcher.com/news/2018-16-02-the-best-kingdom-come-deliverance-mods), [Eurogamer](http://www.eurogamer.pl/articles/2018-02-14-kingdom-come-deliverance-otwieranie-zamkow-wytrychy), [Game Revolution](http://www.gamerevolution.com/guides/370717-best-kingdom-come-deliverance-mods-must-add-ons-medieval-adventure), and more!
