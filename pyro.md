@@ -2,7 +2,7 @@
 title: Pyro
 description: 
 published: true
-date: 2020-10-28T07:04:00.081Z
+date: 2020-12-23T09:45:49.212Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:04:59.413Z
@@ -291,15 +291,7 @@ POST | Immediately after build success
                                    P  Y  R  O                                   
 ----------------------------------------------------- github.com/fireundubh/pyro
 
-usage: pyro.exe [--ignore-errors] [--no-incremental-build] [--no-parallel]
-                [--worker-limit] [--compiler-path] [--flags-path]
-                [--output-path] [-g {fo4,tes5,sse}]
-                [--game-path  | --registry-path ] [--bsarch-path]
-                [--package-path] [--temp-path]
-                [--zip-compression {store,deflate}] [--zip-output-path]
-                [--access-token] [--force-overwrite] [--remote-temp-path]
-                [--resolve-ppj] [--log-path] [--help]
-                [input_path]
+usage: pyro.exe [input_path] [arguments]
 
 required arguments:
   input_path              relative or absolute path to file
@@ -307,6 +299,7 @@ required arguments:
 
 build arguments:
   --ignore-errors         ignore compiler errors during build
+  --no-implicit-imports   do not discover implicit imports
   --no-incremental-build  do not build incrementally
   --no-parallel           do not parallelize compilation
   --worker-limit          max workers for parallel compilation
