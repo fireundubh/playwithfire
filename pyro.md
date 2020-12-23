@@ -2,7 +2,7 @@
 title: Pyro
 description: 
 published: true
-date: 2020-12-23T09:47:04.927Z
+date: 2020-12-23T09:49:49.932Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:04:59.413Z
@@ -299,7 +299,7 @@ required arguments:
 
 build arguments:
   --ignore-errors         ignore compiler errors during build
-  --no-implicit-imports   do not discover implicit imports
+  --no-implicit-imports   do not build with implicit imports
   --no-incremental-build  do not build incrementally
   --no-parallel           do not parallelize compilation
   --worker-limit          max workers for parallel compilation
@@ -314,7 +314,7 @@ compiler arguments:
                           (if relative, must be relative to project)
 
 game arguments:
-  -g, --game-type         set game type (choices: fo4, tes5, sse)
+  -g, --game-type         set game type {fo4, tes5, sse}
   --game-path             relative or absolute path to game install directory
                           (if relative, must be relative to current working directory)
   --registry-path         path to Installed Path key in Windows Registry
@@ -328,7 +328,7 @@ bsarch arguments:
                           (if relative, must be relative to current working directory)
 
 zip arguments:
-  --zip-compression       set compression method (choices: store, deflate)
+  --zip-compression       set compression method {store, deflate}
   --zip-output-path       relative or absolute path to zip output folder
                           (if relative, must be relative to project)
 
@@ -342,8 +342,6 @@ remote arguments:
 
 debugging arguments:
   --resolve-ppj           resolve variables and paths in ppj file
-  --log-path              relative or absolute path to log folder
-                          (if relative, must be relative to current working directory)
 
 program arguments:
   --help                  show help and exit
