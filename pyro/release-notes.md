@@ -2,13 +2,28 @@
 title: Release Notes
 description: 
 published: true
-date: 2020-11-05T00:59:51.118Z
+date: 2020-12-23T09:56:57.005Z
 tags: 
 editor: markdown
 dateCreated: 2020-05-20T04:28:08.747Z
 ---
 
 > **Note:** Pre-release version names are Unix timestamps.
+
+# 1608598199
+
+## New Features
+
+- Added `--no-implicit-imports` argument to disable implicit import discovery
+
+
+# 1608551127
+
+## Fixes
+
+- Fixed issue where only one compilation error could be logged (originally intended to be helpful but could be confusing)
+- Fixed issue where the colon delimiter could not be used in `Folder` paths (e.g., `<Folder>Scripts:Source:User</Folder>`)
+
 
 # 1603689187
 
