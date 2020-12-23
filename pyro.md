@@ -2,7 +2,7 @@
 title: Pyro
 description: 
 published: true
-date: 2020-12-23T09:45:49.212Z
+date: 2020-12-23T09:46:25.190Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:04:59.413Z
@@ -291,7 +291,7 @@ POST | Immediately after build success
                                    P  Y  R  O                                   
 ----------------------------------------------------- github.com/fireundubh/pyro
 
-usage: pyro.exe [input_path] [arguments]
+usage: pyro.exe [input_path] [other arguments]
 
 required arguments:
   input_path              relative or absolute path to file
