@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2020-12-26T05:08:00.649Z
+date: 2020-12-26T05:08:56.089Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:11:18.083Z
@@ -38,16 +38,16 @@ Enable the Papyrus logger only when you need to debug scripts or produce logs th
 
 ## Where can I find the logs?
 
-Papyrus logs are stored at:
+The latest Papyrus log is saved to this file:
 
 ```
 %USERPROFILE%\Documents\My Games\Skyrim Special Edition\Logs\Script\Papyrus.0.log
 ```
 
-Logs specific to Master of Disguise are stored here:
+Logs specific to Master of Disguise are saved in this folder:
 
 ```
-%USERPROFILE%\Documents\My Games\Skyrim Special Edition\Logs\Script\User
+%USERPROFILE%\Documents\My Games\Skyrim Special Edition\Logs\Script\User\
 ```
 
 
