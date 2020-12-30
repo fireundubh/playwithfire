@@ -2,11 +2,26 @@
 title: Version History
 description: 
 published: true
-date: 2020-11-25T03:15:36.301Z
+date: 2020-12-30T23:02:04.418Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T12:31:53.635Z
 ---
+
+# Version 1.2.2
+
+> Available for testing since 30 December 2020 exclusively in [#auto-loot](https://discord.fireundubh.com/)
+{.is-info}
+
+## Changes
+
+- [X] Renamed "Pause" and "Resume" to "Select to Pause" and "Select to Resume"
+- [X] Updated version number and header in holotape menu
+
+## Fixed Issues
+
+- [X] Fixed issue where Auto Steal could not steal items when Owned and Unowned mode set
+- [X] Fixed issue where Potted Meat (Food) could not be auto looted
 
 # Version 1.2.1 - Hotfix
 
