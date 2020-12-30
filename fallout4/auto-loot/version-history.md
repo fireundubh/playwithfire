@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-12-30T23:02:04.418Z
+date: 2020-12-30T23:03:09.329Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T12:31:53.635Z
@@ -22,6 +22,10 @@ dateCreated: 2020-01-19T12:31:53.635Z
 
 - [X] Fixed issue where Auto Steal could not steal items when Owned and Unowned mode set
 - [X] Fixed issue where Potted Meat (Food) could not be auto looted
+
+## Known Issues
+
+- [ ] The Currency Filter is still not activating Caps Stashes... 🤷‍♂️
 
 # Version 1.2.1 - Hotfix
 
