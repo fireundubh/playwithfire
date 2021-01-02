@@ -2,7 +2,7 @@
 title: Auto Loot Documentation
 description: 
 published: true
-date: 2020-11-21T15:47:16.873Z
+date: 2021-01-02T11:30:07.124Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:11:25.812Z
@@ -30,6 +30,10 @@ Debug | From this menu, you can access debug options:<br><br>&bull; **Retrieve l
 
 
 # Pause/Resume
+
+> **Upgrading:** When upgrading to a new version of Auto Loot, pausing is not enough to ensure a clean upgrade. You must *disable all filters* to stop their respective scripts.
+{.is-warning}
+
 
 The Pause/Resume actions can be used to temporarily suspend and continue any enabled filters. This allows you to retain filter states throughout a save.
 
