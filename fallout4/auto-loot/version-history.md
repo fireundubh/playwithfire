@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2020-12-30T23:03:09.329Z
+date: 2021-01-02T10:27:04.839Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T12:31:53.635Z
@@ -21,6 +21,7 @@ dateCreated: 2020-01-19T12:31:53.635Z
 ## Fixed Issues
 
 - [X] Fixed issue where Auto Steal could not steal items when Owned and Unowned mode set
+- [X] Fixed issue where both owned and unowned items were looted when Auto Steal was disabled
 - [X] Fixed issue where Potted Meat (Food) could not be auto looted
 
 ## Known Issues
