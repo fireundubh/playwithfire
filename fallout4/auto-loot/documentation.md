@@ -2,7 +2,7 @@
 title: Auto Loot Documentation
 description: 
 published: true
-date: 2021-01-02T11:30:07.124Z
+date: 2021-01-15T17:31:57.736Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:11:25.812Z
@@ -13,8 +13,8 @@ dateCreated: 2020-01-19T11:11:25.812Z
 ## Glossary
 
 - **Destination**: A container where items will be stored; can be either the player or a workshop
-- **Filter**: A collection of items categorized by type
-- **Radius**: Area around the player to be searched, measured in Bethesda units. 128 units is the height of a normal humanoid actor whereas 4096 is the length of a cell.
+- **Filter**: A script that loots specific types of items, like a shopping list, strainer/sieve, or gold pan
+- **Radius**: Area around the player to be searched, measured in Bethesda Units. 128 units is the height of a normal humanoid actor whereas 4096 is the length of a cell.
 
 ## Menu Descriptions
 
