@@ -2,11 +2,16 @@
 title: Version History
 description: 
 published: true
-date: 2020-11-07T23:28:15.236Z
+date: 2021-01-18T20:56:11.353Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-30T00:07:12.312Z
 ---
+
+# Version 1.5.3 (Hotfix)
+
+- Fixed issue where bad flags on magic effects prevented the cloak spell from continuously running (e.g., NPCs would stop being suspicious)
+
 
 # Version 1.5.2 (Hotfix)
 
