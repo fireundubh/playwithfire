@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-01-18T20:56:11.353Z
+date: 2021-01-18T20:57:22.533Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-30T00:07:12.312Z
@@ -11,6 +11,7 @@ dateCreated: 2020-01-30T00:07:12.312Z
 # Version 1.5.3 (Hotfix)
 
 - Fixed issue where bad flags on magic effects prevented the cloak spell from continuously running (e.g., NPCs would stop being suspicious)
+- Removed legacy brawl bug fix (players should install the [Modern Brawl Bug Fix](https://www.nexusmods.com/skyrimspecialedition/mods/1473))
 
 
 # Version 1.5.2 (Hotfix)
