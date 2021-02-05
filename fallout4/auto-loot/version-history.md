@@ -2,11 +2,21 @@
 title: Version History
 description: 
 published: true
-date: 2021-01-02T10:27:04.839Z
+date: 2021-02-05T09:23:58.939Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T12:31:53.635Z
 ---
+
+# Version 1.2.3
+
+> Available for testing since 5 February 2021 exclusively in [#auto-loot](https://discord.fireundubh.com/)
+{.is-info}
+
+## Fixed Issues
+
+- [X] Fixed issue where Bodies and Containers filters could not loot properly
+- [X] Fixed issue where Take All could yield stolen items from bodies and containers
 
 # Version 1.2.2
 
