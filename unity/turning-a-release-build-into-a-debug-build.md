@@ -2,7 +2,7 @@
 title: Turning a release build into a debug build
 description: 
 published: true
-date: 2021-02-07T09:28:06.160Z
+date: 2021-02-07T11:10:38.907Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:08:11.523Z
@@ -32,7 +32,8 @@ Using dnSpy, load the assembly and modify the assembly attributes from:
 To:
 
 ```
-[assembly: Debuggable(DebuggableAttribute.DebuggingModes.Default | DebuggableAttribute.DebuggingModes.DisableOptimizations | DebuggableAttribute.DebuggingModes.EnableEditAndContinue | DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints)]
+[assembly: Debuggable(DebuggableAttribute.DebuggingModes.Default | DebuggableAttribute.DebuggingModes.DisableOptimizations 
+  | DebuggableAttribute.DebuggingModes.EnableEditAndContinue | DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints)]
 ```
 
 For more information, see [0xd4d's guide to Making an Image Easier to Debug](https://github.com/0xd4d/dnSpy/wiki/Making-an-Image-Easier-to-Debug).
