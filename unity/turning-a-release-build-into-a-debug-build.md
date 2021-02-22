@@ -2,7 +2,7 @@
 title: Turning a release build into a debug build
 description: 
 published: true
-date: 2021-02-07T11:10:38.907Z
+date: 2021-02-22T22:38:40.792Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:08:11.523Z
@@ -63,9 +63,9 @@ Before you do anything, backup the game's player `.exe`, `UnityPlayer.dll`, and 
 
 ### Step 3: Compile de4dot
 
-Compile these changes into de4dot:
+Compile [this fork of de4dot](https://github.com/fireundubh/de4dot/tree/pdbgen), which makes [these changes](https://github.com/0xd4d/de4dot/pull/126/commits/28f33354c86cdbfc1d96134fab1132c87a99a5e3).
 
-[https://github.com/0xd4d/de4dot/pull/126/commits/28f33354c86cdbfc1d96134fab1132c87a99a5e3](https://github.com/0xd4d/de4dot/pull/126/commits/28f33354c86cdbfc1d96134fab1132c87a99a5e3)
+
 
 ### Step 4: Set Up PDB State
 
