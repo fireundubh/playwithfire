@@ -2,7 +2,7 @@
 title: Turning a release build into a debug build
 description: 
 published: true
-date: 2021-02-22T22:42:58.149Z
+date: 2021-02-22T22:43:39.392Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:08:11.523Z
@@ -12,9 +12,9 @@ dateCreated: 2020-01-19T11:08:11.523Z
 
 Type | Name | Developer | Price | License | Download | Website
 :--- | :--- | :--- | :--- | :--- | :--- | :---
-Decompiler/IL Editor | dnSpy | 0xd4d | Open source | GPL v3 | ... | [GitHub](https://github.com/dnSpy/dnSpy)
-Decompiler | dotPeek | JetBrains | Free | Commercial | [https://www.jetbrains.com/decompiler/download/](https://www.jetbrains.com/decompiler/download/) | [Official Website](https://www.jetbrains.com/decompiler/)
-Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | ... | [GitHub Fork](https://github.com/fireundubh/de4dot/tree/pdbgen)
+Decompiler/IL Editor | dnSpy | 0xd4d | Open source | GPL v3 | [GitHub](https://github.com/dnSpy/dnSpy)
+Decompiler | dotPeek | JetBrains | Free | Commercial |  [Official Website](https://www.jetbrains.com/decompiler/)
+Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [GitHub Fork](https://github.com/fireundubh/de4dot/tree/pdbgen)
 
 You will also need to install the correct Unity Editor from the [official Unity download archive](https://unity3d.com/get-unity/download/archive).
 
