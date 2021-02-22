@@ -2,14 +2,13 @@
 title: Turning a release build into a debug build
 description: 
 published: true
-date: 2021-02-22T22:41:42.103Z
+date: 2021-02-22T22:42:58.149Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:08:11.523Z
 ---
 
-# Turning a release build into a debug build
-## Requirements
+# Requirements
 
 Type | Name | Developer | Price | License | Download | Website
 :--- | :--- | :--- | :--- | :--- | :--- | :---
@@ -19,9 +18,9 @@ Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | ... | [GitHub Fork](https
 
 You will also need to install the correct Unity Editor from the [official Unity download archive](https://unity3d.com/get-unity/download/archive).
 
-## Instructions
+# Instructions
 
-### Step 1: Fix Assembly Flags
+## Step 1: Fix Assembly Flags
 
 Using dnSpy, load the assembly and modify the assembly attributes from:
 
@@ -45,7 +44,7 @@ Save the module with the following MD Writer Options:
 * Check: Create Heap Even If Empty (all)
 * Check: Misc Options (all except Keep Old MaxStack Value)
 
-### Step 2: Set Up Debug Binaries
+## Step 2: Set Up Debug Binaries
 
 **For Unity 2017.2 and above.** For older versions, see [0xd4d's guide to debugging Unity games](https://github.com/0xd4d/dnSpy/wiki/Debugging-Unity-Games).
 
@@ -61,13 +60,13 @@ Before you do anything, backup the game's player `.exe`, `UnityPlayer.dll`, and 
 8. Create a new plain text file in the game's Data folder named `boot.config`.
 9. Edit `boot.config`, add the line `player-connection-debug=1`, and save.
 
-### Step 3: Compile de4dot
+## Step 3: Compile de4dot
 
 Compile [this fork of de4dot](https://github.com/fireundubh/de4dot/tree/pdbgen), which makes [these changes](https://github.com/0xd4d/de4dot/pull/126/commits/28f33354c86cdbfc1d96134fab1132c87a99a5e3).
 
 
 
-### Step 4: Set Up PDB State
+## Step 4: Set Up PDB State
 
 We need to set up the assembly so that dotPeek can generate a new PDB file.
 
@@ -80,7 +79,7 @@ We need to set up the assembly so that dotPeek can generate a new PDB file.
 
 A dummy PDB will be produced in the output folder.
 
-### Step 5: Generate PDB
+## Step 5: Generate PDB
 
 1. Load the new assembly into dotPeek.
 2. Generate the PDB file.
@@ -93,7 +92,7 @@ You may have to wait a while for dotPeek to generate the DecompilerCache and wri
 %LOCALAPPDATA%\JetBrains\Shared\vAny\DecompilerCache\decompiler
 ```
 
-### Step 6: Convert PDB to MDB
+## Step 6: Convert PDB to MDB
 
 Unity loads MDB files, not PDB files, so we need to convert our new PDB to MDB. Fortunately, we have all the tools already.
 
@@ -105,6 +104,6 @@ Execute the following command:
 
 The MDB file will be generated in the same folder as the target assembly DLL.
 
-### Step 7: Replace Mono Binary
+## Step 7: Replace Mono Binary
 
 Finally, replace `mono-2.0-bdwgc.dll` in the game's `MonoBleedingEdge` folder with the debug version from the Unity Editor's `MonoBleedingEdge` folder.
