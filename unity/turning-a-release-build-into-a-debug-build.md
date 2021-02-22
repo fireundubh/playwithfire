@@ -2,7 +2,7 @@
 title: Turning a release build into a debug build
 description: 
 published: true
-date: 2021-02-22T22:38:40.792Z
+date: 2021-02-22T22:41:42.103Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:08:11.523Z
@@ -13,9 +13,9 @@ dateCreated: 2020-01-19T11:08:11.523Z
 
 Type | Name | Developer | Price | License | Download | Website
 :--- | :--- | :--- | :--- | :--- | :--- | :---
-Decompiler/IL Editor | dnSpy | 0xd4d | Open source | GPL v3 | [https://ci.appveyor.com/project/0xd4d/dnspy/branch/master/artifacts](https://ci.appveyor.com/project/0xd4d/dnspy/branch/master/artifacts) | [GitHub](https://github.com/0xd4d/dnSpy)
+Decompiler/IL Editor | dnSpy | 0xd4d | Open source | GPL v3 | ... | [GitHub](https://github.com/dnSpy/dnSpy)
 Decompiler | dotPeek | JetBrains | Free | Commercial | [https://www.jetbrains.com/decompiler/download/](https://www.jetbrains.com/decompiler/download/) | [Official Website](https://www.jetbrains.com/decompiler/)
-Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [https://ci.appveyor.com/project/0xd4d/de4dot/branch/master/artifacts](https://ci.appveyor.com/project/0xd4d/de4dot/branch/master/artifacts) | [GitHub](https://github.com/0xd4d/de4dot)
+Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | ... | [GitHub Fork](https://github.com/fireundubh/de4dot/tree/pdbgen)
 
 You will also need to install the correct Unity Editor from the [official Unity download archive](https://unity3d.com/get-unity/download/archive).
 
@@ -69,7 +69,7 @@ Compile [this fork of de4dot](https://github.com/fireundubh/de4dot/tree/pdbgen),
 
 ### Step 4: Set Up PDB State
 
-We need to set up the assembly so that dotPeek can generate a new PDB file. (Currently, dnSpy does not offer PDB generation.)
+We need to set up the assembly so that dotPeek can generate a new PDB file.
 
 **Note:** The line numbers in stack traces will be accurate to dotPeek's decompilation output because we're using dotPeek to generate the PDB.
 
