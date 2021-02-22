@@ -2,7 +2,7 @@
 title: Turning a release build into a debug build
 description: 
 published: true
-date: 2021-02-22T22:43:39.392Z
+date: 2021-02-22T22:43:52.036Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:08:11.523Z
@@ -10,7 +10,7 @@ dateCreated: 2020-01-19T11:08:11.523Z
 
 # Requirements
 
-Type | Name | Developer | Price | License | Download | Website
+Type | Name | Developer | Price | License | Website
 :--- | :--- | :--- | :--- | :--- | :--- | :---
 Decompiler/IL Editor | dnSpy | 0xd4d | Open source | GPL v3 | [GitHub](https://github.com/dnSpy/dnSpy)
 Decompiler | dotPeek | JetBrains | Free | Commercial |  [Official Website](https://www.jetbrains.com/decompiler/)
