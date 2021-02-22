@@ -2,8 +2,10 @@
 title: Unity
 description: 
 published: true
-date: 2020-05-25T21:58:35.714Z
+date: 2021-02-22T22:49:03.528Z
 tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:05:14.698Z
 ---
 
 # Games
@@ -11,6 +13,7 @@ tags:
 Name | Developer | Unity Version | .NET Compatibility
 :--- | :--- | :--- | :---
 Pathfinder: Kingmaker | Owlcat Games | 2018.1f0 ([Documentation](https://docs.unity3d.com/2018.1/Documentation/Manual/index.html)) | .NET 4.x (Assembly-CSharp.dll)
+Pathfinder: Wrath of the Righteous | Owlcat Games | 2019.4 ([Documentation](https://docs.unity3d.com/2019.4/Documentation/Manual/index.html)) | .NET 4.x (Assembly-CSharp.dll)
 Pillars of Eternity | Obsidian Entertainment | 5.1 ([Documentation](https://docs.unity3d.com/510/Documentation/Manual/index.html)) | .NET 3.5 (Assembly-CSharp.dll)
 Pillars of Eternity II: Deadfire | Obsidian Entertainment | 5.6.3 ([Documentation](https://docs.unity3d.com/560/Documentation/Manual/index.html)) | .NET 3.5 (Assembly-CSharp.dll)
 Torment: Tides of Numenera |  inXile Entertainment | 5.4.1 ([Documentation](https://docs.unity3d.com/540/Documentation/Manual/index.html)) | .NET 3.5 (Assembly-CSharp.dll)
@@ -22,31 +25,31 @@ Most of modding Unity games involves decompiling `Assembly-CSharp.dll` and patch
 
 ## Reversing
 
-Type | Name | Developer | Price | License | Download | Website
-:--- | :--- | :--- | :--- | :--- | :--- | :---
-Decompiler/IL Editor | dnSpy | 0xd4d | Open source | GPL v3 | [Appveyor](https://ci.appveyor.com/project/0xd4d/dnspy/branch/master/artifacts) | [GitHub](https://github.com/0xd4d/dnSpy)
-Decompiler | dotPeek | JetBrains | Free | Commercial | &rarr; | [JetBrains](https://www.jetbrains.com/decompiler/)
-Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [Appveyor](https://ci.appveyor.com/project/0xd4d/de4dot/branch/master/artifacts) | [GitHub](https://github.com/0xd4d/de4dot)
-Type Safety Evaluator | PEVerify | Microsoft | Free | Proprietary | &rarr; | [Microsoft](https://docs.microsoft.com/en-us/dotnet/framework/tools/peverify-exe-peverify-tool)
+Type | Name | Developer | Price | License | Website
+:--- | :--- | :--- | :--- | :--- | :---
+Decompiler/IL Editor | dnSpy | 0xd4d | Open source | GPL v3 | [GitHub](https://github.com/dnSpy/dnSpy)
+Decompiler | dotPeek | JetBrains | Free | Commercial | [JetBrains](https://www.jetbrains.com/decompiler/)
+Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [GitHub](https://github.com/fireundubh/de4dot/pdbgen)
+Type Safety Evaluator | PEVerify | Microsoft | Free | Proprietary | [Microsoft](https://docs.microsoft.com/en-us/dotnet/framework/tools/peverify-exe-peverify-tool)
 
 ## Patching
 
-Type | Name | Developer | Price | License | Download | Website
-:--- | :--- | :--- | :--- | :--- | :--- | :---
-Patcher | Patchwork | Greg Ros | Open source | MIT | &rarr; | [GitHub](https://github.com/GregRos/Patchwork)
-Patcher (Injection) | Harmony | pardeike | Open source | MIT | &rarr; | [GitHub](https://github.com/pardeike/Harmony)
-Patcher (Injection) | BepInEx (based on Harmony) | bbepis | Open Source | MIT | &rarr; | [GitHub](https://github.com/BepInEx/BepInEx)
-Patcher (Injection) | MonoMod (based on Harmony) | 0x0ade | Open source | MIT | &rarr; | [GitHub](https://github.com/MonoMod/MonoMod)
-Injector | Unity Doorstop | denikson | Open source | CC0-1.0 | &rarr; | [GitHub](https://github.com/NeighTools/UnityDoorstop)
+Type | Name | Developer | Price | License | Website
+:--- | :--- | :--- | :--- | :--- | :---
+Patcher | Patchwork | Greg Ros | Open source | MIT | [GitHub](https://github.com/GregRos/Patchwork)
+Patcher (Injection) | Harmony | pardeike | Open source | MIT | [GitHub](https://github.com/pardeike/Harmony)
+Patcher (Injection) | BepInEx (based on Harmony) | bbepis | Open Source | MIT | [GitHub](https://github.com/BepInEx/BepInEx)
+Patcher (Injection) | MonoMod (based on Harmony) | 0x0ade | Open source | MIT | [GitHub](https://github.com/MonoMod/MonoMod)
+Injector | Unity Doorstop | denikson | Open source | CC0-1.0 | [GitHub](https://github.com/NeighTools/UnityDoorstop)
 
 ## Asset Unbundling
 
-Type | Name | Developer | Price | License | Download | Website
-:--- | :--- | :--- | :--- | :--- | :--- | :---
-AssetBundle Extractor | Asset Studio | Perfare | Open source | MIT | &rarr; | [GitHub](https://github.com/Perfare/AssetStudio)
-AssetBundle Extractor | uTinyRipper | mafaca | Free |  | &rarr; | [GitHub](https://github.com/mafaca/UtinyRipper)
-AssetBundle Extractor | uTinyRipperExporter CLI | spacehamster | Open source | MIT | &rarr; | [GitHub](https://github.com/spacehamster/UtinyRipperExporter)
-AssetBundle Extractor | Unity Assets Bundle Extractor (UABE) | DerPopo | Free | Closed | &rarr; | [7 Days To Die Forum](https://community.7daystodie.com/topic/1871-unity-assets-bundle-extractor/)
+Type | Name | Developer | Price | License | Website
+:--- | :--- | :--- | :--- | :--- | :---
+AssetBundle Extractor | Asset Studio | Perfare | Open source | MIT | [GitHub](https://github.com/Perfare/AssetStudio)
+AssetBundle Extractor | uTinyRipper | mafaca | Free |  | [GitHub](https://github.com/mafaca/UtinyRipper)
+AssetBundle Extractor | uTinyRipperExporter CLI | spacehamster | Open source | MIT | [GitHub](https://github.com/spacehamster/UtinyRipperExporter)
+AssetBundle Extractor | Unity Assets Bundle Extractor (UABE) | DerPopo | Free | Closed | [7 Days To Die Forum](https://community.7daystodie.com/topic/1871-unity-assets-bundle-extractor/)
 
 
 ## Untested
