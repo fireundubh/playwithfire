@@ -2,7 +2,7 @@
 title: Unity
 description: 
 published: true
-date: 2021-02-23T19:18:48.861Z
+date: 2021-02-23T19:27:27.919Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:05:14.698Z
@@ -27,10 +27,14 @@ Most of modding Unity games involves decompiling `Assembly-CSharp.dll` and patch
 
 Type | Name | Developer | Price | License | Website
 :--- | :--- | :--- | :--- | :--- | :---
-Decompiler/IL Editor | dnSpy | 0xd4d | Open source | GPL v3 | [GitHub](https://github.com/dnSpy/dnSpy)
 Decompiler | dotPeek | JetBrains | Free | Commercial | [JetBrains](https://www.jetbrains.com/decompiler/)
+Decompiler/IL Editor | dnSpy | 0xd4d | Open source | GPL v3 | [GitHub](https://github.com/dnSpy/dnSpy)
 Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [GitHub Fork](https://github.com/fireundubh/de4dot/pdbgen)
 Type Safety Evaluator | PEVerify | Microsoft | Free | Proprietary | [Microsoft](https://docs.microsoft.com/en-us/dotnet/framework/tools/peverify-exe-peverify-tool)
+
+**Note 1:** dnSpy and de4dot were abandoned by the original developer.
+
+**Note 2:** dotPeek produces more accurate IL than dnSpy ever did because dnSpy relied on the ILSpy 2.x engine.
 
 ## Patching
 
