@@ -2,7 +2,7 @@
 title: Unity
 description: 
 published: true
-date: 2021-02-22T22:49:03.528Z
+date: 2021-02-23T19:18:48.861Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:05:14.698Z
@@ -29,17 +29,17 @@ Type | Name | Developer | Price | License | Website
 :--- | :--- | :--- | :--- | :--- | :---
 Decompiler/IL Editor | dnSpy | 0xd4d | Open source | GPL v3 | [GitHub](https://github.com/dnSpy/dnSpy)
 Decompiler | dotPeek | JetBrains | Free | Commercial | [JetBrains](https://www.jetbrains.com/decompiler/)
-Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [GitHub](https://github.com/fireundubh/de4dot/pdbgen)
+Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [GitHub Fork](https://github.com/fireundubh/de4dot/pdbgen)
 Type Safety Evaluator | PEVerify | Microsoft | Free | Proprietary | [Microsoft](https://docs.microsoft.com/en-us/dotnet/framework/tools/peverify-exe-peverify-tool)
 
 ## Patching
 
 Type | Name | Developer | Price | License | Website
 :--- | :--- | :--- | :--- | :--- | :---
-Patcher | Patchwork | Greg Ros | Open source | MIT | [GitHub](https://github.com/GregRos/Patchwork)
+Patcher (Direct) | Patchwork | Greg Ros | Open source | MIT | [GitHub](https://github.com/GregRos/Patchwork)
 Patcher (Injection) | Harmony | pardeike | Open source | MIT | [GitHub](https://github.com/pardeike/Harmony)
 Patcher (Injection) | BepInEx (based on Harmony) | bbepis | Open Source | MIT | [GitHub](https://github.com/BepInEx/BepInEx)
-Patcher (Injection) | MonoMod (based on Harmony) | 0x0ade | Open source | MIT | [GitHub](https://github.com/MonoMod/MonoMod)
+Patcher (Direct/Injection) | MonoMod (based on Harmony) | 0x0ade | Open source | MIT | [GitHub](https://github.com/MonoMod/MonoMod)
 Injector | Unity Doorstop | denikson | Open source | CC0-1.0 | [GitHub](https://github.com/NeighTools/UnityDoorstop)
 
 ## Asset Unbundling
