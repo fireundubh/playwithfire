@@ -2,13 +2,23 @@
 title: Release Notes
 description: 
 published: true
-date: 2020-12-23T09:56:57.005Z
+date: 2021-02-27T21:09:27.184Z
 tags: 
 editor: markdown
 dateCreated: 2020-05-20T04:28:08.747Z
 ---
 
 > **Note:** Pre-release version names are Unix timestamps.
+
+# 1613874280
+
+## Hotfix
+
+> An issue was fixed where scripts could not be downloaded from private GitHub remotes.
+> 
+> *Thanks to Mr. Octopus (MrNeverLost) for reporting the issue!*
+{.is-info}
+
 
 # 1608598199
 
@@ -30,6 +40,8 @@ dateCreated: 2020-05-20T04:28:08.747Z
 ## Hotfix
 
 > An upstream issue with Nuitka 0.6.9.x causes Pyro to hang when executing workers. Each worker is actually crashing with an access violation. Recompiling Pyro through Nuitka 0.6.8.4 circumvents the issue. ([Nuitka Issue 867](https://github.com/Nuitka/Nuitka/issues/867))
+> 
+> *Thanks to Exit_9B (Parapets) for reporting the issue.*
 {.is-info}
 
 
