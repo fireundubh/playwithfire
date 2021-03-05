@@ -2,7 +2,7 @@
 title: Turning a release build into a debug build
 description: 
 published: true
-date: 2021-02-22T22:44:00.572Z
+date: 2021-03-05T03:21:33.506Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:08:11.523Z
@@ -35,7 +35,7 @@ To:
   | DebuggableAttribute.DebuggingModes.EnableEditAndContinue | DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints)]
 ```
 
-For more information, see [0xd4d's guide to Making an Image Easier to Debug](https://github.com/0xd4d/dnSpy/wiki/Making-an-Image-Easier-to-Debug).
+For more information, see [0xd4d's guide to Making an Image Easier to Debug](https://github.com/dnSpy/dnSpy/wiki/Making-an-Image-Easier-to-Debug).
 
 Save the module with the following MD Writer Options:
 
@@ -46,7 +46,7 @@ Save the module with the following MD Writer Options:
 
 ## Step 2: Set Up Debug Binaries
 
-**For Unity 2017.2 and above.** For older versions, see [0xd4d's guide to debugging Unity games](https://github.com/0xd4d/dnSpy/wiki/Debugging-Unity-Games).
+**For Unity 2017.2 and above.** For older versions, see [0xd4d's guide to debugging Unity games](https://github.com/dnSpy/dnSpy/wiki/Debugging-Unity-Games).
 
 Before you do anything, backup the game's player `.exe`, `UnityPlayer.dll`, and the `Managed` folder.
 
