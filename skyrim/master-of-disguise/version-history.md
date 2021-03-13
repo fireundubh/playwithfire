@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-03-13T12:41:18.973Z
+date: 2021-03-13T12:42:59.811Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-30T00:07:12.312Z
@@ -206,7 +206,7 @@ Player Score | Avg. Success Chance | Dice Rolls
 
 # Version 1.2
 
-> **Release Date:** December 10, 2018
+> **Release Date:** March 13, 2018
 {.is-info}
 
 - Fixed the issue preventing the detection system from working
