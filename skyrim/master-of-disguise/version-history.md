@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-01-18T20:57:22.533Z
+date: 2021-03-13T12:41:18.973Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-30T00:07:12.312Z
@@ -10,22 +10,31 @@ dateCreated: 2020-01-30T00:07:12.312Z
 
 # Version 1.5.3 (Hotfix)
 
+> **Release Date:** January 18, 2021
+{.is-info}
+
 - Fixed issue where bad flags on magic effects prevented the cloak spell from continuously running (e.g., NPCs would stop being suspicious)
 - Removed legacy brawl bug fix (players should install the [Modern Brawl Bug Fix](https://www.nexusmods.com/skyrimspecialedition/mods/1473))
 
-
 # Version 1.5.2 (Hotfix)
+
+> **Release Date:** November 7, 2020
+{.is-info}
 
 - Fixed issue where disguises were not removed before, and restored after, combat which caused normally hostile NPCs to stay nonhostile
 
-
 # Version 1.5.1 (Hotfix)
+
+> **Release Date:** August 31, 2020
+{.is-info}
 
 - Fixed issue where SKSE plugins Mathf and TurtleClub were compiled in debug mode, which requires Visual Studio to be installed (resolves "dependency DLL could not be found" errors)
 - Fixed issue where welcome/tutorial messages were shown for every disguise item if the player equipped several disguise items at once
 
-
 # Version 1.5.0
+
+> **Release Date:** August 31, 2020
+{.is-info}
 
 ## Requirements Changes
 
@@ -40,18 +49,16 @@ Any extension patches created by third parties will need to be updated.
 
 ### SKSE Plugin: TurtleClub
 
-> **Source Code:** [https://github.com/fireundubh/TurtleClub](https://github.com/fireundubh/TurtleClub)
-{.is-info}
-
 TurtleClub is an SKSE plugin that performs heavy lifting for Master of Disguise's computationally expensive features.
+
+**Source Code:** [https://github.com/fireundubh/TurtleClub](https://github.com/fireundubh/TurtleClub)
 
 
 ### SKSE Plugin: Mathf
 
-> **Source Code:** [https://github.com/fireundubh/Mathf](https://github.com/fireundubh/Mathf)
-{.is-info}
-
 Mathf is an SKSE plugin that performs many convenient math operations (e.g., min, max, clamp.)
+
+**Source Code:** [https://github.com/fireundubh/Mathf](https://github.com/fireundubh/Mathf)
 
 
 ## Major Changes
@@ -104,6 +111,9 @@ Player Score | Avg. Success Chance | Dice Rolls
 
 # Version 1.4.2
 
+> **Release Date:** March 18, 2020
+{.is-info}
+
 - You can disable automatic faction updates directly from the "Master of Disguise is ready" message box by clicking "Confirm and Disable Auto Update."
 
 > As in v1.4.1, if you later install mods that change faction relationships, or if faction NPCs are ignoring your disguise, you should re-enable this setting, save, and reload that save to update faction relations again. This is your responsibility.
@@ -120,6 +130,9 @@ Player Score | Avg. Success Chance | Dice Rolls
 
 # Version 1.4.1
 
+> **Release Date:** March 4, 2020
+{.is-info}
+
 - A setting has been added to the Advanced menu that allows you to disable automatic faction updates (i.e., Factions Update Auto Run.) After updating once, you can toggle this setting, save, and when loading that save, you will not see the update message box again.
 
 > If you later install mods that change faction relationships, or if faction NPCs are ignoring your disguise, you should re-enable this setting, save, and reload that save to update faction relations again. This is your responsibility.
@@ -129,6 +142,9 @@ Player Score | Avg. Success Chance | Dice Rolls
 
 
 # Version 1.4
+
+> **Release Date:** March 3, 2020
+{.is-info}
 
 ## Requirements Changes
 
@@ -177,6 +193,9 @@ Player Score | Avg. Success Chance | Dice Rolls
 
 # Version 1.3
 
+> **Release Date:** February 15, 2019
+{.is-info}
+
 - Added support for SkyUI Mod Configuration Menu (requires SKSE and SkyUI)
 - Added option to force vampire disguises to obey day/night cycle (enabled by default)
 - Significantly improved performance and responsiveness of equipping and unequipping disguises
@@ -187,6 +206,24 @@ Player Score | Avg. Success Chance | Dice Rolls
 
 # Version 1.2
 
+> **Release Date:** December 10, 2018
+{.is-info}
+
 - Fixed the issue preventing the detection system from working
 - Disabled debug logging because some people still believe the Papyrus log helps solve crashes
 - Cleaned up unused code
+
+# Version 1.1
+
+> **Release Date:** February 6, 2018
+{.is-info}
+
+- More work on the initial port to SSE
+
+# Version 1.0
+
+> **Release Date:** May 18, 2017
+{.is-info}
+
+- Initial port to SSE
+
