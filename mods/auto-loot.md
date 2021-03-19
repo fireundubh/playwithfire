@@ -1,8 +1,8 @@
 ---
-title: Auto Loot
+title: Auto Loot for Fallout 4
 description: 
 published: true
-date: 2021-03-19T21:50:22.281Z
+date: 2021-03-19T21:51:02.125Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:40:30.732Z
