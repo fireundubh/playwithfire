@@ -2,7 +2,7 @@
 title: Auto Loot for Fallout 4
 description: 
 published: true
-date: 2021-03-19T21:51:02.125Z
+date: 2021-03-19T21:51:52.701Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:40:30.732Z
@@ -30,7 +30,7 @@ In addition, all Papyrus INI settings must be set to the defaults. These setting
 
 * [Version History](/mods/auto-loot/version-history)
 * [Documentation](/mods/auto-loot/documentation)
-* [Architecture](/mods/auto-loot/faqs)
+* [Frequently Asked Questions](/mods/auto-loot/faqs)
 * [Roadmap @ Trello](https://trello.com/b/MTUBalXu/auto-loot-roadmap)
 * [Source Code @ GitHub](https://github.com/fireundubh/fallout4/tree/master/Auto%20Loot)
 * [Download @ Fallout 4 Nexus](https://www.nexusmods.com/fallout4/mods/27719)
