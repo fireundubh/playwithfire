@@ -1,8 +1,8 @@
 ---
-title: Auto Loot Documentation
+title: Documentation
 description: 
 published: true
-date: 2021-03-19T21:44:08.869Z
+date: 2021-03-19T21:51:28.822Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:44:08.869Z
