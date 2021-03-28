@@ -2,7 +2,7 @@
 title: Documentation
 description: 
 published: true
-date: 2021-03-28T00:39:00.316Z
+date: 2021-03-28T00:39:47.563Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:44:08.869Z
@@ -107,7 +107,7 @@ The Components, Valuables, and Junk filters are all Junk filters and could possi
 
 In v1.1, they were made mutually exclusive to avoid performance and/or stability issues. Only one type of Junk filter can be enabled at a time.
 
-## Junk Rarity Tiers
+## Valuables
 
 The tiered Valuables filters target Junk that have the following components:
 
