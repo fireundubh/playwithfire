@@ -2,7 +2,7 @@
 title: Documentation
 description: 
 published: true
-date: 2021-03-28T00:39:47.563Z
+date: 2021-03-28T00:41:17.758Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:44:08.869Z
@@ -115,7 +115,7 @@ Tier | Components
 :--- | :---
 **Common** | Bone, Ceramic, Cloth, Concrete, Leather, Oil, Plastic, Rubber, Steel, Wood
 **Uncommon** | Adhesive, Aluminum, Copper, Cork, Fertilizer, Fiberglass, Gear, Glass, Lead, Screw, Silver, Spring 
-**Rare** | Acid, Antiseptic, Ballistic Fiber, Circuitry, Crystal, Fiber Optics, Gold, Nuclear Material
+**Rare** | Acid, Antiseptic, Asbestos, Ballistic Fiber, Circuitry, Crystal, Fiber Optics, Gold, Nuclear Material
 
 There is some crossover because an item may have a mix of components.
 
