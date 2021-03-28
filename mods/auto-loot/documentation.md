@@ -2,7 +2,7 @@
 title: Documentation
 description: 
 published: true
-date: 2021-03-19T21:51:28.822Z
+date: 2021-03-28T00:39:00.316Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:44:08.869Z
@@ -107,6 +107,17 @@ The Components, Valuables, and Junk filters are all Junk filters and could possi
 
 In v1.1, they were made mutually exclusive to avoid performance and/or stability issues. Only one type of Junk filter can be enabled at a time.
 
+## Junk Rarity Tiers
+
+The tiered Valuables filters target Junk that have the following components:
+
+Tier | Components
+:--- | :---
+**Common** | Bone, Ceramic, Cloth, Concrete, Leather, Oil, Plastic, Rubber, Steel, Wood
+**Uncommon** | Adhesive, Aluminum, Copper, Cork, Fertilizer, Fiberglass, Gear, Glass, Lead, Screw, Silver, Spring 
+**Rare** | Acid, Antiseptic, Ballistic Fiber, Circuitry, Crystal, Fiber Optics, Gold, Nuclear Material
+
+There is some crossover because an item may have a mix of components.
 
 # Destinations
 
