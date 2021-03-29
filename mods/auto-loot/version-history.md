@@ -2,11 +2,38 @@
 title: Version History
 description: 
 published: true
-date: 2021-03-19T21:43:34.910Z
+date: 2021-03-29T09:11:14.596Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
 ---
+
+# Version 1.2.4
+
+> Available for testing since 9 March 2021 exclusively in [#auto-loot](https://discord.fireundubh.com/)
+{.is-info}
+
+> This version includes the plugin `Non-Playable Flags Patch.esp`. This patch fixes vanilla issues where NPC skins are not flagged as Non-Playable. The Papyrus function `RemoveAllItems` can remove skins not flagged correctly and cause crashes. These issues have been reported to the Unofficial Fallout 4 Patch Project and will be resolved in a future update. Until then, I recommend keeping this plugin enabled.
+{.is-warning}
+
+
+## Changes
+
+- [X] Reduced time to start work on array of found references
+- [X] Reduced time to loot at the expense of delaying settings changes to timer renewal
+- [X] Implemented debug menu options Flush Dummies and Uninstall
+
+> To enable the Debug Menu, enter this console command: `set AutoLoot_Debug to 1`.<ul><li>**Flush Dummies:** Empties off-stage dummies to their user-defined destinations. This option should never *need to* be used, but if loot *appears* to have gone missing, you can try this option.<li>**Uninstall:** Removes all Auto Loot perks and stops the Auto Loot holotape quest. You should sleep and save afterwards. This procedure is highly recommended when updating to a new version of Auto Loot or when removing the mod. **Note:** Uninstalling mods is not supported by Bethesda. Consequently, this procedure does not guarantee an absolutely clean removal.</ul>To disable the Debug Menu, enter this console command: `set AutoLoot_Debug to 0`.
+{.is-info}
+
+
+## Fixed Issues
+
+- [X] Fixed issue where the Bodies filter would repeatedly check bodies that contained only Non-Playable (unlootable) items
+- [X] Fixed issue where the Components filter had a mismatched property name in the plugin
+- [X] Fixed issue where the Valuables tiered formlists were not properly split from the Junk formlist
+- [X] Fixed issue where several filter formlists were missing a large number of items
+- [X] Fixed issue where the Loot Settlements preference could be ignored by some filters
 
 # Version 1.2.3
 
