@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-03-29T09:13:23.547Z
+date: 2021-03-29T09:20:04.076Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -30,6 +30,7 @@ dateCreated: 2021-03-19T21:43:34.910Z
 ## Fixed Issues
 
 - [X] Fixed issue where the Bodies filter would repeatedly check bodies that contained only Non-Playable (unlootable) items
+- [X] Fixed issue where the Containers filter could repeatedly check containers that contained only Non-Playable (unlootable) items
 - [X] Fixed issue where the Components filter had a mismatched property name in the plugin
 - [X] Fixed issue where the Valuables tiered formlists were not properly split from the Junk formlist
 - [X] Fixed issue where several filter formlists were missing a large number of items
