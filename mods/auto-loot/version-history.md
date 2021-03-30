@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-03-30T11:21:46.010Z
+date: 2021-03-30T11:22:08.393Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -10,7 +10,7 @@ dateCreated: 2021-03-19T21:43:34.910Z
 
 # Version 1.2.5
 
-> Not available for testing yet.
+> Not available for testing yet
 {.is-info}
 
 ## Changes
