@@ -2,11 +2,25 @@
 title: Version History
 description: 
 published: true
-date: 2021-03-29T09:31:29.064Z
+date: 2021-03-30T11:21:46.010Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
 ---
+
+# Version 1.2.5
+
+> Not available for testing yet.
+{.is-info}
+
+## Changes
+
+- [X] Slightly improved overall performance (not necessarily speed) by reducing formlist overhead
+
+## Fixed Issues
+
+- [X] Fixed issue where activation blocked activators, such as Caps Stashes, could not be looted
+- [X] Fixed issue where the Components filter did not strictly try to loot only items outside containers
 
 # Version 1.2.4
 
