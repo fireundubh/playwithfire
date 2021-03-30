@@ -2,7 +2,7 @@
 title: Documentation
 description: 
 published: true
-date: 2021-03-30T03:29:32.932Z
+date: 2021-03-30T03:30:11.486Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:44:08.869Z
@@ -103,7 +103,7 @@ Weapons | Guns, big guns, grenades, mines, and close combat weapons |
 
 ## Mutually Exclusive Filters
 
-The Junk, Components, and Valuables filters are mutually exclusive. If you had these filters enabled, the Junk filter would take precedence and loot all junk items regardless of your Components and Valuables settings. The outcome would be the same as if you had only the Junk filter enabled.
+The Junk, Components, and Valuables filters are mutually exclusive. If all these filters were enabled, the Junk filter would loot all junk items regardless of your Components and Valuables settings. The outcome would be the same as if you had only the Junk filter enabled.
 
 ### How are these filters different?
 
