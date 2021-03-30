@@ -2,7 +2,7 @@
 title: Documentation
 description: 
 published: true
-date: 2021-03-30T03:30:11.486Z
+date: 2021-03-30T03:30:40.470Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:44:08.869Z
@@ -115,7 +115,7 @@ Filter | Purpose
 **Valuables (Unommon)** | Loot *only* items from the Junk formlist that contain "uncommon" components
 **Valuables (Rare)** | Loot *only* items from the Junk formlist that contain "rare" components
 
-In other words, the Components and Valuables filters provide different types of granular control over the kinds of junk items you want to loot, so only one type of Junk filter can be enabled.
+<br>In other words, the Components and Valuables filters provide different types of granular control over the kinds of junk items you want to loot, so only one type of Junk filter can be enabled.
 
 ## Valuables
 
