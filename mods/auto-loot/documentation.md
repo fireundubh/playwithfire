@@ -2,7 +2,7 @@
 title: Documentation
 description: 
 published: true
-date: 2021-03-28T00:41:17.758Z
+date: 2021-03-30T03:17:46.022Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:44:08.869Z
@@ -103,9 +103,17 @@ Weapons | Guns, big guns, grenades, mines, and close combat weapons |
 
 ## Mutually Exclusive Filters
 
-The Components, Valuables, and Junk filters are all Junk filters and could possibly try to loot the same items regardless of whether they were already looted.
+Filter | Purpose
+:--- | :---
+**Junk** | Loots all items from the Junk formlist
+**Components** | Loots items from the Junk formlist that contain specific components
+**Valuables (Common)** | Loots items from the Junk formlist that contain "common" components
+**Valuables (Unommon)** | Loots items from the Junk formlist that contain "uncommon" components
+**Valuables (Rare)** | Loots items from the Junk formlist that contain "rare" components
 
-In v1.1, they were made mutually exclusive to avoid performance and/or stability issues. Only one type of Junk filter can be enabled at a time.
+The Components and Valuables filters allow more granular control of the kinds of junk items you want to loot, but they all share the same Junk formlist.
+
+Only one type of Junk filter can be enabled at a time. There would be no reason to enable all types of Junk filters because the parent Junk filter would take precedence and loot all junk items anyway.
 
 ## Valuables
 
