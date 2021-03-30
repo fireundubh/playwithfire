@@ -2,7 +2,7 @@
 title: Documentation
 description: 
 published: true
-date: 2021-03-30T03:18:33.980Z
+date: 2021-03-30T03:23:19.522Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:44:08.869Z
@@ -111,9 +111,11 @@ Filter | Purpose
 **Valuables (Unommon)** | Loot items from the Junk formlist that contain "uncommon" components
 **Valuables (Rare)** | Loot items from the Junk formlist that contain "rare" components
 
-The Components and Valuables filters allow more granular control of the kinds of junk items you want to loot, but they all share the same Junk formlist.
+The Components and Valuables filters allow more granular control of the kinds of junk items you want to loot, but they all share the same Junk formlist. Only one type of Junk filter can be enabled at a time.
 
-Only one type of Junk filter can be enabled at a time. There would be no reason to enable all types of Junk filters because the parent Junk filter would take precedence and loot all junk items anyway.
+### Why can't I enable all of these filters?
+
+If you had the Junk, Components, and Valuables filters enabled, the Junk filter would take precedence and loot all junk items regardless of your Components and Valuables settings. The outcome of having these filters enabled would be the same as if you had only the Junk filter enabled.
 
 ## Valuables
 
