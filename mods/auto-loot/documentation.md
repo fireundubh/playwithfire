@@ -2,7 +2,7 @@
 title: Documentation
 description: 
 published: true
-date: 2021-03-30T03:24:45.915Z
+date: 2021-03-30T03:27:35.909Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:44:08.869Z
@@ -103,19 +103,19 @@ Weapons | Guns, big guns, grenades, mines, and close combat weapons |
 
 ## Mutually Exclusive Filters
 
-The Junk, Components, and Valuables filters are mutually exclusive. If you had the Junk, Components, and Valuables filters enabled, the Junk filter would take precedence and loot all junk items regardless of your Components and Valuables settings. The outcome of having these filters enabled would be the same as if you had only the Junk filter enabled.
+The Junk, Components, and Valuables filters are mutually exclusive. If you had these filters enabled, the Junk filter would take precedence and loot all junk items regardless of your Components and Valuables settings. The outcome would be the same as if you had only the Junk filter enabled.
 
-Here's how they're different:
+### How are these filters different?
 
 Filter | Purpose
 :--- | :---
-**Junk** | Loot all items from the Junk formlist
-**Components** | Loot items from the Junk formlist that contain specific components
-**Valuables (Common)** | Loot items from the Junk formlist that contain "common" components
-**Valuables (Unommon)** | Loot items from the Junk formlist that contain "uncommon" components
-**Valuables (Rare)** | Loot items from the Junk formlist that contain "rare" components
+**Junk** | Loot *all* items from the Junk formlist
+**Components** | Loot *only* items from the Junk formlist that contain specific components
+**Valuables (Common)** | Loot *only* items from the Junk formlist that contain "common" components
+**Valuables (Unommon)** | Loot *only* items from the Junk formlist that contain "uncommon" components
+**Valuables (Rare)** | Loot *only* items from the Junk formlist that contain "rare" components
 
-Simply put, the Components and Valuables filters allow more granular control of the kinds of junk items you want to loot, but they all share the same Junk formlist. Only one type of Junk filter can be enabled at a time.
+In other words, the Components and Valuables filters allow more granular control of the kinds of junk items you want to loot, so only one type of Junk filter can be enabled at a time.
 
 ## Valuables
 
