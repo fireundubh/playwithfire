@@ -2,7 +2,7 @@
 title: Documentation
 description: 
 published: true
-date: 2021-03-30T03:17:46.022Z
+date: 2021-03-30T03:18:33.980Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:44:08.869Z
@@ -105,11 +105,11 @@ Weapons | Guns, big guns, grenades, mines, and close combat weapons |
 
 Filter | Purpose
 :--- | :---
-**Junk** | Loots all items from the Junk formlist
-**Components** | Loots items from the Junk formlist that contain specific components
-**Valuables (Common)** | Loots items from the Junk formlist that contain "common" components
-**Valuables (Unommon)** | Loots items from the Junk formlist that contain "uncommon" components
-**Valuables (Rare)** | Loots items from the Junk formlist that contain "rare" components
+**Junk** | Loot all items from the Junk formlist
+**Components** | Loot items from the Junk formlist that contain specific components
+**Valuables (Common)** | Loot items from the Junk formlist that contain "common" components
+**Valuables (Unommon)** | Loot items from the Junk formlist that contain "uncommon" components
+**Valuables (Rare)** | Loot items from the Junk formlist that contain "rare" components
 
 The Components and Valuables filters allow more granular control of the kinds of junk items you want to loot, but they all share the same Junk formlist.
 
