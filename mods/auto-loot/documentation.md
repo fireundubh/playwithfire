@@ -2,7 +2,7 @@
 title: Documentation
 description: 
 published: true
-date: 2021-03-31T12:05:25.893Z
+date: 2021-03-31T12:06:21.420Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:44:08.869Z
@@ -90,6 +90,7 @@ The Filters submenu allows you to toggle which filters are enabled.
 - **Armor:** Clothing, headwear, and facewear, excluding power armor for obvious reasons
 - **Bodies:** Bodies are looted based on whether they are dead, have items, and are associated with an actor type keyword
 - **Containers:** Desks, ammo boxes, trash cans, cabinets, toolboxes, etc.
+- **Currency:** Caps Stashes, hard cash, bottlecap mines, etc.
 - **Drinks:** Nuka beverages, water, and alcohol
 - **Flora:** Anything you can harvest, such as wild carrot flowers and tato plants
 - **Food:** Mostly food but includes special consumables such as Stealth Boys
