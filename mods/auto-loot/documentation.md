@@ -2,7 +2,7 @@
 title: Documentation
 description: 
 published: true
-date: 2021-03-31T12:06:21.420Z
+date: 2021-03-31T22:56:09.615Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:44:08.869Z
@@ -98,9 +98,10 @@ The Filters submenu allows you to toggle which filters are enabled.
 - **Keys:** Keys and passwords
 - **Magazines:** Skill magazines
 - **Medicine:** Stimpaks, Rad-X, and other drugs
-- **Weapons:** Guns, big guns, grenades, mines, and close combat weapons
 
 ## Junk, Components, and Valuables
+
+The Junk, Components, and Valuables filters all target junk items but in different ways.
 
 Filter | Purpose
 :--- | :---
@@ -111,6 +112,20 @@ Filter | Purpose
 **Valuables (Rare)** | Loot *only* items from the Junk formlist that contain "rare" components
 
 <br>The Junk, Components, and Valuables filters are mutually exclusive. If all these filters were enabled, the Junk filter would loot all junk items regardless of your Components and Valuables settings. The outcome would be the same as if you had only the Junk filter enabled.
+
+## Weapons
+
+The Weapons filter can target specific weapon types. By default, all categories are enabled.
+
+Type | Description
+:--- | :---
+**Big Guns** | Heavy weapons such as the minigun, missile launcher, and flamer
+**Energy Weapons** | Laser, plasma, gamma, and other energy guns, including the gatling laser
+**Explosives** |Grenades and molotov cocktails
+**Melee Weapons** | Blunt, slashing, and piercing weapons
+**Small Guns** | Kinetic handguns, SMGs, rifles, and shotguns
+**Traps** | Mines, traps, and throwing traps
+**Unarmed** | Knuckles, power fists, boxing gloves, and meat hooks
 
 ### Junk Rarity
 
