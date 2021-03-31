@@ -2,11 +2,15 @@
 title: Documentation
 description: 
 published: true
-date: 2021-03-31T11:53:57.646Z
+date: 2021-03-31T12:05:25.893Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:44:08.869Z
 ---
+
+> The documentation always reflects the latest version of Auto Loot, which may not be available on the Nexus.
+{.is-warning}
+
 
 # Holotape Menu Guide
 
@@ -80,28 +84,22 @@ Radius | Description
 
 # Filters
 
-The Filters submenu allows you to toggle which filters are enabled. Think of filters as shopping lists.
+The Filters submenu allows you to toggle which filters are enabled.
 
-Filter | Description | Exclusions
-:--- | :--- | :---
-Ammo | Rounds, shells, cells, harpoons, cannonballs, cells, syringes, and so on | Fusion Cores
-Armor | Clothing, headwear, and facewear, excluding power armor for obvious reasons | 
-Bodies | Bodies are looted based on whether they are dead, have items, and are associated with an actor type keyword.  |  Some bodies may look like bodies but are actually activators; these are not lootable.
-Containers | Desks, ammo boxes, trash cans, cabinets, toolboxes, etc.  | 
-Drinks | Nuka beverages, water, and alcohol  | 
-Flora | Anything you can harvest, such as wild carrot flowers and tato plants  | 
-Food | Mostly food but includes special consumables such as Stealth Boys | 
-Holotapes | Personal logs, recordings, instructions, recipes, interviews, etc. | 
-Keys | Keys and passwords |
-Magazines | Skill magazines | 
-Medicine | Stimpaks, Rad-X, and other drugs | 
-Weapons | Guns, big guns, grenades, mines, and close combat weapons | 
+- **Ammo:** Rounds, shells, cells, harpoons, cannonballs, cells, syringes, and so on, excludding Fusion Cores in Power Generators
+- **Armor:** Clothing, headwear, and facewear, excluding power armor for obvious reasons
+- **Bodies:** Bodies are looted based on whether they are dead, have items, and are associated with an actor type keyword
+- **Containers:** Desks, ammo boxes, trash cans, cabinets, toolboxes, etc.
+- **Drinks:** Nuka beverages, water, and alcohol
+- **Flora:** Anything you can harvest, such as wild carrot flowers and tato plants
+- **Food:** Mostly food but includes special consumables such as Stealth Boys
+- **Holotapes:** Personal logs, recordings, instructions, recipes, interviews, etc.
+- **Keys:** Keys and passwords
+- **Magazines:** Skill magazines
+- **Medicine:** Stimpaks, Rad-X, and other drugs
+- **Weapons:** Guns, big guns, grenades, mines, and close combat weapons
 
-## Junk Filters
-
-The Junk, Components, and Valuables filters are mutually exclusive. If all these filters were enabled, the Junk filter would loot all junk items regardless of your Components and Valuables settings. The outcome would be the same as if you had only the Junk filter enabled.
-
-### How are these filters different?
+## Junk, Components, and Valuables
 
 Filter | Purpose
 :--- | :---
@@ -111,9 +109,9 @@ Filter | Purpose
 **Valuables (Uncommon)** | Loot *only* items from the Junk formlist that contain "uncommon" components
 **Valuables (Rare)** | Loot *only* items from the Junk formlist that contain "rare" components
 
-<br>In other words, the Components and Valuables filters provide different types of granular control over the kinds of junk items you want to loot, so only one type of Junk filter can be enabled.
+<br>The Junk, Components, and Valuables filters are mutually exclusive. If all these filters were enabled, the Junk filter would loot all junk items regardless of your Components and Valuables settings. The outcome would be the same as if you had only the Junk filter enabled.
 
-## Valuables
+### Junk Rarity
 
 The tiered Valuables filters target Junk that have the following components:
 
@@ -123,7 +121,7 @@ Tier | Components
 **Uncommon** | Adhesive, Aluminum, Copper, Cork, Fertilizer, Fiberglass, Gear, Glass, Lead, Screw, Silver, Spring 
 **Rare** | Acid, Antiseptic, Asbestos, Ballistic Fiber, Circuitry, Crystal, Fiber Optics, Gold, Nuclear Material
 
-<br>There is some crossover because an item may have a mix of components.
+<br>There can be crossover because some items have a mix of components.
 
 # Destinations
 
