@@ -2,7 +2,7 @@
 title: Documentation
 description: 
 published: true
-date: 2021-03-30T03:30:51.510Z
+date: 2021-03-31T11:53:57.646Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:44:08.869Z
@@ -87,21 +87,17 @@ Filter | Description | Exclusions
 Ammo | Rounds, shells, cells, harpoons, cannonballs, cells, syringes, and so on | Fusion Cores
 Armor | Clothing, headwear, and facewear, excluding power armor for obvious reasons | 
 Bodies | Bodies are looted based on whether they are dead, have items, and are associated with an actor type keyword.  |  Some bodies may look like bodies but are actually activators; these are not lootable.
-Components | Any junk items you can scrap with specific components |
-Containers | Deks, ammo boxes, trash cans, cabinets, toolboxes, etc.  | 
+Containers | Desks, ammo boxes, trash cans, cabinets, toolboxes, etc.  | 
 Drinks | Nuka beverages, water, and alcohol  | 
 Flora | Anything you can harvest, such as wild carrot flowers and tato plants  | 
 Food | Mostly food but includes special consumables such as Stealth Boys | 
-Junk | Anything you can scrap | 
+Holotapes | Personal logs, recordings, instructions, recipes, interviews, etc. | 
 Keys | Keys and passwords |
 Magazines | Skill magazines | 
 Medicine | Stimpaks, Rad-X, and other drugs | 
-Valuables | Junk items with rare crafting components | 
 Weapons | Guns, big guns, grenades, mines, and close combat weapons | 
 
-**General Exclusions Note:** Activators, such as Caps Stashes and Bobby Pin Boxes, are not lootable by Auto Loot.
-
-## Mutually Exclusive Filters
+## Junk Filters
 
 The Junk, Components, and Valuables filters are mutually exclusive. If all these filters were enabled, the Junk filter would loot all junk items regardless of your Components and Valuables settings. The outcome would be the same as if you had only the Junk filter enabled.
 
@@ -112,7 +108,7 @@ Filter | Purpose
 **Junk** | Loot *all* items from the Junk formlist
 **Components** | Loot *only* items from the Junk formlist that contain specific components
 **Valuables (Common)** | Loot *only* items from the Junk formlist that contain "common" components
-**Valuables (Unommon)** | Loot *only* items from the Junk formlist that contain "uncommon" components
+**Valuables (Uncommon)** | Loot *only* items from the Junk formlist that contain "uncommon" components
 **Valuables (Rare)** | Loot *only* items from the Junk formlist that contain "rare" components
 
 <br>In other words, the Components and Valuables filters provide different types of granular control over the kinds of junk items you want to loot, so only one type of Junk filter can be enabled.
