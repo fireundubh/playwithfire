@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-03-30T11:22:08.393Z
+date: 2021-03-31T11:57:26.519Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -15,6 +15,8 @@ dateCreated: 2021-03-19T21:43:34.910Z
 
 ## Changes
 
+- [ ] Implemented optional MCM (requires F4SE)
+- [X] Set the Holotapes filter option to show in the Filters menu
 - [X] Slightly improved overall performance (not necessarily speed) by reducing formlist overhead
 
 ## Fixed Issues
