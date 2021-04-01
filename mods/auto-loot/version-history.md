@@ -2,13 +2,13 @@
 title: Version History
 description: 
 published: true
-date: 2021-03-31T11:57:26.519Z
+date: 2021-04-01T23:55:07.355Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
 ---
 
-# Version 1.2.5
+# Version 1.2.6
 
 > Not available for testing yet
 {.is-info}
@@ -16,7 +16,16 @@ dateCreated: 2021-03-19T21:43:34.910Z
 ## Changes
 
 - [ ] Implemented optional MCM (requires F4SE)
+
+# Version 1.2.5
+
+> Available for testing since 1 April 2021 exclusively in [#auto-loot](https://discord.fireundubh.com/)
+{.is-info}
+
+## Changes
+
 - [X] Set the Holotapes filter option to show in the Filters menu
+- [X] Improved speed of Components filter by eliminating reliance on slow native functions at the expense of compatibility with mods that change item components
 - [X] Slightly improved overall performance (not necessarily speed) by reducing formlist overhead
 
 ## Fixed Issues
