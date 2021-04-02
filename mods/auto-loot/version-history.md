@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-04-02T08:15:41.937Z
+date: 2021-04-02T08:29:49.797Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -34,6 +34,10 @@ dateCreated: 2021-03-19T21:43:34.910Z
 
 - [X] Set the Holotapes filter option to show in the Filters menu
 - [X] Improved speed of Components filter by eliminating reliance on slow native functions at the expense of compatibility with mods that change junk item components
+
+> **Papyrus Workaround:** Casting an ObjectReference to a MiscObject and calling `GetObjectComponentCount` is extremely slow. The Components filter, despite being nearly indistinguishable from most other filters, was severely impacted. To work around the issue, a formlist was created for each component containing junk items which can be scrapped into that component, and depending on which components are specified, Auto Loot searches for those junk items directly. Unfortunately, this means that if another mod changes the components of an item, the new formlists will need to be patched.
+{.is-warning}
+
 - [X] Slightly improved overall performance (not necessarily speed) by reducing formlist overhead
 
 ## Fixed Issues
@@ -46,7 +50,7 @@ dateCreated: 2021-03-19T21:43:34.910Z
 > Available for testing since 9 March 2021 exclusively in [#auto-loot](https://discord.fireundubh.com/)
 {.is-info}
 
-> This version includes the plugin `Non-Playable Flags Patch.esp`. This patch fixes vanilla issues where NPC skins are not flagged as Non-Playable. The Papyrus function `RemoveAllItems` can remove skins not flagged correctly and, according to some players, cause crashes. Like many vanilla scripts and many other mods, Auto Loot makes use of this function. These issues have been reported to the Unofficial Fallout 4 Patch Project. According to project maintainer Arthmoor, these issues will be resolved in a future update. Until then, I recommend keeping this plugin enabled.
+> **Game Bug Workaround:** The included plugin `Non-Playable Flags Patch.esp` fixes vanilla issues where NPC skins are not flagged as Non-Playable. The Papyrus function `RemoveAllItems` can remove skins not flagged correctly and, according to some players, cause crashes. Like many vanilla scripts and many other mods, Auto Loot makes use of this function. These issues have been reported to the Unofficial Fallout 4 Patch Project. According to project maintainer Arthmoor, these issues will be resolved in a future update. Until then, I recommend keeping this plugin enabled.
 {.is-warning}
 
 ## Changes
