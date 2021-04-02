@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-04-02T09:27:02.143Z
+date: 2021-04-02T09:27:22.962Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -21,7 +21,7 @@ dateCreated: 2021-03-19T21:43:34.910Z
 
 - [X] Fixed issue where the Bodies filter would attempt to process found references unnecessarily (when the only found reference was the Player)
 - [X] Fixed issue where the Bodies and Containers filters would attempt to count Non-Playable references unnecessarily (when an actor or container was empty)
-- [X] Fixed issue where the experimental Remove Bodies On Loot setting for the Bodies filter was not made latent like other settings in v1.2.4
+- [X] Fixed issue where the Remove Bodies On Loot setting for the Bodies filter was not made latent like other settings in v1.2.4
 - [X] Fixed issue where the Holotapes filter could not loot any holotape references
 
 > **Papyrus Workaround:** Holotape items can be activated (i.e., taken) by *only* the Player. Auto Loot cannot send holotape loot to its off-stage dummy actors which distribute loot to the player or a workshop. Consequently, the Rules and Destinations settings for the Holotape filter are useless and have been disabled. 
