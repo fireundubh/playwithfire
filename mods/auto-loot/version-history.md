@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-04-02T08:29:49.797Z
+date: 2021-04-02T09:00:15.096Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -50,8 +50,9 @@ dateCreated: 2021-03-19T21:43:34.910Z
 > Available for testing since 9 March 2021 exclusively in [#auto-loot](https://discord.fireundubh.com/)
 {.is-info}
 
-> **Game Bug Workaround:** The included plugin `Non-Playable Flags Patch.esp` fixes vanilla issues where NPC skins are not flagged as Non-Playable. The Papyrus function `RemoveAllItems` can remove skins not flagged correctly and, according to some players, cause crashes. Like many vanilla scripts and many other mods, Auto Loot makes use of this function. These issues have been reported to the Unofficial Fallout 4 Patch Project. According to project maintainer Arthmoor, these issues will be resolved in a future update. Until then, I recommend keeping this plugin enabled.
-{.is-warning}
+> **Game Bug Workaround:** The included plugin `Non-Playable Flags Patch.esp` fixes issues where NPC skins are not flagged as Non-Playable. The Papyrus function `RemoveAllItems` can remove skins not flagged correctly and **crash the game**, according to some players. Like many vanilla scripts and many other mods, Auto Loot makes use of this function. These issues have been reported to the Unofficial Fallout 4 Patch Project and project maintainer Arthmoor says these issues will be resolved in a future update. Until then, I recommend keeping this plugin enabled.
+{.is-danger}
+
 
 ## Changes
 
