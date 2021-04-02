@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-04-02T09:29:02.833Z
+date: 2021-04-02T09:48:05.405Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -20,7 +20,7 @@ dateCreated: 2021-03-19T21:43:34.910Z
 ## Fixed Issues
 
 - [X] Fixed issue where the Bodies filter processed found references unnecessarily (when the only reference was the Player)
-- [X] Fixed issue where the Bodies and Containers filters counted Non-Playable references unnecessarily (when the container was empty)
+- [X] Fixed issue where the Bodies and Containers filters counted Non-Playable references unnecessarily (when containers were empty)
 - [X] Fixed issue where the Bodies filter setting Remove Bodies On Loot was not made latent like other settings in v1.2.4
 - [X] Fixed issue where the Holotapes filter could not loot any holotape references
 
