@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-04-01T23:57:21.980Z
+date: 2021-04-02T08:15:41.937Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -15,7 +15,15 @@ dateCreated: 2021-03-19T21:43:34.910Z
 
 ## Changes
 
-- [ ] Implemented optional MCM (requires F4SE)
+- [ ] Implemented optional Mod Configuration Menu (requires F4SE)
+
+## Fixed Issues
+
+- [X] Fixed issue where the Holotapes filter could not loot any holotapes
+
+> **Papyrus Workaround:** Holotape items can be activated (i.e., taken) by *only* the Player. Auto Loot cannot send holotape loot to its off-stage dummy actors which distribute loot to the player or a workshop. Consequently, the Rules and Destinations settings for the Holotape filter are useless and have been disabled. 
+{.is-warning}
+
 
 # Version 1.2.5
 
