@@ -2,13 +2,13 @@
 title: Version History
 description: 
 published: true
-date: 2021-04-03T23:36:32.605Z
+date: 2021-04-04T22:18:32.635Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
 ---
 
-# Version 1.2.6
+# Version 1.2.6.0
 
 > Not available for testing yet
 {.is-info}
@@ -29,7 +29,7 @@ dateCreated: 2021-03-19T21:43:34.910Z
 {.is-warning}
 
 
-# Version 1.2.5
+# Version 1.2.5.0
 
 > Available for testing since 1 April 2021 exclusively in [#auto-loot](https://discord.fireundubh.com/)
 {.is-info}
@@ -49,7 +49,7 @@ dateCreated: 2021-03-19T21:43:34.910Z
 - [X] Fixed issue where activation blocked activators, such as Caps Stashes, could not be looted
 - [X] Fixed issue where the Components filter did not strictly try to loot only items outside containers
 
-# Version 1.2.4
+# Version 1.2.4.0
 
 > Available for testing since 9 March 2021 exclusively in [#auto-loot](https://discord.fireundubh.com/)
 {.is-info}
@@ -77,7 +77,7 @@ dateCreated: 2021-03-19T21:43:34.910Z
 
 <b>Note:</b> The Non-Playable items check fix for the Bodies filter was also applied to the Containers filter, but the fix is less relevant to that filter because containers should never have Non-Playable items.
 
-# Version 1.2.3
+# Version 1.2.3.0
 
 > Available for testing since 5 February 2021 exclusively in [#auto-loot](https://discord.fireundubh.com/)
 {.is-info}
@@ -87,7 +87,7 @@ dateCreated: 2021-03-19T21:43:34.910Z
 - [X] Fixed issue where Bodies and Containers filters could not loot properly
 - [X] Fixed issue where Take All could yield stolen items from bodies and containers
 
-# Version 1.2.2
+# Version 1.2.2.0
 
 > Available for testing since 30 December 2020 exclusively in [#auto-loot](https://discord.fireundubh.com/)
 {.is-info}
@@ -107,7 +107,7 @@ dateCreated: 2021-03-19T21:43:34.910Z
 
 - [ ] The Currency Filter is still not activating Caps Stashes... 🤷‍♂️
 
-# Version 1.2.1 - Hotfix
+# Version 1.2.1.0
 
 > Available for testing since 24 November 2020 exclusively in [#auto-loot](https://discord.fireundubh.com/)
 {.is-info}
@@ -120,7 +120,7 @@ dateCreated: 2021-03-19T21:43:34.910Z
 - [X] Fixed issue where Far Harbor food was not supported by the Food filter
 - [X] Fixed issue where Nuka World flora was not supported by the Flora filter
 
-# Version 1.2 - Major Update
+# Version 1.2.0.0
 
 > Available for testing since 29 January 2020 exclusively in [#auto-loot](https://discord.fireundubh.com/)
 {.is-info}
@@ -205,7 +205,7 @@ v1.2 streamlines the holotape menu by making the following changes:
 
 * Fixed an issue where the 1.1.4 BA2 archive was packaged incorrectly
 
-# Version 1.1.4 - Minor Update
+# Version 1.1.4.0
 
 ## Fixed Issues
 
@@ -224,14 +224,14 @@ v1.2 streamlines the holotape menu by making the following changes:
 * Weapons Filter: Removed Thirst Zapper from formlist due to association with quest The Gauntlet
 
 
-# Version 1.1.3 - Minor Update
+# Version 1.1.3.0
 
 ## Fixed Issues
 
 * Fixed an issue where items in locked containers could be looted without Auto Lockpick enabled (Part I)
 * Fixed several issues where Auto Steal settings were not ignored with Auto Steal disabled
 
-# Version 1.1.2 - Minor Update
+# Version 1.1.2.0
 
 ## New Features
 
@@ -252,13 +252,13 @@ v1.2 streamlines the holotape menu by making the following changes:
 * Set the default radius to 256 units (increased from 128 units) because 128 units is too short for some objects (e.g., bathroom mirrors with sinks)
 * Set the default Loot Notifications setting to enabled
 
-# Version 1.1.1 - Minor Update
+# Version 1.1.1.0
 
 ## Fixed Issues
 
 * Fixed an issue where component states in the Select Components menu could not be toggled
 
-# Version 1.1.0 - Major Update
+# Version 1.1.0.0
 
 BEFORE UPDATING, YOU WILL NEED TO TURN OFF ALL FILTERS AND SAVE YOUR GAME. All Form IDs have been changed.
 
@@ -339,6 +339,6 @@ If you skip this step, you will need to reinstall 1.0 to turn off the loot filte
 - **SKK**, for advising on fixing the holotape quest script
 - **Patreon/PayPal Backers**, for testing pre-release versions
 
-# Version 1.0 - Initial Release
+# Version 1.0.0.0
 
 - Initial re-release
