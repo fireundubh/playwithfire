@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-04-04T22:18:32.635Z
+date: 2021-04-05T10:14:19.321Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -27,6 +27,15 @@ dateCreated: 2021-03-19T21:43:34.910Z
 
 > **Papyrus Workaround:** Holotape items can be activated (i.e., taken) by *only* the Player. Auto Loot cannot send holotape loot to its off-stage dummy actors which distribute loot to the player or a workshop. Consequently, the Rules and Destinations settings for the Holotape filter are useless and have been disabled. 
 {.is-warning}
+
+## Optional Patches
+
+### UFO4P Components Patch
+
+This patch overrides some Components filter formlists to account for changes made by the Unofficial Fallout 4 Patch.
+
+- Moved *Aluminum Oil Can* and *Aluminum Tray* from Steel to Aluminum
+- Moved *Wooden Soldier Toy* from Ceramic to Wood
 
 
 # Version 1.2.5.0
@@ -76,6 +85,12 @@ dateCreated: 2021-03-19T21:43:34.910Z
 - [X] Fixed issue where the Loot Settlements preference could be ignored by some filters
 
 <b>Note:</b> The Non-Playable items check fix for the Bodies filter was also applied to the Containers filter, but the fix is less relevant to that filter because containers should never have Non-Playable items.
+
+## Optional Patches
+
+### Non-Playable Flags Patch
+
+***HIGHLY RECOMMENDED!*** This patch fixes issues where NPC skins are not flagged as Non-Playable; otherwise, if Auto Loot, or any other mod, or any game scripts attempt to loot these skins, the game may crash. These fixes will appear in a future version of the *Unofficial Fallout 4 Patch* but are provided in this patch in advance of that update.
 
 # Version 1.2.3.0
 
