@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-04-05T10:14:19.321Z
+date: 2021-04-05T10:19:30.731Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -32,7 +32,7 @@ dateCreated: 2021-03-19T21:43:34.910Z
 
 ### UFO4P Components Patch
 
-This patch overrides some Components filter formlists to account for changes made by the Unofficial Fallout 4 Patch.
+This patch overrides some Components filter formlists to account for changes made by the *Unofficial Fallout 4 Patch*.
 
 - Moved *Aluminum Oil Can* and *Aluminum Tray* from Steel to Aluminum
 - Moved *Wooden Soldier Toy* from Ceramic to Wood
