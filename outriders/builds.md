@@ -2,7 +2,7 @@
 title: Builds
 description: 
 published: true
-date: 2021-04-10T18:45:54.245Z
+date: 2021-04-10T18:48:09.016Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-10T18:42:49.505Z
@@ -38,11 +38,11 @@ I | Borrowed Time: Gunshield
 I | Twisted Rounds: Anomalic Caliber
 I | Twisted Rounds: Strong Twist
 I | Twisted Rounds: Twisted Fate
-II | ~~Bloodlust~~ Captain Hunter
 II | Buckshot Shells
 II | Emergency Stance
 II | Personal Space
-II | ~~Plate Piercer~~ Sharp Eye
 II | Resistance Piercer
+III | Captain Hunter
+III | Sharp Eye
 
 
