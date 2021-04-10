@@ -2,7 +2,7 @@
 title: Builds
 description: 
 published: true
-date: 2021-04-10T18:48:09.016Z
+date: 2021-04-10T18:50:53.592Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-10T18:42:49.505Z
@@ -11,7 +11,7 @@ dateCreated: 2021-04-10T18:42:49.505Z
 # Trickster
 ## Ryuz
 
-300M Damage CT15 Top Tree
+300-500M Damage CT15 Top Tree
 
 ### Stats
 
