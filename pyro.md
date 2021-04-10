@@ -2,7 +2,7 @@
 title: Pyro
 description: 
 published: true
-date: 2021-02-27T21:07:01.730Z
+date: 2021-04-10T16:53:10.577Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:04:59.413Z
@@ -360,31 +360,18 @@ program arguments:
 
 ## Compiling
 
-### Install Pipenv
+1. Install [PyCharm Community Edition](https://www.jetbrains.com/pycharm/download/).
+2. Clone the `dev` repository from GitHub.
+3. Using PyCharm, open the folder where that repo was cloned.
+4. Using PyCharm, create a virtual environment with `virtualenv`.
+5. Using PyCharm, install the requirements from `requirements.txt`.
+6. To compile, using PyCharm, create a new Run/Debug Configuration (as shown below) and run that configuration:
 
-Python | Command | Alternative Command
-:--- | :--- | :---
-CPython | `pip install pipenv` | `python -m pip install pipenv`
-Anaconda | `conda install -c conda-forge pipenv` | &mdash;
+![Build Nuitka Binaries](https://i.imgur.com/y7tBXp0.jpg)
 
+> **Note:** The build process requires [Nuitka](https://nuitka.net/)  and the [Visual Studio](https://visualstudio.microsoft.com/downloads/) build tools. Nuitka was installed in the previous step. Executing the build script will create a `pyro.dist` directory that contains the executable and required libraries and modules. A ZIP archive will be created in the `bin` folder.
+{.is-info}
 
-### Install Dependencies
-
-1. Change the current working directory (CWD) to the Pyro source folder.
-2. Run: `pipenv install`
-
-
-### Run the Build Script
-
-The build process requires [Nuitka](https://nuitka.net/)  and the [Visual Studio](https://visualstudio.microsoft.com/downloads/) build tools. Nuitka was installed in the previous step.
-
-Using the Developer Command Prompt for Visual Studio, change the CWD to the Pyro source folder and run:
-
-Command | Alternative Command
-:--- | :---
-`python build.py` | `pipenv run python build.py`
-
-Executing the build script will create a `pyro.dist` directory that contains the executable and required libraries and modules. A ZIP archive will be created in the `bin` folder.
 
 
 ### Optional Build Script Arguments
