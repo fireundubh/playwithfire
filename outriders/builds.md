@@ -2,7 +2,7 @@
 title: Builds
 description: 
 published: true
-date: 2021-04-10T18:50:53.592Z
+date: 2021-04-10T18:52:58.440Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-10T18:42:49.505Z
@@ -12,6 +12,12 @@ dateCreated: 2021-04-10T18:42:49.505Z
 ## Ryuz
 
 300-500M Damage CT15 Top Tree
+
+### Abilities
+
+- Borrowed Time
+- Twisted Rounds
+- Venator's Knife
 
 ### Stats
 
