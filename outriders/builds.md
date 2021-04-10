@@ -2,7 +2,7 @@
 title: Builds
 description: 
 published: true
-date: 2021-04-10T18:42:49.505Z
+date: 2021-04-10T18:45:54.245Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-10T18:42:49.505Z
@@ -35,14 +35,14 @@ III | Killing Spree
 Tier | Mod
 :--- | :---
 I | Borrowed Time: Gunshield
-I | Twisted Rounds: Twisted Fate
 I | Twisted Rounds: Anomalic Caliber
 I | Twisted Rounds: Strong Twist
-II | Bloodlust
+I | Twisted Rounds: Twisted Fate
+II | ~~Bloodlust~~ Captain Hunter
 II | Buckshot Shells
 II | Emergency Stance
 II | Personal Space
-II | Plate Piercer
+II | ~~Plate Piercer~~ Sharp Eye
 II | Resistance Piercer
 
 
