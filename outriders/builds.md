@@ -2,24 +2,23 @@
 title: Builds
 description: 
 published: true
-date: 2021-04-10T18:52:58.440Z
+date: 2021-04-10T18:53:13.225Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-10T18:42:49.505Z
 ---
 
-# Trickster
-## Ryuz
+# Ryuz's Trickster
 
 300-500M Damage CT15 Top Tree
 
-### Abilities
+## Abilities
 
 - Borrowed Time
 - Twisted Rounds
 - Venator's Knife
 
-### Stats
+## Stats
 
 Armor Stats | Weapon Stats
 :--- | :--
@@ -27,7 +26,7 @@ Bonus Firepower | Crit Damage
 Cooldown Reduction | Status Power
 Close Range Damage | Close Range Damage
 
-### Weapon
+## Weapon
 
 Pump Action Shotgun Standard Var.
 
@@ -36,7 +35,7 @@ Tier | Mod
 I | Perpetuum Mobile
 III | Killing Spree 
 
-### Armor
+## Armor
 
 Tier | Mod
 :--- | :---
