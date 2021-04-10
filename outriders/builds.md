@@ -2,15 +2,15 @@
 title: Builds
 description: 
 published: true
-date: 2021-04-10T18:53:52.938Z
+date: 2021-04-10T18:56:53.045Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-10T18:42:49.505Z
 ---
 
-# Ryuz's Trickster
+# Ryux's Trickster
 
-300-500M Damage CT15 Top Tree
+300-500M Damage CT15 Top Tree Build via Ryux#9632
 
 ![Tree](https://i.gyazo.com/1648f0639bfc381e4b45f40c8a430fcf.jpg)
 
