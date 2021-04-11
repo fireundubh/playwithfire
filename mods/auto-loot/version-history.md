@@ -2,20 +2,25 @@
 title: Version History
 description: 
 published: true
-date: 2021-04-05T10:19:30.731Z
+date: 2021-04-11T02:30:58.952Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
 ---
 
-# Version 1.2.6.0
+# Version 1.2.7.0
 
-> Not available for testing yet
+> Not available yet
 {.is-info}
 
 ## Changes
 
 - [ ] Implemented optional Mod Configuration Menu (requires F4SE)
+
+# Version 1.2.6.0
+
+> Available for testing since 10 April 2021 exclusively in [#auto-loot](https://discord.fireundubh.com/)
+{.is-info}
 
 ## Fixed Issues
 
