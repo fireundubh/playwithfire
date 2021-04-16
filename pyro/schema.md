@@ -2,7 +2,7 @@
 title: Pyro Project Schema
 description: 
 published: true
-date: 2021-04-16T06:32:08.688Z
+date: 2021-04-16T06:32:37.811Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:07:53.276Z
@@ -35,7 +35,9 @@ Node | Attribute | Type | Default Value
 	Game="FO4"
 	Flags="Institute_Papyrus_Flags.flg"
 	Output="@modpath\scripts"
-	Optimize="true" Release="true" Final="true"
+	Optimize="true"
+  Release="true"
+  Final="true"
   Anonymize="true"
   Package="true"
   Zip="true">
