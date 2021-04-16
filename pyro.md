@@ -2,7 +2,7 @@
 title: Pyro
 description: 
 published: true
-date: 2021-04-10T16:53:10.577Z
+date: 2021-04-16T06:28:35.283Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:04:59.413Z
@@ -151,6 +151,7 @@ See below:
     <Include>{relative or absolute path to file or folder in RootDir, or simple glob pattern}</Include>
     <Include>MyProject.esp</Include>
     <Include NoRecurse="true">*.bsa</Include>
+    <Include Path="optional">MyProject - Optional Patch.esp</Include>
   </ZipFile>
 </ZipFiles>
 ```
