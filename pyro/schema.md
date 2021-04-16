@@ -2,8 +2,10 @@
 title: Pyro Project Schema
 description: 
 published: true
-date: 2020-05-20T05:00:23.918Z
+date: 2021-04-16T06:32:08.688Z
 tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:07:53.276Z
 ---
 
 This reference documents the attribute defaults in the Pyro Project Schema.
@@ -177,6 +179,7 @@ Node | Attribute | Type | Default Value
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
 `Include` | `NoRecurse` | `bool` | `false`
+`Include` | `Path` | `str` | If not empty, this value will override the file's location in the archive.
 
 
 ## Example
@@ -186,6 +189,7 @@ Node | Attribute | Type | Default Value
   <ZipFile Name="@modname" RootDir="@modpath" Compression="deflate">
     <Include>@modpath\Auto Loot.esp</Include>
     <Include>@modpath\Auto Loot - Main.ba2</Include>
+    <Include Path="optional">@modpath\Auto Loot - UFO4P Components Patch.esp</Include>
   </ZipFile>
 </ZipFiles>
 ```
