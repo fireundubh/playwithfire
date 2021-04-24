@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2021-03-25T05:58:43.519Z
+date: 2021-04-24T10:15:02.865Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:45:25.745Z
@@ -12,12 +12,14 @@ dateCreated: 2021-03-19T21:45:25.745Z
 
 ## How do I run Auto Loot?
 
+This quick tutorial outlines the steps to getting up-and-running with a basic configuration:
+
 1. Press `Tab` to open the Pip-Boy menu.
 2. Go to `Inv > Misc`.
 3. Click `> Auto Loot Holotape` to load the holotape.
 4. Click `> Radius`.
 5. Click `> All`.
-6. Choose a radius... Try `8192` for testing.
+6. Choose a radius (recommended: `256`, `512`, `1024`)
 7. Press `Tab` repeatedly until you reach the Main Menu.
 8. Click `> Filters`.
 9. Click `Flora Filter (disabled)` to toggle this filter on. The text will change to `Flora Filter (enabled)`.
