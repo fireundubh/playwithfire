@@ -2,13 +2,13 @@
 title: Version History
 description: 
 published: true
-date: 2021-04-11T02:30:58.952Z
+date: 2021-05-07T17:59:35.488Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
 ---
 
-# Version 1.2.7.0
+# Version 1.2.8.0
 
 > Not available yet
 {.is-info}
@@ -16,6 +16,20 @@ dateCreated: 2021-03-19T21:43:34.910Z
 ## Changes
 
 - [ ] Implemented optional Mod Configuration Menu (requires F4SE)
+
+# Version 1.2.7.0
+
+> Available for testing since 7 May 2021 exclusively in [#auto-loot](https://discord.fireundubh.com/)
+{.is-info}
+
+## New Features
+
+- [X] Added "Loot in Combat" option to Advanced Settings
+
+## Fixed Issues
+
+- [X] Fixed issue where the Flora filter attempted to loot unassigned resources producing frequent "I need to assign someone to this" voice notifications
+
 
 # Version 1.2.6.0
 
