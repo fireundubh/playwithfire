@@ -2,13 +2,13 @@
 title: Version History
 description: 
 published: true
-date: 2021-05-07T17:59:35.488Z
+date: 2021-05-08T22:35:49.368Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
 ---
 
-# Version 1.2.8.0
+# Version 1.3.0.0
 
 > Not available yet
 {.is-info}
@@ -16,6 +16,25 @@ dateCreated: 2021-03-19T21:43:34.910Z
 ## Changes
 
 - [ ] Implemented optional Mod Configuration Menu (requires F4SE)
+
+# Version 1.2.8.0
+
+> Available for testing since 8 May 2021 exclusively in [#auto-loot](https://discord.fireundubh.com/)
+{.is-info}
+
+## Fixed Issues
+
+- [X] Fixed issue where the Flora filter could not loot workshop flora objects due to Auto Steal customization
+- [X] Fixed issue where the Flora filter attempted to loot harvested workshop flora objects
+
+> **Papyrus Workaround:** Calling `WouldBeStealing` on a workshop resource object returns `True` because actors are "assigned" to resources via ownership. Consequently, the Flora filter now uses a custom flora effect script that checks faction ownership.
+{.is-warning}
+
+## Known Issues
+
+The Flora filter will not attempt to loot harvested workshop flora objects if the current game time is less than or equal to `WorkshopFloraHarvestTime + 1.0`. Other mods may allow you to adjust the `floraResetHarvestDays` variable whose default value is `1.0`. A different value may cause the relevant fix to have undesirable consequences.
+
+Specifically, Workshop Framework converts that variable into a property and can adjusts its value at runtime. Unfortunately, Auto Loot would need to be compiled against Workshop Framework to access that property so the original default value of `1.0` has been used instead.
 
 # Version 1.2.7.0
 
@@ -29,7 +48,6 @@ dateCreated: 2021-03-19T21:43:34.910Z
 ## Fixed Issues
 
 - [X] Fixed issue where the Flora filter attempted to loot unassigned resources producing frequent "I need to assign someone to this" voice notifications
-
 
 # Version 1.2.6.0
 
