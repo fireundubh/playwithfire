@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2021-04-24T10:15:02.865Z
+date: 2021-05-08T18:49:33.224Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:45:25.745Z
@@ -88,3 +88,55 @@ AutoLoot_Filter_Valuables
 ```
 
 Each child formlist is a standard collection of items as used by Shared filters, paired with a global variable that the script uses to determine whether the child formlist should be used to build and process references.
+
+
+# Logging
+
+## How do I enable Papyrus logging?
+
+In `Fallout4.ini`, add or change this section to match the following block:
+
+```
+[Papyrus]
+fPostLoadUpdateTimeMS=500.0
+bEnableLogging=1
+bEnableTrace=1
+bLoadDebugInformation=1
+```
+
+Papyrus logging must be enabled at the INI level for log messages to be saved to disk.
+
+- If logging is not enabled at the INI level, you will not be able to view or share your logs.
+- If logging is disabled in the MCM menu, the mod will not produce any log messages.
+
+I recommend disabling Papyrus logging at the INI level after retrieving the necessary information.
+
+The Papyrus logger CANNOT help you solve crashes. When the game crashes, the logger crashes, too.
+
+Most experienced mod authors recommend that you disable logging when it is not needed because the logger can be detrimental to the stability and performance of the game. In fact, SmkViper — the creator of Papyrus at Bethesda Softworks — added a similar warning to the top of all Papyrus logs produced by Fallout 4.
+
+Enable the Papyrus logger only when you need to debug scripts or produce logs that can help mod authors investigate issues.
+
+
+## Where can I find the logs?
+
+The latest Papyrus log is saved to this file:
+
+```
+%USERPROFILE%\Documents\My Games\Fallout4\Logs\Script\Papyrus.0.log
+```
+
+Logs specific to Auto Loot are saved in this folder:
+
+```
+%USERPROFILE%\Documents\My Games\Fallout4\Logs\Script\User
+```
+
+
+## Where can I post my Papyrus log?
+
+Use [Hastebin](https://hastebin.com/), [Pastebin](https://pastebin.com/), or [GitHub Gists](https://gist.github.com/) to post your log.
+
+You can upload your log in the `#autoloot` channel on [my Discord server](https://discord.fireundubh.com). Please do not post only the log. To the best of your ability, explain the issue and articulate the behavior you expected.
+
+The log alone will not help me investigate and resolve your issue.
