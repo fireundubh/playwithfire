@@ -2,7 +2,7 @@
 title: Release Notes
 description: 
 published: true
-date: 2021-05-16T06:24:26.830Z
+date: 2021-05-16T06:34:09.409Z
 tags: 
 editor: markdown
 dateCreated: 2020-05-20T04:28:08.747Z
@@ -14,7 +14,7 @@ dateCreated: 2020-05-20T04:28:08.747Z
 
 ## New Features
 
-A `Path` attribute has been added to the `Include` element that allows the user to specify where in the `ZipFile` the included file will be located.
+A `Path` attribute was added to the `Include` element allowing you to specify where in the `ZipFile` the included file will be located.
 
 ```xml
   <ZipFiles Output="@modpath">
