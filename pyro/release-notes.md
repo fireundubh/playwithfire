@@ -2,13 +2,53 @@
 title: Release Notes
 description: 
 published: true
-date: 2021-02-27T21:09:27.184Z
+date: 2021-05-16T06:24:26.830Z
 tags: 
 editor: markdown
 dateCreated: 2020-05-20T04:28:08.747Z
 ---
 
 > **Note:** Pre-release version names are Unix timestamps.
+
+# 1618543799
+
+## New Features
+
+A `Path` attribute has been added to the `Include` element that allows the user to specify where in the `ZipFile` the included file will be located.
+
+```xml
+  <ZipFiles Output="@modpath">
+    <ZipFile Name="@modname" RootDir="@modpath" Compression="deflate">
+      <Include>@modpath\Auto Loot.esp</Include>
+      <Include>@modpath\Auto Loot - Main.ba2</Include>
+      <Include>@modpath\Non-Playable Flags Patch.esp</Include>
+      <Include Path="optional">@modpath\Auto Loot - UFO4P Components Patch.esp</Include>
+    </ZipFile>
+  </ZipFiles>
+```
+
+In the above example, the file `Auto Loot - UFO4P Components Patch.esp` will appear in a top-level folder named `optional` within the ZIP archive.
+
+**Note:** You cannot rename files using this feature. The `Path` attribute is used only to create folders.
+
+# 1617834302
+
+## Changes
+
+- Remote downloads are now parallelized (currently, the number of workers is CPU-bound)
+- Project validation now checks compiler and flags paths
+
+
+## Fixes
+
+- Fixed issue where empty game path produced game type project validation error
+- Fixed issue where `Folder` parsing could fail due to unexpected input
+- Fixed issue where relative flags path could be returned when path ended with flags file name
+- Fixed issue where relative `PapyrusProject.Output` path was not properly converted to absolute path
+- Fixed issue where relative `Package.RootDir` path was not properly converted to absolute path
+
+*Thanks to Mr. Octopus (MrNeverLost) for reporting some of these issues!*
+
 
 # 1613874280
 
