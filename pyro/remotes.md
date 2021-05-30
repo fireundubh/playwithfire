@@ -2,7 +2,7 @@
 title: Remotes
 description: 
 published: true
-date: 2021-05-30T23:17:03.188Z
+date: 2021-05-30T23:18:06.341Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:17:03.187Z
@@ -48,7 +48,7 @@ If the `NoRecurse` attribute is set to `true`, all remote files will still be do
 
 GitHub repositories require a [personal access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line). Your token must have `public_repo` access scope.
 
-You can specify a global access token for all repositories in your project file using the `--access-token` argument, or you can create a `.secrets` file in the program path.
+You can specify a global access token for all repositories in your project file using the `--access-token` argument, or you can create a `.secrets` file in the program path defining unique access tokens for each repository.
 
 Public Bitbucket Cloud repositories do not require an access token.
 
