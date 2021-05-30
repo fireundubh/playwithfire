@@ -2,15 +2,18 @@
 title: Extended Schema
 description: 
 published: true
-date: 2021-05-30T23:08:08.995Z
+date: 2021-05-30T23:08:27.600Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:08:08.995Z
 ---
 
 > Refer to the [Pyro Project Schema](/pyro/schema) page for default attribute values.
+{.is-info}
 
 > Refer to the [Pyro Project XML Schema Definition](https://github.com/fireundubh/pyro/blob/master/pyro/PapyrusProject.xsd) for document structure, type constraints, and other rules.
+{.is-info}
+
 
 Bethesda Game Studios introduced the PPJ schema with the Papyrus Compiler for FO4. The TES5 and SSE compilers do not support the schema.
 
