@@ -2,7 +2,7 @@
 title: Pyro
 description: 
 published: true
-date: 2021-04-16T06:28:35.283Z
+date: 2021-05-30T22:30:39.819Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:04:59.413Z
@@ -194,7 +194,7 @@ For example:
 If the `NoRecurse` attribute is set to `true`, all remote files will still be downloaded but only scripts in the initial folder will be compiled.
 
 
-### Configuring remotes
+### Configuring remotes by argument
 
 The following arguments support remotes:
 
@@ -206,7 +206,36 @@ Argument | Required | Description | Type | Default Value
 
 Public Bitbucket Cloud repositories do not require an access token.
 
-To use GitHub repositories, the `--access-token` argument must be provided. 
+To use GitHub repositories, the `--access-token` argument must be provided or a `.secrets` file must be created in the program path with the respective hosts and access tokens.
+
+
+### Configuring remotes by file
+
+Pyro can read access tokens from a `.secrets` file placed in the program path. This feature allows you to:
+
+- use unique access tokens for each remote,
+- store access tokens without revealing them in commands or screenshots, and
+- securely store access tokens. _(Disclaimer: The user is responsible for setting the appropriate ownership/permissions.)_
+
+The `.secrets` file is simply an INI file with this familiar format:
+
+```ini
+[github.com/fireundubh/LibFire]
+access_token = your_personal_access_token
+```
+
+The `access_token` option supports user and system environment variables in Python syntax:
+
+```ini
+[github.com]
+access_token = $ACCESS_TOKEN
+```
+
+Each section name is a host URL part that is matched case-insensitively against import URLs.
+
+Host matches occur in sequential order. These host matching rules should be ordered top-down from narrowest to broadest. 
+
+If the `--access-token` argument is passed to Pyro, this argument will take priority over the `.secrets` file regardless of whether the file exists.
 
 
 ## Variables
