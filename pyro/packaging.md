@@ -1,0 +1,43 @@
+---
+title: Packaging
+description: 
+published: true
+date: 2021-05-30T23:10:18.847Z
+tags: 
+editor: markdown
+dateCreated: 2021-05-30T23:10:18.847Z
+---
+
+You can package scripts and other files into BSA and BA2 archives with [BSArch](https://www.nexusmods.com/newvegas/mods/64745), of which the latest unmodified version is included with Pyro under the MPL 2.0 license.
+
+# Installing BSArch
+
+To install BSArch:
+
+1. If, for some reason, BSArch is not located in the `pyro\tools` folder, download BSArch from the above URL and extract the executable there.
+2. The path to `bsarch.exe` should be automatically detected. If not, use the `--bsarch-path` argument to set the path.
+
+# Configuring Packages
+
+To configure packages:
+
+1. Add the `Package` attribute to the `PapyrusProject` node. Set the value to `true`.
+2. Add a `Packages` node block, defining as many `Package` nodes as needed. See below:
+
+```xml
+<Packages Output="{relative or absolute path to output folder where BSA/BA2 packages will be written}">
+  <Package Name="{file name}" RootDir="{required - relative or absolute path to folder containing files or folders to include}">
+    <Include>{relative or absolute path to file or folder in RootDir, or simple glob pattern}</Include>
+    <Include NoRecurse="true">scripts</Include>
+    <Include NoRecurse="false">**/*.txt</Include>
+  </Package>
+  <Package Name="{file name}" RootDir="{required - relative or absolute path to folder containing includes}">
+    <Include NoRecurse="false">**/*.dds</Include>
+  </Package>
+</Packages>
+```
+
+# Temporary files
+
+The packaging system uses a default temporary folder, or a folder specified by `--temp-path`, where compiled scripts and includes are copied. BSArch uses this path to build a BSA/BA2 package.
+
