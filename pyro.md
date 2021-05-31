@@ -2,7 +2,7 @@
 title: Pyro
 description: 
 published: true
-date: 2021-05-31T10:48:14.734Z
+date: 2021-05-31T11:02:54.769Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:04:59.413Z
@@ -15,7 +15,7 @@ dateCreated: 2020-01-19T11:04:59.413Z
 
 - **Convenient** &mdash; Pyro is an all-in-one tool for compiling Papyrus scripts, packaging BSA and BA2 archives, and zipping mods for distribution.
 - **Fast** &mdash; Pyro uses a parallelized incremental build system to batch compile only scripts that you've changed.
-- **Powerful** &mdash; Pyro can be extended through import and build hooks, as well as integrated as an external tool into any IDE and CI/CD workflow.
+- **Powerful** &mdash; Pyro can be extended through import and build events, and integrated into any IDE and CI/CD workflow.
 
 
 # Contents
