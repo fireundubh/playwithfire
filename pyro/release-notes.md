@@ -2,7 +2,7 @@
 title: Release Notes
 description: 
 published: true
-date: 2021-05-31T02:59:40.610Z
+date: 2021-05-31T03:00:34.113Z
 tags: 
 editor: markdown
 dateCreated: 2020-05-20T04:28:08.747Z
@@ -16,7 +16,9 @@ dateCreated: 2020-05-20T04:28:08.747Z
 
 `PreImportEvent` and `PostImportEvent` elements have been added to the PyroProject XSD. These parent elements contain `Command` children.
 
-How would these events be useful? In one use case, the user wants to automatically download the latest release of a mod from Nexus Mods, and the user wants to import script sources from that release. Pyro does not support the Nexus API; therefore, the user would need to call an external application to complete the first task, but without the pre-import event, to complete the second task, Pyro would have to become a child of that application's build cycle. With the pre-import event, however, the user can use Pyro to manage calls to that external application.
+> How would these events be useful? In one use case, the user wants to automatically download the latest release of a mod from Nexus Mods, and the user wants to import script sources from that release. Pyro does not support the Nexus API; therefore, the user would need to call an external application to complete the first task, but without the pre-import event, to complete the second task, Pyro would have to become a child of that application's build cycle. With the pre-import event, however, the user can use Pyro to manage calls to that external application.
+{.is-info}
+
 
 ### Options
 
