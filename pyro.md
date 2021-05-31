@@ -2,13 +2,14 @@
 title: Pyro
 description: 
 published: true
-date: 2021-05-31T10:45:38.332Z
+date: 2021-05-31T10:47:46.590Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:04:59.413Z
 ---
 
 **Pyro** is an open source build automation tool for *Skyrim Classic*, *Skyrim Special Edition*, and *Fallout 4* projects.
+
 
 # Benefits
 
@@ -17,10 +18,26 @@ dateCreated: 2020-01-19T11:04:59.413Z
 - **Powerful** &mdash; Pyro can be extended through import and build hooks, as well as integrated as an external tool into any IDE and CI/CD workflow.
 
 
+# Downloads
+
+Latest build from master branch:
+
+[![](https://github.com/fireundubh/pyro/workflows/GitHub%20CI/badge.svg)](https://github.com/fireundubh/pyro/actions)
+
+Latest binaries:
+
+Source | Comments
+:--- | :---
+[GitHub Releases](https://github.com/fireundubh/pyro/releases) | Always up-to-date; builds intended for most users.
+[GitHub CI](https://github.com/fireundubh/pyro/actions) | Bleeding edge; builds intended for testing; not for most users.
+[SSE Nexus](https://www.nexusmods.com/skyrimspecialedition/mods/35860) | Mirror for GitHub Releases; may lag behind.
+
+Or build Pyro from the source code. Refer to the [Contributing](/pyro/contributing) section for details.
+
+
 # Contents
 
 - [Release Notes](/pyro/release-notes)
-- [Binaries](/pyro/binaries)
 - [Integrations](/pyro/integrations)
 - [Features Overview](/pyro/features)
 - [Multiple Game Support](/pyro/multiple-game-support)
