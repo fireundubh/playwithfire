@@ -2,7 +2,7 @@
 title: Release Notes
 description: 
 published: true
-date: 2021-05-31T02:59:01.603Z
+date: 2021-05-31T02:59:40.610Z
 tags: 
 editor: markdown
 dateCreated: 2020-05-20T04:28:08.747Z
@@ -14,25 +14,23 @@ dateCreated: 2020-05-20T04:28:08.747Z
 
 ## New Features
 
-### Pre- and Post-Import Events
-
 `PreImportEvent` and `PostImportEvent` elements have been added to the PyroProject XSD. These parent elements contain `Command` children.
 
 How would these events be useful? In one use case, the user wants to automatically download the latest release of a mod from Nexus Mods, and the user wants to import script sources from that release. Pyro does not support the Nexus API; therefore, the user would need to call an external application to complete the first task, but without the pre-import event, to complete the second task, Pyro would have to become a child of that application's build cycle. With the pre-import event, however, the user can use Pyro to manage calls to that external application.
 
-#### Options
+### Options
 
 - A `Description` attribute can be used to clarify each event. This description will be printed in the build output.
 - A `UseInBuild` attribute can be used to toggle whether the event is used.
 
-#### Timing
+### Timing
 
 Event | Runs When
 :--- | :---
 PRE | Immediately before import processing
 POST | Immediately after import processing
 
-#### Examples
+### Examples
 
 ```xml
 <PreImportEvent Description="Pre-Import Event Example" UseInBuild="true">
@@ -49,8 +47,6 @@ POST | Immediately after import processing
 # 1622408596
 
 ## New Features
-
-### Secrets File
 
 Pyro can read access tokens from a `.secrets` file placed in the program path. This feature allows you to:
 
