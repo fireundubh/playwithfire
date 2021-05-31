@@ -2,7 +2,7 @@
 title: Release Notes
 description: 
 published: true
-date: 2021-05-31T10:13:33.513Z
+date: 2021-05-31T10:27:26.226Z
 tags: 
 editor: markdown
 dateCreated: 2020-05-20T04:28:08.747Z
@@ -77,7 +77,7 @@ Host matches occur in sequential order. These host matching rules should be orde
 If the `--access-token` argument is passed to Pyro, this argument will take priority over the `.secrets` file regardless of whether the file exists.
 
 
-# Fixes
+## Fixes
 
 - Fixed issue where where `<Script>` nodes did not support `.` and `..` paths
 - Fixed issue where namespace colon format support could clobber absolute script paths
