@@ -2,17 +2,20 @@
 title: Pyro
 description: 
 published: true
-date: 2021-05-31T10:30:21.059Z
+date: 2021-05-31T10:42:38.222Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:04:59.413Z
 ---
 
-**Pyro** is a parallelized incremental build system for _Skyrim Classic_ (TES5), _Skyrim Special Edition_ (SSE), and _Fallout 4_ (FO4) projects.
+**Pyro** is an open source build automation tool for *Skyrim Classic*, *Skyrim Special Edition*, and *Fallout 4* projects.
 
-Pyro provides mod authors with an all-in-one tool for compiling Papyrus scripts, packaging BSA and BA2 archives, and preparing builds for distribution.
+# Benefits
 
-Pyro can be integrated as an external tool into any IDE, allowing mod authors to "Instant Build" projects with a single hotkey.
+- **Convenient** &mdash; Pyro is an all-in-one tool for compiling Papyrus scripts, packaging BSA and BA2 archives, and zipping mods for distribution.
+- **Fast** &mdash; Pyro uses a parallelized incremental build system to batch compile only scripts that you've changed.
+- **Powerful** &mdash; Pyro can be extended through import and build hooks, as well as integrated as an external tool into any IDE and CI/CD workflow.
+
 
 # Contents
 
@@ -32,12 +35,15 @@ Pyro can be integrated as an external tool into any IDE, allowing mod authors to
 14. [Command Line Arguments](/pyro/cli)
 15. [Resources/Examples](/pyro/resources)
 16. [Contributing](/pyro/contributing)
-17. [Licenses](/pyro/licenses)
-18. [Credits](/pyro/credits)
+17. [Credits](/pyro/credits)
+
+
+# Help/Feedback
+
+If you need help with Pyro, or have any feedback, [join the **#pyro** channel on the Discord server](https://discord.fireundubh.com).
 
 
 # Licenses
 
-> Pyro source code is open and licensed under the MIT License. BSArch source code is licensed under the MPL 2.0 license. The BSArch executable bundled with Pyro was compiled from the original unmodified source code available [here](https://github.com/ElminsterAU/xEdit/tree/master/Tools/BSArchive).
-{.is-info}
+Pyro source code is open and licensed under the MIT License. BSArch source code is licensed under the MPL 2.0 license. The BSArch executable bundled with Pyro was compiled from the original unmodified source code available [here](https://github.com/ElminsterAU/xEdit/tree/master/Tools/BSArchive).
 
