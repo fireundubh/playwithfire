@@ -2,7 +2,7 @@
 title: Remotes
 description: 
 published: true
-date: 2021-05-31T10:59:50.428Z
+date: 2021-05-31T11:00:58.163Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:17:03.187Z
@@ -78,7 +78,7 @@ Each section name is a host URL part that is matched case-insensitively against 
 
 Host matches occur in sequential order. These host matching rules should be ordered top-down from narrowest to broadest. 
 
-If the `--access-token` argument is passed to Pyro, this argument will take priority over the `.secrets` file regardless of whether the file exists.
+If the `--access-token` argument is provided, the value will take priority over the `.secrets` file regardless of whether the file exists.
 
 
 # CLI Arguments
