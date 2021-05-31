@@ -2,7 +2,7 @@
 title: Pyro
 description: 
 published: true
-date: 2021-05-31T10:42:38.222Z
+date: 2021-05-31T10:45:38.332Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:04:59.413Z
@@ -19,23 +19,23 @@ dateCreated: 2020-01-19T11:04:59.413Z
 
 # Contents
 
-1. [Release Notes](/pyro/release-notes)
-2. [Binaries](/pyro/binaries)
-3. [Integrations](/pyro/integrations)
-4. [Features Overview](/pyro/features)
-5. [Multiple Game Support](/pyro/multiple-game-support)
-6. [Extended Schema](/pyro/extended-schema)
-7. [Incremental Build](/pyro/incremental-build)
-8. [Anonymization](/pyro/anonymization)
-9. [Packaging](/pyro/packaging)
-10. [Zipping](/pyro/zipping)
-11. [Remotes](/pyro/remotes)
-12. [Variables](/pyro/variables)
-13. [Build Events](/pyro/build-events)
-14. [Command Line Arguments](/pyro/cli)
-15. [Resources/Examples](/pyro/resources)
-16. [Contributing](/pyro/contributing)
-17. [Credits](/pyro/credits)
+- [Release Notes](/pyro/release-notes)
+- [Binaries](/pyro/binaries)
+- [Integrations](/pyro/integrations)
+- [Features Overview](/pyro/features)
+- [Multiple Game Support](/pyro/multiple-game-support)
+- [Extended Schema](/pyro/extended-schema)
+- [Incremental Build](/pyro/incremental-build)
+- [Anonymization](/pyro/anonymization)
+- [Packaging](/pyro/packaging)
+- [Zipping](/pyro/zipping)
+- [Remotes](/pyro/remotes)
+- [Variables](/pyro/variables)
+- [Build Events](/pyro/build-events)
+- [Command Line Arguments](/pyro/cli)
+- [Resources/Examples](/pyro/resources)
+- [Contributing](/pyro/contributing)
+- [Credits](/pyro/credits)
 
 
 # Help/Feedback
