@@ -2,13 +2,20 @@
 title: Anonymization
 description: 
 published: true
-date: 2021-05-30T23:09:23.747Z
+date: 2021-05-31T10:25:00.558Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:09:23.747Z
 ---
 
-When the Papyrus Compiler compiles a script, your system username, your computer name's on your local network, and the full path to the source script are embedded in the header. This data can be retrieved using a hex editor or a Papyrus decompiler, such as Champollion. This data could put at risk your security or privacy. Pyro replaces those strings in compiled scripts with random letters.
+When the Papyrus Compiler compiles a script, the following metadata is embedded in that script:
 
-Simply add the `Anonymize` attribute to the `PapyrusProject` node and set the value to `True`.
+- your system username,
+- your computer name's on your local network, and
+- the full path to the source script.
 
+This metadata was intended to help game developers find team members responsible for specific scripts during development, but outside a team environment, this metadata serves no purpose. This metadata can be retrieved using a hex editor or a Papyrus decompiler, such as Champollion. This metadata could put at risk your security or privacy.
+
+Pyro anonymizes script metadata by scrambling each string with random letters.
+
+Anonymization can be enabled by adding the `Anonymize` attribute to the `PapyrusProject` node and setting the value to `True`.
