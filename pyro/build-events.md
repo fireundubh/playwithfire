@@ -2,13 +2,13 @@
 title: Build Events
 description: 
 published: true
-date: 2021-05-31T19:33:57.983Z
+date: 2021-05-31T19:36:37.660Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:19:39.288Z
 ---
 
-Build events are sequences of shell commands that execute before and after the project builds.
+**Build Events** are sequences of shell commands that execute before and after the project builds.
 
 Pyro supports pre-build events and post-build events.
 
@@ -27,7 +27,7 @@ The `Command` element does not have any attributes.
 
 Event | Runs When
 :--- | :---
-PRE | Immediately prior to compilation
+PRE | Immediately before compilation
 POST | Immediately after build success
 
 
