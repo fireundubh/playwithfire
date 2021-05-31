@@ -2,7 +2,7 @@
 title: Remotes
 description: 
 published: true
-date: 2021-05-30T23:18:06.341Z
+date: 2021-05-31T10:59:50.428Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:17:03.187Z
@@ -81,12 +81,24 @@ Host matches occur in sequential order. These host matching rules should be orde
 If the `--access-token` argument is passed to Pyro, this argument will take priority over the `.secrets` file regardless of whether the file exists.
 
 
-# Arguments
+# CLI Arguments
 
-The following arguments support remotes:
+## --access-token
 
-Argument | Required | Description | Type | Default Value
-:--- | :--- | :--- | :--- | :---
-`--access-token` | `true`<br>(when using GitHub remotes) | [your personal access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)<br>(must have `public_repo` access scope) | `str` | 
-`--force-overwrite` | `false` | download remote files and overwrite existing files<br>(default: skip download when remote folder exists) | `bool` | `false`
-`--remote-temp-path` | `false` | relative or absolute path to temp folder for remote files<br>(if relative, must be relative to project) | `str` | `{program_path}\remote`
+- **description:** your personal access token (must have `public_repo` access scope)
+- **default value:** `''`
+- **argument type:** `str`
+
+## --force-overwrite
+
+- **description:** download remote files and overwrite existing files
+- **default value:** `false`
+- **argument type:** `bool`
+
+## --remote-temp-path
+
+relative or absolute path to temp folder for remote files (if relative, must be relative to project)
+
+- **description:** relative or absolute path to temp folder for remote files (if relative, must be relative to project)
+- **default value:** `{program_path}\remote`
+- **argument type:** `str`
