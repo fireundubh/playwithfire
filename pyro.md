@@ -2,7 +2,7 @@
 title: Pyro
 description: 
 published: true
-date: 2021-05-30T23:27:19.968Z
+date: 2021-05-31T10:30:21.059Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:04:59.413Z
@@ -34,3 +34,10 @@ Pyro can be integrated as an external tool into any IDE, allowing mod authors to
 16. [Contributing](/pyro/contributing)
 17. [Licenses](/pyro/licenses)
 18. [Credits](/pyro/credits)
+
+
+# Licenses
+
+> Pyro source code is open and licensed under the MIT License. BSArch source code is licensed under the MPL 2.0 license. The BSArch executable bundled with Pyro was compiled from the original unmodified source code available [here](https://github.com/ElminsterAU/xEdit/tree/master/Tools/BSArchive).
+{.is-info}
+
