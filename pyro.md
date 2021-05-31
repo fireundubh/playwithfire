@@ -2,18 +2,18 @@
 title: Pyro
 description: 
 published: true
-date: 2021-05-31T11:02:54.769Z
+date: 2021-05-31T11:04:10.444Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:04:59.413Z
 ---
 
-**Pyro** is an open source build automation tool for *Skyrim Classic*, *Skyrim Special Edition*, and *Fallout 4* projects.
+**Pyro** is an open source build automation tool for *Skyrim*, *Skyrim Special Edition*, and *Fallout 4* projects.
 
 
 # Benefits
 
-- **Convenient** &mdash; Pyro is an all-in-one tool for compiling Papyrus scripts, packaging BSA and BA2 archives, and zipping mods for distribution.
+- **Convenient** &mdash; Pyro is an all-in-one tool for compiling Papyrus scripts, packaging BSA/BA2 archives, and creating ZIP releases.
 - **Fast** &mdash; Pyro uses a parallelized incremental build system to batch compile only scripts that you've changed.
 - **Powerful** &mdash; Pyro can be extended through import and build events, and integrated into any IDE and CI/CD workflow.
 
