@@ -2,13 +2,97 @@
 title: Release Notes
 description: 
 published: true
-date: 2021-05-16T06:34:09.409Z
+date: 2021-05-31T02:59:01.603Z
 tags: 
 editor: markdown
 dateCreated: 2020-05-20T04:28:08.747Z
 ---
 
 > **Note:** Pre-release version names are Unix timestamps.
+
+# 1622420177
+
+## New Features
+
+### Pre- and Post-Import Events
+
+`PreImportEvent` and `PostImportEvent` elements have been added to the PyroProject XSD. These parent elements contain `Command` children.
+
+How would these events be useful? In one use case, the user wants to automatically download the latest release of a mod from Nexus Mods, and the user wants to import script sources from that release. Pyro does not support the Nexus API; therefore, the user would need to call an external application to complete the first task, but without the pre-import event, to complete the second task, Pyro would have to become a child of that application's build cycle. With the pre-import event, however, the user can use Pyro to manage calls to that external application.
+
+#### Options
+
+- A `Description` attribute can be used to clarify each event. This description will be printed in the build output.
+- A `UseInBuild` attribute can be used to toggle whether the event is used.
+
+#### Timing
+
+Event | Runs When
+:--- | :---
+PRE | Immediately before import processing
+POST | Immediately after import processing
+
+#### Examples
+
+```xml
+<PreImportEvent Description="Pre-Import Event Example" UseInBuild="true">
+  <Command>echo Hi! I'm a pre-import command!</Command>
+</PreImportEvent>
+```
+
+```xml
+<PostImportEvent Description="Post-Import Event Example" UseInBuild="true">
+  <Command>echo Hi! I'm a post-import command!</Command>
+</PostImportEvent>
+```
+
+# 1622408596
+
+## New Features
+
+### Secrets File
+
+Pyro can read access tokens from a `.secrets` file placed in the program path. This feature allows you to:
+
+- use unique access tokens for each remote,
+- store access tokens without revealing them in commands or screenshots, and
+- securely store access tokens. _(Disclaimer: The user is responsible for setting the appropriate ownership/permissions.)_
+
+The `.secrets` file is simply an INI file with this familiar format:
+
+```ini
+[github.com/fireundubh/LibFire]
+access_token = your_personal_access_token
+```
+
+The `access_token` option supports user and system environment variables in Python syntax:
+
+```ini
+[github.com]
+access_token = $ACCESS_TOKEN
+```
+
+Each section name is a host URL part that is matched case-insensitively against import URLs.
+
+Host matches occur in sequential order. These host matching rules should be ordered top-down from narrowest to broadest. 
+
+If the `--access-token` argument is passed to Pyro, this argument will take priority over the `.secrets` file regardless of whether the file exists.
+
+
+# Fixes
+
+- Fixed issue where where `<Script>` nodes did not support `.` and `..` paths
+- Fixed issue where namespace colon format support could clobber absolute script paths
+- Fixed issue where slower built-in endswith and startswith comparators were still in use
+
+
+# 1622359375
+
+## Fixes
+
+- Fixed issue where compilation did not fail when errors contained negative line or column numbers
+- Fixed issue where PermissionError was not logged
+
 
 # 1618543799
 
