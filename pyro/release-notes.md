@@ -2,7 +2,7 @@
 title: Release Notes
 description: 
 published: true
-date: 2021-05-31T03:00:34.113Z
+date: 2021-05-31T10:13:33.513Z
 tags: 
 editor: markdown
 dateCreated: 2020-05-20T04:28:08.747Z
@@ -188,23 +188,21 @@ In the above example, the file `Auto Loot - UFO4P Components Patch.esp` will app
 
 ## Major Changes
 
-### Pre- and Post-Build Events
-
 `PreBuildEvent` and `PostBuildEvent` elements have been added to the PyroProject XSD. These parent elements contain `Command` children.
 
-#### Options
+### Options
 
 - A `Description` attribute can be used to clarify each event. This description will be printed in the build output.
 - A `UseInBuild` attribute can be used to toggle whether the event is used.
 
-#### Timing
+### Timing
 
 Event | Runs When
 :--- | :---
 PRE | Immediately prior to compilation
 POST | Immediately after build success
 
-#### Examples
+### Examples
 
 ```xml
 <PreBuildEvent Description="Pre-Build Event Example" UseInBuild="true">
