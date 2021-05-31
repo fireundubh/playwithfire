@@ -2,7 +2,7 @@
 title: Build Events
 description: 
 published: true
-date: 2021-05-30T23:19:39.288Z
+date: 2021-05-31T19:33:57.983Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:19:39.288Z
@@ -13,7 +13,7 @@ Build events are sequences of shell commands that execute before and after the p
 Pyro supports pre-build events and post-build events.
 
 
-### Options
+# Options
 
 The `PreBuildEvent` and `PostBuildEvent` elements have the following attributes:
 
@@ -23,7 +23,7 @@ The `PreBuildEvent` and `PostBuildEvent` elements have the following attributes:
 The `Command` element does not have any attributes.
 
 
-### Timing
+# Timing
 
 Event | Runs When
 :--- | :---
@@ -31,7 +31,7 @@ PRE | Immediately prior to compilation
 POST | Immediately after build success
 
 
-### Examples
+# Examples
 
 ```xml
 <PreBuildEvent Description="Pre-Build Event Example" UseInBuild="true">
