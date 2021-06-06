@@ -2,7 +2,7 @@
 title: Remotes
 description: 
 published: true
-date: 2021-06-06T23:07:17.499Z
+date: 2021-06-06T23:07:45.239Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:17:03.187Z
@@ -31,7 +31,7 @@ By default, Pyro will download only unchanged files on subsequent runs. This can
 
 # Compiling scripts
 
-When a GitHub or public Bitbucket Cloud URL is used as an `Folder` path, Pyro will download the respective files and use the download location as the folder path.
+When a GitHub or public Bitbucket Cloud URL is used as a `Folder` path, Pyro will download the respective files and use the download location as the folder path.
 
 For example:
 
