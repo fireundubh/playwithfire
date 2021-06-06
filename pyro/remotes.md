@@ -2,7 +2,7 @@
 title: Remotes
 description: 
 published: true
-date: 2021-05-31T11:00:58.163Z
+date: 2021-06-06T23:07:17.499Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:17:03.187Z
@@ -26,6 +26,9 @@ For example:
 </Imports>
 ```
 
+By default, Pyro will download only unchanged files on subsequent runs. This can be overridden with the `--force-overwrite` switch.
+
+
 # Compiling scripts
 
 When a GitHub or public Bitbucket Cloud URL is used as an `Folder` path, Pyro will download the respective files and use the download location as the folder path.
@@ -42,6 +45,8 @@ For example:
 ```
 
 If the `NoRecurse` attribute is set to `true`, all remote files will still be downloaded but only scripts in the initial folder will be compiled.
+
+By default, Pyro will download only unchanged files on subsequent runs. This can be overridden with the `--force-overwrite` switch.
 
 
 # Access tokens
