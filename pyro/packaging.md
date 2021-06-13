@@ -2,7 +2,7 @@
 title: Packaging
 description: 
 published: true
-date: 2021-06-13T12:22:41.487Z
+date: 2021-06-13T12:29:15.972Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:10:18.847Z
@@ -54,13 +54,13 @@ All matches are case insensitive. Files cannot be matched outside the project ro
 <Include NoRecurse="false">README.md</Include>
 
 <!-- Search for pattern "docs\readme.md" from the project path, recursively if not found from the project root -->
-<Include NoRecurse="false">docs\README.md</Include>
+<Include>docs\README.md</Include>
 
 <!-- Search for pattern "docs\*.md" from the project path, recursively -->
-<Include NoRecurse="false">docs\*.md</Include>
+<Include>docs\*.md</Include>
 
 <!-- Search for all files in the "docs" folder from the project path, recursively -->
-<Include NoRecurse="false">docs</Include>
+<Include>docs</Include>
 ```
 
 
@@ -72,6 +72,9 @@ All matches are case insensitive. Files cannot be matched outside the project ro
 
 <!-- Match "*.esp" from the project path, recursively, but exclude file matches starting with "optional" -->
 <Match>*.esp|-optional</Match>
+
+<!-- Match "*.esp" in only the project path -->
+<Match NoRecurse="true">*.esp</Match>
 
 <!-- Match "*.esp" from the "optional" folder in the project path, recursively -->
 <Match In="optional">*.esp</Match>
