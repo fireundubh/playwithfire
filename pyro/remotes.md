@@ -2,7 +2,7 @@
 title: Remotes
 description: 
 published: true
-date: 2021-06-06T23:07:45.239Z
+date: 2021-06-14T22:51:06.360Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:17:03.187Z
@@ -88,22 +88,8 @@ If the `--access-token` argument is provided, the value will take priority over 
 
 # CLI Arguments
 
-## --access-token
-
-- **description:** your personal access token (must have `public_repo` access scope)
-- **default value:** `''`
-- **argument type:** `str`
-
-## --force-overwrite
-
-- **description:** download remote files and overwrite existing files
-- **default value:** `false`
-- **argument type:** `bool`
-
-## --remote-temp-path
-
-relative or absolute path to temp folder for remote files (if relative, must be relative to project)
-
-- **description:** relative or absolute path to temp folder for remote files (if relative, must be relative to project)
-- **default value:** `{program_path}\remote`
-- **argument type:** `str`
+Argument | Description | Type | Default Value
+:--- | :--- | :--- | :---
+`--access-token` | your personal access token (must have `public_repo` access scope) | `str` | `''`
+`--force-overwrite` | download remote files and overwrite existing files | `bool` | `false`
+`--remote-temp-path` | temp folder path for remote files (if relative, must be relative to project) | `str` | `{program_path}\remote`
