@@ -2,7 +2,7 @@
 title: Pyro Project Schema
 description: 
 published: true
-date: 2021-04-16T06:32:37.811Z
+date: 2021-06-14T22:12:34.846Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:07:53.276Z
@@ -10,9 +10,7 @@ dateCreated: 2020-01-19T11:07:53.276Z
 
 This reference documents the attribute defaults in the Pyro Project Schema.
 
-# PapyrusProject
-
-> **XPath:** `//PapyrusProject`
+# //PapyrusProject
 
 The `PapyrusProject` node is the root node from which all other nodes descend.
 
@@ -26,6 +24,7 @@ Node | Attribute | Type | Default Value
 `PapyrusProject` | `Final` (FO4 only) | `bool` | `false`
 `PapyrusProject` | `Anonymize` | `bool` | `false`
 `PapyrusProject` | `Package` | `bool` | `false`
+
 
 ## Example
 
@@ -45,64 +44,76 @@ Node | Attribute | Type | Default Value
 </PapyrusProject>
 ```
 
-# Variables/Variable
 
-> **XPath:** `//Variables/Variable`
+# //Variables
+
+The `Variables` parent node contains `Variable` child nodes.
+
+
+## Example
+
+```xml
+<Variables>
+  <!-- block children -->
+</Variables>
+```
+
+
+# //Variables/Variable
 
 Node | Attribute | Type | Default Value | Required 
 :--- | :--- | :--- | :--- | :---
 `Variable` | `Name` | `string` | `''` | `True`
 `Variable` | `Value` | `string` | `''` | `True`
 
-## Example
-
-```xml
-<Variables>
-	<Variable Name="modname" Value="Auto Loot"/>
-	<Variable Name="namespace" Value="AutoLoot"/>
-	<Variable Name="modpath" Value="E:\repos\mods\fallout4\@modname"/>
-</Variables>
-```
-
-# Imports/Import
-
-> **XPath:** `//Imports/Import`
-
-The `Imports` parent node contains `Import` child nodes. None of these nodes have attributes.
 
 ## Example
 
 ```xml
-<Imports>
-	<Import>@modpath\scripts\Source\User</Import>
-	<Import>E:\SteamLibrary\Fallout 4\Data\Scripts\Source\Base</Import>
-</Imports>
+<Variable Name="modname" Value="Auto Loot"/>
 ```
 
-# Scripts/Script
+# //Imports/Import
 
-> **XPath:** `//Scripts/Script`
+Each `Import` node contains the local path or remote URL for an import folder.
 
-The `Scripts` parent node contains `Script` child nodes. None of these nodes have attributes.
+
+## Example
+
+```xml
+<Import>F:\SDKs\SKSE\@SourceDir</Import>
+<Import>https://github.com/fireundubh/LibFire.git</Import>
+<Import>@RepoBaseURL/skyui/contents/dist/Data/Scripts/Source?ref=master</Import>
+<Import>@OutputPath\@SourceDir</Import>
+<Import>@ScriptsPath\Base</Import>
+```
+
+
+# //Scripts
+
+The `Scripts` parent node contains `Script` child nodes.
+
 
 ## Example
 
 ```xml
 <Scripts>
-	<Script>@namespace\dubhAutoLootDummyScript.psc</Script>
-	<Script>@namespace\dubhAutoLootEffectBodiesScript.psc</Script>
-	<Script>@namespace\dubhAutoLootEffectComponentsScript.psc</Script>
-	<Script>@namespace\dubhAutoLootEffectContainersScript.psc</Script>
-	<Script>@namespace\dubhAutoLootEffectScript.psc</Script>
-	<Script>@namespace\dubhAutoLootEffectTieredScript.psc</Script>
-	<Script>@namespace\dubhAutoLootQuestScript.psc</Script>
-	<Script>@namespace\dubhAutoLootNoDisintegrateScript.psc</Script>
+  <!-- block children -->
 </Scripts>
 ```
 
-# Folders/Folder
 
-> **XPath:** `//Folders/Folder`
+# //Scripts/Script
+
+Each `Script` node contains the path to a script file.
+
+## Example
+
+```xml
+<Script>@namespace\dubhAutoLootDummyScript.psc</Script>
+```
+
+# //Folders/Folder
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :--- 
@@ -111,23 +122,26 @@ Node | Attribute | Type | Default Value
 ## Example
 
 ```xml
-	<Folders>
-		<Folder NoRecurse="true">@namespace\Fragments\Terminals</Folder>
-	</Folders>
+<Folder NoRecurse="true">@namespace\Fragments\Terminals</Folder>
 ```
 
-# Packages
-
-> **XPath:** `//Packages`
+# //Packages
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
 `Packages` | `Output` | `str` | Path to the `pyro\dist` folder
 
 
-## Packages/Package
+## Example
 
-> **XPath:** `//Packages/Package`
+```xml
+<Packages Output="@OutputPath">
+  <!-- block children -->
+</Packages>
+```
+
+
+# //Packages/Package
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
@@ -135,37 +149,60 @@ Node | Attribute | Type | Default Value
 `Package` | `RootDir` | `str` | Path to the project folder 
 
 
-## Packages/Package/Include
+## Example
 
-> **XPath:** `//Packages/Package/Include`
+```xml
+<Package Name="@ModName" RootDir="@OutputPath">
+  <!-- block children -->
+</Package>
+```
+
+
+# //Packages/Package/Include
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
+`Include` | `NoRecurse`  | `bool` | `false`
+`Include` | `Path` | `str` | If not empty, this value will be prepended to the file's location in the package.
+
+
+## Example
+
+```xml
+<Include NoRecurse="false">**/*.pex</Include>
+```
+
+# //Packages/Package/Match
+
+Node | Attribute | Type | Default Value
+:--- | :--- | :--- | :---
+`Match` | `In`  | `str` | Path to the project folder
+`Match` | `Exclude` | `str` | If not empty, this pattern can be used to exclude directories from matches.
 `Include` | `NoRecurse`  | `bool` | `false`
 
 
 ## Example
 
 ```xml
-<Packages Output="@modpath">
-	<Package Name="@modname - Main" RootDir="@modpath">
-		<Include NoRecurse="false">**/*.pex</Include>
-	</Package>
-</Packages>
+<Match In="Textures">*.dds</Match>
 ```
 
-# ZipFiles
-
-> **XPath:** `//ZipFiles`
+# //ZipFiles
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
 `ZipFiles` | `Output` | `str` | Path to the `pyro\dist` folder
 
+## Example
 
-## ZipFiles/ZipFile
+```xml
+<ZipFiles Output="@modpath">
+  <!-- block children -->
+</ZipFiles>
+```
 
-> **XPath:** `//ZipFiles/ZipFile`
+
+# //ZipFiles/ZipFile
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
@@ -173,25 +210,40 @@ Node | Attribute | Type | Default Value
 `ZipFile` | `RootDir` | `str` | Path to the project folder
 `ZipFile` | `Compression` | `str` | `deflate`
 
+## Example
 
-## ZipFiles/ZipFile/Include
+```xml
+<ZipFile Name="@modname" RootDir="@modpath" Compression="deflate">
+  <!-- block children -->
+</ZipFile>
+```
 
-> **XPath:** `//ZipFiles/ZipFile/Include`
+
+# //ZipFiles/ZipFile/Include
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
 `Include` | `NoRecurse` | `bool` | `false`
-`Include` | `Path` | `str` | If not empty, this value will override the file's location in the archive.
-
+`Include` | `Path` | `str` | If not empty, this value will be prepended to the file's location in the archive.
 
 ## Example
 
 ```xml
-<ZipFiles Output="@modpath">
-  <ZipFile Name="@modname" RootDir="@modpath" Compression="deflate">
-    <Include>@modpath\Auto Loot.esp</Include>
-    <Include>@modpath\Auto Loot - Main.ba2</Include>
-    <Include Path="optional">@modpath\Auto Loot - UFO4P Components Patch.esp</Include>
-  </ZipFile>
-</ZipFiles>
+<Include Path="optional">@modpath\MyOptionalPlugin.esp</Include>
 ```
+
+
+# //ZipFiles/ZipFile/Match
+
+Node | Attribute | Type | Default Value
+:--- | :--- | :--- | :---
+`Match` | `In`  | `str` | Path to the project folder
+`Match` | `Exclude` | `str` | If not empty, this pattern can be used to exclude directories from matches.
+`Include` | `NoRecurse`  | `bool` | `false`
+
+## Example
+
+```xml
+<Match In="Strings">*.*STRINGS</Match>
+```
+
