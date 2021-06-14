@@ -2,7 +2,7 @@
 title: Pyro Project Schema
 description: 
 published: true
-date: 2021-06-14T22:12:34.846Z
+date: 2021-06-14T22:25:53.902Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:07:53.276Z
@@ -10,23 +10,10 @@ dateCreated: 2020-01-19T11:07:53.276Z
 
 This reference documents the attribute defaults in the Pyro Project Schema.
 
-# //PapyrusProject
+
+# PapyrusProject
 
 The `PapyrusProject` node is the root node from which all other nodes descend.
-
-Node | Attribute | Type | Default Value
-:--- | :--- | :--- | :---
-`PapyrusProject` | `Game` | `str` | (determined programmatically)
-`PapyrusProject` | `Flags` | `str` | (determined programmatically from game path)
-`PapyrusProject` | `Output` | `str` | Path to the `pyro\out` folder
-`PapyrusProject` | `Optimize` | `bool` | `false`
-`PapyrusProject` | `Release` (FO4 only) | `bool` | `false`
-`PapyrusProject` | `Final` (FO4 only) | `bool` | `false`
-`PapyrusProject` | `Anonymize` | `bool` | `false`
-`PapyrusProject` | `Package` | `bool` | `false`
-
-
-## Example
 
 ```xml
 <PapyrusProject
@@ -40,17 +27,27 @@ Node | Attribute | Type | Default Value
   Anonymize="true"
   Package="true"
   Zip="true">
-  <!-- snip -->
+  <!-- block children -->
 </PapyrusProject>
 ```
 
+#### Attribute Details
 
-# //Variables
+Node | Attribute | Type | Default Value
+:--- | :--- | :--- | :---
+`PapyrusProject` | `Game` | `str` | (determined programmatically)
+`PapyrusProject` | `Flags` | `str` | (determined programmatically from game path)
+`PapyrusProject` | `Output` | `str` | Path to the `pyro\out` folder
+`PapyrusProject` | `Optimize` | `bool` | `false`
+`PapyrusProject` | `Release` (FO4 only) | `bool` | `false`
+`PapyrusProject` | `Final` (FO4 only) | `bool` | `false`
+`PapyrusProject` | `Anonymize` | `bool` | `false`
+`PapyrusProject` | `Package` | `bool` | `false`
+
+
+# Variables
 
 The `Variables` parent node contains `Variable` child nodes.
-
-
-## Example
 
 ```xml
 <Variables>
@@ -58,27 +55,34 @@ The `Variables` parent node contains `Variable` child nodes.
 </Variables>
 ```
 
+## Variable
 
-# //Variables/Variable
+Each `Variable` node declares a variable name and its associated value.
+
+```xml
+<Variable Name="modname" Value="Auto Loot"/>
+```
+
+#### Attribute Details
 
 Node | Attribute | Type | Default Value | Required 
 :--- | :--- | :--- | :--- | :---
 `Variable` | `Name` | `string` | `''` | `True`
 `Variable` | `Value` | `string` | `''` | `True`
 
+# Imports
 
-## Example
+The `Imports` parent node contains `Import` child nodes.
 
 ```xml
-<Variable Name="modname" Value="Auto Loot"/>
+<Imports>
+  <!-- block children -->
+</Imports>
 ```
 
-# //Imports/Import
+## Import
 
 Each `Import` node contains the local path or remote URL for an import folder.
-
-
-## Example
 
 ```xml
 <Import>F:\SDKs\SKSE\@SourceDir</Import>
@@ -89,12 +93,9 @@ Each `Import` node contains the local path or remote URL for an import folder.
 ```
 
 
-# //Scripts
+# Scripts
 
 The `Scripts` parent node contains `Script` child nodes.
-
-
-## Example
 
 ```xml
 <Scripts>
@@ -102,37 +103,43 @@ The `Scripts` parent node contains `Script` child nodes.
 </Scripts>
 ```
 
-
-# //Scripts/Script
+## Script
 
 Each `Script` node contains the path to a script file.
-
-## Example
 
 ```xml
 <Script>@namespace\dubhAutoLootDummyScript.psc</Script>
 ```
 
-# //Folders/Folder
 
-Node | Attribute | Type | Default Value
-:--- | :--- | :--- | :--- 
-`Folder` | `NoRecurse` | `bool` | `false`
+# Folders
 
-## Example
+The `Folders` parent node contains `Folder` child nodes.
+
+```xml
+<Folders>
+  <!-- block children -->
+</Folders>
+```
+
+## Folder
+
+Each `Folder` node contains a path to a folder that contains script sources.
 
 ```xml
 <Folder NoRecurse="true">@namespace\Fragments\Terminals</Folder>
 ```
 
-# //Packages
+#### Attribute Details
 
 Node | Attribute | Type | Default Value
-:--- | :--- | :--- | :---
-`Packages` | `Output` | `str` | Path to the `pyro\dist` folder
+:--- | :--- | :--- | :--- 
+`Folder` | `NoRecurse` | `bool` | `false`
 
 
-## Example
+# Packages
+
+The `Packages` parent node contains `Package` child nodes.
 
 ```xml
 <Packages Output="@OutputPath">
@@ -140,16 +147,15 @@ Node | Attribute | Type | Default Value
 </Packages>
 ```
 
-
-# //Packages/Package
+#### Attribute Details
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
-`Package` | `Name` | `str` | If the attribute is omitted:<ul><li>the package file will be named after the project,<li>the extension will be appropriate to the game, and<li>subsequent package names will be suffixed with `(1)`, `(2)`, and so on.</ul>
-`Package` | `RootDir` | `str` | Path to the project folder 
+`Packages` | `Output` | `str` | Path to the `pyro\dist` folder
 
+## Package
 
-## Example
+Each `Package` node contains `Include` and/or `Match` child nodes.
 
 ```xml
 <Package Name="@ModName" RootDir="@OutputPath">
@@ -157,8 +163,23 @@ Node | Attribute | Type | Default Value
 </Package>
 ```
 
+#### Attribute Details
 
-# //Packages/Package/Include
+Node | Attribute | Type | Default Value
+:--- | :--- | :--- | :---
+`Package` | `Name` | `str` | If the attribute is omitted:<ul><li>the package file will be named after the project,<li>the extension will be appropriate to the game, and<li>subsequent package names will be suffixed with `(1)`, `(2)`, and so on.</ul>
+`Package` | `RootDir` | `str` | Path to the project folder 
+
+
+### Include
+
+Each `Include` node contains an absolute or relative file or folder path, or a glob expression.
+
+```xml
+<Include NoRecurse="false">**/*.pex</Include>
+```
+
+#### Attribute Details
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
@@ -166,13 +187,15 @@ Node | Attribute | Type | Default Value
 `Include` | `Path` | `str` | If not empty, this value will be prepended to the file's location in the package.
 
 
-## Example
+### Match
+
+Each `Match` node contains a wildcard file expression, which may also include file negation and directory exclusion patterns.
 
 ```xml
-<Include NoRecurse="false">**/*.pex</Include>
+<Match In="Textures">*.dds</Match>
 ```
 
-# //Packages/Package/Match
+#### Attribute Details
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
@@ -181,19 +204,9 @@ Node | Attribute | Type | Default Value
 `Include` | `NoRecurse`  | `bool` | `false`
 
 
-## Example
+# ZipFiles
 
-```xml
-<Match In="Textures">*.dds</Match>
-```
-
-# //ZipFiles
-
-Node | Attribute | Type | Default Value
-:--- | :--- | :--- | :---
-`ZipFiles` | `Output` | `str` | Path to the `pyro\dist` folder
-
-## Example
+The `ZipFiles` parent node contains `ZipFile` child nodes.
 
 ```xml
 <ZipFiles Output="@modpath">
@@ -201,16 +214,16 @@ Node | Attribute | Type | Default Value
 </ZipFiles>
 ```
 
-
-# //ZipFiles/ZipFile
+#### Attribute Details
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
-`ZipFile` | `Name` | `str` | If the attribute is omitted, the ZIP file will be named after the project.
-`ZipFile` | `RootDir` | `str` | Path to the project folder
-`ZipFile` | `Compression` | `str` | `deflate`
+`ZipFiles` | `Output` | `str` | Path to the `pyro\dist` folder
 
-## Example
+
+## ZipFile
+
+Each `ZipFile` node contains `Include` and/or `Match` child nodes.
 
 ```xml
 <ZipFile Name="@modname" RootDir="@modpath" Compression="deflate">
@@ -218,32 +231,43 @@ Node | Attribute | Type | Default Value
 </ZipFile>
 ```
 
+#### Attribute Details
 
-# //ZipFiles/ZipFile/Include
+Node | Attribute | Type | Default Value
+:--- | :--- | :--- | :---
+`ZipFile` | `Name` | `str` | If the attribute is omitted, the ZIP file will be named after the project.
+`ZipFile` | `RootDir` | `str` | Path to the project folder
+`ZipFile` | `Compression` | `str` | `deflate`
+
+
+### Include
+
+Each `Include` node contains an absolute or relative file or folder path, or a glob expression.
+
+```xml
+<Include Path="optional">@modpath\MyOptionalPlugin.esp</Include>
+```
+
+#### Attribute Details
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
 `Include` | `NoRecurse` | `bool` | `false`
 `Include` | `Path` | `str` | If not empty, this value will be prepended to the file's location in the archive.
 
-## Example
+
+### Match
+
+Each `Match` node contains a wildcard file expression, which may also include file negation and directory exclusion patterns.
 
 ```xml
-<Include Path="optional">@modpath\MyOptionalPlugin.esp</Include>
+<Match In="Strings">*.*STRINGS</Match>
 ```
 
-
-# //ZipFiles/ZipFile/Match
+#### Attribute Details
 
 Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
 `Match` | `In`  | `str` | Path to the project folder
 `Match` | `Exclude` | `str` | If not empty, this pattern can be used to exclude directories from matches.
 `Include` | `NoRecurse`  | `bool` | `false`
-
-## Example
-
-```xml
-<Match In="Strings">*.*STRINGS</Match>
-```
-
