@@ -2,7 +2,7 @@
 title: Packaging
 description: 
 published: true
-date: 2021-06-14T12:06:25.890Z
+date: 2021-06-14T12:06:52.044Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:10:18.847Z
@@ -17,6 +17,9 @@ To configure packages:
 
 1. Add the `Package` attribute to the `PapyrusProject` node. Set the value to `true`.
 2. Add a `Packages` node block, defining as many `Package` nodes as needed. See below:
+
+
+## Example
 
 ```xml
 <Packages Output="{relative or absolute path to output folder where BSA/BA2 packages will be written}">
