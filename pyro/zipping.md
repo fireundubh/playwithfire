@@ -2,13 +2,13 @@
 title: Zipping
 description: 
 published: true
-date: 2021-06-14T12:16:12.300Z
+date: 2021-06-14T12:21:37.495Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:11:05.912Z
 ---
 
-Pyro can create ZIP archives containing any files defined in the `ZipFile` node block.
+Pyro can create any number of ZIP archives and add any files to each archive defined in the project.
 
 
 # Defining ZIP files
