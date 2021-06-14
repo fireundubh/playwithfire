@@ -2,7 +2,7 @@
 title: Pyro
 description: 
 published: true
-date: 2021-05-31T19:36:50.983Z
+date: 2021-06-14T21:32:47.720Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:04:59.413Z
@@ -51,7 +51,9 @@ Source | Comments
 :--- | :---
 [GitHub Releases](https://github.com/fireundubh/pyro/releases) | Always up-to-date; builds intended for most users.
 [GitHub CI](https://github.com/fireundubh/pyro/actions) | Bleeding edge; builds intended for testing; not for most users.
+[TESV Nexus](https://www.nexusmods.com/skyrim/mods/108100) | Mirror for GitHub Releases; may lag behind.
 [SSE Nexus](https://www.nexusmods.com/skyrimspecialedition/mods/35860) | Mirror for GitHub Releases; may lag behind.
+[FO4 Nexus](https://www.nexusmods.com/fallout4/mods/52631) | Mirror for GitHub Releases; may lag behind.
 
 Or build Pyro from the source code. Refer to the [Contributing](/pyro/contributing) section for details.
 
