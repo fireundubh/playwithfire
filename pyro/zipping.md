@@ -2,7 +2,7 @@
 title: Zipping
 description: 
 published: true
-date: 2021-06-14T12:21:37.495Z
+date: 2021-06-14T12:22:16.834Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:11:05.912Z
@@ -11,7 +11,7 @@ dateCreated: 2021-05-30T23:11:05.912Z
 Pyro can create any number of ZIP archives and add any files to each archive defined in the project.
 
 
-# Defining ZIP files
+# Defining ZIP archives
 
 To configure the ZIP archive:
 
