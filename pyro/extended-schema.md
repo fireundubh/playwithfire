@@ -2,7 +2,7 @@
 title: Extended Schema
 description: 
 published: true
-date: 2021-06-14T22:45:45.122Z
+date: 2021-06-14T22:45:55.830Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:08:08.995Z
@@ -20,6 +20,6 @@ See: [Pyro Project Schema](/pyro/schema)
 
 ## Technical Schema Reference
 
-For information about document structure, type constrains, and other rules, refer to the XSD directly.
+For information about document structure, type constraints, and other rules, refer to the XSD directly.
 
 See: [Pyro Project XML Schema Definition](https://github.com/fireundubh/pyro/blob/master/pyro/PapyrusProject.xsd)
