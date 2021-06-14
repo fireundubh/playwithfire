@@ -2,13 +2,13 @@
 title: Packaging
 description: 
 published: true
-date: 2021-06-14T12:16:37.624Z
+date: 2021-06-14T12:19:43.268Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:10:18.847Z
 ---
 
-You can package scripts and other files into BSA and BA2 archives with [BSArch](https://www.nexusmods.com/newvegas/mods/64745), of which the latest unmodified version is included with Pyro under the MPL 2.0 license.
+Pyro can store scripts and other files in BSA and BA2 packages using [BSArch](https://www.nexusmods.com/newvegas/mods/64745), of which the latest unmodified version is distributed with Pyro under the MPL 2.0 license.
 
 
 # Defining packages
