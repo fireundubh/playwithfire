@@ -2,7 +2,7 @@
 title: Release Notes
 description: 
 published: true
-date: 2021-06-14T20:20:50.345Z
+date: 2021-06-14T21:12:36.247Z
 tags: 
 editor: markdown
 dateCreated: 2020-05-20T04:28:08.747Z
@@ -12,10 +12,11 @@ dateCreated: 2020-05-20T04:28:08.747Z
 
 # 1623665539
 
-## New Features
+## Major Changes
 
-- Implemented support for parent directory symbol (`..`) in import paths
+- Implemented support for parent directory symbol in import paths
 - Implemented `Path` attribute of `<Include>` nodes for packages
+
 
 ## Fixes
 
@@ -29,10 +30,28 @@ dateCreated: 2020-05-20T04:28:08.747Z
 
 ## New Features
 
+Pyro supports the use of `<Match>` nodes to include files in BSA/BA2 packages and ZIP files.
+
+```xml
+<Match In="SKSE">*.dll</Match>
+```
+
+`<Match>` nodes allow you to use wildcard file patterns, as well as file negation and directory exclusion patterns.
+
+```xml
+<Match In="." Exclude="docs" NoRecurse="false">*.md|*.txt|-README*</Match>
+```
+
+`<Match>` nodes are distinct from `<Include>` nodes, which use path matching and glob expressions.
+
+
+## Major Changes
+
 - Implemented non-glob wildcard `<Match>` node (refer to [Packaging](https://wiki.fireundubh.com/pyro/packaging) and [Zipping](https://wiki.fireundubh.com/pyro/packaging) for details)
 - Added folder path support to `<Include>` nodes (refer to [Packaging](https://wiki.fireundubh.com/pyro/packaging) and [Zipping](https://wiki.fireundubh.com/pyro/packaging) for details)
 - Allowed files outside project root to be included in ZIP archives (refer to [Zipping](https://wiki.fireundubh.com/pyro/packaging) for details)
 - Reduced time to fail by reordering some project validations before remote downloading
+
 
 ## Fixes
 
@@ -56,8 +75,9 @@ dateCreated: 2020-05-20T04:28:08.747Z
 ## New Features
 
 - Added support for GitHub clone URLs as remotes (e.g., `https://github.com/fireundubh/LibFire` or `https://github.com/fireundubh/LibFire.git`)
-- Added support for `.` and `..` paths in `Folder` nodes
+- Added support for current and parent directory symbols in `Folder` paths
 - Implemented skipping unchanged files on remotes as default behavior (i.e., only changed files will be downloaded on successive runs unless `--force-overwrite` is passed)
+
 
 ## Fixes
 
@@ -82,12 +102,14 @@ dateCreated: 2020-05-20T04:28:08.747Z
 - A `Description` attribute can be used to clarify each event. This description will be printed in the build output.
 - A `UseInBuild` attribute can be used to toggle whether the event is used.
 
+
 ### Timing
 
 Event | Runs When
 :--- | :---
 PRE | Immediately before import processing
 POST | Immediately after import processing
+
 
 ### Examples
 
@@ -102,6 +124,7 @@ POST | Immediately after import processing
   <Command>echo Hi! I'm a post-import command!</Command>
 </PostImportEvent>
 ```
+
 
 # 1622408596
 
@@ -136,7 +159,7 @@ If the `--access-token` argument is passed to Pyro, this argument will take prio
 
 ## Fixes
 
-- Fixed issue where where `<Script>` nodes did not support `.` and `..` paths
+- Fixed issue where where `<Script>` paths did not support current and parent directory symbols
 - Fixed issue where namespace colon format support could clobber absolute script paths
 - Fixed issue where slower built-in endswith and startswith comparators were still in use
 
@@ -169,6 +192,7 @@ A `Path` attribute was added to the `Include` element allowing you to specify wh
 In the above example, the file `Auto Loot - UFO4P Components Patch.esp` will appear in a top-level folder named `optional` within the ZIP archive.
 
 **Note:** You cannot rename files using this feature. The `Path` attribute is used only to create folders.
+
 
 # 1617834302
 
@@ -247,10 +271,12 @@ In the above example, the file `Auto Loot - UFO4P Components Patch.esp` will app
 
 `PreBuildEvent` and `PostBuildEvent` elements have been added to the PyroProject XSD. These parent elements contain `Command` children.
 
+
 ### Options
 
 - A `Description` attribute can be used to clarify each event. This description will be printed in the build output.
 - A `UseInBuild` attribute can be used to toggle whether the event is used.
+
 
 ### Timing
 
@@ -258,6 +284,7 @@ Event | Runs When
 :--- | :---
 PRE | Immediately prior to compilation
 POST | Immediately after build success
+
 
 ### Examples
 
@@ -272,6 +299,7 @@ POST | Immediately after build success
   <Command>echo Hi! I'm a post-build command!</Command>
 </PostBuildEvent >
 ```
+
 
 ## Fixes
 
@@ -292,6 +320,7 @@ POST | Immediately after build success
 - Fixed issue where registry paths could fail to resolve for Fallout games
 - Fixed issue where average compilation time dividend was switched around
 
+
 ## Performance
 
 - Increased long path comparison speed with high-efficiency string comparators
@@ -300,16 +329,15 @@ POST | Immediately after build success
 
 # 1589924890
 
-## Major Changes
-
-### Added support for multiple ZipFile nodes
+## New Features
 
 Pyro now supports building multiple ZIP archives from a single PPJ. **This is a breaking change.**
 
 - `ZipFile` nodes must descend from the `ZipFiles` node, consistent with other top-level nodes.
 - The `Output` attribute was reassigned from the `ZipFile` node to its parent `ZipFiles` node.
 
-#### Example
+
+### Example
 
 ```xml
 <ZipFiles Output="@MyProject">
@@ -458,7 +486,7 @@ Argument | Required | Type | Description | Default Value
 - Limited priority of parallel processes to "below normal"
 - Implemented anonymization of script paths in compiled script headers
 - Added compilation statistics to build output (e.g., # of scripts, # of successes, # of failures, time per script, total time)
-- Allowed using `.` as `RootDir` path in `Include` nodes
+- Allowed using current directory symbol as `RootDir` path in `Include` nodes
 - Allowed using absolute folder paths within `RootDir` in `Include` nodes
 - Allowed using environment and user variables in PPJ files
 - Under-the-hood optimizations and reduced overall memory footprint
@@ -733,6 +761,7 @@ These are not valid XML comments because they appear within element tags and att
 - Fixed issue where passing an invalid input path (e.g., a nonexistent PPJ file) would produce an unhandled exception
 - Fixed issue where deeply nested Fallout 4 script paths were not resolved correctly (e.g., `AutoLoot\Fragments\Terminals\TERM_AutoLoot_312_04001137.psc`)
 - Fixed issue where Fallout 4 scripts were compiled repeatedly
+
 
 # 1574388420
 
