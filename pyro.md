@@ -2,7 +2,7 @@
 title: Pyro
 description: 
 published: true
-date: 2021-06-14T21:32:47.720Z
+date: 2021-06-14T21:33:03.995Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:04:59.413Z
@@ -41,7 +41,7 @@ dateCreated: 2020-01-19T11:04:59.413Z
 
 # Downloads
 
-Latest build from master branch:
+Latest build from `master` branch:
 
 [![](https://github.com/fireundubh/pyro/workflows/GitHub%20CI/badge.svg)](https://github.com/fireundubh/pyro/actions)
 
