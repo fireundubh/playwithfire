@@ -2,7 +2,7 @@
 title: Packaging
 description: 
 published: true
-date: 2021-06-13T12:29:15.972Z
+date: 2021-06-14T12:05:51.546Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:10:18.847Z
@@ -50,10 +50,13 @@ All matches are case insensitive. Files cannot be matched outside the project ro
 ## Using the Include node
 
 ```xml
-<!-- Search for pattern "readme.md" from the project path, recursively if not found in the project root -->
+<!-- Search for pattern "README.md" from the project path, recursively if not found in the project root -->
 <Include NoRecurse="false">README.md</Include>
 
-<!-- Search for pattern "docs\readme.md" from the project path, recursively if not found from the project root -->
+<!-- Like above but adds the file to the "docs" folder -->
+<Include Path="docs">README.md</Include>
+
+<!-- Search for pattern "docs\README.md" from the project path, recursively if not found from the project root -->
 <Include>docs\README.md</Include>
 
 <!-- Search for pattern "docs\*.md" from the project path, recursively -->
