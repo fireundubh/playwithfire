@@ -2,13 +2,13 @@
 title: Variables
 description: 
 published: true
-date: 2021-06-14T12:25:33.619Z
+date: 2021-06-14T12:30:37.164Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:18:47.107Z
 ---
 
-Pyro can substitute variables with defined values in PPJ paths and string attributes.
+Pyro can substitute variables with defined values throughout projects.
 
 
 # Defining variables
