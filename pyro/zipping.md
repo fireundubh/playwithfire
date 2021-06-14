@@ -2,7 +2,7 @@
 title: Zipping
 description: 
 published: true
-date: 2021-06-13T12:28:08.501Z
+date: 2021-06-14T12:15:00.071Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:11:05.912Z
@@ -15,22 +15,23 @@ Pyro can create ZIP archives containing any files defined in the `ZipFile` node 
 
 To configure the ZIP archive:
 
-1. Add the `Zip` attribute to the `PapyrusProject` node. Set the value to `true`.
-2. Add a `ZipFiles` node.
-3. Add `ZipFile` child nodes to `ZipFiles`, defining `Include` nodes for each `ZipFile`.
+1. Add the `Zip` attribute to the `PapyrusProject` node. Set the value to `True`.
+2. Add a `ZipFiles` block with as many `ZipFile` child blocks as needed.
+3. Each `ZipFile` block can contain as many `Include` and `Match` nodes as needed.
 
-See below:
+
+## Example
 
 ```xml
-<ZipFiles Output="{relative or absolute path to output folder where ZIP files will be written}">
-  <ZipFile
-    Name="{file name}"
-    RootDir="{required - relative or absolute path to folder containing files or folders to include}"
-    Compression="{choices: 'store' or 'deflate' compression}">
-    <Include>{relative or absolute path to file or folder in RootDir, or simple glob pattern}</Include>
-    <Include>MyProject.esp</Include>
-    <Include NoRecurse="true">*.bsa</Include>
-    <Include Path="optional">MyProject - Optional Patch.esp</Include>
+<ZipFiles Output="@OutputPath">
+  <ZipFile Name="@ModName" RootDir="@OutputPath" Compression="deflate">
+    <Include NoRecurse="true">MyPlugin.esp</Include>
+    <Include NoRecurse="true">MyPlugin.bsa</Include>
+    <Match In="SKSE">*.dll</Match>
+    <Match In="Strings">*.*strings</Match>
+  </ZipFile>
+  <ZipFile Name="@ModName - English" RootDir="@OutputPath" Compression="deflate">
+    <Match In="Strings">*.*strings</Match>
   </ZipFile>
 </ZipFiles>
 ```
@@ -49,13 +50,13 @@ All matches are case insensitive. Files can be matched outside the project root 
 ## Using the Include node
 
 ```xml
-<!-- Search for pattern "readme.md" from the project path, recursively if not found in the project root -->
+<!-- Search for pattern "README.md" from the project path, recursively if not found in the project root -->
 <Include NoRecurse="false">README.md</Include>
 
 <!-- Like above but adds the "README.md" file to the "docs" folder in the ZIP archive -->
 <Include Path="docs">README.md</Include>
 
-<!-- Search for pattern "docs\readme.md" from the project path, recursively if not found from the project root -->
+<!-- Search for pattern "docs\README.md" from the project path, recursively if not found from the project root -->
 <Include>docs\README.md</Include>
 
 <!-- Search for pattern "docs\*.md" from the project path, recursively -->
