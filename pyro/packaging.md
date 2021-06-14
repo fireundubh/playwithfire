@@ -2,7 +2,7 @@
 title: Packaging
 description: 
 published: true
-date: 2021-06-14T12:06:52.044Z
+date: 2021-06-14T12:11:27.554Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:10:18.847Z
@@ -15,21 +15,22 @@ You can package scripts and other files into BSA and BA2 archives with [BSArch](
 
 To configure packages:
 
-1. Add the `Package` attribute to the `PapyrusProject` node. Set the value to `true`.
-2. Add a `Packages` node block, defining as many `Package` nodes as needed. See below:
+1. Add the `Package` attribute to the `PapyrusProject` node. Set the value to `True`.
+2. Add a `Packages` block with as many `Package` child blocks as needed.
+3. Each `Package` child block can contain as many `Include` and `Match` nodes as needed.
 
 
 ## Example
 
 ```xml
-<Packages Output="{relative or absolute path to output folder where BSA/BA2 packages will be written}">
-  <Package Name="{file name}" RootDir="{required - relative or absolute path to folder containing files or folders to include}">
-    <Include>{relative or absolute path to file or folder in RootDir, or simple glob pattern}</Include>
-    <Include NoRecurse="true">scripts</Include>
-    <Include NoRecurse="false">**/*.txt</Include>
+<Packages Output="@OutputPath">
+  <Package Name="@ModName" RootDir="@OutputPath">
+    <Match In="Scripts">*.pex</Match>
+    <Match In="Strings">*.*strings</Match>
+    <Match In="interface\translations">*.txt</Match>
   </Package>
-  <Package Name="{file name}" RootDir="{required - relative or absolute path to folder containing includes}">
-    <Include NoRecurse="false">**/*.dds</Include>
+  <Package Name="@ModName - Textures" RootDir="@OutputPath">
+    <Include>*.dds</Include>
   </Package>
 </Packages>
 ```
