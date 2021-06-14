@@ -2,13 +2,13 @@
 title: Pyro Project Schema
 description: 
 published: true
-date: 2021-06-14T22:31:58.136Z
+date: 2021-06-14T22:46:30.801Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:07:53.276Z
 ---
 
-This reference documents the attribute defaults in the Pyro Project Schema.
+This reference documents the elements and attribute defaults in the Pyro Project Schema.
 
 
 # PapyrusProject
