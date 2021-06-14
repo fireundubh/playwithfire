@@ -2,7 +2,7 @@
 title: Pyro Project Schema
 description: 
 published: true
-date: 2021-06-14T22:25:53.902Z
+date: 2021-06-14T22:31:58.136Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:07:53.276Z
@@ -13,7 +13,7 @@ This reference documents the attribute defaults in the Pyro Project Schema.
 
 # PapyrusProject
 
-The `PapyrusProject` node is the root node from which all other nodes descend.
+The `PapyrusProject` block contains the `<Variables>`, `<Imports>`, `<Scripts>`, `<Folders>`, `<Packages>`, and `<ZipFiles>` blocks.
 
 ```xml
 <PapyrusProject
@@ -47,7 +47,7 @@ Node | Attribute | Type | Default Value
 
 # Variables
 
-The `Variables` parent node contains `Variable` child nodes.
+The `Variables` block contains `Variable` child nodes.
 
 ```xml
 <Variables>
@@ -70,9 +70,10 @@ Node | Attribute | Type | Default Value | Required
 `Variable` | `Name` | `string` | `''` | `True`
 `Variable` | `Value` | `string` | `''` | `True`
 
+
 # Imports
 
-The `Imports` parent node contains `Import` child nodes.
+The `Imports` block contains `Import` child nodes.
 
 ```xml
 <Imports>
@@ -95,7 +96,7 @@ Each `Import` node contains the local path or remote URL for an import folder.
 
 # Scripts
 
-The `Scripts` parent node contains `Script` child nodes.
+The `Scripts` block contains `Script` child nodes.
 
 ```xml
 <Scripts>
@@ -114,7 +115,7 @@ Each `Script` node contains the path to a script file.
 
 # Folders
 
-The `Folders` parent node contains `Folder` child nodes.
+The `Folders` block contains `Folder` child nodes.
 
 ```xml
 <Folders>
@@ -124,7 +125,7 @@ The `Folders` parent node contains `Folder` child nodes.
 
 ## Folder
 
-Each `Folder` node contains a path to a folder that contains script sources.
+Each `Folder` node contains a path to a script sources folder.
 
 ```xml
 <Folder NoRecurse="true">@namespace\Fragments\Terminals</Folder>
@@ -139,7 +140,7 @@ Node | Attribute | Type | Default Value
 
 # Packages
 
-The `Packages` parent node contains `Package` child nodes.
+The `Packages` block contains `Package` child nodes.
 
 ```xml
 <Packages Output="@OutputPath">
@@ -153,9 +154,10 @@ Node | Attribute | Type | Default Value
 :--- | :--- | :--- | :---
 `Packages` | `Output` | `str` | Path to the `pyro\dist` folder
 
+
 ## Package
 
-Each `Package` node contains `Include` and/or `Match` child nodes.
+Each `Package` block contains `Include` and/or `Match` child nodes.
 
 ```xml
 <Package Name="@ModName" RootDir="@OutputPath">
@@ -206,7 +208,7 @@ Node | Attribute | Type | Default Value
 
 # ZipFiles
 
-The `ZipFiles` parent node contains `ZipFile` child nodes.
+The `ZipFiles` block contains `ZipFile` child nodes.
 
 ```xml
 <ZipFiles Output="@modpath">
@@ -223,7 +225,7 @@ Node | Attribute | Type | Default Value
 
 ## ZipFile
 
-Each `ZipFile` node contains `Include` and/or `Match` child nodes.
+Each `ZipFile` block contains `Include` and/or `Match` child nodes.
 
 ```xml
 <ZipFile Name="@modname" RootDir="@modpath" Compression="deflate">
