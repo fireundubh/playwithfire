@@ -2,7 +2,7 @@
 title: Release Notes
 description: 
 published: true
-date: 2021-06-14T21:12:36.247Z
+date: 2021-06-14T21:14:21.710Z
 tags: 
 editor: markdown
 dateCreated: 2020-05-20T04:28:08.747Z
@@ -47,9 +47,8 @@ Pyro supports the use of `<Match>` nodes to include files in BSA/BA2 packages an
 
 ## Major Changes
 
-- Implemented non-glob wildcard `<Match>` node (refer to [Packaging](https://wiki.fireundubh.com/pyro/packaging) and [Zipping](https://wiki.fireundubh.com/pyro/packaging) for details)
-- Added folder path support to `<Include>` nodes (refer to [Packaging](https://wiki.fireundubh.com/pyro/packaging) and [Zipping](https://wiki.fireundubh.com/pyro/packaging) for details)
-- Allowed files outside project root to be included in ZIP archives (refer to [Zipping](https://wiki.fireundubh.com/pyro/packaging) for details)
+- Implemented folder path support for `<Include>` nodes (e.g., `<Include>Scripts</Include>` would include all files in the `Scripts` folder recursively)
+- Allowed files outside project root to be included in ZIP archives
 - Reduced time to fail by reordering some project validations before remote downloading
 
 
