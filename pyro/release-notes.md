@@ -2,13 +2,70 @@
 title: Release Notes
 description: 
 published: true
-date: 2021-05-31T10:27:26.226Z
+date: 2021-06-14T20:20:50.345Z
 tags: 
 editor: markdown
 dateCreated: 2020-05-20T04:28:08.747Z
 ---
 
 > **Note:** Pre-release version names are Unix timestamps.
+
+# 1623665539
+
+## New Features
+
+- Implemented support for parent directory symbol (`..`) in import paths
+- Implemented `Path` attribute of `<Include>` nodes for packages
+
+## Fixes
+
+- Fixed issue where `<PreImportEvent>` and `<PostImportEvent>` nodes were not initialized and parsed
+- Fixed issue where `UseInBuild` attribute of event nodes was never checked
+- Fixed issue where an invalid wildcard pattern did not cause application to exit with nonzero exit code
+- Fixed issue where some relative import and script paths were not handled correctly
+
+
+# 1623585643
+
+## New Features
+
+- Implemented non-glob wildcard `<Match>` node (refer to [Packaging](https://wiki.fireundubh.com/pyro/packaging) and [Zipping](https://wiki.fireundubh.com/pyro/packaging) for details)
+- Added folder path support to `<Include>` nodes (refer to [Packaging](https://wiki.fireundubh.com/pyro/packaging) and [Zipping](https://wiki.fireundubh.com/pyro/packaging) for details)
+- Allowed files outside project root to be included in ZIP archives (refer to [Zipping](https://wiki.fireundubh.com/pyro/packaging) for details)
+- Reduced time to fail by reordering some project validations before remote downloading
+
+## Fixes
+
+- Fixed issue where some absolute paths in  `<Include>` nodes were not handled correctly
+- Fixed issue where some relative paths in  `<Include>` nodes were not handled correctly
+- Fixed issue where some info and error log messages were warnings
+- Fixed issue where some errors did not cause application to exit with nonzero code
+
+
+# 1623200029
+
+## Fixes
+
+- Fixed issue where Pyro did not exit with nonzero code on remote failure due to bad request
+- Fixed issue where Pyro did not exit with nonzero code on remote failure due to bad response
+- Fixed issue where remote failure due to bad request or bad response did not report full status code (e.g., 404 vs 404 Not Found)
+
+
+# 1622859917
+
+## New Features
+
+- Added support for GitHub clone URLs as remotes (e.g., `https://github.com/fireundubh/LibFire` or `https://github.com/fireundubh/LibFire.git`)
+- Added support for `.` and `..` paths in `Folder` nodes
+- Implemented skipping unchanged files on remotes as default behavior (i.e., only changed files will be downloaded on successive runs unless `--force-overwrite` is passed)
+
+## Fixes
+
+- Fixed issue where application exit code was always zero
+- Fixed issue where application did not fail early when flags file was missing from imports
+- Fixed issue where files other than Papyrus source and flags files could be downloaded from remotes
+- Fixed issue where temp and registry installed paths could be file paths
+
 
 # 1622420177
 
