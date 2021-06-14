@@ -2,15 +2,15 @@
 title: Extended Schema
 description: 
 published: true
-date: 2021-06-14T22:39:42.161Z
+date: 2021-06-14T22:41:57.588Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:08:08.995Z
 ---
 
-Bethesda Game Studios introduced the PPJ schema with the Papyrus Compiler for FO4. The TES5 and SSE compilers do not support the schema.
+Bethesda Game Studios introduced the PPJ schema with the Papyrus Compiler for FO4. The TES5 and SSE compilers do not support Papyrus Projects.
 
-Pyro supports all standard PPJ elements and attributes used by the Papyrus Compiler. The PPJ schema has also been extended to support features unique to Pyro.
+Pyro, however, brings Papyrus Projects to TES5 and SSE, and supports the entire official schema in addition to a ton of new features unique to Pyro.
 
 > Refer to the [Pyro Project Schema](/pyro/schema) page for default attribute values.
 {.is-info}
