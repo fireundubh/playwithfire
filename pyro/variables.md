@@ -2,7 +2,7 @@
 title: Variables
 description: 
 published: true
-date: 2021-06-14T12:30:37.164Z
+date: 2021-06-14T12:31:36.858Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:18:47.107Z
@@ -17,6 +17,7 @@ To define variables:
 
 1. Add a `Variables` block.
 2. Add as many `Variable` child nodes to that block as needed.
+3. Each `Variable` node should be an empty closed element.
 
 
 ## Example
