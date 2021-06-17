@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2021-06-17T08:14:44.755Z
+date: 2021-06-17T08:18:25.829Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:45:25.745Z
@@ -35,10 +35,8 @@ Auto Loot will begin looting flora as soon as you exit the holotape.
 A filter is, fundamentally, an instance of a script that:
 
 * uses a formlist to find all references to items in the loaded area;
-* iterates through the resulting `ObjectReference` array;
-* pares down that array using specific conditions and produces a new `ObjectReference` array;
-* iterates through the stripped down `ObjectReference` array; and
-* executes a loot action on each item in that array.
+* iterates through the resulting `ObjectReference` array; and
+* executes loot actions on each array item that matches specific conditions.
 
 ## What is filter customization?
 
