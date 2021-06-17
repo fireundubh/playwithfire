@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2021-05-08T18:49:33.224Z
+date: 2021-06-17T08:14:44.755Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:45:25.745Z
@@ -61,7 +61,7 @@ Filter | Type | Script | Notes
 Ammo | Shared | `dubhAutoLootEffectScript` |
 Armor | Shared | `dubhAutoLootEffectScript` |
 Bodies | Keywords | `dubhAutoLootEffectBodiesScript` | Unique functionality for building an `ObjectReference` array from actor type keywords, handling actors, and using other filters to loot specific categories of items
-Components | Shared (Modified) | `dubhAutoLootEffectComponentsScript` | Unique functionality for testing whether items have specific components
+Components | Components | `dubhAutoLootEffectComponentsScript` | Unique functionality for testing whether items have specific components
 Containers | Containers | `dubhAutoLootEffectContainersScript` | Unique functionality for handling containers and using other filters to loot specific categories of items
 Currency | Shared | `dubhAutoLootEffectScript` |
 Drinks | Shared | `dubhAutoLootEffectScript` |
