@@ -2,20 +2,18 @@
 title: Version History
 description: 
 published: true
-date: 2021-05-08T22:36:22.657Z
+date: 2021-06-17T09:03:40.846Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
 ---
 
-# Version SOMEDAY
+# Version 1.2.9.0
 
-> Not available yet
+> Available for testing since 17 June 2021 exclusively in [#auto-loot](https://discord.fireundubh.com/)
 {.is-info}
 
-## Changes
-
-- [ ] Implemented optional Mod Configuration Menu (requires F4SE)
+- [X] Fixed issue where Components filter failed to loot subsequent components when preceding results were empty
 
 # Version 1.2.8.0
 
