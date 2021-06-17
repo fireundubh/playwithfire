@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-06-17T09:03:40.846Z
+date: 2021-06-17T09:06:10.615Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -14,6 +14,8 @@ dateCreated: 2021-03-19T21:43:34.910Z
 {.is-info}
 
 - [X] Fixed issue where Components filter failed to loot subsequent components when preceding results were empty
+
+*Thank you to **syberdragn** and **Haitan95** for discovering, reporting, and rigorously testing the issue!*
 
 # Version 1.2.8.0
 
