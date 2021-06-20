@@ -2,7 +2,7 @@
 title: About Me
 description: 
 published: true
-date: 2020-12-02T11:06:27.794Z
+date: 2021-06-20T13:42:19.731Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-31T06:12:28.976Z
@@ -39,4 +39,5 @@ All mods I create are released free of charge and sometimes the tools I make are
 - I created [Modsmith](https://github.com/fireundubh/modsmith), a build system for *Kingdom Come: Deliverance* projects, that introduces build automation to the ecosystem. Modders get more work done faster and keep mods up-to-date across game patches with minimal effort.
 - For [LSLib](https://github.com/Norbyte/lslib), a tool for creating, extracting, and converting game data for the Divinity: Original Sin series, I developed a C# interface used to automate the packaging process.
 - I contributed to [Wrye Bash](https://github.com/wrye-bash/wrye-bash), a mod manager for *Elder Scrolls* and *Fallout* games. I updated the NSIS installer and uninstaller, including: adding 64-bit, *Skyrim Special Edition*, and *Nehrim* support; and fixing Windows Registry issues.
-- I wrote  a Delphi script used by LOOT maintainers and Wrye Bash modders who help you sort mods and create intelligent bashed patches for the *Elder Scrolls* and *Fallout* games.
+- I wrote a Delphi script used by LOOT maintainers and Wrye Bash modders who help you sort mods and create intelligent bashed patches for the *Elder Scrolls* and *Fallout* games.
+- I created multiple SKSE libraries in C++ that extend the Papyrus scripting language for *Skyrim Special Edition* mods, including [LibFire](https://www.nexusmods.com/skyrimspecialedition/mods/49897), [LibMathf](https://www.nexusmods.com/skyrimspecialedition/mods/49896), and LibTurtleClub.
