@@ -2,7 +2,7 @@
 title: About Me
 description: 
 published: true
-date: 2021-06-23T08:26:55.652Z
+date: 2021-06-23T08:29:31.767Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-31T06:12:28.976Z
@@ -37,7 +37,7 @@ All mods I create are released free of charge and sometimes the tools I make are
 - I created [Pyro](https://github.com/fireundubh/pyro), a parallelized incremental build system for *Fallout 4*, *Skyrim Special Edition*, and *Skyrim* projects. Integrated with Joel Day's Papyrus extension for Visual Studio Code.
 - I created [Modsmith](https://github.com/fireundubh/modsmith), a build system for *Kingdom Come: Deliverance* projects, that introduces build automation to the ecosystem. Modders get more work done faster and keep mods up-to-date across game patches with minimal effort.
 - For [LSLib](https://github.com/Norbyte/lslib), a tool for creating, extracting, and converting game data for the Divinity: Original Sin series, I developed a C# interface used to automate the packaging process.
-- I created multiple SKSE libraries in C++ that extend the Papyrus scripting language for *Skyrim Special Edition* mods, including [LibFire](https://www.nexusmods.com/skyrimspecialedition/mods/49897), [LibMathf](https://www.nexusmods.com/skyrimspecialedition/mods/49896), and LibTurtleClub.
-- I wrote a Delphi script used by LOOT maintainers and Wrye Bash modders who help you sort mods and create intelligent bashed patches for the *Elder Scrolls* and *Fallout* games.
+- I created multiple SKSE libraries in C++ that extend the Papyrus scripting language for *Skyrim Special Edition* mods, including [LibFire](https://github.com/fireundubh/LibFire), [LibMathf](https://github.com/fireundubh/LibMathf), and [LibTurtleClub](https://github.com/fireundubh/LibTurtleClub).
+- I created the [Wrye Bash Tag Generator](https://github.com/fireundubh/WryeBashTagGenerator) that's used by mod authors, advanced users, and LOOT masterlist editors to create intelligent bashed patches for the *Elder Scrolls* and *Fallout* games.
 - I decoded most of the *Fallout 4* plugin for [xEdit](https://github.com/TES5Edit/TES5Edit), jumpstarting that game's modding community before the Creation Kit was released. I also implemented major improvements and enhancements to the application's scripting API.
 - I contributed to [Wrye Bash](https://github.com/wrye-bash/wrye-bash), a mod manager for *Elder Scrolls* and *Fallout* games. I updated the NSIS installer and uninstaller, including: adding 64-bit, *Skyrim Special Edition*, and *Nehrim* support; and fixing Windows Registry issues.
