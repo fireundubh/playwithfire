@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-07-10T20:28:26.147Z
+date: 2021-07-10T20:30:46.606Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -204,7 +204,7 @@ You can now use the Take Any Filter Mode with the Components Filter, allowing yo
 
 Ash and Goo Piles are activators with hardcoded behaviors; they are neither bodies nor containers. Papyrus offers no support for manipulating these activators and therefore they cannot be supported by Auto Loot. You can manually loot Ash and Goo Piles, or you can use a new feature that prevents Ash and Goo Piles from being created. This new feature dynamically adds the `NoDisintegrate` keyword to NPCs in the loaded area in a radius of 4096 units.
 
-In order to use this feature, enter the following command at the MAIN MENU: 
+In order to use this feature, enter the following command at the MAIN MENU \[of the game!]: 
 
 ```
 set AutoLoot_Setting_NoDisintegrate to 1
