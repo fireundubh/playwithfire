@@ -2,11 +2,11 @@
 title: Stats and Derived Stats
 description: 
 published: true
-date: 2020-01-19T17:09:07.084Z
+date: 2021-07-19T07:53:23.871Z
 tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:06:33.264Z
 ---
-
-Information about intermediate stats and base values were mirrored from the [Nexus Wiki](https://wiki.nexusmods.com/index.php/RPG_stats_in_KCD). Thanks to Warhorse developer Moggabor!
 
 # Active Stats
 
