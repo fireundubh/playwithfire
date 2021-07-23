@@ -2,7 +2,7 @@
 title: Master of Disguise
 description: 
 published: true
-date: 2021-03-20T02:25:13.161Z
+date: 2021-07-23T01:37:25.912Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-20T02:22:08.866Z
@@ -37,7 +37,17 @@ You are the Master of Disguise. What will you do?
 # Requirements
 
 * Skyrim Special Edition v1.5.39
-* SkyUI and SKSE (only for SkyUI MCM support)
+* [SKSE](https://skse.silverlock.org)
+* [Address Library](https://www.nexusmods.com/skyrimspecialedition/mods/32444)
+* [SkyUI](https://www.nexusmods.com/skyrimspecialedition/mods/12604)
+* [Microsoft Visual C++ Redistributable for Visual Studio 2019](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
+
+
+# Unofficial Translations
+
+* [Italian](https://www.nexusmods.com/skyrimspecialedition/mods/48257)
+* [Russian](https://www.nexusmods.com/skyrimspecialedition/mods/47604)
+* [Spanish](https://www.nexusmods.com/skyrimspecialedition/mods/42743)
 
 
 # Avoiding Detection
@@ -47,6 +57,7 @@ NPCs now have a horizontal front-facing field of view, or cone of vision, that e
 Periodically, while the player is within that cone of vision, NPCs may become suspicious. If an NPC becomes suspicious, the player will be notified that "you are being watched" in the top left corner of the screen. The identity of the suspicious NPC will not be revealed; however, the player will have seconds to lose their line of sight, which, in addition to cover, can also be achieved by moving into dark or dimly lit areas of the geography.
 
 If the player fails to lose their line of sight, the player and NPC will make dice rolls to determine whether the NPC discovers the player. If the player wins the dice roll, life will go on and nobody will be any wiser. If the player loses the dice roll, combat will begin, but only if the NPC would have been hostile normally.
+
 
 # NPC Perception Model
 
