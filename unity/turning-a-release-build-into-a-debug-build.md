@@ -2,7 +2,7 @@
 title: Turning a release build into a debug build
 description: 
 published: true
-date: 2021-03-05T03:21:33.506Z
+date: 2021-08-05T19:15:53.586Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:08:11.523Z
@@ -85,6 +85,12 @@ A dummy PDB will be produced in the output folder.
 2. Generate the PDB file.
 
 You may have to wait a while for dotPeek to generate the DecompilerCache and write the PDB file.
+
+If you cannot find PDBs in the save destination, try this location:
+
+```
+%LOCALAPPDATA%\JetBrains\Shared\vAny\SymbolCache\CSharp
+```
 
 **Note:** For reference, JetBrains stores the DecompilerCache at the following location:
 
