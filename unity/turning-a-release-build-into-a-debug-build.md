@@ -2,7 +2,7 @@
 title: Turning a release build into a debug build
 description: 
 published: true
-date: 2021-08-05T19:15:53.586Z
+date: 2021-08-12T16:57:35.156Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:08:11.523Z
@@ -18,9 +18,33 @@ Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [GitHub Fork](https://git
 
 You will also need to install the correct Unity Editor from the [official Unity download archive](https://unity3d.com/get-unity/download/archive).
 
-# Instructions
+# Preflight
 
-## Step 1: Fix Assembly Flags
+## Set Up Debug Binaries
+
+**For Unity 2017.2 and above.** For older versions, see [0xd4d's guide to debugging Unity games](https://github.com/dnSpy/dnSpy/wiki/Debugging-Unity-Games).
+
+Before you do anything, backup the game's player `.exe`, `UnityPlayer.dll`, and the `Managed` folder.
+
+1. Download and install the correct version of Unity from the [official Unity download archive](https://unity3d.com/get-unity/download/archive).
+2. In the Unity installation directory, go to the `Editor\Data\PlaybackEngines\windowsstandalonesupport\Variations` folder.
+3. Determine whether the game is 32-bit or 64-bit, and go to either `win32_development_mono` or `win64_development_mono`.
+4. In the game's root directory, delete the game's `.exe` and `UnityPlayer.dll`.
+5. Copy the debug `WindowsPlayer.exe` and `UnityPlayer.dll` to the game's root directory.
+6. Rename the game's new `WindowsPlayer.exe` appropriately.
+7. From the folder selected in #3, copy the contents of `Data\Managed` to the game's respective folder, overwriting all files when prompted.
+8. Create a new plain text file in the game's Data folder named `boot.config`.
+9. Edit `boot.config`, add the line `player-connection-debug=1`, and save.
+10. Replace `mono-2.0-bdwgc.dll` in the game's `MonoBleedingEdge` folder with the debug version from the Unity Editor's `MonoBleedingEdge` folder.
+
+
+## Compile de4dot
+
+Compile [this fork of de4dot](https://github.com/fireundubh/de4dot/tree/pdbgen), which makes [these changes](https://github.com/0xd4d/de4dot/pull/126/commits/28f33354c86cdbfc1d96134fab1132c87a99a5e3).
+
+# Optional
+
+## Fix Assembly Flags
 
 Using dnSpy, load the assembly and modify the assembly attributes from:
 
@@ -44,61 +68,37 @@ Save the module with the following MD Writer Options:
 * Check: Create Heap Even If Empty (all)
 * Check: Misc Options (all except Keep Old MaxStack Value)
 
-## Step 2: Set Up Debug Binaries
 
-**For Unity 2017.2 and above.** For older versions, see [0xd4d's guide to debugging Unity games](https://github.com/dnSpy/dnSpy/wiki/Debugging-Unity-Games).
+# Instructions
 
-Before you do anything, backup the game's player `.exe`, `UnityPlayer.dll`, and the `Managed` folder.
+## Step 1: Set Up PDB State
 
-1. Download and install the correct version of Unity from the [official Unity download archive](https://unity3d.com/get-unity/download/archive).
-2. In the Unity installation directory, go to the `Editor\Data\PlaybackEngines\windowsstandalonesupport\Variations` folder.
-3. Determine whether the game is 32-bit or 64-bit, and go to either `win32_development_mono` or `win64_development_mono`.
-4. In the game's root directory, delete the game's `.exe` and `UnityPlayer.dll`.
-5. Copy the debug `WindowsPlayer.exe` and `UnityPlayer.dll` to the game's root directory.
-6. Rename the game's new `WindowsPlayer.exe` appropriately.
-7. From the folder selected in #3, copy the contents of `Data\Managed` to the game's respective folder, overwriting all files when prompted.
-8. Create a new plain text file in the game's Data folder named `boot.config`.
-9. Edit `boot.config`, add the line `player-connection-debug=1`, and save.
-
-## Step 3: Compile de4dot
-
-Compile [this fork of de4dot](https://github.com/fireundubh/de4dot/tree/pdbgen), which makes [these changes](https://github.com/0xd4d/de4dot/pull/126/commits/28f33354c86cdbfc1d96134fab1132c87a99a5e3).
-
-
-
-## Step 4: Set Up PDB State
-
-We need to set up the assembly so that dotPeek can generate a new PDB file.
-
-**Note:** The line numbers in stack traces will be accurate to dotPeek's decompilation output because we're using dotPeek to generate the PDB.
-
-1. Run de4dot from the command prompt/shell to see the command line parser arguments.
-2. Execute the following command: `de4dot --dont-rename --keep-types --preserve-tokens --preserve-strings -fpdb <input_assembly_dll> -o <output_assembly_dll>`
-
-**Important:** The output assembly should have the same name as the input assembly.
-
-A dummy PDB will be produced in the output folder.
-
-## Step 5: Generate PDB
-
-1. Load the new assembly into dotPeek.
-2. Generate the PDB file.
-
-You may have to wait a while for dotPeek to generate the DecompilerCache and write the PDB file.
-
-If you cannot find PDBs in the save destination, try this location:
+We need to set up the assembly so that dotPeek can generate a new PDB file. Execute the following command:
 
 ```
-%LOCALAPPDATA%\JetBrains\Shared\vAny\SymbolCache\CSharp
+de4dot --dont-rename --keep-types --preserve-tokens --preserve-strings -fpdb <input_assembly_dll> -o <output_assembly_dll>
 ```
 
-**Note:** For reference, JetBrains stores the DecompilerCache at the following location:
+> The output assembly should have the same name as the input assembly.
+{.is-info}
 
-```
-%LOCALAPPDATA%\JetBrains\Shared\vAny\DecompilerCache\decompiler
-```
 
-## Step 6: Convert PDB to MDB
+> A dummy PDB will be produced in the output folder.
+{.is-warning}
+
+
+## Step 2: Generate PDB
+
+1. Load the new assembly into dotPeek
+2. Right-click the assembly and select `Export to Project...`
+3. Check the box labeled `Create *.pdb file`
+4. Click the `Export` button
+
+> Call stacks will reference line numbers in files located in the project's destination folder.
+{.is-info}
+
+
+## Step 3: Convert PDB to MDB
 
 Unity loads MDB files, not PDB files, so we need to convert our new PDB to MDB. Fortunately, we have all the tools already.
 
@@ -109,7 +109,3 @@ Execute the following command:
 ```
 
 The MDB file will be generated in the same folder as the target assembly DLL.
-
-## Step 7: Replace Mono Binary
-
-Finally, replace `mono-2.0-bdwgc.dll` in the game's `MonoBleedingEdge` folder with the debug version from the Unity Editor's `MonoBleedingEdge` folder.
