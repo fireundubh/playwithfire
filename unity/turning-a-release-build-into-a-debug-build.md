@@ -2,7 +2,7 @@
 title: Turning a release build into a debug build
 description: 
 published: true
-date: 2021-08-13T04:36:46.588Z
+date: 2021-08-13T06:24:41.661Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:08:11.523Z
@@ -39,7 +39,7 @@ Before you do anything, backup the game's player `.exe`, `UnityPlayer.dll`, and 
 
 # Instructions
 
-## Step 1: Patch the PDB State
+## Step 1: Patch PDB State
 
 > If you haven't already, compile [this fork of de4dot](https://github.com/fireundubh/de4dot/tree/pdbgen), which makes [these changes](https://github.com/0xd4d/de4dot/pull/126/commits/28f33354c86cdbfc1d96134fab1132c87a99a5e3).
 {.is-info}
@@ -61,7 +61,7 @@ The output assembly should A) have the same name as the input assembly and B) be
 {.is-warning}
 
 
-## Step 2: Generate the PDB
+## Step 2: Generate PDB
 
 1. Load the new assembly into dotPeek
 2. Right-click the assembly and select `Export to Project...`
@@ -75,9 +75,11 @@ The output assembly should A) have the same name as the input assembly and B) be
 {.is-warning}
 
 
-## Step 3: Convert the PDB to MDB
+## Step 3: Convert PDB to MDB (optional)
 
-Unity loads MDB files, not PDB files. We need to convert our new PDB to MDB. Execute this command:
+For assemblies compiled with `msc` (the Mono compiler), Unity loads MDB files, not PDB files, so for those assemblies, we need to generate an MDB from our new PDB.
+
+Execute this command:
 
 ```
 "%UNITY_MONO%\bin\mono.exe" "%UNITY_MONO%\lib\mono\4.5\pdb2mdb.exe" "<target_assembly_dll>"
@@ -88,7 +90,7 @@ Unity loads MDB files, not PDB files. We need to convert our new PDB to MDB. Exe
 The MDB file will be generated in the same folder as the target assembly DLL.
 
 
-# Optional
+# Live Debugging
 
 ## Requirements
 
@@ -96,7 +98,7 @@ Type | Name | Developer | Price | License | Website
 :--- | :--- | :--- | :--- | :--- | :---
 Decompiler/IL Editor | dnSpy | 0xd4d | Open source | GPL v3 | [GitHub](https://github.com/dnSpy/dnSpy)
 
-## Assembly flags for debugging
+## Fixing assembly flags
 
 > This procedure is only useful for live debugging. If your only goal is to produce complete call stacks, you can skip this.
 {.is-info}
