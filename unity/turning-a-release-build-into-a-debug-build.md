@@ -2,7 +2,7 @@
 title: Turning a release build into a debug build
 description: 
 published: true
-date: 2021-08-12T16:57:35.156Z
+date: 2021-08-13T01:53:39.735Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:08:11.523Z
@@ -38,10 +38,6 @@ Before you do anything, backup the game's player `.exe`, `UnityPlayer.dll`, and 
 10. Replace `mono-2.0-bdwgc.dll` in the game's `MonoBleedingEdge` folder with the debug version from the Unity Editor's `MonoBleedingEdge` folder.
 
 
-## Compile de4dot
-
-Compile [this fork of de4dot](https://github.com/fireundubh/de4dot/tree/pdbgen), which makes [these changes](https://github.com/0xd4d/de4dot/pull/126/commits/28f33354c86cdbfc1d96134fab1132c87a99a5e3).
-
 # Optional
 
 ## Fix Assembly Flags
@@ -72,6 +68,10 @@ Save the module with the following MD Writer Options:
 # Instructions
 
 ## Step 1: Set Up PDB State
+
+> If you haven't already, compile [this fork of de4dot](https://github.com/fireundubh/de4dot/tree/pdbgen), which makes [these changes](https://github.com/0xd4d/de4dot/pull/126/commits/28f33354c86cdbfc1d96134fab1132c87a99a5e3).
+{.is-warning}
+
 
 We need to set up the assembly so that dotPeek can generate a new PDB file. Execute the following command:
 
