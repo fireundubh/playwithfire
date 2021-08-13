@@ -2,7 +2,7 @@
 title: Turning a release build into a debug build
 description: 
 published: true
-date: 2021-08-13T04:20:10.773Z
+date: 2021-08-13T04:28:30.712Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:08:11.523Z
@@ -81,10 +81,10 @@ The output assembly should A) have the same name as the input assembly and B) be
 Unity loads MDB files, not PDB files. We need to convert our new PDB to MDB. Execute this command:
 
 ```
-"%UNITY_EDITOR%\Data\MonoBleedingEdge\bin\mono.exe" "%UNITY_EDITOR%\Data\MonoBleedingEdge\lib\mono\4.5\pdb2mdb.exe" "<target_assembly_dll>"
+"%UNITY_MONO%\bin\mono.exe" "%UNITY_MONO%\lib\mono\4.5\pdb2mdb.exe" "<target_assembly_dll>"
 ```
 
-`%UNITY_EDITOR%` is the absolute path to Unity's `Editor` folder (without a trailing path separator), like `G:\Unity\Editors\2019.4.26f1\Editor`.
+`%UNITY_MONO%` is the absolute path to Unity's `MonoBleedingEdge` folder, like `G:\Unity\Editors\2019.4.26f1\Editor\Data\MonoBleedingEdge`.
 
 The MDB file will be generated in the same folder as the target assembly DLL.
 
@@ -96,13 +96,13 @@ The MDB file will be generated in the same folder as the target assembly DLL.
 
 Using dnSpy, load the assembly and modify the assembly attributes from:
 
-```
+```csharp
 [assembly: Debuggable(DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints)]
 ```
 
 To:
 
-```
+```csharp
 [assembly: Debuggable(DebuggableAttribute.DebuggingModes.Default | DebuggableAttribute.DebuggingModes.DisableOptimizations 
   | DebuggableAttribute.DebuggingModes.EnableEditAndContinue | DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints)]
 ```
