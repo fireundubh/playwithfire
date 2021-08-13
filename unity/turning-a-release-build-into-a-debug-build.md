@@ -2,7 +2,7 @@
 title: Turning a release build into a debug build
 description: 
 published: true
-date: 2021-08-13T04:28:30.712Z
+date: 2021-08-13T04:34:11.222Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:08:11.523Z
@@ -12,7 +12,6 @@ dateCreated: 2020-01-19T11:08:11.523Z
 
 Type | Name | Developer | Price | License | Website
 :--- | :--- | :--- | :--- | :--- | :---
-Decompiler/IL Editor | dnSpy | 0xd4d | Open source | GPL v3 | [GitHub](https://github.com/dnSpy/dnSpy)
 Decompiler | dotPeek | JetBrains | Free | Commercial |  [Official Website](https://www.jetbrains.com/decompiler/)
 Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [GitHub Fork](https://github.com/fireundubh/de4dot/tree/pdbgen)
 
@@ -90,6 +89,14 @@ The MDB file will be generated in the same folder as the target assembly DLL.
 
 
 # Optional
+
+## Requirements
+
+Type | Name | Developer | Price | License | Website
+:--- | :--- | :--- | :--- | :--- | :---
+Decompiler/IL Editor | dnSpy | 0xd4d | Open source | GPL v3 | [GitHub](https://github.com/dnSpy/dnSpy)
+
+## Assembly flags for debugging
 
 > This procedure is only useful for live debugging. If your only goal is to produce complete call stacks, you can skip this.
 {.is-info}
