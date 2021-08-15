@@ -2,7 +2,7 @@
 title: Turning a release build into a debug build
 description: 
 published: true
-date: 2021-08-15T03:53:22.414Z
+date: 2021-08-15T04:55:48.426Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:08:11.523Z
@@ -65,8 +65,8 @@ Alternatively, download [peupdate](https://bytepointer.com/tools/index.htm) and 
 ```
 de4dot --dont-rename --keep-types --preserve-tokens --preserve-strings -fpdb Assembly-CSharp.dll -o Assembly-CSharp2.dll
 peupdate -u Assembly-CSharp.dll Assembly-CSharp2.dll
-del Assembly-CSharp.*
-ren Assembly-CSharp2.dll Assembly-CSharp.dll
+copy /Y Assembly-CSharp2.dll Assembly-CSharp.dll
+del Assembly-CSharp.pdb
 del Assembly-CSharp2.pdb
 ```
 
