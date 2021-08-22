@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-08-22T03:55:46.399Z
+date: 2021-08-22T22:18:44.155Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -14,6 +14,7 @@ dateCreated: 2021-03-19T21:43:34.910Z
 {.is-info}
 
 - [X] Fixed issue where Containers filter would loot Star Core pseudo-containers, breaking the associated quest
+- [X] Fixed issue where Currency filter could not loot activation-blocked miscellaneous objects (e.g., Bobby Pin Boxes, Bottlecap Mine caps, Money Shot caps)
 - [X] Fixed issue where Flora filter cannot loot floral trap activators like Irradiated Thistle
 - [X] Fixed issue where Flora filter treats flora outside settlement boundaries as workshop objects when Loot Settlements is enabled
 
