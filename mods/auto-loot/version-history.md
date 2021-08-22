@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-08-22T03:46:41.521Z
+date: 2021-08-22T03:55:46.399Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -16,6 +16,8 @@ dateCreated: 2021-03-19T21:43:34.910Z
 - [X] Fixed issue where Containers filter would loot Star Core pseudo-containers, breaking the associated quest
 - [X] Fixed issue where Flora filter cannot loot floral trap activators like Irradiated Thistle
 - [X] Fixed issue where Flora filter treats flora outside settlement boundaries as workshop objects when Loot Settlements is enabled
+
+*Thank you to **Seikyr** and **ArctixSnowPup** for reporting these issues!*
 
 # Version 1.2.9.0
 
