@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-08-23T15:39:23.420Z
+date: 2021-08-23T15:44:00.325Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -15,7 +15,10 @@ dateCreated: 2021-03-19T21:43:34.910Z
 
 ## Minor Changes
 
-- [X] When enabled, Auto Lockpick will automatically unlock containers only if the player has the required Locksmith perks. Easy locks will continue to be automatically unlocked without any Locksmith perks. *(**Note:** Auto Lockpick does not account for count, availability, or difficulty changes to Locksmith perks.)*
+- [X] When enabled, Auto Lockpick will automatically unlock Advanced, Expert, and Master locks only if the player has the required Locksmith perks.
+
+> **Note:** Auto Lockpick assumes there are four Locksmith perks and that the first three allow picking Advanced, Expert, and Master locks. If you use any mods that change the Locksmith perks, Auto Lockpick will not account for these changes.
+{.is-warning}
 
 ## Fixed Issues
 
