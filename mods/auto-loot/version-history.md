@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-08-22T22:19:00.660Z
+date: 2021-08-23T15:39:23.420Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -12,6 +12,12 @@ dateCreated: 2021-03-19T21:43:34.910Z
 
 > Unreleased
 {.is-info}
+
+## Minor Changes
+
+- [X] When enabled, Auto Lockpick will automatically unlock containers only if the player has the required Locksmith perks. Easy locks will continue to be automatically unlocked without any Locksmith perks. *(**Note:** Auto Lockpick does not account for count, availability, or difficulty changes to Locksmith perks.)*
+
+## Fixed Issues
 
 - [X] Fixed issue where Containers filter would loot Star Core pseudo-containers, breaking the associated quest
 - [X] Fixed issue where Currency filter cannot loot activation-blocked miscellaneous objects (e.g., Bobby Pin Boxes, Bottlecap Mine caps, Money Shot caps)
