@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-08-23T15:44:00.325Z
+date: 2021-08-23T15:47:08.033Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -13,7 +13,7 @@ dateCreated: 2021-03-19T21:43:34.910Z
 > Unreleased
 {.is-info}
 
-## Minor Changes
+## Changes
 
 - [X] When enabled, Auto Lockpick will automatically unlock Advanced, Expert, and Master locks only if the player has the required Locksmith perks.
 
