@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-08-23T15:47:08.033Z
+date: 2021-08-27T03:20:51.140Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -33,6 +33,8 @@ dateCreated: 2021-03-19T21:43:34.910Z
 
 > Available for testing since 17 June 2021 exclusively in [#auto-loot](https://discord.fireundubh.com/)
 {.is-info}
+
+## Fixed Issues
 
 - [X] Fixed issue where Components filter failed to loot subsequent components when preceding results were empty
 
