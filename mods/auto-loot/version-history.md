@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-08-31T04:52:18.253Z
+date: 2021-08-31T04:52:29.914Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -22,7 +22,7 @@ dateCreated: 2021-03-19T21:43:34.910Z
 
 ## Fixed Issues
 
-- [X] Fixed issues where filters would loot items that populated quest aliases, breaking or possibly breaking the associated quests
+- [X] Fixed multiple issues where filters would loot items that populated quest aliases, breaking or possibly breaking the associated quests
 - [X] Fixed issue where Currency filter cannot loot activation-blocked miscellaneous objects (e.g., Bobby Pin Boxes, Bottlecap Mine caps, Money Shot caps)
 - [X] Fixed issue where Flora filter cannot loot floral trap activators like Irradiated Thistle
 - [X] Fixed issue where Flora filter treats flora outside settlement boundaries as workshop objects when Loot Settlements is enabled
