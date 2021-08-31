@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-08-31T00:39:49.460Z
+date: 2021-08-31T00:40:09.055Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -32,7 +32,7 @@ dateCreated: 2021-03-19T21:43:34.910Z
 ### Quest Issues
 
 - [X] Fixed issue where Containers filter would loot Star Core pseudo-containers, breaking the associated quest
-- [X] Fixed issue where Containers filter would loot various quest-associated containers
+- [X] Fixed issue where Containers filter would loot various quest containers, possibly breaking the associated quests
 - [X] Fixed issue where Junk filter would loot San Francisco Sunlights cigars, breaking the associated quest
 - [X] Fixed issue where Junk filter would loot Avery's Locket and Avery's Skull, possibly breaking the associated quest
 - [X] Fixed issue where Junk filter would loot Industrial-Grade Fuse, possibly breaking the associated quest
