@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-08-27T03:20:51.140Z
+date: 2021-08-31T00:39:49.460Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -22,12 +22,21 @@ dateCreated: 2021-03-19T21:43:34.910Z
 
 ## Fixed Issues
 
-- [X] Fixed issue where Containers filter would loot Star Core pseudo-containers, breaking the associated quest
+
 - [X] Fixed issue where Currency filter cannot loot activation-blocked miscellaneous objects (e.g., Bobby Pin Boxes, Bottlecap Mine caps, Money Shot caps)
 - [X] Fixed issue where Flora filter cannot loot floral trap activators like Irradiated Thistle
 - [X] Fixed issue where Flora filter treats flora outside settlement boundaries as workshop objects when Loot Settlements is enabled
 
 *Thank you to **Seikyr** and **ArctixSnowPup** for reporting these issues!*
+
+### Quest Issues
+
+- [X] Fixed issue where Containers filter would loot Star Core pseudo-containers, breaking the associated quest
+- [X] Fixed issue where Containers filter would loot various quest-associated containers
+- [X] Fixed issue where Junk filter would loot San Francisco Sunlights cigars, breaking the associated quest
+- [X] Fixed issue where Junk filter would loot Avery's Locket and Avery's Skull, possibly breaking the associated quest
+- [X] Fixed issue where Junk filter would loot Industrial-Grade Fuse, possibly breaking the associated quest
+- [X] Fixed issue where Keys filter would loot various keys and passwords, possibly breaking the associated quests
 
 # Version 1.2.9.0
 
