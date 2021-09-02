@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2021-08-31T04:52:29.914Z
+date: 2021-09-02T01:53:03.878Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -10,7 +10,7 @@ dateCreated: 2021-03-19T21:43:34.910Z
 
 # Version 1.2.9.1
 
-> Unreleased
+> Available at [Let's Play with Fire](https://letsplaywithfire.com) since 1 September 2021
 {.is-info}
 
 ## Changes
