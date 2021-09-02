@@ -2,11 +2,21 @@
 title: Version History
 description: 
 published: true
-date: 2021-09-02T01:53:03.878Z
+date: 2021-09-02T02:40:46.323Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
 ---
+
+# Version 1.2.9.2
+
+> Available at [Let's Play with Fire](https://letsplaywithfire.com) since 1 September 2021
+{.is-info}
+
+## Fixed Issues
+
+- [X] Fixed even more issues where filters would loot items that populated quest aliases, breaking or possibly breaking the associated quests
+- [X] Actually updated the holotape version number this time!
 
 # Version 1.2.9.1
 
