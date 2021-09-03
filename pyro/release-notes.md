@@ -2,13 +2,71 @@
 title: Release Notes
 description: 
 published: true
-date: 2021-06-14T21:14:21.710Z
+date: 2021-09-03T23:31:34.846Z
 tags: 
 editor: markdown
 dateCreated: 2020-05-20T04:28:08.747Z
 ---
 
 > **Note:** Pre-release version names are Unix timestamps.
+
+# 1630449368
+
+## New Features
+
+- Allowed building projects that do not have an `Imports` node
+
+## Fixes
+
+- Fixed issue where user-defined compression type was overridden by default
+- Fixed issue where certain log messages were printed when not relevant
+- Fixed issues causing future deprecation error message in log output
+
+
+# 1629846756
+
+## New Features
+
+- Implemented basic support for Gitea remotes
+- Allowed building projects that do not have `Scripts` or `Folders` nodes
+
+## Fixes
+
+- Fixed issue where remotes could fail to authorize when multiple domains and access tokens are configured
+
+
+# 1624436415
+
+## Minor Changes
+  
+- Renamed `--resolve-ppj` to `--resolve-project`
+- Removed BSArch packaging time from process output
+
+## Fixes
+
+- Implemented package compression
+- Implemented texture packaging for Fallout 4
+- Implemented performance timing for packaging and zipping
+- Added `Path` attribute support to `<Match>` nodes
+
+
+# 1623792457
+
+## Fixes 
+
+- Fixed issue where attribute defaults were not set for nodes whose parent nodes had no attributes
+
+> **Impact Note:** This fix resolves an issue where an exception was raised when `Match` nodes without `In` attributes were processed.
+{.is-info}
+
+
+# 1623720974
+
+## Fixes
+
+- Fixed issue where relative paths were returned by `<Include>` glob expressions
+- Fixed issue where `<Include>` glob expressions were always recursive
+
 
 # 1623665539
 
