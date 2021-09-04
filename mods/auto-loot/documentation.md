@@ -2,7 +2,7 @@
 title: Documentation
 description: 
 published: true
-date: 2021-03-31T22:56:09.615Z
+date: 2021-09-04T21:26:24.880Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:44:08.869Z
@@ -30,7 +30,7 @@ Filters | From the **Filters** menu, you can enable and disable filters for all 
 Destinations | From the **Rules>Destinations** submenu, you can define the **rules** for all or individual filters. If a filter is set to loot to a workshop, from the **Rules>Filters** submenu, you can select which workshop.
 Ownership | From this menu, you can toggle crime-related settings:<br><br>&bull; **Auto Lockpick**: Auto Loot can automatically pick locks, yielding XP and loot from locked containers.<br>&bull; **Auto Steal**: Auto Loot can steal owned loot.<br>&bull; **Auto Steal Reaction**: Auto Loot can steal owned loot without triggering combat.
 Advanced | From this menu, you can toggle miscellaneous settings:<br><br>&bull; **Filter Mode**: Can be set to Take All (fast) or Take Any (slow, but precise)<br>&bull; **Loot Notifications**: Can be shown or hidden<br>&bull; **Loot Settlements**: Can be ignored or not; useful for building or tearing down settlements<br>&bull; **Loot Only Actors Killed by Player**: Can loot kills by player or anyone<br>&bull; **Remove Bodies on Loot**: Can disable bodies to declutter the wasteland
-Debug | From this menu, you can access debug options:<br><br>&bull; **Retrieve lost items if they exist**: Auto Loot sends items to off-stage dummy actors who then send their items to a destination. This avoids a game bug associated with the player inventory that can cause crashes. If loot appears to be missing, however, there is *a remote, nearly impossible chance* that those items are "backed up" on those off-stage dummy actors. Triggering this option will force them to send their items to the configured destination.
+Debug | From this menu, you can access debug options:<br><br>&bull; **Flush dummies**: Auto Loot sends items to off-stage dummy actors who then send their items to a destination. This avoids a game bug associated with the player inventory that can cause crashes. If loot appears to be missing, however, there is *a remote, nearly impossible chance* that those items are "backed up" on those off-stage dummy actors. Triggering this option will force them to send their items to the configured destination.<br>&bull; **Uninstall**: Removes all filter perks from the player and shuts down the holotape quest. Only available in v1.2.4 and later. Equivalent to turning off all filters and using the console to stop the holotape quest.
 
 
 # Pause/Resume
