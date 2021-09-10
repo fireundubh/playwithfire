@@ -2,7 +2,7 @@
 title: Unity
 description: 
 published: true
-date: 2021-09-10T05:59:06.683Z
+date: 2021-09-10T06:01:05.419Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:05:14.698Z
@@ -10,14 +10,14 @@ dateCreated: 2020-01-19T11:05:14.698Z
 
 # Games
 
-Name | Developer | Unity Version | .NET Compatibility
-:--- | :--- | :--- | :---
-Pathfinder: Kingmaker | Owlcat Games | 2018.1f0 ([Documentation](https://docs.unity3d.com/2018.1/Documentation/Manual/index.html)) | .NET 4.x (Assembly-CSharp.dll)
-Pathfinder: Wrath of the Righteous | Owlcat Games | 2019.4.26f1 ([Documentation](https://docs.unity3d.com/2019.4/Documentation/Manual/index.html)) | .NET 4.x (Assembly-CSharp.dll)
-Pillars of Eternity | Obsidian Entertainment | 5.1 ([Documentation](https://docs.unity3d.com/510/Documentation/Manual/index.html)) | .NET 3.5 (Assembly-CSharp.dll)
-Pillars of Eternity II: Deadfire | Obsidian Entertainment | 5.6.3 ([Documentation](https://docs.unity3d.com/560/Documentation/Manual/index.html)) | .NET 3.5 (Assembly-CSharp.dll)
-Torment: Tides of Numenera |  inXile Entertainment | 5.4.1 ([Documentation](https://docs.unity3d.com/540/Documentation/Manual/index.html)) | .NET 3.5 (Assembly-CSharp.dll)
-Tyranny | Obsidian Entertainment | 5.2 ([Documentation](https://docs.unity3d.com/520/Documentation/Manual/index.html)) | .NET 3.5 (Assembly-CSharp.dll)
+Name | Developer | Unity Version | .NET Compatibility | .NET Version | Language Version
+:--- | :--- | :--- | :--- | :--- | :---
+Pathfinder: Kingmaker | Owlcat Games | 2018.1f0 ([Documentation](https://docs.unity3d.com/2018.1/Documentation/Manual/index.html)) | .NET 4.x | &nbsp; | &nbsp;
+Pathfinder: Wrath of the Righteous | Owlcat Games | 2019.4.26f1 ([Documentation](https://docs.unity3d.com/2019.4/Documentation/Manual/index.html)) | .NET 4.x | .NET 4.6 | C# 7.3
+Pillars of Eternity | Obsidian Entertainment | 5.1 ([Documentation](https://docs.unity3d.com/510/Documentation/Manual/index.html)) | .NET 3.5 | &nbsp; | &nbsp;
+Pillars of Eternity II: Deadfire | Obsidian Entertainment | 5.6.3 ([Documentation](https://docs.unity3d.com/560/Documentation/Manual/index.html)) | .NET 3.5 | &nbsp; | &nbsp;
+Torment: Tides of Numenera |  inXile Entertainment | 5.4.1 ([Documentation](https://docs.unity3d.com/540/Documentation/Manual/index.html)) | .NET 3.5 | &nbsp; | &nbsp;
+Tyranny | Obsidian Entertainment | 5.2 ([Documentation](https://docs.unity3d.com/520/Documentation/Manual/index.html)) | .NET 3.5 | &nbsp; | &nbsp;
 
 # Tools
 
