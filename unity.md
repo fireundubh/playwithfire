@@ -2,7 +2,7 @@
 title: Unity
 description: 
 published: true
-date: 2021-09-10T06:20:32.024Z
+date: 2021-09-10T15:48:58.216Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:05:14.698Z
@@ -58,12 +58,13 @@ Type Safety Evaluator | PEVerify | Microsoft | Free | Proprietary | [Microsoft](
 
 ## Asset Unbundling
 
-Type | Name | Developer | Price | License | Website
-:--- | :--- | :--- | :--- | :--- | :---
-AssetBundle Extractor | Asset Studio | Perfare | Open source | MIT | [GitHub](https://github.com/Perfare/AssetStudio)
-AssetBundle Extractor | uTinyRipper | mafaca | Free |  | [GitHub](https://github.com/mafaca/UtinyRipper)
-AssetBundle Extractor | uTinyRipperExporter CLI | spacehamster | Open source | MIT | [GitHub](https://github.com/spacehamster/UtinyRipperExporter)
-AssetBundle Extractor | Unity Assets Bundle Extractor (UABE) | DerPopo | Free | Closed | [7 Days To Die Forum](https://community.7daystodie.com/topic/1871-unity-assets-bundle-extractor/)
+Name | Developer | Price | License | Website
+:--- | :--- | :--- | :--- | :---
+Asset Studio | Perfare | Open source | MIT | [GitHub](https://github.com/Perfare/AssetStudio)
+AssetTools&period;NET (based on UABE) | nesrak1 | Open source | MIT | [GitHuB](https://github.com/nesrak1/AssetsTools.NET)
+uTinyRipper | mafaca | Free |  | [GitHub](https://github.com/mafaca/UtinyRipper)
+uTinyRipperExporter CLI | spacehamster | Open source | MIT | [GitHub](https://github.com/spacehamster/UtinyRipperExporter)
+Unity Assets Bundle Extractor (UABE) | DerPopo | Free | Closed | [7 Days To Die Forum](https://community.7daystodie.com/topic/1871-unity-assets-bundle-extractor/)
 
 
 ## Untested
