@@ -2,7 +2,7 @@
 title: Unity
 description: 
 published: true
-date: 2021-09-10T15:49:05.306Z
+date: 2021-09-10T15:51:09.608Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:05:14.698Z
@@ -45,6 +45,17 @@ Patcher (Direct) | Patchwork | Greg Ros | Open source | MIT | [GitHub](https://g
 Injector | Unity Doorstop | denikson | Open source | CC0-1.0 | [GitHub](https://github.com/NeighTools/UnityDoorstop)
 
 
+## Asset Bundles
+
+Name | Developer | Licensing | Website
+:--- | :--- | :--- | :---
+Asset Studio | Perfare | Open source (MIT) | [GitHub](https://github.com/Perfare/AssetStudio)
+AssetTools&period;NET (based on UABE) | nesrak1 | Open source (MIT) | [GitHub](https://github.com/nesrak1/AssetsTools.NET)
+uTinyRipper | mafaca | Open source (MIT) | [GitHub](https://github.com/mafaca/UtinyRipper)
+uTinyRipperExporter CLI | spacehamster | Open source (MIT) | [GitHub](https://github.com/spacehamster/UtinyRipperExporter)
+Unity Assets Bundle Extractor (UABE) | DerPopo | N/A | [7 Days To Die Forum](https://community.7daystodie.com/topic/1871-unity-assets-bundle-extractor/)
+
+
 ## Misc.
 
 Type | Name | Developer | Price | License | Website
@@ -54,17 +65,6 @@ Type Safety Evaluator | PEVerify | Microsoft | Free | Proprietary | [Microsoft](
 
 > If you use Microsoft's [PEVerify Tool](https://docs.microsoft.com/en-us/dotnet/framework/tools/peverify-exe-peverify-tool) (e.g., Patchwork's Test Run), you may notice that an unmodded Unity game has IL errors in `Assembly-CSharp.dll`. These errors could be caused by bad IL or IL optimizations. For example, the latest version of _Torment: Tides of Numenera_ has 150 IL errors in `Assembly-CSharp.dll`. Most IL errors can be monkey patched.
 {.is-warning}
-
-
-## Asset Unbundling
-
-Name | Developer | Price | License | Website
-:--- | :--- | :--- | :--- | :---
-Asset Studio | Perfare | Open source | MIT | [GitHub](https://github.com/Perfare/AssetStudio)
-AssetTools&period;NET (based on UABE) | nesrak1 | Open source | MIT | [GitHub](https://github.com/nesrak1/AssetsTools.NET)
-uTinyRipper | mafaca | Free |  | [GitHub](https://github.com/mafaca/UtinyRipper)
-uTinyRipperExporter CLI | spacehamster | Open source | MIT | [GitHub](https://github.com/spacehamster/UtinyRipperExporter)
-Unity Assets Bundle Extractor (UABE) | DerPopo | Free | Closed | [7 Days To Die Forum](https://community.7daystodie.com/topic/1871-unity-assets-bundle-extractor/)
 
 
 ## Untested
