@@ -2,7 +2,7 @@
 title: Unity
 description: 
 published: true
-date: 2021-09-10T05:44:22.523Z
+date: 2021-09-10T05:58:23.276Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:05:14.698Z
@@ -23,28 +23,37 @@ Tyranny | Obsidian Entertainment | 5.2 ([Documentation](https://docs.unity3d.com
 
 Most of modding Unity games involves decompiling `Assembly-CSharp.dll` and patching in new code.
 
-## Reversing
+## Decompilers
 
-Type | Name | Developer | Price | License | Website
-:--- | :--- | :--- | :--- | :--- | :---
-Decompiler | dotPeek | JetBrains | Free | Commercial | [JetBrains](https://www.jetbrains.com/decompiler/)
-Decompiler/IL Editor | dnSpy | 0xd4d | Open source | GPL v3 | [GitHub](https://github.com/dnSpy/dnSpy)
-Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [GitHub Fork](https://github.com/fireundubh/de4dot/pdbgen)
-Type Safety Evaluator | PEVerify | Microsoft | Free | Proprietary | [Microsoft](https://docs.microsoft.com/en-us/dotnet/framework/tools/peverify-exe-peverify-tool)
+- [dotPeek](https://www.jetbrains.com/decompiler/): a free .NET decompiler by JetBrains
+- [dnSpy](https://github.com/dnSpy/dnSpy): an (abandoned) open source .NET decompiler by 0xd4d
 
-**Note 1:** dnSpy and de4dot were abandoned by the original developer.
+> **Note:** dotPeek is preferable for exporting decompiled output to solutions and creating PDBs; however, dnSpy can decompile some long methods that dotPeek will stub out. That said, dotPeek produces more accurate IL than dnSpy, owing to the fact dnSpy relied on the ILSpy 2.x engine.
+{.is-info}
 
-**Note 2:** dotPeek produces more accurate IL than dnSpy ever did because dnSpy relied on the ILSpy 2.x engine.
 
 ## Patching
 
 Type | Name | Developer | Price | License | Website
 :--- | :--- | :--- | :--- | :--- | :---
-Patcher (Direct) | Patchwork | Greg Ros | Open source | MIT | [GitHub](https://github.com/GregRos/Patchwork)
+Patcher (Injection) | MelonLoader (based on HarmonyX/MonoMod) | LavaGang | Open source | Apache 2.0 | [GitHub](https://github.com/LavaGang/MelonLoader) &middot; [melonwiki.xyz](https://melonwiki.xyz) 
 Patcher (Injection) | Harmony | pardeike | Open source | MIT | [GitHub](https://github.com/pardeike/Harmony)
 Patcher (Injection) | BepInEx (based on Harmony) | bbepis | Open Source | MIT | [GitHub](https://github.com/BepInEx/BepInEx)
 Patcher (Direct/Injection) | MonoMod (based on Harmony) | 0x0ade | Open source | MIT | [GitHub](https://github.com/MonoMod/MonoMod)
+Patcher (Direct) | Patchwork | Greg Ros | Open source | MIT | [GitHub](https://github.com/GregRos/Patchwork)
 Injector | Unity Doorstop | denikson | Open source | CC0-1.0 | [GitHub](https://github.com/NeighTools/UnityDoorstop)
+
+
+## Misc.
+
+Type | Name | Developer | Price | License | Website
+:--- | :--- | :--- | :--- | :--- | :---
+Deobfuscator | de4dot | 0xd4d | Open source | GPL v3 | [GitHub Fork](https://github.com/fireundubh/de4dot/pdbgen)
+Type Safety Evaluator | PEVerify | Microsoft | Free | Proprietary | [Microsoft](https://docs.microsoft.com/en-us/dotnet/framework/tools/peverify-exe-peverify-tool)
+
+> If you use Microsoft's [PEVerify Tool](https://docs.microsoft.com/en-us/dotnet/framework/tools/peverify-exe-peverify-tool) (e.g., Patchwork's Test Run), you may notice that an unmodded Unity game has IL errors in `Assembly-CSharp.dll`. These errors could be caused by bad IL or IL optimizations. For example, the latest version of _Torment: Tides of Numenera_ has 150 IL errors in `Assembly-CSharp.dll`. Most IL errors can be monkey patched.
+{.is-warning}
+
 
 ## Asset Unbundling
 
@@ -67,9 +76,4 @@ Tutorial | Description
 :--- | :---
 [Patchwork Design Patterns](/unity/patchwork-design-patterns) | How to use Patchwork attributes for common problems
 [Patchwork Project Structure](/unity/patchwork-project-structure) | How to structure a Patchwork project
-[Turning a release build into a debug build](/unity/turning-a-release-build-into-a-debug-build) | ADVANCED. You do not need to do this unless you use debug logging and want Assembly-CSharp line numbers in call stacks.
-
-
-# Notes
-
-* If you use Microsoft's [PEVerify Tool](https://docs.microsoft.com/en-us/dotnet/framework/tools/peverify-exe-peverify-tool) (e.g., Patchwork's Test Run), you may notice that an unmodded Unity game has IL errors in `Assembly-CSharp.dll`. These errors are likely caused by Unity either writing bad IL or, less likely, performing (probably unnecessary) IL optimizations. For example, the latest version of _Torment: Tides of Numenera_ has 150 IL errors in `Assembly-CSharp.dll`. Most IL errors can be monkey patched.
+[Turning a release build into a debug build](/unity/turning-a-release-build-into-a-debug-build) | How to get line numbers, full PDBs, and live debugging working
