@@ -2,7 +2,7 @@
 title: Unity
 description: 
 published: true
-date: 2021-09-10T15:51:09.608Z
+date: 2021-09-10T15:51:57.379Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:05:14.698Z
@@ -22,7 +22,7 @@ Tyranny | Obsidian Entertainment | 5.2 ([Documentation](https://docs.unity3d.com
 
 # Tools
 
-Most of modding Unity games involves decompiling `Assembly-CSharp.dll` and patching in new code.
+Creating mods for Unity games (with Mono backends) involves decompiling `Assembly-CSharp.dll` and patching in new code.
 
 ## Decompilers
 
