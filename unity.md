@@ -2,7 +2,7 @@
 title: Unity
 description: 
 published: true
-date: 2021-09-10T05:58:23.276Z
+date: 2021-09-10T05:59:06.683Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:05:14.698Z
@@ -28,7 +28,7 @@ Most of modding Unity games involves decompiling `Assembly-CSharp.dll` and patch
 - [dotPeek](https://www.jetbrains.com/decompiler/): a free .NET decompiler by JetBrains
 - [dnSpy](https://github.com/dnSpy/dnSpy): an (abandoned) open source .NET decompiler by 0xd4d
 
-> **Note:** dotPeek is preferable for exporting decompiled output to solutions and creating PDBs; however, dnSpy can decompile some long methods that dotPeek will stub out. That said, dotPeek produces more accurate IL than dnSpy, owing to the fact dnSpy relied on the ILSpy 2.x engine.
+> **Note:** dotPeek is preferable for exporting decompiled output to solutions and creating PDBs; however, dnSpy can decompile some long methods that dotPeek will stub out. That said, dotPeek produces more accurate IL than dnSpy, owing to the fact dnSpy relied on the ILSpy 2.x engine. dotPeek receives updates while dnSpy is abandoned.
 {.is-info}
 
 
