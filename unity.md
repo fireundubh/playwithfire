@@ -2,7 +2,7 @@
 title: Unity
 description: 
 published: true
-date: 2021-09-10T15:48:58.216Z
+date: 2021-09-10T15:49:05.306Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:05:14.698Z
@@ -61,7 +61,7 @@ Type Safety Evaluator | PEVerify | Microsoft | Free | Proprietary | [Microsoft](
 Name | Developer | Price | License | Website
 :--- | :--- | :--- | :--- | :---
 Asset Studio | Perfare | Open source | MIT | [GitHub](https://github.com/Perfare/AssetStudio)
-AssetTools&period;NET (based on UABE) | nesrak1 | Open source | MIT | [GitHuB](https://github.com/nesrak1/AssetsTools.NET)
+AssetTools&period;NET (based on UABE) | nesrak1 | Open source | MIT | [GitHub](https://github.com/nesrak1/AssetsTools.NET)
 uTinyRipper | mafaca | Free |  | [GitHub](https://github.com/mafaca/UtinyRipper)
 uTinyRipperExporter CLI | spacehamster | Open source | MIT | [GitHub](https://github.com/spacehamster/UtinyRipperExporter)
 Unity Assets Bundle Extractor (UABE) | DerPopo | Free | Closed | [7 Days To Die Forum](https://community.7daystodie.com/topic/1871-unity-assets-bundle-extractor/)
