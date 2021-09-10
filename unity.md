@@ -2,7 +2,7 @@
 title: Unity
 description: 
 published: true
-date: 2021-09-10T15:52:13.549Z
+date: 2021-09-10T15:54:30.998Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:05:14.698Z
@@ -29,8 +29,9 @@ Creating mods for Unity games (with Mono backends) involves decompiling assembli
 - [dotPeek](https://www.jetbrains.com/decompiler/): a free .NET decompiler by JetBrains
 - [dnSpy](https://github.com/dnSpy/dnSpy): an (abandoned) open source .NET decompiler by 0xd4d
 
-> **Note:** dotPeek is preferable for exporting decompiled output to solutions and creating PDBs; however, dnSpy can decompile some long methods that dotPeek will stub out. That said, dotPeek produces more accurate IL than dnSpy, owing to the fact dnSpy relied on the ILSpy 2.x engine. dotPeek receives updates while dnSpy is abandoned.
-{.is-info}
+You should be using dotPeek under most circumstances, filling out any stubbed out methods in the decompilation output with dnSpy.
+
+dotPeek produces more accurate IL than dnSpy, owing to the fact dnSpy relied on the ILSpy 2.x engine. In addition, dotPeek is actively supported by a major company while dnSpy is abandoned.
 
 
 ## Patching
