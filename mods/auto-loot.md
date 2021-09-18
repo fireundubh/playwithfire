@@ -2,7 +2,7 @@
 title: Auto Loot for Fallout 4
 description: 
 published: true
-date: 2021-09-18T01:05:06.141Z
+date: 2021-09-18T01:08:35.927Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:40:30.732Z
@@ -18,12 +18,34 @@ With Auto Loot, you can:
 
 *Actively supported and maintained since 9 January 2016.*
 
-# Download
 
-[Let's Play with Fire (Official)](https://letsplaywithfire.com/releases/file/auto-loot/)
+# Requirements
+
+- Automatron
+- Far Harbor
+- Nuka World
+
 
 # Documentation
 
-* [Version History](version-history)
-* [Documentation](documentation)
-* [Frequently Asked Questions](faqs)
+- [Documentation](documentation)
+- [Frequently Asked Questions](faqs)
+
+
+# Patch Notes
+
+[Version History](version-history)
+
+
+# Updating Saved Games
+
+Before updating Auto Loot from any version >= v1.2.4, follow these steps:
+
+- Enter this console command: `set AutoLoot_Debug to 1`
+- Open the holotape menu, go to the Debug Menu, and click Uninstall.
+- Sleep, save, and exit the game. Upgrade.
+
+
+# Download
+
+[Exclusively at Let's Play with Fire](https://letsplaywithfire.com/releases/file/auto-loot/)
