@@ -2,21 +2,22 @@
 title: Auto Loot for Fallout 4
 description: 
 published: true
-date: 2021-09-18T01:08:35.927Z
+date: 2021-09-18T01:10:15.669Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:40:30.732Z
 ---
 
-**Auto Loot** is the first and most configurable auto loot, auto harvest, and auto steal mod for Fallout 4.
+**Auto Loot** is the first and most configurable area loot mod for *Fallout 4*.
 
 With Auto Loot, you can:
 
-- Automatically loot Ammo, Armor, Bodies, Components, Containers, Drinks, Flora, Food, Junk, Keys, Magazines, Medicine, Valuables (junk with rare components), and Weapons. 
-- Automatically send loot to any settlement, your inventory, or mix and match.
-- Configure all aspects of Auto Loot while in the game using a Pip-Boy holotape.
+- automatically loot Ammo, Armor, Bodies, Components, Containers, Drinks, Flora, Food, Junk, Keys, Magazines, Meds, Valuables, and Weapons;
+- automatically send loot to any settlement, your inventory, or mix and match; and
+- configure all aspects of Auto Loot while in the game using a Pip-Boy holotape.
 
-*Actively supported and maintained since 9 January 2016.*
+> *Actively supported and maintained since 9 January 2016.*
+{.is-info}
 
 
 # Requirements
