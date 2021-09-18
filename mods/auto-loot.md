@@ -2,7 +2,7 @@
 title: Auto Loot for Fallout 4
 description: 
 published: true
-date: 2021-09-18T01:02:48.927Z
+date: 2021-09-18T01:04:04.309Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:40:30.732Z
@@ -26,11 +26,12 @@ Originally released on January 9, 2016. Updated since.
 
 In addition, all Papyrus INI settings must be set to the defaults. These settings should never be changed.
 
-# Links
+# Download
+
+[Let's Play with Fire (Official)](https://letsplaywithfire.com/releases/file/auto-loot/)
+
+# Documentation
 
 * [Version History](version-history)
 * [Documentation](documentation)
-* [Frequently Asked Questions](/mods/auto-loot/faqs)
-* [Source Code @ GitHub](https://github.com/fireundubh/fallout4/tree/master/Auto%20Loot)
-* [Download @ Let's Play with Fire](https://letsplaywithfire.com/releases/file/auto-loot/)
-
+* [Frequently Asked Questions](faqs)
