@@ -2,7 +2,7 @@
 title: Auto Loot for Fallout 4
 description: 
 published: true
-date: 2021-09-18T01:04:51.773Z
+date: 2021-09-18T01:05:06.141Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:40:30.732Z
@@ -17,14 +17,6 @@ With Auto Loot, you can:
 - Configure all aspects of Auto Loot while in the game using a Pip-Boy holotape.
 
 *Actively supported and maintained since 9 January 2016.*
-
-# Requirements
-
-- Automatron DLC
-- Far Harbor DLC
-- Nuka World DLC
-
-In addition, all Papyrus INI settings must be set to the defaults. These settings should never be changed.
 
 # Download
 
