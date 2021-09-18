@@ -2,7 +2,7 @@
 title: Auto Loot for Fallout 4
 description: 
 published: true
-date: 2021-09-18T01:04:04.309Z
+date: 2021-09-18T01:04:51.773Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:40:30.732Z
@@ -16,7 +16,7 @@ With Auto Loot, you can:
 - Automatically send loot to any settlement, your inventory, or mix and match.
 - Configure all aspects of Auto Loot while in the game using a Pip-Boy holotape.
 
-Originally released on January 9, 2016. Updated since.
+*Actively supported and maintained since 9 January 2016.*
 
 # Requirements
 
