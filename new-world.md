@@ -2,7 +2,7 @@
 title: New World
 description: 
 published: true
-date: 2021-10-18T05:34:33.571Z
+date: 2021-10-18T05:42:37.185Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-18T05:34:33.571Z
@@ -13,9 +13,11 @@ dateCreated: 2021-10-18T05:34:33.571Z
 ## Problems
 
 - "Loot cave" exploits reported during the betas are still in the game.
-- Solo players tend to lose out on Corrupted Breach participation rewards to groups. Wild guess as to why: Solo players are each counted as groups, but group damage or hit tags are always greater in actual groups, so solo players are unlikely to get credit for participation.
-- Cosmetic skins should be disabled in wars, or globally restricted on a weight class basis (e.g., light skins for light armor, heavy skins for heavy armor.) In PvP, seeing what your enemy is wearing and using is important.
-- In wars, teams should not be able to respawn on contested points.
+- Solo players tend to lose out on Corrupted Breach participation rewards to groups. Wild guess as to why: Solo players are each counted as their own groups, but group damage or hit tags are always greater in actual groups, so solo players are unlikely to get credit for participation unless they can outdamage actual groups.
+- Healers will lose out on Corrupted Breach participation rewards simply because the Life Staff and healing abilities do not provide enough damage output.
+- During wars, cosmetic skins should be disabled. Skins can be used to conceal equipment from players.
+- During wars, respawning on contested points should be disallowed.
+- During wars, and before the gates open, trading items that are not unique to the war instance should be allowed.
 - Servers should not undergo noncritical maintenance during peak hours and noncritical updates should be staggered based on war schedules.
 - When sorting items by weight in your inventory or storage, weights are displayed incorrectly.
 - Some apparel items have been assigned the wrong weight class. For example, a Harvester shirt is classed as Medium Chestwear but with a weight of 3.5 and Light resistances.
