@@ -2,7 +2,7 @@
 title: HWM
 description: 
 published: true
-date: 2021-10-26T11:50:03.150Z
+date: 2021-10-26T11:50:59.150Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-26T11:31:47.733Z
@@ -20,7 +20,7 @@ As of 1.0.3, the only items that can reach 600 GS are:
 - gathering sets; and
 - fixed GS items (e.g., named items.)
 
-There are loot tables that extend to 600 GS; however, these loot tables are governed by HWM, which is presently capped at 589, so items belonging to these loot tables cannot actually reach 600 GS.
+There are loot tables whose defined GS ranges extend to 600; however, these loot tables use HWM, which is presently capped at 589, so items belonging to these loot tables cannot actually reach 600 GS.
 
 # Table
 
