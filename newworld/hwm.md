@@ -2,7 +2,7 @@
 title: HWM
 description: 
 published: true
-date: 2021-10-26T11:33:04.759Z
+date: 2021-10-26T11:33:47.244Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-26T11:31:47.733Z
@@ -10,7 +10,7 @@ dateCreated: 2021-10-26T11:31:47.733Z
 
 HWM, formally called Rank, defines a range of Gear Scores below and above the HWM/Rank value.
 
-The following table was generated from from [javelindata_hwmloot](https://github.com/Kattoor/nw-datasheets-json/blob/main/javelindata_hwmloot.json):
+The following table was generated from [javelindata_hwmloot](https://github.com/Kattoor/nw-datasheets-json/blob/main/javelindata_hwmloot.json):
 
 HWM | Min. GS | Max. GS
 --- | --- | ---
