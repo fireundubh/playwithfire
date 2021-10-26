@@ -2,7 +2,7 @@
 title: HWM
 description: 
 published: true
-date: 2021-10-26T11:32:45.866Z
+date: 2021-10-26T11:33:04.759Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-26T11:31:47.733Z
@@ -105,5 +105,3 @@ HWM | Min. GS | Max. GS
 588 | 578 | 590
 589 | 579 | 591
 590 | 580 | 600
-
-Process finished with exit code 0
