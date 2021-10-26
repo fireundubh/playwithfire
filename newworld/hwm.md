@@ -2,19 +2,27 @@
 title: HWM
 description: 
 published: true
-date: 2021-10-26T11:46:26.404Z
+date: 2021-10-26T11:50:03.150Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-26T11:31:47.733Z
 ---
 
+# Definition
+
 HWM, formally called Rank, defines a range of Gear Scores below and above the HWM/Rank value.
+
+# Limits
 
 As of 1.0.3, the only items that can reach 600 GS are:
 
 - crafted items;
 - gathering sets; and
 - fixed GS items (e.g., named items.)
+
+There are loot tables that extend to 600 GS; however, these loot tables are governed by HWM, which is presently capped at 589, so items belonging to these loot tables cannot actually reach 600 GS.
+
+# Table
 
 The following table was generated from [javelindata_hwmloot](https://github.com/Kattoor/nw-datasheets-json/blob/main/javelindata_hwmloot.json):
 
