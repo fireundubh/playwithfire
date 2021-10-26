@@ -2,7 +2,7 @@
 title: HWM
 description: 
 published: true
-date: 2021-10-26T11:46:18.064Z
+date: 2021-10-26T11:46:26.404Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-26T11:31:47.733Z
@@ -10,7 +10,7 @@ dateCreated: 2021-10-26T11:31:47.733Z
 
 HWM, formally called Rank, defines a range of Gear Scores below and above the HWM/Rank value.
 
-Currently, the only items that can reach 600 GS are:
+As of 1.0.3, the only items that can reach 600 GS are:
 
 - crafted items;
 - gathering sets; and
