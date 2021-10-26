@@ -1,8 +1,8 @@
 ---
-title: Table: HWM-GS
+title: HWM
 description: 
 published: true
-date: 2021-10-26T11:31:47.733Z
+date: 2021-10-26T11:32:45.866Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-26T11:31:47.733Z
