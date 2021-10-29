@@ -2,7 +2,7 @@
 title: HWM
 description: 
 published: true
-date: 2021-10-29T03:23:34.373Z
+date: 2021-10-29T03:23:43.255Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-26T11:31:47.733Z
@@ -110,7 +110,7 @@ HWM | Min. GS | Max. GS
 589 | 579 | 591
 590 | 580 | 600
 
-# Limits
+# Addendum
 
 As of 1.0.3, 590 HWM is not achievable, which means the only items that can reach 600 GS are:
 
