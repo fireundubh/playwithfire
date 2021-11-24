@@ -2,7 +2,7 @@
 title: Unity
 description: 
 published: true
-date: 2021-11-24T15:55:00.125Z
+date: 2021-11-24T16:30:06.649Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:05:14.698Z
@@ -16,6 +16,7 @@ Creating mods for Unity games (with Mono backends) involves decompiling assembli
 
 Name |  Unity<br>Ver. | .NET<br>Compat. | .NET<br>Ver. | C#<br>Ver.
 :--- | :--- | :--- | :--- | :---
+Disco Elysium (Build # 8487D973) | 2019.4.9 ([Documentation](https://docs.unity3d.com/2019.4/Documentation/Manual/index.html)) | 4.x | 4.6 | 7.3
 Guild of Dungeoneering Ultimate Edition | 2020.3.9 ([Documentation](https://docs.unity3d.com/2020.3/Documentation/Manual/index.html)) | 4.x | [4.7.1](https://docs.unity3d.com/2020.3/Documentation/Manual/overview-of-dot-net-in-unity.html) | [8.0](https://docs.unity3d.com/2020.3/Documentation/Manual/CSharpCompiler.html)
 Pathfinder: Kingmaker | 2018.1f0 ([Documentation](https://docs.unity3d.com/2018.1/Documentation/Manual/index.html)) | 4.x | 4.6 | 6.0
 Pathfinder: Wrath of the Righteous | 2019.4.26f1 ([Documentation](https://docs.unity3d.com/2019.4/Documentation/Manual/index.html)) | 4.x | 4.6 | 7.3
@@ -29,7 +30,7 @@ Tyranny | 5.2 ([Documentation](https://docs.unity3d.com/520/Documentation/Manual
 
 ## IL2CPP
 
-> Mods will likely never exist for these games as long as they are compiled with IL2CPP.
+> Outside of cheats and trainers, mods will likely never exist for these games as long as they are compiled with IL2CPP.
 {.is-info}
 
 Name |  Unity<br>Ver. | .NET<br>Compat. | .NET<br>Ver. | C#<br>Ver.
