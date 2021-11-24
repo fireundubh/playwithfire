@@ -2,7 +2,7 @@
 title: Unity
 description: 
 published: true
-date: 2021-11-24T08:11:25.731Z
+date: 2021-11-24T15:24:36.751Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:05:14.698Z
@@ -10,16 +10,17 @@ dateCreated: 2020-01-19T11:05:14.698Z
 
 # Games
 
-Name | Developer | Unity<br>Ver. | Scripting<br>Backend | .NET<br>Compat. | .NET<br>Ver. | C#<br>Ver.
-:--- | :--- | :--- | :--- | :--- | :--- | :---
-Encased | Dark Crystal Games | 2019.4.21 ([Documentation](https://docs.unity3d.com/2019.4/Documentation/Manual/index.html)) | IL2CPP | 4.x | 4.6 | 7.3
-Pathfinder: Kingmaker | Owlcat Games | 2018.1f0 ([Documentation](https://docs.unity3d.com/2018.1/Documentation/Manual/index.html)) | Mono | 4.x | 4.6 | 6.0
-Pathfinder: Wrath of the Righteous | Owlcat Games | 2019.4.26f1 ([Documentation](https://docs.unity3d.com/2019.4/Documentation/Manual/index.html)) | Mono | 4.x | 4.6 | 7.3
-Pillars of Eternity | Obsidian Entertainment | 5.1 ([Documentation](https://docs.unity3d.com/510/Documentation/Manual/index.html)) | Mono | 3.5 | 3.5 | 3.0
-Pillars of Eternity II: Deadfire | Obsidian Entertainment | 5.6.3 ([Documentation](https://docs.unity3d.com/560/Documentation/Manual/index.html)) | Mono | 3.5 | 3.5 | 3.0
-Star Dynasties | Pawley Games | 2017.1.3f1 ([Documentation](https://docs.unity3d.com/2017.1/Documentation/Manual/index.html)) | Mono | 4.x | 4.6 | 6.0
-Torment: Tides of Numenera |  inXile Entertainment | 5.4.1 ([Documentation](https://docs.unity3d.com/540/Documentation/Manual/index.html)) | Mono | 3.5 | 3.5 | 3.0
-Tyranny | Obsidian Entertainment | 5.2 ([Documentation](https://docs.unity3d.com/520/Documentation/Manual/index.html)) | Mono | 3.5 | 3.5 | 3.0
+Name |  Unity<br>Ver. | Scripting<br>Backend | .NET<br>Compat. | .NET<br>Ver. | C#<br>Ver.
+:--- | :--- | :--- | :--- | :--- | :---
+Encased | 2019.4.21 ([Documentation](https://docs.unity3d.com/2019.4/Documentation/Manual/index.html)) | IL2CPP | 4.x | 4.6 | 7.3
+Pathfinder: Kingmaker | 2018.1f0 ([Documentation](https://docs.unity3d.com/2018.1/Documentation/Manual/index.html)) | Mono | 4.x | 4.6 | 6.0
+Pathfinder: Wrath of the Righteous | 2019.4.26f1 ([Documentation](https://docs.unity3d.com/2019.4/Documentation/Manual/index.html)) | Mono | 4.x | 4.6 | 7.3
+Pillars of Eternity | 5.1 ([Documentation](https://docs.unity3d.com/510/Documentation/Manual/index.html)) | Mono | 3.5 | 3.5 | 3.0
+Pillars of Eternity II: Deadfire | 5.6.3 ([Documentation](https://docs.unity3d.com/560/Documentation/Manual/index.html)) | Mono | 3.5 | 3.5 | 3.0
+Rogue Lords | 2019.4.22 ([Documentation](https://docs.unity3d.com/2019.4/Documentation/Manual/index.html)) | Mono | 4.x | 4.6 | 7.3
+Star Dynasties | 2017.1.3f1 ([Documentation](https://docs.unity3d.com/2017.1/Documentation/Manual/index.html)) | Mono | 4.x | 4.6 | 6.0
+Torment: Tides of Numenera | 5.4.1 ([Documentation](https://docs.unity3d.com/540/Documentation/Manual/index.html)) | Mono | 3.5 | 3.5 | 3.0
+Tyranny | 5.2 ([Documentation](https://docs.unity3d.com/520/Documentation/Manual/index.html)) | Mono | 3.5 | 3.5 | 3.0
 
 # Tools
 
