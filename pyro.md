@@ -2,7 +2,7 @@
 title: Pyro Reference
 description: 
 published: true
-date: 2021-06-23T08:21:25.341Z
+date: 2021-11-24T05:03:04.000Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:04:59.413Z
@@ -57,7 +57,7 @@ Or build Pyro from the source code. Refer to the [Contributing](/pyro/contributi
 
 # Help/Feedback
 
-If you need help with Pyro, or have any feedback, [join the **#pyro** channel on the Discord server](https://discord.fireundubh.com).
+If you need help with Pyro, or have any feedback, [join the **#pyro** channel on the Discord server](https://discord.com/invite/V3VrRHQ).
 
 
 # Licenses
