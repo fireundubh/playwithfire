@@ -2,17 +2,20 @@
 title: Unity
 description: 
 published: true
-date: 2021-11-24T15:25:38.802Z
+date: 2021-11-24T15:41:33.703Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:05:14.698Z
 ---
 
+Creating mods for Unity games (with Mono backends) involves decompiling assemblies and patching in new code.
+
 # Games
+
+## Mono
 
 Name |  Unity<br>Ver. | Scripting<br>Backend | .NET<br>Compat. | .NET<br>Ver. | C#<br>Ver.
 :--- | :--- | :--- | :--- | :--- | :---
-Encased | 2019.4.21 ([Documentation](https://docs.unity3d.com/2019.4/Documentation/Manual/index.html)) | IL2CPP | 4.x | 4.6 | 7.3
 Pathfinder: Kingmaker | 2018.1f0 ([Documentation](https://docs.unity3d.com/2018.1/Documentation/Manual/index.html)) | Mono | 4.x | 4.6 | 6.0
 Pathfinder: Wrath of the Righteous | 2019.4.26f1 ([Documentation](https://docs.unity3d.com/2019.4/Documentation/Manual/index.html)) | Mono | 4.x | 4.6 | 7.3
 Pillars of Eternity | 5.1 ([Documentation](https://docs.unity3d.com/510/Documentation/Manual/index.html)) | Mono | 3.5 | 3.5 | 3.0
@@ -22,9 +25,17 @@ Star Dynasties | 2017.1.3f1 ([Documentation](https://docs.unity3d.com/2017.1/Doc
 Torment: Tides of Numenera | 5.4.1 ([Documentation](https://docs.unity3d.com/540/Documentation/Manual/index.html)) | Mono | 3.5 | 3.5 | 3.0
 Tyranny | 5.2 ([Documentation](https://docs.unity3d.com/520/Documentation/Manual/index.html)) | Mono | 3.5 | 3.5 | 3.0
 
-# Tools
+## IL2CPP
 
-Creating mods for Unity games (with Mono backends) involves decompiling assemblies and patching in new code.
+> Mods will likely never exist for these games as long as they are compiled with IL2CPP.
+{.is-info}
+
+Name |  Unity<br>Ver. | Scripting<br>Backend | .NET<br>Compat. | .NET<br>Ver. | C#<br>Ver.
+:--- | :--- | :--- | :--- | :--- | :---
+Encased | 2019.4.21 ([Documentation](https://docs.unity3d.com/2019.4/Documentation/Manual/index.html)) | IL2CPP | 4.x | 4.6 | 7.3
+Legend of Keepers | 2019.4.18 ([Documentation](https://docs.unity3d.com/2019.4/Documentation/Manual/index.html)) | IL2CPP | 4.x | 4.6 | 7.3
+
+# Tools
 
 ## Decompilers
 
