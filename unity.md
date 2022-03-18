@@ -2,7 +2,7 @@
 title: Unity
 description: 
 published: true
-date: 2021-11-24T16:43:16.611Z
+date: 2022-03-18T19:28:34.036Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:05:14.698Z
@@ -16,6 +16,7 @@ Creating mods for Unity games (with Mono backends) involves decompiling assembli
 
 Name |  Unity<br>Ver. | .NET<br>Compat. | .NET<br>Ver. | C#<br>Ver.
 :--- | :--- | :--- | :--- | :---
+Black Geyser | 2021.1.20 ([Documentation](https://docs.unity3d.com/2021.1/Documentation/Manual/index.html)) | 4.x | 4.6 | 8.0
 Disco Elysium (Build: 8487D973) | 2019.4.9 ([Documentation](https://docs.unity3d.com/2019.4/Documentation/Manual/index.html)) | 4.x | 4.6 | 7.3
 Guild of Dungeoneering Ultimate Edition | 2020.3.9 ([Documentation](https://docs.unity3d.com/2020.3/Documentation/Manual/index.html)) | 4.x | [4.7.1](https://docs.unity3d.com/2020.3/Documentation/Manual/overview-of-dot-net-in-unity.html) | [8.0](https://docs.unity3d.com/2020.3/Documentation/Manual/CSharpCompiler.html)
 Pathfinder: Kingmaker | 2018.1f0 ([Documentation](https://docs.unity3d.com/2018.1/Documentation/Manual/index.html)) | 4.x | 4.6 | 6.0
