@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2022-03-20T01:29:42.054Z
+date: 2022-03-20T01:35:44.213Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -15,7 +15,7 @@ dateCreated: 2021-03-19T21:43:34.910Z
 
 ## Changes
 
-- [X] Added Components subfilter under Valuables that loots only Junk items that have components (extremely slow!)
+- [X] Added Components subfilter under Valuables that loots only items from the Junk formlist that contain any component (extremely slow!)
 - [X] Renamed previous Components subfilter under Valuables to Scrap
 
 ## Fixed Issues
