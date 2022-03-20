@@ -2,11 +2,26 @@
 title: Version History
 description: 
 published: true
-date: 2021-09-02T02:56:37.581Z
+date: 2022-03-20T01:29:42.054Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
 ---
+
+# Version 1.2.9.3
+
+> Available at [Let's Play with Fire](https://letsplaywithfire.com) since 19 March 2022
+{.is-info}
+
+## Changes
+
+- [X] Added Components subfilter under Valuables that loots only Junk items that have components (extremely slow!)
+- [X] Renamed previous Components subfilter under Valuables to Scrap
+
+## Fixed Issues
+
+- [X] Fixed issue where Components filter could exhibit unexpected behavior (e.g., looting the wrong items, not looting items on screen)
+- [X] Slightly improved performance of tiered filters
 
 # Version 1.2.9.2
 
