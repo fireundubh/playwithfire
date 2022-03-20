@@ -2,7 +2,7 @@
 title: Documentation
 description: 
 published: true
-date: 2021-09-04T21:26:24.880Z
+date: 2022-03-20T01:33:30.587Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:44:08.869Z
@@ -110,6 +110,8 @@ Filter | Purpose
 **Valuables (Common)** | Loot *only* items from the Junk formlist that contain "common" components
 **Valuables (Uncommon)** | Loot *only* items from the Junk formlist that contain "uncommon" components
 **Valuables (Rare)** | Loot *only* items from the Junk formlist that contain "rare" components
+**Valuables (Components)** | Loot *only* items from the Junk formlist that contain any component (extremely slow!)
+**Valuables (Scrap)** | Loot *only* component scrap items (these items generally do not appear in vanilla)
 
 <br>The Junk, Components, and Valuables filters are mutually exclusive. If all these filters were enabled, the Junk filter would loot all junk items regardless of your Components and Valuables settings. The outcome would be the same as if you had only the Junk filter enabled.
 
