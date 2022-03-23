@@ -2,7 +2,7 @@
 title: Turning a release build into a debug build
 description: 
 published: true
-date: 2022-03-23T22:24:52.530Z
+date: 2022-03-23T22:25:01.375Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:08:11.523Z
@@ -43,7 +43,7 @@ Steamworks .NET interferes with debug logging. (See: [Known Issue/Won't Fix](htt
 > Most GOG builds still use Steamworks, if the game is available on Steam.
 {.is-warning}
 
-1. Create a file in the game's executable folder named `steam_appid.txt`
+1. Create a file in the game's executable folder named `steam_appid.txt`.
 2. In that file, enter the game's Steam AppID only. The Steam AppID for any game can be found in the game's Steam store page URL, or at SteamDB.
 3. Save the file.
 
