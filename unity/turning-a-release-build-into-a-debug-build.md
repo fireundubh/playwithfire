@@ -2,7 +2,7 @@
 title: Turning a release build into a debug build
 description: 
 published: true
-date: 2022-03-23T21:35:08.727Z
+date: 2022-03-23T22:24:52.530Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:08:11.523Z
@@ -36,8 +36,20 @@ Before you do anything, backup the game's player `.exe`, `UnityPlayer.dll`, and 
 9. Edit `boot.config`, add the line `player-connection-debug=1`, and save.
 10. Replace `mono-2.0-bdwgc.dll` in the game's `MonoBleedingEdge` folder with the debug version from the Unity Editor's `MonoBleedingEdge` folder.
 
+## Disable Steamworks
+
+Steamworks .NET interferes with debug logging. (See: [Known Issue/Won't Fix](https://issuetracker.unity3d.com/issues/builds-with-steamworks-dot-net-dont-show-the-errors-files-and-lines-details-in-the-stacktrace))
+
+> Most GOG builds still use Steamworks, if the game is available on Steam.
+{.is-warning}
+
+1. Create a file in the game's executable folder named `steam_appid.txt`
+2. In that file, enter the game's Steam AppID only. The Steam AppID for any game can be found in the game's Steam store page URL, or at SteamDB.
+3. Save the file.
 
 # Instructions
+
+These instructions are intended to allow developers and other technical users to obtain detailed call stacks from release builds. If you are compiling the game's assemblies with full debug symbols, you don't need to follow these instructions, although Step 3 could be useful.
 
 ## Step 1: Patch PDB State
 
@@ -85,7 +97,7 @@ del Assembly-CSharp2.pdb
 {.is-warning}
 
 
-## Step 3: Convert PDB to MDB (optional)
+## Step 3: Convert PDB to MDB
 
 For assemblies compiled with `msc` (the Mono compiler), Unity loads MDB files, not PDB files, so for those assemblies, we need to generate an MDB from our new PDB.
 
