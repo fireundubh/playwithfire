@@ -2,7 +2,7 @@
 title: Turning a release build into a debug build
 description: 
 published: true
-date: 2021-08-15T04:55:48.426Z
+date: 2022-03-23T21:35:08.727Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:08:11.523Z
@@ -110,7 +110,7 @@ Decompiler/IL Editor | dnSpy | 0xd4d | Open source | GPL v3 | [GitHub](https://g
 
 ## Fixing assembly flags
 
-> This procedure is only useful for live debugging. If your only goal is to produce complete call stacks, you can skip this.
+> This procedure is only useful for live debugging non-debug assemblies. If your only goal is to produce complete call stacks, you can skip this.
 {.is-info}
 
 Using dnSpy, load the assembly and modify the assembly attributes from:
