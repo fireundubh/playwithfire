@@ -2,11 +2,23 @@
 title: Version History
 description: 
 published: true
-date: 2022-03-20T01:35:44.213Z
+date: 2022-04-07T21:36:55.744Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
 ---
+
+# Version 1.2.9.4
+
+> Available at [Let's Play with Fire](https://letsplaywithfire.com) since 7 April 2022
+{.is-info}
+
+## Fixed Issues
+
+- [X] Fixed issue where changes introduced in v1.2.9.3 clobbered the Weapons filter
+
+> **Note:** The Valuables and Weapons filters were decoupled to avoid future similar issues. After updating to this version, if you load a save with the Valuables or Weapons filter enabled, you will need to disable and re-enable those affected filters.
+{.is-warning}
 
 # Version 1.2.9.3
 
