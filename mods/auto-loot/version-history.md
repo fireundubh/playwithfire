@@ -2,11 +2,20 @@
 title: Version History
 description: 
 published: true
-date: 2022-04-07T21:36:55.744Z
+date: 2022-04-20T06:26:52.381Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
 ---
+
+# Version 1.2.9.4
+
+> Available at [Let's Play with Fire](https://letsplaywithfire.com) since 19 April 2022
+{.is-info}
+
+## Fixed Issues
+
+- [X] Fixed issue where Valuables subfilters could not loot items when Valuables (Components) subfilter was enabled
 
 # Version 1.2.9.4
 
