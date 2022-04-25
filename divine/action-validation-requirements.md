@@ -2,7 +2,7 @@
 title: Action Validation Requirements
 description: 
 published: true
-date: 2022-04-24T07:41:29.153Z
+date: 2022-04-25T08:13:54.467Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-24T07:40:47.909Z
@@ -22,7 +22,7 @@ Argument | Value | Validation?
 Argument | Value | Validation?
 :--- | :--- | ---:
 `SourcePath` | existing file path | `true`
-`DestinationPath` | target file path | `false`
+`DestinationPath` | target directory path | `false`
 
 ## extract-single-file
 
