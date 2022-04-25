@@ -2,13 +2,21 @@
 title: Release Notes
 description: 
 published: true
-date: 2021-09-03T23:31:34.846Z
+date: 2022-04-25T18:12:20.960Z
 tags: 
 editor: markdown
 dateCreated: 2020-05-20T04:28:08.747Z
 ---
 
 > **Note:** Pre-release version names are Unix timestamps.
+
+# 1650882949
+
+## Fixes
+
+- Fixed issue where UTF-8 characters in script metadata broke anonymization and incremental build
+- Fixed issue where environment variables were not expanded in paths outside project files
+
 
 # 1630449368
 
