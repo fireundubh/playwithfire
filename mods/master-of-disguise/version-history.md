@@ -2,13 +2,22 @@
 title: Version History
 description: 
 published: true
-date: 2021-03-20T02:22:44.637Z
+date: 2022-05-09T02:53:20.475Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-20T02:22:44.637Z
 ---
 
-# Version 1.5.3 (Hotfix)
+# Version 1.5.4
+
+> **Release Date:** May 8, 2022
+{.is-info}
+
+- Fixed issue where game would crash when language set to any non-English language
+- Fixed issue where quest toggles in MCM did not reliably toggle quest states
+- Improved performance slightly by moving some code from Papyrus to LibTurtleClub
+
+# Version 1.5.3
 
 > **Release Date:** January 18, 2021
 {.is-info}
@@ -16,7 +25,7 @@ dateCreated: 2021-03-20T02:22:44.637Z
 - Fixed issue where bad flags on magic effects prevented the cloak spell from continuously running (e.g., NPCs would stop being suspicious)
 - Removed legacy brawl bug fix (players should install the [Modern Brawl Bug Fix](https://www.nexusmods.com/skyrimspecialedition/mods/1473))
 
-# Version 1.5.2 (Hotfix)
+# Version 1.5.2
 
 > **Release Date:** November 7, 2020
 {.is-info}
