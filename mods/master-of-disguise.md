@@ -2,7 +2,7 @@
 title: Master of Disguise
 description: 
 published: true
-date: 2021-07-23T01:38:26.294Z
+date: 2022-05-09T23:32:41.911Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-20T02:22:08.866Z
@@ -36,11 +36,17 @@ You are the Master of Disguise. What will you do?
 
 # Requirements
 
-* Skyrim Special Edition v1.5.39
+> Supports **Skyrim Special Edition** and **Skyrim Anniversary Edition** via [CommonLibSSE-NG](https://github.com/CharmedBaryon/CommonLibSSE-NG) since 8 May 2022
+{.is-success}
+
+* Skyrim Special Edition v1.5.97 or Skyrim Anniversary Edition v1.6+
 * [SKSE](https://skse.silverlock.org)
 * [SkyUI](https://www.nexusmods.com/skyrimspecialedition/mods/12604)
 * [Address Library](https://www.nexusmods.com/skyrimspecialedition/mods/32444)
 * [Microsoft Visual C++ Redistributable for Visual Studio 2019](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
+* [LibFire](https://letsplaywithfire.com/releases/file/libfire/)
+* [LibMathf](https://letsplaywithfire.com/releases/file/libmathf/)
+* [LibTurtleClub](https://letsplaywithfire.com/releases/file/libturtleclub/)
 
 
 # Unofficial Translations
