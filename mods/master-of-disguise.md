@@ -2,7 +2,7 @@
 title: Master of Disguise
 description: 
 published: true
-date: 2022-05-11T08:52:26.385Z
+date: 2022-05-11T13:18:30.991Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-20T02:22:08.866Z
@@ -180,7 +180,7 @@ Only the first disguise equipped will be activated. You will need to unequip tha
 
 ## Bandit Disguises
 
-> This feature can be toggled from the SkyUI Mod Configuration Menu.
+> This feature can be toggled from the SkyUI Mod Configuration Menu. **OFF BY DEFAULT.**
 {.is-info}
 
 > The slot checked when determining whether to activate this disguise can be changed in the Crime menu.
