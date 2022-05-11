@@ -2,7 +2,7 @@
 title: Master of Disguise
 description: 
 published: true
-date: 2022-05-09T23:36:42.253Z
+date: 2022-05-11T08:52:26.385Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-20T02:22:08.866Z
@@ -155,14 +155,6 @@ In addition, faction NPCs engaged in combat with other NPCs, except companions, 
 # SkyUI Mod Configuration Menu
 
 Using the new SkyUI Mod Configuration Menu, the player can adjust nearly every aspect of the discovery system from within the game. The disguise and discovery systems can be toggled independently as well.
-
-## Example: Scoring Menu
-
-![Scoring Menu](https://camo.githubusercontent.com/d966d3c9d2d0f2a04f5398a9831f99f66d26c2e1/687474703a2f2f692e696d6775722e636f6d2f6a685a515652762e6a7067)
-
-## Example: Crime Menu
-
-![Crime Menu](https://camo.githubusercontent.com/b7fba3732f972e4e251858e4972cedf36d2673e5/687474703a2f2f692e696d6775722e636f6d2f4469537471424e2e6a7067)
 
 
 # How to Wear a Disguise
