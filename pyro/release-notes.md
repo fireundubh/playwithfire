@@ -2,13 +2,20 @@
 title: Release Notes
 description: 
 published: true
-date: 2022-04-25T18:12:20.960Z
+date: 2022-05-13T02:25:16.662Z
 tags: 
 editor: markdown
 dateCreated: 2020-05-20T04:28:08.747Z
 ---
 
 > **Note:** Pre-release version names are Unix timestamps.
+
+# 1651962568
+
+## Fixes
+
+- Fixed issue where files could be added to ZIP archives at only root level (i.e., ZIP archives would be unintentionally flat)
+
 
 # 1650882949
 
