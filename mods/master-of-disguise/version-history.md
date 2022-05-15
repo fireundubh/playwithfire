@@ -2,11 +2,24 @@
 title: Version History
 description: 
 published: true
-date: 2022-05-09T02:53:20.475Z
+date: 2022-05-15T05:20:59.625Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-20T02:22:44.637Z
 ---
+
+# Version 1.5.5
+
+> **Release Date:** May 14, 2022
+{.is-info}
+
+## New Features
+
+- **Disguises Menu:** From the new Disguises page menu, you can configure which disguises can be activated in your game. When you toggle any disguise on and off, your current disguise will be activated or deactivated, if possible, upon leaving the MCM 
+
+## Enhancements
+
+- **Cheats Menu:** The Cheats page menu has been redesigned to match the Disguises page menu. The useless checkboxes have been removed. Instead, selecting a cheat option will play an audio cue to indicate that the cheat option has been activated.
 
 # Version 1.5.4
 
