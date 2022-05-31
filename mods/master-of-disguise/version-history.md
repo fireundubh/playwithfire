@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2022-05-31T11:21:53.872Z
+date: 2022-05-31T11:37:00.032Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-20T02:22:44.637Z
@@ -15,15 +15,20 @@ dateCreated: 2021-03-20T02:22:44.637Z
 
 ## Major Changes
 
+> TERMINOLOGY
+> When an actor sees through your disguise, you have been "discovered." After discovery, you will need to "recover" for your disguise to become operational again.
+{.is-info}
+
 ### Guard Disguises and Crime
 
-- [X] Equipping a guard disguise, or recovering, conceals your existing bounty.
+- [X] Equipping a guard disguise, or having recovered, conceals your existing bounty.
 - [X] Unequipping a guard disguise, or being discovered, restores your existing bounty.
 - [X] When a guard sees through your disguise, all guards in that faction will arrest you on sight. You will need to escape, or ensure there are no witnesses, to recover.
 - [ ] Option: While in a guard disguise, newly earned bounties will be added to your existing bounty.
 - [ ] Option: While in a guard disguise, you can perform normally criminal actions without incurring bounties. Other guards may assist you, depending on your actions.
 - [ ] Option: While in a guard disguise, committing crimes temporarily reveals you.
 - [ ] Option: You can toggle whether guards arrest on sight (for impersonation) when you are discovered.
+- [ ] If a guard sees you changing into or out of a guard disguise, all guards in that faction will arrest you on sight. You will need to escape, or ensure there are no witnesses, to recover.
 - [ ] You can view existing bounties on the Crimes page in the MCM.
 
 ## Fixes
