@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2022-05-31T11:37:00.032Z
+date: 2022-05-31T11:41:24.183Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-20T02:22:44.637Z
@@ -16,7 +16,7 @@ dateCreated: 2021-03-20T02:22:44.637Z
 ## Major Changes
 
 > TERMINOLOGY
-> When an actor sees through your disguise, you have been "discovered." After discovery, you will need to "recover" for your disguise to become operational again.
+> When an actor sees through your disguise, you have been "discovered." After discovery, you will need to "recover" for your disguise to become operational again. While you are recovering, you are in a "revealed" state.
 {.is-info}
 
 ### Guard Disguises and Crime
