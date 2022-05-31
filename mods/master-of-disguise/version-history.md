@@ -2,11 +2,34 @@
 title: Version History
 description: 
 published: true
-date: 2022-05-15T05:21:29.653Z
+date: 2022-05-31T11:21:53.872Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-20T02:22:44.637Z
 ---
+
+# Version 1.5.6 (forthcoming)
+
+> **Release Date:** TBD 2022
+{.is-warning}
+
+## Major Changes
+
+### Guard Disguises and Crime
+
+- [X] Equipping a guard disguise, or recovering, conceals your existing bounty.
+- [X] Unequipping a guard disguise, or being discovered, restores your existing bounty.
+- [X] When a guard sees through your disguise, all guards in that faction will arrest you on sight. You will need to escape, or ensure there are no witnesses, to recover.
+- [ ] Option: While in a guard disguise, newly earned bounties will be added to your existing bounty.
+- [ ] Option: While in a guard disguise, you can perform normally criminal actions without incurring bounties. Other guards may assist you, depending on your actions.
+- [ ] Option: While in a guard disguise, committing crimes temporarily reveals you.
+- [ ] Option: You can toggle whether guards arrest on sight (for impersonation) when you are discovered.
+- [ ] You can view existing bounties on the Crimes page in the MCM.
+
+## Fixes
+
+- Fixed issue where monitor remained attached after applying faction enemy spell
+- General maintenance and performance improvements
 
 # Version 1.5.5
 
