@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2022-06-01T02:36:26.224Z
+date: 2022-06-01T08:38:59.620Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-20T02:22:44.637Z
@@ -29,7 +29,7 @@ dateCreated: 2021-03-20T02:22:44.637Z
 - [ ] Option: While in a guard disguise, committing crimes temporarily reveals you.
 - [ ] Option: You can toggle whether guards arrest on sight (for impersonation) when you are discovered.
 - [X] If a guard sees you changing into or out of a guard disguise, all guards in that faction will arrest you on sight. You will need to escape, or ensure there are no witnesses, to recover.
-- [ ] You can view existing bounties on the Crimes page in the MCM.
+- [X] You can view existing bounties on the Crimes page in the MCM.
 
 ## Fixes
 
