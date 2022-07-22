@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2022-04-20T06:26:52.381Z
+date: 2022-07-22T17:21:30.965Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -104,7 +104,7 @@ dateCreated: 2021-03-19T21:43:34.910Z
 
 The Flora filter will not attempt to loot harvested workshop flora objects if the current game time is less than or equal to `WorkshopFloraHarvestTime + 1.0`. Other mods may allow you to adjust the `floraResetHarvestDays` variable whose default value is `1.0`. A different value may cause the relevant fix to have undesirable consequences.
 
-Specifically, Workshop Framework converts that variable into a property and can adjusts its value at runtime. Unfortunately, Auto Loot would need to be compiled against Workshop Framework to access that property so the original default value of `1.0` has been used instead.
+Specifically, Workshop Framework converts that variable into a property and can adjust its value at runtime. Unfortunately, Auto Loot would need to be compiled against Workshop Framework to access that property so the original default value of `1.0` has been used instead.
 
 # Version 1.2.7.0
 
