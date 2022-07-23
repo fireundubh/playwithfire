@@ -2,7 +2,7 @@
 title: Dialogue Options Report
 description: 
 published: true
-date: 2022-07-23T22:49:40.692Z
+date: 2022-07-23T22:51:02.145Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-23T22:49:40.692Z
@@ -150,13 +150,20 @@ PALADIN_YONDALLA | 1
 
 # Alignment
 
+## Cleric
+
 Tag Name | Count
 :--- | :---
 CLERIC_EVIL | 34
 CLERIC_GOOD | 30
+CLERIC_NEUTRAL | 16
+
+## Paladin
+
+Tag Name | Count
+:--- | :---
 PALADIN_EVIL | 30
 PALADIN_GOOD | 26
-CLERIC_NEUTRAL | 16
 PALADIN_NEUTRAL | 13
 
 # Background
