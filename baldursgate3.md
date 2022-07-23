@@ -2,7 +2,7 @@
 title: Baldur's Gate 3
 description: Modding Reference
 published: true
-date: 2020-10-15T00:13:04.939Z
+date: 2022-07-23T22:45:34.298Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-14T19:02:29.017Z
@@ -27,7 +27,7 @@ dateCreated: 2020-10-14T19:02:29.017Z
 
 The following paths are relative to:
 
-`%USERPROFILE%\Documents\Larian Studios\Baldur's Gate 3`
+`%LOCALAPPDATA%\Larian Studios\Baldur's Gate 3`
 
 Path | Description
 :--- | :---
