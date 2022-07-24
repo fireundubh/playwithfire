@@ -2,7 +2,7 @@
 title: Dialogue Options Report
 description: 
 published: true
-date: 2022-07-24T02:35:55.841Z
+date: 2022-07-24T05:06:14.669Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-23T22:49:40.692Z
@@ -16,7 +16,18 @@ Last updated for game version: 4.1.1.1721785
 
 Tag Name | Count
 :--- | :---
+REALLY_LAEZEL | 1470
+REALLY_SHADOWHEART | 1434
+REALLY_ASTARION | 1392
+REALLY_GALE | 1382
+REALLY_KARLACH | 1354
 ILLITHID | 94
+WYLL | 34
+ASTARION | 30
+LAEZEL | 17
+KARLACH | 15
+SHADOWHEART | 12
+GALE | 7
 
 # Custom Character
 
@@ -188,7 +199,7 @@ REALLY_UNDERDARK | 99
 UNDERDARK | 29
 SAGE | 1
 
-# Pet Pal / Shapeshifting
+# Shapeshifting
 
 Tag Name | Count
 :--- | :---
@@ -231,3 +242,4 @@ HUMANOID | 2
 Tag Name | Count
 :--- | :---
 SHAR | 1
+
