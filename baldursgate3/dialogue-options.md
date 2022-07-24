@@ -2,13 +2,13 @@
 title: Dialogue Options Report
 description: 
 published: true
-date: 2022-07-24T02:18:21.256Z
+date: 2022-07-24T02:35:55.841Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-23T22:49:40.692Z
 ---
 
-**Tags used in DIALOG only.**
+**Tags used in DIALOG only (tagged text and flag checks)**
 
 Last updated for game version: 4.1.1.1721785
 
@@ -215,7 +215,7 @@ TIGER | 1
 TURTLE | 1
 WOLF | 1
 
-# Unsorted
+# Other
 
 Tag Name | Count
 :--- | :---
@@ -225,5 +225,9 @@ RARE | 21
 REALLY_RARE | 7
 KID | 3
 HUMANOID | 2
-SHAR | 1
 
+# Unsorted
+
+Tag Name | Count
+:--- | :---
+SHAR | 1
