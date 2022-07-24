@@ -2,7 +2,7 @@
 title: Dialogue Options Report
 description: 
 published: true
-date: 2022-07-24T02:17:20.124Z
+date: 2022-07-24T02:18:21.256Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-23T22:49:40.692Z
@@ -18,28 +18,26 @@ Tag Name | Count
 :--- | :---
 ILLITHID | 94
 
-# Character Creation
-
-## Custom Character
+# Custom Character
 
 Tag Name | Count
 :--- | :---
 REALLY_GENERIC | 441
 
-## Sex
+# Sex
 
 Tag Name | Count
 :--- | :---
 FEMALE | 239
 MALE | 222
 
-## Stature
+# Stature
 
 Tag Name | Count
 :--- | :---
 SHORT | 23
 
-## Race
+# Race
 
 Tag Name | Count
 :--- | :---
@@ -63,7 +61,7 @@ REALLY_HALFELF | 12
 REALLY_HUMAN | 10
 GOBLIN | 5
 
-### Subrace
+## Subrace
 
 Tag Name | Count
 :--- | :---
@@ -89,7 +87,7 @@ REALLY_MOUNTAINDWARF | 2
 REALLY_ROCKGNOME | 2
 WOODHALFELF | 1
 
-## Class
+# Class
 
 Tag Name | Count
 :--- | :---
@@ -106,7 +104,7 @@ PALADIN | 49
 FIGHTER | 34
 MONK | 31
 
-### Subclass
+## Subclass
 
 Tag Name | Count
 :--- | :---
@@ -114,9 +112,9 @@ BERSERKER | 133
 SORCERER_DRACONIC | 21
 SORCERER_WILDMAGIC | 16
 
-## Deity
+# Deity
 
-### Cleric Deity
+## Cleric Deity
 
 Tag Name | Count
 :--- | :---
@@ -141,7 +139,7 @@ CLERIC_YONDALLA | 2
 CLERIC_CORELLONLARETHIAN | 1
 CLERIC_LADUGUER | 1
 
-### Paladin Deity
+## Paladin Deity
 
 Tag Name | Count
 :--- | :---
@@ -164,9 +162,9 @@ PALADIN_VLAAKITH | 2
 PALADIN_MORADIN | 1
 PALADIN_YONDALLA | 1
 
-## Alignment
+# Alignment
 
-### Cleric Alignment
+## Cleric Alignment
 
 Tag Name | Count
 :--- | :---
@@ -174,7 +172,7 @@ CLERIC_EVIL | 40
 CLERIC_GOOD | 40
 CLERIC_NEUTRAL | 20
 
-### Paladin Alignment
+## Paladin Alignment
 
 Tag Name | Count
 :--- | :---
@@ -182,7 +180,7 @@ PALADIN_EVIL | 36
 PALADIN_GOOD | 33
 PALADIN_NEUTRAL | 15
 
-## Background
+# Background
 
 Tag Name | Count
 :--- | :---
@@ -190,7 +188,7 @@ REALLY_UNDERDARK | 99
 UNDERDARK | 29
 SAGE | 1
 
-## Pet Pal / Shapeshifting
+# Pet Pal / Shapeshifting
 
 Tag Name | Count
 :--- | :---
