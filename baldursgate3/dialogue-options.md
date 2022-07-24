@@ -2,7 +2,7 @@
 title: Dialogue Options Report
 description: 
 published: true
-date: 2022-07-24T10:02:52.699Z
+date: 2022-07-24T10:05:14.922Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-23T22:49:40.692Z
@@ -10,7 +10,9 @@ dateCreated: 2022-07-23T22:49:40.692Z
 
 **Tags used in DIALOG only (tagged text and flag checks)**
 
-Last updated for game version: 4.1.1.1721785
+**Game version:** 4.1.1.1721785
+
+**Last updated:** 24 Jul 2022 3:04 AM (constrained results to tagged dialog choices)
 
 # Story
 
