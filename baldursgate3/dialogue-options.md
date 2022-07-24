@@ -2,7 +2,7 @@
 title: Dialogue Options Report
 description: 
 published: true
-date: 2022-07-24T10:09:43.964Z
+date: 2022-07-24T10:10:21.387Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-23T22:49:40.692Z
@@ -14,7 +14,7 @@ dateCreated: 2022-07-23T22:49:40.692Z
 
 **Last updated:** 24 Jul 2022 3:04 AM
 - constrained results to tagged dialog choices
-- removed false positives related to incomplete early access data
+- removed false positives related to nonplayable dialogue
 
 # Story
 
