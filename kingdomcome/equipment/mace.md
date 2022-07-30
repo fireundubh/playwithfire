@@ -1,9 +1,14 @@
-<!-- TITLE: Mace -->
+---
+title: Mace
+description: 
+published: true
+date: 2022-07-30T10:04:10.771Z
+tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:10:52.933Z
+---
 
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
-
-# Mace
-## Table
+# Table
 
 UUID | Localized Name | Attack | Slash Mod | Stab Mod | Smash Mod | Defense | Str Req | Agi Req | Location
 :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
