@@ -1,7 +1,14 @@
-<!-- TITLE: Armour - Charisma -->
+---
+title: Armour - Charisma
+description: 
+published: true
+date: 2022-07-30T10:11:09.451Z
+tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:08:55.561Z
+---
 
-# Armour - Charisma
-## Table
+# Table
 
 UUID | Localized Name | Charisma | Slash Def | Stab Def | Smash Def | Location
 :--- | :--- | ---: | ---: | ---: | ---: | :---
