@@ -1,12 +1,14 @@
-<!-- TITLE: Recipes -->
+---
+title: Recipes
+description: 
+published: true
+date: 2022-07-30T10:10:32.159Z
+tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:06:21.730Z
+---
 
-[&larr; Kingdom Come](/kingdomcome)
-
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
-
-# Recipes
-
-## Table: All Recipes
+# Table: All Recipes
 
 Name | Base | Ingredients | Steps | Product | Locations
 :--- | :--- | :--- | :--- | :--- | :---
@@ -44,7 +46,7 @@ Saviour Schnapps<br>(`f65708b5-f7bb-4ee0-adc3-bddc426976f5`) | Vinum | 1x Nettle
 Witch potion<br>(`8b8f2de7-d10e-4ccd-8e97-39134ddd78ac`) | Oleum | 1x Belladonna<br>1x Herb Paris<br>1x Marigold | 1. Prepare oil, a handful of marigold, one of belladonna and one of herb paris.<br>2. Boil the herb paris for one turn.<br>3. Grind the marigold<br>4. Add the marigold to the cauldron and boil for one more turn.<br>5. Grind the belladonna.<br>6. Add the belladonna to the cauldron, but do not boil any more. | 3x Witch potion | `q_baby_v_lese_gertrudas_chest_recipe`
 
 
-## Table: Costs and Weight
+# Table: Costs and Weight
 
 Name | Ingredients | Product | Recipe Cost | Ingredient Cost | V/W Ratio | Product Value | Product Weight
 --- | --- | --- | --- | --- | --- | --- | ---
