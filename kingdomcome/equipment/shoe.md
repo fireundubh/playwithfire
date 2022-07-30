@@ -1,12 +1,14 @@
-<!-- TITLE: Shoes -->
+---
+title: Shoes
+description: 
+published: true
+date: 2022-07-30T10:00:30.264Z
+tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:11:04.331Z
+---
 
-[&larr; Equipment](/kingdomcome/equipment)
-
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh)
-
-# Shoes
-
-## Table
+# Table
 
 Item | Charisma | Noise | Slash Def | Smash Def | Stab Def | Str Req | Value | Weight | V/W Ratio | Locations
 :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
