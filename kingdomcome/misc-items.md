@@ -1,11 +1,14 @@
-<!-- TITLE: Misc. Items -->
+---
+title: Misc. Items
+description: 
+published: true
+date: 2022-07-30T10:07:06.658Z
+tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:06:13.342Z
+---
 
-[&larr; Kingdom Come](/kingdomcome)
-
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
-
-# Misc. Items
-## Table
+# Table
 
 UUID | Localized Name | Price | Weight | Quest Item | Related Quests | Locations
 --- | --- | --- | --- | --- | --- | ---
