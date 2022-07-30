@@ -1,7 +1,14 @@
-<!-- TITLE: Armour - Defence -->
+---
+title: Armour - Defence
+description: 
+published: true
+date: 2022-07-30T10:10:53.912Z
+tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:08:58.213Z
+---
 
-# Armour - Defence
-## Table
+# Table
 
 UUID | Localized Name | Slash Def | Stab Def | Smash Def | Locations
 :--- | :--- | ---: | ---: | ---: | :--- | :---
