@@ -1,7 +1,14 @@
-<!-- TITLE: Armour - Stealth -->
+---
+title: Armour - Stealth
+description: 
+published: true
+date: 2022-07-30T10:11:25.089Z
+tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:09:00.762Z
+---
 
-# Armour - Stealth
-## Table
+# Table
 
 UUID | Localized Name | Noi | Con | Vis | Location
 :--- | :--- | ---: | ---: | ---: | :---
