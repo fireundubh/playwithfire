@@ -1,9 +1,14 @@
-<!-- TITLE: Sword -->
+---
+title: Sword
+description: 
+published: true
+date: 2022-07-30T10:04:45.532Z
+tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:11:09.770Z
+---
 
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
-
-# Sword
-## Table
+# Table
 
 UUID | Localized Name | Attack | Slash Mod | Stab Mod | Smash Mod | Defense | Str Req | Agi Req | Location
 :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
