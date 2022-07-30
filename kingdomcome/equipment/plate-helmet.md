@@ -1,12 +1,14 @@
-<!-- TITLE: Plate Helmets -->
+---
+title: Plate Helmets
+description: 
+published: true
+date: 2022-07-30T09:59:54.634Z
+tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:10:58.814Z
+---
 
-[&larr; Equipment](/kingdomcome/equipment)
-
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh)
-
-# Plate Helmets
-
-## Table
+# Table
 
 Item | Charisma | Noise | Slash Def | Smash Def | Stab Def | Str Req | Value | Weight | V/W Ratio | Locations
 :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
