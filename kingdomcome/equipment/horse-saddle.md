@@ -1,12 +1,14 @@
-<!-- TITLE: Horse Saddles -->
+---
+title: Horse Saddles
+description: 
+published: true
+date: 2022-07-30T10:01:39.244Z
+tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:10:39.403Z
+---
 
-[&larr; Equipment](/kingdomcome/equipment)
-
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh)
-
-# Horse Saddles
-
-## Table
+# Table
 
 Item | Charisma | Noise | Slash Def | Smash Def | Stab Def | Str Req | Value | Weight | V/W Ratio | Locations
 :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
