@@ -1,12 +1,14 @@
-<!-- TITLE: Heavy Leather Armour -->
+---
+title: Heavy Leather Armour
+description: 
+published: true
+date: 2022-07-30T09:58:13.607Z
+tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:10:31.384Z
+---
 
-[&larr; Equipment](/kingdomcome/equipment)
-
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh)
-
-# Heavy Leather Armour
-
-## Table
+# Table
 
 Item | Charisma | Noise | Slash Def | Smash Def | Stab Def | Str Req | Value | Weight | V/W Ratio | Locations
 :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
