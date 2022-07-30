@@ -1,9 +1,14 @@
-<!-- TITLE: Bows -->
+---
+title: Bows
+description: 
+published: true
+date: 2022-07-30T09:55:54.959Z
+tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:10:09.316Z
+---
 
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
-
-# Bows
-## Table
+# Table
 
 UUID | Localized Name | Power | Value | Weight | Locations
 --- | --- | --- | --- | --- | ---
