@@ -1,12 +1,14 @@
-<!-- TITLE: Horse Shoes -->
+---
+title: Horse Shoes
+description: 
+published: true
+date: 2022-07-30T10:01:57.621Z
+tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:10:42.142Z
+---
 
-[&larr; Equipment](/kingdomcome/equipment)
-
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh)
-
-# Horse Shoes
-
-## Table
+# Table
 
 Item | Charisma | Noise | Slash Def | Smash Def | Stab Def | Str Req | Value | Weight | V/W Ratio | Locations
 :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
