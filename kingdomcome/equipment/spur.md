@@ -1,12 +1,14 @@
-<!-- TITLE: Spurs -->
+---
+title: Spurs
+description: 
+published: true
+date: 2022-07-30T10:00:52.519Z
+tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:11:07.166Z
+---
 
-[&larr; Equipment](/kingdomcome/equipment)
-
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh)
-
-# Spurs
-
-## Table
+# Table
 
 Item | Charisma | Noise | Slash Def | Smash Def | Stab Def | Str Req | Value | Weight | V/W Ratio | Locations
 :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
