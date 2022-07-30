@@ -1,11 +1,14 @@
-<!-- TITLE: Herbs -->
+---
+title: Herbs
+description: 
+published: true
+date: 2022-07-30T10:06:47.349Z
+tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:06:10.674Z
+---
 
-[&larr; Kingdom Come](/kingdomcome)
-
-If you want to see more resources like this, [become a Patreon supporter!](https://www.patreon.com/fireundubh) 
-
-# Herbs
-## Table
+# Table
 
 UUID | Localized Name | Latin Name | Poisonous | Price | Weight | Elements | Used Recipes | Locations
 :--- | :--- | :--- | :---: | ---: | ---: | :--- | :--- | :---
