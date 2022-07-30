@@ -1,7 +1,14 @@
-<!-- TITLE: Axes -->
+---
+title: Axes
+description: 
+published: true
+date: 2022-07-30T10:03:06.425Z
+tags: 
+editor: markdown
+dateCreated: 2020-01-19T11:10:06.624Z
+---
 
-# Axes
-## Table
+# Table
 
 UUID | Localized Name | Attack | Slash Mod | Stab Mod | Smash Mod | Defense | Str Req | Agi Req | Location
 :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---
