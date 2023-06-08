@@ -2,7 +2,7 @@
 title: Version History
 description: 
 published: true
-date: 2023-06-08T03:08:16.252Z
+date: 2023-06-08T03:10:01.690Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
@@ -17,6 +17,8 @@ dateCreated: 2021-03-19T21:43:34.910Z
 
 - [X] Fixed issue where Remove Bodies On Loot experimental feature could remove bodies containing loot
 - [X] Fixed issue where Bodies and Containers filters could attempt to process unlootable bodies and containers
+
+*Thank you to **hotrods20** for reporting the issue on Discord and testing the fix!*
 
 # Version 1.2.9.5
 
