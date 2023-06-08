@@ -2,13 +2,23 @@
 title: Version History
 description: 
 published: true
-date: 2022-07-22T17:21:30.965Z
+date: 2023-06-08T03:08:16.252Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:43:34.910Z
 ---
 
-# Version 1.2.9.4
+# Version 1.2.9.6
+
+> Available at [Let's Play with Fire](https://letsplaywithfire.com) since 7 June 2023
+{.is-info}
+
+## Fixed Issues
+
+- [X] Fixed issue where Remove Bodies On Loot experimental feature could remove bodies containing loot
+- [X] Fixed issue where Bodies and Containers filters could attempt to process unlootable bodies and containers
+
+# Version 1.2.9.5
 
 > Available at [Let's Play with Fire](https://letsplaywithfire.com) since 19 April 2022
 {.is-info}
