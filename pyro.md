@@ -2,13 +2,13 @@
 title: Pyro Reference
 description: 
 published: true
-date: 2023-10-08T14:27:27.277Z
+date: 2023-10-08T14:27:53.311Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:04:59.413Z
 ---
 
-**Pyro** is an open source build automation tool for *Skyrim*, *Skyrim Special Edition*, and *Fallout 4* projects.
+**Pyro** is an open source build automation tool for *Skyrim*, *Skyrim Special Edition*, *Fallout 4*, and *Starfield* projects.
 
 
 # Benefits
