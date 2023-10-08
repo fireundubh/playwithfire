@@ -2,7 +2,7 @@
 title: Features Overview
 description: 
 published: true
-date: 2021-06-15T02:56:30.155Z
+date: 2023-10-08T14:29:10.362Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-30T23:07:06.881Z
@@ -10,7 +10,7 @@ dateCreated: 2021-05-30T23:07:06.881Z
 
 # Pyro Projects
 
-Pyro brings [Papyrus Projects (PPJ)](https://www.creationkit.com/fallout4/index.php?title=Papyrus_Projects) to TES5 and SSE and extends the format for FO4.
+Pyro brings [Papyrus Projects (PPJ)](https://www.creationkit.com/fallout4/index.php?title=Papyrus_Projects) to TES5 and SSE and extends the format for FO4 and SF1.
 
 > Learn more: [Multiple Game Support](/pyro/multiple-game-support), [Extended Schema](/pyro/extended-schema)
 {.is-info}
@@ -19,7 +19,7 @@ Pyro brings [Papyrus Projects (PPJ)](https://www.creationkit.com/fallout4/index.
 
 # Incremental Build
 
-Pyro introduces the first incremental build system for TES5, SSE, and FO4 projects, significantly accelerating compilation, testing, and deployment. Pyro further parallelizes compilation, taking advantage of multi-core processors to compile many scripts simultaneously.
+Pyro introduces the first incremental build system for TES5, SSE, FO4, and SF1 projects, significantly accelerating compilation, testing, and deployment. Pyro further parallelizes compilation, taking advantage of multi-core processors to compile many scripts simultaneously.
 
 > Learn more: [Incremental Build](/pyro/incremental-build)
 {.is-info}
