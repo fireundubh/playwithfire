@@ -2,7 +2,7 @@
 title: Pyro Reference
 description: 
 published: true
-date: 2021-11-24T05:03:04.000Z
+date: 2023-10-08T14:27:27.277Z
 tags: 
 editor: markdown
 dateCreated: 2020-01-19T11:04:59.413Z
@@ -62,5 +62,5 @@ If you need help with Pyro, or have any feedback, [join the **#pyro** channel on
 
 # Licenses
 
-Pyro source code is open and licensed under the MIT License. BSArch source code is licensed under the MPL 2.0 license. The BSArch executable bundled with Pyro was compiled from the original unmodified source code available [here](https://github.com/ElminsterAU/xEdit/tree/master/Tools/BSArchive).
+Pyro source code is open and licensed under the MPL 2.0. BSArch source code is licensed under the MPL 2.0 license. The BSArch executable bundled with Pyro was compiled from the original unmodified source code available [here](https://github.com/ElminsterAU/xEdit/tree/master/Tools/BSArchive).
 
