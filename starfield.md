@@ -2,7 +2,7 @@
 title: Starfield FAQs
 description: 
 published: true
-date: 2023-10-28T22:14:13.093Z
+date: 2023-10-28T22:15:51.264Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-28T22:14:13.093Z
@@ -28,7 +28,7 @@ dateCreated: 2023-10-28T22:14:13.093Z
 - did not configure Steam to launch the game with the SFSE loader (`sfse_loader.exe`) (whenever you launch the game, you have to do so with this loader)
 - did not launch the game with the SFSE loader (`sfse_loader.exe`) (whenever you launch the game, you have to do so with this loader)
 - did not install [Plugins.txt Enabler](https://www.nexusmods.com/starfield/mods/4157) (required; fixes a **game engine bug** - deliberately chosen words! - that prevents the game from reading `plugins.txt`)
-- did not install [Visual C++ Redistributable for Visual Studio 2015-2022](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist)
+- did not install [Visual C++ Redistributable for Visual Studio 2015-2022](https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist), if encountering error 126 (0x7E) when starting the game
 - did not install [Baka Disable My Games Folder](https://www.nexusmods.com/starfield/mods/1599) (not a requirement but makes life easier)
 - did not install [Baka Achievement Enabler](https://www.nexusmods.com/starfield/mods/658) (not a requirement but addresses the "mods disable achievements?" questions)
 - did not install the MO2 v2.5.0 Beta with Starfield support (required for MO2 users; not a requirement for everyone else but makes life easier)
