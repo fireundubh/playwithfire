@@ -2,7 +2,7 @@
 title: Starfield FAQs
 description: 
 published: true
-date: 2023-10-28T22:15:51.264Z
+date: 2023-10-29T18:09:34.374Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-28T22:14:13.093Z
@@ -12,7 +12,7 @@ dateCreated: 2023-10-28T22:14:13.093Z
 
 ## Bad Ideas
 
-- installed a mod that patched `Starfield.exe` directly (e.g., a non-SFSE achievement enabler)
+- installed a mod that patched `Starfield.exe` directly (e.g., a non-SFSE achievement enabler), rendering the game incompatible or partially incompatible with SFSE plugins that employ signature or byte array searches
 - continuing to use ESPs, ESLs, and Overlay-flagged plugins [despite *far more* technical people telling you to stop](https://github.com/TES5Edit/TES5Edit/blob/dev-4.1.5/whatsnew.md)
 
 
