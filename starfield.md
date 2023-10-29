@@ -2,7 +2,7 @@
 title: Starfield
 description: 
 published: true
-date: 2023-10-29T19:21:19.428Z
+date: 2023-10-29T20:00:00.844Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-28T22:14:13.093Z
@@ -49,12 +49,14 @@ sResourceDataDirsFinal=
 
 ## Bad File Names
 
+> If you have not already done so, disable the "[Hide extensions for known file types](https://i.imgur.com/Fq011VV.jpg)" filter in File Explorer.
+{.is-warning}
+
 - created a `plugin.txt` file (the correct file name is `plugins.txt`)
 - created a `plugin.txt.txt` file (the correct file name is `plugins.txt`)
 - created a `plugins.txt.txt` file (the correct file name is `plugins.txt`)
 - created a `plugins..txt` file (the correct file name is `plugins.txt`)
-- entered the incorrect file names of plugins on disk in the `plugins.txt` file
-
+- entered the incorrect file names of plugins on disk in the `plugins.txt` file (the game cannot guess what you mean; the file names must be exact)
 
 ## Bad File Paths
 
