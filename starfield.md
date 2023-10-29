@@ -1,8 +1,8 @@
 ---
-title: Starfield FAQs
+title: Starfield
 description: 
 published: true
-date: 2023-10-29T18:09:34.374Z
+date: 2023-10-29T19:21:19.428Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-28T22:14:13.093Z
