@@ -2,7 +2,7 @@
 title: Starfield
 description: 
 published: true
-date: 2023-11-01T23:02:28.177Z
+date: 2023-11-01T23:03:12.357Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-28T22:14:13.093Z
@@ -28,7 +28,7 @@ You can drag-and-drop compatible values into fields and, when comparing records,
 
 ## How do I save my plugin?
 
-Close xEdit.
+Close xEdit. You will be prompted to save.
 
 # Troubleshooting
 
