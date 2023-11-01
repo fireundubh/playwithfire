@@ -2,7 +2,7 @@
 title: Starfield
 description: 
 published: true
-date: 2023-11-01T23:00:47.397Z
+date: 2023-11-01T23:02:28.177Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-28T22:14:13.093Z
@@ -25,6 +25,10 @@ You can rename `xEdit.exe` to `SF1Edit.exe`, or you can run `xEdit.exe` with the
 ## Editing fields is tedious. What am I doing wrong?
 
 You can drag-and-drop compatible values into fields and, when comparing records, across records. You can also pin a record and drag-and-drop Form IDs from the tree into the pinned record.
+
+## How do I save my plugin?
+
+Close xEdit.
 
 # Troubleshooting
 
