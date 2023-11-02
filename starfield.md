@@ -2,11 +2,16 @@
 title: Starfield
 description: 
 published: true
-date: 2023-11-01T23:03:12.357Z
+date: 2023-11-02T01:20:00.543Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-28T22:14:13.093Z
 ---
+
+# Troubleshooting
+
+Resource moved: [Troubleshooting - List of Common User Errors](/starfield/troubleshooting)
+
 
 # xEdit FAQs
 
@@ -29,7 +34,3 @@ You can drag-and-drop compatible values into fields and, when comparing records,
 ## How do I save my plugin?
 
 Close xEdit. You will be prompted to save.
-
-# Troubleshooting
-
-Resource moved: [Troubleshooting - List of Common User Errors](/starfield/troubleshooting)
