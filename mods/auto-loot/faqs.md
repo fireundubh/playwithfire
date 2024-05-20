@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2021-06-17T08:20:17.833Z
+date: 2024-05-20T22:02:57.321Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:45:25.745Z
@@ -27,6 +27,40 @@ This quick tutorial outlines the steps to getting up-and-running with a basic co
 
 Auto Loot will begin looting flora as soon as you exit the holotape.
 
+## Why can't I loot bodies or containers when I turn on other filters?
+
+1. To loot from bodies and/or containers, the Bodies and/or Containers filters must be enabled, respectively.
+2. To loot ammo - for example - from bodies and/or containers, the Ammo filter must also be enabled and the [Filter Mode](https://wiki.fireundubh.com/mods/auto-loot/documentation#filter-mode) set to Take Any.
+
+Unless the Bodies and/or Containers filters are enabled, all other filters process only loot *in the world* - as opposed to loot *in bodies and containers*.
+
+## Why can't I loot ash and goo piles?
+
+Ash and Goo Piles are activators with hardcoded behaviors; they are neither bodies nor containers. Papyrus offers no support for manipulating these activators and therefore they cannot be supported by Auto Loot.
+
+You can manually loot Ash and Goo Piles, or you can use a feature that prevents Ash and Goo Piles from being created. This feature dynamically adds the `NoDisintegrate` keyword to NPCs in the loaded area in a radius of 4096 units.
+
+In order to use this feature, enter the following command at the MAIN MENU \[of the game!]: 
+
+```
+set AutoLoot_Setting_NoDisintegrate to 1
+```
+
+You can set up your `Fallout4.ini` so that the command runs at startup:
+
+```
+[General]
+sStartingConsoleCommand="set AutoLoot_Setting_NoDisintegrate to 1"
+```
+
+You can also toggle the global variable directly in the plugin using xEdit.
+
+* **Note 1:** If you execute this command while in a game, this command will do nothing.
+* **Note 2:** Toggling the setting off, or uninstalling the mod, will _not_ rollback any keyword additions made by Auto Loot to previously modified NPCs. It is not possible for this to be implemented.
+
+## Is the Non-Playable Flags Patch necessary?
+
+**YES.** The included plugin `Non-Playable Flags Patch.esp` fixes issues in the vanilla game where NPC skins are not flagged as Non-Playable. The Papyrus function `RemoveAllItems` can remove skins not flagged correctly and **crash the game**, according to some players. Like many vanilla scripts and many other mods, Auto Loot makes use of this function. These issues were reported to the Unofficial Fallout 4 Patch Project and the project maintainer Arthmoor said at the time these issues would be resolved in a future update. Until that happens, I highly recommend keeping this plugin enabled.
 
 # Filters
 
