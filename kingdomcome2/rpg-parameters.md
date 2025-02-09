@@ -2,17 +2,13 @@
 title: RPG Parameters
 description: 
 published: true
-date: 2025-02-09T04:38:43.416Z
+date: 2025-02-09T04:39:10.003Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-09T00:38:42.082Z
 ---
 
 # Parameter Defaults
-
-> No parameter defaults yet, but this table is a good start. (8 Feb 2025 @ 4:38 PM)
-{.is-info}
-
 
 Parameter Name | Description | Notes (?) | Initial Value
 :--- | :--- | :-- | ---:
