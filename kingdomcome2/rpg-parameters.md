@@ -2,7 +2,7 @@
 title: RPG Parameters
 description: 
 published: true
-date: 2025-02-09T04:39:10.003Z
+date: 2025-02-12T00:26:51.370Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-09T00:38:42.082Z
@@ -141,8 +141,9 @@ Parameter Name | Description | Notes (?) | Initial Value
 `BlacksmithingMaxCondition` | max condition of product | `[-]` | `0.8`
 `BlacksmithingMaxEffectivityToQualityLoss` | max effectiveness for quality loss - loss is minimal | `[-]` | `0.9`
 `BlacksmithingMaxIntensity` | maximal intensity value | `[-]` | `1.4`
-`BlacksmithingMaxQualityLossFactor` | maximal quality loss per stroke | BlacksmithingMinTemperature `[-]` | `0.015`
+`BlacksmithingMaxQualityLossFactor` | maximal quality loss per stroke | `[-]` | `0.015`
 `BlacksmithingMaxTemperature` | maximal temperature for max effectiveness | `[C]` | `1000`
+`BlacksmithingMinTemperature`| minimal temperature for max effectiveness | `[C]` | &nbsp;
 `BlacksmithingMinCondition` | min condition of product | `[-]` | `0.1`
 `BlacksmithingMinEffectivityToQualityLoss` | min effectiveness for quality loss - loss is maximal | `[-]` | `0`
 `BlacksmithingMinIntensity` | minimal intensity value | `[-]` | `0.5`
