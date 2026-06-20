@@ -2,7 +2,7 @@
 title: Auto Loot for Fallout 4
 description: 
 published: true
-date: 2021-09-18T01:10:15.669Z
+date: 2026-06-20T23:26:24.934Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:40:30.732Z
@@ -29,8 +29,9 @@ With Auto Loot, you can:
 
 # Documentation
 
-- [Documentation](documentation)
-- [Frequently Asked Questions](faqs)
+[Documentation](documentation)
+
+[Frequently Asked Questions](faqs)
 
 
 # Patch Notes
