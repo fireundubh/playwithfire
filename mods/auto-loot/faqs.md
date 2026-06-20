@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 description: 
 published: true
-date: 2024-05-20T22:02:57.321Z
+date: 2026-06-20T23:30:02.916Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-19T21:45:25.745Z
@@ -161,6 +161,6 @@ Logs specific to Auto Loot are saved in this folder:
 
 Use [Hastebin](https://hastebin.com/), [Pastebin](https://pastebin.com/), or [GitHub Gists](https://gist.github.com/) to post your log.
 
-You can upload your log in the `#autoloot` channel on [my Discord server](https://discord.fireundubh.com). Please do not post only the log. To the best of your ability, explain the issue and articulate the behavior you expected.
+You can upload your log in the `#autoloot` channel on [my Discord server](https://discord.com/invite/V3VrRHQ). Please do not post only the log. To the best of your ability, explain the issue and articulate the behavior you expected.
 
 The log alone will not help me investigate and resolve your issue.
